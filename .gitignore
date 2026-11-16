@@ -10,3 +10,8 @@ __pycache__/
 starter/data/
 starter/results/
 .superpowers/
+
+# Day 6 store copy, caches and secrets (rebuild via README)
+day6_store/
+results/embedding_cache.json
+results/llm_cache/
