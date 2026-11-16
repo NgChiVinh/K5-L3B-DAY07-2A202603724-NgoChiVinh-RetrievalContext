@@ -68,10 +68,12 @@ class LLMClient:
         self.retry_events: list[dict[str, Any]] = []
         if provider == 'gemini':
             from google import genai
+            from google.genai import types
             key = os.getenv('GEMINI_API_KEY') or os.getenv('GOOGLE_API_KEY')
             if not key:
                 raise ProviderError('GEMINI_API_KEY chưa được cấu hình trong .env')
-            self._client = genai.Client(api_key=key)
+            # Hung requests time out after 90 s and go through call_with_retry ('timed out').
+            self._client = genai.Client(api_key=key, http_options=types.HttpOptions(timeout=90_000))
         elif provider == 'openai':
             from openai import OpenAI
             if not os.getenv('OPENAI_API_KEY'):
