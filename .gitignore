@@ -15,3 +15,6 @@ starter/results/
 day6_store/
 results/embedding_cache.json
 results/llm_cache/
+
+# Local planning notes (not part of submission)
+docs/superpowers/
