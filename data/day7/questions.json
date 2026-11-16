@@ -1,0 +1,694 @@
+[
+ {
+  "id": "q01",
+  "split": "dev",
+  "type": "truc_tiep",
+  "question": "Trong nửa đầu năm 2024, sản lượng công nghiệp chế tạo chế biến và ngành dịch vụ của Việt Nam tăng trưởng lần lượt bao nhiêu phần trăm so với cùng kỳ năm trước?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "expected_answer": "Sản lượng công nghiệp chế tạo chế biến tăng trưởng 7% và ngành dịch vụ tăng trưởng 7,4% so với cùng kỳ năm trước trong nửa đầu năm 2024.",
+  "filter": null,
+  "gold_groups": [
+   [
+    {
+     "source_id": "wb-diem-lai-2024-08",
+     "page": 20,
+     "evidence": "Sản lượng chế tạo chế biến tăng trưởng 7% so cùng kỳ năm trước trong nửa đầu năm 2024 trên nền xuất phát điểm thấp, là động lực tăng trưởng cho năm 2024, đóng góp đến một phần tư tăng trưởng GDP. Dịch vụ tiếp tục đóng góp trên một nửa cho tăng trưởng GDP, tăng đến 7,4% so cùng kỳ năm trước trong nửa đầu năm 2024"
+    },
+    {
+     "source_id": "wb-diem-lai-2024-08",
+     "page": 13,
+     "evidence": "Sản lượng công nghiệp chế tạo chế biến tăng trưởng 7% (so cùng kỳ năm trước) trong nửa đầu năm 2024 trên nền xuất phát điểm thấp, là động lực tăng trưởng cho năm 2024, đóng góp đến một phần tư tăng trưởng GDP. Dịch vụ tiếp tục đóng góp trên một nửa cho tăng trưởng GDP, tăng đến 7,4% (so cùng kỳ năm trước) trong nửa đầu năm 2024."
+    }
+   ]
+  ],
+  "gold": [
+   {
+    "source_id": "wb-diem-lai-2024-08",
+    "page": 20,
+    "evidence": "Sản lượng chế tạo chế biến tăng trưởng 7% so cùng kỳ năm trước trong nửa đầu năm 2024 trên nền xuất phát điểm thấp, là động lực tăng trưởng cho năm 2024, đóng góp đến một phần tư tăng trưởng GDP. Dịch vụ tiếp tục đóng góp trên một nửa cho tăng trưởng GDP, tăng đến 7,4% so cùng kỳ năm trước trong nửa đầu năm 2024"
+   },
+   {
+    "source_id": "wb-diem-lai-2024-08",
+    "page": 13,
+    "evidence": "Sản lượng công nghiệp chế tạo chế biến tăng trưởng 7% (so cùng kỳ năm trước) trong nửa đầu năm 2024 trên nền xuất phát điểm thấp, là động lực tăng trưởng cho năm 2024, đóng góp đến một phần tư tăng trưởng GDP. Dịch vụ tiếp tục đóng góp trên một nửa cho tăng trưởng GDP, tăng đến 7,4% (so cùng kỳ năm trước) trong nửa đầu năm 2024."
+   }
+  ]
+ },
+ {
+  "id": "q02",
+  "split": "dev",
+  "type": "truc_tiep",
+  "question": "Chỉ số sản xuất công nghiệp (IPI) và Chỉ số nhà quản trị mua hàng (PMI) của Việt Nam trong tháng 6/2024 đạt mức bao nhiêu?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "expected_answer": "Trong tháng 6/2024, chỉ số sản xuất công nghiệp (IPI) đạt 166 (+14,3% so với cùng kỳ năm trước) và chỉ số PMI chạm mức 55.",
+  "filter": null,
+  "gold_groups": [
+   [
+    {
+     "source_id": "wb-diem-lai-2024-08",
+     "page": 23,
+     "evidence": "Các lĩnh vực chế tạo chế biến ở Việt Nam tăng trưởng mạnh trong nửa đầu năm 2024, cụ thể trong tháng 6, chỉ số sản xuất công nghiệp (IPI) lên đến 166 (+14,3% so với cùng kỳ năm trước). Chỉ số nhà quản trị mua hàng (PMI) cũng tăng mạnh, chạm mức 55"
+    }
+   ]
+  ],
+  "gold": [
+   {
+    "source_id": "wb-diem-lai-2024-08",
+    "page": 23,
+    "evidence": "Các lĩnh vực chế tạo chế biến ở Việt Nam tăng trưởng mạnh trong nửa đầu năm 2024, cụ thể trong tháng 6, chỉ số sản xuất công nghiệp (IPI) lên đến 166 (+14,3% so với cùng kỳ năm trước). Chỉ số nhà quản trị mua hàng (PMI) cũng tăng mạnh, chạm mức 55"
+   }
+  ]
+ },
+ {
+  "id": "q03",
+  "split": "dev",
+  "type": "dien_dat_lai",
+  "question": "Vì sao lực lượng lao động trong ngành nông nghiệp Việt Nam lại sụt giảm 1,8 triệu người trong giai đoạn 2020-2021?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "expected_answer": "Do thay đổi về các tiêu chí khảo sát năm 2021, trong đó nông dân tự cung tự cấp không còn được phân loại là tham gia lực lượng lao động.",
+  "filter": null,
+  "gold_groups": [
+   [
+    {
+     "source_id": "wb-diem-lai-2024-08",
+     "page": 25,
+     "evidence": "Thay đổi về các tiêu chí khảo sát năm 2021 đồng nghĩa với việc nông dân tự cung tự cấp không còn được phân loại là tham gia lực lượng lao động, phần nào làm cho lượng lượng lao động ngành nông nghiệp giảm 1,8 triệu người từ năm 2020-2021."
+    }
+   ]
+  ],
+  "gold": [
+   {
+    "source_id": "wb-diem-lai-2024-08",
+    "page": 25,
+    "evidence": "Thay đổi về các tiêu chí khảo sát năm 2021 đồng nghĩa với việc nông dân tự cung tự cấp không còn được phân loại là tham gia lực lượng lao động, phần nào làm cho lượng lượng lao động ngành nông nghiệp giảm 1,8 triệu người từ năm 2020-2021."
+   }
+  ]
+ },
+ {
+  "id": "q04",
+  "split": "dev",
+  "type": "dieu_kien_ngoai_le",
+  "question": "Các luật sửa đổi có hiệu lực từ tháng 8/2024 đã thay đổi quy định về mức đặt cọc sớm tối đa đối với dự án nhà ở hình thành trong tương lai như thế nào và nhằm mục đích gì?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "expected_answer": "Giảm mức đặt cọc sớm tối đa cho các dự án nhà ở tương lai từ 70% xuống còn 50% tổng tiền mua, nhằm giảm áp lực huy động tài chính trả trước cho người mua.",
+  "filter": null,
+  "gold_groups": [
+   [
+    {
+     "source_id": "wb-diem-lai-2024-08",
+     "page": 26,
+     "evidence": "(i) giảm mức đặt cọc sớm tối đa cho các dự án nhà ở tương lai, từ 70% xuống còn 50% tổng tiền mua, nhằm giảm áp lực huy động tài chính trả trước cho người mua"
+    }
+   ]
+  ],
+  "gold": [
+   {
+    "source_id": "wb-diem-lai-2024-08",
+    "page": 26,
+    "evidence": "(i) giảm mức đặt cọc sớm tối đa cho các dự án nhà ở tương lai, từ 70% xuống còn 50% tổng tiền mua, nhằm giảm áp lực huy động tài chính trả trước cho người mua"
+   }
+  ]
+ },
+ {
+  "id": "q05",
+  "split": "dev",
+  "type": "dieu_kien_ngoai_le",
+  "question": "Mặc dù cả tài khoản vãng lai và tài khoản tài chính đều đạt thặng dư trong quý 1/2024, tại sao cán cân thanh toán quốc tế tổng thể của Việt Nam vẫn bị thâm hụt 1,37 tỷ USD?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "expected_answer": "Do chênh lệch lãi suất giữa VND và USD duy trì ở mức cao (166 điểm cơ bản) và đồng USD mạnh lên làm dòng vốn phi chính thức chảy ra nước ngoài tăng mạnh, khiến khoản mục 'Lỗi và sai sót' tăng gấp bốn lần từ 1,9% GDP (Q4-2023) lên 7,9% GDP (Q1-2024).",
+  "filter": null,
+  "gold_groups": [
+   [
+    {
+     "source_id": "wb-diem-lai-2024-08",
+     "page": 14,
+     "evidence": "Khoản mục “Lỗi và sai sót”- bao gồm dòng vốn ra nước ngoài phi chính thức, tăng gấp bốn lần, từ 1,9% GDP trong Q4-2023 lên 7,9% trong Q1-2024, cao hơn nhiều so với mức bình quân các năm 2017-2019 (2,5%), khiến cho tổng thâm hụt cán cân thanh toán lên 1,37 tỷ US$ trong Q1-2024."
+    },
+    {
+     "source_id": "wb-diem-lai-2024-08",
+     "page": 28,
+     "evidence": "Kết quả là khoản mục “Lỗi và sai sót” - bao gồm dòng vốn ra nước ngoài phi chính thức, tăng gấp bốn lần, từ 1,9% GDP trong Q4-2023 lên 7,9% (8 tỷ US$) trong Q1-2024, cao hơn nhiều so với mức bình quân 2,5% trong các năm 2017-2019, dẫn tới cán cân thanh toán bị thâm hụt ở mức thấp (-1,37 tỷ US$), mặc dù tài khoản vãng lai và tài khoản tài chính đều thặng dư"
+    }
+   ]
+  ],
+  "gold": [
+   {
+    "source_id": "wb-diem-lai-2024-08",
+    "page": 14,
+    "evidence": "Khoản mục “Lỗi và sai sót”- bao gồm dòng vốn ra nước ngoài phi chính thức, tăng gấp bốn lần, từ 1,9% GDP trong Q4-2023 lên 7,9% trong Q1-2024, cao hơn nhiều so với mức bình quân các năm 2017-2019 (2,5%), khiến cho tổng thâm hụt cán cân thanh toán lên 1,37 tỷ US$ trong Q1-2024."
+   },
+   {
+    "source_id": "wb-diem-lai-2024-08",
+    "page": 28,
+    "evidence": "Kết quả là khoản mục “Lỗi và sai sót” - bao gồm dòng vốn ra nước ngoài phi chính thức, tăng gấp bốn lần, từ 1,9% GDP trong Q4-2023 lên 7,9% (8 tỷ US$) trong Q1-2024, cao hơn nhiều so với mức bình quân 2,5% trong các năm 2017-2019, dẫn tới cán cân thanh toán bị thâm hụt ở mức thấp (-1,37 tỷ US$), mặc dù tài khoản vãng lai và tài khoản tài chính đều thặng dư"
+   }
+  ]
+ },
+ {
+  "id": "q06",
+  "split": "dev",
+  "type": "dieu_kien_ngoai_le",
+  "question": "Tỷ lệ nợ xấu toàn hệ thống ngân hàng năm 2023 là bao nhiêu phần trăm, và nếu tính thêm các khoản vay được tái cơ cấu cùng nợ tại VAMC thì tổng nợ xấu có thể lên tới mức nào?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "expected_answer": "Nợ xấu toàn hệ thống tăng từ 1,9% (năm 2022) lên 4,6% tổng dư nợ cho vay năm 2023; nếu tính cả các khoản vay được tái cơ cấu và nợ của VAMC thì tổng nợ được coi là xấu có thể lên đến 7,9%.",
+  "filter": null,
+  "gold_groups": [
+   [
+    {
+     "source_id": "wb-diem-lai-2024-08",
+     "page": 15,
+     "evidence": "Nợ xấu toàn hệ thống tăng mạnh, từ 1,9% năm 2022 lên 4,6% tổng dư nợ cho vay năm 2023, theo số liệu mới nhất có được, chủ yếu do ghi nhận nợ xấu của Ngân hàng Thương mại Cổ phần Sài Gòn (SCB). Mặc dù vậy, tổng nợ vay được coi là xấu có thể lên đến 7,9% nếu tính cả các khoản vay được tái cơ cấu và nợ của Công ty Quản lý Tài sản của các Tổ chức Tín dụng Việt Nam (VAMC)."
+    },
+    {
+     "source_id": "wb-diem-lai-2024-08",
+     "page": 31,
+     "evidence": "Nợ xấu toàn hệ thống tăng mạnh, từ 1,9% năm 2022 lên 4,6% tổng dư nợ cho vay năm 2023 (Hình 1.27), theo số liệu mới nhất có được, chủ yếu do ghi nhận nợ xấu của Ngân hàng Thương mại Cổ phần Sài Gòn (SCB). Mặc dù vậy, tổng nợ vay được coi là xấu có thể lên đến 7,9% nếu tính cả các khoản vay được tái cơ cấu và nợ của Công ty Quản lý Tài sản của các Tổ chức Tín dụng Việt Nam (VAMC)."
+    }
+   ]
+  ],
+  "gold": [
+   {
+    "source_id": "wb-diem-lai-2024-08",
+    "page": 15,
+    "evidence": "Nợ xấu toàn hệ thống tăng mạnh, từ 1,9% năm 2022 lên 4,6% tổng dư nợ cho vay năm 2023, theo số liệu mới nhất có được, chủ yếu do ghi nhận nợ xấu của Ngân hàng Thương mại Cổ phần Sài Gòn (SCB). Mặc dù vậy, tổng nợ vay được coi là xấu có thể lên đến 7,9% nếu tính cả các khoản vay được tái cơ cấu và nợ của Công ty Quản lý Tài sản của các Tổ chức Tín dụng Việt Nam (VAMC)."
+   },
+   {
+    "source_id": "wb-diem-lai-2024-08",
+    "page": 31,
+    "evidence": "Nợ xấu toàn hệ thống tăng mạnh, từ 1,9% năm 2022 lên 4,6% tổng dư nợ cho vay năm 2023 (Hình 1.27), theo số liệu mới nhất có được, chủ yếu do ghi nhận nợ xấu của Ngân hàng Thương mại Cổ phần Sài Gòn (SCB). Mặc dù vậy, tổng nợ vay được coi là xấu có thể lên đến 7,9% nếu tính cả các khoản vay được tái cơ cấu và nợ của Công ty Quản lý Tài sản của các Tổ chức Tín dụng Việt Nam (VAMC)."
+   }
+  ]
+ },
+ {
+  "id": "q07",
+  "split": "dev",
+  "type": "dien_dat_lai",
+  "question": "Tại sao đợt tăng lương cơ bản và lương hưu từ tháng 7/2024 được dự báo chỉ gây tác động nhỏ đến lạm phát của Việt Nam?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "expected_answer": "Vì quy mô lao động khu vực nhà nước khá nhỏ so với tổng việc làm, chỉ khoảng 2 triệu công chức và viên chức, tương đương 3,8% tổng việc làm.",
+  "filter": null,
+  "gold_groups": [
+   [
+    {
+     "source_id": "wb-diem-lai-2024-08",
+     "page": 35,
+     "evidence": "Đợt tăng lương công chức và lương hưu vào tháng 7/2024 dự kiến chỉ gây tác động nhỏ đến lạm phát do quy mô lao động khu vực nhà nước là khá nhỏ so với với tổng việc làm (khoảng 2 triệu công chức và viên chức, bằng 3,8% tổng việc làm16)."
+    }
+   ]
+  ],
+  "gold": [
+   {
+    "source_id": "wb-diem-lai-2024-08",
+    "page": 35,
+    "evidence": "Đợt tăng lương công chức và lương hưu vào tháng 7/2024 dự kiến chỉ gây tác động nhỏ đến lạm phát do quy mô lao động khu vực nhà nước là khá nhỏ so với với tổng việc làm (khoảng 2 triệu công chức và viên chức, bằng 3,8% tổng việc làm16)."
+   }
+  ]
+ },
+ {
+  "id": "q08",
+  "split": "dev",
+  "type": "truc_tiep",
+  "question": "Để đạt mục tiêu trở thành quốc gia thu nhập cao vào năm 2045, Việt Nam cần duy trì tốc độ tăng trưởng GDP thực tế hàng năm ở mức bao nhiêu và cần bổ sung bao nhiêu phần trăm GDP mỗi năm cho các dự án cơ sở hạ tầng?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "expected_answer": "Việt Nam cần đạt tăng trưởng GDP theo giá so sánh khoảng 6,5% mỗi năm trong 20 năm tới và cần nguồn lực bổ sung ước tính chiếm 7% GDP mỗi năm (tương đương 30 tỷ USD theo GDP năm 2023) chỉ riêng cho các dự án cơ sở hạ tầng.",
+  "filter": null,
+  "gold_groups": [
+   [
+    {
+     "source_id": "wb-diem-lai-2024-08",
+     "page": 39,
+     "evidence": "Để đạt được mục tiêu này, Việt Nam cần đạt tăng trưởng GDP theo giá so sánh ở mức khoảng 6,5% mỗi năm trong 20 năm tới, đồng thời phải nâng cao tổng đầu tư hiện đang ở mức 32% GDP (khoảng 131 tỷ đô la Mỹ)."
+    }
+   ]
+  ],
+  "gold": [
+   {
+    "source_id": "wb-diem-lai-2024-08",
+    "page": 39,
+    "evidence": "Để đạt được mục tiêu này, Việt Nam cần đạt tăng trưởng GDP theo giá so sánh ở mức khoảng 6,5% mỗi năm trong 20 năm tới, đồng thời phải nâng cao tổng đầu tư hiện đang ở mức 32% GDP (khoảng 131 tỷ đô la Mỹ)."
+   }
+  ]
+ },
+ {
+  "id": "q09",
+  "split": "dev",
+  "type": "truc_tiep",
+  "question": "Sáu yếu tố nền tảng 'I' (I#1 đến I#6) cấu thành khung căn bản của thị trường vốn Việt Nam bao gồm những yếu tố nào?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "expected_answer": "Sáu yếu tố 'I' gồm: I#1 Công cụ (Instrument), I#2 Nhà đầu tư (Investor), I#3 Tổ chức phát hành (Issuer), I#4 Trung gian (Intermediary), I#5 Hạ tầng (Infrastructure) và I#6 Cơ quan quản lý (Institution).",
+  "filter": null,
+  "gold_groups": [
+   [
+    {
+     "source_id": "wb-diem-lai-2024-08",
+     "page": 42,
+     "evidence": "I#2: Nhà đầu tư (Investor) cấp “máu” nuôi sống thị trường vốn vì họ có tiền để đầu tư."
+    }
+   ]
+  ],
+  "gold": [
+   {
+    "source_id": "wb-diem-lai-2024-08",
+    "page": 42,
+    "evidence": "I#2: Nhà đầu tư (Investor) cấp “máu” nuôi sống thị trường vốn vì họ có tiền để đầu tư."
+   }
+  ]
+ },
+ {
+  "id": "q10",
+  "split": "dev",
+  "type": "dien_dat_lai",
+  "question": "Vì sao lãi suất chiết khấu và lãi suất tái cấp vốn do Ngân hàng Nhà nước công bố không thể dùng làm mốc định giá tham chiếu cho các công cụ tài chính dài hạn?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "expected_answer": "Vì lãi suất chiết khấu và tái cấp vốn do NHNN công bố đều chưa có mối liên kết hiệu quả với thị trường; trong khi đó lãi suất liên ngân hàng qua đêm cần được kiện toàn theo nguyên tắc IOSCO và lãi suất VBMA/VNIBOR chỉ dựa trên báo giá hoặc giá chào dự kiến.",
+  "filter": null,
+  "gold_groups": [
+   [
+    {
+     "source_id": "wb-diem-lai-2024-08",
+     "page": 44,
+     "evidence": "Vì lãi suất chiết khấu và tái cấp vốn do Ngân hàng Nhà nước Việt Nam (NHNN) công bố đều chưa có mối liên kết hiệu quả với thị trường (Hình 2.7), nên chúng không thể được dùng để làm mốc định giá cho các công cụ dài hạn hơn."
+    }
+   ]
+  ],
+  "gold": [
+   {
+    "source_id": "wb-diem-lai-2024-08",
+    "page": 44,
+    "evidence": "Vì lãi suất chiết khấu và tái cấp vốn do Ngân hàng Nhà nước Việt Nam (NHNN) công bố đều chưa có mối liên kết hiệu quả với thị trường (Hình 2.7), nên chúng không thể được dùng để làm mốc định giá cho các công cụ dài hạn hơn."
+   }
+  ]
+ },
+ {
+  "id": "q11",
+  "split": "dev",
+  "type": "dieu_kien_ngoai_le",
+  "question": "Để thị trường chứng khoán Việt Nam được MSCI và FTSE Russell nâng hạng từ Thị trường Cận biên lên Thị trường Mới nổi, ba rào cản chính nào cần được giải quyết?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "expected_answer": "Ba lĩnh vực chính cần giải quyết là: (i) Loại bỏ yêu cầu ký quỹ và phong tỏa chứng khoán trước giao dịch (pre-funding), (ii) Nới giới hạn tỷ lệ sở hữu vốn của nhà đầu tư nước ngoài (FOLs, đặc biệt ở ngành ngân hàng đang ở mức 30%) hoặc triển khai chứng chỉ lưu ký không có quyền biểu quyết (NVDR), và (iii) Đảm bảo tiếp cận thông tin công bằng bằng tiếng Anh và áp dụng chuẩn IFRS.",
+  "filter": null,
+  "gold_groups": [
+   [
+    {
+     "source_id": "wb-diem-lai-2024-08",
+     "page": 50,
+     "evidence": "(i) Ký quỹ và phong tỏa chứng khoán trước giao dịch"
+    },
+    {
+     "source_id": "wb-diem-lai-2024-08",
+     "page": 60,
+     "evidence": "yêu cầu ký quỹ trước giao dịch, tỷ lệ cổ phiếu tối đa được phép sở hữu do giới hạn tỷ lệ sở hữu vốn của nhà đầu tư nước ngoài, công bằng trong tiếp cận thông tin"
+    }
+   ],
+   [
+    {
+     "source_id": "wb-diem-lai-2024-08",
+     "page": 50,
+     "evidence": "(ii) Giới hạn tỷ lệ sở hữu vốn của nhà đầu tư nước ngoài"
+    },
+    {
+     "source_id": "wb-diem-lai-2024-08",
+     "page": 60,
+     "evidence": "yêu cầu ký quỹ trước giao dịch, tỷ lệ cổ phiếu tối đa được phép sở hữu do giới hạn tỷ lệ sở hữu vốn của nhà đầu tư nước ngoài, công bằng trong tiếp cận thông tin"
+    }
+   ],
+   [
+    {
+     "source_id": "wb-diem-lai-2024-08",
+     "page": 50,
+     "evidence": "(iii) Tiếp cận thông tin công bằng"
+    },
+    {
+     "source_id": "wb-diem-lai-2024-08",
+     "page": 60,
+     "evidence": "yêu cầu ký quỹ trước giao dịch, tỷ lệ cổ phiếu tối đa được phép sở hữu do giới hạn tỷ lệ sở hữu vốn của nhà đầu tư nước ngoài, công bằng trong tiếp cận thông tin"
+    }
+   ]
+  ],
+  "gold": [
+   {
+    "source_id": "wb-diem-lai-2024-08",
+    "page": 50,
+    "evidence": "(i) Ký quỹ và phong tỏa chứng khoán trước giao dịch"
+   },
+   {
+    "source_id": "wb-diem-lai-2024-08",
+    "page": 60,
+    "evidence": "yêu cầu ký quỹ trước giao dịch, tỷ lệ cổ phiếu tối đa được phép sở hữu do giới hạn tỷ lệ sở hữu vốn của nhà đầu tư nước ngoài, công bằng trong tiếp cận thông tin"
+   },
+   {
+    "source_id": "wb-diem-lai-2024-08",
+    "page": 50,
+    "evidence": "(ii) Giới hạn tỷ lệ sở hữu vốn của nhà đầu tư nước ngoài"
+   },
+   {
+    "source_id": "wb-diem-lai-2024-08",
+    "page": 60,
+    "evidence": "yêu cầu ký quỹ trước giao dịch, tỷ lệ cổ phiếu tối đa được phép sở hữu do giới hạn tỷ lệ sở hữu vốn của nhà đầu tư nước ngoài, công bằng trong tiếp cận thông tin"
+   },
+   {
+    "source_id": "wb-diem-lai-2024-08",
+    "page": 50,
+    "evidence": "(iii) Tiếp cận thông tin công bằng"
+   },
+   {
+    "source_id": "wb-diem-lai-2024-08",
+    "page": 60,
+    "evidence": "yêu cầu ký quỹ trước giao dịch, tỷ lệ cổ phiếu tối đa được phép sở hữu do giới hạn tỷ lệ sở hữu vốn của nhà đầu tư nước ngoài, công bằng trong tiếp cận thông tin"
+   }
+  ]
+ },
+ {
+  "id": "q12",
+  "split": "dev",
+  "type": "metadata_filter",
+  "question": "Trong phân tích chi tiết của Chương 1 về khu vực tài chính, hai ngành nào phát hành trái phiếu doanh nghiệp tích cực nhất trong nửa đầu năm 2024 và chiếm tỷ trọng bao nhiêu phần trăm tổng lượng phát hành?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "expected_answer": "Hai ngành phát hành trái phiếu tích cực nhất trong nửa đầu năm 2024 là các ngân hàng và công ty bất động sản, chiếm lần lượt 64% và 26% tổng lượng phát hành.",
+  "filter": {
+   "section": "chuong_1_kinh_te_vi_mo"
+  },
+  "gold_groups": [
+   [
+    {
+     "source_id": "wb-diem-lai-2024-08",
+     "page": 31,
+     "evidence": "Các ngành phát hành trái phiếu tích cực nhất vẫn là các ngân hàng và công ty bất động sản, chiếm lần lượt 64% và 26% tổng lượng phát hành trong nửa đầu năm 2024."
+    }
+   ]
+  ],
+  "gold": [
+   {
+    "source_id": "wb-diem-lai-2024-08",
+    "page": 31,
+    "evidence": "Các ngành phát hành trái phiếu tích cực nhất vẫn là các ngân hàng và công ty bất động sản, chiếm lần lượt 64% và 26% tổng lượng phát hành trong nửa đầu năm 2024."
+   }
+  ]
+ },
+ {
+  "id": "q13",
+  "split": "dev",
+  "type": "metadata_filter",
+  "question": "Theo nội dung Chương 1 về thu chi ngân sách nhà nước, nguồn tiết kiệm chi thường xuyên hàng năm được dành riêng cho mục tiêu cải cách tiền lương từ ngày 01/07/2024 với mức tăng lương cơ bản và lương hưu bình quân là bao nhiêu?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "expected_answer": "Tiết kiệm chi thường xuyên được dành để đảm bảo cho chương trình cải cách lương công chức từ ngày 01/07/2024, trong đó lương cơ bản và lương hưu tăng lần lượt bình quân 30% và 15%.",
+  "filter": {
+   "section": "chuong_1_kinh_te_vi_mo"
+  },
+  "gold_groups": [
+   [
+    {
+     "source_id": "wb-diem-lai-2024-08",
+     "page": 32,
+     "evidence": "Tiết kiệm chi thường xuyên hàng năm theo dự toán được dành riêng để đảm bảo cho chương trình cải cách lương công chức, từ ngày 01/07/2024 (lương cơ bản và lương hưu tăng lần lượt bình quân 30% và 15%)."
+    }
+   ]
+  ],
+  "gold": [
+   {
+    "source_id": "wb-diem-lai-2024-08",
+    "page": 32,
+    "evidence": "Tiết kiệm chi thường xuyên hàng năm theo dự toán được dành riêng để đảm bảo cho chương trình cải cách lương công chức, từ ngày 01/07/2024 (lương cơ bản và lương hưu tăng lần lượt bình quân 30% và 15%)."
+   }
+  ]
+ },
+ {
+  "id": "q14",
+  "split": "dev",
+  "type": "metadata_filter",
+  "question": "Theo phân tích chuyên sâu tại Chương 2, Quỹ Bảo hiểm Xã hội Việt Nam (BHXH) đang quản lý khối tài sản ước tính bao nhiêu ngàn tỷ đồng, bao phủ bao nhiêu phần trăm lực lượng lao động và tỷ trọng trái phiếu chính phủ chiếm bao nhiêu phần trăm tài sản của quỹ?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "expected_answer": "Quỹ BHXH quản lý khoảng 1.130 ngàn tỷ đồng (44 tỷ USD), bao phủ 32% lực lượng lao động (17,5 triệu lao động, mục tiêu 60% vào năm 2030), và trái phiếu chính phủ chiếm tới 86% tài sản thuộc quản lý của BHXH.",
+  "filter": {
+   "section": "chuong_2_thi_truong_von"
+  },
+  "gold_groups": [
+   [
+    {
+     "source_id": "wb-diem-lai-2024-08",
+     "page": 51,
+     "evidence": "Các quỹ thuộc quản lý của BHXH ước lên đến 1.130 ngàn tỷ đồng (44 tỷ đô la Mỹ) và dự kiến sẽ tăng trưởng tới 15% trong vài thập kỷ tới. BHXH hiện bao phủ 32% lực lượng lao động của Việt Nam (17,5 triệu lao động), với mục tiêu bao phủ tới 60% vào năm 2030."
+    }
+   ]
+  ],
+  "gold": [
+   {
+    "source_id": "wb-diem-lai-2024-08",
+    "page": 51,
+    "evidence": "Các quỹ thuộc quản lý của BHXH ước lên đến 1.130 ngàn tỷ đồng (44 tỷ đô la Mỹ) và dự kiến sẽ tăng trưởng tới 15% trong vài thập kỷ tới. BHXH hiện bao phủ 32% lực lượng lao động của Việt Nam (17,5 triệu lao động), với mục tiêu bao phủ tới 60% vào năm 2030."
+   }
+  ]
+ },
+ {
+  "id": "q15",
+  "split": "dev",
+  "type": "metadata_filter",
+  "question": "Trong phần Tổng quan của báo cáo, tỷ giá VND/US$ trên thị trường đã tăng từ mức 24.258 VND vào tháng 12/2023 lên mức bao nhiêu vào cuối tháng 6/2024 và nhu cầu mua vàng trong nước tăng bao nhiêu phần trăm?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "expected_answer": "Tỷ giá VND/US$ trên thị trường tăng từ 24.258 VND (tháng 12/2023) lên 25.334 VND vào cuối tháng 6/2024, và nhu cầu mua vàng trong nước tăng vọt 28,6% so với cùng kỳ năm trước.",
+  "filter": {
+   "section": "tong_quan"
+  },
+  "gold_groups": [
+   [
+    {
+     "source_id": "wb-diem-lai-2024-08",
+     "page": 14,
+     "evidence": "Trong khi đó, do đồng đô-la mạnh lên, tỷ giá VND/US$ tăng từ mức 24.258 VND trong tháng 12/2023 lên 25.334 VND vào cuối tháng 6/2024 trên thị trường. Do người dân tìm kiếm công cụ đầu tư khác, nhu cầu mua vàng trong nước tăng vọt (+28,6% so với cùng kỳ năm trước)"
+    }
+   ]
+  ],
+  "gold": [
+   {
+    "source_id": "wb-diem-lai-2024-08",
+    "page": 14,
+    "evidence": "Trong khi đó, do đồng đô-la mạnh lên, tỷ giá VND/US$ tăng từ mức 24.258 VND trong tháng 12/2023 lên 25.334 VND vào cuối tháng 6/2024 trên thị trường. Do người dân tìm kiếm công cụ đầu tư khác, nhu cầu mua vàng trong nước tăng vọt (+28,6% so với cùng kỳ năm trước)"
+   }
+  ]
+ },
+ {
+  "id": "q16",
+  "split": "test",
+  "type": "truc_tiep",
+  "question": "Theo ước tính của cán bộ Ngân hàng Thế giới, khi giải ngân đầu tư công tăng thêm 1 điểm phần trăm so với GDP thì GDP của Việt Nam có thể tăng thêm bao nhiêu phần trăm?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "expected_answer": "Chỉ cần tăng đầu tư công thêm 1 điểm phần trăm so với GDP có thể giúp GDP tăng thêm 0,1 phần trăm.",
+  "filter": null,
+  "gold_groups": [
+   [
+    {
+     "source_id": "wb-diem-lai-2024-08",
+     "page": 37,
+     "evidence": "Chỉ cần tăng đầu tư công thêm một điểm phần trăm so GDP có thể khiến cho GDP tăng thêm 0,1 phần trăm."
+    }
+   ]
+  ],
+  "gold": [
+   {
+    "source_id": "wb-diem-lai-2024-08",
+    "page": 37,
+    "evidence": "Chỉ cần tăng đầu tư công thêm một điểm phần trăm so GDP có thể khiến cho GDP tăng thêm 0,1 phần trăm."
+   }
+  ]
+ },
+ {
+  "id": "q17",
+  "split": "test",
+  "type": "dieu_kien_ngoai_le",
+  "question": "Vì sao thị trường trái phiếu chính phủ Việt Nam lại có sự chênh lệch giá giữa thị trường sơ cấp và thứ cấp, và từ tháng 1/2020 đến tháng 12/2023 Bộ Tài chính đã từ chối toàn bộ giá thầu trong bao nhiêu phần trăm số đợt đấu thầu?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "expected_answer": "Do tập trung vào nhà đầu tư 'mua và nắm giữ' như BHXH (bị hạn chế pháp lý không tham gia thị trường thứ cấp) và do Bộ Tài chính đôi khi hủy phát hành để giữ chi phí vay thấp khi lợi suất thứ cấp tăng; từ 1/2020 đến 12/2023, Bộ Tài chính đã từ chối toàn bộ giá thầu trong 20% đợt đấu thầu.",
+  "filter": null,
+  "gold_groups": [
+   [
+    {
+     "source_id": "wb-diem-lai-2024-08",
+     "page": 46,
+     "evidence": "Chẳng hạn, từ tháng 1/2020 đến tháng 12/2023, Bộ Tài chính đã từ chối toàn bộ các giá thầu trong 20% đợt đấu thầu. Tất cả các vấn đề đó góp phần gây ra sự biến dạng cho chức năng định giá của thị trường trái phiếu Chính phủ."
+    }
+   ]
+  ],
+  "gold": [
+   {
+    "source_id": "wb-diem-lai-2024-08",
+    "page": 46,
+    "evidence": "Chẳng hạn, từ tháng 1/2020 đến tháng 12/2023, Bộ Tài chính đã từ chối toàn bộ các giá thầu trong 20% đợt đấu thầu. Tất cả các vấn đề đó góp phần gây ra sự biến dạng cho chức năng định giá của thị trường trái phiếu Chính phủ."
+   }
+  ]
+ },
+ {
+  "id": "q18",
+  "split": "test",
+  "type": "dien_dat_lai",
+  "question": "Các tổ chức nào đảm nhiệm vai trò lưu ký, bù trừ và ngân hàng thanh toán cho các giao dịch trái phiếu chính phủ và chứng khoán doanh nghiệp tại Việt Nam?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "expected_answer": "Tổng Công ty Lưu ký và Bù trừ Chứng khoán Việt Nam (VSDC) là tổ chức lưu ký tập trung duy nhất đảm nhiệm bù trừ và thanh toán; NHNN là ngân hàng thanh toán cho giao dịch trái phiếu chính phủ, còn giao dịch chứng khoán doanh nghiệp được thanh toán qua một ngân hàng thương mại thuộc sở hữu Nhà nước.",
+  "filter": null,
+  "gold_groups": [
+   [
+    {
+     "source_id": "wb-diem-lai-2024-08",
+     "page": 57,
+     "evidence": "Tổ chức lưu ký chứng khoán tập trung duy nhất, Tông Công ty Lưu ký và Bù trừ Chứng khoán Việt Nam (VSDC), cung cấp dịch vụ cho trái phiếu chính phủ, cổ phiếu và trái phiếu doanh nghiệp, đảm nhiệm bù trừ và thanh toán cho các giao dịch. NHNN vận hành hệ thống thanh toán và đóng vai trò ngân hàng thanh toán cho các giao dịch trái phiếu chính phủ, còn giao dịch về chứng khoán doanh nghiệp được thanh toán qua một ngân hàng thương mại thuộc sở hữu của Nhà nước."
+    }
+   ]
+  ],
+  "gold": [
+   {
+    "source_id": "wb-diem-lai-2024-08",
+    "page": 57,
+    "evidence": "Tổ chức lưu ký chứng khoán tập trung duy nhất, Tông Công ty Lưu ký và Bù trừ Chứng khoán Việt Nam (VSDC), cung cấp dịch vụ cho trái phiếu chính phủ, cổ phiếu và trái phiếu doanh nghiệp, đảm nhiệm bù trừ và thanh toán cho các giao dịch. NHNN vận hành hệ thống thanh toán và đóng vai trò ngân hàng thanh toán cho các giao dịch trái phiếu chính phủ, còn giao dịch về chứng khoán doanh nghiệp được thanh toán qua một ngân hàng thương mại thuộc sở hữu của Nhà nước."
+   }
+  ]
+ },
+ {
+  "id": "q19",
+  "split": "test",
+  "type": "metadata_filter",
+  "question": "Theo phân tích tại Chương 2 về chức năng huy động vốn, khối lượng phát hành cổ phần bình quân mỗi năm trên hai sàn giao dịch chứng khoán (HOSE và HNX) trong 5 năm qua đạt bao nhiêu ngàn tỷ đồng và năm 2023 có bao nhiêu đợt IPO được thực hiện?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "expected_answer": "Khối lượng huy động vốn qua phát hành cổ phần trên hai sàn HOSE và HNX bình quân chỉ đạt 37 ngàn tỷ đồng (1,5 tỷ USD) mỗi năm trong 5 năm qua, và trong năm 2023 chỉ có 3 đợt IPO được thực hiện, huy động 173 tỷ đồng (7 triệu USD).",
+  "filter": {
+   "section": "chuong_2_thi_truong_von"
+  },
+  "gold_groups": [
+   [
+    {
+     "source_id": "wb-diem-lai-2024-08",
+     "page": 49,
+     "evidence": "bình quân đạt 37 ngàn tỷ đồng (1,5 tỷ đô la Mỹ) mỗi năm trong năm năm qua"
+    },
+    {
+     "source_id": "wb-diem-lai-2024-08",
+     "page": 40,
+     "evidence": "bình quân chỉ đạt 37 ngàn tỷ đồng (1,5 tỷ đô la Mỹ) mỗi năm trên hai sàn giao dịch chứng khoán"
+    }
+   ],
+   [
+    {
+     "source_id": "wb-diem-lai-2024-08",
+     "page": 49,
+     "evidence": "Trong năm 2023, chỉ có ba đợt IPO được thực hiện, huy động được 173 tỷ đồng"
+    }
+   ]
+  ],
+  "gold": [
+   {
+    "source_id": "wb-diem-lai-2024-08",
+    "page": 49,
+    "evidence": "bình quân đạt 37 ngàn tỷ đồng (1,5 tỷ đô la Mỹ) mỗi năm trong năm năm qua"
+   },
+   {
+    "source_id": "wb-diem-lai-2024-08",
+    "page": 40,
+    "evidence": "bình quân chỉ đạt 37 ngàn tỷ đồng (1,5 tỷ đô la Mỹ) mỗi năm trên hai sàn giao dịch chứng khoán"
+   },
+   {
+    "source_id": "wb-diem-lai-2024-08",
+    "page": 49,
+    "evidence": "Trong năm 2023, chỉ có ba đợt IPO được thực hiện, huy động được 173 tỷ đồng"
+   }
+  ]
+ },
+ {
+  "id": "q20",
+  "split": "test",
+  "type": "metadata_filter",
+  "question": "Theo kịch bản cải cách thị trường vốn đến năm 2030 ở cuối Chương 2, nếu BHXH, các công ty bảo hiểm nhân thọ, các quỹ đầu tư/hưu trí tư nhân đa dạng hóa đầu tư và thị trường chứng khoán được nâng hạng lên Thị trường mới nổi thì tổng nguồn vốn huy động cho khu vực doanh nghiệp có thể đạt khoảng bao nhiêu tỷ đô la Mỹ?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "expected_answer": "Đến năm 2030, BHXH có thể bổ sung 20 tỷ USD, bảo hiểm nhân thọ 15 tỷ USD, quỹ đầu tư và quỹ hưu trí tư nhân 14 tỷ USD, dòng vốn ngoại sau nâng hạng từ 5 đến 25 tỷ USD; tổng cộng riêng các thị trường vốn có thể dành khoảng 87 tỷ USD cho khu vực doanh nghiệp vào cuối thập kỷ.",
+  "filter": {
+   "section": "chuong_2_thi_truong_von"
+  },
+  "gold_groups": [
+   [
+    {
+     "source_id": "wb-diem-lai-2024-08",
+     "page": 60,
+     "evidence": "Chỉ cần BHXH phân bổ đầu tư ở mức khiêm tốn vào chứng khoán doanh nghiệp, điều đó đồng nghĩa với việc bổ sung thêm 20 tỷ đô la Mỹ dành cho khu vực doanh nghiệp vào năm 2030. 34 Lợi nhuận tăng thêm cộng dồn có thể lên đến 4 tỷ đô la Mỹ vào năm 2030. Tương tự, chỉ cần tái phân bổ một phần khiêm tốn vốn đầu tư của các công ty bảo hiểm nhân thọ sang chứng khoán doanh nghiệp, là có thể huy động được thêm 15 tỷ đô la Mỹ trong cùng thời gian đó.35 Các quỹ đầu tư và quỹ hưu trí tư nhân tăng trưởng lành mạnh có thể đem lại khoảng 14 tỷ đô la Mỹ.36"
+    },
+    {
+     "source_id": "wb-diem-lai-2024-08",
+     "page": 61,
+     "evidence": "Về tổng thể, điều đó có nghĩa là riêng các thị trường vốn sẽ dành được khoảng 87 tỷ đô la Mỹ cho khu vực doanh nghiệp vào cuối thập kỷ."
+    }
+   ]
+  ],
+  "gold": [
+   {
+    "source_id": "wb-diem-lai-2024-08",
+    "page": 60,
+    "evidence": "Chỉ cần BHXH phân bổ đầu tư ở mức khiêm tốn vào chứng khoán doanh nghiệp, điều đó đồng nghĩa với việc bổ sung thêm 20 tỷ đô la Mỹ dành cho khu vực doanh nghiệp vào năm 2030. 34 Lợi nhuận tăng thêm cộng dồn có thể lên đến 4 tỷ đô la Mỹ vào năm 2030. Tương tự, chỉ cần tái phân bổ một phần khiêm tốn vốn đầu tư của các công ty bảo hiểm nhân thọ sang chứng khoán doanh nghiệp, là có thể huy động được thêm 15 tỷ đô la Mỹ trong cùng thời gian đó.35 Các quỹ đầu tư và quỹ hưu trí tư nhân tăng trưởng lành mạnh có thể đem lại khoảng 14 tỷ đô la Mỹ.36"
+   },
+   {
+    "source_id": "wb-diem-lai-2024-08",
+    "page": 61,
+    "evidence": "Về tổng thể, điều đó có nghĩa là riêng các thị trường vốn sẽ dành được khoảng 87 tỷ đô la Mỹ cho khu vực doanh nghiệp vào cuối thập kỷ."
+   }
+  ]
+ },
+ {
+  "id": "u01",
+  "split": "dev",
+  "type": "thieu_bang_chung",
+  "question": "Ngân hàng Thế giới dự báo tốc độ tăng trưởng GDP thực của Việt Nam năm 2027 là bao nhiêu phần trăm?",
+  "absence_reason": "Báo cáo chỉ dự báo đến năm 2026 (Bảng 0.1 trang 16, Bảng 1.1 trang 36: 6,1% năm 2024; 6,5% năm 2025–2026).",
+  "absence_check": "Không chunk nào chứa '2027'; bảng dự báo dừng ở 2026.",
+  "answerable": false,
+  "expected_behavior": "search_and_abstain",
+  "filter": null
+ },
+ {
+  "id": "u02",
+  "split": "dev",
+  "type": "thieu_bang_chung",
+  "question": "Trong năm 2023, các doanh nghiệp Việt Nam đã phát hành bao nhiêu tỷ đồng trái phiếu xanh?",
+  "absence_reason": "Báo cáo có phân tích trái phiếu doanh nghiệp nhưng không có số liệu trái phiếu xanh.",
+  "absence_check": "Không chunk nào chứa 'trái phiếu xanh'; 'xanh' chỉ xuất hiện ở chú thích màu (tr.21), 'xanh hóa' (tr.37), quỹ xanh (tr.53).",
+  "answerable": false,
+  "expected_behavior": "search_and_abstain",
+  "filter": null
+ },
+ {
+  "id": "u03",
+  "split": "test",
+  "type": "thieu_bang_chung",
+  "question": "Giá vàng miếng trong nước đã tăng bao nhiêu phần trăm trong nửa đầu năm 2024?",
+  "absence_reason": "Báo cáo chỉ nêu nhu cầu mua vàng tăng 28,6% và vàng bị đội giá (tr.14, tr.28), không nêu % tăng giá vàng.",
+  "absence_check": "Các chunk chứa 'vàng' (tr.14, 17, 28, 39) không có tỷ lệ tăng giá vàng; 28,6% là nhu cầu mua.",
+  "answerable": false,
+  "expected_behavior": "search_and_abstain",
+  "filter": null
+ },
+ {
+  "id": "u04",
+  "split": "test",
+  "type": "thieu_bang_chung",
+  "question": "Khối lượng giao dịch bình quân mỗi phiên của hợp đồng tương lai chỉ số VN30 năm 2023 là bao nhiêu hợp đồng?",
+  "absence_reason": "Báo cáo chỉ nhắc chung về công cụ phái sinh (tr.42–43), không có số liệu giao dịch phái sinh.",
+  "absence_check": "'phái sinh' chỉ ở tr.42–43 (định nghĩa); không chunk nào chứa 'VN30' kèm hợp đồng tương lai.",
+  "answerable": false,
+  "expected_behavior": "search_and_abstain",
+  "filter": null
+ }
+]
