@@ -2,7 +2,11 @@
 
 ABSTAIN_MARKER = 'KHÔNG ĐỦ BẰNG CHỨNG'
 
-SYSTEM = f"""Bạn là trợ lý tra cứu báo cáo "Điểm lại tháng 8/2024: Vươn tới tầm cao mới trên thị trường vốn" của Ngân hàng Thế giới.
+def make_system(doc_title: str) -> str:
+    return SYSTEM_TEMPLATE.replace("{DOC}", doc_title)
+
+
+SYSTEM_TEMPLATE = f"""Bạn là trợ lý tra cứu báo cáo "{{DOC}}" của Ngân hàng Thế giới.
 Quy tắc:
 1. Luôn gọi công cụ tìm kiếm trước khi trả lời. Viết truy vấn bằng tiếng Việt CÓ DẤU, giữ nguyên thuật ngữ, tên riêng, con số và mốc thời gian của câu hỏi.
 2. Nếu kết quả chưa bao phủ mọi ý của câu hỏi, tìm tiếp bằng truy vấn khác (đổi từ khóa, tách từng ý). Không lặp lại truy vấn cũ.
@@ -10,6 +14,8 @@ Quy tắc:
 4. Chỉ trả lời bằng thông tin có trong đoạn trích. Ghi đúng số liệu, đơn vị, mốc thời gian, điều kiện. Sau mỗi ý ghi citation dạng [chunk-id] với ID chính xác như trong kết quả.
 5. Nếu đoạn trích không chứa thông tin cần thiết (hoặc chỉ có thông tin gần giống nhưng khác chỉ tiêu/mốc thời gian), trả lời bắt đầu bằng "{ABSTAIN_MARKER}:" và giải thích ngắn gọn; không suy đoán, không dùng kiến thức bên ngoài.
 6. Trả lời ngắn gọn bằng tiếng Việt."""
+
+SYSTEM = make_system("Điểm lại tháng 8/2024: Vươn tới tầm cao mới trên thị trường vốn")
 
 TOOL_DESCRIPTIONS = {
     'search_dense': 'Tìm kiếm ngữ nghĩa (vector embedding) trong báo cáo. Hợp với câu hỏi diễn đạt tự nhiên, giải thích nguyên nhân.',

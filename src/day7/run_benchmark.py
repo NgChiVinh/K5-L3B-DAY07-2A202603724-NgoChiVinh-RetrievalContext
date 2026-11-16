@@ -18,16 +18,17 @@ from . import config
 from .agent import agent_input, run_agent
 from .benchmark import context_has_evidence
 from .configs import AGENT_CONFIGS, TOOL_TO_RETRIEVER, Context
+from .prompts import make_system
 
 
-def run(config_name: str, split: str, only: list[str] | None = None) -> dict:
+def run(config_name: str, split: str, only: list[str] | None = None, corpus: str = 'day6') -> dict:
     cfg = AGENT_CONFIGS[config_name]
-    ctx = Context()
+    ctx = Context(corpus)
     by_id = {c['id']: c for c in ctx.chunks}
-    questions = [q for q in json.loads(config.QUESTIONS_PATH.read_text(encoding='utf-8'))
-                 if q['split'] == split and (not only or q['id'] in only)]
+    questions = [q for q in ctx.questions(split) if not only or q['id'] in only]
     tools = {t: ctx.retriever(TOOL_TO_RETRIEVER[t]) for t in cfg['tools']}
-    out_dir = config.RESULTS_DIR / 'agent' / split / config_name
+    system = make_system(ctx.doc_title)
+    out_dir = ctx.results_dir / 'agent' / split / config_name
     out_dir.mkdir(parents=True, exist_ok=True)
     provider, model = config.llm_settings()
     traces = []
@@ -37,7 +38,7 @@ def run(config_name: str, split: str, only: list[str] | None = None) -> dict:
         try:
             r = run_agent(question, ctx.llm, tools, filters=filters, max_searches=cfg['max_searches'],
                           top_k=cfg['top_k'], budget_chars=cfg['budget_chars'], neighbors=cfg['neighbors'],
-                          chunk_index=ctx.chunks)
+                          chunk_index=ctx.chunks, system=system)
         except Exception as exc:
             r = {'status': 'error', 'answer': '', 'citations': [], 'events': [{'event': 'error', 'error': f'{type(exc).__name__}: {exc}'}],
                  'context_ids': [], 'context': [], 'context_chars': 0, 'searches': 0, 'usage': {}, 'latency_s': round(time.time() - t0, 3)}
@@ -87,12 +88,13 @@ def main() -> None:
     p.add_argument('--config', required=True, choices=list(AGENT_CONFIGS))
     p.add_argument('--split', required=True, choices=['dev', 'test'])
     p.add_argument('--only', nargs='*')
+    p.add_argument('--corpus', default='day6', choices=['day6', 'adv'])
     a = p.parse_args()
     if a.split == 'test':
-        sel = config.RESULTS_DIR / 'selected_config.json'
+        sel = (config.RESULTS_DIR / 'adv' if a.corpus == 'adv' else config.RESULTS_DIR) / 'selected_config.json'
         if not sel.exists():
             raise SystemExit('Chưa chốt cấu hình: tạo results/selected_config.json từ kết quả dev trước khi chạy test.')
-    run(a.config, a.split, a.only)
+    run(a.config, a.split, a.only, a.corpus)
 
 
 if __name__ == '__main__':

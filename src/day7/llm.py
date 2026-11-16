@@ -94,6 +94,36 @@ class LLMClient:
     def complete(self, system: str, user: str) -> dict[str, Any]:
         return self.chat(system, [{'role': 'user', 'text': user}], tools=None)
 
+    def vision(self, system: str, user: str, image_path: Path) -> dict[str, Any]:
+        """One image + prompt (Gemini only). Cached by prompt and image sha256."""
+        data = Path(image_path).read_bytes()
+        request = {'provider': self.provider, 'model': self.model, 'temperature': self.temperature,
+                   'thinking': self.thinking_level, 'system': system, 'user': user,
+                   'image_sha256': hashlib.sha256(data).hexdigest()}
+        if self.cache and (hit := self.cache.get(request)) is not None:
+            return {**hit, 'cached': True, 'latency_s': 0.0}
+        if self.provider != 'gemini':
+            raise ProviderError('vision chỉ hỗ trợ provider gemini')
+        from google.genai import types
+
+        def call():
+            cfg: dict[str, Any] = {'system_instruction': system, 'temperature': self.temperature}
+            if self.thinking_level:
+                cfg['thinking_config'] = types.ThinkingConfig(thinking_level=self.thinking_level)
+            resp = self._client.models.generate_content(
+                model=self.model, contents=[types.Part.from_bytes(data=data, mime_type='image/png'), user],
+                config=types.GenerateContentConfig(**cfg))
+            u = resp.usage_metadata
+            return {'text': resp.text or '', 'usage': {'input_tokens': u.prompt_token_count or 0,
+                                                       'output_tokens': u.candidates_token_count or 0,
+                                                       'thinking_tokens': u.thoughts_token_count or 0}}
+        t0 = time.time()
+        out = call_with_retry(call, events=self.retry_events)
+        out['latency_s'] = round(time.time() - t0, 3)
+        if self.cache:
+            self.cache.put(request, out)
+        return {**out, 'cached': False}
+
     def chat(self, system: str, messages: list[dict[str, Any]], tools: list[dict[str, Any]] | None) -> dict[str, Any]:
         request = {'provider': self.provider, 'model': self.model, 'temperature': self.temperature,
                    'thinking': self.thinking_level, 'system': system, 'messages': messages, 'tools': tools}

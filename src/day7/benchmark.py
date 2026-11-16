@@ -18,9 +18,24 @@ def normalize(text: str) -> str:
     return re.sub(r'\s+', ' ', unicodedata.normalize('NFC', text).casefold()).strip()
 
 
+_LABEL_RE = re.compile(r'(hình|bảng|hộp|phụ lục)\s*([a-z]?\d+(?:\.\d+)*)')
+
+
+def canonical_label(label: str) -> str:
+    """'Hình 2.19a.' -> 'hình 2.19'; 'Bảng A2.6.2' -> 'bảng a2.6.2'; '' if no figure/table number."""
+    m = _LABEL_RE.search(normalize(label))
+    return f'{m.group(1)} {m.group(2)}' if m else ''
+
+
 def _alt_hit(chunk: dict[str, Any], alt: dict[str, Any]) -> bool:
-    return (chunk['source_id'] == alt['source_id'] and int(chunk['page']) == int(alt['page'])
-            and normalize(alt['evidence']) in normalize(chunk['text']))
+    """Text gold: evidence substring. Visual gold (advanced): {'label': 'Hình 1.4'} matches the visual
+    chunk extracted for that figure/table on that page (its text is model-generated, so no substring)."""
+    if chunk['source_id'] != alt['source_id'] or int(chunk['page']) != int(alt['page']):
+        return False
+    if 'label' in alt:
+        got = canonical_label(chunk.get('metadata', {}).get('label') or '')
+        return bool(got) and got == canonical_label(alt['label'])
+    return normalize(alt['evidence']) in normalize(chunk['text'])
 
 
 def context_has_evidence(chunks: list[dict[str, Any]], q: dict[str, Any]) -> bool:

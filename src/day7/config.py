@@ -26,13 +26,13 @@ def llm_settings() -> tuple[str, str]:
     return provider, os.getenv('LLM_MODEL', default)
 
 
-def open_day6():
-    """Open the real Day 6 embedder and Qdrant store (same model/dimension as the index)."""
+def open_day6(qdrant_path: Path = QDRANT_PATH):
+    """Open the real Day 6 embedder and a Qdrant store (same model/dimension as the index)."""
     load_env()
     from src.day6.embeddings import MyEmbedder
     from src.day6.store import QdrantVectorStore
-    if not QDRANT_PATH.exists():
-        raise FileNotFoundError(f'Missing Day 6 Qdrant store at {QDRANT_PATH}; see README')
+    if not qdrant_path.exists():
+        raise FileNotFoundError(f'Missing Qdrant store at {qdrant_path}; see README')
     embedder = MyEmbedder()
-    store = QdrantVectorStore(QDRANT_PATH, dimensions=embedder.dimensions)
+    store = QdrantVectorStore(qdrant_path, dimensions=embedder.dimensions)
     return embedder, store

@@ -15,9 +15,9 @@ def frac(d):
     return f"{d['n']}/{d['N']} ({100 * d['rate']:.1f}%)" if d and d.get('N') else '0/0'
 
 
-def retrieval_table(split: str) -> str:
+def retrieval_table(split: str, base=config.RESULTS_DIR) -> str:
     rows = ['| Phương pháp | Hit@1 | Evidence Hit@3 | MRR@10 | Latency TB / câu | LLM tokens (in/out) | Lỗi |', '|---|---|---|---|---|---|---|']
-    for p in sorted((config.RESULTS_DIR / 'retrieval' / split).glob('*.json')):
+    for p in sorted((base / 'retrieval' / split).glob('*.json')):
         s = json.loads(p.read_text(encoding='utf-8'))['summary']
         rows.append(f"| {s['method']} | {frac(s['hit_at_1'])} | {frac(s['evidence_hit_at_3'])} | {s['mrr']:.3f} | "
                     f"{s['latency_s_mean']}s | {s['llm_input_tokens']}/{s['llm_output_tokens']} | "
@@ -25,11 +25,11 @@ def retrieval_table(split: str) -> str:
     return '\n'.join(rows)
 
 
-def agent_table(split: str) -> str:
+def agent_table(split: str, base=config.RESULTS_DIR) -> str:
     rows = ['| Config | Tools / top-k / budget / max search / neighbours | Tool use | Searches | Context Evidence Rate | '
             'Từ chối đúng (thiếu ev.) | Từ chối nhầm | Context TB (ký tự) | Latency TB | LLM calls / tokens in+out+think | Lỗi |',
             '|---|---|---|---|---|---|---|---|---|---|---|']
-    for p in sorted((config.RESULTS_DIR / 'agent' / split).glob('*/summary.json')):
+    for p in sorted((base / 'agent' / split).glob('*/summary.json')):
         s = json.loads(p.read_text(encoding='utf-8'))
         c, u = s['config'], s['usage_total']
         rows.append(f"| {s['config_name']} | {'+'.join(c['tools'])} / {c['top_k']} / {c['budget_chars']} / {c['max_searches']} / "
@@ -44,10 +44,12 @@ def main() -> None:
     sys.stdout.reconfigure(encoding='utf-8')
     p = argparse.ArgumentParser()
     p.add_argument('--split', choices=['dev', 'test'], required=True)
+    p.add_argument('--corpus', default='day6', choices=['day6', 'adv'])
     a = p.parse_args()
-    if (config.RESULTS_DIR / 'retrieval' / a.split).exists():
-        print(f'### Retrieval ({a.split}, query gốc + filter người dùng)\n\n{retrieval_table(a.split)}\n')
-    print(f'### Agent ({a.split})\n\n{agent_table(a.split)}')
+    base = config.RESULTS_DIR / 'adv' if a.corpus == 'adv' else config.RESULTS_DIR
+    if (base / 'retrieval' / a.split).exists():
+        print(f'### Retrieval ({a.split}, query gốc + filter người dùng)\n\n{retrieval_table(a.split, base)}\n')
+    print(f'### Agent ({a.split})\n\n{agent_table(a.split, base)}')
 
 
 if __name__ == '__main__':

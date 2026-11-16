@@ -17,10 +17,10 @@ from .configs import RETRIEVAL_METHODS, Context
 TOP_N = 10
 
 
-def run(split: str, methods: list[str]) -> dict[str, dict]:
-    ctx = Context()
-    questions = [q for q in json.loads(config.QUESTIONS_PATH.read_text(encoding='utf-8')) if q['split'] == split]
-    out_dir = config.RESULTS_DIR / 'retrieval' / split
+def run(split: str, methods: list[str], corpus: str = 'day6') -> dict[str, dict]:
+    ctx = Context(corpus)
+    questions = ctx.questions(split)
+    out_dir = ctx.results_dir / 'retrieval' / split
     out_dir.mkdir(parents=True, exist_ok=True)
     summary = {}
     for name in methods:
@@ -59,8 +59,9 @@ def main() -> None:
     p = argparse.ArgumentParser()
     p.add_argument('--split', choices=['dev', 'test'], required=True)
     p.add_argument('--methods', nargs='+', default=RETRIEVAL_METHODS, choices=RETRIEVAL_METHODS)
+    p.add_argument('--corpus', default='day6', choices=['day6', 'adv'])
     a = p.parse_args()
-    run(a.split, a.methods)
+    run(a.split, a.methods, a.corpus)
 
 
 if __name__ == '__main__':

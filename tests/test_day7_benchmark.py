@@ -40,6 +40,16 @@ class BenchmarkTests(unittest.TestCase):
         self.assertFalse(context_has_evidence([a], q))
         self.assertTrue(context_has_evidence([a, b], q))
 
+    def test_visual_gold_matches_by_page_and_label(self):
+        vis = dict(chunk('v', '[CHART] Hình 1.4: GDP ...', page=39), metadata={'label': 'Hình 1.4', 'modality': 'chart'})
+        q = question([[{'source_id': 'doc', 'page': 39, 'label': 'Hình 1.4'}]])
+        self.assertTrue(evidence_hit(vis, q))
+        other = dict(vis, metadata={'label': 'Hình 1.5', 'modality': 'chart'})
+        self.assertFalse(evidence_hit(other, q))
+        variant = dict(vis, metadata={'label': 'Hình 1.4a.', 'modality': 'chart'})
+        self.assertTrue(evidence_hit(variant, q))
+        self.assertFalse(evidence_hit(dict(vis, metadata={'label': 'Hình 1.41'}), q))
+
     def test_metrics_skip_unanswerable_and_use_cutoffs(self):
         qs = [question([G1], 'q1'), question([G1], 'q2'), question(None, 'q3', answerable=False)]
         good, other = chunk('g', 'tăng trưởng 7% so cùng kỳ'), chunk('o', 'không liên quan')

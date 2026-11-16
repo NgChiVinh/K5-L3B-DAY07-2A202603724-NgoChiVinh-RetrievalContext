@@ -31,13 +31,33 @@ AGENT_CONFIGS: dict[str, dict[str, Any]] = {
 }
 
 
-class Context:
-    """Lazily opens the real Day 6 store/embedder and the LLM once per process."""
+CORPORA = {
+    # name: (chunks, questions, qdrant path, collection strategy, results subdir, doc title for the prompt)
+    'day6': (config.CHUNKS_PATH, config.QUESTIONS_PATH, config.QDRANT_PATH, config.COLLECTION_STRATEGY, '',
+             'Điểm lại tháng 8/2024: Vươn tới tầm cao mới trên thị trường vốn'),
+    'adv': (config.REPO / 'data' / 'adv' / 'chunks.json', config.REPO / 'data' / 'adv' / 'questions.json',
+            config.REPO / 'adv_store' / 'qdrant', 'ADV', 'adv',
+            'Việt Nam 2045 – Tăng trưởng Xanh hơn: Con đường hướng tới tương lai bền vững'),
+}
 
-    def __init__(self):
+
+class Context:
+    """Lazily opens the real store/embedder (same gemini-embedding-001 3072d) and the LLM once per process."""
+
+    def __init__(self, corpus: str = 'day6'):
         config.load_env()
-        self.chunks = json.loads(config.CHUNKS_PATH.read_text(encoding='utf-8'))
+        self.corpus = corpus
+        (self.chunks_path, self.questions_path, self.qdrant_path, self.strategy,
+         self.results_subdir, self.doc_title) = CORPORA[corpus]
+        self.chunks = json.loads(self.chunks_path.read_text(encoding='utf-8'))
         self._dense = self._bm25 = self._llm = None
+
+    @property
+    def results_dir(self):
+        return config.RESULTS_DIR / self.results_subdir if self.results_subdir else config.RESULTS_DIR
+
+    def questions(self, split: str) -> list[dict[str, Any]]:
+        return [q for q in json.loads(self.questions_path.read_text(encoding='utf-8')) if q['split'] == split]
 
     @property
     def llm(self):
@@ -50,8 +70,8 @@ class Context:
     @property
     def dense(self):
         if self._dense is None:
-            embedder, store = config.open_day6()
-            self._dense = DenseRetriever(store, embedder, strategy=config.COLLECTION_STRATEGY)
+            embedder, store = config.open_day6(self.qdrant_path)
+            self._dense = DenseRetriever(store, embedder, strategy=self.strategy)
         return self._dense
 
     @property

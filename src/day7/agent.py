@@ -49,7 +49,7 @@ def _citations(text: str) -> list[str]:
 
 def run_agent(question: str, llm, tools: dict[str, Any], *, filters: dict[str, Any] | None = None,
               max_searches: int = 4, top_k: int = 5, budget_chars: int = 4000, neighbors: bool = False,
-              chunk_index: list[dict[str, Any]] | None = None) -> dict[str, Any]:
+              chunk_index: list[dict[str, Any]] | None = None, system: str = SYSTEM) -> dict[str, Any]:
     if not question.strip() or max_searches < 1 or top_k < 1 or budget_chars < 1 or not tools:
         raise ValueError('question/max_searches/top_k/budget/tools không hợp lệ')
     t0 = time.time()
@@ -68,7 +68,7 @@ def run_agent(question: str, llm, tools: dict[str, Any], *, filters: dict[str, A
                 'latency_s': round(time.time() - t0, 3)}
 
     for _turn in range(max_searches + 2):
-        resp = llm.chat(SYSTEM, messages, specs)
+        resp = llm.chat(system, messages, specs)
         usage['llm_calls'] += 1
         usage['cached_calls'] += int(bool(resp.get('cached')))
         for k in ('input_tokens', 'output_tokens', 'thinking_tokens'):
