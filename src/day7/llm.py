@@ -21,6 +21,9 @@ RETRYABLE = ('429', 'RESOURCE_EXHAUSTED', '500', '502', '503', '504', 'UNAVAILAB
              'INTERNAL', 'timed out', 'Timeout', 'Connection', 'overloaded')
 
 
+MAX_WAIT_S = 300.0
+
+
 class ProviderError(RuntimeError):
     pass
 
@@ -34,8 +37,13 @@ def call_with_retry(fn: Callable[[], Any], attempts: int = 6, sleep: Callable[[f
             msg = str(exc)
             if not any(t in msg for t in RETRYABLE) or i == attempts - 1:
                 raise ProviderError(msg[:500]) from exc
-            m = re.search(r'retry in ([0-9.]+)s', msg, re.I)
-            wait = float(m.group(1)) + 1 if m else min(60.0, 5.0 * 2 ** i)
+            m = re.search(r'retry in (?:(\d+)h)?(?:(\d+)m)?([0-9.]+)s', msg, re.I)
+            if m:
+                wait = int(m.group(1) or 0) * 3600 + int(m.group(2) or 0) * 60 + float(m.group(3)) + 1
+            else:
+                wait = min(60.0, 5.0 * 2 ** i)
+            if wait > MAX_WAIT_S:  # daily quota exhausted: fail now instead of sleeping for hours
+                raise ProviderError(f'quota exhausted (retry after {wait:.0f}s): {msg[:400]}') from exc
             if events is not None:
                 events.append({'attempt': i + 1, 'wait_s': round(wait, 1), 'error': msg[:200]})
             sleep(wait)

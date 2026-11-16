@@ -25,6 +25,13 @@ class RetryTests(unittest.TestCase):
         with self.assertRaises(ProviderError):
             call_with_retry(fn, attempts=3, sleep=lambda s: None)
 
+    def test_daily_quota_with_long_retry_raises_without_waiting(self):
+        waits = []
+        def fn(): raise RuntimeError('429 RESOURCE_EXHAUSTED requests per day. Please retry in 5h9m24.5s.')
+        with self.assertRaises(ProviderError):
+            call_with_retry(fn, attempts=5, sleep=waits.append)
+        self.assertEqual(waits, [])
+
     def test_non_retryable_error_raises_immediately(self):
         calls = []
         def fn(): calls.append(1); raise RuntimeError('400 INVALID_ARGUMENT')

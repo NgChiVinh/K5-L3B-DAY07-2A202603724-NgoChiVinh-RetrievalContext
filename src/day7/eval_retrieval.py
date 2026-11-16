@@ -41,6 +41,8 @@ def run(split: str, methods: list[str]) -> dict[str, dict]:
         m = retrieval_metrics(rankings, questions)
         usage = getattr(retriever, 'usage', [])
         m.update({'method': name, 'split': split, 'errors': errors,
+                  'rerank_errors': sum(bool(t['results'] and t['results'][0].get('rerank_error')) for t in traces),
+                  'llm_model': ctx.llm.model if 'rerank' in name else None,
                   'latency_s_mean': round(sum(latencies) / len(latencies), 3),
                   'llm_calls': len(usage), 'llm_input_tokens': sum(u.get('input_tokens', 0) for u in usage),
                   'llm_output_tokens': sum(u.get('output_tokens', 0) for u in usage)})
@@ -48,7 +50,7 @@ def run(split: str, methods: list[str]) -> dict[str, dict]:
                                               encoding='utf-8')
         summary[name] = m
         print(f"{name:14s} Hit@1 {m['hit_at_1']['n']}/{m['hit_at_1']['N']}  EH@3 {m['evidence_hit_at_3']['n']}/"
-              f"{m['evidence_hit_at_3']['N']}  MRR {m['mrr']:.3f}  lat {m['latency_s_mean']}s  errors {len(errors)}")
+              f"{m['evidence_hit_at_3']['N']}  MRR {m['mrr']:.3f}  lat {m['latency_s_mean']}s  errors {len(errors)} rerank_err {m['rerank_errors']}")
     return summary
 
 

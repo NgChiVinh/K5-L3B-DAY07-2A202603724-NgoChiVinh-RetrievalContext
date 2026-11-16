@@ -22,7 +22,7 @@ def load_env() -> None:
 def llm_settings() -> tuple[str, str]:
     """Return (provider, model) for the agent LLM; configurable in .env."""
     provider = os.getenv('LLM_PROVIDER', 'gemini').lower()
-    default = 'gemini-3.5-flash' if provider == 'gemini' else 'gpt-4o-mini'
+    default = 'gemini-3.1-flash-lite' if provider == 'gemini' else 'gpt-4o-mini'
     return provider, os.getenv('LLM_MODEL', default)
 
 
