@@ -57,6 +57,11 @@ class AgentTests(unittest.TestCase):
         self.assertEqual(out['status'], 'abstain')
         self.assertEqual(out['events'][-1]['event'], 'invalid_or_missing_citations')
 
+    def test_bracketed_non_id_text_is_not_treated_as_citation(self):
+        llm = ScriptedLLM([call('x'), final(f'Theo [Hình 2.12], đạt 37 ngàn tỷ [{C1["id"]}]')])
+        out = run_agent('?', llm, {'search_dense': Retriever([C1])})
+        self.assertEqual((out['status'], out['citations']), ('answered', [C1['id']]))
+
     def test_answer_without_search_abstains(self):
         out = run_agent('?', ScriptedLLM([final('Đáp án không nguồn')]), {'search_dense': Retriever([C1])})
         self.assertEqual(out['status'], 'abstain')

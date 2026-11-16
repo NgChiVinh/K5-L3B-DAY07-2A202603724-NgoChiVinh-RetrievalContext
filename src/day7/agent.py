@@ -38,10 +38,11 @@ def _format(c: dict[str, Any]) -> str:
 
 
 def _citations(text: str) -> list[str]:
+    """Chunk-id-shaped tokens inside [...] (Day 6 ids contain '__'); other brackets like [Hình 2.12] are prose."""
     out: list[str] = []
     for group in re.findall(r'\[([^\[\]]+)\]', text):
         for cid in re.split(r'[,;\s]+', group.strip()):
-            if cid and cid not in out:
+            if '__' in cid and cid not in out:
                 out.append(cid)
     return out
 
