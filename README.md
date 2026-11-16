@@ -34,7 +34,7 @@ copy <DAY6>\results\embedding_cache.json results\
 
 ```powershell
 $env:PYTHONUTF8=1
-.venv\Scripts\python -m unittest discover -s tests -v                 # test offline (mock), 45 test
+.venv\Scripts\python -m unittest discover -s tests -v                 # test offline (mock), 46 test
 .venv\Scripts\python -m src.day7.export_day6                          # Qdrant -> data/day7/chunks.json
 .venv\Scripts\python -m src.day7.build_benchmark                      # -> data/day7/questions.json, cases.json
 .venv\Scripts\python -m src.day7.eval_retrieval --split dev           # Hit@1, EH@3, MRR của 5 phương pháp
