@@ -49,7 +49,8 @@ def _citations(text: str) -> list[str]:
 
 def run_agent(question: str, llm, tools: dict[str, Any], *, filters: dict[str, Any] | None = None,
               max_searches: int = 4, top_k: int = 5, budget_chars: int = 4000, neighbors: bool = False,
-              chunk_index: list[dict[str, Any]] | None = None, system: str = SYSTEM) -> dict[str, Any]:
+              chunk_index: list[dict[str, Any]] | None = None, system: str = SYSTEM,
+              per_search_chars: int | None = None) -> dict[str, Any]:
     if not question.strip() or max_searches < 1 or top_k < 1 or budget_chars < 1 or not tools:
         raise ValueError('question/max_searches/top_k/budget/tools không hợp lệ')
     t0 = time.time()
@@ -101,15 +102,17 @@ def run_agent(question: str, llm, tools: dict[str, Any], *, filters: dict[str, A
                 messages.append({'role': 'tool', 'tool_call_id': call['id'], 'name': name, 'content': f'Lỗi công cụ: {err}'})
                 continue
             shown, skipped = [], []
+            added = 0  # chars added by this search (per_search_chars keeps room for later searches)
             for hit in results:
                 for c in [hit] + (_neighbors(hit, chunk_index) if neighbors else []):
                     if c['id'] in context:
                         continue
-                    if used + len(c['text']) > budget_chars:
+                    if used + len(c['text']) > budget_chars or (per_search_chars and added + len(c['text']) > per_search_chars):
                         skipped.append(c['id'])
                         continue
                     context[c['id']] = c
                     used += len(c['text'])
+                    added += len(c['text'])
                     shown.append(c)
             events.append({'event': 'search', 'tool': name, 'query': query, 'filter': filters, 'top_k': top_k,
                            'results': [{k: h.get(k) for k in ('id', 'rank', 'score', 'page', 'method', 'base_rank',

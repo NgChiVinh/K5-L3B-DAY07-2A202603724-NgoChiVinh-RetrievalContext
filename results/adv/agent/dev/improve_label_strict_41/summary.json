@@ -1,0 +1,63 @@
+{
+ "config_name": "improve_label_strict_41",
+ "config": {
+  "tools": [
+   "search_hybrid_label"
+  ],
+  "top_k": 5,
+  "budget_chars": 6000,
+  "max_searches": 4,
+  "neighbors": false,
+  "strict_prompt": true,
+  "llm_model": "gpt-4.1"
+ },
+ "split": "dev",
+ "provider": "openai",
+ "model": "gpt-4.1",
+ "errors": 0,
+ "tool_use": {
+  "n": 18,
+  "N": 18,
+  "rate": 1.0
+ },
+ "searches_distribution": {
+  "1": 15,
+  "2": 3
+ },
+ "tool_calls_by_tool": {
+  "search_hybrid_label": 21
+ },
+ "context_evidence_rate": {
+  "n": 14,
+  "N": 15,
+  "rate": 0.9333
+ },
+ "status_answerable": {
+  "answered": 15
+ },
+ "status_unanswerable": {
+  "abstain": 3
+ },
+ "abstained_unanswerable": {
+  "n": 3,
+  "N": 3,
+  "rate": 1.0
+ },
+ "refused_answerable": {
+  "n": 0,
+  "N": 15,
+  "rate": 0.0
+ },
+ "mean_context_chars": 4505.3,
+ "latency_s_mean": 0.41,
+ "latency_s_total": 7.4,
+ "usage_total": {
+  "llm_calls": 37,
+  "cached_calls": 32,
+  "input_tokens": 59154,
+  "output_tokens": 2624,
+  "thinking_tokens": 0
+ },
+ "cost_usd": 0.0,
+ "cost_note": "Gemini API free tier (không trả phí); token ghi ở usage_total"
+}

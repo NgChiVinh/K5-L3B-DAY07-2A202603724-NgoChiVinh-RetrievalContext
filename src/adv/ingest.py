@@ -155,6 +155,49 @@ def step_vision(pages: list[int] | None, model: str) -> None:
         print(f"p{p}: {done[str(p)].get('status')} {len(done[str(p)].get('elements', []))} elements", flush=True)
 
 
+CHART_VALUES_SYSTEM = """Bạn đọc số liệu từ MỘT biểu đồ trong ảnh trang báo cáo. Chỉ ghi những gì nhìn thấy.
+Trả về văn bản tiếng Việt bắt đầu bằng "Giá trị ước lượng:" rồi liệt kê:
+- với biểu đồ cột/thanh: giá trị từng cột theo từng nhóm/quốc gia/năm (dùng nhãn số nếu có, nếu không ước lượng theo trục và ghi "≈");
+- với biểu đồ đường/vùng: giá trị từng chuỗi tại các mốc trục hoành có ghi nhãn (điểm đầu, các mốc, điểm cuối) và điểm cao/thấp nhất;
+- với hộp (box plot): trung vị, cận trên, cận dưới của từng nhóm;
+- cuối cùng: chuỗi/nhóm cao nhất và thấp nhất."""
+
+
+def _hi_res(doc, page: int, hi_dir: Path) -> Path:
+    out = hi_dir / f'p{page:03d}.png'
+    if not out.exists():
+        doc[page - 1].get_pixmap(dpi=200).save(out)
+    return out
+
+
+def step_chart_values(model: str) -> None:
+    """Second vision pass for chart elements whose description lacks a 'Giá trị ước lượng' line."""
+    from src.day7.llm import LLMClient
+    day7_config.load_env()
+    import pymupdf
+    provider = 'openai' if model.startswith('gpt') else 'gemini'
+    # GPT-5 family only accepts the default temperature (1).
+    llm = LLMClient(provider, model, cache_dir=day7_config.LLM_CACHE_DIR,
+                    temperature=1.0 if model.startswith('gpt-5') else 0.0)
+    hi_dir = STORE / 'pages200'  # small charts are unreadable at 100 dpi -> 200 dpi renders
+    hi_dir.mkdir(parents=True, exist_ok=True)
+    doc = pymupdf.open(PDF)
+    vision = json.loads(VISION_PATH.read_text(encoding='utf-8'))
+    n = 0
+    for p, d in vision.items():
+        for e in d.get('elements', []):
+            if e.get('kind') != 'chart' or 'ước lượng' in e['content'].lower() or '≈' in e['content']:
+                continue
+            r = llm.vision(CHART_VALUES_SYSTEM, f"Biểu đồ cần đọc: {e.get('label', '')} – {e.get('title', '')} (trang PDF {p}).",
+                           _hi_res(doc, int(p), hi_dir))
+            e['content'] = e['content'].rstrip() + f"\n{r['text'].strip()}"
+            e['values_pass'] = {'model': model, 'usage': r['usage']}
+            n += 1
+            print(f"p{p} {e.get('label')}: +{len(r['text'])} chars", flush=True)
+    VISION_PATH.write_text(json.dumps(vision, ensure_ascii=False, indent=1), encoding='utf-8')
+    print(f'{n} charts updated')
+
+
 def step_chunks() -> None:
     import pymupdf
     doc = pymupdf.open(PDF)
@@ -177,6 +220,9 @@ def step_chunks() -> None:
         v = vision.get(str(i))
         if v and v.get('status') == 'ok':
             vc = visual_chunks(v['elements'], i)
+            for c, e in zip(vc, v['elements']):
+                if e.get('values_pass'):
+                    c['metadata']['extracted_by'] = f"gemini-vision + {e['values_pass']['model']} (giá trị)"
             chunks.extend(vc)
             stats['visual'] += len(vc)
         else:
@@ -207,10 +253,12 @@ def step_index() -> None:
 def main() -> None:
     sys.stdout.reconfigure(encoding='utf-8')
     p = argparse.ArgumentParser()
-    p.add_argument('--step', required=True, choices=['render', 'vision', 'chunks', 'index'])
+    p.add_argument('--step', required=True, choices=['render', 'vision', 'chart-values', 'chunks', 'index'])
     p.add_argument('--pages', nargs='*', type=int)
     p.add_argument('--model', default='gemini-3.1-flash-lite')
     a = p.parse_args()
+    if a.step == 'chart-values':
+        return step_chart_values(a.model)
     {'render': step_render, 'chunks': step_chunks, 'index': step_index}.get(a.step, lambda: step_vision(a.pages, a.model))()
 
 

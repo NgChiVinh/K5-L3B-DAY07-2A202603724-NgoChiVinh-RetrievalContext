@@ -1,0 +1,2609 @@
+[
+ {
+  "query_id": "d01",
+  "split": "dev",
+  "config": "improve_label_strict_41_budget",
+  "provider": "openai",
+  "model": "gpt-4.1",
+  "question": "Theo Bảng 2.1 về mục tiêu giảm phát thải trong CLQG-BĐKH, lĩnh vực nông nghiệp phải giảm bao nhiêu phần trăm vào năm 2030 và lĩnh vực chất thải phải giảm bao nhiêu phần trăm vào năm 2050?",
+  "filter": null,
+  "status": "answered",
+  "answer": "Theo Bảng 2.1, lĩnh vực nông nghiệp phải giảm 43,0% vào năm 2030 và lĩnh vực chất thải phải giảm 90,7% vào năm 2050 [wb-vn2045-greener-vi__p067__c101].",
+  "citations": [
+   "wb-vn2045-greener-vi__p067__c101"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_hybrid_label",
+    "query": "Bảng 2.1 mục tiêu giảm phát thải lĩnh vực nông nghiệp năm 2030 lĩnh vực chất thải năm 2050",
+    "filter": null,
+    "top_k": 5,
+    "results": [
+     {
+      "id": "wb-vn2045-greener-vi__p067__c101",
+      "rank": 1,
+      "score": 1.0,
+      "page": 67,
+      "method": "label",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-vn2045-greener-vi__p067__c001",
+      "rank": 2,
+      "score": 0.032258,
+      "page": 67,
+      "method": "hybrid",
+      "base_rank": null,
+      "component_ranks": {
+       "dense": 2,
+       "bm25": 2
+      },
+      "rerank_error": null
+     },
+     {
+      "id": "wb-vn2045-greener-vi__p066__c103",
+      "rank": 3,
+      "score": 0.031498,
+      "page": 66,
+      "method": "hybrid",
+      "base_rank": null,
+      "component_ranks": {
+       "dense": 3,
+       "bm25": 4
+      },
+      "rerank_error": null
+     },
+     {
+      "id": "wb-vn2045-greener-vi__p065__c003",
+      "rank": 4,
+      "score": 0.031025,
+      "page": 65,
+      "method": "hybrid",
+      "base_rank": null,
+      "component_ranks": {
+       "dense": 6,
+       "bm25": 3
+      },
+      "rerank_error": null
+     },
+     {
+      "id": "wb-vn2045-greener-vi__p022__c101",
+      "rank": 5,
+      "score": 0.030331,
+      "page": 22,
+      "method": "hybrid",
+      "base_rank": null,
+      "component_ranks": {
+       "dense": 4,
+       "bm25": 8
+      },
+      "rerank_error": null
+     }
+    ],
+    "added_ids": [
+     "wb-vn2045-greener-vi__p067__c101",
+     "wb-vn2045-greener-vi__p067__c001",
+     "wb-vn2045-greener-vi__p066__c103",
+     "wb-vn2045-greener-vi__p065__c003"
+    ],
+    "skipped_over_budget": [
+     "wb-vn2045-greener-vi__p022__c101"
+    ],
+    "context_chars": 3285
+   },
+   {
+    "event": "answer",
+    "citations": [
+     "wb-vn2045-greener-vi__p067__c101"
+    ]
+   }
+  ],
+  "context_ids": [
+   "wb-vn2045-greener-vi__p067__c101",
+   "wb-vn2045-greener-vi__p067__c001",
+   "wb-vn2045-greener-vi__p066__c103",
+   "wb-vn2045-greener-vi__p065__c003"
+  ],
+  "context": [
+   "[wb-vn2045-greener-vi__p067__c101] (trang 67, chuong_2_giam_phat_thai)\n[TABLE] Bảng 2.1: Chi tiết các mục tiêu giảm phát thải theo lĩnh vực trong CLQG-BĐKH (2030 và 2050)\n| Lĩnh vực | 2030 (% thay đổi) | 2030 (Không > triệu tấn CO2 tương đương) | 2050 (% thay đổi) | 2050 (Không > triệu tấn CO2 tương đương) |\n| :--- | :---: | :---: | :---: | :---: |\n| Lĩnh vực năng lượng | 32,6 | 457 | 91,6 | 101 |\n| Nông nghiệp | 43,0 | 64 | 63,1 | 56 |\n| Giảm qua sử dụng đất, thay đổi mục đích sử dụng đất, lâm nghiệp (LULUCF) | 70 | -95 (Tổng) | 90 | -185 (Tổng) |\n| Hấp thụ qua sử dụng đất, thay đổi mục đích sử dụng đất, lâm nghiệp (LULUCF) | 20 | | 30 | |\n| Chất thải | 60,7 | 18 | 90,7 | 8 |\n| Các quy trình công nghiệp | 38,3 | 86 | 84,8 | 20 |\n\n*Nguồn: CLQG-BĐKH 2022.*\n(Trang PDF 67, vùng: top)",
+   "[wb-vn2045-greener-vi__p067__c001] (trang 67, chuong_2_giam_phat_thai)\nLĩnh vực \nKhông > triệu tấn CO2\ntương đương\nKhông > triệu tấn CO2\ntương đương\n2030\n2050\n% thay đổi\n% thay đổi\nBảng 2.1. Chi tiết các mục tiêu giảm phát thải theo lĩnh vực trong CLQG-BĐKH\n(2030 và 2050)\nLĩnh vực năng lượng\nNông nghiệp\nGiảm qua sử dụng đất, thay \nđổi mục đích sử dụng đất, \nlâm nghiệp (LULUCF)\nHấp thụ qua sử dụng đất, \nthay đổi mục đích sử dụng \nđất, lâm nghiệp (LULUCF)\nChất thải\nCác quy trình công nghiệp\n457\n64\n-95 (Tổng)\n18\n86\n101\n56\n-185 (Tổng)\n8\n20\n32,6\n43,0\n70\n20\n60,7\n38,3\n91,6\n63,1\n90\n30\n90,7\n84,8\nNguồn: CLQG-BĐKH 2022.\nChính phủ đang chú trọng năm lĩnh vực chính với các kế hoạch hành động hướng tới thực hiện các \nmục tiêu NDC và phát thải ròng bằng không. Các lĩnh vực đó bao gồm năng lượng, giao thông vận tải \nvà nông nghiệp, được bổ sung với tiết kiệm năng lượng và định giá các-bon. Những chính sách đó được \ntrình bày dưới đây và trong Phụ lục 2.1.",
+   "[wb-vn2045-greener-vi__p066__c103] (trang 66, chuong_2_giam_phat_thai)\n[CHART] Hình 2.3: Các mục tiêu giảm phát thải của Việt Nam (2030 và 2050)\nBiểu đồ cột chồng thể hiện các mục tiêu giảm phát thải. Trục tung là Triệu tấn CO2 tương đương (0 đến 1600). Các nhóm ngành: Năng lượng (cam), Nông nghiệp (xám), Chất thải (vàng), Sản xuất công nghiệp (xanh dương). Có 3 cột chính: Cột 1 (2030 - Chỉ tiêu NDC 2020), Cột 2 (2030 - Chỉ tiêu NDC 2022), Cột 3 (2050 - Kịch bản cơ sở). Chú thích: Mũi tên giảm -27% cho NDC 2020, -43.5% cho NDC 2022. Mũi tên dài từ đỉnh cột 2050 xuống 0 ghi 'Mục tiêu của CLQG-BĐKH - Phát thải ròng bằng không'. Nguồn: Tính toán của cán bộ Ngân hàng Thế giới, dựa trên tuyên bố về NDC và trong CLQG-BĐKH. Giá trị ước lượng: Cột 2030 (NDC 2020) tổng ≈ 800; Cột 2030 (NDC 2022) tổng ≈ 950; Cột 2050 (Kịch bản cơ sở) tổng ≈ 1550.\n(Trang PDF 66, vùng: bottom)",
+   "[wb-vn2045-greener-vi__p065__c003] (trang 65, chuong_2_giam_phat_thai)\nCác nguồn khí thải chính ở Việt Nam gồm lĩnh vực điện (30,4%), \nnông nghiệp (17,6%), khí thải sản xuất công nghiệp (32,4%), và giao thông vận tải (7,6%) (Hình 2.2).\nViệt Nam đã đưa ra những cam kết tham vọng về khí thải qua tuyên bố về NDC cập nhật vào năm 2022 \nvà mục tiêu phát thải ròng bằng không trong Chiến lược quốc gia về biến đổi khí hậu (CLQG-BĐKH). \nCLQG-BĐKH năm 2022 đặt ra cam kết phát thải ròng bằng không trong đó chỉ tiêu trung gian đến năm \n2030 bằng với NDC có điều kiện được cập nhật cho cùng năm. Mục tiêu giảm thải trong CLQG-BĐKH \nđòi hỏi giảm phát thải nhà kính 43,5% trên toàn quốc so với kịch bản cơ sở vào năm 2030, trong đó khí \nthải các-bon sẽ đạt đỉnh vào năm 2035 và sau đó giảm mạnh để đạt phát thải ròng bằng không vào năm \n2050. Chi tiết về những gì cần đạt được theo từng lĩnh vực đến năm 2030 và 2050 được chỉ ra trong Hình \n2.3 và Bảng 2.1."
+  ],
+  "context_chars": 3285,
+  "searches": 1,
+  "usage": {
+   "llm_calls": 2,
+   "cached_calls": 1,
+   "input_tokens": 2748,
+   "output_tokens": 107,
+   "thinking_tokens": 0
+  },
+  "latency_s": 1.388,
+  "auto_eval": {
+   "answerable": true,
+   "context_has_evidence": true
+  }
+ },
+ {
+  "query_id": "d02",
+  "split": "dev",
+  "config": "improve_label_strict_41_budget",
+  "provider": "openai",
+  "model": "gpt-4.1",
+  "question": "Theo Bảng 3.3, năm 2020 ngành sản xuất chế biến thực phẩm (chế biến và bảo quản thủy hải sản) có bao nhiêu lao động, và số lao động ngành đánh bắt và nuôi trồng thủy sản năm 2020 là bao nhiêu?",
+  "filter": null,
+  "status": "answered",
+  "answer": "Năm 2020, ngành sản xuất chế biến thực phẩm (chế biến và bảo quản thủy hải sản) có 536.390 lao động; ngành đánh bắt và nuôi trồng thủy sản có 32.461 lao động [wb-vn2045-greener-vi__p100__c101].",
+  "citations": [
+   "wb-vn2045-greener-vi__p100__c101"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_hybrid_label",
+    "query": "Bảng 3.3 số lao động ngành sản xuất chế biến thực phẩm (chế biến và bảo quản thủy hải sản) năm 2020, số lao động ngành đánh bắt và nuôi trồng thủy sản năm 2020",
+    "filter": null,
+    "top_k": 5,
+    "results": [
+     {
+      "id": "wb-vn2045-greener-vi__p100__c101",
+      "rank": 1,
+      "score": 1.0,
+      "page": 100,
+      "method": "label",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-vn2045-greener-vi__p100__c002",
+      "rank": 2,
+      "score": 0.032002,
+      "page": 100,
+      "method": "hybrid",
+      "base_rank": null,
+      "component_ranks": {
+       "dense": 3,
+       "bm25": 2
+      },
+      "rerank_error": null
+     },
+     {
+      "id": "wb-vn2045-greener-vi__p103__c101",
+      "rank": 3,
+      "score": 0.031258,
+      "page": 103,
+      "method": "hybrid",
+      "base_rank": null,
+      "component_ranks": {
+       "dense": 5,
+       "bm25": 3
+      },
+      "rerank_error": null
+     },
+     {
+      "id": "wb-vn2045-greener-vi__p099__c001",
+      "rank": 4,
+      "score": 0.031099,
+      "page": 99,
+      "method": "hybrid",
+      "base_rank": null,
+      "component_ranks": {
+       "dense": 8,
+       "bm25": 1
+      },
+      "rerank_error": null
+     },
+     {
+      "id": "wb-vn2045-greener-vi__p143__c003",
+      "rank": 5,
+      "score": 0.029631,
+      "page": 143,
+      "method": "hybrid",
+      "base_rank": null,
+      "component_ranks": {
+       "dense": 7,
+       "bm25": 8
+      },
+      "rerank_error": null
+     }
+    ],
+    "added_ids": [
+     "wb-vn2045-greener-vi__p100__c101",
+     "wb-vn2045-greener-vi__p100__c002",
+     "wb-vn2045-greener-vi__p099__c001"
+    ],
+    "skipped_over_budget": [
+     "wb-vn2045-greener-vi__p103__c101",
+     "wb-vn2045-greener-vi__p143__c003"
+    ],
+    "context_chars": 3947
+   },
+   {
+    "event": "answer",
+    "citations": [
+     "wb-vn2045-greener-vi__p100__c101"
+    ]
+   }
+  ],
+  "context_ids": [
+   "wb-vn2045-greener-vi__p100__c101",
+   "wb-vn2045-greener-vi__p100__c002",
+   "wb-vn2045-greener-vi__p099__c001"
+  ],
+  "context": [
+   "[wb-vn2045-greener-vi__p100__c101] (trang 100, chuong_3_kinh_te_bien)\n[TABLE] Bảng 3.3: Việc làm trong các ngành/lĩnh vực liên quan đến biển tại Việt Nam giai đoạn 2010–2020 (lao động/chỗ làm chính thức trong các doanh nghiệp đã đăng ký)\n| STT | Ngành/lĩnh vực | 2010 | 2011 | 2012 | 2013 | 2014 | 2015 | 2016 | 2017 | 2018 | 2019 | 2020 |\n|---|---|---|---|---|---|---|---|---|---|---|---|---|\n| 1 | Đánh bắt và nuôi trồng thủy sản | 36.473 | 38.544 | 40.482 | 40.770 | 44.970 | 48.691 | 47.006 | 53.207 | 42.201 | 39.884 | 32.461 |\n| 2 | Dầu khí | 7.643 | 8.200 | 9.770 | 10.779 | 10.857 | 9.048 | 8.645 | 7.786 | 8.253 | 8.790 | 9.075 |\n| 3 | Điện gió ngoài khơi | - | - | - | - | - | - | - | - | - | - | - |\n| 4 | Vận tải đường thủy | 36.473 | 46.163 | 46.070 | 42.954 | 43.748 | 46.855 | 47.627 | 44.696 | 43.440 | 43.406 | 41.394 |\n| 5 | Du lịch và lữ hành | - | 4.018.900 | 4.120.300 | 4.098.900 | 3.966.100 | 3.778.400 | 4.002.800 | 4.060.900 | 4.116.800 | - | - |\n| 6 | Sản xuất chế biến thực phẩm (chế biến và bảo quản thủy hải sản) | 496.446 | 524.945 | 509.103 | 518.520 | 527.593 | 542.339 | 553.879 | 547.335 | 539.867 | 538.557 | 536.390 |\n| 7 | Sản xuất than cốc và các sản phẩm dầu mỏ tinh chế | 5.410 | 4.838 | 5.054 | 5.136 | 5.704 | 5.996 | 5.590 | 7.016 | 7.036 | 6.685 | 7.609 |\n| 8 | Sản xuất chế tạo thiết bị vận tải khác (chiếm tỷ trọng trong ngành vận tải biển). Đóng tàu, thuyền | 93.768 | 98.669 | 97.199 | 96.445 | 98.677 | 105.153 | 124.178 | 121.784 | 125.647 | 127.073 | 110.837 |\n| | Tổng | 676.213 | 4.740.259 | 4.827.978 | 4.813.504 | 4.697.649 | 4.536.482 | 4.789.725 | 4.842.724 | 4.883.244 | 764.395 | 902.691 |\n| | Tổng số việc làm | 50.392.900 | 51.398.400 | 52.348.000 | 53.245.600 | 53.748.000 | 53.984.200 | 54.445.300 | 54.819.600 | 55.388.000 | 55.767.400 | 54.842.900 |\n| | Tỷ lệ % các ngành/lĩnh vực biển trên tổng | - | 9,2% | 9,2% | 9,0% | 8,7% | 8,4% | 8,8% | 8,8% | 8,8% | - | - |\n\n*Nguồn: Các nguồn dữ liệu của Chính phủ Việt Nam, 2024, 2024. Tính toán của cán bộ Ngân hàng Thế giới.*\n(Trang PDF 100, vùng: top)",
+   "[wb-vn2045-greener-vi__p100__c002] (trang 100, chuong_3_kinh_te_bien)\nNhưng khi nhìn \nvào tỷ lệ phần trăm trên tổng lực lượng lao động, Việc làm (lao động/chỗ làm chính thức trong các doanh \nnghiệp đã đăng ký) trong các ngành/lĩnh vực kinh tế biển của Việt Nam chỉ chiếm 8,8%, cao hơn so với \nhầu hết các quốc gia, chỉ sau Trung Quốc, Ai-xơ-len và Hoa Kỳ. Phân tích so sánh trên, như được minh \nhọa ở Hình 3.3, không chỉ phản ánh giai đoạn phát triển hiện nay của quốc gia mà còn chỉ ra tầm quan \ntrọng của các ngành/lĩnh vực kinh tế biển của Việt Nam trên thị trường lao động, cho dù đóng góp của \nkhu vực này về tổng giá trị gia tăng (GVA) còn thấp hơn so với một số quốc gia khác.\nĐánh bắt và nuôi \ntrồng thủy sản\nDầu khí\nĐiện gió ngoài khơi\nVận tải đường thủy\nDu lịch và lữ hành\nSản xuất chế biến \nthực phẩm (chế biến \nvà bảo quản thủy \nhải sản)\nSản xuất than cốc \nvà các sản phẩm \ndầu mỏ tinh chế\nSản xuất chế tạo \nthiết bị vận tải khác \n(chiếm tỷ trọng \ntrong ngành vận \ntải biển). Đóng tàu, \nthuyền\nTổng\nTổng số việc làm",
+   "[wb-vn2045-greener-vi__p099__c001] (trang 99, chuong_3_kinh_te_bien)\nNguồn: Tính toán của cán bộ Ngân hàng Thế giới.\nNguồn: Tính toán của cán bộ Ngân hàng Thế giới.\nHình 3.1.  Xu hướng về Tổng giá trị gia\ntăng (VA) trên tất cả các ngành KTB\nđược chọn (%)\nHình 3.2. Tỉ trọng đóng góp của các \nngành KTB cho tổng giá trị gia tăng\n(GVA) năm 2019\n1%\n11%\n7%\n18%\n3%\n12%\n3%\n45%\nĐánh bắt và nuôi\ntrồng thủy sản\nDầu thô và\nkhí tự nhiên\nChế biến và bảo\nquản thủy sản\nChế biến than cốc\nvà các sản phẩm\ndầu mỏ tinh chế\nĐóng tàu và thuyền\nVận tải biển\nĐiện gió ngoài khơi\nDu lịch biển\n0%\n1%\n2%\n3%\n4%\n5%\n6%\n7%\n8%\n2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020\nĐánh bắt và nuôi trồng \nthủy sản\nDầu khí\nSản xuất chế biến thực \nphẩm (chế biến và bảo \nquản thủy hải sản)\nSản xuất than cốc và \ncác sản phẩm dầu mỏ \ntinh chế\nSản xuất chế tạo thiết bị \nvận tải khác (có tỷ trọng \ntrong lĩnh vực vận tải \nbiển) - Đóng tàu, thuyền\nVận tải đường thủy\nĐiện gió ngoài khơi\nDu lịch và lữ hành\nGiá trị gia tăng (VA)\nTỷ lệ % các ngành/lĩnh \nvực biển trong GVA\n1\n2\n3\n4\n5\n6\n7\n8\n1.041\n23.500"
+  ],
+  "context_chars": 3947,
+  "searches": 1,
+  "usage": {
+   "llm_calls": 2,
+   "cached_calls": 1,
+   "input_tokens": 3170,
+   "output_tokens": 138,
+   "thinking_tokens": 0
+  },
+  "latency_s": 1.25,
+  "auto_eval": {
+   "answerable": true,
+   "context_has_evidence": true
+  }
+ },
+ {
+  "query_id": "d03",
+  "split": "dev",
+  "config": "improve_label_strict_41_budget",
+  "provider": "openai",
+  "model": "gpt-4.1",
+  "question": "Theo Phụ lục 1.7, ví dụ quốc tế nào được nêu cho hành động \"Đầu tư hạ tầng thích ứng với biến đổi khí hậu\" trong lĩnh vực giảm thiểu rủi ro thiên tai?",
+  "filter": null,
+  "status": "answered",
+  "answer": "Ví dụ quốc tế được nêu cho hành động \"Đầu tư hạ tầng thích ứng với biến đổi khí hậu\" trong lĩnh vực giảm thiểu rủi ro thiên tai là: Các dự án quản lý lũ lụt của Thái Lan, bao gồm xây dựng các rào chắn lũ, hồ chứa và hệ thống thoát nước để giảm thiểu tác động của lượng mưa lớn và ngăn ngừa lũ lụt ở các khu vực đô thị như Bangkok [wb-vn2045-greener-vi__p129__c102].",
+  "citations": [
+   "wb-vn2045-greener-vi__p129__c102"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_hybrid_label",
+    "query": "Phụ lục 1.7 ví dụ quốc tế Đầu tư hạ tầng thích ứng với biến đổi khí hậu lĩnh vực giảm thiểu rủi ro thiên tai",
+    "filter": null,
+    "top_k": 5,
+    "results": [
+     {
+      "id": "wb-vn2045-greener-vi__p129__c102",
+      "rank": 1,
+      "score": 1.0,
+      "page": 129,
+      "method": "label",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-vn2045-greener-vi__p129__c003",
+      "rank": 2,
+      "score": 0.032522,
+      "page": 129,
+      "method": "hybrid",
+      "base_rank": null,
+      "component_ranks": {
+       "dense": 1,
+       "bm25": 2
+      },
+      "rerank_error": null
+     },
+     {
+      "id": "wb-vn2045-greener-vi__p129__c002",
+      "rank": 3,
+      "score": 0.031498,
+      "page": 129,
+      "method": "hybrid",
+      "base_rank": null,
+      "component_ranks": {
+       "dense": 4,
+       "bm25": 3
+      },
+      "rerank_error": null
+     },
+     {
+      "id": "wb-vn2045-greener-vi__p019__c101",
+      "rank": 4,
+      "score": 0.027588,
+      "page": 19,
+      "method": "hybrid",
+      "base_rank": null,
+      "component_ranks": {
+       "dense": 13,
+       "bm25": 12
+      },
+      "rerank_error": null
+     },
+     {
+      "id": "wb-vn2045-greener-vi__p060__c003",
+      "rank": 5,
+      "score": 0.02748,
+      "page": 60,
+      "method": "hybrid",
+      "base_rank": null,
+      "component_ranks": {
+       "dense": 17,
+       "bm25": 9
+      },
+      "rerank_error": null
+     }
+    ],
+    "added_ids": [
+     "wb-vn2045-greener-vi__p129__c102",
+     "wb-vn2045-greener-vi__p129__c003",
+     "wb-vn2045-greener-vi__p129__c002"
+    ],
+    "skipped_over_budget": [
+     "wb-vn2045-greener-vi__p019__c101",
+     "wb-vn2045-greener-vi__p060__c003"
+    ],
+    "context_chars": 3204
+   },
+   {
+    "event": "answer",
+    "citations": [
+     "wb-vn2045-greener-vi__p129__c102"
+    ]
+   }
+  ],
+  "context_ids": [
+   "wb-vn2045-greener-vi__p129__c102",
+   "wb-vn2045-greener-vi__p129__c003",
+   "wb-vn2045-greener-vi__p129__c002"
+  ],
+  "context": [
+   "[wb-vn2045-greener-vi__p129__c102] (trang 129, phu_luc)\n[TABLE] Phụ lục 1.7: Các lựa chọn chính sách được lập bản đồ theo Kế hoạch thích ứng quốc gia (NAP) kèm theo một số ví dụ\n| Các lĩnh vực can thiệp được xác định trong NAP | Hành động và mục tiêu | Ví dụ |\n| :--- | :--- | :--- |\n| **Giảm thiểu rủi ro thiên tai NAP: (2) Ứng phó với thiên tai, phòng chống ngập lụt ở các thành phố lớn, củng cố hệ thống đê sông, đê biển và hồ chứa nước an toàn.** | Đầu tư hạ tầng thích ứng với biến đổi khí hậu | Các dự án quản lý lũ lụt của Thái Lan: xây dựng các rào chắn lũ, hồ chứa và hệ thống thoát nước để giảm thiểu tác động của lượng mưa lớn và ngăn ngừa lũ lụt ở các khu vực đô thị như Bangkok. |\n| | Thực hiện các chính sách, chiến lược và hành động để giảm thiểu tình trạng dễ bị tổn thương của cộng đồng và xã hội trước những thảm họa do biến đổi khí hậu gây ra. | Giảm thiểu rủi ro thiên tai dựa vào cộng đồng tại Philippines: nâng cao năng lực cho cộng đồng địa phương để xác định rủi ro, xây dựng kế hoạch dự phòng và thực hiện các biện pháp giảm thiểu.<br><br>Kiểm soát và quản lý lũ lụt của Trung Quốc: chính phủ đã đầu tư mạnh vào hạ tầng kiểm soát lũ lụt – như đập, hồ chứa và đê – để giảm thiểu rủi ro lũ lụt và bảo vệ các khu vực dễ bị tổn thương. |\n(Trang PDF 129, vùng: bottom)",
+   "[wb-vn2045-greener-vi__p129__c003] (trang 129, phu_luc)\nĐầu tư hạ tầng thích ứng với \nbiến đổi khí hậu\nThực hiện các chính sách, \nchiến lược và hành động \nđể giảm thiểu tình trạng \ndễ bị tổn thương của cộng \nđồng và xã hội trước những \nthảm họa do biến đổi khí \nhậu gây ra.\nCác dự án quản lý lũ lụt của Thái Lan: xây dựng các \nrào chắn lũ, hồ chứa và hệ thống thoát nước để giảm \nthiểu tác động của lượng mưa lớn và ngăn ngừa lũ lụt \nở các khu vực đô thị như Bangkok.\nGiảm thiểu rủi ro thiên tai dựa vào cộng đồng tại \nPhilippines: nâng cao năng lực cho cộng đồng địa \nphương để xác định rủi ro, xây dựng kế hoạch dự \nphòng và thực hiện các biện pháp giảm thiểu.\nKiểm soát và quản lý lũ lụt của Trung Quốc: chính \nphủ đã đầu tư mạnh vào hạ tầng kiểm soát lũ lụt – \nnhư đập, hồ chứa và đê – để giảm thiểu rủi ro lũ lụt \nvà bảo vệ các khu vực dễ bị tổn thương.\nCác lĩnh vực can \nthiệp được xác định \ntrong NAP\nHành động và mục tiêu\nVí dụ\nPhụ lục 1.7. Các lựa chọn chính sách được lập bản đồ theo Kế \nhoạch thích ứng quốc gia (NAP) kèm theo một số ví dụ",
+   "[wb-vn2045-greener-vi__p129__c002] (trang 129, phu_luc)\nTham chiếu trực tiếp đến tác động và yêu cầu giảm thiểu biến đổi khí hậu khi phân \nloại đầu tư công trong luật về biến đổi khí hậu, bảo vệ môi trường và xây dựng. Lồng \nghép các cân nhắc về rủi ro khí hậu vào đầu tư công bằng cách trước hết lập bản đồ \nrủi ro khí hậu cho các mạng lưới hạ tầng quan trọng, chẳng hạn như hệ thống giao \nthông và cấp thoát nước. Yêu cầu sàng lọc biến đổi khí hậu và đánh giá các biện pháp \nthích ứng trong giai đoạn đầu của quá trình lập kế hoạch đầu tư, bao gồm các nghiên \ncứu tiền khả thi và khả thi, đặc biệt đối với các dự án có nguy cơ rủi ro khí hậu cao. \nYêu cầu báo cáo nhằm cung cấp thông tin về tính phù hợp với bối cảnh biến đổi khí \nhậu trong các báo cáo chính sách đầu tư và nghiên cứu khả thi của dự án, tích hợp \nvào các văn bản pháp lý (ví dụ: về ODA và đầu tư).\nGiảm thiểu rủi ro thiên \ntai NAP: (2) Ứng phó \nvới thiên tai, phòng \nchống ngập lụt ở các \nthành phố lớn, củng \ncố hệ thống đê sông, \nđê biển và hồ chứa \nnước an toàn."
+  ],
+  "context_chars": 3204,
+  "searches": 1,
+  "usage": {
+   "llm_calls": 2,
+   "cached_calls": 1,
+   "input_tokens": 2456,
+   "output_tokens": 172,
+   "thinking_tokens": 0
+  },
+  "latency_s": 1.155,
+  "auto_eval": {
+   "answerable": true,
+   "context_has_evidence": true
+  }
+ },
+ {
+  "query_id": "d04",
+  "split": "dev",
+  "config": "improve_label_strict_41_budget",
+  "provider": "openai",
+  "model": "gpt-4.1",
+  "question": "Theo Hình 1.1, đến khoảng năm 2100 kịch bản phát thải nào cho nhiệt độ trung bình năm của Việt Nam cao nhất và ở mức khoảng bao nhiêu độ C?",
+  "filter": null,
+  "status": "answered",
+  "answer": "Đến khoảng năm 2100, kịch bản phát thải cho nhiệt độ trung bình năm của Việt Nam cao nhất là RCP 8.5, với mức khoảng 28,3°C [wb-vn2045-greener-vi__p040__c101].",
+  "citations": [
+   "wb-vn2045-greener-vi__p040__c101"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_hybrid_label",
+    "query": "Hình 1.1 kịch bản phát thải nào cho nhiệt độ trung bình năm của Việt Nam cao nhất đến khoảng năm 2100, mức bao nhiêu độ C",
+    "filter": null,
+    "top_k": 5,
+    "results": [
+     {
+      "id": "wb-vn2045-greener-vi__p040__c101",
+      "rank": 1,
+      "score": 1.0,
+      "page": 40,
+      "method": "label",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-vn2045-greener-vi__p039__c004",
+      "rank": 2,
+      "score": 0.032002,
+      "page": 39,
+      "method": "hybrid",
+      "base_rank": null,
+      "component_ranks": {
+       "dense": 2,
+       "bm25": 3
+      },
+      "rerank_error": null
+     },
+     {
+      "id": "wb-vn2045-greener-vi__p040__c001",
+      "rank": 3,
+      "score": 0.032002,
+      "page": 40,
+      "method": "hybrid",
+      "base_rank": null,
+      "component_ranks": {
+       "dense": 3,
+       "bm25": 2
+      },
+      "rerank_error": null
+     },
+     {
+      "id": "wb-vn2045-greener-vi__p056__c003",
+      "rank": 4,
+      "score": 0.030769,
+      "page": 56,
+      "method": "hybrid",
+      "base_rank": null,
+      "component_ranks": {
+       "dense": 5,
+       "bm25": 5
+      },
+      "rerank_error": null
+     },
+     {
+      "id": "wb-vn2045-greener-vi__p006__c002",
+      "rank": 5,
+      "score": 0.030331,
+      "page": 6,
+      "method": "hybrid",
+      "base_rank": null,
+      "component_ranks": {
+       "dense": 8,
+       "bm25": 4
+      },
+      "rerank_error": null
+     }
+    ],
+    "added_ids": [
+     "wb-vn2045-greener-vi__p040__c101",
+     "wb-vn2045-greener-vi__p039__c004",
+     "wb-vn2045-greener-vi__p040__c001",
+     "wb-vn2045-greener-vi__p006__c002"
+    ],
+    "skipped_over_budget": [
+     "wb-vn2045-greener-vi__p056__c003"
+    ],
+    "context_chars": 3664
+   },
+   {
+    "event": "answer",
+    "citations": [
+     "wb-vn2045-greener-vi__p040__c101"
+    ]
+   }
+  ],
+  "context_ids": [
+   "wb-vn2045-greener-vi__p040__c101",
+   "wb-vn2045-greener-vi__p039__c004",
+   "wb-vn2045-greener-vi__p040__c001",
+   "wb-vn2045-greener-vi__p006__c002"
+  ],
+  "context": [
+   "[wb-vn2045-greener-vi__p040__c101] (trang 40, chuong_1_thich_ung)\n[CHART] Hình 1.1: Nhiệt độ trung bình hàng năm của Việt Nam trong quá khứ và theo dự báo\nBiểu đồ đường (vùng) thể hiện nhiệt độ trung bình hàng năm (Độ C) từ năm 1980 đến 2100. Trục hoành là thời gian (1980, 2000, 2020, 2040, 2060, 2080, 2100). Trục tung là nhiệt độ (Độ C), từ 23 đến 30. Chú giải gồm: Quá khứ (màu đen), RCP 2.6 (màu xanh dương), RCP 4.5 (màu xanh lá), RCP 6.0 (màu vàng), RCP 8.5 (màu đỏ). Xu hướng chung là nhiệt độ tăng dần theo thời gian ở tất cả các kịch bản. Nguồn: Hỗ sơ rủi ro khí hậu quốc gia https://climateknowledgeportal.worldbank.org/country-profiles. Ghi chú: RCP 4.5 là kịch bản trung bình, RCP 8.5 là kịch bản bi quan, RCP 2.6 là kịch bản lạc quan.\nGiá trị ước lượng:\n\n- Quá khứ:  \n  - Điểm đầu khoảng 1990: ≈24,4°C  \n  - 2000: ≈24,7°C  \n  - 2020: ≈25,1°C  \n  - Thấp nhất: ≈24,3°C  \n  - Cao nhất: ≈25,2°C  \n\n- RCP 2.6:  \n  - 2020: ≈25,1°C  \n  - 2040: ≈25,4°C  \n  - 2060: ≈25,6°C  \n  - 2080: ≈25,6°C  \n  - 2100: ≈25,4°C  \n  - Thấp nhất: ≈25,1°C  \n  - Cao nhất: ≈25,7°C  \n\n- RCP 4.5:  \n  - 2020: ≈25,1°C  \n  - 2040: ≈25,5°C  \n  - 2060: ≈26,0°C  \n  - 2080: ≈26,4°C  \n  - 2100: ≈26,3°C  \n  - Thấp nhất: ≈25,1°C  \n  - Cao nhất: ≈26,5°C  \n\n- RCP 6.0:  \n  - 2020: ≈25,1°C  \n  - 2040: ≈25,4°C  \n  - 2060: ≈26,0°C  \n  - 2080: ≈26,3°C  \n  - 2100: ≈26,7°C  \n  - Thấp nhất: ≈25,1°C  \n  - Cao nhất: ≈26,8°C  \n\n- RCP 8.5:  \n  - 2020: ≈25,1°C  \n  - 2040: ≈25,8°C  \n  - 2060: ≈26,7°C  \n  - 2080: ≈27,7°C  \n  - 2100: ≈28,3°C  \n  - Thấp nhất: ≈25,1°C  \n  - Cao nhất: ≈28,3°C  \n\n- Chuỗi cao nhất: RCP 8.5, khoảng ≈28,3°C vào cuối thế kỷ.  \n- Chuỗi thấp nhất: Quá khứ, khoảng ≈24,3°C ở đầu giai đoạn hiển thị.\n(Trang PDF 40, vùng: top-left)",
+   "[wb-vn2045-greener-vi__p039__c004] (trang 39, chuong_1_thich_ung)\nNhiệt độ được dự báo sẽ tăng lên và biến động về lượng mưa dự kiến có khả năng gây thiệt hại kinh \ntế lớn hơn so với những gì đã trải qua. Việt Nam được dự báo sẽ có mức nhiệt độ tăng trung bình 1,5°C \ntrong giai đoạn 2080-2100 theo kịch bản biến đổi khí hậu có khả năng xảy ra nhất (RCP4.5), khi lượng \nkhí thải đạt đỉnh vào năm 2040 (Hình 1.1).29 Mức tăng nhiệt độ tối đa và tối thiểu hàng năm ở Việt Nam \ndự kiến sẽ lớn hơn các mức nhiệt độ trung bình, có thể làm tăng tác động đến sức khỏe, sinh kế và hệ \nsinh thái của con người. Một nghiên cứu của Katzfey và đồng sự (2014) cho thấy nhiệt độ tăng mạnh \nnhất ở miền Nam của Việt Nam, nhưng vẫn còn nhiều bất định giữa các địa phương, xu hướng về lượng \nmưa trong tương lai (Hình 1.2) và cường độ của các sự kiện thời tiết cực đoan.",
+   "[wb-vn2045-greener-vi__p040__c001] (trang 40, chuong_1_thich_ung)\nHình 1.1. Nhiệt độ trung bình hàng năm\ncủa Việt Nam trong quá khứ và theo\ndự báo\nHình 1.2. Lượng mưa trung bình hàng\nnăm của Việt Nam trong quá khứ và\ntheo dự báo\nĐộ C\n23\nQuá khứ\n24\n25\n26\n27\n28\n29\n30\n2800\nmm\nQuá khứ\nRCP 2.6\nRCP 4.5\nRCP 6.0\nRCP 8.5\n2600\n2400\n2200\n2000\n1800\n1600\n1400\n1200\n1000\n1980\n2000\n2020\n2040\n2060\n2080\n2100\nRCP 2.6\nRCP 4.5\nRCP 6.0\nRCP 8.5\nNguồn: Hồ sơ rủi ro khí hậu quốc gia https://climateknowledgeportal.worldbank.org/country-profiles \nGhi chú: RCP 4.5 được Ủy ban liên chính phủ về biến đổi khí hậu (IPCC) mô tả là một kịch bản trung bình, trong đó lượng khí thải \nđạt đỉnh vào khoảng năm 2040 và sau đó giảm. RCP8.5 là kịch bản bi quan, trong đó lượng khí thải toàn cầu hàng năm được giả \nđịnh tiếp tục tăng trong thế kỷ 21. RCP2.6 là kịch bản lạc quan đòi hỏi hành động toàn cầu nhanh chóng và có hệ thống để đạt \nđược mức giảm khí thải đủ để đạt được phát thải ròng bằng 0 toàn cầu vào năm 2080.",
+   "[wb-vn2045-greener-vi__p006__c002] (trang 6, tien_van_ban)\nSo sánh các dự báo năm 2030 với năm 2020 (tỷ lệ % GDP theo lĩnh vực\t\nxviii\nHình 1.1. Nhiệt độ trung bình hàng năm của Việt Nam trong quá khứ và theo dự báo\t\n8\nHình 1.2. Lượng mưa trung bình hàng năm của Việt Nam trong quá khứ và theo dự báo\t\n8\nHình 1.3. Tình trạng đường quốc lộ ở các khu vực\t\n11\nHÌNH"
+  ],
+  "context_chars": 3664,
+  "searches": 1,
+  "usage": {
+   "llm_calls": 2,
+   "cached_calls": 1,
+   "input_tokens": 2999,
+   "output_tokens": 112,
+   "thinking_tokens": 0
+  },
+  "latency_s": 0.974,
+  "auto_eval": {
+   "answerable": true,
+   "context_has_evidence": true
+  }
+ },
+ {
+  "query_id": "d05",
+  "split": "dev",
+  "config": "improve_label_strict_41_budget",
+  "provider": "openai",
+  "model": "gpt-4.1",
+  "question": "Theo Hình 0.1, đến năm 2050 GDP theo giá so sánh giảm khoảng bao nhiêu phần trăm so với kịch bản cơ sở trong kịch bản tích cực và trong kịch bản tiêu cực?",
+  "filter": null,
+  "status": "answered",
+  "answer": "Đến năm 2050, GDP theo giá so sánh giảm so với kịch bản cơ sở:\n- Trong kịch bản tích cực: khoảng -11,2% đến -11,5%\n- Trong kịch bản tiêu cực: khoảng -15,5% đến -16,0% [wb-vn2045-greener-vi__p016__c101][wb-vn2045-greener-vi__p045__c102]",
+  "citations": [
+   "wb-vn2045-greener-vi__p016__c101",
+   "wb-vn2045-greener-vi__p045__c102"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_hybrid_label",
+    "query": "Hình 0.1 GDP theo giá so sánh đến năm 2050 giảm bao nhiêu phần trăm so với kịch bản cơ sở trong kịch bản tích cực và tiêu cực",
+    "filter": null,
+    "top_k": 5,
+    "results": [
+     {
+      "id": "wb-vn2045-greener-vi__p016__c101",
+      "rank": 1,
+      "score": 1.0,
+      "page": 16,
+      "method": "label",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-vn2045-greener-vi__p016__c001",
+      "rank": 2,
+      "score": 0.032266,
+      "page": 16,
+      "method": "hybrid",
+      "base_rank": null,
+      "component_ranks": {
+       "dense": 3,
+       "bm25": 1
+      },
+      "rerank_error": null
+     },
+     {
+      "id": "wb-vn2045-greener-vi__p045__c102",
+      "rank": 3,
+      "score": 0.03125,
+      "page": 45,
+      "method": "hybrid",
+      "base_rank": null,
+      "component_ranks": {
+       "dense": 4,
+       "bm25": 4
+      },
+      "rerank_error": null
+     },
+     {
+      "id": "wb-vn2045-greener-vi__p045__c101",
+      "rank": 4,
+      "score": 0.030536,
+      "page": 45,
+      "method": "hybrid",
+      "base_rank": null,
+      "component_ranks": {
+       "dense": 5,
+       "bm25": 6
+      },
+      "rerank_error": null
+     },
+     {
+      "id": "wb-vn2045-greener-vi__p044__c002",
+      "rank": 5,
+      "score": 0.030415,
+      "page": 44,
+      "method": "hybrid",
+      "base_rank": null,
+      "component_ranks": {
+       "dense": 10,
+       "bm25": 2
+      },
+      "rerank_error": null
+     }
+    ],
+    "added_ids": [
+     "wb-vn2045-greener-vi__p016__c101",
+     "wb-vn2045-greener-vi__p016__c001",
+     "wb-vn2045-greener-vi__p045__c102",
+     "wb-vn2045-greener-vi__p045__c101",
+     "wb-vn2045-greener-vi__p044__c002"
+    ],
+    "skipped_over_budget": [],
+    "context_chars": 3452
+   },
+   {
+    "event": "answer",
+    "citations": [
+     "wb-vn2045-greener-vi__p016__c101",
+     "wb-vn2045-greener-vi__p045__c102"
+    ]
+   }
+  ],
+  "context_ids": [
+   "wb-vn2045-greener-vi__p016__c101",
+   "wb-vn2045-greener-vi__p016__c001",
+   "wb-vn2045-greener-vi__p045__c102",
+   "wb-vn2045-greener-vi__p045__c101",
+   "wb-vn2045-greener-vi__p044__c002"
+  ],
+  "context": [
+   "[wb-vn2045-greener-vi__p016__c101] (trang 16, tong_quan)\n[CHART] Hình 0.1: Tác động của biến đổi khí hậu đến GDP theo giá so sánh so với kịch bản cơ sở\nBiểu đồ đường (area chart) thể hiện % chênh lệch GDP so với kịch bản cơ sở từ năm 2030 đến 2050. Trục tung là % chênh lệch (-8.0% đến -16.0%), trục hoành là thời gian (2030, 2035, 2040, 2045, 2050). Chú giải gồm 3 chuỗi: Tích cực (đường màu xanh lá), Có khả năng xảy ra nhất (đường màu xanh dương), Tiêu cực (đường màu xám). Vùng giữa các đường được tô màu. Nguồn: Ước tính của cán bộ Ngân hàng Thế giới bằng mô hình MANAGE.\n\nGiá trị ước lượng:\n- Tích cực: 2030 ≈ -8,2%; 2035 ≈ -9,2%; 2040 ≈ -10,5%; 2045 ≈ -10,5%; 2050 ≈ -11,2%\n- Có khả năng xảy ra nhất: 2030 ≈ -8,2%; 2035 ≈ -9,2%; 2040 ≈ -10,8%; 2045 ≈ -11,5%; 2050 ≈ -12,5%\n- Tiêu cực: 2030 ≈ -8,5%; 2035 ≈ -9,5%; 2040 ≈ -11,5%; 2045 ≈ -13,0%; 2050 ≈ -15,5%\n(Trang PDF 16, vùng: top)",
+   "[wb-vn2045-greener-vi__p016__c001] (trang 16, tong_quan)\nHình 0.1. Tác động của biến đổi khí hậu đến GDP theo giá so sánh\nso với kịch bản cơ sở\n(% chênh lệch so với kịch bản cơ sở)\n-16.0%\n-14.0%\n-12.0%\n-10.0%\n-8.0%\n2030\n2035\n2040\n2045\n2050\nTích cực\nCó khả năng\nxảy ra nhất\nTiêu cực\nNguồn: Ước tính của cán bộ Ngân hàng Thế giới bằng mô hình MANAGE.",
+   "[wb-vn2045-greener-vi__p045__c102] (trang 45, chuong_1_thich_ung)\n[CHART] Hình 1.5: Tác động của biến đổi khí hậu đến GDP theo giá so sánh, so với kịch bản cơ sở\nBiểu đồ vùng (area chart) thể hiện % chênh lệch GDP so với kịch bản cơ sở từ năm 2030 đến 2050. Trục hoành là các năm (2030, 2035, 2040, 2045, 2050). Trục tung là % chênh lệch (-16.0%, -14.0%, -12.0%, -10.0%, -8.0%). Có 3 vùng dữ liệu tương ứng với 3 kịch bản: Tích cực (xanh lá), Có khả năng xảy ra nhất (xanh dương), Tiêu cực (xám). Xu hướng chung là giảm dần (càng âm sâu) theo thời gian. Nguồn: Ước tính của cán bộ Ngân hàng Thế giới bằng mô hình MANAGE.\n\nGiá trị ước lượng (tại các mốc 2030, 2050):\n- Tích cực: 2030 ≈ -8.2%; 2050 ≈ -11.5%\n- Có khả năng xảy ra nhất: 2030 ≈ -8.5%; 2050 ≈ -12.5%\n- Tiêu cực: 2030 ≈ -8.8%; 2050 ≈ -16.0%\n(Trang PDF 45, vùng: top-right)",
+   "[wb-vn2045-greener-vi__p045__c101] (trang 45, chuong_1_thich_ung)\n[CHART] Hình 1.4: GDP theo giá so sánh trong các kịch bản biến đổi khí hậu khác nhau\nBiểu đồ đường thể hiện GDP theo giá so sánh (Chỉ số 2018=100) từ năm 2030 đến 2050. Trục hoành là các năm (2030, 2035, 2040, 2045, 2050). Trục tung là chỉ số GDP (150, 250, 350, 450). Có 4 chuỗi dữ liệu: Kịch bản cơ sở (vàng), Tích cực (xanh lá), Có khả năng xảy ra nhất (xanh dương), Tiêu cực (xám). Xu hướng chung là tăng dần theo thời gian. Kịch bản cơ sở cao nhất, tiếp theo là Tích cực, Có khả năng xảy ra nhất, và Tiêu cực thấp nhất. Nguồn: Ước tính của cán bộ Ngân hàng Thế giới bằng mô hình MANAGE.\n\nGiá trị ước lượng (tại các mốc 2030, 2050):\n- Kịch bản cơ sở: 2030 ≈ 180; 2050 ≈ 450\n- Tích cực: 2030 ≈ 175; 2050 ≈ 420\n- Có khả năng xảy ra nhất: 2030 ≈ 170; 2050 ≈ 400\n- Tiêu cực: 2030 ≈ 165; 2050 ≈ 390\n(Trang PDF 45, vùng: top-left)",
+   "[wb-vn2045-greener-vi__p044__c002] (trang 44, chuong_1_thich_ung)\nmức bình quân dự kiến 5,7% trong những năm 2020 xuống còn 4,6% trong những năm 2040 là thời điểm \nnền kinh tế phát triển chín muồi (Bảng 1.1).48 So với kịch bản cơ sở nêu trên, thiệt hại kinh tế vĩ mô của \nbiến đổi khí hậu toàn cầu theo kịch bản có khả năng xảy ra nhất (RCP4.5) sẽ làm giảm khoảng nửa điểm \nphần trăm của tăng trưởng GDP theo giá so sánh bình quân mỗi năm trong những năm2020, và giảm \nbình quân 0,25 điểm phần trăm vào những năm 2040. Tăng trưởng GDP theo giá so sánh giảm gây ảnh \nhưởng đến lộ trình GDP theo giá so sánh (Hình 1.4), dẫn đến thiệt hại về GDP theo giá so sánh theo kịch \nbản có khả năng xảy ra nhất ước tính dao động từ 9,1% vào những năm 2030 đến 12,5% vào năm 2050 so \nvới kịch bản cơ sở (Hình 1.5)."
+  ],
+  "context_chars": 3452,
+  "searches": 1,
+  "usage": {
+   "llm_calls": 2,
+   "cached_calls": 2,
+   "input_tokens": 2902,
+   "output_tokens": 153,
+   "thinking_tokens": 0
+  },
+  "latency_s": 0.027,
+  "auto_eval": {
+   "answerable": true,
+   "context_has_evidence": true
+  }
+ },
+ {
+  "query_id": "d06",
+  "split": "dev",
+  "config": "improve_label_strict_41_budget",
+  "provider": "openai",
+  "model": "gpt-4.1",
+  "question": "Theo Hình A2.3.1 về tiêu thụ năng lượng sơ cấp theo % GDP (kWh/$), quốc gia nào có mức thấp nhất và Việt Nam ở mức khoảng bao nhiêu?",
+  "filter": null,
+  "status": "answered",
+  "answer": "Quốc gia có mức tiêu thụ năng lượng sơ cấp theo % GDP (kWh/$) thấp nhất là In-đô-nê-xia (≈0,80 kWh/$). Việt Nam ở mức khoảng 1,50 kWh/$ [wb-vn2045-greener-vi__p137__c101].",
+  "citations": [
+   "wb-vn2045-greener-vi__p137__c101"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_hybrid_label",
+    "query": "Hình A2.3.1 tiêu thụ năng lượng sơ cấp theo % GDP (kWh/$) quốc gia thấp nhất và Việt Nam",
+    "filter": null,
+    "top_k": 5,
+    "results": [
+     {
+      "id": "wb-vn2045-greener-vi__p137__c101",
+      "rank": 1,
+      "score": 1.0,
+      "page": 137,
+      "method": "label",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-vn2045-greener-vi__p136__c002",
+      "rank": 2,
+      "score": 0.031258,
+      "page": 136,
+      "method": "hybrid",
+      "base_rank": null,
+      "component_ranks": {
+       "dense": 3,
+       "bm25": 5
+      },
+      "rerank_error": null
+     },
+     {
+      "id": "wb-vn2045-greener-vi__p137__c002",
+      "rank": 3,
+      "score": 0.030798,
+      "page": 137,
+      "method": "hybrid",
+      "base_rank": null,
+      "component_ranks": {
+       "dense": 7,
+       "bm25": 3
+      },
+      "rerank_error": null
+     },
+     {
+      "id": "wb-vn2045-greener-vi__p137__c102",
+      "rank": 4,
+      "score": 0.029857,
+      "page": 137,
+      "method": "hybrid",
+      "base_rank": null,
+      "component_ranks": {
+       "dense": 6,
+       "bm25": 8
+      },
+      "rerank_error": null
+     },
+     {
+      "id": "wb-vn2045-greener-vi__p008__c003",
+      "rank": 5,
+      "score": 0.029643,
+      "page": 8,
+      "method": "hybrid",
+      "base_rank": null,
+      "component_ranks": {
+       "dense": 14,
+       "bm25": 2
+      },
+      "rerank_error": null
+     }
+    ],
+    "added_ids": [
+     "wb-vn2045-greener-vi__p137__c101",
+     "wb-vn2045-greener-vi__p136__c002",
+     "wb-vn2045-greener-vi__p137__c002",
+     "wb-vn2045-greener-vi__p008__c003"
+    ],
+    "skipped_over_budget": [
+     "wb-vn2045-greener-vi__p137__c102"
+    ],
+    "context_chars": 3019
+   },
+   {
+    "event": "answer",
+    "citations": [
+     "wb-vn2045-greener-vi__p137__c101"
+    ]
+   }
+  ],
+  "context_ids": [
+   "wb-vn2045-greener-vi__p137__c101",
+   "wb-vn2045-greener-vi__p136__c002",
+   "wb-vn2045-greener-vi__p137__c002",
+   "wb-vn2045-greener-vi__p008__c003"
+  ],
+  "context": [
+   "[wb-vn2045-greener-vi__p137__c101] (trang 137, phu_luc)\n[CHART] Hình A2.3.1: Tiêu thụ năng lượng sơ cấp theo % GDP (kWh/$)\nBiểu đồ cột so sánh tiêu thụ năng lượng sơ cấp theo % GDP (kWh/$) giữa các quốc gia và thế giới. Trục tung là giá trị từ 0 đến 1.8. Trục hoành gồm các quốc gia: Trung Quốc, In-đô-nê-xi-a, Hàn Quốc, Thái Lan, Việt Nam (cột màu đỏ), Thế giới. Nguồn: Cơ quan Năng lượng Quốc tế (IEA).\nGiá trị ước lượng:\n- Trung Quốc: ≈1,65 kWh/$\n- In-đô-nê-xia: ≈0,80 kWh/$\n- Hàn Quốc: ≈1,66 kWh/$\n- Thái Lan: ≈1,24 kWh/$\n- Việt Nam: ≈1,50 kWh/$\n- Thế giới: ≈1,30 kWh/$\n\nCao nhất: Hàn Quốc (≈1,66 kWh/$).  \nThấp nhất: In-đô-nê-xia (≈0,80 kWh/$).\n(Trang PDF 137, vùng: bottom-left)",
+   "[wb-vn2045-greener-vi__p136__c002] (trang 136, phu_luc)\n34 %\nTrồng trọt\n66 %\nTrồng lúa\n49.2%\nQuản lý\nphân chuồng\n9.3%\nTrồng đất\nhữu cơ\n0.2%\nĐốt rừng\n0.2%\nĐốt tàn\ndư cây trồng\n0.6%\nTàn dư\ncây trồng\n3.6%\nPhân bón\ntổng hợp\n11.9%\nLên men\nđường ruột\n17.8%\nPhân để lại\ntrên đồng cỏ\n4.5%\nPhân bón\ncho đất\n2.7%\nPhụ lục 2.3.  Chương trình Sử dụng năng lượng tiết kiệm, hiệu \nquả của Việt Nam\nViệt Nam đã thể hiện cam kết mạnh mẽ trong việc nâng cao hiệu quả sử dụng năng lượng trong lĩnh vực \ncông nghiệp và tiêu thụ điện của hộ gia đình để góp phần đạt được mục tiêu phát thải ròng bằng 0. Mức \ntiêu thụ năng lượng sơ cấp theo tỷ lệ % GDP, thước đo chính về hiệu quả sử dụng năng lượng, cao hơn \nmức trung bình thế giới (Hình A2.3.1) trong đó công nghiệp, giao thông vận tải và sinh hoạt là ba lĩnh vực \ntiêu thụ năng lượng chính. (Hình A2.3.2).",
+   "[wb-vn2045-greener-vi__p137__c002] (trang 137, phu_luc)\nNgoài ra, đề án còn đặt mục tiêu đến năm 2030, giảm 5% lượng \ntiêu thụ xăng, dầu trong giao thông vận tải so với dự báo nhu cầu tiêu thụ nhiên liệu của ngành đến \nnăm 2030; xây dựng quy định mức tiêu thụ nhiên liệu đối với xe mô tô 2 bánh và xe ô tô con loại từ 09 \nchỗ trở xuống sản xuất, lắp ráp và nhập khẩu mới; Bên cạnh đó, Chính phủ cũng được giao nhiệm vụ \ntổ chức một loạt các khóa đào tạo, cấp chứng chỉ và xây dựng kế hoạch sử dụng năng lượng tiết kiệm \nvà hiệu quả ở cấp địa phương và cấp tỉnh (Bảng A2.3.1).\nĐể đạt được các mục tiêu này, cần thúc đẩy sử dụng thiết bị tiết kiệm năng lượng, thực thi quản lý hiệu \nquả sử dụng năng lượng đối với các tòa nhà mới, thiết lập các tiêu chuẩn năng lượng cho các ngành \ncông nghiệp và phát triển giao thông công cộng, cùng nhiều biện pháp khác.\nNguồn: Cơ quan Năng lượng Quốc tế (IEA)\nNguồn: Cơ quan Năng lượng Quốc tế (IEA)\nHình A2.3.1. Tiêu thụ năng lượng\nsơ cấp theo % GDP (kWh/$)\nHình A2.3.2. Tiêu thụ năng lượng\ncuối cùng (TJ)\n0\n0.2\n0.4\n0.6",
+   "[wb-vn2045-greener-vi__p008__c003] (trang 8, tien_van_ban)\nHộp i.1: Báo cáo quốc gia về khí hậu và phát triển của Việt Nam (CCDR)\t\n3\nHộp 1.1. Tác động kinh tế của xâm nhập mặn ở đồng bằng sông Cửu Long của Việt Nam\t\n20\nHộp 1.2. Thành phố Thủ Đức – đảm bảo khả năng chống chịu của đô thị\n                để tăng trưởng trong tương lai\t\n23\nHộp 2.1. Các công cụ tài khóa hỗ trợ cho nỗ lực giảm nhẹ\t\n46\nHình A2.2.2. Tiêu thụ năng lượng cuối cùng (TJ)\t\n105\nHình A2.3.1. Tiêu thụ năng lượng sơ cấp theo % GDP (kWh/$)\t\n105\nHình A2.3.2. Tiêu thụ năng lượng cuối cùng (TJ)\t\n105\nHình A2.4.1. Kế hoạch phát triển thị trường các-bon\t\n107\nHình A2.6.1. Giảm phát thải theo PDP8 \t\n 109"
+  ],
+  "context_chars": 3019,
+  "searches": 1,
+  "usage": {
+   "llm_calls": 2,
+   "cached_calls": 1,
+   "input_tokens": 2564,
+   "output_tokens": 116,
+   "thinking_tokens": 0
+  },
+  "latency_s": 1.099,
+  "auto_eval": {
+   "answerable": true,
+   "context_has_evidence": true
+  }
+ },
+ {
+  "query_id": "d07",
+  "split": "dev",
+  "config": "improve_label_strict_41_budget",
+  "provider": "openai",
+  "model": "gpt-4.1",
+  "question": "Theo Hình 1.3 về tình trạng đường quốc lộ, vùng nào có tỷ lệ đường ở tình trạng \"Tốt\" cao nhất và vùng nào thấp nhất?",
+  "filter": null,
+  "status": "answered",
+  "answer": "Vùng có tỷ lệ đường quốc lộ ở tình trạng \"Tốt\" cao nhất là Đồng bằng sông Hồng (≈ 47%), vùng thấp nhất là Đồng bằng sông Cửu Long (≈ 16%) [wb-vn2045-greener-vi__p043__c101].",
+  "citations": [
+   "wb-vn2045-greener-vi__p043__c101"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_hybrid_label",
+    "query": "Hình 1.3 tình trạng đường quốc lộ vùng nào tỷ lệ đường ở tình trạng Tốt cao nhất, thấp nhất",
+    "filter": null,
+    "top_k": 5,
+    "results": [
+     {
+      "id": "wb-vn2045-greener-vi__p043__c101",
+      "rank": 1,
+      "score": 1.0,
+      "page": 43,
+      "method": "label",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-vn2045-greener-vi__p043__c004",
+      "rank": 2,
+      "score": 0.032002,
+      "page": 43,
+      "method": "hybrid",
+      "base_rank": null,
+      "component_ranks": {
+       "dense": 2,
+       "bm25": 3
+      },
+      "rerank_error": null
+     },
+     {
+      "id": "wb-vn2045-greener-vi__p006__c002",
+      "rank": 3,
+      "score": 0.031754,
+      "page": 6,
+      "method": "hybrid",
+      "base_rank": null,
+      "component_ranks": {
+       "dense": 4,
+       "bm25": 2
+      },
+      "rerank_error": null
+     },
+     {
+      "id": "wb-vn2045-greener-vi__p040__c101",
+      "rank": 4,
+      "score": 0.028898,
+      "page": 40,
+      "method": "hybrid",
+      "base_rank": null,
+      "component_ranks": {
+       "dense": 14,
+       "bm25": 5
+      },
+      "rerank_error": null
+     },
+     {
+      "id": "wb-vn2045-greener-vi__p051__c101",
+      "rank": 5,
+      "score": 0.028175,
+      "page": 51,
+      "method": "hybrid",
+      "base_rank": null,
+      "component_ranks": {
+       "dense": 12,
+       "bm25": 10
+      },
+      "rerank_error": null
+     }
+    ],
+    "added_ids": [
+     "wb-vn2045-greener-vi__p043__c101",
+     "wb-vn2045-greener-vi__p043__c004",
+     "wb-vn2045-greener-vi__p006__c002",
+     "wb-vn2045-greener-vi__p040__c101"
+    ],
+    "skipped_over_budget": [
+     "wb-vn2045-greener-vi__p051__c101"
+    ],
+    "context_chars": 3357
+   },
+   {
+    "event": "answer",
+    "citations": [
+     "wb-vn2045-greener-vi__p043__c101"
+    ]
+   }
+  ],
+  "context_ids": [
+   "wb-vn2045-greener-vi__p043__c101",
+   "wb-vn2045-greener-vi__p043__c004",
+   "wb-vn2045-greener-vi__p006__c002",
+   "wb-vn2045-greener-vi__p040__c101"
+  ],
+  "context": [
+   "[wb-vn2045-greener-vi__p043__c101] (trang 43, chuong_1_thich_ung)\n[CHART] Hình 1.3: Tình trạng đường quốc lộ ở các khu vực\nBiểu đồ thanh ngang chồng (stacked bar chart) thể hiện tình trạng đường quốc lộ theo các khu vực địa lý. Trục hoành là tỷ lệ phần trăm (0% đến 100%). Chú giải gồm 4 mức độ: Tốt (màu xanh lá), Khá (màu vàng), Xấu (màu cam nhạt), Rất xấu (màu đỏ). Nguồn: Quy hoạch ngành quốc gia Việt Nam.\n\nGiá trị ước lượng (tỷ lệ %): \n- Trung du và miền núi phía Bắc: Tốt ≈ 38%, Khá ≈ 48%, Xấu ≈ 8%, Rất xấu ≈ 6%\n- Đồng bằng sông Hồng: Tốt ≈ 47%, Khá ≈ 38%, Xấu ≈ 7%, Rất xấu ≈ 8%\n- Duyên hải miền Trung: Tốt ≈ 22%, Khá ≈ 46%, Xấu ≈ 26%, Rất xấu ≈ 6%\n- Tây Nguyên: Tốt ≈ 32%, Khá ≈ 49%, Xấu ≈ 15%, Rất xấu ≈ 4%\n- Đông Nam Bộ: Tốt ≈ 40%, Khá ≈ 57%, Xấu ≈ 2%, Rất xấu ≈ 1%\n- Đồng bằng sông Cửu Long: Tốt ≈ 16%, Khá ≈ 66%, Xấu ≈ 16%, Rất xấu ≈ 2%\n(Trang PDF 43, vùng: middle)",
+   "[wb-vn2045-greener-vi__p043__c004] (trang 43, chuong_1_thich_ung)\n47\t RCP8.5 là kịch bản bi quan trong đó lượng khí thải toàn cầu hàng năm được giả định sẽ tiếp tục tăng trong thế kỷ 21, RCP2.6 là kịch \nbản lạc quan đòi hỏi hành động toàn cầu nhanh và có hệ thống để giảm phát thải đủ để hoàn thành phát thải ròng bằng 0 toàn cầu \nvào năm 2080. RCP2.6 được cộng đồng khoa học đánh giá là rất tham vọng.\nHình 1.3. Tình trạng đường quốc lộ ở các khu vực\n0%\n20%\n40%\n60%\n80%\n100%\nTrung du và miền núi phía Bắc\nĐồng bằng sông Hồng\nDuyên hải miền Trung\nTây Nguyên\nĐông Nam Bộ\nĐồng bằng sông Cửu Long\nTốt\nKhá\nXấu\nRất xấu\nNguồn: Quy hoạch ngành quốc gia Việt Nam.",
+   "[wb-vn2045-greener-vi__p006__c002] (trang 6, tien_van_ban)\nSo sánh các dự báo năm 2030 với năm 2020 (tỷ lệ % GDP theo lĩnh vực\t\nxviii\nHình 1.1. Nhiệt độ trung bình hàng năm của Việt Nam trong quá khứ và theo dự báo\t\n8\nHình 1.2. Lượng mưa trung bình hàng năm của Việt Nam trong quá khứ và theo dự báo\t\n8\nHình 1.3. Tình trạng đường quốc lộ ở các khu vực\t\n11\nHÌNH",
+   "[wb-vn2045-greener-vi__p040__c101] (trang 40, chuong_1_thich_ung)\n[CHART] Hình 1.1: Nhiệt độ trung bình hàng năm của Việt Nam trong quá khứ và theo dự báo\nBiểu đồ đường (vùng) thể hiện nhiệt độ trung bình hàng năm (Độ C) từ năm 1980 đến 2100. Trục hoành là thời gian (1980, 2000, 2020, 2040, 2060, 2080, 2100). Trục tung là nhiệt độ (Độ C), từ 23 đến 30. Chú giải gồm: Quá khứ (màu đen), RCP 2.6 (màu xanh dương), RCP 4.5 (màu xanh lá), RCP 6.0 (màu vàng), RCP 8.5 (màu đỏ). Xu hướng chung là nhiệt độ tăng dần theo thời gian ở tất cả các kịch bản. Nguồn: Hỗ sơ rủi ro khí hậu quốc gia https://climateknowledgeportal.worldbank.org/country-profiles. Ghi chú: RCP 4.5 là kịch bản trung bình, RCP 8.5 là kịch bản bi quan, RCP 2.6 là kịch bản lạc quan.\nGiá trị ước lượng:\n\n- Quá khứ:  \n  - Điểm đầu khoảng 1990: ≈24,4°C  \n  - 2000: ≈24,7°C  \n  - 2020: ≈25,1°C  \n  - Thấp nhất: ≈24,3°C  \n  - Cao nhất: ≈25,2°C  \n\n- RCP 2.6:  \n  - 2020: ≈25,1°C  \n  - 2040: ≈25,4°C  \n  - 2060: ≈25,6°C  \n  - 2080: ≈25,6°C  \n  - 2100: ≈25,4°C  \n  - Thấp nhất: ≈25,1°C  \n  - Cao nhất: ≈25,7°C  \n\n- RCP 4.5:  \n  - 2020: ≈25,1°C  \n  - 2040: ≈25,5°C  \n  - 2060: ≈26,0°C  \n  - 2080: ≈26,4°C  \n  - 2100: ≈26,3°C  \n  - Thấp nhất: ≈25,1°C  \n  - Cao nhất: ≈26,5°C  \n\n- RCP 6.0:  \n  - 2020: ≈25,1°C  \n  - 2040: ≈25,4°C  \n  - 2060: ≈26,0°C  \n  - 2080: ≈26,3°C  \n  - 2100: ≈26,7°C  \n  - Thấp nhất: ≈25,1°C  \n  - Cao nhất: ≈26,8°C  \n\n- RCP 8.5:  \n  - 2020: ≈25,1°C  \n  - 2040: ≈25,8°C  \n  - 2060: ≈26,7°C  \n  - 2080: ≈27,7°C  \n  - 2100: ≈28,3°C  \n  - Thấp nhất: ≈25,1°C  \n  - Cao nhất: ≈28,3°C  \n\n- Chuỗi cao nhất: RCP 8.5, khoảng ≈28,3°C vào cuối thế kỷ.  \n- Chuỗi thấp nhất: Quá khứ, khoảng ≈24,3°C ở đầu giai đoạn hiển thị.\n(Trang PDF 40, vùng: top-left)"
+  ],
+  "context_chars": 3357,
+  "searches": 1,
+  "usage": {
+   "llm_calls": 2,
+   "cached_calls": 1,
+   "input_tokens": 2939,
+   "output_tokens": 108,
+   "thinking_tokens": 0
+  },
+  "latency_s": 1.096,
+  "auto_eval": {
+   "answerable": true,
+   "context_has_evidence": true
+  }
+ },
+ {
+  "query_id": "d08",
+  "split": "dev",
+  "config": "improve_label_strict_41_budget",
+  "provider": "openai",
+  "model": "gpt-4.1",
+  "question": "Theo sơ đồ Hình A2.4.1 về kế hoạch phát triển thị trường các-bon, giai đoạn 2023–2024 tập trung vào việc gì?",
+  "filter": null,
+  "status": "answered",
+  "answer": "Giai đoạn 2023–2024 tập trung vào việc xây dựng hệ thống quy định về quản lý tín chỉ các-bon, trao đổi hạn ngạch và hoạt động của nền tảng giao dịch tín chỉ các-bon [wb-vn2045-greener-vi__p139__c101][wb-vn2045-greener-vi__p139__c001].",
+  "citations": [
+   "wb-vn2045-greener-vi__p139__c101",
+   "wb-vn2045-greener-vi__p139__c001"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_hybrid_label",
+    "query": "Hình A2.4.1 kế hoạch phát triển thị trường các-bon giai đoạn 2023–2024",
+    "filter": null,
+    "top_k": 5,
+    "results": [
+     {
+      "id": "wb-vn2045-greener-vi__p139__c101",
+      "rank": 1,
+      "score": 1.0,
+      "page": 139,
+      "method": "label",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-vn2045-greener-vi__p139__c001",
+      "rank": 2,
+      "score": 0.032258,
+      "page": 139,
+      "method": "hybrid",
+      "base_rank": null,
+      "component_ranks": {
+       "dense": 2,
+       "bm25": 2
+      },
+      "rerank_error": null
+     },
+     {
+      "id": "wb-vn2045-greener-vi__p138__c002",
+      "rank": 3,
+      "score": 0.031498,
+      "page": 138,
+      "method": "hybrid",
+      "base_rank": null,
+      "component_ranks": {
+       "dense": 3,
+       "bm25": 4
+      },
+      "rerank_error": null
+     },
+     {
+      "id": "wb-vn2045-greener-vi__p090__c002",
+      "rank": 4,
+      "score": 0.030777,
+      "page": 90,
+      "method": "hybrid",
+      "base_rank": null,
+      "component_ranks": {
+       "dense": 4,
+       "bm25": 6
+      },
+      "rerank_error": null
+     },
+     {
+      "id": "wb-vn2045-greener-vi__p027__c001",
+      "rank": 5,
+      "score": 0.029877,
+      "page": 27,
+      "method": "hybrid",
+      "base_rank": null,
+      "component_ranks": {
+       "dense": 9,
+       "bm25": 5
+      },
+      "rerank_error": null
+     }
+    ],
+    "added_ids": [
+     "wb-vn2045-greener-vi__p139__c101",
+     "wb-vn2045-greener-vi__p139__c001",
+     "wb-vn2045-greener-vi__p138__c002",
+     "wb-vn2045-greener-vi__p090__c002",
+     "wb-vn2045-greener-vi__p027__c001"
+    ],
+    "skipped_over_budget": [],
+    "context_chars": 3676
+   },
+   {
+    "event": "answer",
+    "citations": [
+     "wb-vn2045-greener-vi__p139__c101",
+     "wb-vn2045-greener-vi__p139__c001"
+    ]
+   }
+  ],
+  "context_ids": [
+   "wb-vn2045-greener-vi__p139__c101",
+   "wb-vn2045-greener-vi__p139__c001",
+   "wb-vn2045-greener-vi__p138__c002",
+   "wb-vn2045-greener-vi__p090__c002",
+   "wb-vn2045-greener-vi__p027__c001"
+  ],
+  "context": [
+   "[wb-vn2045-greener-vi__p139__c101] (trang 139, phu_luc)\n[DIAGRAM] Hình A2.4.1: Kế hoạch phát triển thị trường các-bon\nSơ đồ dòng thời gian (timeline) thể hiện lộ trình phát triển thị trường các-bon từ năm 2023 đến 2028:\n- Giai đoạn 2023-2024: Xây dựng hệ thống quy định về quản lý tín chỉ các-bon, trao đổi hạn ngạch và hoạt động của nền tảng giao dịch tín chỉ các-bon.\n- Giai đoạn 2025-2027: Thí điểm trao đổi tín chỉ các-bon.\n- Năm 2028: Chính thức ra mắt sàn giao dịch tín chỉ các-bon và hội nhập thị trường trong nước với thị trường khu vực và quốc tế.\nNguồn: Minh họa của tác giả về Nghị định số 06/2022/NĐ-CP.\n(Trang PDF 139, vùng: top)",
+   "[wb-vn2045-greener-vi__p139__c001] (trang 139, phu_luc)\nNguồn: Minh họa của tác giả về Nghị định số 06/2022/NĐ-CP.\nHình A2.4.1. Kế hoạch phát triển thị trường các-bon\n2023 \n2024 \n2025 \n2028 \n2027\nXây dựng hệ thống quy\nđịnh về quản lý tín chỉ\ncác-bon, trao đổi hạn \nngạch và hoạt động của \nnền tảng giao dịch tín chỉ\ncác-bon\nThí điểm trao đổi tín chỉ\ncác-bon\nChính thức ra mắt sàn \ngiao dịch tín chỉ các-bon\nvà hội nhập thị trường \ntrong nước với thị trường\nkhu vực và quốc tế",
+   "[wb-vn2045-greener-vi__p138__c002] (trang 138, phu_luc)\nDo thị trường các-bon là công cụ định giá các-bon hiệu quả trong các hoạt động giảm nhẹ, Nghị định \nsố 06/2022/NĐ-CP đã đưa ra lộ trình hai giai đoạn để phát triển thị trường các-bon trong nước (Hình \nA2.4.1). Khi thị trường các-bon làm tăng chi phí phát thải các-bon, dẫn đến tăng chi phí kinh doanh, điều \nnày sẽ thúc đẩy các doanh nghiệp trong các ngành phát thải lớn giảm phát thải, chẳng hạn như bằng \ncách chuyển sang công nghệ xanh và cải thiện cơ cấu sử dụng năng lượng. Quyết định số 01/2022/\nQĐ-TTg ban hành danh mục các lĩnh vực, cơ sở phát thải phải thực hiện kiểm kê khí nhà kính, bao gồm \nnăng lượng, giao thông vận tải, xây dựng, các quá trình công nghiệp và nông lâm nghiệp - những ngành \nđóng góp lớn nhất vào tổng phát thải khí nhà kính của Việt Nam.",
+   "[wb-vn2045-greener-vi__p090__c002] (trang 90, chuong_2_giam_phat_thai)\nBảng 2.4 trình bày những khuyến nghị chuyên ngành và liên ngành cho chu kỳ chính sách năm năm \ntới (2026-30), trong đó chỉ ra các lợi ích đồng hưởng tiềm năng về kinh tế và thích ứng.\nBảng 2.4. Khuyến nghị cho giai đoạn 2026–2030\n113\t Nghị định số 06/2022/NĐ-CP đưa ra lộ trình phát triển thị trường carbon trong nước, theo đó Việt Nam dự kiến triển khai thí điểm hệ \nthống giao dịch phát thải (ETS) vào năm 2028, tập trung vào ba ngành chính: năng lượng, xi măng và thép.\nCao\nThấp\nKhai thác các thị \ntrường các-bon \ntự nguyện để thu \nhút đầu tư khí \nhậu của khu vực \ntư nhân\nl\t Song song với phát triển hệ thống giao dịch khí thải (ETS)\nchính thức, hỗ trợ hiện thực hóa thị trường giao dịch các-\nbon tư nhân bằng cách làm rõ các tiêu chuẩn MRV, phối \nhợp với các thị trường các-bon toàn cầu và hợp tác với các \nbên liên quan trên quốc tế, bao gồm các dự án theo Điều \n6, nhằm huy động vốn của khu vực tư nhân cho các dự án \nphát triển bền vững và năng lượng tái tạo.\nTrung\nbình",
+   "[wb-vn2045-greener-vi__p027__c001] (trang 27, tong_quan)\n21\t Nghị định số 06/2022/NĐ-CP ban hành lộ trình phát triển thị trường các-bon trong nước, trong đó Việt Nam dự kiến thí điểm hệ thống \ngiao dịch phát thải (ETS) vào năm 2028, cho ba lĩnh vực chính - điện, xi-măng và thép.\nđể thu hút các doanh nghiệp toàn cầu và khu vực đang tìm kiếm các cơ sở sản xuất và dịch vụ xanh, bao \ngồm các doanh nghiệp chế biến chế tạo trong RE100. Bước đi quan trọng là phải triển khai thành công kế \nhoạch chuyển đổi năng lượng của quốc gia theo QHĐ8, nhằm mở ra tiềm năng kinh tế đầy đủ trong lĩnh \nvực này. Việt Nam đã nhanh chóng tăng xuất khẩu xe điện, sản phẩm điện gió và mặt trời trong giai đoạn \n2010–2022, mặc dù một phần các mặt hàng xuất khẩu đó phải đối mặt với thách thức ở các thị trường \nxuất khẩu, bao gồm giám sát của các cơ quan thẩm quyền Hoa Kỳ về xuất khẩu pin mặt trời sang Hoa \nKỳ, là thị trường chính, và phán quyết chống bán phá giá sơ bộ cho Việt Nam vào tháng 10/2024."
+  ],
+  "context_chars": 3676,
+  "searches": 1,
+  "usage": {
+   "llm_calls": 2,
+   "cached_calls": 2,
+   "input_tokens": 2591,
+   "output_tokens": 124,
+   "thinking_tokens": 0
+  },
+  "latency_s": 0.033,
+  "auto_eval": {
+   "answerable": true,
+   "context_has_evidence": true
+  }
+ },
+ {
+  "query_id": "d09",
+  "split": "dev",
+  "config": "improve_label_strict_41_budget",
+  "provider": "openai",
+  "model": "gpt-4.1",
+  "question": "Trong sơ đồ Hình 0.5 về mục tiêu giảm nhẹ, mũi tên ghi \"-27%\" ứng với chỉ tiêu nào và mũi tên \"-43.5%\" ứng với chỉ tiêu nào?",
+  "filter": null,
+  "status": "answered",
+  "answer": "Mũi tên ghi \"-27%\" ứng với chỉ tiêu NDC 2020 cho năm 2030; mũi tên \"-43.5%\" ứng với chỉ tiêu NDC 2022 cho năm 2030 [wb-vn2045-greener-vi__p022__c101][wb-vn2045-greener-vi__p066__c103][wb-vn2045-greener-vi__p022__c003].",
+  "citations": [
+   "wb-vn2045-greener-vi__p022__c101",
+   "wb-vn2045-greener-vi__p066__c103",
+   "wb-vn2045-greener-vi__p022__c003"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_hybrid_label",
+    "query": "Hình 0.5 mục tiêu giảm nhẹ mũi tên -27% và -43.5% ứng với chỉ tiêu nào",
+    "filter": null,
+    "top_k": 5,
+    "results": [
+     {
+      "id": "wb-vn2045-greener-vi__p022__c101",
+      "rank": 1,
+      "score": 1.0,
+      "page": 22,
+      "method": "label",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-vn2045-greener-vi__p066__c103",
+      "rank": 2,
+      "score": 0.032258,
+      "page": 66,
+      "method": "hybrid",
+      "base_rank": null,
+      "component_ranks": {
+       "dense": 2,
+       "bm25": 2
+      },
+      "rerank_error": null
+     },
+     {
+      "id": "wb-vn2045-greener-vi__p022__c003",
+      "rank": 3,
+      "score": 0.031498,
+      "page": 22,
+      "method": "hybrid",
+      "base_rank": null,
+      "component_ranks": {
+       "dense": 4,
+       "bm25": 3
+      },
+      "rerank_error": null
+     },
+     {
+      "id": "wb-vn2045-greener-vi__p025__c002",
+      "rank": 4,
+      "score": 0.029857,
+      "page": 25,
+      "method": "hybrid",
+      "base_rank": null,
+      "component_ranks": {
+       "dense": 8,
+       "bm25": 6
+      },
+      "rerank_error": null
+     },
+     {
+      "id": "wb-vn2045-greener-vi__p006__c001",
+      "rank": 5,
+      "score": 0.029274,
+      "page": 6,
+      "method": "hybrid",
+      "base_rank": null,
+      "component_ranks": {
+       "dense": 12,
+       "bm25": 5
+      },
+      "rerank_error": null
+     }
+    ],
+    "added_ids": [
+     "wb-vn2045-greener-vi__p022__c101",
+     "wb-vn2045-greener-vi__p066__c103",
+     "wb-vn2045-greener-vi__p022__c003",
+     "wb-vn2045-greener-vi__p025__c002"
+    ],
+    "skipped_over_budget": [
+     "wb-vn2045-greener-vi__p006__c001"
+    ],
+    "context_chars": 3753
+   },
+   {
+    "event": "answer",
+    "citations": [
+     "wb-vn2045-greener-vi__p022__c101",
+     "wb-vn2045-greener-vi__p066__c103",
+     "wb-vn2045-greener-vi__p022__c003"
+    ]
+   }
+  ],
+  "context_ids": [
+   "wb-vn2045-greener-vi__p022__c101",
+   "wb-vn2045-greener-vi__p066__c103",
+   "wb-vn2045-greener-vi__p022__c003",
+   "wb-vn2045-greener-vi__p025__c002"
+  ],
+  "context": [
+   "[wb-vn2045-greener-vi__p022__c101] (trang 22, tong_quan)\n[CHART] Hình 0.5: Mục tiêu giảm nhẹ của Việt Nam (2030 và 2050)\nBiểu đồ cột chồng thể hiện lượng phát thải (Triệu tấn CO2eq) theo các lĩnh vực: Năng lượng (cam), Nông nghiệp (xám), Chất thải (vàng), Sản xuất công nghiệp (xanh dương). Biểu đồ so sánh các kịch bản phát thải tại các mốc thời gian 2030 và 2050.\n\n- Trục tung: 0, 400, 800, 1200, 1600 (Triệu tấn CO2eq).\n- Trục hoành: Các mốc thời gian 2030 (hai cột), 2050 (một cột).\n- Chú giải: Năng lượng, Nông nghiệp, Chất thải, Sản xuất công nghiệp.\n- Các thông tin trên hình:\n  - Cột 2030 (trái): Có đường kẻ ngang đánh dấu mức phát thải, mũi tên chỉ xuống ghi \"-27%\", chú thích \"Chỉ tiêu NDC 2020\".\n  - Cột 2030 (phải): Có đường kẻ ngang đánh dấu mức phát thải, mũi tên chỉ xuống ghi \"-43.5%\", chú thích \"Chỉ tiêu NDC 2022\", nhãn \"Baseline\" phía trên.\n  - Cột 2050: Cột cao nhất, nhãn \"Kịch bản cơ sở\" phía trên, mũi tên chỉ xuống tận đáy (0) ghi \"Mục tiêu của CLQG-BĐKH - Phát thải ròng bằng không\".\n- Nguồn: Tính toán của cán bộ Ngân hàng Thế giới, dựa trên tuyên bố về NDC và trong CLQG-BĐKH.\n\nGiá trị ước lượng:\n- Cột 2030 (trái - NDC 2020): Tổng chiều cao ≈ 950 triệu tấn CO2eq.\n- Cột 2030 (phải - NDC 2022): Tổng chiều cao ≈ 950 triệu tấn CO2eq (phần giảm xuống còn ≈ 550 triệu tấn CO2eq).\n- Cột 2050 (Kịch bản cơ sở): Tổng chiều cao ≈ 1500 triệu tấn CO2eq.\n(Trang PDF 22, vùng: top)",
+   "[wb-vn2045-greener-vi__p066__c103] (trang 66, chuong_2_giam_phat_thai)\n[CHART] Hình 2.3: Các mục tiêu giảm phát thải của Việt Nam (2030 và 2050)\nBiểu đồ cột chồng thể hiện các mục tiêu giảm phát thải. Trục tung là Triệu tấn CO2 tương đương (0 đến 1600). Các nhóm ngành: Năng lượng (cam), Nông nghiệp (xám), Chất thải (vàng), Sản xuất công nghiệp (xanh dương). Có 3 cột chính: Cột 1 (2030 - Chỉ tiêu NDC 2020), Cột 2 (2030 - Chỉ tiêu NDC 2022), Cột 3 (2050 - Kịch bản cơ sở). Chú thích: Mũi tên giảm -27% cho NDC 2020, -43.5% cho NDC 2022. Mũi tên dài từ đỉnh cột 2050 xuống 0 ghi 'Mục tiêu của CLQG-BĐKH - Phát thải ròng bằng không'. Nguồn: Tính toán của cán bộ Ngân hàng Thế giới, dựa trên tuyên bố về NDC và trong CLQG-BĐKH. Giá trị ước lượng: Cột 2030 (NDC 2020) tổng ≈ 800; Cột 2030 (NDC 2022) tổng ≈ 950; Cột 2050 (Kịch bản cơ sở) tổng ≈ 1550.\n(Trang PDF 66, vùng: bottom)",
+   "[wb-vn2045-greener-vi__p022__c003] (trang 22, tong_quan)\nĐồng thời, Chương trình quốc gia về sử dụng năng lượng tiết kiệm và hiệu quả lần \nthứ ba (VNEEP3) của Việt Nam cũng vạch ra chỉ tiêu giảm tiêu thụ năng lượng từ 8-10% vào năm \n2030 so với kịch bản cơ sở.19\n19\t https://vneec.gov.vn/gioi-thieu/c15/introduction.html\nNguồn: Tính toán của cán bộ Ngân hàng Thế giới, dựa trên tuyên bố về NDC và trong CLQG-BĐKH.\nTriệu tấn CO2eq\nHình 0.5. Mục tiêu giảm nhẹ của Việt Nam (2030 và 2050)\n0\n400\n800\n1200\n1600\n2030\n2030\n2050\nNăng lượng\nNông nghiệp\nChất thải\nSản xuất công nghiệp\nChỉ tiêu NDC 2022\nBaseline\nKịch bản cơ sở\nMục tiêu của CLQG-BĐKH - \nPhát thải ròng bằng không\nChỉ tiêu NDC 2020\n-43.5%\n-27%",
+   "[wb-vn2045-greener-vi__p025__c002] (trang 25, tong_quan)\nNguồn: Mô phỏng của cán bộ Ngân hàng Thế giới bằng mô hình MANAGE.\nNguồn: Net Zero Tracker (https://zerotracker.net/).\nHình 0.7. Giảm khí thải hiệu ứng\nnhà kính\nHình 0.8. Tác động của các chính sách \ngiảm  nhẹ hiện tại và khử thải các-bon\ntăng tốc đối với GDP theo giá so sánh\n-38%\n-55%\n-44%\n-74%\n-100%\n-50%\n0%\n2030\n2050\nChính sách giảm nhẹ hiện hành\n% giảm khí thải so kịch bản cơ sở\nK/b khử thải các-bon tăng tốc (ADS)\nChỉ tiêu NDC / CLQG-BĐKH\n-0.02%\n-1.55%\n-2.76%\n1.81%\n1.22%\n1.39%\n2.27%\n2.82%\n4.41%\n-4%\n-2%\n0%\n2%\n4%\n2030\n2040\n2050\nChính sách giảm nhẹ hiện hành không tính lợi ích gia tăng\nChính sách giảm nhẹ hiện hành với lợi ích gia tăng\nKịch bản khử thải các-bon tăng tốc (ADS)\nHình 0.9. Tỷ lệ GDP và khí thải toàn cầu trong các cam kết\nphát thải ròng bằng không\n0\n20\n40\n60\n80\n100\n0\n5\n10\n15\n5/31/2017\n5/31/2018\n5/31/2019\n5/31/2020\n5/31/2021\n%\nTỷ tấn\nKhí thải nhà kính của các cam kết mới\nTỷ lệ khí thải nhà kính cộng dồn trong đó\nTye lệ GDP cộng dồn trong đó"
+  ],
+  "context_chars": 3753,
+  "searches": 1,
+  "usage": {
+   "llm_calls": 2,
+   "cached_calls": 1,
+   "input_tokens": 2929,
+   "output_tokens": 142,
+   "thinking_tokens": 0
+  },
+  "latency_s": 1.191,
+  "auto_eval": {
+   "answerable": true,
+   "context_has_evidence": true
+  }
+ },
+ {
+  "query_id": "d10",
+  "split": "dev",
+  "config": "improve_label_strict_41_budget",
+  "provider": "openai",
+  "model": "gpt-4.1",
+  "question": "Khi thuế BVMT đối với than được cải biên thành thuế các-bon 7,5 US$/tấn thì mức thuế là bao nhiêu VND/tấn (Bảng 2.2), và chính sách thuế các-bon làm tỷ lệ nghèo theo chuẩn 6,85 US$ tăng bao nhiêu điểm phần trăm (Bảng 2.3)?",
+  "filter": null,
+  "status": "answered",
+  "answer": "1. Khi thuế BVMT đối với than được cải biên thành thuế các-bon 7,5 US$/tấn thì mức thuế là 500.000 VND/tấn than [wb-vn2045-greener-vi__p078__c101].\n\n2. Chính sách thuế các-bon làm tỷ lệ nghèo theo chuẩn 6,85 US$ tăng 0,5 điểm phần trăm (dấu âm nghĩa là tăng tỷ lệ nghèo) [wb-vn2045-greener-vi__p082__c101][wb-vn2045-greener-vi__p082__c002].",
+  "citations": [
+   "wb-vn2045-greener-vi__p078__c101",
+   "wb-vn2045-greener-vi__p082__c101",
+   "wb-vn2045-greener-vi__p082__c002"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_hybrid_label",
+    "query": "Bảng 2.2 thuế các-bon 7,5 US$/tấn than bằng bao nhiêu VND/tấn",
+    "filter": null,
+    "top_k": 5,
+    "results": [
+     {
+      "id": "wb-vn2045-greener-vi__p078__c101",
+      "rank": 1,
+      "score": 1.0,
+      "page": 78,
+      "method": "label",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-vn2045-greener-vi__p078__c001",
+      "rank": 2,
+      "score": 0.032258,
+      "page": 78,
+      "method": "hybrid",
+      "base_rank": null,
+      "component_ranks": {
+       "dense": 2,
+       "bm25": 2
+      },
+      "rerank_error": null
+     },
+     {
+      "id": "wb-vn2045-greener-vi__p077__c004",
+      "rank": 3,
+      "score": 0.031746,
+      "page": 77,
+      "method": "hybrid",
+      "base_rank": null,
+      "component_ranks": {
+       "dense": 3,
+       "bm25": 3
+      },
+      "rerank_error": null
+     },
+     {
+      "id": "wb-vn2045-greener-vi__p079__c101",
+      "rank": 4,
+      "score": 0.03125,
+      "page": 79,
+      "method": "hybrid",
+      "base_rank": null,
+      "component_ranks": {
+       "dense": 4,
+       "bm25": 4
+      },
+      "rerank_error": null
+     },
+     {
+      "id": "wb-vn2045-greener-vi__p081__c001",
+      "rank": 5,
+      "score": 0.029631,
+      "page": 81,
+      "method": "hybrid",
+      "base_rank": null,
+      "component_ranks": {
+       "dense": 7,
+       "bm25": 8
+      },
+      "rerank_error": null
+     }
+    ],
+    "added_ids": [
+     "wb-vn2045-greener-vi__p078__c101",
+     "wb-vn2045-greener-vi__p078__c001",
+     "wb-vn2045-greener-vi__p077__c004",
+     "wb-vn2045-greener-vi__p081__c001"
+    ],
+    "skipped_over_budget": [
+     "wb-vn2045-greener-vi__p079__c101"
+    ],
+    "context_chars": 3774
+   },
+   {
+    "event": "search",
+    "tool": "search_hybrid_label",
+    "query": "Bảng 2.3 tác động của thuế các-bon đến tỷ lệ nghèo chuẩn 6,85 US$",
+    "filter": null,
+    "top_k": 5,
+    "results": [
+     {
+      "id": "wb-vn2045-greener-vi__p082__c101",
+      "rank": 1,
+      "score": 1.0,
+      "page": 82,
+      "method": "label",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-vn2045-greener-vi__p082__c001",
+      "rank": 2,
+      "score": 0.032522,
+      "page": 82,
+      "method": "hybrid",
+      "base_rank": null,
+      "component_ranks": {
+       "dense": 2,
+       "bm25": 1
+      },
+      "rerank_error": null
+     },
+     {
+      "id": "wb-vn2045-greener-vi__p082__c002",
+      "rank": 3,
+      "score": 0.031746,
+      "page": 82,
+      "method": "hybrid",
+      "base_rank": null,
+      "component_ranks": {
+       "dense": 3,
+       "bm25": 3
+      },
+      "rerank_error": null
+     },
+     {
+      "id": "wb-vn2045-greener-vi__p082__c003",
+      "rank": 4,
+      "score": 0.03125,
+      "page": 82,
+      "method": "hybrid",
+      "base_rank": null,
+      "component_ranks": {
+       "dense": 4,
+       "bm25": 4
+      },
+      "rerank_error": null
+     },
+     {
+      "id": "wb-vn2045-greener-vi__p082__c004",
+      "rank": 5,
+      "score": 0.029877,
+      "page": 82,
+      "method": "hybrid",
+      "base_rank": null,
+      "component_ranks": {
+       "dense": 5,
+       "bm25": 9
+      },
+      "rerank_error": null
+     }
+    ],
+    "added_ids": [
+     "wb-vn2045-greener-vi__p082__c101",
+     "wb-vn2045-greener-vi__p082__c001",
+     "wb-vn2045-greener-vi__p082__c002",
+     "wb-vn2045-greener-vi__p082__c003",
+     "wb-vn2045-greener-vi__p082__c004"
+    ],
+    "skipped_over_budget": [],
+    "context_chars": 7569
+   },
+   {
+    "event": "answer",
+    "citations": [
+     "wb-vn2045-greener-vi__p078__c101",
+     "wb-vn2045-greener-vi__p082__c101",
+     "wb-vn2045-greener-vi__p082__c002"
+    ]
+   }
+  ],
+  "context_ids": [
+   "wb-vn2045-greener-vi__p078__c101",
+   "wb-vn2045-greener-vi__p078__c001",
+   "wb-vn2045-greener-vi__p077__c004",
+   "wb-vn2045-greener-vi__p081__c001",
+   "wb-vn2045-greener-vi__p082__c101",
+   "wb-vn2045-greener-vi__p082__c001",
+   "wb-vn2045-greener-vi__p082__c002",
+   "wb-vn2045-greener-vi__p082__c003",
+   "wb-vn2045-greener-vi__p082__c004"
+  ],
+  "context": [
+   "[wb-vn2045-greener-vi__p078__c101] (trang 78, chuong_2_giam_phat_thai)\n[TABLE] Bảng 2.2: Thuế bảo vệ môi trường hiện nay (Thuế BVMT & thuế BVMT+) và tương đương qua định giá các-bon\n| Năng lượng nhiên liệu hóa thạch | Đơn vị | Tỷ lệ tiêu dùng cuối (%) | Thuế suất thuế BVMT hiện nay, VND | Thuế suất thuế BVMT tối đa (EPT+), VND | Thuế BVMT được cải biên thành thuế các-bon 7,5 US$/tấn, VND |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n| Than | tấn | 51 | 15.000–30.000 | 30.000–50.000 | 500.000 |\n| Dầu diesel | lít | 11 | 1.000 | 2.000 | 1.000 |\n| Khí tự nhiên | lít | 9 | Không chịu thuế | Không chịu thuế | 10.000 |\n| Xăng | lít | 8 | 2.000 | 4.000 | 2.000 |\n| LPG | GJ | 2 | Không chịu thuế | Không chịu thuế | 500 |\n| Dầu hỏa | lít | 1 | 1.000 | 3.000 | 1.000 |\n| Các sản phẩm dầu khác | lít | 1 | 600 | 2.000 | 600 |\n\n*Nguồn: Tính toán của cán bộ Ngân hàng Thế giới.*\n*Ghi chú: EPT+ tương ứng các mức thuế suất tối đa cho phép qua Luật thuế BVMT năm 2010. Nguồn: Quốc hội.*\n(Trang PDF 78, vùng: top)",
+   "[wb-vn2045-greener-vi__p078__c001] (trang 78, chuong_2_giam_phat_thai)\nCó năm kịch bản được phân tích qua Công cụ đánh giá định giá các-bon (CPAT) nhằm đánh giá về \nhiệu quả của các công cụ tài khóa khác nhau, đồng thời đưa ra đánh giá định lượng về chi phí lợi \ních. Hộp 2.1 mô tả ngắn gọn từng kịch bản trong đó.\nNăng lượng nhiên \nliệu hóa thạch\nĐơn\nvị\nTỷ lệ \ntiêu dùng\ncuối (%)\nThuế suất thuế \nBVMT hiện nay,\nVND\nThuế suất thuế\nBVMT tối đa  \n(EPT+), VND\nThuế BVMT được\ncải biên thành\nthuế các-bon \n7,5 US$/tấn, VND\nBảng 2.2. Thuế bảo vệ môi trường hiện nay (Thuế BVMT & thuế BVMT+)\nvà tương đương qua định giá các-bon\nThan\nDầu diesel\nKhí tự nhiên\nXăng\nLPG\nDầu hỏa\nCác sản phẩm dầu khác\n51\n11\n9\n8\n2\n1\n1\n15.000–30.000\n1.000\nKhông chịu thuế\n2.000\nKhông chịu thuế\n1.000\n600\n30.000–50.000\n2.000\nKhông chịu thuế\n4.000\nKhông chịu thuế\n3.000\n2.000\n500.000\n1.000\n10.000\n2.000\n500\n1.000\n600\ntấn\nlít\nlít\nlít\nGJ\nlít\nlít\nNguồn: Tính toán của cán bộ Ngân hàng Thế giới.\nGhi chú: EPT+ tương ứng các mức thuế suất tối đa cho phép qua Luật thuế BVMT năm 2010. Nguồn: Quốc hội.",
+   "[wb-vn2045-greener-vi__p077__c004] (trang 77, chuong_2_giam_phat_thai)\nThuế BVMT hiện \nchưa được coi là thuế các-bon vì hai lý do, tuy thuế này có thể lồng ghép động cơ kinh tế trong đó. Một \nlà, như được minh họa ở Bảng 2.2, thuế BVMT chưa toàn diện vì chưa được áp cho một số loại nhiên liệu \nhóa thạch như khí tự nhiên và LPG. Hai là thuế BVMT không đánh thuế nhiên liệu hóa thạch theo tỷ lệ \nhàm lượng khí thải các-bon. Ví dụ, trong thuế BVMT, than chịu thuế ở mức 15.000 VND–30.000 VND/tấn \nso với 2.000 VND/lít đối với xăng.99 Chính vì vậy, thuế BVMT đánh thuế lên khí thải CO2 của than thấp hơn \nnhiều so với các nguồn khác, tạo ra cơ hội kiếm lời qua chênh lệch, phản tác dụng với chiến lược giảm \nnhẹ. Thuế BVMT cũng hạn chế mục đích  trở thành thuế các-bon toàn diện vì đặt mức trần thấp trên thuế \nsuất tối đa được phép (tham khảo cột ‘thuế BVMT+’ ở Bảng 2.2). Để thuế BVMT trở thành thuế các-bon \nthực sự, cột cuối của Bảng 2.2 đưa ra mức định giá các-bon phù hợp cho từng loại nhiên liệu.",
+   "[wb-vn2045-greener-vi__p081__c001] (trang 81, chuong_2_giam_phat_thai)\nNguồn: Mô phỏng của cán bộ Ngân hàng Thế giới bằng CPAT.\nTriệu tấn CO2 tương đương\nHình 2.12a. Giá các-bon (US$/tấn CO2 \ntương đương) theo kịch bản chính sách\nHình 2.12b. Thu ngân sách tăng thêm\n(% GDP)\nKịch bản cơ sở\n2019\n2020\n2021\n2022\n2023\n2023\n2024\n2024\n2025\n2025\n2026\n2026\n2027\n2027\n2028\n2028\n2029\n2029\n2030\n2030\n700\n600\n% GDP\n500\n400\n300\n0\n0.5\n1\n1.5\n2\n2.5\n3\n3.5\nChiến lược quốc gia về biến đổi khí hậu (2030)\nLộ trình phát thải ròng bằng không minh họa (2050)\nTham vọng\nTham vọng\nKết hợp\nKết hợp\nThuế các-bon\nGiảm giá điện\nThuế BVMT+\nThuế các-bon\nGiảm giá điện\nThuế BVMT+\nNguồn: Mô phỏng của cán bộ Ngân hàng Thế giới dựa trên khảo sát mức sống hộ gia đình (VHLSS) 2018.\nHình 2.13. Tỷ trọng của tiền điện trong ngân sách chi tiêu\ntheo nhóm hộ gia đình\n(Nhiên liệu hóa thạch và điện – %)\n15\n12\n9\n6\n3\n0\nCủi gỗ\nThan củi\nNhiên liệu sinh khối\nLPG\nDầu hỏa\nDầi diesel\nXăng\nDầu\nĐiện\nNghèo nhất\n2\n3\n4\n5\n6\n7\n8\n9\nGiàu nhất",
+   "[wb-vn2045-greener-vi__p082__c101] (trang 82, chuong_2_giam_phat_thai)\n[TABLE] Bảng 2.3: Tác động của các chính sách thuế các-bon đến tình trạng nghèo và bất bình đẳng\n| | Tác động đến tình trạng bất bình đẳng (mức đóng góp biên) | Tác động đến tình trạng nghèo (mức đóng góp biên) Điểm %, trừ khi có ghi chú khác |\n| :--- | :---: | :---: | :---: | :---: | :---: |\n| | Gini | 3,65 US$ | Khoảng cách đến 3,65 US$ | 6,85 US$ | Khoảng cách đến 6,85 US$ |\n| Ở mức thu nhập khả dụng | 35,7 | 5.3 | 1.4 | 22.2 | 6.9 |\n| Thuế BVMT + | -0,03 | -0.1 | 0.0 | -0.3 | -0.1 |\n| Thuế các-bon | -0,03 | -0.1 | 0.0 | -0.5 | -0.2 |\n| Giảm giá điện | 0,00 | 0.0 | 0.0 | -0.1 | 0.0 |\n| Kết hợp | -0,03 | -0.1 | -0.1 | -0.6 | -0.2 |\n| Tham vọng | -0,09 | -0.5 | -0.2 | -1.7 | -0.6 |\n\nNguồn: Mô phỏng của cán bộ Ngân hàng Thế giới trên CPAT và dựa vào VHLSS 2018.\nGhi chú: Dấu âm nghĩa là tăng tỷ lệ nghèo.\n(Trang PDF 82, vùng: middle)",
+   "[wb-vn2045-greener-vi__p082__c001] (trang 82, chuong_2_giam_phat_thai)\nTác động đến tình \ntrạng bất bình đẳng \n(mức đóng góp biên)\nTác động đến tình trạng nghèo  (mức đóng góp biên)\nĐiểm %, trừ khi có ghi chú khác\nBảng 2.3. Tác động của các chính sách thuế các-bon đến tình trạng nghèo\nvà bất bình đẳng\nỞ mức thu nhập khả dụng\nThuế BVMT +\nThuế các-bon\nGiảm giá điện\nKết hợp\nTham vọng\n5.3\n-0.1\n-0.1\n0.0\n-0.1\n-0.5\n3,65 US$\n1.4\n0.0\n0.0\n0.0\n-0.1\n-0.2\nKhoảng cách \nđến 3,65 US$\n22.2\n-0.3\n-0.5\n-0.1\n-0.6\n-1.7\n6,85 US$\n6.9\n-0.1\n-0.2\n0.0\n-0.2\n-0.6\nKhoảng cách \nđến 6,85 US$\n35,7\n-0,03\n-0,03\n0,00\n-0,03\n-0,09\nGini\nNguồn: Mô phỏng của cán bộ Ngân hàng Thế giới trên CPAT và dựa vào VHLSS 2018. \nGhi chú: Dấu âm nghĩa là tăng tỷ lệ nghèo.",
+   "[wb-vn2045-greener-vi__p082__c002] (trang 82, chuong_2_giam_phat_thai)\nTác động của các chính sách thuế các-bon đến tỷ lệ nghèo cũng nhỏ. Tỷ lệ nghèo của Việt Nam, theo \nchuẩn nghèo quốc tế dành cho các quốc gia thu nhập trung bình cao  là 6,85US$ (ngang giá sức mua \n2017), là 22,2%. Vì các chính sách thuế các-bon chỉ đánh vào phần tăng giá các hộ gia đình phải trả, nên \nnó có tác động tiêu cực đến giảm nghèo. Tuy nhiên tác động chỉ ở mức nhỏ (Bảng 2.3). Chính sách thuế \nBVMT + sẽ làm tăng tỷ lệ nghèo lên chưa đến một nửa điểm phần trăm,102 còn thuế các-bon sẽ làm tăng \nmột nửa điểm, giảm giá điện hầu như không có tác động gì đến tỷ lệ nghèo.",
+   "[wb-vn2045-greener-vi__p082__c003] (trang 82, chuong_2_giam_phat_thai)\nTác động biên của các chính \nsách thuế các-bon đến tỷ lệ nhèo là do thay đổi nhỏ trong tiêu dùng của hộ gia đình, ngay cả ở các nhóm \nnghèo nhất trong phân bố thu nhập hộ gia đình.103 Theo kịch bản tham vọng hơn, thuế các-bon tăng \nmạnh (từ 15 US$/tấn CO2 tương đương lên 30 US$/tấn CO2 tương đương vào năm 2024, lên đến 90 \nUS$/tấn CO2 tương đương vào năm 2030) sẽ dẫn đến tỷ lệ nghèo theo chuẩn nghèo dành cho các quốc \ngia thu nhập trung bình cao   tăng thêm 1,7 điểm phần trăm (tương đương 1,7 triệu người). Tác động tiêu \ncực đến tỷ lệ nghèo trong kịch bản tham vọng có thể được bù lại bằng chương trình hỗ trợ bằng tiền có \nmục tiêu lựa chọn tốt, bao gồm các chính sách về thị trường lao động, nhằm đào tạo lại người lao động \nđể chuyển sang các lĩnh vực xanh mới, chủ cần dùng một phần nhỏ số thu phát sinh qua chính sách này.\n102\t Mức này tương tự như đóng góp biên về giảm nghèo của thuế BVMT hiện hành (-0,03 điểm).",
+   "[wb-vn2045-greener-vi__p082__c004] (trang 82, chuong_2_giam_phat_thai)\n103\t Những tác động đó có thể coi là tác động ngưỡng trên vì không xét đến hành vi của người tiêu dùng. Nếu người tiêu dùng phản ứng \nvới giá cả thay đổi, tác động sẽ trở nên thấp hơn.\nThu ngân sách tăng thêm nhờ các chính sách thuế các-bon có thể được dùng để mở rộng hệ thống \nan sinh xã hội ở Việt Nam. Chi tiêu cho an sinh xã hội, ở mức dưới 1% GDP, hiện còn thấp so với hầu hết \ncác quốc gia thu nhập trung bình cao và thấp. Chính vì vậy, phúc lợi hỗ trợ bằng tiền còn tương đối thấp \n(7% thu nhập thị trường cho nhóm nghèo nhất) và phạm vi bao phủ còn thấp (13% trên toàn quốc và 25% \nngười dân ở nhóm nghèo nhất được nhận hỗ trợ bằng tiền) (Bảng 2.3). Một phần số thu nhờ thuế các-bon \ncó thể dùng để bù đắp tác động nhỏ đến tình trạng nghèo qua mở rộng hỗ trợ bằng tiền cho các hộ gia"
+  ],
+  "context_chars": 7569,
+  "searches": 2,
+  "usage": {
+   "llm_calls": 2,
+   "cached_calls": 1,
+   "input_tokens": 4799,
+   "output_tokens": 239,
+   "thinking_tokens": 0
+  },
+  "latency_s": 1.424,
+  "auto_eval": {
+   "answerable": true,
+   "context_has_evidence": true
+  }
+ },
+ {
+  "query_id": "d11",
+  "split": "dev",
+  "config": "improve_label_strict_41_budget",
+  "provider": "openai",
+  "model": "gpt-4.1",
+  "question": "Theo Hình 2.19a, tỷ lệ công suất điện mặt trời của Việt Nam đạt đỉnh khoảng bao nhiêu phần trăm và vào năm nào; QHĐ8 sửa đổi đặt chỉ tiêu điện mặt trời bao nhiêu GW vào năm 2030?",
+  "filter": null,
+  "status": "answered",
+  "answer": "- Theo Hình 2.19a, tỷ lệ công suất điện mặt trời của Việt Nam đạt đỉnh khoảng 11,5% vào năm 2021 [wb-vn2045-greener-vi__p088__c101].\n- QHĐ8 sửa đổi đặt chỉ tiêu điện mặt trời là 73 GW vào năm 2030 [wb-vn2045-greener-vi__p067__c003][wb-vn2045-greener-vi__p022__c001][wb-vn2045-greener-vi__p034__c003].",
+  "citations": [
+   "wb-vn2045-greener-vi__p088__c101",
+   "wb-vn2045-greener-vi__p067__c003",
+   "wb-vn2045-greener-vi__p022__c001",
+   "wb-vn2045-greener-vi__p034__c003"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_hybrid_label",
+    "query": "Hình 2.19a tỷ lệ công suất điện mặt trời của Việt Nam đạt đỉnh bao nhiêu phần trăm và vào năm nào",
+    "filter": null,
+    "top_k": 5,
+    "results": [
+     {
+      "id": "wb-vn2045-greener-vi__p088__c101",
+      "rank": 1,
+      "score": 1.0,
+      "page": 88,
+      "method": "label",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-vn2045-greener-vi__p088__c002",
+      "rank": 2,
+      "score": 0.032522,
+      "page": 88,
+      "method": "hybrid",
+      "base_rank": null,
+      "component_ranks": {
+       "dense": 2,
+       "bm25": 1
+      },
+      "rerank_error": null
+     },
+     {
+      "id": "wb-vn2045-greener-vi__p088__c003",
+      "rank": 3,
+      "score": 0.031746,
+      "page": 88,
+      "method": "hybrid",
+      "base_rank": null,
+      "component_ranks": {
+       "dense": 3,
+       "bm25": 3
+      },
+      "rerank_error": null
+     },
+     {
+      "id": "wb-vn2045-greener-vi__p067__c004",
+      "rank": 4,
+      "score": 0.02971,
+      "page": 67,
+      "method": "hybrid",
+      "base_rank": null,
+      "component_ranks": {
+       "dense": 4,
+       "bm25": 11
+      },
+      "rerank_error": null
+     },
+     {
+      "id": "wb-vn2045-greener-vi__p089__c001",
+      "rank": 5,
+      "score": 0.029631,
+      "page": 89,
+      "method": "hybrid",
+      "base_rank": null,
+      "component_ranks": {
+       "dense": 7,
+       "bm25": 8
+      },
+      "rerank_error": null
+     }
+    ],
+    "added_ids": [
+     "wb-vn2045-greener-vi__p088__c101",
+     "wb-vn2045-greener-vi__p088__c002",
+     "wb-vn2045-greener-vi__p088__c003"
+    ],
+    "skipped_over_budget": [
+     "wb-vn2045-greener-vi__p067__c004",
+     "wb-vn2045-greener-vi__p089__c001"
+    ],
+    "context_chars": 3655
+   },
+   {
+    "event": "search",
+    "tool": "search_hybrid_label",
+    "query": "QHĐ8 sửa đổi đặt chỉ tiêu điện mặt trời bao nhiêu GW vào năm 2030",
+    "filter": null,
+    "top_k": 5,
+    "results": [
+     {
+      "id": "wb-vn2045-greener-vi__p067__c003",
+      "rank": 1,
+      "score": 0.032787,
+      "page": 67,
+      "method": "hybrid",
+      "base_rank": null,
+      "component_ranks": {
+       "dense": 1,
+       "bm25": 1
+      },
+      "rerank_error": null
+     },
+     {
+      "id": "wb-vn2045-greener-vi__p022__c001",
+      "rank": 2,
+      "score": 0.032258,
+      "page": 22,
+      "method": "hybrid",
+      "base_rank": null,
+      "component_ranks": {
+       "dense": 2,
+       "bm25": 2
+      },
+      "rerank_error": null
+     },
+     {
+      "id": "wb-vn2045-greener-vi__p022__c002",
+      "rank": 3,
+      "score": 0.031258,
+      "page": 22,
+      "method": "hybrid",
+      "base_rank": null,
+      "component_ranks": {
+       "dense": 3,
+       "bm25": 5
+      },
+      "rerank_error": null
+     },
+     {
+      "id": "wb-vn2045-greener-vi__p034__c003",
+      "rank": 4,
+      "score": 0.031258,
+      "page": 34,
+      "method": "hybrid",
+      "base_rank": null,
+      "component_ranks": {
+       "dense": 5,
+       "bm25": 3
+      },
+      "rerank_error": null
+     },
+     {
+      "id": "wb-vn2045-greener-vi__p013__c003",
+      "rank": 5,
+      "score": 0.03125,
+      "page": 13,
+      "method": "hybrid",
+      "base_rank": null,
+      "component_ranks": {
+       "dense": 4,
+       "bm25": 4
+      },
+      "rerank_error": null
+     }
+    ],
+    "added_ids": [
+     "wb-vn2045-greener-vi__p067__c003",
+     "wb-vn2045-greener-vi__p022__c001",
+     "wb-vn2045-greener-vi__p022__c002",
+     "wb-vn2045-greener-vi__p034__c003"
+    ],
+    "skipped_over_budget": [
+     "wb-vn2045-greener-vi__p013__c003"
+    ],
+    "context_chars": 6966
+   },
+   {
+    "event": "answer",
+    "citations": [
+     "wb-vn2045-greener-vi__p088__c101",
+     "wb-vn2045-greener-vi__p067__c003",
+     "wb-vn2045-greener-vi__p022__c001",
+     "wb-vn2045-greener-vi__p034__c003"
+    ]
+   }
+  ],
+  "context_ids": [
+   "wb-vn2045-greener-vi__p088__c101",
+   "wb-vn2045-greener-vi__p088__c002",
+   "wb-vn2045-greener-vi__p088__c003",
+   "wb-vn2045-greener-vi__p067__c003",
+   "wb-vn2045-greener-vi__p022__c001",
+   "wb-vn2045-greener-vi__p022__c002",
+   "wb-vn2045-greener-vi__p034__c003"
+  ],
+  "context": [
+   "[wb-vn2045-greener-vi__p088__c101] (trang 88, chuong_2_giam_phat_thai)\n[CHART] Hình 2.19: Tốc độ tăng trưởng nhanh của công suất điện gió và mặt trời (Hình a) của Việt Nam phản ánh chi phí giảm xuống (Hình b)\nHình 2.19 bao gồm hai biểu đồ con:\n\na) Tỷ lệ công suất sản xuất điện gió và mặt trời (%):\n- Loại: Biểu đồ đường.\n- Trục tung: 0.0% đến 12.0%.\n- Trục hoành: 2010 đến 2022.\n- Chú giải: Đường màu vàng là 'Tỷ lệ điện mặt trời', đường màu xanh dương là 'Tỷ lệ điện gió'.\n- Xu hướng: Cả hai đường đều đi ngang gần mức 0% từ 2010 đến 2017. Từ 2018, tỷ lệ điện mặt trời tăng vọt, đạt đỉnh khoảng 2021 rồi giảm nhẹ vào 2022. Tỷ lệ điện gió bắt đầu tăng từ 2020 và tăng mạnh vào 2022.\n- Giá trị ước lượng:\n  + Tỷ lệ điện mặt trời: 2010-2017 ≈ 0%; 2018 ≈ 1%; 2019 ≈ 3%; 2020 ≈ 6%; 2021 ≈ 11,5%; 2022 ≈ 10,5%.\n  + Tỷ lệ điện gió: 2010-2019 ≈ 0%; 2020 ≈ 0,5%; 2021 ≈ 1%; 2022 ≈ 3,5%.\n\nb) Chi phí điện quy dẫn (LCOE) của dự án điện mặt trời - cộng - pin so với nhà máy điện than và khí mới ở Việt Nam ($/MWh, 2022 giá so sánh):\n- Loại: Biểu đồ đường kết hợp vùng (area chart).\n- Trục tung: 0 đến 250 ($/MWh).\n- Trục hoành: 2023 đến 2050.\n- Chú giải: Các đường nét đứt biểu thị các mức công suất (100%, 50%, 25%). Vùng màu xám đậm là 'Than', vùng màu xám nhạt là 'CCGT'. Các đường màu vàng/hồng/tím biểu thị các kịch bản chi phí điện mặt trời + pin.\n- Xu hướng: Chi phí điện mặt trời + pin giảm dần theo thời gian từ 2023 đến 2050. Các đường chi phí này cắt qua các mức chi phí của Than và CCGT.\n- Giá trị ước lượng:\n  + Chi phí điện mặt trời + pin (các đường màu): 2023 bắt đầu từ khoảng 100-230 $/MWh; 2050 giảm xuống khoảng 30-60 $/MWh.\n  + Than: Nằm ổn định ở mức khoảng 60-80 $/MWh.\n  + CCGT: Nằm ổn định ở mức khoảng 80-100 $/MWh.\n\nNguồn: Hình a) IRENA. Hình b) Bloomberg NEF 2024.\nGhi chú: Chi phí điện quy dẫn có phạm vi cho lưu trữ pin và mặt trời quy mô từ 25% đến 100% công suất mặt trời. Không tính chi phí tăng thêm có thể phát sinh do dự phòng chi phí thiết bị địa phương. CCGT là tua-bin khí chu kỳ kết hợp.\n(Trang PDF 88, vùng: middle)",
+   "[wb-vn2045-greener-vi__p088__c002] (trang 88, chuong_2_giam_phat_thai)\nViệt Nam đã có giai đoạn công suất năng lượng xanh trong nước tăng mạnh trong điều kiện giá cả \ngiảm mạnh, nhưng phải đối mặt với những khó khăn về thể chế trong việc phát triển lĩnh vực này. \nTỷ lệ công suất điện sản xuất bằng năng lượng gió và mặt trời tăng từ mức gần bằng không trong năm \n2018 lên đến 13% sản lượng điện năm (Hình 2.19a) vì chi phí điện quy dẫn (LCOE) của điện mặt trời giảm \nmạnh sau năm 2019, khi quốc gia ban hành biểu giá điện đầu vào ưu đãi, đẩy mạnh phát triển điện mặt \ntrời. Mặc dù chưa từng có quốc gia nào trên thế giới bổ sung điện tái tạo với tỷ lệ so với tổng công suất \nlắp đặt cao trong khoảng thời gian ngắn, nhưng lĩnh vực này vẫn đang gặp khó khăn với các vấn đề về thể \nchế và chính sách liên quan đến chuyển đổi sang công suất sản xuất điện mới này, khiến cho công suất \ntăng thêm vẫn chủ yếu để chờ.\na) Tỷ lệ công suất sản xuất điện gió và mặt trời (%)\nb) Chi phí điện quy dẫn (LCOE) của dự án điện mặt trời\n- cộng - pin so với nhà máy điện than và khí mới",
+   "[wb-vn2045-greener-vi__p088__c003] (trang 88, chuong_2_giam_phat_thai)\nở Việt Nam ($/MWh, 2022 giá so sánh)\nNguồn: Hình a) IRENA. Hình b) Bloomberg NEF2024. \nGhi chú: Chi phí điện quy dẫn có phạm vi cho lưu trữ pin và mặt trời quy mô từ 25% đến 100% công suất mặt trời. Không tính chi \nphí tăng thêm có thẻ phát sinh do dự phòng chi phí thiết bị đia phương. CCGT là tua-bin khí chu kỳ kết hợp.\nHình 2.19. Tốc độ tăng trưởng nhanh của công suất điện gió và mặt trời (Hình a)\ncủa Việt Nam phản ánh chi phí giảm xuống (Hình b)\n0.0%\n2.0%\n4.0%\n6.0%\n8.0%\n10.0%\n12.0%\n2010\n2011\n2012\n2013\n2014\n2015\n2016\n2017\n2018\n2019\n2020\n2021\n2022\nTỷ lệ điện mặt trời\nTỷ lệ điện gió\n250\n200\n150\n100\n50\n0\n2023\n30\n35\n40\n45\n50\n100% công suất\n50% công suất\n25% công suất\nCCGT\nThan",
+   "[wb-vn2045-greener-vi__p067__c003] (trang 67, chuong_2_giam_phat_thai)\ntái tạo trong tổng nguồn cung năng lượng sơ cấp. Quy hoạch phát triển điện lực lần thứ tám giai \nđoạn 2021-2030 và tầm nhìn đến năm 2045 (QHĐ8) được lập căn cứ vào chiến lược đó và dự kiến \ntiếp tục giảm công suất điện chạy than theo kế hoạch. QHĐ8, được ban hành năm 2023, trình bày \nmục tiêu chuyển đổi mạnh mẽ về cơ cấu năng lượng của Việt Nam để giảm điện than và nghiêng \nmạnh về năng lượng tái tạo, để trở thành loại điện có công suất lắp đặt lớn nhất. QHĐ8 sửa đổi, ban \nhành tháng 04/2025, đặt mục tiêu 73 GW điện mặt trời vào năm 2030 — cao trên năm lần so với \n12,8 GW trước đó — còn chỉ tiêu điện gió tăng gần gấp đôi từ 21 GW lên 38 GW. Đầu tư về hiện đại \nlưới điện và lưu trữ linh hoạt, bao gồm 18 dự án lưu trữ tích năng, dự kiến sẽ hỗ trợ để chuyển đổi.",
+   "[wb-vn2045-greener-vi__p022__c001] (trang 22, tong_quan)\nChính phủ đã ban hành các chính sách liên ngành và chuyên ngành đầy tham vọng để kiềm chế \nphát thải các-bon và giúp chuyển đổi nền kinh tế Việt Nam. Chuyển đổi năng lượng là nội dung \nquan trọng nhất trong chuyển đổi sang phát thải ròng bằng không tại Việt Nam vì đây là lĩnh vực \nđóng góp đến hai phần ba lượng khí thải hiệu ứng nhà kính của cả nước, với 60% riêng của lĩnh vực \nđiện do nguồn cung điện than gia tăng nhanh chóng. Quy hoạch phát triển điện lực lần thứ tám giai \nđoạn 2021-2030 vào năm 2023 (QHĐ8) trình bày lộ trình tham vọng nhằm chuyển đổi cơ cấu sản \nxuất điện của Việt Nam từ điện than sang điện tái tạo. QHĐ8 sửa đổi vạch ra lộ trình phát triển năng \nlượng tái tạo mạnh mẽ, với chỉ tiêu 73 GW điện mặt trời vào năm 2030 - tăng trên năm lần so với",
+   "[wb-vn2045-greener-vi__p022__c002] (trang 22, tong_quan)\nmục tiêu 12,8 GW trước đó - đồng thời tăng gần gấp đôi chỉ tiêu điện mặt trời từ 21 GW lên 38 GW. \nĐể bình ổn tốc độ tăng của năng lượng tái tạo, Việt Nam đang ưu tiên hiện đại hóa lưới điện và các \ngiải pháp lưu trữ linh hoạt, bao gồm 18 dự án thủy điện tích năng được lên kế hoạch. Đồng thời, lĩnh \nvực giao thông, đóng góp 7% tổng lượng khí thải hiệu ứng nhà kính vào năm 2021, cũng đang trong \nquá trình khử thải các-bon qua một kế hoạch hành động tập trung vào phương tiện chạy điện và thúc \nđẩy giao thông công cộng. Trong ngành nông nghiệp, đóng góp 15% lượng phát thải, Việt Nam đã \ncam kết cắt giảm phát thải mê-tan 30% vào năm 2030, so với mức năm 2020, phù hợp với các cam \nkết trong COP26. Đồng thời Việt Nam đang xây dựng hệ thống giao dịch phát thải (ETS) làm công \ncụ định giá các-bon, và hệ thống ETS sẽ được thí điểm vào năm 2025 cho ba lĩnh vực chính: điện, \nxi-măng và thép.",
+   "[wb-vn2045-greener-vi__p034__c003] (trang 34, gioi_thieu)\nhơn. Về thích ứng, Chính phủ đã thành lập Hội đồng Điều phối Vùng Đồng bằng Sông Cửu Long, \ntập hợp chính quyền, các cộng đồng địa phương và khu vực tư nhân để hài hòa đầu tư và hành \nđộng nhằm xử lý rủi ro khí hậu trên khắp vùng đồng bằng. Chính phủ cũng đã ban hành Quy \nhoạch sử dụng  bền vững tài nguyên ven biển để chuyển đổi các địa bàn ven biển thành các trung \ntâm văn hóa, cơ hội kinh tế và bền vững phát triển thịnh vượng. Về giảm nhẹ, Việt Nam đã đẩy \nnhanh chuyển đổi năng lượng. Từ năm 2019 đến năm 2023, công suất điện mặt trời lắp đặt của \nquốc gia đã tăng mạnh từ 4,5 GW lên trên 17 GW, nhờ các chính sách ưu đãi và đầu tư tư nhân. \nTiếp đà, Quy hoạch phát triển điện lực quốc gia lần thứ tám (QHĐ8) đặt mục tiêu 73 GW điện \nmặt trời vào năm 2030 — tăng trên năm lần so với mục tiêu 12,8 GW trước đó — còn mục tiêu về \nđiện gió tăng gần gấp đôi từ 21 GW lên 38 GW."
+  ],
+  "context_chars": 6966,
+  "searches": 2,
+  "usage": {
+   "llm_calls": 3,
+   "cached_calls": 1,
+   "input_tokens": 6029,
+   "output_tokens": 208,
+   "thinking_tokens": 0
+  },
+  "latency_s": 2.408,
+  "auto_eval": {
+   "answerable": true,
+   "context_has_evidence": true
+  }
+ },
+ {
+  "query_id": "d12",
+  "split": "dev",
+  "config": "improve_label_strict_41_budget",
+  "provider": "openai",
+  "model": "gpt-4.1",
+  "question": "Rừng ngập mặn có giá trị bình quân bao nhiêu USD quốc tế/ha/năm theo Hình 3.6, và diện tích rừng ngập mặn của Việt Nam năm 2020 so với năm 1990 thay đổi thế nào?",
+  "filter": null,
+  "status": "answered",
+  "answer": "Giá trị bình quân của rừng ngập mặn là 45.271 USD quốc tế/ha/năm theo Hình 3.6 [wb-vn2045-greener-vi__p109__c101].\n\nDiện tích rừng ngập mặn của Việt Nam năm 2020 là khoảng 150.000 ha, giảm so với khoảng 250.000 ha vào năm 1990 [wb-vn2045-greener-vi__p031__c003].",
+  "citations": [
+   "wb-vn2045-greener-vi__p109__c101",
+   "wb-vn2045-greener-vi__p031__c003"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_hybrid_label",
+    "query": "Hình 3.6 giá trị bình quân rừng ngập mặn USD quốc tế/ha/năm",
+    "filter": null,
+    "top_k": 5,
+    "results": [
+     {
+      "id": "wb-vn2045-greener-vi__p109__c101",
+      "rank": 1,
+      "score": 1.0,
+      "page": 109,
+      "method": "label",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-vn2045-greener-vi__p109__c102",
+      "rank": 2,
+      "score": 1.0,
+      "page": 109,
+      "method": "label",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-vn2045-greener-vi__p108__c101",
+      "rank": 3,
+      "score": 0.032002,
+      "page": 108,
+      "method": "hybrid",
+      "base_rank": null,
+      "component_ranks": {
+       "dense": 3,
+       "bm25": 2
+      },
+      "rerank_error": null
+     },
+     {
+      "id": "wb-vn2045-greener-vi__p108__c003",
+      "rank": 4,
+      "score": 0.030777,
+      "page": 108,
+      "method": "hybrid",
+      "base_rank": null,
+      "component_ranks": {
+       "dense": 4,
+       "bm25": 6
+      },
+      "rerank_error": null
+     },
+     {
+      "id": "wb-vn2045-greener-vi__p108__c004",
+      "rank": 5,
+      "score": 0.030769,
+      "page": 108,
+      "method": "hybrid",
+      "base_rank": null,
+      "component_ranks": {
+       "dense": 5,
+       "bm25": 5
+      },
+      "rerank_error": null
+     }
+    ],
+    "added_ids": [
+     "wb-vn2045-greener-vi__p109__c101",
+     "wb-vn2045-greener-vi__p109__c102",
+     "wb-vn2045-greener-vi__p108__c101",
+     "wb-vn2045-greener-vi__p108__c003",
+     "wb-vn2045-greener-vi__p108__c004"
+    ],
+    "skipped_over_budget": [],
+    "context_chars": 3382
+   },
+   {
+    "event": "search",
+    "tool": "search_hybrid_label",
+    "query": "diện tích rừng ngập mặn Việt Nam năm 2020 và 1990",
+    "filter": null,
+    "top_k": 5,
+    "results": [
+     {
+      "id": "wb-vn2045-greener-vi__p031__c003",
+      "rank": 1,
+      "score": 0.032266,
+      "page": 31,
+      "method": "hybrid",
+      "base_rank": null,
+      "component_ranks": {
+       "dense": 1,
+       "bm25": 3
+      },
+      "rerank_error": null
+     },
+     {
+      "id": "wb-vn2045-greener-vi__p109__c002",
+      "rank": 2,
+      "score": 0.032018,
+      "page": 109,
+      "method": "hybrid",
+      "base_rank": null,
+      "component_ranks": {
+       "dense": 4,
+       "bm25": 1
+      },
+      "rerank_error": null
+     },
+     {
+      "id": "wb-vn2045-greener-vi__p108__c003",
+      "rank": 3,
+      "score": 0.030331,
+      "page": 108,
+      "method": "hybrid",
+      "base_rank": null,
+      "component_ranks": {
+       "dense": 8,
+       "bm25": 4
+      },
+      "rerank_error": null
+     },
+     {
+      "id": "wb-vn2045-greener-vi__p108__c101",
+      "rank": 4,
+      "score": 0.02967,
+      "page": 108,
+      "method": "hybrid",
+      "base_rank": null,
+      "component_ranks": {
+       "dense": 10,
+       "bm25": 5
+      },
+      "rerank_error": null
+     },
+     {
+      "id": "wb-vn2045-greener-vi__p106__c004",
+      "rank": 5,
+      "score": 0.029462,
+      "page": 106,
+      "method": "hybrid",
+      "base_rank": null,
+      "component_ranks": {
+       "dense": 15,
+       "bm25": 2
+      },
+      "rerank_error": null
+     }
+    ],
+    "added_ids": [
+     "wb-vn2045-greener-vi__p031__c003",
+     "wb-vn2045-greener-vi__p109__c002",
+     "wb-vn2045-greener-vi__p106__c004"
+    ],
+    "skipped_over_budget": [],
+    "context_chars": 6224
+   },
+   {
+    "event": "answer",
+    "citations": [
+     "wb-vn2045-greener-vi__p109__c101",
+     "wb-vn2045-greener-vi__p031__c003"
+    ]
+   }
+  ],
+  "context_ids": [
+   "wb-vn2045-greener-vi__p109__c101",
+   "wb-vn2045-greener-vi__p109__c102",
+   "wb-vn2045-greener-vi__p108__c101",
+   "wb-vn2045-greener-vi__p108__c003",
+   "wb-vn2045-greener-vi__p108__c004",
+   "wb-vn2045-greener-vi__p031__c003",
+   "wb-vn2045-greener-vi__p109__c002",
+   "wb-vn2045-greener-vi__p106__c004"
+  ],
+  "context": [
+   "[wb-vn2045-greener-vi__p109__c101] (trang 109, chuong_3_kinh_te_bien)\n[TABLE] Hình 3.6: Tầm quan trọng của các hệ sinh thái biển và các thành phần trong đó\n| Hệ sinh thái/quần xã sinh học | Giá trị bình quân bằng đồng USD quốc tế/ha/năm |\n| :--- | :--- |\n| Các hệ sinh thái ven biển, trừ rừng ngập mặn | 400 |\n| Rừng ngập mặn | 45.271 |\n| Rặng san hô | 24.616 |\n| Hệ sinh thái đại dương biển khơi | 36.300 |\n\n*Nguồn: Tính toán của cán bộ Ngân hàng Thế giới dựa trên dữ liệu thu thập tại ESVD.*\n(Trang PDF 109, vùng: top)",
+   "[wb-vn2045-greener-vi__p109__c102] (trang 109, chuong_3_kinh_te_bien)\n[CHART] Hình 3.6: Tầm quan trọng của các hệ sinh thái biển và các thành phần trong đó\nBiểu đồ hình tròn (pie chart) thể hiện tỷ trọng giá trị của các hệ sinh thái biển. Các thành phần bao gồm: Rừng ngập mặn (màu cam), Rặng san hô (màu xanh lá), Hệ sinh thái đại dương biển khơi (màu vàng), Các hệ sinh thái ven biển, trừ rừng ngập mặn (màu xanh dương nhạt). Nguồn: Tính toán của cán bộ Ngân hàng Thế giới dựa trên dữ liệu thu thập tại ESVD.\n\nGiá trị ước lượng (dựa trên bảng dữ liệu đi kèm): \n- Rừng ngập mặn: 45.271 USD/ha/năm\n- Hệ sinh thái đại dương biển khơi: 36.300 USD/ha/năm\n- Rặng san hô: 24.616 USD/ha/năm\n- Các hệ sinh thái ven biển, trừ rừng ngập mặn: 400 USD/ha/năm\n(Trang PDF 109, vùng: top)",
+   "[wb-vn2045-greener-vi__p108__c101] (trang 108, chuong_3_kinh_te_bien)\n[TABLE] Bảng 3.5: Giá trị của quần xã sinh vật, hệ sinh thái rừng ngập mặn và san hô\n| Hệ sinh thái/quần xã sinh vật | Diện tích (ha) | Giá trị bình quân bằng USD/Ha/năm | Giá trị bình quân nghìn VND, giá năm 2010 | Tổng giá trị bằng tỷ VND, giá năm 2010 | Tỷ lệ % trên tổng giá trị gia tăng (GVA) |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n| Các hệ sinh thái ven biển, trừ rừng ngập mặn | 471.122 | 21,5 | 399,5 | 188,2 | 0,01% |\n| Rừng ngập mặn | 302.359 | 2.432,2 | 45.270,8 | 13.688,0 | 0,56% |\n| Rạn san hô | 11.475 | 1.322,5 | 24.615,8 | 282,5 | 01,1% |\n| Hệ sinh thái đại dương biển khơi | 169.617 | 1.950,3 | 36.300,0 | 415,5 | 0,02% |\n| Tổng | 784.956 | | | 14.575,2 | 0,60% |\n\n*Nguồn: Ước tính của Ngân hàng Thế giới.*\n(Trang PDF 108, vùng: bottom)",
+   "[wb-vn2045-greener-vi__p108__c003] (trang 108, chuong_3_kinh_te_bien)\nGiá trị bình quân tính được cho mỗi héc-ta của toàn bộ ba hệ sinh thái trên được trình bày ở Bảng \n3.5, biểu thị bằng tỷ đồng Việt Nam theo giá năm 2010. Những giá trị đó, được cho là áp dụng được \ncho những năm gần đây trong khoảng thời gian nghiên cứu, sau đó được nhân theo từng diện tích quần \nxã sinh vật của năm 2021, và được trình bày ở Bảng 3.5, nhằm đưa ra tổng giá trị. Điểm đáng chú ý là \nphân tích trên cho thấy hầu hết tổng giá trị hệ sinh thái (94%) đều nhờ vào rừng ngập mặn, còn rạn san \nhô đóng góp 2%, các hệ sinh thái ven biển (1%, các hệ sinh thái đại dương biển khơi (3%). Mặc dù có \nđóng góp đáng kể về kinh tế và sinh thái, nhưng giá trị gộp của các dịch vụ hệ sinh thái biển nêu trên \nchỉ đóng góp 0,60% tổng giá trị gia tăng (GVA) của Việt Nam, qua đó cho thấy nhu cầu công nhận và \nbảo tồn hơn nữa những tài nguyên thiên nhiên vô giá này.\nCác hệ sinh thái ven biển, trừ rừng ngập mặn\nRừng ngập mặn\nRạn san hô\nHệ sinh thái đại dương biển khơi\nTổng\n471.122\n302.359\n11.475",
+   "[wb-vn2045-greener-vi__p108__c004] (trang 108, chuong_3_kinh_te_bien)\n169.617\n784.956\n21,5\n2.432,2\n1.322,5\n1.950,3\n399,5\n45.270,8\n24.615,8\n36.300,0\n188,2\n13.688,0\n282,5\n415,5\n14.575,2\n0,01%\n0,56%\n01,1%\n0,02%\n0,60%\nHệ sinh thái/quần xã sinh vật\nDiện tích\n(ha)\nGiá trị bình\nquân bằng\nUSD/Ha/\nnăm\nGiá trị bình\nquân bằng \nnghìn VND, \ngiá năm 2010\nTổng giá \ntrị bằng tỷ\nVND, giá \nnăm 2010\nTỷ lệ % trên\ntổng giá \ntrị gia tăng\n(GVA)\nBảng 3.5. Giá trị của quần xã sinh vật, hệ sinh thái rừng ngập mặn và san hô\nNguồn: Ước tính của Ngân hàng Thế giới.",
+   "[wb-vn2045-greener-vi__p031__c003] (trang 31, tong_quan)\nMặc dù tỷ lệ tổn \nthất rừng ngập mặn đã chững lại từ 1999 đến 2015, nhưng suy giảm ròng tiếp tục diễn ra, tuy tốc độ đã \nchậm lại. Số liệu gần đây hơn cho thấy từ năm 2000 đến năm 2020, Việt Nam bị tổn thất thêm khoảng \n13.000 héc-ta rừng ngập mặn, nâng tổng tổn thất trong 25 năm qua lên đến khoảng 15-20 rừng ngập \nmặn còn lại. Và suy giảm đang diễn ra thể hiện áp lực liên tục do phát triển nuôi trồng thủy sản, đô thị \nhóa và phát triển bờ biển thiếu bền vững. Đến năm 2020, tỷ lệ che phủ rừng ngập mặn của Việt Nam \nước rơi vào khoảng 150.000 héc-ta, giảm so với khoảng 250.000 héc-ta vào năm 1990. Những tổn thất \nđó không chỉ làm suy giảm khả năng chống chịu vùng ven biển của quốc gia mà còn gây tổn hại để các \ndịch vụ hệ sinh thái trọng yếu, như phòng chống ngập lụt, cô lập các-bon, và bảo tồn đa dạng sinh học, \ncàng cho thấy nhu cầu cấp thiết phải có các nỗ lực phục hồi và bảo tồn mạnh mẽ hơn. Biến đổi khí hậu \ntiếp tục làm gia tăng những áp lực đó.",
+   "[wb-vn2045-greener-vi__p109__c002] (trang 109, chuong_3_kinh_te_bien)\nl\t\nKhảo sát biển: Khảo sát ít nhất 50% diện tích biển của Việt Nam về tài nguyên biển và xác định điều \nkiện môi trường.\nl\t\nQuy hoạch sinh thái: Đảm bảo 100% các khu kinh tế biển, khu công nghiệp và khu đô thị được quy \nhoạch và xây dựng trên quan điểm bền vững sinh thái, bao gồm thích ứng biến đổi khí hậu và nước \nbiển dâng, có hệ thống xử lý nước thải tập trung đáp ứng tiêu chuẩn môi trường quốc gia.\nl\t\nBảo tồn biển: Đẩy mạnh bảo tồn biển và ven biển các vùng được bảo vệ bao trùm ít nhất 6% diện tích \nbiển tự nhiên của quốc gia.\nl\t\nKhôi phục rừng ngập mặn: Khôi phục rừng ngập mặn ven biển lên đến diện tích ít nhất bằng diện tích \nnăm 2000.\nCác hệ sinh thái ven biển, trừ rừng ngập mặn\nRừng ngập mặn\nRặng san hô\nHệ sinh thái đại dương biển khơi\n400\n45.271\n24.616\n36.300\nHệ sinh thái/quần xã sinh học \nGiá trị bình quân bằng đồng\nUSD quốc tế/ha/năm\nNguồn: Tính toán của cán bộ Ngân hàng Thế giới dựa trên dữ liệu thu thập tại ESVD.",
+   "[wb-vn2045-greener-vi__p106__c004] (trang 106, chuong_3_kinh_te_bien)\nl\t\nTác động đến nuôi trồng thủy sản: Nuôi trồng thủy sản - cụ thể là cá da trơn, tôm thẻ chân trắng, \ntôm sú và nghêu - đã và đang bị suy giảm cả về số lượng và chất lượng do ô nhiễm nước. Ô nhiễm \nlàm phát sinh phí tổn tăng thêm lên đến 1.400 tỷ VND (60,2 triệu US$) hàng năm, theo Bộ TN&MT \n(2019).137 Tại Đồng bằng sông Cửu Long, ô nhiễm nguồn nước khiến cho tôm sú nuôi bị chết và bị\nbệnh trên diện tích gần 12.410 ha thiệt hại được ghi nhận trong năm 2018, tăng 26% so với năm \ntrước.138 Hơn 58% thiệt hại nêu trên có nguyên nhân do các yếu tố môi trường.\nl\t\nTác động đến rừng ngập mặn: Việt Nam đã phải chịu những tổn thất đáng kể về rừng ngập mặn \nphòng hộ trong thời gian qua. Diện tích từng đạt 250.000 ha trước năm 1950, đã giảm xuống còn \n71.000ha vào năm 1999, ghi nhận mức suy giảm nghiêm trọng lên tới 72%.139 Tổn thất trên chủ yếu \nlà do sử dụng các hóa chất độc hại trong những năm trước đó và do các hoạt động nuôi tôm gần"
+  ],
+  "context_chars": 6224,
+  "searches": 2,
+  "usage": {
+   "llm_calls": 2,
+   "cached_calls": 1,
+   "input_tokens": 3972,
+   "output_tokens": 194,
+   "thinking_tokens": 0
+  },
+  "latency_s": 1.31,
+  "auto_eval": {
+   "answerable": true,
+   "context_has_evidence": true
+  }
+ },
+ {
+  "query_id": "d13",
+  "split": "dev",
+  "config": "improve_label_strict_41_budget",
+  "provider": "openai",
+  "model": "gpt-4.1",
+  "question": "Hệ số Gini của Việt Nam năm 2022 là bao nhiêu, dự báo tăng lên bao nhiêu vào năm 2050, và điều đó khiến thêm bao nhiêu người rơi xuống dưới ngưỡng nghèo?",
+  "filter": null,
+  "status": "answered",
+  "answer": "Hệ số Gini của Việt Nam năm 2022 là 36,1. Dự báo đến năm 2050, nếu hệ số Gini tăng 5% (lên 37,9), sẽ có thêm khoảng 400.000 người rơi xuống dưới ngưỡng nghèo. Nếu hệ số Gini tăng 15% (lên 41,5), sẽ có thêm trên một triệu người Việt Nam rơi xuống dưới ngưỡng nghèo [wb-vn2045-greener-vi__p050__c003][wb-vn2045-greener-vi__p037__c002].",
+  "citations": [
+   "wb-vn2045-greener-vi__p050__c003",
+   "wb-vn2045-greener-vi__p037__c002"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_hybrid_label",
+    "query": "Hệ số Gini của Việt Nam năm 2022",
+    "filter": null,
+    "top_k": 5,
+    "results": [
+     {
+      "id": "wb-vn2045-greener-vi__p050__c003",
+      "rank": 1,
+      "score": 0.032787,
+      "page": 50,
+      "method": "hybrid",
+      "base_rank": null,
+      "component_ranks": {
+       "dense": 1,
+       "bm25": 1
+      },
+      "rerank_error": null
+     },
+     {
+      "id": "wb-vn2045-greener-vi__p037__c002",
+      "rank": 2,
+      "score": 0.032258,
+      "page": 37,
+      "method": "hybrid",
+      "base_rank": null,
+      "component_ranks": {
+       "dense": 2,
+       "bm25": 2
+      },
+      "rerank_error": null
+     },
+     {
+      "id": "wb-vn2045-greener-vi__p051__c002",
+      "rank": 3,
+      "score": 0.031498,
+      "page": 51,
+      "method": "hybrid",
+      "base_rank": null,
+      "component_ranks": {
+       "dense": 4,
+       "bm25": 3
+      },
+      "rerank_error": null
+     },
+     {
+      "id": "wb-vn2045-greener-vi__p051__c101",
+      "rank": 4,
+      "score": 0.03101,
+      "page": 51,
+      "method": "hybrid",
+      "base_rank": null,
+      "component_ranks": {
+       "dense": 5,
+       "bm25": 4
+      },
+      "rerank_error": null
+     },
+     {
+      "id": "wb-vn2045-greener-vi__p037__c101",
+      "rank": 5,
+      "score": 0.03031,
+      "page": 37,
+      "method": "hybrid",
+      "base_rank": null,
+      "component_ranks": {
+       "dense": 7,
+       "bm25": 5
+      },
+      "rerank_error": null
+     }
+    ],
+    "added_ids": [
+     "wb-vn2045-greener-vi__p050__c003",
+     "wb-vn2045-greener-vi__p037__c002",
+     "wb-vn2045-greener-vi__p051__c002"
+    ],
+    "skipped_over_budget": [
+     "wb-vn2045-greener-vi__p051__c101",
+     "wb-vn2045-greener-vi__p037__c101"
+    ],
+    "context_chars": 2741
+   },
+   {
+    "event": "answer",
+    "citations": [
+     "wb-vn2045-greener-vi__p050__c003",
+     "wb-vn2045-greener-vi__p037__c002"
+    ]
+   }
+  ],
+  "context_ids": [
+   "wb-vn2045-greener-vi__p050__c003",
+   "wb-vn2045-greener-vi__p037__c002",
+   "wb-vn2045-greener-vi__p051__c002"
+  ],
+  "context": [
+   "[wb-vn2045-greener-vi__p050__c003] (trang 50, chuong_1_thich_ung)\nNhững thay đổi cơ cấu trên có khả năng dẫn đến gia tăng những thách thức về tình trạng nghèo và \nbất bình đẳng. Bất bình đẳng ở Việt Nam, được đo bằng chỉ số bất bình đẳng là hệ số Gini, được giữ ở \nmức 36,1 trong năm 2022 và có khả năng xấu đi hơn trong điều kiện biến đổi khí hậu. Nếu hệ số Gini xấu \nđi 5% (tăng lên 37,9) vào năm 2050, tỷ lệ nghèo sẽ tăng gần 0,4 điểm phần trăm so với kịch bản cơ sở, \ntương đương 400.000 người Việt Nam nằm dưới ngưỡng nghèo. Tình trạng bất bình đẳng xấu thêm - hệ \nsố Gini tăng 15% lên 41,5 - sẽ làm tăng tỷ lệ nghèo thêm 1 điểm phần trăm so với kịch bản có khả năng \nxảy ra nhất, đẩy thêm trên một triệu người Việt Nam rơi xuống dưới ngưỡng nghèo (Hình 1.10).\nHình 1.9. Thay đổi về nhu cầu lao động so với kịch bản cơ sở theo lĩnh vực và\nkỹ năng (các kịch bản, đến năm 2050)\nNguồn: Ước tính của cán bộ Ngân hàng Thế giới.\nKhông kỹ năng\nCó kỹ năng\n-30\n-20\n-10\n0\n10\n20\n30\n40\n50\nThay đổi về nhu cầu lao động\ntừ 2022 đến 2050 (%)\nThay đổi về nhu cầu lao động",
+   "[wb-vn2045-greener-vi__p037__c002] (trang 37, chuong_1_thich_ung)\nCâu hỏi: Tác động về mặt phân phối là gì theo các kịch bản biến đổi khí hậu toàn cầu khác \nnhau?\nTrả lời: Theo dự báo tăng trưởng GDP trong cả ba kịch bản biến đổi khí hậu, tỷ lệ nghèo \ntiếp tục theo xu hướng giảm, nhưng bất bình đẳng sẽ tăng lên và các nguy cơ dễ bị tổn \nthương với biến đổi khí hậu có thể làm đảo ngược một số thành tựu giảm nghèo. Tỷ lệ \nnghèo tương đối thấp ở Việt Nam, 4,2% (theo chuẩn nghèo của quốc gia thu nhập trung \nbình thấp (LMIC) ở mức 3,65 US$ ngang giá sức mua) được dự báo sẽ giảm xuống dưới 1% \nvào năm 2050. Mặt khác, bất bình đẳng ở Việt Nam – được đo bằng chỉ số bất bình đẳng \nGini – đang ở mức 36,1 vào năm 2022 và có thể trở nên xấu hơn trong bối cảnh tác động \nbiến đổi khí hậu gia tăng. Hệ số Gini sẽ tăng thêm 5% (lên đến 37,9) vào năm 2050 nghĩa là \ncó thêm hơn 400.000 người Việt Nam rơi xuống dưới ngưỡng nghèo. Ngoài ra, biến đổi khí",
+   "[wb-vn2045-greener-vi__p051__c002] (trang 51, chuong_1_thich_ung)\nHình 1.10. Tác động đến tỷ lệ nghèo khi tình trạng bất bình đẳng xấu đi\nđược thể hiện qua hệ số Gini tăng lên\n(6,85 US$ ngang giá sức mua)\nNguồn: Ước tính của cán bộ Ngân hàng Thế giới\nGhi chú: Các dự báo giả định chi tiêu bình quân đầu người theo phân phối lognormal của và tỷ lệ nghèo dự kiến được tính sau \nkhi áp tăng trưởng GDP bình quân đầu người cho chi tiêu từ năm 2022 và tăng Gini (Crow và Shimizu 1987).\nGiả định biến đổi khí hậu làm bất bình đẳng tăng 5%\ntrong giai đoạn 2022–2050\nGiả định biến đổi khí hậu làm bất bình đẳng tăng 15%\ntrong giai đoạn 2022–2050\n0\n5\n10\n15\n20\n25\n2022\n2024\n2026\n2028\n2030\n2032\n2034\n2036\n2038\n2040\n2042\n2044\n2046\n2048\n2050\n0\n5\n10\n15\n20\n25\n2022\n2024\n2026\n2028\n2030\n2032\n2034\n2036\n2038\n2040\n2042\n2044\n2046\n2048\n2050\nCó khả năng\nxảy ra nhất\nKịch bản cơ sở\nTích cực\nTiêu cực\nCó khả năng\nxảy ra nhất\nKịch bản cơ sở\nTích cực\nTiêu cực"
+  ],
+  "context_chars": 2741,
+  "searches": 1,
+  "usage": {
+   "llm_calls": 2,
+   "cached_calls": 1,
+   "input_tokens": 2398,
+   "output_tokens": 161,
+   "thinking_tokens": 0
+  },
+  "latency_s": 1.283,
+  "auto_eval": {
+   "answerable": true,
+   "context_has_evidence": true
+  }
+ },
+ {
+  "query_id": "d14",
+  "split": "dev",
+  "config": "improve_label_strict_41_budget",
+  "provider": "openai",
+  "model": "gpt-4.1",
+  "question": "Chi tiêu cho an sinh xã hội của Việt Nam ở mức bao nhiêu % GDP, và phạm vi bao phủ của hỗ trợ bằng tiền trên toàn quốc và ở nhóm nghèo nhất là bao nhiêu?",
+  "filter": null,
+  "status": "answered",
+  "answer": "Chi tiêu cho an sinh xã hội của Việt Nam ở mức dưới 1% GDP, còn thấp so với hầu hết các quốc gia thu nhập trung bình cao và thấp. Phạm vi bao phủ của hỗ trợ bằng tiền là 13% trên toàn quốc và 25% đối với nhóm nghèo nhất. Phúc lợi hỗ trợ bằng tiền cho nhóm nghèo nhất tương đương 7% thu nhập thị trường của nhóm này [wb-vn2045-greener-vi__p082__c004].",
+  "citations": [
+   "wb-vn2045-greener-vi__p082__c004"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_hybrid_label",
+    "query": "Chi tiêu cho an sinh xã hội của Việt Nam bao nhiêu phần trăm GDP",
+    "filter": null,
+    "top_k": 5,
+    "results": [
+     {
+      "id": "wb-vn2045-greener-vi__p082__c004",
+      "rank": 1,
+      "score": 0.032787,
+      "page": 82,
+      "method": "hybrid",
+      "base_rank": null,
+      "component_ranks": {
+       "dense": 1,
+       "bm25": 1
+      },
+      "rerank_error": null
+     },
+     {
+      "id": "wb-vn2045-greener-vi__p122__c005",
+      "rank": 2,
+      "score": 0.031281,
+      "page": 122,
+      "method": "hybrid",
+      "base_rank": null,
+      "component_ranks": {
+       "dense": 6,
+       "bm25": 2
+      },
+      "rerank_error": null
+     },
+     {
+      "id": "wb-vn2045-greener-vi__p040__c004",
+      "rank": 3,
+      "score": 0.027864,
+      "page": 40,
+      "method": "hybrid",
+      "base_rank": null,
+      "component_ranks": {
+       "dense": 16,
+       "bm25": 8
+      },
+      "rerank_error": null
+     },
+     {
+      "id": "wb-vn2045-greener-vi__p099__c003",
+      "rank": 4,
+      "score": 0.016129,
+      "page": 99,
+      "method": "hybrid",
+      "base_rank": null,
+      "component_ranks": {
+       "dense": 2
+      },
+      "rerank_error": null
+     },
+     {
+      "id": "wb-vn2045-greener-vi__p019__c004",
+      "rank": 5,
+      "score": 0.015873,
+      "page": 19,
+      "method": "hybrid",
+      "base_rank": null,
+      "component_ranks": {
+       "bm25": 3
+      },
+      "rerank_error": null
+     }
+    ],
+    "added_ids": [
+     "wb-vn2045-greener-vi__p082__c004",
+     "wb-vn2045-greener-vi__p122__c005",
+     "wb-vn2045-greener-vi__p040__c004",
+     "wb-vn2045-greener-vi__p099__c003",
+     "wb-vn2045-greener-vi__p019__c004"
+    ],
+    "skipped_over_budget": [],
+    "context_chars": 2797
+   },
+   {
+    "event": "answer",
+    "citations": [
+     "wb-vn2045-greener-vi__p082__c004"
+    ]
+   }
+  ],
+  "context_ids": [
+   "wb-vn2045-greener-vi__p082__c004",
+   "wb-vn2045-greener-vi__p122__c005",
+   "wb-vn2045-greener-vi__p040__c004",
+   "wb-vn2045-greener-vi__p099__c003",
+   "wb-vn2045-greener-vi__p019__c004"
+  ],
+  "context": [
+   "[wb-vn2045-greener-vi__p082__c004] (trang 82, chuong_2_giam_phat_thai)\n103\t Những tác động đó có thể coi là tác động ngưỡng trên vì không xét đến hành vi của người tiêu dùng. Nếu người tiêu dùng phản ứng \nvới giá cả thay đổi, tác động sẽ trở nên thấp hơn.\nThu ngân sách tăng thêm nhờ các chính sách thuế các-bon có thể được dùng để mở rộng hệ thống \nan sinh xã hội ở Việt Nam. Chi tiêu cho an sinh xã hội, ở mức dưới 1% GDP, hiện còn thấp so với hầu hết \ncác quốc gia thu nhập trung bình cao và thấp. Chính vì vậy, phúc lợi hỗ trợ bằng tiền còn tương đối thấp \n(7% thu nhập thị trường cho nhóm nghèo nhất) và phạm vi bao phủ còn thấp (13% trên toàn quốc và 25% \nngười dân ở nhóm nghèo nhất được nhận hỗ trợ bằng tiền) (Bảng 2.3). Một phần số thu nhờ thuế các-bon \ncó thể dùng để bù đắp tác động nhỏ đến tình trạng nghèo qua mở rộng hỗ trợ bằng tiền cho các hộ gia",
+   "[wb-vn2045-greener-vi__p122__c005] (trang 122, phu_luc)\nQHĐ8 điều chỉnh cũng nhấn mạnh việc áp dụng hợp \nđồng mua bán điện trực tiếp và sản xuất các nguồn \nnăng lượng mới, đặt mục tiêu 30 - 60% tỷ trọng năng \nlượng tái tạo, tùy thuộc vào nhu cầu thị trường và tình \nhình phát triển hạ tầng. Các nguyên tắc chủ đạo đằng \nsau QHĐ8 điều chỉnh là cân đối vùng miền, nâng cao \ntính khả thi và an toàn hệ thống, phục vụ mục tiêu tăng \ntrưởng kinh tế bền vững, an ninh năng lượng và an ninh \nquốc phòng - trong bối cảnh chuyển đổi năng lượng \ntoàn cầu.\nhttps://vneconomy.vn/government-approves-revised-\npower-development-plan-8.htm\nCông tác triển khai thẻ căn cước công dân, số hóa \nhệ thống an sinh xã hội giai đoạn 2023 – 2024 đã \nđạt được những bước tiến đáng kể,  bổ sung khoảng \nhơn một triệu người vào danh sách đối tượng an sinh \nxã hội.\nHệ thống an sinh xã hội thích ứng và chương trình \nkỹ năng quốc gia toàn diện vẫn đang trong quá trình \ntriển khai.",
+   "[wb-vn2045-greener-vi__p040__c004] (trang 40, chuong_1_thich_ung)\nKhi tài sản bị thiệt hại do các cú sốc khí hậu gây ra, người dân không thể tham gia đầy đủ vào \ncác hoạt động kinh tế, làm cho thu nhập và tiêu dùng của hộ gia đình giảm xuống, đầu tư sản xuất bị ảnh \nhưởng vì một phần vốn huy động dành cho chính phủ phải tái phân bổ ngân sách để ứng phó khẩn cấp. \nThiệt hại về các hoạt động kinh tế sẽ làm thu ngân sách giảm xuống. Đối với Việt Nam, theo ước tính năm \n2020, tổn thất tài sản của nhà nước và tư nhân lên đến 1,5% GDP (2,7 tỷ US$) mỗi năm, tăng lên 2,07% \nkhi tính đến cả chi phí xã hội của thiên tai (phúc lợi của người dân).30\n30\t Rentschler, J, de Vries Robbé, S, Braese, J, Huy Nguyễn, D, van Ledden, M và Pozueta Mayo, B. 2020. Bờ biển có khả năng chống chịu: \nPhát triển vùng ven biển ở Việt Nam giữa cơ hội và rủi ro thiên tai. Washington, DC. Ngân hàng Thế giới, một phần tham khảo Hallegatte \nvà đồng sự 2016.",
+   "[wb-vn2045-greener-vi__p099__c003] (trang 99, chuong_3_kinh_te_bien)\nNguồn: Các nguồn dữ liệu của Chính phủ Việt Nam, 2024, 2024. Tính toán của cán bộ Ngân hàng Thế giới.",
+   "[wb-vn2045-greener-vi__p019__c004] (trang 19, tong_quan)\nhỗ trợ các doanh nghiệp và mạng lưới an sinh xã hội thích \nứng để hỗ trợ các hộ gia đình trong trường hợp có thiên tai \ndo khí hậu gây ra."
+  ],
+  "context_chars": 2797,
+  "searches": 1,
+  "usage": {
+   "llm_calls": 2,
+   "cached_calls": 2,
+   "input_tokens": 2307,
+   "output_tokens": 140,
+   "thinking_tokens": 0
+  },
+  "latency_s": 0.024,
+  "auto_eval": {
+   "answerable": true,
+   "context_has_evidence": true
+  }
+ },
+ {
+  "query_id": "d15",
+  "split": "dev",
+  "config": "improve_label_strict_41_budget",
+  "provider": "openai",
+  "model": "gpt-4.1",
+  "question": "Năm 2020 Việt Nam có bao nhiêu biện pháp phi thuế quan áp dụng cho bao nhiêu mặt hàng thân thiện môi trường, và nhóm sản phẩm nào chịu nhiều biện pháp nhất?",
+  "filter": null,
+  "status": "answered",
+  "answer": "Năm 2020, Việt Nam có 199 biện pháp phi thuế quan áp dụng cho 54 mặt hàng thân thiện môi trường. Nhóm sản phẩm chịu nhiều biện pháp nhất là sản phẩm năng lượng tái tạo (62 biện pháp), tiếp theo là quản lý chất thải (55) và thiết bị quan trắc (48) [wb-vn2045-greener-vi__p088__c001].",
+  "citations": [
+   "wb-vn2045-greener-vi__p088__c001"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_hybrid_label",
+    "query": "Năm 2020 số biện pháp phi thuế quan áp dụng cho mặt hàng thân thiện môi trường",
+    "filter": null,
+    "top_k": 5,
+    "results": [
+     {
+      "id": "wb-vn2045-greener-vi__p088__c001",
+      "rank": 1,
+      "score": 0.032787,
+      "page": 88,
+      "method": "hybrid",
+      "base_rank": null,
+      "component_ranks": {
+       "dense": 1,
+       "bm25": 1
+      },
+      "rerank_error": null
+     },
+     {
+      "id": "wb-vn2045-greener-vi__p087__c004",
+      "rank": 2,
+      "score": 0.032002,
+      "page": 87,
+      "method": "hybrid",
+      "base_rank": null,
+      "component_ranks": {
+       "dense": 3,
+       "bm25": 2
+      },
+      "rerank_error": null
+     },
+     {
+      "id": "wb-vn2045-greener-vi__p139__c003",
+      "rank": 3,
+      "score": 0.02967,
+      "page": 139,
+      "method": "hybrid",
+      "base_rank": null,
+      "component_ranks": {
+       "dense": 5,
+       "bm25": 10
+      },
+      "rerank_error": null
+     },
+     {
+      "id": "wb-vn2045-greener-vi__p077__c003",
+      "rank": 4,
+      "score": 0.028006,
+      "page": 77,
+      "method": "hybrid",
+      "base_rank": null,
+      "component_ranks": {
+       "dense": 9,
+       "bm25": 14
+      },
+      "rerank_error": null
+     },
+     {
+      "id": "wb-vn2045-greener-vi__p077__c005",
+      "rank": 5,
+      "score": 0.025816,
+      "page": 77,
+      "method": "hybrid",
+      "base_rank": null,
+      "component_ranks": {
+       "dense": 19,
+       "bm25": 16
+      },
+      "rerank_error": null
+     }
+    ],
+    "added_ids": [
+     "wb-vn2045-greener-vi__p088__c001",
+     "wb-vn2045-greener-vi__p087__c004",
+     "wb-vn2045-greener-vi__p139__c003",
+     "wb-vn2045-greener-vi__p077__c003",
+     "wb-vn2045-greener-vi__p077__c005"
+    ],
+    "skipped_over_budget": [],
+    "context_chars": 3607
+   },
+   {
+    "event": "answer",
+    "citations": [
+     "wb-vn2045-greener-vi__p088__c001"
+    ]
+   }
+  ],
+  "context_ids": [
+   "wb-vn2045-greener-vi__p088__c001",
+   "wb-vn2045-greener-vi__p087__c004",
+   "wb-vn2045-greener-vi__p139__c003",
+   "wb-vn2045-greener-vi__p077__c003",
+   "wb-vn2045-greener-vi__p077__c005"
+  ],
+  "context": [
+   "[wb-vn2045-greener-vi__p088__c001] (trang 88, chuong_2_giam_phat_thai)\n111\t Ngân hàng Thế giới. 2022. Báo cáo Điểm lại tháng 01/2022 – không còn thời gian để lãng phí  – những thách thức và cơ hội của thương \nmại sạch hơn cho Việt Nam.\nhàng hóa nhập khẩu, so với 5% và 6% lần lượt của Sing-ga-po và Hàn Quốc. Đó là thực tế mặc dù thuế \nquan Việt Nam áp dụng cho hàng hóa thân thiện môi trường (0,3%) thấp hơn nhiều so với bình quân \ntoàn cầu (2%) do các cam kết trong Hợp tác Kinh tế Châu Á - Thái Bình Dương. Khung quy định của Việt \nNam bao gồm rất nhiều các biện pháp phi thuế quan (NTM) có thể gây hạn chế cho thương mại hàng \nhóa, kể cả hàng hóa thân thiện môi trường. Chẳng hạn, trong năm 2020, Việt Nam có 199 biện pháp \nphi thuế quan áp dụng cho 54 mặt hàng thân thiện môi trường, trong đó các sản phẩm năng lượng tái \ntạo phải đối mặt với nhiều biện pháp phi thuế quan nhất (62), tiếp theo là quản lý chất thải (55) và thiết \nbị quan trắc (48).111",
+   "[wb-vn2045-greener-vi__p087__c004] (trang 87, chuong_2_giam_phat_thai)\nNguồn: IRENA, MTI Technology Review. Trình bày tổng đầu tư \ncông cho năng lượng tái tạo tiếp nhận và cung cấp giai đoạn \n2016–20 theo tỷ lệ % GDP\nNguồn: UNCOMTRADE, phân tích của Ngân hàng Thế giới. \nCác chuỗi giá trị được xác định qua Rosenow và Mealy (2024).\nHình 2.18. Tăng trưởng nhanh về xuất khẩu và đầu tư trực tiếp nước ngoài\nvào các ngành công nghiệp năng lượng sạch ở Việt Nam\n0\n2\n4\n6\n8\n10\nViệt Nam\nSin-ga-po\nIn-đô-nê-xia\nTrung Quốc\nThái Lan\nPhi-líp-pin\nMa-lay-xia\n0\n5000\n10000\n15000\n20000\n2010\n2011\n2012\n2013\n2014\n2015\n2016\n2017\n2018\n2019\n2020\n2021\n2022\nXe điện\nMặt trời\nGió\nTăng nhập khẩu hàng hóa thân thiện với môi trường - như công nghệ đảm bảo hiệu suất thải các-\nbon  - có thể giúp giảm tác động môi trường, nâng cao tiết kiệm năng lượng, tạo điều kiện thích ứng với \nđiều kiện khí hậu thay đổi.110  Hiện nay, hàng hóa thân thiện môi trường của Việt Nam chỉ chiếm 3% tổng",
+   "[wb-vn2045-greener-vi__p139__c003] (trang 139, phu_luc)\nViệt Nam đã có kinh nghiệm triển khai một số loại thuế, phí và lệ phí liên quan đến môi trường để \nthúc đẩy các nỗ lực giảm thiểu. Thứ nhất, Thuế bảo vệ môi trường160 là loại thuế tiêu thụ đặc biệt đánh \nvào nhiên liệu hóa thạch được áp dụng từ năm 2010. Loại thuế gián tiếp này đánh vào vào các sản \nphẩm và hàng hóa khi sử dụng được coi là gây ra tác động tiêu cực đến môi trường, đặc biệt là dầu mỏ \nvà than đá. Thứ hai, Thuế tài nguyên thiên nhiên161 đối với các ngành khai thác tài nguyên thiên nhiên \ncủa Việt Nam như dầu mỏ, khoáng sản, lâm sản, thủy hải sản và nước tự nhiên. Mức thuế suất thay\n160\t Luật Thuế bảo vệ môi trường (Số 57/2010/QH12).\n161\t Nghị quyết số 084/2015/UBTVQH13.",
+   "[wb-vn2045-greener-vi__p077__c003] (trang 77, chuong_2_giam_phat_thai)\nMặc dù Việt Nam đã có thuế bảo vệ môi trường ở mức thấp và đang xây dựng các công cụ định giá \ncác-bon trực tiếp, nhưng lại chưa có thuế các-bon. Các cấp có thẩm quyền đang lên kế hoạch ra mắt hệ \nthống giao dịch phát thải (ETS), bắt đầu bằng thí điểm vào năm 2025 và triển khai đầy đủ vào năm 2028. \nVới mục đích đó, khung pháp quy đang được sửa đổi để xây dựng thị trường các-bon trong nước và triển \nkhai hệ thống giao dịch tín chỉ các-bon (ETS), bao gồm sửa đổi Luật bảo vệ môi trường năm 2020, và ban \nhành Quyết định số  232/QĐ-TTg về thiết lập thị trường khí thải, xác định mức trần và phương pháp luận \nđể phân bổ giấy phép. Đồng thời, Việt Nam không trợ giá cho nhiên liệu hóa thạch và thuế bảo vệ môi \ntrường (BVMT) vẫn là hình thức thuế tiêu thụ đặc biệt đối với nhiên liệu hóa thạch kể từ khi ban hành vào \nnăm 2010,98 hiện đang huy động thu ở mức 0,8% GDP (Rodriguez và đồng sự, 2023).",
+   "[wb-vn2045-greener-vi__p077__c005] (trang 77, chuong_2_giam_phat_thai)\n98\t Mặc dù Việt Nam hiện chưa có thuế các-bon, việc ban hành cơ chế định giá các-bon đã được bàn luận, chẳng hạn trong Luật bảo vệ \nmôi trường năm 2020.\n99\t Tính toán của Ngân hàng Thế giới dựa trên công cụ CPAT và các hệ số chuyển đổi của IEA."
+  ],
+  "context_chars": 3607,
+  "searches": 1,
+  "usage": {
+   "llm_calls": 2,
+   "cached_calls": 2,
+   "input_tokens": 2632,
+   "output_tokens": 130,
+   "thinking_tokens": 0
+  },
+  "latency_s": 0.017,
+  "auto_eval": {
+   "answerable": true,
+   "context_has_evidence": true
+  }
+ },
+ {
+  "query_id": "du1",
+  "split": "dev",
+  "config": "improve_label_strict_41_budget",
+  "provider": "openai",
+  "model": "gpt-4.1",
+  "question": "Giá tín chỉ các-bon giao dịch trên sàn thí điểm năm 2025 là bao nhiêu US$/tấn CO2?",
+  "filter": null,
+  "status": "abstain",
+  "answer": "KHÔNG ĐỦ BẰNG CHỨNG: Các đoạn trích chỉ nêu năm 2025 là thời điểm thí điểm trao đổi tín chỉ các-bon, chưa có thông tin về giá tín chỉ các-bon giao dịch trên sàn thí điểm năm 2025 [wb-vn2045-greener-vi__p139__c101][wb-vn2045-greener-vi__p139__c001][wb-vn2045-greener-vi__p090__c001][wb-vn2045-greener-vi__p027__c005][wb-vn2045-greener-vi__p077__c003].",
+  "citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_hybrid_label",
+    "query": "giá tín chỉ các-bon giao dịch trên sàn thí điểm năm 2025",
+    "filter": null,
+    "top_k": 5,
+    "results": [
+     {
+      "id": "wb-vn2045-greener-vi__p139__c101",
+      "rank": 1,
+      "score": 0.032522,
+      "page": 139,
+      "method": "hybrid",
+      "base_rank": null,
+      "component_ranks": {
+       "dense": 1,
+       "bm25": 2
+      },
+      "rerank_error": null
+     },
+     {
+      "id": "wb-vn2045-greener-vi__p139__c001",
+      "rank": 2,
+      "score": 0.032018,
+      "page": 139,
+      "method": "hybrid",
+      "base_rank": null,
+      "component_ranks": {
+       "dense": 4,
+       "bm25": 1
+      },
+      "rerank_error": null
+     },
+     {
+      "id": "wb-vn2045-greener-vi__p090__c001",
+      "rank": 3,
+      "score": 0.031746,
+      "page": 90,
+      "method": "hybrid",
+      "base_rank": null,
+      "component_ranks": {
+       "dense": 3,
+       "bm25": 3
+      },
+      "rerank_error": null
+     },
+     {
+      "id": "wb-vn2045-greener-vi__p027__c005",
+      "rank": 4,
+      "score": 0.031514,
+      "page": 27,
+      "method": "hybrid",
+      "base_rank": null,
+      "component_ranks": {
+       "dense": 2,
+       "bm25": 5
+      },
+      "rerank_error": null
+     },
+     {
+      "id": "wb-vn2045-greener-vi__p077__c003",
+      "rank": 5,
+      "score": 0.030331,
+      "page": 77,
+      "method": "hybrid",
+      "base_rank": null,
+      "component_ranks": {
+       "dense": 8,
+       "bm25": 4
+      },
+      "rerank_error": null
+     }
+    ],
+    "added_ids": [
+     "wb-vn2045-greener-vi__p139__c101",
+     "wb-vn2045-greener-vi__p139__c001",
+     "wb-vn2045-greener-vi__p090__c001",
+     "wb-vn2045-greener-vi__p027__c005",
+     "wb-vn2045-greener-vi__p077__c003"
+    ],
+    "skipped_over_budget": [],
+    "context_chars": 3662
+   },
+   {
+    "event": "abstain",
+    "model_text": "KHÔNG ĐỦ BẰNG CHỨNG: Các đoạn trích chỉ nêu năm 2025 là thời điểm thí điểm trao đổi tín chỉ các-bon, chưa có thông tin về giá tín chỉ các-bon giao dịch trên sàn thí điểm năm 2025 [wb-vn2045-greener-vi__p139__c101][wb-vn2045-greener-vi__p139__c001][wb-vn2045-greener-vi__p090__c001][wb-vn2045-greener-vi__p027__c005][wb-vn2045-greener-vi__p077__c003]."
+   }
+  ],
+  "context_ids": [
+   "wb-vn2045-greener-vi__p139__c101",
+   "wb-vn2045-greener-vi__p139__c001",
+   "wb-vn2045-greener-vi__p090__c001",
+   "wb-vn2045-greener-vi__p027__c005",
+   "wb-vn2045-greener-vi__p077__c003"
+  ],
+  "context": [
+   "[wb-vn2045-greener-vi__p139__c101] (trang 139, phu_luc)\n[DIAGRAM] Hình A2.4.1: Kế hoạch phát triển thị trường các-bon\nSơ đồ dòng thời gian (timeline) thể hiện lộ trình phát triển thị trường các-bon từ năm 2023 đến 2028:\n- Giai đoạn 2023-2024: Xây dựng hệ thống quy định về quản lý tín chỉ các-bon, trao đổi hạn ngạch và hoạt động của nền tảng giao dịch tín chỉ các-bon.\n- Giai đoạn 2025-2027: Thí điểm trao đổi tín chỉ các-bon.\n- Năm 2028: Chính thức ra mắt sàn giao dịch tín chỉ các-bon và hội nhập thị trường trong nước với thị trường khu vực và quốc tế.\nNguồn: Minh họa của tác giả về Nghị định số 06/2022/NĐ-CP.\n(Trang PDF 139, vùng: top)",
+   "[wb-vn2045-greener-vi__p139__c001] (trang 139, phu_luc)\nNguồn: Minh họa của tác giả về Nghị định số 06/2022/NĐ-CP.\nHình A2.4.1. Kế hoạch phát triển thị trường các-bon\n2023 \n2024 \n2025 \n2028 \n2027\nXây dựng hệ thống quy\nđịnh về quản lý tín chỉ\ncác-bon, trao đổi hạn \nngạch và hoạt động của \nnền tảng giao dịch tín chỉ\ncác-bon\nThí điểm trao đổi tín chỉ\ncác-bon\nChính thức ra mắt sàn \ngiao dịch tín chỉ các-bon\nvà hội nhập thị trường \ntrong nước với thị trường\nkhu vực và quốc tế",
+   "[wb-vn2045-greener-vi__p090__c001] (trang 90, chuong_2_giam_phat_thai)\ncho khí thải các-bon, sẽ làm dịch chuyển giá  cả tương quan, và những tín hiệu giá đó sẽ đẩy nhanh \náp dụng các công nghệ giảm thải các-bon, khiến cho chúng trở nên cạnh tranh hơn. Những công cụ \nđó bao gồm triển khai thí điểm hệ thống giao dịch phát thải (ETS)113 dự kiến vào năm 2025, và triển \nkhai đầy đủ dự kiến vào năm 2028. Việt Nam cũng đang tham gia các thị trường các-bon tự nguyện, \nsong song với các giao dịch theo Điều 6 của Thỏa thuận Pa-ri về chứng nhận và giao dịch tín chỉ \ncác-bon. Thuế các-bon nếu được ban hành sẽ bổ sung cho hệ thống giao dịch phát thải (ETS), qua \nđó càng hỗ trợ cho mục tiêu tham vọng của Việt Nam về phát thải ròng bằng không vào năm 2050. \nCuối cùng, đẩy mạnh khả năng tiếp cận các nguồn tài chính xanh và giảm các rào cản quy định sẽ \ntạo thuận lợi để các doanh nghiệp thực hiện đầu tư cần thực hiện vào hạ tầng và công nghệ sạch.",
+   "[wb-vn2045-greener-vi__p027__c005] (trang 27, tong_quan)\nNhững công cụ đó bao gồm triển khai thí điểm \nhệ thống giao dịch phát thải (ETS)21 theo kế hoạch vào năm 2025, và triển khai đầy đủ dự kiến vào năm \n2028. Việt Nam cũng đang tham gia các thị trường các-bon tự nguyện, cùng với các giao dịch theo Điều \n6 của Thỏa thuận Pa-ri năm 2015, về chứng nhận và giao dịch chứng chỉ các-bon. Ngoài ra, thuế các-\nbon nếu được ban hành nhằm bổ sung cho hệ thống giao dịch phát thải (ETS) sẽ tiếp tục thúc đẩy mục \ntiêu tham vọng của Việt Nam về phát thải ròng bằng không vào năm 2050. Bên cạnh đó, nâng cao khả \nnăng tiếp cận tài chính xanh và giảm rào cản pháp lý cũng sẽ tạo điều kiện để các doanh nghiệp tiến \nhành đầu tư vào hạ tầng và công nghệ sạch đang rất cần có. Bảng dưới đây đưa ra những khuyến nghị \nliên ngành và chuyên ngành cho chu kỳ chính sách 5 năm tới (2026-2030). Trong đó chỉ ra những lợi ích \nđồng hưởng về kinh tế và thích ứng.",
+   "[wb-vn2045-greener-vi__p077__c003] (trang 77, chuong_2_giam_phat_thai)\nMặc dù Việt Nam đã có thuế bảo vệ môi trường ở mức thấp và đang xây dựng các công cụ định giá \ncác-bon trực tiếp, nhưng lại chưa có thuế các-bon. Các cấp có thẩm quyền đang lên kế hoạch ra mắt hệ \nthống giao dịch phát thải (ETS), bắt đầu bằng thí điểm vào năm 2025 và triển khai đầy đủ vào năm 2028. \nVới mục đích đó, khung pháp quy đang được sửa đổi để xây dựng thị trường các-bon trong nước và triển \nkhai hệ thống giao dịch tín chỉ các-bon (ETS), bao gồm sửa đổi Luật bảo vệ môi trường năm 2020, và ban \nhành Quyết định số  232/QĐ-TTg về thiết lập thị trường khí thải, xác định mức trần và phương pháp luận \nđể phân bổ giấy phép. Đồng thời, Việt Nam không trợ giá cho nhiên liệu hóa thạch và thuế bảo vệ môi \ntrường (BVMT) vẫn là hình thức thuế tiêu thụ đặc biệt đối với nhiên liệu hóa thạch kể từ khi ban hành vào \nnăm 2010,98 hiện đang huy động thu ở mức 0,8% GDP (Rodriguez và đồng sự, 2023)."
+  ],
+  "context_chars": 3662,
+  "searches": 1,
+  "usage": {
+   "llm_calls": 2,
+   "cached_calls": 2,
+   "input_tokens": 2557,
+   "output_tokens": 182,
+   "thinking_tokens": 0
+  },
+  "latency_s": 0.017,
+  "auto_eval": {
+   "answerable": false,
+   "context_has_evidence": null
+  }
+ },
+ {
+  "query_id": "du2",
+  "split": "dev",
+  "config": "improve_label_strict_41_budget",
+  "provider": "openai",
+  "model": "gpt-4.1",
+  "question": "Theo Hình 1.6, tỷ lệ thiệt hại do căng thẳng nhiệt độ cao vào năm 2060 là bao nhiêu?",
+  "filter": null,
+  "status": "abstain",
+  "answer": "KHÔNG ĐỦ BẰNG CHỨNG: Hình 1.6 chỉ thể hiện tỷ lệ thiệt hại do căng thẳng nhiệt độ cao đến năm 2050 (10,0%), không có số liệu cho năm 2060 [wb-vn2045-greener-vi__p046__c101].",
+  "citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_hybrid_label",
+    "query": "Hình 1.6 tỷ lệ thiệt hại do căng thẳng nhiệt độ cao năm 2060",
+    "filter": null,
+    "top_k": 5,
+    "results": [
+     {
+      "id": "wb-vn2045-greener-vi__p046__c101",
+      "rank": 1,
+      "score": 1.0,
+      "page": 46,
+      "method": "label",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-vn2045-greener-vi__p046__c004",
+      "rank": 2,
+      "score": 0.032522,
+      "page": 46,
+      "method": "hybrid",
+      "base_rank": null,
+      "component_ranks": {
+       "dense": 2,
+       "bm25": 1
+      },
+      "rerank_error": null
+     },
+     {
+      "id": "wb-vn2045-greener-vi__p045__c002",
+      "rank": 3,
+      "score": 0.029469,
+      "page": 45,
+      "method": "hybrid",
+      "base_rank": null,
+      "component_ranks": {
+       "dense": 5,
+       "bm25": 11
+      },
+      "rerank_error": null
+     },
+     {
+      "id": "wb-vn2045-greener-vi__p045__c003",
+      "rank": 4,
+      "score": 0.028783,
+      "page": 45,
+      "method": "hybrid",
+      "base_rank": null,
+      "component_ranks": {
+       "dense": 16,
+       "bm25": 4
+      },
+      "rerank_error": null
+     },
+     {
+      "id": "wb-vn2045-greener-vi__p041__c003",
+      "rank": 5,
+      "score": 0.015873,
+      "page": 41,
+      "method": "hybrid",
+      "base_rank": null,
+      "component_ranks": {
+       "bm25": 3
+      },
+      "rerank_error": null
+     }
+    ],
+    "added_ids": [
+     "wb-vn2045-greener-vi__p046__c101",
+     "wb-vn2045-greener-vi__p046__c004",
+     "wb-vn2045-greener-vi__p045__c002",
+     "wb-vn2045-greener-vi__p045__c003"
+    ],
+    "skipped_over_budget": [
+     "wb-vn2045-greener-vi__p041__c003"
+    ],
+    "context_chars": 3381
+   },
+   {
+    "event": "abstain",
+    "model_text": "KHÔNG ĐỦ BẰNG CHỨNG: Hình 1.6 chỉ thể hiện tỷ lệ thiệt hại do căng thẳng nhiệt độ cao đến năm 2050 (10,0%), không có số liệu cho năm 2060 [wb-vn2045-greener-vi__p046__c101]."
+   }
+  ],
+  "context_ids": [
+   "wb-vn2045-greener-vi__p046__c101",
+   "wb-vn2045-greener-vi__p046__c004",
+   "wb-vn2045-greener-vi__p045__c002",
+   "wb-vn2045-greener-vi__p045__c003"
+  ],
+  "context": [
+   "[wb-vn2045-greener-vi__p046__c101] (trang 46, chuong_1_thich_ung)\n[CHART] Hình 1.6: Ba kênh tác động chính của biến đổi khí hậu đến GDP\nBiểu đồ cột chồng thể hiện tỷ lệ thiệt hại trong kịch bản có khả năng xảy ra nhất - RCP4.5 so với kịch bản cơ sở (%). Trục tung từ 0.0% đến 100.0%. Trục hoành gồm các năm: 2025, 2030, 2035, 2040, 2045, 2050. Chú giải gồm 3 kênh: Căng thẳng do nhiệt cao (màu xanh đậm), Ngập lụt (màu xanh lá), Nông nghiệp (màu vàng). Các nhãn số liệu trên phần màu xanh đậm (Căng thẳng do nhiệt cao) lần lượt là: 4.0% (2025), 5.4% (2030), 6.4% (2035), 7.7% (2040), 8.7% (2045), 10.0% (2050). Nguồn: Ước tính của cán bộ Ngân hàng Thế giới bằng mô hình MANAGE. Ghi chú: Căng thẳng do nhiệt cao ảnh hưởng đến năng suất; ngập lụt ảnh hưởng đến tổn thất tài sản vốn hạ tầng.\n\nGiá trị ước lượng:\n- Căng thẳng do nhiệt cao (phần màu xanh đậm): 2025 ≈ 4.0%; 2030 ≈ 5.4%; 2035 ≈ 6.4%; 2040 ≈ 7.7%; 2045 ≈ 8.7%; 2050 ≈ 10.0%.\n- Ngập lụt (phần màu xanh lá): Chiếm khoảng 15% tổng cột tại các năm (ước tính từ hình ảnh).\n- Nông nghiệp (phần màu vàng): Chiếm khoảng 25% tổng cột tại các năm (ước tính từ hình ảnh).\n(Trang PDF 46, vùng: bottom)",
+   "[wb-vn2045-greener-vi__p046__c004] (trang 46, chuong_1_thich_ung)\nCăng thẳng\ndo nhiệt cao\nNgập lụt\nNông nghiệp\nHình 1.6. Ba kênh tác động chính của biến đổi khí hậu đến GDP\n(Tỷ lệ thiệt hại trong kịch bản có khả năng xảy ra nhất - RCP4.5 so với kịch bản cơ sở - %)\nNguồn: Ước tính của cán bộ Ngân hàng Thế giới bằng mô hình MANAGE. \nGhi chú: Căng thẳng do nhiệt cao ảnh hưởng đến năng suất; ngập lụt ảnh hưởng đến tổn thất tài sản vốn hạ tầng.",
+   "[wb-vn2045-greener-vi__p045__c002] (trang 45, chuong_1_thich_ung)\nTrong kịch bản \ncó khả năng xảy ra nhất, dự báo về giảm năng suất lao động riêng vì nguyên nhân căng thẳng do nhiệt \nđộ cao có thể làm GDP theo giá so sánh giảm 10% so với kịch bản cơ sở, chiếm 78% tổng tác động đến \nnền kinh tế (Hình 1.6). Đổi lại, năng suất lao động bị suy giảm sẽ làm giảm thu nhập hộ gia đình và qua đó \ngiảm tiêu dùng ở mức 10,1% so với kịch bản cơ sở vào năm 2050 theo cùng kịch bản. Những phát hiện \ntrên được kiểm chứng qua các nghiên cứu khác, như phân tích năm 2022 tập trung vào đồng bằng sông \nCửu Long,52 được cho là khu vực dễ bị tổn thương nhất với biến đổi khí hậu ở Việt Nam. Phân tích này cho \nthấy nhiệt độ tăng thêm 1°C dự kiến sẽ dẫn đến giảm 0,5% giờ làm việc và giảm 11% tiền lương theo giờ, \ntrong đó lao động nữ và lao động nông nghiệp cao tuổi chịu ảnh hưởng không đồng đều.53\n150\n250\n350\n450\n2030\n2035\n2040\n2045\n2050\nKịch bản cơ sở\nTích cực\nCó khả năng\nxảy ra nhất\nTiêu cực\n-16.0%\n-14.0%\n-12.0%\n-10.0%\n-8.0%\n2030\n2035\n2040\n2045\n2050",
+   "[wb-vn2045-greener-vi__p045__c003] (trang 45, chuong_1_thich_ung)\nTích cực\nCó khả năng\nxảy ra nhất\nTiêu cực\nHình 1.4. GDP theo giá so sánh trong \ncác kịch bản biến đổi khí hậu khác nhau\nHình 1.5. Tác động của biến đổi khí hậu\nđến GDP theo giá so sánh, so với kịch\nbản cơ sở\n(Chỉ số 2018=100)\n (% chênh lệch so với kịch bản cơ sở)\n50\t Đào Ngọc Hưng và đồng sự. 2022. Đánh giá sự thay đổi căng thẳng do nhiệt độ cao tại thành phố Hà Nội. Tạp chí Khoa học Tự nhiên. \nNghiên cứu này tính toán nhiệt độ hiệu quả để đánh giá sự thay đổi không gian và thời gian của căng thẳng do nhiệt độ cao ở Hà Nội \ntừ năm 1961 đến năm 2020. Kết quả tính toán cho thấy nhiệt độ hiệu quả tăng rõ rệt theo thời gian. Trong giai đoạn 1961–1997 có \nrất ít trường hợp, nhưng từ năm 1998 đến năm 2020, những tháng nóng xảy ra thường xuyên vào tháng 6 và tháng 7. Số tháng nắng \nnóng ở trung tâm thành phố Hà Nội vượt xa các khu vực lân cận.\n51\t ADB, 2022. Đánh bại sức nóng: đầu tư vào các giải pháp hỗ trợ giảm nghèo để phục hồi đô thị."
+  ],
+  "context_chars": 3381,
+  "searches": 1,
+  "usage": {
+   "llm_calls": 2,
+   "cached_calls": 1,
+   "input_tokens": 2656,
+   "output_tokens": 113,
+   "thinking_tokens": 0
+  },
+  "latency_s": 1.274,
+  "auto_eval": {
+   "answerable": false,
+   "context_has_evidence": null
+  }
+ },
+ {
+  "query_id": "du3",
+  "split": "dev",
+  "config": "improve_label_strict_41_budget",
+  "provider": "openai",
+  "model": "gpt-4.1",
+  "question": "Năm 2024 Việt Nam có bao nhiêu ô tô điện được đăng ký mới?",
+  "filter": null,
+  "status": "abstain",
+  "answer": "KHÔNG ĐỦ BẰNG CHỨNG: Báo cáo không cung cấp số lượng ô tô điện đăng ký mới tại Việt Nam năm 2024. Chỉ có số liệu về xe mô-tô điện năm 2022 (408.000 xe, chiếm 12% doanh số mô-tô) và các nhận định chung về xu hướng tăng xe điện, không có số liệu cụ thể cho ô tô điện năm 2024 [wb-vn2045-greener-vi__p069__c003].",
+  "citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_hybrid_label",
+    "query": "Số lượng ô tô điện đăng ký mới năm 2024",
+    "filter": null,
+    "top_k": 5,
+    "results": [
+     {
+      "id": "wb-vn2045-greener-vi__p069__c003",
+      "rank": 1,
+      "score": 0.031258,
+      "page": 69,
+      "method": "hybrid",
+      "base_rank": null,
+      "component_ranks": {
+       "dense": 5,
+       "bm25": 3
+      },
+      "rerank_error": null
+     },
+     {
+      "id": "wb-vn2045-greener-vi__p133__c005",
+      "rank": 2,
+      "score": 0.030415,
+      "page": 133,
+      "method": "hybrid",
+      "base_rank": null,
+      "component_ranks": {
+       "dense": 2,
+       "bm25": 10
+      },
+      "rerank_error": null
+     },
+     {
+      "id": "wb-vn2045-greener-vi__p092__c004",
+      "rank": 3,
+      "score": 0.027799,
+      "page": 92,
+      "method": "hybrid",
+      "base_rank": null,
+      "component_ranks": {
+       "dense": 10,
+       "bm25": 14
+      },
+      "rerank_error": null
+     },
+     {
+      "id": "wb-vn2045-greener-vi__p100__c004",
+      "rank": 4,
+      "score": 0.016393,
+      "page": 100,
+      "method": "hybrid",
+      "base_rank": null,
+      "component_ranks": {
+       "bm25": 1
+      },
+      "rerank_error": null
+     },
+     {
+      "id": "wb-vn2045-greener-vi__p135__c001",
+      "rank": 5,
+      "score": 0.016393,
+      "page": 135,
+      "method": "hybrid",
+      "base_rank": null,
+      "component_ranks": {
+       "dense": 1
+      },
+      "rerank_error": null
+     }
+    ],
+    "added_ids": [
+     "wb-vn2045-greener-vi__p069__c003",
+     "wb-vn2045-greener-vi__p133__c005",
+     "wb-vn2045-greener-vi__p092__c004",
+     "wb-vn2045-greener-vi__p100__c004",
+     "wb-vn2045-greener-vi__p135__c001"
+    ],
+    "skipped_over_budget": [],
+    "context_chars": 1793
+   },
+   {
+    "event": "abstain",
+    "model_text": "KHÔNG ĐỦ BẰNG CHỨNG: Báo cáo không cung cấp số lượng ô tô điện đăng ký mới tại Việt Nam năm 2024. Chỉ có số liệu về xe mô-tô điện năm 2022 (408.000 xe, chiếm 12% doanh số mô-tô) và các nhận định chung về xu hướng tăng xe điện, không có số liệu cụ thể cho ô tô điện năm 2024 [wb-vn2045-greener-vi__p069__c003]."
+   }
+  ],
+  "context_ids": [
+   "wb-vn2045-greener-vi__p069__c003",
+   "wb-vn2045-greener-vi__p133__c005",
+   "wb-vn2045-greener-vi__p092__c004",
+   "wb-vn2045-greener-vi__p100__c004",
+   "wb-vn2045-greener-vi__p135__c001"
+  ],
+  "context": [
+   "[wb-vn2045-greener-vi__p069__c003] (trang 69, chuong_2_giam_phat_thai)\nKhử thải các-bon trong giao thông vận tải chủ yếu dựa vào khử thải \ncác-bon trong vận tải hàng hóa và hành khách đường bộ. Gần đây, Việt Nam được chứng kiến lượng \nxe điện tăng mạnh. Mặc dù xe mô-tô vẫn chiếm trên 90% tổng lượng phương tiện, nhưng thị phần \nxe mô-tô chạy điện đã chiếm 12% doanh số vào năm 2022 (408.000 xe). Hiện đang có chương trình \nhành động85 nhằm giảm ô nhiễm không khí và phát thải khí nhà kính để giúp hoàn thành chỉ tiêu NDC \nvào năm 2030 và phát thải ròng bằng không vào năm 2050. Qua sử dụng các chỉ tiêu Tránh - Chuyển\nđổi - Cải thiện, chương trình này cho thấy chuyển sang sử dụng xe điện ở tất cả các phương tiện giao \nthông dự kiến sẽ đóng vai trò lớn về khử thải các-bon trong ngành (Ngân hàng Thế giới, 2024).86",
+   "[wb-vn2045-greener-vi__p133__c005] (trang 133, phu_luc)\nl\t\nViệc tăng số lượng xe điện cũng khiến nhu cầu sử dụng điện gia tăng trong lĩnh vực vận tải \nđường bộ, dẫn đến cắt giảm hơn nữa lượng tiêu thụ dầu mỏ tinh chế. Quy mô tác động là 0,5% \nmỗi năm, đạt 15% vào năm 2050. Giả định nhu cầu sử dụng điện của hộ gia đình sẽ tăng lên, \ntheo đó 50% nhu cầu sử dụng dầu tinh chế của hộ gia đình được thay thế bằng điện.",
+   "[wb-vn2045-greener-vi__p092__c004] (trang 92, chuong_2_giam_phat_thai)\nphương tiện với các phương tiện mới sử dụng động cơ đốt \ntrong (xe hơi và xe mô-tô hai bánh).\nl\t Triển khai các tiêu chuẩn và cơ chế khuyến khích xe phát\nthải thấp.\nl\t Đầu tư các trạm sạc công cộng và thí điểm xe buýt chạy\nđiện.",
+   "[wb-vn2045-greener-vi__p100__c004] (trang 100, chuong_3_kinh_te_bien)\nBảng 3.3. Việc làm trong các ngành/lĩnh vực liên quan đến biển tại Việt Nam giai \nđoạn 2010–2020 (lao động/chỗ làm chính thức trong các doanh nghiệp đã đăng ký)\nNguồn: Các nguồn dữ liệu của Chính phủ Việt Nam, 2024, 2024. Tính toán của cán bộ Ngân hàng Thế giới.\n123\t OECD. 2016. Nền kinh tế đại dương vào năm 2030.",
+   "[wb-vn2045-greener-vi__p135__c001] (trang 135, phu_luc)\nphương tiện trên mọi phương thức vận tải dự kiến sẽ đóng vai trò chính trong việc giảm phát thải các-bon \ncho ngành (Ngân hàng Thế giới, 2024).158"
+  ],
+  "context_chars": 1793,
+  "searches": 1,
+  "usage": {
+   "llm_calls": 2,
+   "cached_calls": 2,
+   "input_tokens": 1972,
+   "output_tokens": 140,
+   "thinking_tokens": 0
+  },
+  "latency_s": 0.023,
+  "auto_eval": {
+   "answerable": false,
+   "context_has_evidence": null
+  }
+ }
+]

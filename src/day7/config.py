@@ -19,11 +19,15 @@ def load_env() -> None:
     load_dotenv(REPO / '.env')
 
 
-def llm_settings() -> tuple[str, str]:
-    """Return (provider, model) for the agent LLM; configurable in .env."""
-    provider = os.getenv('LLM_PROVIDER', 'gemini').lower()
-    default = 'gemini-3.1-flash-lite' if provider == 'gemini' else 'gpt-4o-mini'
-    return provider, os.getenv('LLM_MODEL', default)
+def llm_settings(prefix: str = '') -> tuple[str, str]:
+    """Return (provider, model) for the agent LLM; configurable in .env.
+
+    prefix='ADV_' reads ADV_LLM_PROVIDER/ADV_LLM_MODEL (advanced corpus), falling back to LLM_*.
+    """
+    provider = (os.getenv(f'{prefix}LLM_PROVIDER') or os.getenv('LLM_PROVIDER', 'gemini')).lower()
+    default = 'gemini-3.1-flash-lite' if provider == 'gemini' else 'gpt-4.1-mini'
+    model = os.getenv(f'{prefix}LLM_MODEL') or (os.getenv('LLM_MODEL') if not os.getenv(f'{prefix}LLM_PROVIDER') else None)
+    return provider, model or default
 
 
 def open_day6(qdrant_path: Path = QDRANT_PATH):

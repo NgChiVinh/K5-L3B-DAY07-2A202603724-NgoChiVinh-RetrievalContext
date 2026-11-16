@@ -1,0 +1,2029 @@
+{
+ "summary": {
+  "hit_at_1": {
+   "n": 9,
+   "N": 15,
+   "rate": 0.6
+  },
+  "evidence_hit_at_3": {
+   "n": 11,
+   "N": 15,
+   "rate": 0.7333
+  },
+  "mrr": 0.7023809523809523,
+  "per_question": {
+   "d01": {
+    "hit_at_1": false,
+    "evidence_hit_at_3": true,
+    "first_full_rank": 2
+   },
+   "d02": {
+    "hit_at_1": false,
+    "evidence_hit_at_3": false,
+    "first_full_rank": 6
+   },
+   "d03": {
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "first_full_rank": 1
+   },
+   "d04": {
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "first_full_rank": 1
+   },
+   "d05": {
+    "hit_at_1": false,
+    "evidence_hit_at_3": false,
+    "first_full_rank": 7
+   },
+   "d06": {
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "first_full_rank": 1
+   },
+   "d07": {
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "first_full_rank": 1
+   },
+   "d08": {
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "first_full_rank": 1
+   },
+   "d09": {
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "first_full_rank": 1
+   },
+   "d10": {
+    "hit_at_1": false,
+    "evidence_hit_at_3": false,
+    "first_full_rank": 4
+   },
+   "d11": {
+    "hit_at_1": false,
+    "evidence_hit_at_3": true,
+    "first_full_rank": 3
+   },
+   "d12": {
+    "hit_at_1": false,
+    "evidence_hit_at_3": false,
+    "first_full_rank": 7
+   },
+   "d13": {
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "first_full_rank": 1
+   },
+   "d14": {
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "first_full_rank": 1
+   },
+   "d15": {
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "first_full_rank": 1
+   }
+  },
+  "method": "bm25",
+  "split": "dev",
+  "errors": [],
+  "rerank_errors": 0,
+  "llm_model": null,
+  "latency_s_mean": 0.007,
+  "llm_calls": 0,
+  "llm_input_tokens": 0,
+  "llm_output_tokens": 0
+ },
+ "traces": [
+  {
+   "query_id": "d01",
+   "query": "Theo Bảng 2.1 về mục tiêu giảm phát thải trong CLQG-BĐKH, lĩnh vực nông nghiệp phải giảm bao nhiêu phần trăm vào năm 2030 và lĩnh vực chất thải phải giảm bao nhiêu phần trăm vào năm 2050?",
+   "filter": null,
+   "results": [
+    {
+     "rank": 1,
+     "id": "wb-vn2045-greener-vi__p065__c003",
+     "page": 65,
+     "score": 86.787791,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 2,
+     "id": "wb-vn2045-greener-vi__p067__c101",
+     "page": 67,
+     "score": 83.019641,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 3,
+     "id": "wb-vn2045-greener-vi__p067__c001",
+     "page": 67,
+     "score": 80.622134,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 4,
+     "id": "wb-vn2045-greener-vi__p022__c003",
+     "page": 22,
+     "score": 68.435235,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 5,
+     "id": "wb-vn2045-greener-vi__p066__c103",
+     "page": 66,
+     "score": 68.032056,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 6,
+     "id": "wb-vn2045-greener-vi__p022__c101",
+     "page": 22,
+     "score": 64.87454,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 7,
+     "id": "wb-vn2045-greener-vi__p008__c001",
+     "page": 8,
+     "score": 63.815323,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 8,
+     "id": "wb-vn2045-greener-vi__p021__c003",
+     "page": 21,
+     "score": 62.85464,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 9,
+     "id": "wb-vn2045-greener-vi__p066__c001",
+     "page": 66,
+     "score": 59.376923,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 10,
+     "id": "wb-vn2045-greener-vi__p080__c001",
+     "page": 80,
+     "score": 52.230055,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    }
+   ]
+  },
+  {
+   "query_id": "d02",
+   "query": "Theo Bảng 3.3, năm 2020 ngành sản xuất chế biến thực phẩm (chế biến và bảo quản thủy hải sản) có bao nhiêu lao động, và số lao động ngành đánh bắt và nuôi trồng thủy sản năm 2020 là bao nhiêu?",
+   "filter": null,
+   "results": [
+    {
+     "rank": 1,
+     "id": "wb-vn2045-greener-vi__p099__c001",
+     "page": 99,
+     "score": 117.478063,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 2,
+     "id": "wb-vn2045-greener-vi__p100__c002",
+     "page": 100,
+     "score": 107.514915,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 3,
+     "id": "wb-vn2045-greener-vi__p103__c101",
+     "page": 103,
+     "score": 103.466848,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 4,
+     "id": "wb-vn2045-greener-vi__p099__c102",
+     "page": 99,
+     "score": 95.790677,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 5,
+     "id": "wb-vn2045-greener-vi__p103__c002",
+     "page": 103,
+     "score": 85.397572,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 6,
+     "id": "wb-vn2045-greener-vi__p100__c101",
+     "page": 100,
+     "score": 80.479389,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 7,
+     "id": "wb-vn2045-greener-vi__p098__c003",
+     "page": 98,
+     "score": 78.947079,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 8,
+     "id": "wb-vn2045-greener-vi__p031__c101",
+     "page": 31,
+     "score": 78.423276,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 9,
+     "id": "wb-vn2045-greener-vi__p143__c003",
+     "page": 143,
+     "score": 76.448654,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 10,
+     "id": "wb-vn2045-greener-vi__p143__c101",
+     "page": 143,
+     "score": 76.445695,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    }
+   ]
+  },
+  {
+   "query_id": "d03",
+   "query": "Theo Phụ lục 1.7, ví dụ quốc tế nào được nêu cho hành động \"Đầu tư hạ tầng thích ứng với biến đổi khí hậu\" trong lĩnh vực giảm thiểu rủi ro thiên tai?",
+   "filter": null,
+   "results": [
+    {
+     "rank": 1,
+     "id": "wb-vn2045-greener-vi__p129__c102",
+     "page": 129,
+     "score": 118.668836,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 2,
+     "id": "wb-vn2045-greener-vi__p129__c003",
+     "page": 129,
+     "score": 117.842292,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 3,
+     "id": "wb-vn2045-greener-vi__p129__c002",
+     "page": 129,
+     "score": 77.723156,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 4,
+     "id": "wb-vn2045-greener-vi__p129__c101",
+     "page": 129,
+     "score": 71.147406,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 5,
+     "id": "wb-vn2045-greener-vi__p132__c101",
+     "page": 132,
+     "score": 70.654577,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 6,
+     "id": "wb-vn2045-greener-vi__p006__c003",
+     "page": 6,
+     "score": 65.303286,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 7,
+     "id": "wb-vn2045-greener-vi__p129__c001",
+     "page": 129,
+     "score": 64.693461,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 8,
+     "id": "wb-vn2045-greener-vi__p132__c001",
+     "page": 132,
+     "score": 64.083135,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 9,
+     "id": "wb-vn2045-greener-vi__p053__c004",
+     "page": 53,
+     "score": 59.829287,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 10,
+     "id": "wb-vn2045-greener-vi__p060__c101",
+     "page": 60,
+     "score": 58.199711,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    }
+   ]
+  },
+  {
+   "query_id": "d04",
+   "query": "Theo Hình 1.1, đến khoảng năm 2100 kịch bản phát thải nào cho nhiệt độ trung bình năm của Việt Nam cao nhất và ở mức khoảng bao nhiêu độ C?",
+   "filter": null,
+   "results": [
+    {
+     "rank": 1,
+     "id": "wb-vn2045-greener-vi__p040__c101",
+     "page": 40,
+     "score": 80.882533,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 2,
+     "id": "wb-vn2045-greener-vi__p040__c001",
+     "page": 40,
+     "score": 72.853252,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 3,
+     "id": "wb-vn2045-greener-vi__p039__c004",
+     "page": 39,
+     "score": 63.505607,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 4,
+     "id": "wb-vn2045-greener-vi__p006__c002",
+     "page": 6,
+     "score": 57.833393,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 5,
+     "id": "wb-vn2045-greener-vi__p056__c003",
+     "page": 56,
+     "score": 51.413629,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 6,
+     "id": "wb-vn2045-greener-vi__p045__c002",
+     "page": 45,
+     "score": 40.4849,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 7,
+     "id": "wb-vn2045-greener-vi__p039__c002",
+     "page": 39,
+     "score": 40.204335,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 8,
+     "id": "wb-vn2045-greener-vi__p044__c004",
+     "page": 44,
+     "score": 38.864646,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 9,
+     "id": "wb-vn2045-greener-vi__p013__c005",
+     "page": 13,
+     "score": 38.096753,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 10,
+     "id": "wb-vn2045-greener-vi__p037__c101",
+     "page": 37,
+     "score": 37.392675,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    }
+   ]
+  },
+  {
+   "query_id": "d05",
+   "query": "Theo Hình 0.1, đến năm 2050 GDP theo giá so sánh giảm khoảng bao nhiêu phần trăm so với kịch bản cơ sở trong kịch bản tích cực và trong kịch bản tiêu cực?",
+   "filter": null,
+   "results": [
+    {
+     "rank": 1,
+     "id": "wb-vn2045-greener-vi__p044__c002",
+     "page": 44,
+     "score": 93.137945,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 2,
+     "id": "wb-vn2045-greener-vi__p016__c001",
+     "page": 16,
+     "score": 84.104263,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 3,
+     "id": "wb-vn2045-greener-vi__p007__c001",
+     "page": 7,
+     "score": 78.472789,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 4,
+     "id": "wb-vn2045-greener-vi__p045__c102",
+     "page": 45,
+     "score": 75.31189,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 5,
+     "id": "wb-vn2045-greener-vi__p015__c004",
+     "page": 15,
+     "score": 73.464524,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 6,
+     "id": "wb-vn2045-greener-vi__p045__c002",
+     "page": 45,
+     "score": 72.714872,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 7,
+     "id": "wb-vn2045-greener-vi__p016__c101",
+     "page": 16,
+     "score": 72.478203,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 8,
+     "id": "wb-vn2045-greener-vi__p006__c001",
+     "page": 6,
+     "score": 69.61177,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 9,
+     "id": "wb-vn2045-greener-vi__p045__c101",
+     "page": 45,
+     "score": 69.535289,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 10,
+     "id": "wb-vn2045-greener-vi__p017__c001",
+     "page": 17,
+     "score": 69.395233,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    }
+   ]
+  },
+  {
+   "query_id": "d06",
+   "query": "Theo Hình A2.3.1 về tiêu thụ năng lượng sơ cấp theo % GDP (kWh/$), quốc gia nào có mức thấp nhất và Việt Nam ở mức khoảng bao nhiêu?",
+   "filter": null,
+   "results": [
+    {
+     "rank": 1,
+     "id": "wb-vn2045-greener-vi__p137__c101",
+     "page": 137,
+     "score": 120.199579,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 2,
+     "id": "wb-vn2045-greener-vi__p008__c003",
+     "page": 8,
+     "score": 104.501299,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 3,
+     "id": "wb-vn2045-greener-vi__p137__c002",
+     "page": 137,
+     "score": 87.658727,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 4,
+     "id": "wb-vn2045-greener-vi__p007__c004",
+     "page": 7,
+     "score": 78.234824,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 5,
+     "id": "wb-vn2045-greener-vi__p136__c002",
+     "page": 136,
+     "score": 75.459252,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 6,
+     "id": "wb-vn2045-greener-vi__p138__c001",
+     "page": 138,
+     "score": 45.300179,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 7,
+     "id": "wb-vn2045-greener-vi__p138__c101",
+     "page": 138,
+     "score": 44.812609,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 8,
+     "id": "wb-vn2045-greener-vi__p137__c102",
+     "page": 137,
+     "score": 38.779488,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 9,
+     "id": "wb-vn2045-greener-vi__p100__c001",
+     "page": 100,
+     "score": 34.90441,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 10,
+     "id": "wb-vn2045-greener-vi__p068__c001",
+     "page": 68,
+     "score": 34.285866,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    }
+   ]
+  },
+  {
+   "query_id": "d07",
+   "query": "Theo Hình 1.3 về tình trạng đường quốc lộ, vùng nào có tỷ lệ đường ở tình trạng \"Tốt\" cao nhất và vùng nào thấp nhất?",
+   "filter": null,
+   "results": [
+    {
+     "rank": 1,
+     "id": "wb-vn2045-greener-vi__p043__c101",
+     "page": 43,
+     "score": 71.937795,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 2,
+     "id": "wb-vn2045-greener-vi__p006__c002",
+     "page": 6,
+     "score": 66.848646,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 3,
+     "id": "wb-vn2045-greener-vi__p043__c004",
+     "page": 43,
+     "score": 50.672405,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 4,
+     "id": "wb-vn2045-greener-vi__p050__c003",
+     "page": 50,
+     "score": 34.819578,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 5,
+     "id": "wb-vn2045-greener-vi__p021__c102",
+     "page": 21,
+     "score": 33.497046,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 6,
+     "id": "wb-vn2045-greener-vi__p040__c101",
+     "page": 40,
+     "score": 32.626081,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 7,
+     "id": "wb-vn2045-greener-vi__p021__c101",
+     "page": 21,
+     "score": 31.275154,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 8,
+     "id": "wb-vn2045-greener-vi__p026__c101",
+     "page": 26,
+     "score": 29.42199,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 9,
+     "id": "wb-vn2045-greener-vi__p056__c005",
+     "page": 56,
+     "score": 28.376508,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 10,
+     "id": "wb-vn2045-greener-vi__p045__c101",
+     "page": 45,
+     "score": 27.985823,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    }
+   ]
+  },
+  {
+   "query_id": "d08",
+   "query": "Theo sơ đồ Hình A2.4.1 về kế hoạch phát triển thị trường các-bon, giai đoạn 2023–2024 tập trung vào việc gì?",
+   "filter": null,
+   "results": [
+    {
+     "rank": 1,
+     "id": "wb-vn2045-greener-vi__p139__c101",
+     "page": 139,
+     "score": 115.048496,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 2,
+     "id": "wb-vn2045-greener-vi__p139__c001",
+     "page": 139,
+     "score": 79.289677,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 3,
+     "id": "wb-vn2045-greener-vi__p008__c003",
+     "page": 8,
+     "score": 69.25609,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 4,
+     "id": "wb-vn2045-greener-vi__p138__c002",
+     "page": 138,
+     "score": 56.40858,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 5,
+     "id": "wb-vn2045-greener-vi__p090__c002",
+     "page": 90,
+     "score": 46.882866,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 6,
+     "id": "wb-vn2045-greener-vi__p027__c001",
+     "page": 27,
+     "score": 41.116853,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 7,
+     "id": "wb-vn2045-greener-vi__p036__c101",
+     "page": 36,
+     "score": 38.189087,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 8,
+     "id": "wb-vn2045-greener-vi__p036__c002",
+     "page": 36,
+     "score": 36.020124,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 9,
+     "id": "wb-vn2045-greener-vi__p149__c005",
+     "page": 149,
+     "score": 34.333998,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 10,
+     "id": "wb-vn2045-greener-vi__p122__c005",
+     "page": 122,
+     "score": 33.379394,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    }
+   ]
+  },
+  {
+   "query_id": "d09",
+   "query": "Trong sơ đồ Hình 0.5 về mục tiêu giảm nhẹ, mũi tên ghi \"-27%\" ứng với chỉ tiêu nào và mũi tên \"-43.5%\" ứng với chỉ tiêu nào?",
+   "filter": null,
+   "results": [
+    {
+     "rank": 1,
+     "id": "wb-vn2045-greener-vi__p022__c101",
+     "page": 22,
+     "score": 73.610686,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 2,
+     "id": "wb-vn2045-greener-vi__p066__c103",
+     "page": 66,
+     "score": 65.014151,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 3,
+     "id": "wb-vn2045-greener-vi__p022__c003",
+     "page": 22,
+     "score": 52.719371,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 4,
+     "id": "wb-vn2045-greener-vi__p021__c003",
+     "page": 21,
+     "score": 42.001979,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 5,
+     "id": "wb-vn2045-greener-vi__p006__c001",
+     "page": 6,
+     "score": 32.973715,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 6,
+     "id": "wb-vn2045-greener-vi__p025__c002",
+     "page": 25,
+     "score": 31.818335,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 7,
+     "id": "wb-vn2045-greener-vi__p023__c001",
+     "page": 23,
+     "score": 31.717651,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 8,
+     "id": "wb-vn2045-greener-vi__p063__c002",
+     "page": 63,
+     "score": 29.41534,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 9,
+     "id": "wb-vn2045-greener-vi__p017__c101",
+     "page": 17,
+     "score": 29.077184,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 10,
+     "id": "wb-vn2045-greener-vi__p065__c003",
+     "page": 65,
+     "score": 28.946663,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    }
+   ]
+  },
+  {
+   "query_id": "d10",
+   "query": "Khi thuế BVMT đối với than được cải biên thành thuế các-bon 7,5 US$/tấn thì mức thuế là bao nhiêu VND/tấn (Bảng 2.2), và chính sách thuế các-bon làm tỷ lệ nghèo theo chuẩn 6,85 US$ tăng bao nhiêu điểm phần trăm (Bảng 2.3)?",
+   "filter": null,
+   "results": [
+    {
+     "rank": 1,
+     "id": "wb-vn2045-greener-vi__p078__c101",
+     "page": 78,
+     "score": 114.045824,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 2,
+     "id": "wb-vn2045-greener-vi__p082__c002",
+     "page": 82,
+     "score": 109.775826,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 3,
+     "id": "wb-vn2045-greener-vi__p078__c001",
+     "page": 78,
+     "score": 104.440061,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 4,
+     "id": "wb-vn2045-greener-vi__p082__c101",
+     "page": 82,
+     "score": 102.808832,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 5,
+     "id": "wb-vn2045-greener-vi__p082__c003",
+     "page": 82,
+     "score": 101.453377,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 6,
+     "id": "wb-vn2045-greener-vi__p082__c001",
+     "page": 82,
+     "score": 100.335902,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 7,
+     "id": "wb-vn2045-greener-vi__p077__c004",
+     "page": 77,
+     "score": 88.412266,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 8,
+     "id": "wb-vn2045-greener-vi__p079__c101",
+     "page": 79,
+     "score": 76.306977,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 9,
+     "id": "wb-vn2045-greener-vi__p079__c001",
+     "page": 79,
+     "score": 72.896552,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 10,
+     "id": "wb-vn2045-greener-vi__p049__c001",
+     "page": 49,
+     "score": 70.381646,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    }
+   ]
+  },
+  {
+   "query_id": "d11",
+   "query": "Theo Hình 2.19a, tỷ lệ công suất điện mặt trời của Việt Nam đạt đỉnh khoảng bao nhiêu phần trăm và vào năm nào; QHĐ8 sửa đổi đặt chỉ tiêu điện mặt trời bao nhiêu GW vào năm 2030?",
+   "filter": null,
+   "results": [
+    {
+     "rank": 1,
+     "id": "wb-vn2045-greener-vi__p067__c003",
+     "page": 67,
+     "score": 82.247865,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 2,
+     "id": "wb-vn2045-greener-vi__p088__c002",
+     "page": 88,
+     "score": 81.758927,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 3,
+     "id": "wb-vn2045-greener-vi__p088__c101",
+     "page": 88,
+     "score": 71.903583,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 4,
+     "id": "wb-vn2045-greener-vi__p022__c001",
+     "page": 22,
+     "score": 58.102877,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 5,
+     "id": "wb-vn2045-greener-vi__p088__c003",
+     "page": 88,
+     "score": 56.226294,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 6,
+     "id": "wb-vn2045-greener-vi__p034__c003",
+     "page": 34,
+     "score": 54.164088,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 7,
+     "id": "wb-vn2045-greener-vi__p013__c003",
+     "page": 13,
+     "score": 53.283678,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 8,
+     "id": "wb-vn2045-greener-vi__p007__c003",
+     "page": 7,
+     "score": 46.387874,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 9,
+     "id": "wb-vn2045-greener-vi__p022__c002",
+     "page": 22,
+     "score": 45.531798,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 10,
+     "id": "wb-vn2045-greener-vi__p065__c003",
+     "page": 65,
+     "score": 44.747138,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    }
+   ]
+  },
+  {
+   "query_id": "d12",
+   "query": "Rừng ngập mặn có giá trị bình quân bao nhiêu USD quốc tế/ha/năm theo Hình 3.6, và diện tích rừng ngập mặn của Việt Nam năm 2020 so với năm 1990 thay đổi thế nào?",
+   "filter": null,
+   "results": [
+    {
+     "rank": 1,
+     "id": "wb-vn2045-greener-vi__p109__c101",
+     "page": 109,
+     "score": 95.145155,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 2,
+     "id": "wb-vn2045-greener-vi__p109__c002",
+     "page": 109,
+     "score": 88.332206,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 3,
+     "id": "wb-vn2045-greener-vi__p108__c101",
+     "page": 108,
+     "score": 76.891915,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 4,
+     "id": "wb-vn2045-greener-vi__p108__c004",
+     "page": 108,
+     "score": 73.620822,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 5,
+     "id": "wb-vn2045-greener-vi__p109__c102",
+     "page": 109,
+     "score": 70.089786,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 6,
+     "id": "wb-vn2045-greener-vi__p108__c003",
+     "page": 108,
+     "score": 57.576721,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 7,
+     "id": "wb-vn2045-greener-vi__p031__c003",
+     "page": 31,
+     "score": 53.426842,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 8,
+     "id": "wb-vn2045-greener-vi__p106__c004",
+     "page": 106,
+     "score": 49.68242,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 9,
+     "id": "wb-vn2045-greener-vi__p109__c003",
+     "page": 109,
+     "score": 42.827403,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 10,
+     "id": "wb-vn2045-greener-vi__p085__c101",
+     "page": 85,
+     "score": 42.507336,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    }
+   ]
+  },
+  {
+   "query_id": "d13",
+   "query": "Hệ số Gini của Việt Nam năm 2022 là bao nhiêu, dự báo tăng lên bao nhiêu vào năm 2050, và điều đó khiến thêm bao nhiêu người rơi xuống dưới ngưỡng nghèo?",
+   "filter": null,
+   "results": [
+    {
+     "rank": 1,
+     "id": "wb-vn2045-greener-vi__p037__c002",
+     "page": 37,
+     "score": 101.219175,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 2,
+     "id": "wb-vn2045-greener-vi__p050__c003",
+     "page": 50,
+     "score": 96.423153,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 3,
+     "id": "wb-vn2045-greener-vi__p037__c101",
+     "page": 37,
+     "score": 95.27852,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 4,
+     "id": "wb-vn2045-greener-vi__p016__c002",
+     "page": 16,
+     "score": 61.080154,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 5,
+     "id": "wb-vn2045-greener-vi__p052__c102",
+     "page": 52,
+     "score": 50.365128,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 6,
+     "id": "wb-vn2045-greener-vi__p049__c001",
+     "page": 49,
+     "score": 49.20007,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 7,
+     "id": "wb-vn2045-greener-vi__p035__c002",
+     "page": 35,
+     "score": 47.624527,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 8,
+     "id": "wb-vn2045-greener-vi__p051__c101",
+     "page": 51,
+     "score": 47.472719,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 9,
+     "id": "wb-vn2045-greener-vi__p051__c002",
+     "page": 51,
+     "score": 46.214367,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 10,
+     "id": "wb-vn2045-greener-vi__p038__c001",
+     "page": 38,
+     "score": 42.302474,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    }
+   ]
+  },
+  {
+   "query_id": "d14",
+   "query": "Chi tiêu cho an sinh xã hội của Việt Nam ở mức bao nhiêu % GDP, và phạm vi bao phủ của hỗ trợ bằng tiền trên toàn quốc và ở nhóm nghèo nhất là bao nhiêu?",
+   "filter": null,
+   "results": [
+    {
+     "rank": 1,
+     "id": "wb-vn2045-greener-vi__p082__c004",
+     "page": 82,
+     "score": 172.605742,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 2,
+     "id": "wb-vn2045-greener-vi__p082__c003",
+     "page": 82,
+     "score": 47.944319,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 3,
+     "id": "wb-vn2045-greener-vi__p019__c004",
+     "page": 19,
+     "score": 43.282914,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 4,
+     "id": "wb-vn2045-greener-vi__p123__c001",
+     "page": 123,
+     "score": 41.583419,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 5,
+     "id": "wb-vn2045-greener-vi__p122__c005",
+     "page": 122,
+     "score": 41.315994,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 6,
+     "id": "wb-vn2045-greener-vi__p050__c002",
+     "page": 50,
+     "score": 40.557371,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 7,
+     "id": "wb-vn2045-greener-vi__p080__c003",
+     "page": 80,
+     "score": 38.734541,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 8,
+     "id": "wb-vn2045-greener-vi__p060__c004",
+     "page": 60,
+     "score": 38.302541,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 9,
+     "id": "wb-vn2045-greener-vi__p081__c103",
+     "page": 81,
+     "score": 36.295349,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 10,
+     "id": "wb-vn2045-greener-vi__p037__c101",
+     "page": 37,
+     "score": 34.036798,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    }
+   ]
+  },
+  {
+   "query_id": "d15",
+   "query": "Năm 2020 Việt Nam có bao nhiêu biện pháp phi thuế quan áp dụng cho bao nhiêu mặt hàng thân thiện môi trường, và nhóm sản phẩm nào chịu nhiều biện pháp nhất?",
+   "filter": null,
+   "results": [
+    {
+     "rank": 1,
+     "id": "wb-vn2045-greener-vi__p088__c001",
+     "page": 88,
+     "score": 153.829875,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 2,
+     "id": "wb-vn2045-greener-vi__p087__c004",
+     "page": 87,
+     "score": 42.739385,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 3,
+     "id": "wb-vn2045-greener-vi__p010__c001",
+     "page": 10,
+     "score": 42.179683,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 4,
+     "id": "wb-vn2045-greener-vi__p069__c005",
+     "page": 69,
+     "score": 40.948116,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 5,
+     "id": "wb-vn2045-greener-vi__p010__c101",
+     "page": 10,
+     "score": 37.561706,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 6,
+     "id": "wb-vn2045-greener-vi__p139__c003",
+     "page": 139,
+     "score": 36.575658,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 7,
+     "id": "wb-vn2045-greener-vi__p005__c001",
+     "page": 5,
+     "score": 35.066065,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 8,
+     "id": "wb-vn2045-greener-vi__p140__c003",
+     "page": 140,
+     "score": 31.889518,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 9,
+     "id": "wb-vn2045-greener-vi__p089__c002",
+     "page": 89,
+     "score": 30.132056,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 10,
+     "id": "wb-vn2045-greener-vi__p056__c004",
+     "page": 56,
+     "score": 30.015255,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    }
+   ]
+  },
+  {
+   "query_id": "du1",
+   "query": "Giá tín chỉ các-bon giao dịch trên sàn thí điểm năm 2025 là bao nhiêu US$/tấn CO2?",
+   "filter": null,
+   "results": [
+    {
+     "rank": 1,
+     "id": "wb-vn2045-greener-vi__p139__c001",
+     "page": 139,
+     "score": 69.8743,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 2,
+     "id": "wb-vn2045-greener-vi__p139__c101",
+     "page": 139,
+     "score": 66.96891,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 3,
+     "id": "wb-vn2045-greener-vi__p090__c001",
+     "page": 90,
+     "score": 52.615347,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 4,
+     "id": "wb-vn2045-greener-vi__p077__c003",
+     "page": 77,
+     "score": 47.737499,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 5,
+     "id": "wb-vn2045-greener-vi__p028__c002",
+     "page": 28,
+     "score": 42.317131,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 6,
+     "id": "wb-vn2045-greener-vi__p027__c005",
+     "page": 27,
+     "score": 40.846596,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 7,
+     "id": "wb-vn2045-greener-vi__p090__c003",
+     "page": 90,
+     "score": 37.149494,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 8,
+     "id": "wb-vn2045-greener-vi__p079__c003",
+     "page": 79,
+     "score": 37.125949,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 9,
+     "id": "wb-vn2045-greener-vi__p090__c101",
+     "page": 90,
+     "score": 36.310055,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 10,
+     "id": "wb-vn2045-greener-vi__p082__c003",
+     "page": 82,
+     "score": 34.981311,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    }
+   ]
+  },
+  {
+   "query_id": "du2",
+   "query": "Theo Hình 1.6, tỷ lệ thiệt hại do căng thẳng nhiệt độ cao vào năm 2060 là bao nhiêu?",
+   "filter": null,
+   "results": [
+    {
+     "rank": 1,
+     "id": "wb-vn2045-greener-vi__p046__c004",
+     "page": 46,
+     "score": 63.97487,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 2,
+     "id": "wb-vn2045-greener-vi__p046__c101",
+     "page": 46,
+     "score": 55.000577,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 3,
+     "id": "wb-vn2045-greener-vi__p041__c003",
+     "page": 41,
+     "score": 52.162929,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 4,
+     "id": "wb-vn2045-greener-vi__p045__c003",
+     "page": 45,
+     "score": 45.316482,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 5,
+     "id": "wb-vn2045-greener-vi__p037__c001",
+     "page": 37,
+     "score": 44.34315,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 6,
+     "id": "wb-vn2045-greener-vi__p045__c001",
+     "page": 45,
+     "score": 43.411128,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 7,
+     "id": "wb-vn2045-greener-vi__p044__c003",
+     "page": 44,
+     "score": 43.334017,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 8,
+     "id": "wb-vn2045-greener-vi__p014__c002",
+     "page": 14,
+     "score": 42.470043,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 9,
+     "id": "wb-vn2045-greener-vi__p037__c101",
+     "page": 37,
+     "score": 41.92435,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 10,
+     "id": "wb-vn2045-greener-vi__p040__c002",
+     "page": 40,
+     "score": 41.79469,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    }
+   ]
+  },
+  {
+   "query_id": "du3",
+   "query": "Năm 2024 Việt Nam có bao nhiêu ô tô điện được đăng ký mới?",
+   "filter": null,
+   "results": [
+    {
+     "rank": 1,
+     "id": "wb-vn2045-greener-vi__p100__c004",
+     "page": 100,
+     "score": 28.34348,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 2,
+     "id": "wb-vn2045-greener-vi__p098__c004",
+     "page": 98,
+     "score": 19.322185,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 3,
+     "id": "wb-vn2045-greener-vi__p040__c002",
+     "page": 40,
+     "score": 19.308212,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 4,
+     "id": "wb-vn2045-greener-vi__p069__c003",
+     "page": 69,
+     "score": 19.007642,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 5,
+     "id": "wb-vn2045-greener-vi__p137__c002",
+     "page": 137,
+     "score": 17.890717,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 6,
+     "id": "wb-vn2045-greener-vi__p100__c002",
+     "page": 100,
+     "score": 17.869244,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 7,
+     "id": "wb-vn2045-greener-vi__p072__c001",
+     "page": 72,
+     "score": 16.985282,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 8,
+     "id": "wb-vn2045-greener-vi__p134__c003",
+     "page": 134,
+     "score": 16.596644,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 9,
+     "id": "wb-vn2045-greener-vi__p008__c002",
+     "page": 8,
+     "score": 16.473693,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 10,
+     "id": "wb-vn2045-greener-vi__p016__c003",
+     "page": 16,
+     "score": 15.573684,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    }
+   ]
+  }
+ ]
+}

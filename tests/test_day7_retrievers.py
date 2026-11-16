@@ -4,7 +4,7 @@ import unittest
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-from src.day7.retrievers import BM25Retriever, DenseRetriever, HybridRRF, LLMRerank, tokenize
+from src.day7.retrievers import BM25Retriever, DenseRetriever, HybridRRF, LabelAwareRetriever, LLMRerank, tokenize
 
 
 def chunk(cid, text, page=1, section='a'):
@@ -38,6 +38,26 @@ class FakeLLM:
     def __init__(self, text): self.text = text; self.prompts = []
     def complete(self, system, user):
         self.prompts.append(user); return {'text': self.text, 'usage': {'input_tokens': 1, 'output_tokens': 1}}
+
+
+class LabelAwareTests(unittest.TestCase):
+    VIS = [dict(chunk('v23', '[TABLE] Bảng 2.3 ...', page=82), metadata={'label': 'Bảng 2.3', 'modality': 'table'}),
+           dict(chunk('v36', '[CHART] Hình 3.6 ...', page=109), metadata={'label': 'Hình 3.6', 'modality': 'chart'})]
+
+    def test_label_in_query_puts_that_visual_first_without_duplicates(self):
+        r = LabelAwareRetriever(FixedRetriever(['a', 'v23', 'b']), self.VIS)
+        hits = r.search('Theo Bảng 2.3, tỷ lệ nghèo?', filters=None, top_k=3)
+        self.assertEqual([h['id'] for h in hits], ['v23', 'a', 'b'])
+        self.assertEqual(hits[0]['method'], 'label')
+
+    def test_no_label_returns_base_results(self):
+        r = LabelAwareRetriever(FixedRetriever(['a', 'b']), self.VIS)
+        self.assertEqual([h['id'] for h in r.search('tỷ lệ nghèo', filters=None, top_k=2)], ['a', 'b'])
+
+    def test_several_labels_are_all_included(self):
+        r = LabelAwareRetriever(FixedRetriever(['a']), self.VIS)
+        ids = [h['id'] for h in r.search('Hình 3.6 và Bảng 2.3', filters=None, top_k=3)]
+        self.assertEqual(ids[:2], ['v36', 'v23'])
 
 
 class RetrieverTests(unittest.TestCase):

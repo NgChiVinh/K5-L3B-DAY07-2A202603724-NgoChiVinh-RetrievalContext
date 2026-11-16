@@ -13,9 +13,9 @@ import json
 from typing import Any
 
 from . import config
-from .retrievers import BM25Retriever, DenseRetriever, HybridRRF, LLMRerank
+from .retrievers import BM25Retriever, DenseRetriever, HybridRRF, LabelAwareRetriever, LLMRerank
 
-RETRIEVAL_METHODS = ['dense', 'bm25', 'hybrid', 'dense_rerank', 'hybrid_rerank']
+RETRIEVAL_METHODS = ['dense', 'bm25', 'hybrid', 'dense_rerank', 'hybrid_rerank', 'hybrid_label']
 
 AGENT_CONFIGS: dict[str, dict[str, Any]] = {
     # Baseline: one dense tool, small context.
@@ -28,6 +28,20 @@ AGENT_CONFIGS: dict[str, dict[str, Any]] = {
     # Improvement 2: agent chooses among dense/keyword tools, more searches, larger budget + neighbours.
     'improve_multitool': {'tools': ['search_dense', 'search_keyword'], 'top_k': 5, 'budget_chars': 6000,
                           'max_searches': 4, 'neighbors': True},
+    # Advanced corpus (dev failures d02/d10/d11/d12/du1/du2):
+    # A: queries naming 'Bảng/Hình X.Y' get that visual chunk first (label inferred from the question itself).
+    'improve_label': {'tools': ['search_hybrid_label'], 'top_k': 5, 'budget_chars': 6000, 'max_searches': 4, 'neighbors': False},
+    # A + B: same retrieval + stricter answer rules (abstain marker first, no look-alike metrics).
+    'improve_label_strict': {'tools': ['search_hybrid_label'], 'top_k': 5, 'budget_chars': 6000, 'max_searches': 4,
+                             'neighbors': False, 'strict_prompt': True},
+    # C: A + B with a stronger agent model (same provider) for multi-part checking and abstention.
+    'improve_label_strict_41': {'tools': ['search_hybrid_label'], 'top_k': 5, 'budget_chars': 6000, 'max_searches': 4,
+                                'neighbors': False, 'strict_prompt': True, 'llm_model': 'gpt-4.1'},
+    # E: C + larger budget for long tables and a per-search cap so later searches are never starved
+    #    (dev d10: Bảng 2.3 ranked #1 in search 2 but skipped because search 1 filled 5160/6000 chars).
+    'improve_label_strict_41_budget': {'tools': ['search_hybrid_label'], 'top_k': 5, 'budget_chars': 10000,
+                                       'per_search_chars': 4000, 'max_searches': 4, 'neighbors': False,
+                                       'strict_prompt': True, 'llm_model': 'gpt-4.1'},
 }
 
 
@@ -44,7 +58,8 @@ CORPORA = {
 class Context:
     """Lazily opens the real store/embedder (same gemini-embedding-001 3072d) and the LLM once per process."""
 
-    def __init__(self, corpus: str = 'day6'):
+    def __init__(self, corpus: str = 'day6', model_override: str | None = None):
+        self.model_override = model_override
         config.load_env()
         self.corpus = corpus
         (self.chunks_path, self.questions_path, self.qdrant_path, self.strategy,
@@ -63,8 +78,8 @@ class Context:
     def llm(self):
         if self._llm is None:
             from .llm import LLMClient
-            provider, model = config.llm_settings()
-            self._llm = LLMClient(provider, model, cache_dir=config.LLM_CACHE_DIR)
+            provider, model = config.llm_settings('ADV_' if self.corpus == 'adv' else '')
+            self._llm = LLMClient(provider, self.model_override or model, cache_dir=config.LLM_CACHE_DIR)
         return self._llm
 
     @property
@@ -89,10 +104,12 @@ class Context:
             return HybridRRF([self.dense, self.bm25], k=60, candidates=20)
         if name == 'dense_rerank':
             return LLMRerank(self.dense, self.llm, candidates=15)
+        if name == 'hybrid_label':
+            return LabelAwareRetriever(self.retriever('hybrid'), self.chunks)
         if name == 'hybrid_rerank':
             return LLMRerank(self.retriever('hybrid'), self.llm, candidates=15)
         raise KeyError(name)
 
 
 TOOL_TO_RETRIEVER = {'search_dense': 'dense', 'search_keyword': 'bm25', 'search_hybrid': 'hybrid',
-                     'search_hybrid_rerank': 'hybrid_rerank'}
+                     'search_hybrid_rerank': 'hybrid_rerank', 'search_hybrid_label': 'hybrid_label'}

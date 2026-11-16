@@ -102,8 +102,23 @@ class LLMClient:
                    'image_sha256': hashlib.sha256(data).hexdigest()}
         if self.cache and (hit := self.cache.get(request)) is not None:
             return {**hit, 'cached': True, 'latency_s': 0.0}
-        if self.provider != 'gemini':
-            raise ProviderError('vision chỉ hỗ trợ provider gemini')
+        if self.provider == 'openai':
+            import base64
+
+            def call():
+                url = 'data:image/png;base64,' + base64.b64encode(data).decode()
+                resp = self._client.chat.completions.create(model=self.model, temperature=self.temperature, messages=[
+                    {'role': 'system', 'content': system},
+                    {'role': 'user', 'content': [{'type': 'text', 'text': user}, {'type': 'image_url', 'image_url': {'url': url}}]}])
+                return {'text': resp.choices[0].message.content or '',
+                        'usage': {'input_tokens': resp.usage.prompt_tokens, 'output_tokens': resp.usage.completion_tokens,
+                                  'thinking_tokens': 0}}
+            t0 = time.time()
+            out = call_with_retry(call, events=self.retry_events)
+            out['latency_s'] = round(time.time() - t0, 3)
+            if self.cache:
+                self.cache.put(request, out)
+            return {**out, 'cached': False}
         from google.genai import types
 
         def call():

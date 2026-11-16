@@ -978,7 +978,7 @@
  },
  {
   "id": "wb-vn2045-greener-vi__p021__c101",
-  "text": "[CHART] Hình 0.3: Phát triển ở Việt Nam đến nay vẫn phát thải các-bon mạnh\nBiểu đồ phân tán (scatter plot). Trục tung: Khí thải CO2 trên đầu người (tCO2), thang đo từ 0 đến 25. Trục hoành: GDP theo đầu người ổn định theo USD quốc tế, điều chỉnh ngang giá sức mua, thang đo từ 0 đến 60.000. Chú giải các quốc gia: In-đô-nê-xia (cam), Phi-líp-pin (vàng), Trung Quốc (xanh dương đậm), Thổ Nhĩ Kỳ (xanh dương nhạt), Hoa Kỳ (xanh lá cây), Nhật Bản (xám), Đức (nâu), Việt Nam (xanh dương đậm, nét đứt). Xu hướng: Các quốc gia phát triển (như Hoa Kỳ, Đức) có xu hướng tăng GDP và giảm dần khí thải CO2 trên đầu người. Việt Nam có xu hướng tăng cả GDP và khí thải CO2 trên đầu người. Nguồn: WRI, CAIT và tính toán của cán bộ Ngân hàng Thế giới.\n(Trang PDF 21, vùng: middle-left)",
+  "text": "[CHART] Hình 0.3: Phát triển ở Việt Nam đến nay vẫn phát thải các-bon mạnh\nBiểu đồ phân tán (scatter plot). Trục tung: Khí thải CO2 trên đầu người (tCO2), thang đo từ 0 đến 25. Trục hoành: GDP theo đầu người ổn định theo USD quốc tế, điều chỉnh ngang giá sức mua, thang đo từ 0 đến 60.000. Chú giải các quốc gia: In-đô-nê-xia (cam), Phi-líp-pin (vàng), Trung Quốc (xanh dương đậm), Thổ Nhĩ Kỳ (xanh dương nhạt), Hoa Kỳ (xanh lá cây), Nhật Bản (xám), Đức (nâu), Việt Nam (xanh dương đậm, nét đứt). Xu hướng: Các quốc gia phát triển (như Hoa Kỳ, Đức) có xu hướng tăng GDP và giảm dần khí thải CO2 trên đầu người. Việt Nam có xu hướng tăng cả GDP và khí thải CO2 trên đầu người. Nguồn: WRI, CAIT và tính toán của cán bộ Ngân hàng Thế giới.\nGiá trị ước lượng:\n\n- In-đô-nê-xia: từ ≈0,2 lên ≈2,5 tCO₂/người; cao nhất ≈2,5; thấp nhất ≈0,2.\n- Phi-líp-pin: từ ≈0 lên ≈1,5 tCO₂/người; cao nhất ≈1,5; thấp nhất ≈0.\n- Việt Nam: từ ≈0,1 lên ≈3,4 tCO₂/người; cao nhất ≈3,4; thấp nhất ≈0,1.\n- Trung Quốc: từ ≈0,5 lên ≈7,0–7,5 tCO₂/người; cao nhất ≈7,5; thấp nhất ≈0,5.\n- Thổ Nhĩ Kỳ: từ ≈3,5 lên ≈5,0 tCO₂/người; cao nhất ≈5,0; thấp nhất ≈3,5.\n- Nhật Bản: từ ≈4,5 lên ≈8,5–9,0 tCO₂/người; cao nhất ≈10,0; thấp nhất ≈4,5.\n- Đức: từ ≈7,5–8,0 lên đỉnh ≈14,0 rồi giảm còn ≈8,5; cao nhất ≈14,0; thấp nhất ≈7,5.\n- Hoa Kỳ: từ ≈15,5 lên đỉnh ≈22,0 rồi giảm còn ≈15,0; cao nhất ≈22,0; thấp nhất ≈14,5–15,0.\n\n- Nhóm cao nhất: Hoa Kỳ, khoảng ≈22 tCO₂/người.\n- Nhóm thấp nhất: Phi-líp-pin, khoảng ≈0–1,5 tCO₂/người.\n(Trang PDF 21, vùng: middle-left)",
   "source_id": "wb-vn2045-greener-vi",
   "source": "greener_vi.pdf",
   "page": 21,
@@ -990,12 +990,12 @@
    "section": "tong_quan",
    "printed_page": "roman-21",
    "page_image": "adv_store/pages/p021.png",
-   "extracted_by": "gemini-vision"
+   "extracted_by": "gemini-vision + gpt-5.5 (giá trị)"
   }
  },
  {
   "id": "wb-vn2045-greener-vi__p021__c102",
-  "text": "[CHART] Hình 0.4: Cơ cấu phát thải ở Việt Nam\nBiểu đồ diện tích xếp chồng (stacked area chart). Trục tung: Tỷ lệ phần trăm từ 0% đến 100%. Trục hoành: Thời gian từ năm 1970 đến 2020. Chú giải các thành phần: Nông nghiệp (xanh dương đậm), Khai thác nhiên liệu (xám), Công nghiệp điện (xanh dương nhạt), Giao thông vận tải (xanh dương trung bình), Công trình nhà (cam), Động cơ đốt trong công nghiệp (vàng), Chế biến chế tạo (xanh lá cây), Chất thải (nâu). Xu hướng: Tỷ trọng Nông nghiệp giảm dần theo thời gian. Tỷ trọng Công nghiệp điện và Giao thông vận tải có xu hướng tăng. Nguồn: WRI, CAIT và tính toán của cán bộ Ngân hàng Thế giới.\n(Trang PDF 21, vùng: middle-right)",
+  "text": "[CHART] Hình 0.4: Cơ cấu phát thải ở Việt Nam\nBiểu đồ diện tích xếp chồng (stacked area chart). Trục tung: Tỷ lệ phần trăm từ 0% đến 100%. Trục hoành: Thời gian từ năm 1970 đến 2020. Chú giải các thành phần: Nông nghiệp (xanh dương đậm), Khai thác nhiên liệu (xám), Công nghiệp điện (xanh dương nhạt), Giao thông vận tải (xanh dương trung bình), Công trình nhà (cam), Động cơ đốt trong công nghiệp (vàng), Chế biến chế tạo (xanh lá cây), Chất thải (nâu). Xu hướng: Tỷ trọng Nông nghiệp giảm dần theo thời gian. Tỷ trọng Công nghiệp điện và Giao thông vận tải có xu hướng tăng. Nguồn: WRI, CAIT và tính toán của cán bộ Ngân hàng Thế giới.\nGiá trị ước lượng:\n\n**Hình 0.4 – Cơ cấu phát thải ở Việt Nam (%):**\n\n| Năm | Nông nghiệp | Công trình nhà | Khai thác nhiên liệu | Động cơ đốt trong công nghiệp | Công nghiệp điện | Chế biến chế tạo | Giao thông vận tải | Chất thải |\n|---|---:|---:|---:|---:|---:|---:|---:|---:|\n| 1970 | ≈71% | ≈16% | ≈2% | ≈1% | ≈1% | ≈1% | ≈4% | ≈4% |\n| 1975 | ≈69% | ≈17% | ≈1% | ≈2% | ≈3% | ≈2% | ≈2% | ≈4% |\n| 1980 | ≈70% | ≈8% | ≈3% | ≈6% | ≈3% | ≈2% | ≈4% | ≈4% |\n| 1985 | ≈68% | ≈6% | ≈6% | ≈6% | ≈5% | ≈2% | ≈3% | ≈4% |\n| 1990 | ≈66% | ≈6% | ≈7% | ≈5% | ≈7% | ≈4% | ≈3% | ≈4% |\n| 1995 | ≈57% | ≈7% | ≈9% | ≈7% | ≈5% | ≈5% | ≈6% | ≈4% |\n| 2000 | ≈48% | ≈6% | ≈8% | ≈10% | ≈10% | ≈7% | ≈6% | ≈5% |\n| 2005 | ≈39% | ≈6% | ≈8% | ≈13% | ≈15% | ≈8% | ≈7% | ≈4% |\n| 2010 | ≈31% | ≈6% | ≈10% | ≈13% | ≈14% | ≈10% | ≈12% | ≈4% |\n| 2015 | ≈29% | ≈5% | ≈5% | ≈20% | ≈18% | ≈10% | ≈9% | ≈4% |\n| 2020 | ≈17% | ≈4% | ≈5% | ≈21% | ≈30% | ≈12% | ≈7% | ≈4% |\n\n**Điểm cao/thấp nhất ước lượng theo từng nhóm:**\n- Nông nghiệp: cao nhất ≈72% vào đầu thập niên 1970; thấp nhất ≈17% năm 2020.\n- Công trình nhà: cao nhất ≈17% khoảng 1970–1975; thấp nhất ≈4% năm 2020.\n- Khai thác nhiên liệu: cao nhất ≈10% quanh 2010; thấp nhất ≈1% khoảng 1975.\n- Động cơ đốt trong công nghiệp: cao nhất ≈21% năm 2020; thấp nhất ≈1% năm 1970.\n- Công nghiệp điện: cao nhất ≈30% năm 2020; thấp nhất ≈1% năm 1970.\n- Chế biến chế tạo: cao nhất ≈12% năm 2020; thấp nhất ≈1% năm 1970.\n- Giao thông vận tải: cao nhất ≈12% khoảng 2010; thấp nhất ≈2% khoảng 1975.\n- Chất thải: dao động khoảng ≈4–5%; cao nhất ≈5%, thấp nhất ≈4%.\n\n**Nhóm cao nhất:** Nông nghiệp, cao nhất khoảng ≈72%.  \n**Nhóm thấp nhất:** một số nhóm nhỏ ở đầu kỳ như Động cơ đốt trong công nghiệp, Công nghiệp điện, Chế biến chế tạo, khoảng ≈1%.\n(Trang PDF 21, vùng: middle-right)",
   "source_id": "wb-vn2045-greener-vi",
   "source": "greener_vi.pdf",
   "page": 21,
@@ -1007,7 +1007,7 @@
    "section": "tong_quan",
    "printed_page": "roman-21",
    "page_image": "adv_store/pages/p021.png",
-   "extracted_by": "gemini-vision"
+   "extracted_by": "gemini-vision + gpt-5.5 (giá trị)"
   }
  },
  {
@@ -2203,7 +2203,7 @@
  },
  {
   "id": "wb-vn2045-greener-vi__p040__c101",
-  "text": "[CHART] Hình 1.1: Nhiệt độ trung bình hàng năm của Việt Nam trong quá khứ và theo dự báo\nBiểu đồ đường (vùng) thể hiện nhiệt độ trung bình hàng năm (Độ C) từ năm 1980 đến 2100. Trục hoành là thời gian (1980, 2000, 2020, 2040, 2060, 2080, 2100). Trục tung là nhiệt độ (Độ C), từ 23 đến 30. Chú giải gồm: Quá khứ (màu đen), RCP 2.6 (màu xanh dương), RCP 4.5 (màu xanh lá), RCP 6.0 (màu vàng), RCP 8.5 (màu đỏ). Xu hướng chung là nhiệt độ tăng dần theo thời gian ở tất cả các kịch bản. Nguồn: Hỗ sơ rủi ro khí hậu quốc gia https://climateknowledgeportal.worldbank.org/country-profiles. Ghi chú: RCP 4.5 là kịch bản trung bình, RCP 8.5 là kịch bản bi quan, RCP 2.6 là kịch bản lạc quan.\n(Trang PDF 40, vùng: top-left)",
+  "text": "[CHART] Hình 1.1: Nhiệt độ trung bình hàng năm của Việt Nam trong quá khứ và theo dự báo\nBiểu đồ đường (vùng) thể hiện nhiệt độ trung bình hàng năm (Độ C) từ năm 1980 đến 2100. Trục hoành là thời gian (1980, 2000, 2020, 2040, 2060, 2080, 2100). Trục tung là nhiệt độ (Độ C), từ 23 đến 30. Chú giải gồm: Quá khứ (màu đen), RCP 2.6 (màu xanh dương), RCP 4.5 (màu xanh lá), RCP 6.0 (màu vàng), RCP 8.5 (màu đỏ). Xu hướng chung là nhiệt độ tăng dần theo thời gian ở tất cả các kịch bản. Nguồn: Hỗ sơ rủi ro khí hậu quốc gia https://climateknowledgeportal.worldbank.org/country-profiles. Ghi chú: RCP 4.5 là kịch bản trung bình, RCP 8.5 là kịch bản bi quan, RCP 2.6 là kịch bản lạc quan.\nGiá trị ước lượng:\n\n- Quá khứ:  \n  - Điểm đầu khoảng 1990: ≈24,4°C  \n  - 2000: ≈24,7°C  \n  - 2020: ≈25,1°C  \n  - Thấp nhất: ≈24,3°C  \n  - Cao nhất: ≈25,2°C  \n\n- RCP 2.6:  \n  - 2020: ≈25,1°C  \n  - 2040: ≈25,4°C  \n  - 2060: ≈25,6°C  \n  - 2080: ≈25,6°C  \n  - 2100: ≈25,4°C  \n  - Thấp nhất: ≈25,1°C  \n  - Cao nhất: ≈25,7°C  \n\n- RCP 4.5:  \n  - 2020: ≈25,1°C  \n  - 2040: ≈25,5°C  \n  - 2060: ≈26,0°C  \n  - 2080: ≈26,4°C  \n  - 2100: ≈26,3°C  \n  - Thấp nhất: ≈25,1°C  \n  - Cao nhất: ≈26,5°C  \n\n- RCP 6.0:  \n  - 2020: ≈25,1°C  \n  - 2040: ≈25,4°C  \n  - 2060: ≈26,0°C  \n  - 2080: ≈26,3°C  \n  - 2100: ≈26,7°C  \n  - Thấp nhất: ≈25,1°C  \n  - Cao nhất: ≈26,8°C  \n\n- RCP 8.5:  \n  - 2020: ≈25,1°C  \n  - 2040: ≈25,8°C  \n  - 2060: ≈26,7°C  \n  - 2080: ≈27,7°C  \n  - 2100: ≈28,3°C  \n  - Thấp nhất: ≈25,1°C  \n  - Cao nhất: ≈28,3°C  \n\n- Chuỗi cao nhất: RCP 8.5, khoảng ≈28,3°C vào cuối thế kỷ.  \n- Chuỗi thấp nhất: Quá khứ, khoảng ≈24,3°C ở đầu giai đoạn hiển thị.\n(Trang PDF 40, vùng: top-left)",
   "source_id": "wb-vn2045-greener-vi",
   "source": "greener_vi.pdf",
   "page": 40,
@@ -2215,12 +2215,12 @@
    "section": "chuong_1_thich_ung",
    "printed_page": "8",
    "page_image": "adv_store/pages/p040.png",
-   "extracted_by": "gemini-vision"
+   "extracted_by": "gemini-vision + gpt-5.5 (giá trị)"
   }
  },
  {
   "id": "wb-vn2045-greener-vi__p040__c102",
-  "text": "[CHART] Hình 1.2: Lượng mưa trung bình hàng năm của Việt Nam trong quá khứ và theo dự báo\nBiểu đồ hộp (box plot) thể hiện lượng mưa trung bình hàng năm (mm) cho các giai đoạn: Quá khứ, RCP 2.6, RCP 4.5, RCP 6.0, RCP 8.5. Trục tung là lượng mưa (mm), từ 1000 đến 2800. Mỗi hộp thể hiện phân phối dữ liệu với các râu (min/max) và đường trung vị. Xu hướng chung cho thấy lượng mưa dao động trong khoảng 1400-1800mm, với các kịch bản RCP 8.5 có biên độ dao động lớn nhất (đến gần 2600mm). Nguồn: Hỗ sơ rủi ro khí hậu quốc gia https://climateknowledgeportal.worldbank.org/country-profiles.\n(Trang PDF 40, vùng: top-right)",
+  "text": "[CHART] Hình 1.2: Lượng mưa trung bình hàng năm của Việt Nam trong quá khứ và theo dự báo\nBiểu đồ hộp (box plot) thể hiện lượng mưa trung bình hàng năm (mm) cho các giai đoạn: Quá khứ, RCP 2.6, RCP 4.5, RCP 6.0, RCP 8.5. Trục tung là lượng mưa (mm), từ 1000 đến 2800. Mỗi hộp thể hiện phân phối dữ liệu với các râu (min/max) và đường trung vị. Xu hướng chung cho thấy lượng mưa dao động trong khoảng 1400-1800mm, với các kịch bản RCP 8.5 có biên độ dao động lớn nhất (đến gần 2600mm). Nguồn: Hỗ sơ rủi ro khí hậu quốc gia https://climateknowledgeportal.worldbank.org/country-profiles.\nGiá trị ước lượng:\n- Quá khứ: trung vị ≈ 1.520 mm; cận trên ≈ 2.090 mm; cận dưới ≈ 1.210 mm.\n- RCP 2.6: trung vị ≈ 1.540 mm; cận trên ≈ 1.970 mm; cận dưới ≈ 1.260 mm.\n- RCP 4.5: trung vị ≈ 1.600 mm; cận trên ≈ 2.300 mm; cận dưới ≈ 1.360 mm.\n- RCP 6.0: trung vị ≈ 1.570 mm; cận trên ≈ 1.970 mm; cận dưới ≈ 1.290 mm.\n- RCP 8.5: trung vị ≈ 1.660 mm; cận trên ≈ 2.480 mm; cận dưới ≈ 1.320 mm.\n\n- Nhóm cao nhất: RCP 8.5.\n- Nhóm thấp nhất: Quá khứ.\n(Trang PDF 40, vùng: top-right)",
   "source_id": "wb-vn2045-greener-vi",
   "source": "greener_vi.pdf",
   "page": 40,
@@ -2232,7 +2232,7 @@
    "section": "chuong_1_thich_ung",
    "printed_page": "8",
    "page_image": "adv_store/pages/p040.png",
-   "extracted_by": "gemini-vision"
+   "extracted_by": "gemini-vision + gpt-5.5 (giá trị)"
   }
  },
  {
@@ -4650,7 +4650,7 @@
  },
  {
   "id": "wb-vn2045-greener-vi__p076__c103",
-  "text": "[CHART] Hình 2.11: Phát thải khí nhà kính theo lĩnh vực trong các kịch bản cơ sở và kịch bản khử thải các-bon tăng tốc (ADS) (triệu tấn CO2 tương đương)\nBiểu đồ cột chồng thể hiện phát thải khí nhà kính theo lĩnh vực từ 2030 đến 2050, chia làm hai phần: A. Kịch bản cơ sở và B. Kịch bản khử thải các-bon tăng tốc (ADS). Trục tung là triệu tấn CO2 tương đương (từ -200 đến 1400). Trục hoành là các năm từ 2030 đến 2050. Các lĩnh vực bao gồm: Giao thông vận tải, Nông nghiệp, LUCF, Rác thải, Điện, Chế tạo máy, Các quy trình công nghiệp, Khí thải rò rỉ. \n\nMô tả xu hướng:\n- A. Kịch bản cơ sở: Tổng lượng phát thải có xu hướng tăng dần qua các năm, đạt đỉnh vào năm 2050.\n- B. Kịch bản khử thải các-bon tăng tốc (ADS): Tổng lượng phát thải có xu hướng giảm dần qua các năm.\nNguồn: Mô phỏng của cán bộ Ngân hàng Thế giới bằng mô hình MANAGE. Ghi chú: Giá trị khí thải các-bon năm 2030 khác nhau theo hai kịch bản vì mô phỏng bằng mô hình bắt đầu vào 2019 còn các chính sách ADS có tác động đến khí thải vào năm 2030.\n(Trang PDF 76, vùng: bottom)",
+  "text": "[CHART] Hình 2.11: Phát thải khí nhà kính theo lĩnh vực trong các kịch bản cơ sở và kịch bản khử thải các-bon tăng tốc (ADS) (triệu tấn CO2 tương đương)\nBiểu đồ cột chồng thể hiện phát thải khí nhà kính theo lĩnh vực từ 2030 đến 2050, chia làm hai phần: A. Kịch bản cơ sở và B. Kịch bản khử thải các-bon tăng tốc (ADS). Trục tung là triệu tấn CO2 tương đương (từ -200 đến 1400). Trục hoành là các năm từ 2030 đến 2050. Các lĩnh vực bao gồm: Giao thông vận tải, Nông nghiệp, LUCF, Rác thải, Điện, Chế tạo máy, Các quy trình công nghiệp, Khí thải rò rỉ. \n\nMô tả xu hướng:\n- A. Kịch bản cơ sở: Tổng lượng phát thải có xu hướng tăng dần qua các năm, đạt đỉnh vào năm 2050.\n- B. Kịch bản khử thải các-bon tăng tốc (ADS): Tổng lượng phát thải có xu hướng giảm dần qua các năm.\nNguồn: Mô phỏng của cán bộ Ngân hàng Thế giới bằng mô hình MANAGE. Ghi chú: Giá trị khí thải các-bon năm 2030 khác nhau theo hai kịch bản vì mô phỏng bằng mô hình bắt đầu vào 2019 còn các chính sách ADS có tác động đến khí thải vào năm 2030.\nGiá trị ước lượng: (triệu tấn CO₂ tương đương; không có nhãn số trên cột, đọc theo trục; LUCF là phần âm)\n\n**A. Kịch bản cơ sở**\n\n| Năm | Giao thông vận tải | Điện | Nông nghiệp | Chế tạo máy | Các quy trình công nghiệp | Rác thải | Khí thải rò rỉ | LUCF | Tổng dương |\n|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|\n| 2030 | ≈100 | ≈340 | ≈120 | ≈230 | ≈130 | ≈40 | ≈20 | ≈-50 | ≈980 |\n| 2035 | ≈120 | ≈420 | ≈130 | ≈260 | ≈120 | ≈50 | ≈25 | ≈-60 | ≈1.125 |\n| 2040 | ≈140 | ≈510 | ≈140 | ≈310 | ≈110 | ≈55 | ≈30 | ≈-65 | ≈1.295 |\n| 2045 | ≈155 | ≈600 | ≈145 | ≈350 | ≈105 | ≈60 | ≈35 | ≈-70 | ≈1.450 |\n| 2050 | ≈160 | ≈630 | ≈150 | ≈390 | ≈90 | ≈65 | ≈40 | ≈-70 | ≈1.525 |\n\n**B. Kịch bản khử thải các-bon tăng tốc (ADS)**\n\n| Năm | Giao thông vận tải | Điện | Nông nghiệp | Chế tạo máy | Các quy trình công nghiệp | Rác thải | Khí thải rò rỉ | LUCF | Tổng dương |\n|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|\n| 2030 | ≈50 | ≈170 | ≈100 | ≈130 | ≈70 | ≈25 | ≈10 | ≈-50 | ≈555 |\n| 2035 | ≈60 | ≈130 | ≈110 | ≈140 | ≈65 | ≈25 | ≈10 | ≈-60 | ≈540 |\n| 2040 | ≈60 | ≈110 | ≈120 | ≈145 | ≈60 | ≈25 | ≈10 | ≈-65 | ≈530 |\n| 2045 | ≈55 | ≈100 | ≈120 | ≈150 | ≈45 | ≈25 | ≈8 | ≈-75 | ≈503 |\n| 2050 | ≈50 | ≈80 | ≈100 | ≈150 | ≈30 | ≈20 | ≈5 | ≈-80 | ≈435 |\n\n**Cao nhất và thấp nhất:**  \n- Cột/tổng dương cao nhất: **Kịch bản cơ sở năm 2050**, ≈1.525 triệu tấn CO₂ tương đương.  \n- Cột/tổng dương thấp nhất: **ADS năm 2050**, ≈435 triệu tấn CO₂ tương đương.  \n- Nhóm lĩnh vực cao nhất nhìn chung: **Điện** trong kịch bản cơ sở, đạt khoảng ≈630 vào năm 2050.  \n- Nhóm thấp nhất: **LUCF**, là phần âm, khoảng ≈-80 trong ADS năm 2050.\n(Trang PDF 76, vùng: bottom)",
   "source_id": "wb-vn2045-greener-vi",
   "source": "greener_vi.pdf",
   "page": 76,
@@ -4662,7 +4662,7 @@
    "section": "chuong_2_giam_phat_thai",
    "printed_page": "44",
    "page_image": "adv_store/pages/p076.png",
-   "extracted_by": "gemini-vision"
+   "extracted_by": "gemini-vision + gpt-5.5 (giá trị)"
   }
  },
  {
@@ -5352,7 +5352,7 @@
  },
  {
   "id": "wb-vn2045-greener-vi__p087__c102",
-  "text": "[CHART] Hình 2.18b: Xuất khẩu theo chuỗi giá trị (triệu US$)\nBiểu đồ đường thể hiện giá trị xuất khẩu (triệu US$) từ năm 2010 đến 2022 cho 3 nhóm: Xe điện (màu xanh đậm), Mặt trời (màu vàng), Gió (màu xanh nhạt). Trục tung từ 0 đến 20000. Xu hướng: Nhóm Mặt trời tăng trưởng mạnh nhất, đặc biệt từ 2016 đến 2022. Nhóm Gió tăng trưởng ổn định. Nhóm Xe điện đi ngang. Nguồn: UNCOMTRADE, phân tích của Ngân hàng Thế giới. Các chuỗi giá trị được xác định qua Rosenow và Mealy (2024).\n(Trang PDF 87, vùng: middle-right)",
+  "text": "[CHART] Hình 2.18b: Xuất khẩu theo chuỗi giá trị (triệu US$)\nBiểu đồ đường thể hiện giá trị xuất khẩu (triệu US$) từ năm 2010 đến 2022 cho 3 nhóm: Xe điện (màu xanh đậm), Mặt trời (màu vàng), Gió (màu xanh nhạt). Trục tung từ 0 đến 20000. Xu hướng: Nhóm Mặt trời tăng trưởng mạnh nhất, đặc biệt từ 2016 đến 2022. Nhóm Gió tăng trưởng ổn định. Nhóm Xe điện đi ngang. Nguồn: UNCOMTRADE, phân tích của Ngân hàng Thế giới. Các chuỗi giá trị được xác định qua Rosenow và Mealy (2024).\nGiá trị ước lượng:\n\n- Xe điện (triệu US$): 2010 ≈1.500; 2011 ≈1.800; 2012 ≈2.500; 2013 ≈2.800; 2014 ≈3.100; 2015 ≈3.300; 2016 ≈3.600; 2017 ≈4.300; 2018 ≈4.600; 2019 ≈4.800; 2020 ≈4.500; 2021 ≈5.300; 2022 ≈5.700.  \n  - Cao nhất: 2022 ≈5.700. Thấp nhất: 2010 ≈1.500.\n\n- Mặt trời (triệu US$): 2010 ≈1.000; 2011 ≈1.500; 2012 ≈2.200; 2013 ≈2.400; 2014 ≈2.700; 2015 ≈3.200; 2016 ≈5.200; 2017 ≈9.000; 2018 ≈9.500; 2019 ≈10.000; 2020 ≈10.100; 2021 ≈14.500; 2022 ≈17.500.  \n  - Cao nhất: 2022 ≈17.500. Thấp nhất: 2010 ≈1.000.\n\n- Gió (triệu US$): 2010 ≈900; 2011 ≈1.200; 2012 ≈1.700; 2013 ≈2.000; 2014 ≈2.300; 2015 ≈2.200; 2016 ≈3.000; 2017 ≈4.200; 2018 ≈4.300; 2019 ≈5.200; 2020 ≈6.800; 2021 ≈9.800; 2022 ≈8.300.  \n  - Cao nhất: 2021 ≈9.800. Thấp nhất: 2010 ≈900.\n\n- Chuỗi cao nhất: Mặt trời, đạt ≈17.500 triệu US$ năm 2022.  \n- Chuỗi thấp nhất: Gió, khoảng ≈900 triệu US$ năm 2010.\n(Trang PDF 87, vùng: middle-right)",
   "source_id": "wb-vn2045-greener-vi",
   "source": "greener_vi.pdf",
   "page": 87,
@@ -5364,7 +5364,7 @@
    "section": "chuong_2_giam_phat_thai",
    "printed_page": "55",
    "page_image": "adv_store/pages/p087.png",
-   "extracted_by": "gemini-vision"
+   "extracted_by": "gemini-vision + gpt-5.5 (giá trị)"
   }
  },
  {
@@ -6120,7 +6120,7 @@
  },
  {
   "id": "wb-vn2045-greener-vi__p099__c102",
-  "text": "[CHART] Hình 3.2: Tỉ trọng đóng góp của các ngành KTB cho tổng giá trị gia tăng (GVA) năm 2019\nBiểu đồ hình tròn (pie chart) thể hiện tỉ trọng đóng góp của các ngành năm 2019. Nguồn: Tính toán của cán bộ Ngân hàng Thế giới.\n\nChú giải và giá trị:\n- Đánh bắt và nuôi trồng thủy sản: 1%\n- Dầu thô và khí tự nhiên: 11%\n- Chế biến và bảo quản thủy sản: 7%\n- Chế biến than cốc và các sản phẩm dầu mỏ tinh chế: 18%\n- Đóng tàu và thuyền: 3%\n- Vận tải biển: 12%\n- Điện gió ngoài khơi: 3%\n- Du lịch biển: 45%\n(Trang PDF 99, vùng: top-right)",
+  "text": "[CHART] Hình 3.2: Tỉ trọng đóng góp của các ngành KTB cho tổng giá trị gia tăng (GVA) năm 2019\nBiểu đồ hình tròn (pie chart) thể hiện tỉ trọng đóng góp của các ngành năm 2019. Nguồn: Tính toán của cán bộ Ngân hàng Thế giới.\n\nChú giải và giá trị:\n- Đánh bắt và nuôi trồng thủy sản: 1%\n- Dầu thô và khí tự nhiên: 11%\n- Chế biến và bảo quản thủy sản: 7%\n- Chế biến than cốc và các sản phẩm dầu mỏ tinh chế: 18%\n- Đóng tàu và thuyền: 3%\n- Vận tải biển: 12%\n- Điện gió ngoài khơi: 3%\n- Du lịch biển: 45%\nGiá trị ước lượng:\n- Đánh bắt và nuôi trồng thủy sản: 1%\n- Dầu thô và khí tự nhiên: 11%\n- Chế biến và bảo quản thủy sản: 7%\n- Chế biến than cốc và các sản phẩm dầu mỏ tinh chế: 18%\n- Đóng tàu và thuyền: 3%\n- Vận tải biển: 12%\n- Điện gió ngoài khơi: 3%\n- Du lịch biển: 45%\n\nCao nhất: Du lịch biển – 45%.  \nThấp nhất: Đánh bắt và nuôi trồng thủy sản – 1%.\n(Trang PDF 99, vùng: top-right)",
   "source_id": "wb-vn2045-greener-vi",
   "source": "greener_vi.pdf",
   "page": 99,
@@ -6132,7 +6132,7 @@
    "section": "chuong_3_kinh_te_bien",
    "printed_page": "67",
    "page_image": "adv_store/pages/p099.png",
-   "extracted_by": "gemini-vision"
+   "extracted_by": "gemini-vision + gpt-5.5 (giá trị)"
   }
  },
  {
@@ -8383,7 +8383,7 @@
  },
  {
   "id": "wb-vn2045-greener-vi__p136__c101",
-  "text": "[CHART] Hình A2.2.1: Phát thải trong nông nghiệp, 2021\nBiểu đồ hình tròn (donut chart) thể hiện tỷ trọng các nguồn phát thải trong nông nghiệp năm 2021. Biểu đồ chia thành hai nhóm lớn: Chăn nuôi (34%) và Trồng trọt (66%). Các thành phần chi tiết bao gồm: Trồng lúa (49.2%), Phân bón tổng hợp (11.9%), Tàn dư cây trồng (3.6%), Đốt tàn dư cây trồng (0.6%), Trồng đất hữu cơ (0.2%), Đốt rừng (0.2%), Lên men đường ruột (17.8%), Quản lý phân chuồng (9.3%), Phân để lại trên đồng cỏ (4.5%), Phân bón cho đất (2.7%). Nguồn: Climate Watch.\n(Trang PDF 136, vùng: top-left)",
+  "text": "[CHART] Hình A2.2.1: Phát thải trong nông nghiệp, 2021\nBiểu đồ hình tròn (donut chart) thể hiện tỷ trọng các nguồn phát thải trong nông nghiệp năm 2021. Biểu đồ chia thành hai nhóm lớn: Chăn nuôi (34%) và Trồng trọt (66%). Các thành phần chi tiết bao gồm: Trồng lúa (49.2%), Phân bón tổng hợp (11.9%), Tàn dư cây trồng (3.6%), Đốt tàn dư cây trồng (0.6%), Trồng đất hữu cơ (0.2%), Đốt rừng (0.2%), Lên men đường ruột (17.8%), Quản lý phân chuồng (9.3%), Phân để lại trên đồng cỏ (4.5%), Phân bón cho đất (2.7%). Nguồn: Climate Watch.\nGiá trị ước lượng:\n- Nhóm tổng:\n  - Trồng trọt: 66%\n  - Chăn nuôi: 34%\n- Các phân mục:\n  - Trồng lúa: 49.2%\n  - Phân bón tổng hợp: 11.9%\n  - Tàn dư cây trồng: 3.6%\n  - Đốt tàn dư cây trồng: 0.6%\n  - Trồng đất hữu cơ: 0.2%\n  - Đốt rừng: 0.2%\n  - Lên men đường ruột: 17.8%\n  - Quản lý phân chuồng: 9.3%\n  - Phân để lại trên đồng cỏ: 4.5%\n  - Phân bón cho đất: 2.7%\n\n- Cao nhất: Trồng trọt 66% trong nhóm tổng; Trồng lúa 49.2% trong các phân mục.\n- Thấp nhất: Đốt rừng 0.2% và Trồng đất hữu cơ 0.2%.\n(Trang PDF 136, vùng: top-left)",
   "source_id": "wb-vn2045-greener-vi",
   "source": "greener_vi.pdf",
   "page": 136,
@@ -8395,12 +8395,12 @@
    "section": "phu_luc",
    "printed_page": "104",
    "page_image": "adv_store/pages/p136.png",
-   "extracted_by": "gemini-vision"
+   "extracted_by": "gemini-vision + gpt-5.5 (giá trị)"
   }
  },
  {
   "id": "wb-vn2045-greener-vi__p136__c102",
-  "text": "[CHART] Hình A2.2.2: Lượng phát thải theo phân ngành nông nghiệp, 2021\nBiểu đồ hình tròn (donut chart) thể hiện tỷ trọng các loại khí phát thải trong nông nghiệp năm 2021. Biểu đồ bao gồm hai thành phần chính: Metan (69%) và Nito Ôxit (31%). Tâm biểu đồ ghi năm 2021. Nguồn: Climate Watch.\n(Trang PDF 136, vùng: top-right)",
+  "text": "[CHART] Hình A2.2.2: Lượng phát thải theo phân ngành nông nghiệp, 2021\nBiểu đồ hình tròn (donut chart) thể hiện tỷ trọng các loại khí phát thải trong nông nghiệp năm 2021. Biểu đồ bao gồm hai thành phần chính: Metan (69%) và Nito Ôxit (31%). Tâm biểu đồ ghi năm 2021. Nguồn: Climate Watch.\nGiá trị ước lượng:\n- Metan: 69%\n- Nitơ Ôxít: 31%\n\nCao nhất: Metan (69%).  \nThấp nhất: Nitơ Ôxít (31%).\n(Trang PDF 136, vùng: top-right)",
   "source_id": "wb-vn2045-greener-vi",
   "source": "greener_vi.pdf",
   "page": 136,
@@ -8412,7 +8412,7 @@
    "section": "phu_luc",
    "printed_page": "104",
    "page_image": "adv_store/pages/p136.png",
-   "extracted_by": "gemini-vision"
+   "extracted_by": "gemini-vision + gpt-5.5 (giá trị)"
   }
  },
  {
@@ -8456,7 +8456,7 @@
  },
  {
   "id": "wb-vn2045-greener-vi__p137__c101",
-  "text": "[CHART] Hình A2.3.1: Tiêu thụ năng lượng sơ cấp theo % GDP (kWh/$)\nBiểu đồ cột so sánh tiêu thụ năng lượng sơ cấp theo % GDP (kWh/$) giữa các quốc gia và thế giới. Trục tung là giá trị từ 0 đến 1.8. Trục hoành gồm các quốc gia: Trung Quốc, In-đô-nê-xi-a, Hàn Quốc, Thái Lan, Việt Nam (cột màu đỏ), Thế giới. Nguồn: Cơ quan Năng lượng Quốc tế (IEA).\n(Trang PDF 137, vùng: bottom-left)",
+  "text": "[CHART] Hình A2.3.1: Tiêu thụ năng lượng sơ cấp theo % GDP (kWh/$)\nBiểu đồ cột so sánh tiêu thụ năng lượng sơ cấp theo % GDP (kWh/$) giữa các quốc gia và thế giới. Trục tung là giá trị từ 0 đến 1.8. Trục hoành gồm các quốc gia: Trung Quốc, In-đô-nê-xi-a, Hàn Quốc, Thái Lan, Việt Nam (cột màu đỏ), Thế giới. Nguồn: Cơ quan Năng lượng Quốc tế (IEA).\nGiá trị ước lượng:\n- Trung Quốc: ≈1,65 kWh/$\n- In-đô-nê-xia: ≈0,80 kWh/$\n- Hàn Quốc: ≈1,66 kWh/$\n- Thái Lan: ≈1,24 kWh/$\n- Việt Nam: ≈1,50 kWh/$\n- Thế giới: ≈1,30 kWh/$\n\nCao nhất: Hàn Quốc (≈1,66 kWh/$).  \nThấp nhất: In-đô-nê-xia (≈0,80 kWh/$).\n(Trang PDF 137, vùng: bottom-left)",
   "source_id": "wb-vn2045-greener-vi",
   "source": "greener_vi.pdf",
   "page": 137,
@@ -8468,12 +8468,12 @@
    "section": "phu_luc",
    "printed_page": "105",
    "page_image": "adv_store/pages/p137.png",
-   "extracted_by": "gemini-vision"
+   "extracted_by": "gemini-vision + gpt-5.5 (giá trị)"
   }
  },
  {
   "id": "wb-vn2045-greener-vi__p137__c102",
-  "text": "[CHART] Hình A2.3.2: Tiêu thụ năng lượng cuối cùng (TJ)\nBiểu đồ cột chồng thể hiện tiêu thụ năng lượng cuối cùng (TJ) từ năm 2010 đến 2021, phân loại theo các ngành. Chú giải gồm: Tiêu dùng không sử dụng năng lượng (màu xanh lá nhạt), Nông nghiệp/lâm nghiệp (màu xanh dương nhạt), Dịch vụ thương mại và công cộng (màu vàng), Khu dân cư (màu xám), Giao thông (màu cam), Công nghiệp (màu xanh dương đậm). Trục tung từ 0 đến 3.000.000. Nguồn: Cơ quan Năng lượng Quốc tế (IEA).\n(Trang PDF 137, vùng: bottom-right)",
+  "text": "[CHART] Hình A2.3.2: Tiêu thụ năng lượng cuối cùng (TJ)\nBiểu đồ cột chồng thể hiện tiêu thụ năng lượng cuối cùng (TJ) từ năm 2010 đến 2021, phân loại theo các ngành. Chú giải gồm: Tiêu dùng không sử dụng năng lượng (màu xanh lá nhạt), Nông nghiệp/lâm nghiệp (màu xanh dương nhạt), Dịch vụ thương mại và công cộng (màu vàng), Khu dân cư (màu xám), Giao thông (màu cam), Công nghiệp (màu xanh dương đậm). Trục tung từ 0 đến 3.000.000. Nguồn: Cơ quan Năng lượng Quốc tế (IEA).\nGiá trị ước lượng:\n\n| Năm | Công nghiệp | Giao thông | Khu dân cư | Dịch vụ thương mại và công cộng | Nông nghiệp/lâm nghiệp | Tiêu dùng không sử dụng năng lượng | Tổng |\n|---|---:|---:|---:|---:|---:|---:|---:|\n| 2010 | ≈720.000 | ≈430.000 | ≈660.000 | ≈80.000 | ≈30.000 | ≈80.000 | ≈2.000.000 |\n| 2011 | ≈750.000 | ≈430.000 | ≈670.000 | ≈80.000 | ≈30.000 | ≈70.000 | ≈2.030.000 |\n| 2012 | ≈780.000 | ≈430.000 | ≈690.000 | ≈80.000 | ≈30.000 | ≈60.000 | ≈2.070.000 |\n| 2013 | ≈850.000 | ≈400.000 | ≈670.000 | ≈90.000 | ≈40.000 | ≈100.000 | ≈2.150.000 |\n| 2014 | ≈950.000 | ≈420.000 | ≈740.000 | ≈80.000 | ≈40.000 | ≈100.000 | ≈2.330.000 |\n| 2015 | ≈780.000 | ≈450.000 | ≈470.000 | ≈80.000 | ≈80.000 | ≈90.000 | ≈1.950.000 |\n| 2016 | ≈860.000 | ≈510.000 | ≈450.000 | ≈70.000 | ≈70.000 | ≈110.000 | ≈2.070.000 |\n| 2017 | ≈920.000 | ≈550.000 | ≈430.000 | ≈80.000 | ≈140.000 | ≈70.000 | ≈2.190.000 |\n| 2018 | ≈1.180.000 | ≈580.000 | ≈500.000 | ≈100.000 | ≈90.000 | ≈60.000 | ≈2.510.000 |\n| 2019 | ≈1.350.000 | ≈600.000 | ≈450.000 | ≈100.000 | ≈180.000 | ≈60.000 | ≈2.740.000 |\n| 2020 | ≈1.550.000 | ≈520.000 | ≈450.000 | ≈100.000 | ≈130.000 | ≈90.000 | ≈2.840.000 |\n| 2021 | ≈1.660.000 | ≈460.000 | ≈480.000 | ≈110.000 | ≈100.000 | ≈90.000 | ≈2.900.000 |\n\n- Nhóm/cột tổng cao nhất: năm 2021, ≈2.900.000 TJ.  \n- Nhóm/cột tổng thấp nhất: năm 2015, ≈1.950.000 TJ.  \n- Chuỗi cao nhất: Công nghiệp.  \n- Chuỗi thấp nhất: Tiêu dùng không sử dụng năng lượng, xấp xỉ thấp nhất trong các chuỗi nhỏ.\n(Trang PDF 137, vùng: bottom-right)",
   "source_id": "wb-vn2045-greener-vi",
   "source": "greener_vi.pdf",
   "page": 137,
@@ -8485,7 +8485,7 @@
    "section": "phu_luc",
    "printed_page": "105",
    "page_image": "adv_store/pages/p137.png",
-   "extracted_by": "gemini-vision"
+   "extracted_by": "gemini-vision + gpt-5.5 (giá trị)"
   }
  },
  {

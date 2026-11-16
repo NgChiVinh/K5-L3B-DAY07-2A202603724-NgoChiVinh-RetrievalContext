@@ -84,6 +84,20 @@ class AgentTests(unittest.TestCase):
         out = run_agent('?', llm, {'search_dense': Retriever([C1, C2])}, budget_chars=len(C1['text']) + 5)
         self.assertEqual(out['context_ids'], [C1['id']])
 
+    def test_per_search_cap_leaves_room_for_later_searches(self):
+        big = [chunk(f'doc__C__p01__c00{i}', 'x' * 100, page=1) for i in range(1, 5)]
+        later = chunk('doc__C__p02__c001', 'y' * 100, page=2)
+
+        class Two:
+            def __init__(self): self.n = 0
+            def search(self, query, *, filters, top_k):
+                self.n += 1
+                res = big if self.n == 1 else [later]
+                return [dict(c, score=0.9, rank=i, method='dense') for i, c in enumerate(res, 1)]
+        llm = ScriptedLLM([call('a'), call('b'), final('KHÔNG ĐỦ BẰNG CHỨNG')])
+        out = run_agent('?', llm, {'search_dense': Two()}, budget_chars=400, per_search_chars=250, top_k=4)
+        self.assertEqual(out['context_ids'], [big[0]['id'], big[1]['id'], later['id']])
+
     def test_neighbors_add_adjacent_chunk_same_page(self):
         llm = ScriptedLLM([call('x'), final('KHÔNG ĐỦ BẰNG CHỨNG')])
         out = run_agent('?', llm, {'search_dense': Retriever([C1])}, neighbors=True, chunk_index=[C1, C2], top_k=1)

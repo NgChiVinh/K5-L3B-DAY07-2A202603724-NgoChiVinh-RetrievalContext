@@ -15,6 +15,11 @@ Quy tắc:
 5. Nếu đoạn trích không chứa thông tin cần thiết (hoặc chỉ có thông tin gần giống nhưng khác chỉ tiêu/mốc thời gian), trả lời bắt đầu bằng "{ABSTAIN_MARKER}:" và giải thích ngắn gọn; không suy đoán, không dùng kiến thức bên ngoài.
 6. Trả lời ngắn gọn bằng tiếng Việt."""
 
+STRICT_RULES = f"""
+7. Nếu câu hỏi gồm nhiều ý, kiểm tra TỪNG ý có trong đoạn trích; thiếu bất kỳ ý nào thì câu trả lời PHẢI bắt đầu bằng "{ABSTAIN_MARKER}:" rồi mới nêu phần tìm được.
+8. Không thay một chỉ tiêu bằng chỉ tiêu gần giống (vd. thuế các-bon đề xuất ≠ giá tín chỉ giao dịch; năm 2050 ≠ năm 2060; tỉnh khác ≠ tỉnh được hỏi). Ô bảng để trống hoặc năm/tỉnh không có trên biểu đồ nghĩa là không có dữ liệu.
+9. Với bảng/biểu đồ: tra đúng hàng, cột, đơn vị, chú giải và ghi chú dấu; nêu phép tính nếu có; giá trị ước lượng từ biểu đồ ghi kèm "khoảng"."""
+
 SYSTEM = make_system("Điểm lại tháng 8/2024: Vươn tới tầm cao mới trên thị trường vốn")
 
 TOOL_DESCRIPTIONS = {
@@ -22,6 +27,7 @@ TOOL_DESCRIPTIONS = {
     'search_keyword': 'Tìm kiếm từ khóa BM25 trong báo cáo. Hợp với thuật ngữ, tên riêng, con số, cụm từ chính xác.',
     'search_hybrid': 'Tìm kiếm kết hợp ngữ nghĩa và từ khóa (RRF) trong báo cáo.',
     'search_hybrid_rerank': 'Tìm kiếm kết hợp ngữ nghĩa và từ khóa, sau đó xếp hạng lại bằng mô hình ngôn ngữ.',
+    'search_hybrid_label': 'Tìm kiếm kết hợp ngữ nghĩa và từ khóa; nếu truy vấn ghi số hiệu "Bảng X.Y"/"Hình X.Y" thì trả về nội dung bảng/hình đó trước. Hãy ghi số hiệu vào truy vấn khi câu hỏi nhắc đến.',
 }
 
 QUERY_SCHEMA = {'type': 'object', 'properties': {'query': {'type': 'string', 'description': 'Truy vấn tiếng Việt có dấu'}},

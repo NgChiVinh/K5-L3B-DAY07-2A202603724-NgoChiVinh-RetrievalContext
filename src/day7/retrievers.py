@@ -140,3 +140,33 @@ class LLMRerank:
         return [_result(c, scores.get(c['id'], c['score']), r, method, base_rank=c['rank'],
                         rerank_error=error, rerank_latency_s=round(time.time() - t0, 3))
                 for r, c in enumerate(order, 1)]
+
+
+class LabelAwareRetriever:
+    """If the query names a figure/table ("Bảng 2.3", "Hình 3.6"), put the visual chunk(s) carrying that
+    label first, then fill with the base retriever. The label comes from the user's own question (a reliable
+    explicit reference), never from gold. Visual labels were extracted at ingest time by the vision model."""
+
+    def __init__(self, base, chunks: list[dict[str, Any]]):
+        from .benchmark import canonical_label
+        self.base, self._canon = base, canonical_label
+        self.by_label: dict[str, list[dict[str, Any]]] = {}
+        for c in chunks:
+            lab = canonical_label((c.get('metadata') or {}).get('label') or '')
+            if lab:
+                self.by_label.setdefault(lab, []).append(c)
+
+    @property
+    def name(self) -> str:
+        return f"{getattr(self.base, 'name', 'base')}+label"
+
+    def search(self, query: str, *, filters: dict[str, Any] | None = None, top_k: int = 3) -> list[dict[str, Any]]:
+        from .benchmark import _LABEL_RE, normalize
+        labels = [f'{m.group(1)} {m.group(2)}' for m in _LABEL_RE.finditer(normalize(query))]
+        picked: list[dict[str, Any]] = []
+        for lab in dict.fromkeys(labels):
+            picked += [c for c in self.by_label.get(lab, []) if _matches(c, filters) and c not in picked]
+        base = self.base.search(query, filters=filters, top_k=top_k)
+        ids = {c['id'] for c in picked}
+        merged = [_result(c, 1.0, 0, 'label') for c in picked] + [h for h in base if h['id'] not in ids]
+        return [dict(h, rank=r) for r, h in enumerate(merged[:top_k], 1)]

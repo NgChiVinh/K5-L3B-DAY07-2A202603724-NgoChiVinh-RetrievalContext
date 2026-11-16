@@ -18,19 +18,19 @@ from . import config
 from .agent import agent_input, run_agent
 from .benchmark import context_has_evidence
 from .configs import AGENT_CONFIGS, TOOL_TO_RETRIEVER, Context
-from .prompts import make_system
+from .prompts import STRICT_RULES, make_system
 
 
 def run(config_name: str, split: str, only: list[str] | None = None, corpus: str = 'day6') -> dict:
     cfg = AGENT_CONFIGS[config_name]
-    ctx = Context(corpus)
+    ctx = Context(corpus, model_override=cfg.get('llm_model'))
     by_id = {c['id']: c for c in ctx.chunks}
     questions = [q for q in ctx.questions(split) if not only or q['id'] in only]
     tools = {t: ctx.retriever(TOOL_TO_RETRIEVER[t]) for t in cfg['tools']}
-    system = make_system(ctx.doc_title)
+    system = make_system(ctx.doc_title) + (STRICT_RULES if cfg.get('strict_prompt') else '')
     out_dir = ctx.results_dir / 'agent' / split / config_name
     out_dir.mkdir(parents=True, exist_ok=True)
-    provider, model = config.llm_settings()
+    provider, model = ctx.llm.provider, ctx.llm.model
     traces = []
     for q in questions:
         question, filters = agent_input(q)
@@ -38,7 +38,8 @@ def run(config_name: str, split: str, only: list[str] | None = None, corpus: str
         try:
             r = run_agent(question, ctx.llm, tools, filters=filters, max_searches=cfg['max_searches'],
                           top_k=cfg['top_k'], budget_chars=cfg['budget_chars'], neighbors=cfg['neighbors'],
-                          chunk_index=ctx.chunks, system=system)
+                          chunk_index=ctx.chunks, system=system,
+                          per_search_chars=cfg.get('per_search_chars'))
         except Exception as exc:
             r = {'status': 'error', 'answer': '', 'citations': [], 'events': [{'event': 'error', 'error': f'{type(exc).__name__}: {exc}'}],
                  'context_ids': [], 'context': [], 'context_chars': 0, 'searches': 0, 'usage': {}, 'latency_s': round(time.time() - t0, 3)}
