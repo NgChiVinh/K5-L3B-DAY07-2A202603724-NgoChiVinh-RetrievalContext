@@ -31,6 +31,19 @@ OVERRIDES: dict[str, list[list[dict[str, Any]]]] = {
     'q19': [[alt(49, 'bình quân đạt 37 ngàn tỷ đồng (1,5 tỷ đô la Mỹ) mỗi năm trong năm năm qua'),
              alt(40, 'bình quân chỉ đạt 37 ngàn tỷ đồng (1,5 tỷ đô la Mỹ) mỗi năm trên hai sàn giao dịch chứng khoán')],
             [alt(49, 'Trong năm 2023, chỉ có ba đợt IPO được thực hiện, huy động được 173 tỷ đồng')]],
+    # Label QA (read against the PDF text, before any test run): one group per fact the question asks.
+    'q09': [[alt(41, 'I#1: Công cụ (Instrument)')],
+            [alt(42, 'I#2: Nhà đầu tư (Investor)')],   # same chunk also defines I#3, I#4
+            [alt(42, 'I#5: Hạ tầng (Infrastructure)')]],  # same chunk also defines I#6
+    # q20 asks for the total; only p.61 states it (p.60 quote covers the 20 tỷ BHXH part only).
+    'q20': [[alt(61, 'riêng các thị trường vốn sẽ dành được khoảng 87 tỷ đô la Mỹ cho khu vực doanh nghiệp')]],
+}
+
+# Day 6 quote covers only part of the expected answer: add one required group per missing fact.
+ADD_GROUPS: dict[str, list[list[dict[str, Any]]]] = {
+    'q05': [[alt(14, 'đồng đô-la Mỹ vẫn ở mức cao (166 điểm cơ bản)'), alt(28, '(166 điểm cơ bản)')]],
+    'q08': [[alt(39, 'nguồn lực bổ sung ước tính chiếm 7% GDP chỉ riêng cho các dự án cơ sở hạ tầng')]],
+    'q14': [[alt(51, 'trái phiếu chính phủ chiếm đến 86% tài sản thuộc quản lý của BHXH')]],
 }
 
 UNANSWERABLE = [
@@ -62,7 +75,7 @@ def day6_groups(q: dict[str, Any]) -> list[list[dict[str, Any]]]:
 def build(day6: list[dict[str, Any]], chunks: list[dict[str, Any]]) -> list[dict[str, Any]]:
     out = []
     for q in day6:
-        groups = OVERRIDES.get(q['id']) or day6_groups(q)
+        groups = (OVERRIDES.get(q['id']) or day6_groups(q)) + ADD_GROUPS.get(q['id'], [])
         for group in groups:  # keep only alternatives that lie inside a chunk; fail if a group is empty
             group[:] = [a for a in group if any(_alt_hit(c, a) for c in chunks)]
             if not group:

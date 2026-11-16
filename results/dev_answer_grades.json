@@ -1,0 +1,18 @@
+{
+ "note": "Dev answer grades (0/1/2, BENCHMARK.md) read against expected_answer and the cited chunks; drafted by the AI assistant, to be re-checked by the student. Only the three candidate configs were graded; agent_bm25/agent_hybrid were eliminated on Context Evidence Rate and a false refusal (q11).",
+ "baseline_dense": {"q01": 2, "q02": 2, "q03": 2, "q04": 2,
+  "q05": [1, "Nêu đúng 'Lỗi và sai sót' 1,9%→7,9% GDP nhưng thiếu nguyên nhân chênh lệch lãi suất/USD mạnh (chunk p14__c003 không có trong context)"],
+  "q06": 2, "q07": 2, "q08": 2,
+  "q09": [1, "I#1, I#5, I#6 có nguồn; I#2–I#4 chỉ được nêu tên dựa vào chú thích Hình 2.5, context thiếu p42__c001 định nghĩa I#2–I#4"],
+  "q10": 2, "q11": 2, "q12": 2, "q13": 2,
+  "q14": [1, "Đúng 1.130 ngàn tỷ và 32%; tự báo không đủ bằng chứng cho tỷ trọng trái phiếu chính phủ (86% nằm ở p51__c002, không được truy xuất)"],
+  "q15": 2},
+ "improve_rerank": {"q01": 2, "q02": 2, "q03": 2, "q04": 2, "q05": 2, "q06": 2, "q07": 2, "q08": 2,
+  "q09": [1, "Liệt kê I#1, I#5, I#6 có định nghĩa; I#2–I#4 chỉ có tên (context thiếu p42__c001)"],
+  "q10": 2, "q11": 2, "q12": 2, "q13": 2, "q14": 2, "q15": 2},
+ "improve_multitool": {"q01": 2, "q02": 2, "q03": 2, "q04": 2, "q05": 2, "q06": 2, "q07": 2, "q08": 2, "q09": 2,
+  "q10": 2, "q11": 2, "q12": 2, "q13": 2, "q14": 2, "q15": 2},
+ "summary": {"baseline_dense": {"0": 0, "1": 3, "2": 12, "mean": 1.8},
+             "improve_rerank": {"0": 0, "1": 1, "2": 14, "mean": 1.933},
+             "improve_multitool": {"0": 0, "1": 0, "2": 15, "mean": 2.0}}
+}

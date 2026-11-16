@@ -1,0 +1,62 @@
+{
+ "config_name": "agent_hybrid",
+ "config": {
+  "tools": [
+   "search_hybrid"
+  ],
+  "top_k": 3,
+  "budget_chars": 3000,
+  "max_searches": 3,
+  "neighbors": false
+ },
+ "split": "dev",
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "errors": 0,
+ "tool_use": {
+  "n": 17,
+  "N": 17,
+  "rate": 1.0
+ },
+ "searches_distribution": {
+  "1": 15,
+  "2": 2
+ },
+ "tool_calls_by_tool": {
+  "search_hybrid": 19
+ },
+ "context_evidence_rate": {
+  "n": 11,
+  "N": 15,
+  "rate": 0.7333
+ },
+ "status_answerable": {
+  "answered": 14,
+  "abstain": 1
+ },
+ "status_unanswerable": {
+  "abstain": 2
+ },
+ "abstained_unanswerable": {
+  "n": 2,
+  "N": 2,
+  "rate": 1.0
+ },
+ "refused_answerable": {
+  "n": 1,
+  "N": 15,
+  "rate": 0.0667
+ },
+ "mean_context_chars": 2335.4,
+ "latency_s_mean": 9.15,
+ "latency_s_total": 155.6,
+ "usage_total": {
+  "llm_calls": 35,
+  "cached_calls": 0,
+  "input_tokens": 34154,
+  "output_tokens": 3662,
+  "thinking_tokens": 4844
+ },
+ "cost_usd": 0.0,
+ "cost_note": "Gemini API free tier (không trả phí); token ghi ở usage_total"
+}

@@ -1,0 +1,21 @@
+{
+ "locked_at": "2026-11-16, before any test-split run",
+ "selected": "improve_multitool",
+ "baseline": "baseline_dense",
+ "criteria_in_order": [
+  "1. Context Evidence Rate trên dev (đủ mọi nhóm gold trong context cuối)",
+  "2. Grounded answer trung bình /2 trên dev (chấm thủ công, results/dev_answer_grades.json)",
+  "3. Abstention: từ chối đúng 2/2 câu thiếu evidence và ít từ chối nhầm nhất",
+  "4. Hòa thì chọn latency và token thấp hơn"
+ ],
+ "dev_evidence": {
+  "baseline_dense": {"context_evidence": "12/15", "answer_mean": 1.8, "abstain_ok": "2/2", "false_refusal": "0/15", "latency_s": 7.67, "input_tokens": 33744},
+  "agent_bm25": {"context_evidence": "11/15", "abstain_ok": "2/2", "false_refusal": "1/15"},
+  "agent_hybrid": {"context_evidence": "11/15", "abstain_ok": "2/2", "false_refusal": "1/15"},
+  "improve_rerank": {"context_evidence": "14/15", "answer_mean": 1.933, "abstain_ok": "2/2", "false_refusal": "0/15", "latency_s": 11.89, "input_tokens": 42906},
+  "improve_multitool": {"context_evidence": "15/15", "answer_mean": 2.0, "abstain_ok": "2/2", "false_refusal": "0/15", "latency_s": 6.78, "input_tokens": 59647}
+ },
+ "rationale": "improve_multitool dẫn đầu tiêu chí 1–3; đánh đổi: token đầu vào gấp ~1,8 lần baseline do context 6000 ký tự + chunk lân cận, nhưng latency không tăng và chi phí thực tế 0 USD (free tier).",
+ "frozen_settings": {"llm": "gemini-3.1-flash-lite (temperature 0, thinking low)", "embedding": "gemini-embedding-001 3072d", "collection": "day6_strategy_C",
+                     "tools": ["search_dense", "search_keyword"], "top_k": 5, "budget_chars": 6000, "max_searches": 4, "neighbors": true}
+}

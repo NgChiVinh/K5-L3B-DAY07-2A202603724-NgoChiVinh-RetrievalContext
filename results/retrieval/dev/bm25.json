@@ -1,0 +1,1930 @@
+{
+ "summary": {
+  "hit_at_1": {
+   "n": 9,
+   "N": 15,
+   "rate": 0.6
+  },
+  "evidence_hit_at_3": {
+   "n": 12,
+   "N": 15,
+   "rate": 0.8
+  },
+  "mrr": 0.6984126984126984,
+  "per_question": {
+   "q01": {
+    "hit_at_1": false,
+    "evidence_hit_at_3": true,
+    "first_full_rank": 2
+   },
+   "q02": {
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "first_full_rank": 1
+   },
+   "q03": {
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "first_full_rank": 1
+   },
+   "q04": {
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "first_full_rank": 1
+   },
+   "q05": {
+    "hit_at_1": false,
+    "evidence_hit_at_3": false,
+    "first_full_rank": 7
+   },
+   "q06": {
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "first_full_rank": 1
+   },
+   "q07": {
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "first_full_rank": 1
+   },
+   "q08": {
+    "hit_at_1": false,
+    "evidence_hit_at_3": true,
+    "first_full_rank": 2
+   },
+   "q09": {
+    "hit_at_1": false,
+    "evidence_hit_at_3": false,
+    "first_full_rank": null
+   },
+   "q10": {
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "first_full_rank": 1
+   },
+   "q11": {
+    "hit_at_1": false,
+    "evidence_hit_at_3": false,
+    "first_full_rank": null
+   },
+   "q12": {
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "first_full_rank": 1
+   },
+   "q13": {
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "first_full_rank": 1
+   },
+   "q14": {
+    "hit_at_1": false,
+    "evidence_hit_at_3": true,
+    "first_full_rank": 3
+   },
+   "q15": {
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "first_full_rank": 1
+   }
+  },
+  "method": "bm25",
+  "split": "dev",
+  "errors": [],
+  "rerank_errors": 0,
+  "llm_model": null,
+  "latency_s_mean": 0.001,
+  "llm_calls": 0,
+  "llm_input_tokens": 0,
+  "llm_output_tokens": 0
+ },
+ "traces": [
+  {
+   "query_id": "q01",
+   "query": "Trong nửa đầu năm 2024, sản lượng công nghiệp chế tạo chế biến và ngành dịch vụ của Việt Nam tăng trưởng lần lượt bao nhiêu phần trăm so với cùng kỳ năm trước?",
+   "filter": null,
+   "results": [
+    {
+     "rank": 1,
+     "id": "wb-diem-lai-2024-08__C__p23__c001",
+     "page": 23,
+     "score": 95.997194,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 2,
+     "id": "wb-diem-lai-2024-08__C__p13__c002",
+     "page": 13,
+     "score": 93.169058,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 3,
+     "id": "wb-diem-lai-2024-08__C__p20__c002",
+     "page": 20,
+     "score": 78.916573,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 4,
+     "id": "wb-diem-lai-2024-08__C__p20__c001",
+     "page": 20,
+     "score": 78.048099,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 5,
+     "id": "wb-diem-lai-2024-08__C__p13__c001",
+     "page": 13,
+     "score": 75.522212,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 6,
+     "id": "wb-diem-lai-2024-08__C__p21__c002",
+     "page": 21,
+     "score": 65.88902,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 7,
+     "id": "wb-diem-lai-2024-08__C__p13__c004",
+     "page": 13,
+     "score": 64.409533,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 8,
+     "id": "wb-diem-lai-2024-08__C__p24__c003",
+     "page": 24,
+     "score": 59.270777,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 9,
+     "id": "wb-diem-lai-2024-08__C__p24__c002",
+     "page": 24,
+     "score": 57.085655,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 10,
+     "id": "wb-diem-lai-2024-08__C__p15__c001",
+     "page": 15,
+     "score": 51.711776,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    }
+   ]
+  },
+  {
+   "query_id": "q02",
+   "query": "Chỉ số sản xuất công nghiệp (IPI) và Chỉ số nhà quản trị mua hàng (PMI) của Việt Nam trong tháng 6/2024 đạt mức bao nhiêu?",
+   "filter": null,
+   "results": [
+    {
+     "rank": 1,
+     "id": "wb-diem-lai-2024-08__C__p23__c001",
+     "page": 23,
+     "score": 94.035899,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 2,
+     "id": "wb-diem-lai-2024-08__C__p23__c002",
+     "page": 23,
+     "score": 59.11933,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 3,
+     "id": "wb-diem-lai-2024-08__C__p13__c002",
+     "page": 13,
+     "score": 33.046715,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 4,
+     "id": "wb-diem-lai-2024-08__C__p15__c001",
+     "page": 15,
+     "score": 31.601913,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 5,
+     "id": "wb-diem-lai-2024-08__C__p25__c001",
+     "page": 25,
+     "score": 31.000184,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 6,
+     "id": "wb-diem-lai-2024-08__C__p14__c005",
+     "page": 14,
+     "score": 29.48443,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 7,
+     "id": "wb-diem-lai-2024-08__C__p21__c001",
+     "page": 21,
+     "score": 28.634567,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 8,
+     "id": "wb-diem-lai-2024-08__C__p61__c001",
+     "page": 61,
+     "score": 26.842766,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 9,
+     "id": "wb-diem-lai-2024-08__C__p28__c004",
+     "page": 28,
+     "score": 26.595345,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 10,
+     "id": "wb-diem-lai-2024-08__C__p34__c003",
+     "page": 34,
+     "score": 26.255556,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    }
+   ]
+  },
+  {
+   "query_id": "q03",
+   "query": "Vì sao lực lượng lao động trong ngành nông nghiệp Việt Nam lại sụt giảm 1,8 triệu người trong giai đoạn 2020-2021?",
+   "filter": null,
+   "results": [
+    {
+     "rank": 1,
+     "id": "wb-diem-lai-2024-08__C__p25__c003",
+     "page": 25,
+     "score": 96.970035,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 2,
+     "id": "wb-diem-lai-2024-08__C__p25__c001",
+     "page": 25,
+     "score": 42.394112,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 3,
+     "id": "wb-diem-lai-2024-08__C__p54__c002",
+     "page": 54,
+     "score": 32.844574,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 4,
+     "id": "wb-diem-lai-2024-08__C__p24__c003",
+     "page": 24,
+     "score": 32.478274,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 5,
+     "id": "wb-diem-lai-2024-08__C__p51__c001",
+     "page": 51,
+     "score": 32.406818,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 6,
+     "id": "wb-diem-lai-2024-08__C__p21__c001",
+     "page": 21,
+     "score": 25.168004,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 7,
+     "id": "wb-diem-lai-2024-08__C__p34__c001",
+     "page": 34,
+     "score": 24.653584,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 8,
+     "id": "wb-diem-lai-2024-08__C__p13__c002",
+     "page": 13,
+     "score": 23.735974,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 9,
+     "id": "wb-diem-lai-2024-08__C__p20__c003",
+     "page": 20,
+     "score": 21.669555,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 10,
+     "id": "wb-diem-lai-2024-08__C__p21__c002",
+     "page": 21,
+     "score": 20.738985,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    }
+   ]
+  },
+  {
+   "query_id": "q04",
+   "query": "Các luật sửa đổi có hiệu lực từ tháng 8/2024 đã thay đổi quy định về mức đặt cọc sớm tối đa đối với dự án nhà ở hình thành trong tương lai như thế nào và nhằm mục đích gì?",
+   "filter": null,
+   "results": [
+    {
+     "rank": 1,
+     "id": "wb-diem-lai-2024-08__C__p26__c004",
+     "page": 26,
+     "score": 128.681841,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 2,
+     "id": "wb-diem-lai-2024-08__C__p54__c003",
+     "page": 54,
+     "score": 50.482483,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 3,
+     "id": "wb-diem-lai-2024-08__C__p26__c005",
+     "page": 26,
+     "score": 46.859505,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 4,
+     "id": "wb-diem-lai-2024-08__C__p33__c003",
+     "page": 33,
+     "score": 44.993326,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 5,
+     "id": "wb-diem-lai-2024-08__C__p16__c002",
+     "page": 16,
+     "score": 43.457386,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 6,
+     "id": "wb-diem-lai-2024-08__C__p58__c002",
+     "page": 58,
+     "score": 38.781761,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 7,
+     "id": "wb-diem-lai-2024-08__C__p32__c004",
+     "page": 32,
+     "score": 35.913544,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 8,
+     "id": "wb-diem-lai-2024-08__C__p46__c005",
+     "page": 46,
+     "score": 34.957575,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 9,
+     "id": "wb-diem-lai-2024-08__C__p25__c001",
+     "page": 25,
+     "score": 31.110131,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 10,
+     "id": "wb-diem-lai-2024-08__C__p36__c003",
+     "page": 36,
+     "score": 29.960304,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    }
+   ]
+  },
+  {
+   "query_id": "q05",
+   "query": "Mặc dù cả tài khoản vãng lai và tài khoản tài chính đều đạt thặng dư trong quý 1/2024, tại sao cán cân thanh toán quốc tế tổng thể của Việt Nam vẫn bị thâm hụt 1,37 tỷ USD?",
+   "filter": null,
+   "results": [
+    {
+     "rank": 1,
+     "id": "wb-diem-lai-2024-08__C__p28__c003",
+     "page": 28,
+     "score": 130.500739,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 2,
+     "id": "wb-diem-lai-2024-08__C__p27__c001",
+     "page": 27,
+     "score": 110.815299,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 3,
+     "id": "wb-diem-lai-2024-08__C__p14__c002",
+     "page": 14,
+     "score": 104.225121,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 4,
+     "id": "wb-diem-lai-2024-08__C__p29__c001",
+     "page": 29,
+     "score": 83.369122,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 5,
+     "id": "wb-diem-lai-2024-08__C__p14__c004",
+     "page": 14,
+     "score": 63.912481,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 6,
+     "id": "wb-diem-lai-2024-08__C__p35__c005",
+     "page": 35,
+     "score": 63.432585,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 7,
+     "id": "wb-diem-lai-2024-08__C__p14__c003",
+     "page": 14,
+     "score": 51.636502,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 8,
+     "id": "wb-diem-lai-2024-08__C__p28__c001",
+     "page": 28,
+     "score": 49.631737,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 9,
+     "id": "wb-diem-lai-2024-08__C__p27__c002",
+     "page": 27,
+     "score": 40.361612,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 10,
+     "id": "wb-diem-lai-2024-08__C__p16__c003",
+     "page": 16,
+     "score": 39.560725,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    }
+   ]
+  },
+  {
+   "query_id": "q06",
+   "query": "Tỷ lệ nợ xấu toàn hệ thống ngân hàng năm 2023 là bao nhiêu phần trăm, và nếu tính thêm các khoản vay được tái cơ cấu cùng nợ tại VAMC thì tổng nợ xấu có thể lên tới mức nào?",
+   "filter": null,
+   "results": [
+    {
+     "rank": 1,
+     "id": "wb-diem-lai-2024-08__C__p15__c002",
+     "page": 15,
+     "score": 122.625505,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 2,
+     "id": "wb-diem-lai-2024-08__C__p31__c001",
+     "page": 31,
+     "score": 121.555073,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 3,
+     "id": "wb-diem-lai-2024-08__C__p32__c004",
+     "page": 32,
+     "score": 42.631412,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 4,
+     "id": "wb-diem-lai-2024-08__C__p46__c005",
+     "page": 46,
+     "score": 36.66548,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 5,
+     "id": "wb-diem-lai-2024-08__C__p32__c001",
+     "page": 32,
+     "score": 35.11701,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 6,
+     "id": "wb-diem-lai-2024-08__C__p25__c001",
+     "page": 25,
+     "score": 33.585572,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 7,
+     "id": "wb-diem-lai-2024-08__C__p60__c003",
+     "page": 60,
+     "score": 32.80512,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 8,
+     "id": "wb-diem-lai-2024-08__C__p37__c002",
+     "page": 37,
+     "score": 28.926506,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 9,
+     "id": "wb-diem-lai-2024-08__C__p15__c003",
+     "page": 15,
+     "score": 28.723249,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 10,
+     "id": "wb-diem-lai-2024-08__C__p23__c001",
+     "page": 23,
+     "score": 26.436377,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    }
+   ]
+  },
+  {
+   "query_id": "q07",
+   "query": "Tại sao đợt tăng lương cơ bản và lương hưu từ tháng 7/2024 được dự báo chỉ gây tác động nhỏ đến lạm phát của Việt Nam?",
+   "filter": null,
+   "results": [
+    {
+     "rank": 1,
+     "id": "wb-diem-lai-2024-08__C__p35__c004",
+     "page": 35,
+     "score": 104.40318,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 2,
+     "id": "wb-diem-lai-2024-08__C__p32__c003",
+     "page": 32,
+     "score": 43.972312,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 3,
+     "id": "wb-diem-lai-2024-08__C__p30__c002",
+     "page": 30,
+     "score": 37.31354,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 4,
+     "id": "wb-diem-lai-2024-08__C__p16__c002",
+     "page": 16,
+     "score": 34.459144,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 5,
+     "id": "wb-diem-lai-2024-08__C__p15__c004",
+     "page": 15,
+     "score": 31.26619,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 6,
+     "id": "wb-diem-lai-2024-08__C__p35__c001",
+     "page": 35,
+     "score": 27.364621,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 7,
+     "id": "wb-diem-lai-2024-08__C__p16__c003",
+     "page": 16,
+     "score": 26.840395,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 8,
+     "id": "wb-diem-lai-2024-08__C__p34__c004",
+     "page": 34,
+     "score": 26.394608,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 9,
+     "id": "wb-diem-lai-2024-08__C__p33__c002",
+     "page": 33,
+     "score": 24.690004,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 10,
+     "id": "wb-diem-lai-2024-08__C__p30__c003",
+     "page": 30,
+     "score": 24.200421,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    }
+   ]
+  },
+  {
+   "query_id": "q08",
+   "query": "Để đạt mục tiêu trở thành quốc gia thu nhập cao vào năm 2045, Việt Nam cần duy trì tốc độ tăng trưởng GDP thực tế hàng năm ở mức bao nhiêu và cần bổ sung bao nhiêu phần trăm GDP mỗi năm cho các dự án cơ sở hạ tầng?",
+   "filter": null,
+   "results": [
+    {
+     "rank": 1,
+     "id": "wb-diem-lai-2024-08__C__p39__c001",
+     "page": 39,
+     "score": 114.020239,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 2,
+     "id": "wb-diem-lai-2024-08__C__p39__c002",
+     "page": 39,
+     "score": 110.071836,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 3,
+     "id": "wb-diem-lai-2024-08__C__p39__c005",
+     "page": 39,
+     "score": 67.100772,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 4,
+     "id": "wb-diem-lai-2024-08__C__p50__c001",
+     "page": 50,
+     "score": 61.984329,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 5,
+     "id": "wb-diem-lai-2024-08__C__p25__c002",
+     "page": 25,
+     "score": 57.327082,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 6,
+     "id": "wb-diem-lai-2024-08__C__p61__c002",
+     "page": 61,
+     "score": 56.249838,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 7,
+     "id": "wb-diem-lai-2024-08__C__p18__c005",
+     "page": 18,
+     "score": 55.987021,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 8,
+     "id": "wb-diem-lai-2024-08__C__p13__c003",
+     "page": 13,
+     "score": 51.45994,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 9,
+     "id": "wb-diem-lai-2024-08__C__p55__c002",
+     "page": 55,
+     "score": 47.198635,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 10,
+     "id": "wb-diem-lai-2024-08__C__p39__c003",
+     "page": 39,
+     "score": 44.41422,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    }
+   ]
+  },
+  {
+   "query_id": "q09",
+   "query": "Sáu yếu tố nền tảng 'I' (I#1 đến I#6) cấu thành khung căn bản của thị trường vốn Việt Nam bao gồm những yếu tố nào?",
+   "filter": null,
+   "results": [
+    {
+     "rank": 1,
+     "id": "wb-diem-lai-2024-08__C__p41__c002",
+     "page": 41,
+     "score": 62.658313,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 2,
+     "id": "wb-diem-lai-2024-08__C__p42__c002",
+     "page": 42,
+     "score": 47.353473,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 3,
+     "id": "wb-diem-lai-2024-08__C__p18__c001",
+     "page": 18,
+     "score": 33.82093,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 4,
+     "id": "wb-diem-lai-2024-08__C__p58__c003",
+     "page": 58,
+     "score": 32.025852,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 5,
+     "id": "wb-diem-lai-2024-08__C__p43__c001",
+     "page": 43,
+     "score": 29.503803,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 6,
+     "id": "wb-diem-lai-2024-08__C__p44__c001",
+     "page": 44,
+     "score": 27.241492,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 7,
+     "id": "wb-diem-lai-2024-08__C__p43__c002",
+     "page": 43,
+     "score": 25.133301,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 8,
+     "id": "wb-diem-lai-2024-08__C__p17__c004",
+     "page": 17,
+     "score": 24.646975,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 9,
+     "id": "wb-diem-lai-2024-08__C__p40__c002",
+     "page": 40,
+     "score": 24.335624,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 10,
+     "id": "wb-diem-lai-2024-08__C__p39__c003",
+     "page": 39,
+     "score": 23.283732,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    }
+   ]
+  },
+  {
+   "query_id": "q10",
+   "query": "Vì sao lãi suất chiết khấu và lãi suất tái cấp vốn do Ngân hàng Nhà nước công bố không thể dùng làm mốc định giá tham chiếu cho các công cụ tài chính dài hạn?",
+   "filter": null,
+   "results": [
+    {
+     "rank": 1,
+     "id": "wb-diem-lai-2024-08__C__p44__c003",
+     "page": 44,
+     "score": 123.323436,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 2,
+     "id": "wb-diem-lai-2024-08__C__p41__c001",
+     "page": 41,
+     "score": 60.863303,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 3,
+     "id": "wb-diem-lai-2024-08__C__p44__c005",
+     "page": 44,
+     "score": 52.449169,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 4,
+     "id": "wb-diem-lai-2024-08__C__p60__c002",
+     "page": 60,
+     "score": 49.768311,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 5,
+     "id": "wb-diem-lai-2024-08__C__p44__c001",
+     "page": 44,
+     "score": 49.663164,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 6,
+     "id": "wb-diem-lai-2024-08__C__p60__c001",
+     "page": 60,
+     "score": 44.692167,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 7,
+     "id": "wb-diem-lai-2024-08__C__p45__c001",
+     "page": 45,
+     "score": 41.072347,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 8,
+     "id": "wb-diem-lai-2024-08__C__p43__c002",
+     "page": 43,
+     "score": 40.172342,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 9,
+     "id": "wb-diem-lai-2024-08__C__p29__c004",
+     "page": 29,
+     "score": 39.194354,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 10,
+     "id": "wb-diem-lai-2024-08__C__p59__c001",
+     "page": 59,
+     "score": 38.794723,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    }
+   ]
+  },
+  {
+   "query_id": "q11",
+   "query": "Để thị trường chứng khoán Việt Nam được MSCI và FTSE Russell nâng hạng từ Thị trường Cận biên lên Thị trường Mới nổi, ba rào cản chính nào cần được giải quyết?",
+   "filter": null,
+   "results": [
+    {
+     "rank": 1,
+     "id": "wb-diem-lai-2024-08__C__p50__c001",
+     "page": 50,
+     "score": 96.695734,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 2,
+     "id": "wb-diem-lai-2024-08__C__p60__c003",
+     "page": 60,
+     "score": 65.757042,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 3,
+     "id": "wb-diem-lai-2024-08__C__p55__c002",
+     "page": 55,
+     "score": 58.993349,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 4,
+     "id": "wb-diem-lai-2024-08__C__p48__c005",
+     "page": 48,
+     "score": 43.033925,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 5,
+     "id": "wb-diem-lai-2024-08__C__p57__c002",
+     "page": 57,
+     "score": 40.037676,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 6,
+     "id": "wb-diem-lai-2024-08__C__p57__c001",
+     "page": 57,
+     "score": 32.731434,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 7,
+     "id": "wb-diem-lai-2024-08__C__p61__c001",
+     "page": 61,
+     "score": 32.570797,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 8,
+     "id": "wb-diem-lai-2024-08__C__p58__c002",
+     "page": 58,
+     "score": 28.363909,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 9,
+     "id": "wb-diem-lai-2024-08__C__p18__c001",
+     "page": 18,
+     "score": 27.596085,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 10,
+     "id": "wb-diem-lai-2024-08__C__p16__c002",
+     "page": 16,
+     "score": 25.770546,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    }
+   ]
+  },
+  {
+   "query_id": "q12",
+   "query": "Trong phân tích chi tiết của Chương 1 về khu vực tài chính, hai ngành nào phát hành trái phiếu doanh nghiệp tích cực nhất trong nửa đầu năm 2024 và chiếm tỷ trọng bao nhiêu phần trăm tổng lượng phát hành?",
+   "filter": {
+    "section": "chuong_1_kinh_te_vi_mo"
+   },
+   "results": [
+    {
+     "rank": 1,
+     "id": "wb-diem-lai-2024-08__C__p31__c002",
+     "page": 31,
+     "score": 76.273353,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 2,
+     "id": "wb-diem-lai-2024-08__C__p32__c002",
+     "page": 32,
+     "score": 48.177327,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 3,
+     "id": "wb-diem-lai-2024-08__C__p21__c002",
+     "page": 21,
+     "score": 41.607646,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 4,
+     "id": "wb-diem-lai-2024-08__C__p32__c004",
+     "page": 32,
+     "score": 38.339406,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 5,
+     "id": "wb-diem-lai-2024-08__C__p34__c002",
+     "page": 34,
+     "score": 36.191067,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 6,
+     "id": "wb-diem-lai-2024-08__C__p23__c001",
+     "page": 23,
+     "score": 35.828001,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 7,
+     "id": "wb-diem-lai-2024-08__C__p33__c002",
+     "page": 33,
+     "score": 35.165384,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 8,
+     "id": "wb-diem-lai-2024-08__C__p25__c003",
+     "page": 25,
+     "score": 34.262659,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 9,
+     "id": "wb-diem-lai-2024-08__C__p32__c003",
+     "page": 32,
+     "score": 33.039228,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 10,
+     "id": "wb-diem-lai-2024-08__C__p37__c001",
+     "page": 37,
+     "score": 31.425646,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    }
+   ]
+  },
+  {
+   "query_id": "q13",
+   "query": "Theo nội dung Chương 1 về thu chi ngân sách nhà nước, nguồn tiết kiệm chi thường xuyên hàng năm được dành riêng cho mục tiêu cải cách tiền lương từ ngày 01/07/2024 với mức tăng lương cơ bản và lương hưu bình quân là bao nhiêu?",
+   "filter": {
+    "section": "chuong_1_kinh_te_vi_mo"
+   },
+   "results": [
+    {
+     "rank": 1,
+     "id": "wb-diem-lai-2024-08__C__p32__c003",
+     "page": 32,
+     "score": 152.920096,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 2,
+     "id": "wb-diem-lai-2024-08__C__p36__c003",
+     "page": 36,
+     "score": 44.883778,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 3,
+     "id": "wb-diem-lai-2024-08__C__p37__c004",
+     "page": 37,
+     "score": 41.177331,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 4,
+     "id": "wb-diem-lai-2024-08__C__p32__c002",
+     "page": 32,
+     "score": 40.257592,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 5,
+     "id": "wb-diem-lai-2024-08__C__p35__c004",
+     "page": 35,
+     "score": 38.14358,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 6,
+     "id": "wb-diem-lai-2024-08__C__p30__c003",
+     "page": 30,
+     "score": 33.271797,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 7,
+     "id": "wb-diem-lai-2024-08__C__p37__c003",
+     "page": 37,
+     "score": 32.546766,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 8,
+     "id": "wb-diem-lai-2024-08__C__p21__c002",
+     "page": 21,
+     "score": 31.914087,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 9,
+     "id": "wb-diem-lai-2024-08__C__p25__c002",
+     "page": 25,
+     "score": 31.541396,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 10,
+     "id": "wb-diem-lai-2024-08__C__p27__c001",
+     "page": 27,
+     "score": 28.977044,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    }
+   ]
+  },
+  {
+   "query_id": "q14",
+   "query": "Theo phân tích chuyên sâu tại Chương 2, Quỹ Bảo hiểm Xã hội Việt Nam (BHXH) đang quản lý khối tài sản ước tính bao nhiêu ngàn tỷ đồng, bao phủ bao nhiêu phần trăm lực lượng lao động và tỷ trọng trái phiếu chính phủ chiếm bao nhiêu phần trăm tài sản của quỹ?",
+   "filter": {
+    "section": "chuong_2_thi_truong_von"
+   },
+   "results": [
+    {
+     "rank": 1,
+     "id": "wb-diem-lai-2024-08__C__p51__c001",
+     "page": 51,
+     "score": 94.814703,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 2,
+     "id": "wb-diem-lai-2024-08__C__p45__c002",
+     "page": 45,
+     "score": 77.247407,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 3,
+     "id": "wb-diem-lai-2024-08__C__p51__c002",
+     "page": 51,
+     "score": 64.903924,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 4,
+     "id": "wb-diem-lai-2024-08__C__p45__c003",
+     "page": 45,
+     "score": 48.306877,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 5,
+     "id": "wb-diem-lai-2024-08__C__p46__c005",
+     "page": 46,
+     "score": 47.608257,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 6,
+     "id": "wb-diem-lai-2024-08__C__p52__c003",
+     "page": 52,
+     "score": 42.366318,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 7,
+     "id": "wb-diem-lai-2024-08__C__p52__c002",
+     "page": 52,
+     "score": 41.462456,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 8,
+     "id": "wb-diem-lai-2024-08__C__p60__c005",
+     "page": 60,
+     "score": 40.741219,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 9,
+     "id": "wb-diem-lai-2024-08__C__p40__c001",
+     "page": 40,
+     "score": 40.024961,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 10,
+     "id": "wb-diem-lai-2024-08__C__p59__c003",
+     "page": 59,
+     "score": 39.941452,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    }
+   ]
+  },
+  {
+   "query_id": "q15",
+   "query": "Trong phần Tổng quan của báo cáo, tỷ giá VND/US$ trên thị trường đã tăng từ mức 24.258 VND vào tháng 12/2023 lên mức bao nhiêu vào cuối tháng 6/2024 và nhu cầu mua vàng trong nước tăng bao nhiêu phần trăm?",
+   "filter": {
+    "section": "tong_quan"
+   },
+   "results": [
+    {
+     "rank": 1,
+     "id": "wb-diem-lai-2024-08__C__p14__c003",
+     "page": 14,
+     "score": 119.141863,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 2,
+     "id": "wb-diem-lai-2024-08__C__p14__c005",
+     "page": 14,
+     "score": 67.160742,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 3,
+     "id": "wb-diem-lai-2024-08__C__p16__c002",
+     "page": 16,
+     "score": 40.537851,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 4,
+     "id": "wb-diem-lai-2024-08__C__p15__c004",
+     "page": 15,
+     "score": 38.466108,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 5,
+     "id": "wb-diem-lai-2024-08__C__p15__c003",
+     "page": 15,
+     "score": 35.90771,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 6,
+     "id": "wb-diem-lai-2024-08__C__p16__c001",
+     "page": 16,
+     "score": 35.086445,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 7,
+     "id": "wb-diem-lai-2024-08__C__p15__c002",
+     "page": 15,
+     "score": 30.388786,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 8,
+     "id": "wb-diem-lai-2024-08__C__p17__c003",
+     "page": 17,
+     "score": 25.252049,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 9,
+     "id": "wb-diem-lai-2024-08__C__p14__c004",
+     "page": 14,
+     "score": 25.084152,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 10,
+     "id": "wb-diem-lai-2024-08__C__p13__c003",
+     "page": 13,
+     "score": 24.45595,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    }
+   ]
+  },
+  {
+   "query_id": "u01",
+   "query": "Ngân hàng Thế giới dự báo tốc độ tăng trưởng GDP thực của Việt Nam năm 2027 là bao nhiêu phần trăm?",
+   "filter": null,
+   "results": [
+    {
+     "rank": 1,
+     "id": "wb-diem-lai-2024-08__C__p34__c004",
+     "page": 34,
+     "score": 35.778277,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 2,
+     "id": "wb-diem-lai-2024-08__C__p35__c001",
+     "page": 35,
+     "score": 30.18404,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 3,
+     "id": "wb-diem-lai-2024-08__C__p39__c005",
+     "page": 39,
+     "score": 28.517013,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 4,
+     "id": "wb-diem-lai-2024-08__C__p33__c002",
+     "page": 33,
+     "score": 27.250683,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 5,
+     "id": "wb-diem-lai-2024-08__C__p24__c002",
+     "page": 24,
+     "score": 26.111675,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 6,
+     "id": "wb-diem-lai-2024-08__C__p30__c003",
+     "page": 30,
+     "score": 25.243205,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 7,
+     "id": "wb-diem-lai-2024-08__C__p16__c003",
+     "page": 16,
+     "score": 25.117231,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 8,
+     "id": "wb-diem-lai-2024-08__C__p22__c002",
+     "page": 22,
+     "score": 24.1736,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 9,
+     "id": "wb-diem-lai-2024-08__C__p16__c002",
+     "page": 16,
+     "score": 23.751927,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 10,
+     "id": "wb-diem-lai-2024-08__C__p20__c003",
+     "page": 20,
+     "score": 23.16753,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    }
+   ]
+  },
+  {
+   "query_id": "u02",
+   "query": "Trong năm 2023, các doanh nghiệp Việt Nam đã phát hành bao nhiêu tỷ đồng trái phiếu xanh?",
+   "filter": null,
+   "results": [
+    {
+     "rank": 1,
+     "id": "wb-diem-lai-2024-08__C__p40__c001",
+     "page": 40,
+     "score": 31.091063,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 2,
+     "id": "wb-diem-lai-2024-08__C__p45__c002",
+     "page": 45,
+     "score": 28.870378,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 3,
+     "id": "wb-diem-lai-2024-08__C__p47__c001",
+     "page": 47,
+     "score": 27.666483,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 4,
+     "id": "wb-diem-lai-2024-08__C__p40__c002",
+     "page": 40,
+     "score": 26.985653,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 5,
+     "id": "wb-diem-lai-2024-08__C__p47__c002",
+     "page": 47,
+     "score": 26.161957,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 6,
+     "id": "wb-diem-lai-2024-08__C__p35__c003",
+     "page": 35,
+     "score": 23.465707,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 7,
+     "id": "wb-diem-lai-2024-08__C__p48__c002",
+     "page": 48,
+     "score": 23.199116,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 8,
+     "id": "wb-diem-lai-2024-08__C__p31__c002",
+     "page": 31,
+     "score": 23.176297,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 9,
+     "id": "wb-diem-lai-2024-08__C__p41__c001",
+     "page": 41,
+     "score": 23.000566,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    },
+    {
+     "rank": 10,
+     "id": "wb-diem-lai-2024-08__C__p15__c003",
+     "page": 15,
+     "score": 22.50636,
+     "method": "bm25",
+     "base_rank": null,
+     "component_ranks": null,
+     "rerank_error": null
+    }
+   ]
+  }
+ ]
+}

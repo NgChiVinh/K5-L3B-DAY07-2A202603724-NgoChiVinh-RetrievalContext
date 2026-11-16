@@ -1,0 +1,61 @@
+{
+ "config_name": "improve_rerank",
+ "config": {
+  "tools": [
+   "search_hybrid_rerank"
+  ],
+  "top_k": 5,
+  "budget_chars": 5000,
+  "max_searches": 3,
+  "neighbors": false
+ },
+ "split": "dev",
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "errors": 0,
+ "tool_use": {
+  "n": 17,
+  "N": 17,
+  "rate": 1.0
+ },
+ "searches_distribution": {
+  "1": 16,
+  "2": 1
+ },
+ "tool_calls_by_tool": {
+  "search_hybrid_rerank": 17
+ },
+ "context_evidence_rate": {
+  "n": 14,
+  "N": 15,
+  "rate": 0.9333
+ },
+ "status_answerable": {
+  "answered": 15
+ },
+ "status_unanswerable": {
+  "abstain": 2
+ },
+ "abstained_unanswerable": {
+  "n": 2,
+  "N": 2,
+  "rate": 1.0
+ },
+ "refused_answerable": {
+  "n": 0,
+  "N": 15,
+  "rate": 0.0
+ },
+ "mean_context_chars": 3807.9,
+ "latency_s_mean": 11.89,
+ "latency_s_total": 202.1,
+ "usage_total": {
+  "llm_calls": 35,
+  "cached_calls": 0,
+  "input_tokens": 42906,
+  "output_tokens": 4097,
+  "thinking_tokens": 5018
+ },
+ "cost_usd": 0.0,
+ "cost_note": "Gemini API free tier (không trả phí); token ghi ở usage_total"
+}

@@ -134,6 +134,18 @@
      "page": 28,
      "evidence": "Kết quả là khoản mục “Lỗi và sai sót” - bao gồm dòng vốn ra nước ngoài phi chính thức, tăng gấp bốn lần, từ 1,9% GDP trong Q4-2023 lên 7,9% (8 tỷ US$) trong Q1-2024, cao hơn nhiều so với mức bình quân 2,5% trong các năm 2017-2019, dẫn tới cán cân thanh toán bị thâm hụt ở mức thấp (-1,37 tỷ US$), mặc dù tài khoản vãng lai và tài khoản tài chính đều thặng dư"
     }
+   ],
+   [
+    {
+     "source_id": "wb-diem-lai-2024-08",
+     "page": 14,
+     "evidence": "đồng đô-la Mỹ vẫn ở mức cao (166 điểm cơ bản)"
+    },
+    {
+     "source_id": "wb-diem-lai-2024-08",
+     "page": 28,
+     "evidence": "(166 điểm cơ bản)"
+    }
    ]
   ],
   "gold": [
@@ -146,6 +158,16 @@
     "source_id": "wb-diem-lai-2024-08",
     "page": 28,
     "evidence": "Kết quả là khoản mục “Lỗi và sai sót” - bao gồm dòng vốn ra nước ngoài phi chính thức, tăng gấp bốn lần, từ 1,9% GDP trong Q4-2023 lên 7,9% (8 tỷ US$) trong Q1-2024, cao hơn nhiều so với mức bình quân 2,5% trong các năm 2017-2019, dẫn tới cán cân thanh toán bị thâm hụt ở mức thấp (-1,37 tỷ US$), mặc dù tài khoản vãng lai và tài khoản tài chính đều thặng dư"
+   },
+   {
+    "source_id": "wb-diem-lai-2024-08",
+    "page": 14,
+    "evidence": "đồng đô-la Mỹ vẫn ở mức cao (166 điểm cơ bản)"
+   },
+   {
+    "source_id": "wb-diem-lai-2024-08",
+    "page": 28,
+    "evidence": "(166 điểm cơ bản)"
    }
   ]
  },
@@ -227,6 +249,13 @@
      "page": 39,
      "evidence": "Để đạt được mục tiêu này, Việt Nam cần đạt tăng trưởng GDP theo giá so sánh ở mức khoảng 6,5% mỗi năm trong 20 năm tới, đồng thời phải nâng cao tổng đầu tư hiện đang ở mức 32% GDP (khoảng 131 tỷ đô la Mỹ)."
     }
+   ],
+   [
+    {
+     "source_id": "wb-diem-lai-2024-08",
+     "page": 39,
+     "evidence": "nguồn lực bổ sung ước tính chiếm 7% GDP chỉ riêng cho các dự án cơ sở hạ tầng"
+    }
    ]
   ],
   "gold": [
@@ -234,6 +263,11 @@
     "source_id": "wb-diem-lai-2024-08",
     "page": 39,
     "evidence": "Để đạt được mục tiêu này, Việt Nam cần đạt tăng trưởng GDP theo giá so sánh ở mức khoảng 6,5% mỗi năm trong 20 năm tới, đồng thời phải nâng cao tổng đầu tư hiện đang ở mức 32% GDP (khoảng 131 tỷ đô la Mỹ)."
+   },
+   {
+    "source_id": "wb-diem-lai-2024-08",
+    "page": 39,
+    "evidence": "nguồn lực bổ sung ước tính chiếm 7% GDP chỉ riêng cho các dự án cơ sở hạ tầng"
    }
   ]
  },
@@ -250,16 +284,40 @@
    [
     {
      "source_id": "wb-diem-lai-2024-08",
+     "page": 41,
+     "evidence": "I#1: Công cụ (Instrument)"
+    }
+   ],
+   [
+    {
+     "source_id": "wb-diem-lai-2024-08",
      "page": 42,
-     "evidence": "I#2: Nhà đầu tư (Investor) cấp “máu” nuôi sống thị trường vốn vì họ có tiền để đầu tư."
+     "evidence": "I#2: Nhà đầu tư (Investor)"
+    }
+   ],
+   [
+    {
+     "source_id": "wb-diem-lai-2024-08",
+     "page": 42,
+     "evidence": "I#5: Hạ tầng (Infrastructure)"
     }
    ]
   ],
   "gold": [
    {
     "source_id": "wb-diem-lai-2024-08",
+    "page": 41,
+    "evidence": "I#1: Công cụ (Instrument)"
+   },
+   {
+    "source_id": "wb-diem-lai-2024-08",
     "page": 42,
-    "evidence": "I#2: Nhà đầu tư (Investor) cấp “máu” nuôi sống thị trường vốn vì họ có tiền để đầu tư."
+    "evidence": "I#2: Nhà đầu tư (Investor)"
+   },
+   {
+    "source_id": "wb-diem-lai-2024-08",
+    "page": 42,
+    "evidence": "I#5: Hạ tầng (Infrastructure)"
    }
   ]
  },
@@ -443,6 +501,13 @@
      "page": 51,
      "evidence": "Các quỹ thuộc quản lý của BHXH ước lên đến 1.130 ngàn tỷ đồng (44 tỷ đô la Mỹ) và dự kiến sẽ tăng trưởng tới 15% trong vài thập kỷ tới. BHXH hiện bao phủ 32% lực lượng lao động của Việt Nam (17,5 triệu lao động), với mục tiêu bao phủ tới 60% vào năm 2030."
     }
+   ],
+   [
+    {
+     "source_id": "wb-diem-lai-2024-08",
+     "page": 51,
+     "evidence": "trái phiếu chính phủ chiếm đến 86% tài sản thuộc quản lý của BHXH"
+    }
    ]
   ],
   "gold": [
@@ -450,6 +515,11 @@
     "source_id": "wb-diem-lai-2024-08",
     "page": 51,
     "evidence": "Các quỹ thuộc quản lý của BHXH ước lên đến 1.130 ngàn tỷ đồng (44 tỷ đô la Mỹ) và dự kiến sẽ tăng trưởng tới 15% trong vài thập kỷ tới. BHXH hiện bao phủ 32% lực lượng lao động của Việt Nam (17,5 triệu lao động), với mục tiêu bao phủ tới 60% vào năm 2030."
+   },
+   {
+    "source_id": "wb-diem-lai-2024-08",
+    "page": 51,
+    "evidence": "trái phiếu chính phủ chiếm đến 86% tài sản thuộc quản lý của BHXH"
    }
   ]
  },
@@ -624,26 +694,16 @@
    [
     {
      "source_id": "wb-diem-lai-2024-08",
-     "page": 60,
-     "evidence": "Chỉ cần BHXH phân bổ đầu tư ở mức khiêm tốn vào chứng khoán doanh nghiệp, điều đó đồng nghĩa với việc bổ sung thêm 20 tỷ đô la Mỹ dành cho khu vực doanh nghiệp vào năm 2030. 34 Lợi nhuận tăng thêm cộng dồn có thể lên đến 4 tỷ đô la Mỹ vào năm 2030. Tương tự, chỉ cần tái phân bổ một phần khiêm tốn vốn đầu tư của các công ty bảo hiểm nhân thọ sang chứng khoán doanh nghiệp, là có thể huy động được thêm 15 tỷ đô la Mỹ trong cùng thời gian đó.35 Các quỹ đầu tư và quỹ hưu trí tư nhân tăng trưởng lành mạnh có thể đem lại khoảng 14 tỷ đô la Mỹ.36"
-    },
-    {
-     "source_id": "wb-diem-lai-2024-08",
      "page": 61,
-     "evidence": "Về tổng thể, điều đó có nghĩa là riêng các thị trường vốn sẽ dành được khoảng 87 tỷ đô la Mỹ cho khu vực doanh nghiệp vào cuối thập kỷ."
+     "evidence": "riêng các thị trường vốn sẽ dành được khoảng 87 tỷ đô la Mỹ cho khu vực doanh nghiệp"
     }
    ]
   ],
   "gold": [
    {
     "source_id": "wb-diem-lai-2024-08",
-    "page": 60,
-    "evidence": "Chỉ cần BHXH phân bổ đầu tư ở mức khiêm tốn vào chứng khoán doanh nghiệp, điều đó đồng nghĩa với việc bổ sung thêm 20 tỷ đô la Mỹ dành cho khu vực doanh nghiệp vào năm 2030. 34 Lợi nhuận tăng thêm cộng dồn có thể lên đến 4 tỷ đô la Mỹ vào năm 2030. Tương tự, chỉ cần tái phân bổ một phần khiêm tốn vốn đầu tư của các công ty bảo hiểm nhân thọ sang chứng khoán doanh nghiệp, là có thể huy động được thêm 15 tỷ đô la Mỹ trong cùng thời gian đó.35 Các quỹ đầu tư và quỹ hưu trí tư nhân tăng trưởng lành mạnh có thể đem lại khoảng 14 tỷ đô la Mỹ.36"
-   },
-   {
-    "source_id": "wb-diem-lai-2024-08",
     "page": 61,
-    "evidence": "Về tổng thể, điều đó có nghĩa là riêng các thị trường vốn sẽ dành được khoảng 87 tỷ đô la Mỹ cho khu vực doanh nghiệp vào cuối thập kỷ."
+    "evidence": "riêng các thị trường vốn sẽ dành được khoảng 87 tỷ đô la Mỹ cho khu vực doanh nghiệp"
    }
   ]
  },

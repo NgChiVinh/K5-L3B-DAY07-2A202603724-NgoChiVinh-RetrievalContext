@@ -1,0 +1,2445 @@
+[
+ {
+  "query_id": "q01",
+  "split": "dev",
+  "config": "improve_multitool",
+  "provider": "gemini",
+  "model": "gemini-3.1-flash-lite",
+  "question": "Trong nửa đầu năm 2024, sản lượng công nghiệp chế tạo chế biến và ngành dịch vụ của Việt Nam tăng trưởng lần lượt bao nhiêu phần trăm so với cùng kỳ năm trước?",
+  "filter": null,
+  "status": "answered",
+  "answer": "Trong nửa đầu năm 2024, so với cùng kỳ năm trước:\n\n*   Sản lượng công nghiệp chế tạo chế biến tăng trưởng 7% [wb-diem-lai-2024-08__C__p13__c002].\n*   Ngành dịch vụ tăng trưởng 7,4% [wb-diem-lai-2024-08__C__p13__c002].",
+  "citations": [
+   "wb-diem-lai-2024-08__C__p13__c002"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_dense",
+    "query": "tăng trưởng sản lượng công nghiệp chế tạo chế biến và ngành dịch vụ Việt Nam nửa đầu năm 2024",
+    "filter": null,
+    "top_k": 5,
+    "results": [
+     {
+      "id": "wb-diem-lai-2024-08__C__p13__c002",
+      "rank": 1,
+      "score": 0.820406,
+      "page": 13,
+      "method": "dense",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p23__c001",
+      "rank": 2,
+      "score": 0.804945,
+      "page": 23,
+      "method": "dense",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p20__c002",
+      "rank": 3,
+      "score": 0.800247,
+      "page": 20,
+      "method": "dense",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p24__c003",
+      "rank": 4,
+      "score": 0.795775,
+      "page": 24,
+      "method": "dense",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p13__c001",
+      "rank": 5,
+      "score": 0.784562,
+      "page": 13,
+      "method": "dense",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     }
+    ],
+    "added_ids": [
+     "wb-diem-lai-2024-08__C__p13__c002",
+     "wb-diem-lai-2024-08__C__p13__c001",
+     "wb-diem-lai-2024-08__C__p13__c003",
+     "wb-diem-lai-2024-08__C__p23__c001",
+     "wb-diem-lai-2024-08__C__p23__c002",
+     "wb-diem-lai-2024-08__C__p20__c002",
+     "wb-diem-lai-2024-08__C__p20__c001"
+    ],
+    "skipped_over_budget": [
+     "wb-diem-lai-2024-08__C__p20__c003",
+     "wb-diem-lai-2024-08__C__p24__c003",
+     "wb-diem-lai-2024-08__C__p24__c002",
+     "wb-diem-lai-2024-08__C__p24__c004"
+    ],
+    "context_chars": 5851
+   },
+   {
+    "event": "answer",
+    "citations": [
+     "wb-diem-lai-2024-08__C__p13__c002"
+    ]
+   }
+  ],
+  "context_ids": [
+   "wb-diem-lai-2024-08__C__p13__c002",
+   "wb-diem-lai-2024-08__C__p13__c001",
+   "wb-diem-lai-2024-08__C__p13__c003",
+   "wb-diem-lai-2024-08__C__p23__c001",
+   "wb-diem-lai-2024-08__C__p23__c002",
+   "wb-diem-lai-2024-08__C__p20__c002",
+   "wb-diem-lai-2024-08__C__p20__c001"
+  ],
+  "context": [
+   "[wb-diem-lai-2024-08__C__p13__c002] (trang 13, tong_quan)\nTrên phương diện sản xuất, các lĩnh vực chế tạo chế biến, các ngành dịch vụ liên quan đến xuất khẩu và du lịch đạt mức tăng trưởng cao. Sản lượng công nghiệp chế tạo chế biến tăng trưởng 7% (so cùng kỳ năm trước) trong nửa đầu năm 2024 trên nền xuất phát điểm thấp, là động lực tăng trưởng cho năm 2024, đóng góp đến một phần tư tăng trưởng GDP. Dịch vụ tiếp tục đóng góp trên một nửa cho tăng trưởng GDP, tăng đến 7,4% (so cùng kỳ năm trước) trong nửa đầu năm 2024. Các dịch vụ liên quan đến xuất khẩu (vận tải và kho bãi) được hưởng lợi do xuất khẩu hàng hóa phục hồi, đồng thời lĩnh vực nhà hàng khách sạn cũng tăng trở lại, khi số lượt du khách quốc tế đạt 8,8 triệu lượt trong tháng 6/2024, cao hơn lượng du khách ghi nhận trước đại dịch COVID.1 Đóng góp của nông nghiệp vẫn được duy trì ổn định ở mức 0,4 điểm phần trăm.",
+   "[wb-diem-lai-2024-08__C__p13__c001] (trang 13, tong_quan)\nKinh tế tăng tốc trong nửa đầu năm 2024 GDP của Việt Nam tăng trưởng 6.4% trong nửa đầu năm 2024 (so cùng kỳ năm trước), cao hơn mức tăng trưởng 5% trong nửa đầu năm 2023, nhờ xuất khẩu các mặt hàng chế tạo chế biến được phục hồi, cũng như mức đầu tư và tiêu dùng cao hơn. Xuất nhập khẩu hàng hóa tăng nhanh hơn hơn so với dự báo cho nửa đầu năm 2024, nhờ sức cầu bên ngoài mạnh hơn, trong đó xuất khẩu và nhập khẩu tăng lần lượt 16,9% và 17% (so cùng kỳ năm trước). Mặc dù đóng góp ròng của xuất khẩu (chênh lệch xuất nhập khẩu) cho GDP vẫn ở mức khiêm tốn, nhưng tăng trưởng thương mại đã góp phần giúp cho nhu cầu trong nước từng bước phục hồi, trong đó tăng trưởng đầu tư và tiêu dùng đạt lần lượt 6,7% và 5,8% so cùng kỳ năm trước trong nửa đầu năm 2024.",
+   "[wb-diem-lai-2024-08__C__p13__c003] (trang 13, tong_quan)\nTuy vẫn đang hồi phục, nhưng chi tiêu của người tiêu dùng vẫn dừng ở mức thấp hơn so với trước đại dịch. Doanh số bán lẻ tăng 8,8% (so với cùng kỳ năm trước) trong nửa đầu năm 2024, nhờ doanh số bán hàng hóa tiếp tục duy trì mức tăng trưởng ổn định kể từ cuối năm 2022, nhưng vẫn thấp hơn bình quân ghi nhận trước đại dịch (11,6%). Đặc biệt, nhu cầu đối với các dịch vụ và mặt hàng không thiết yếu, như xe hơi, thiết bị gia dụng, du lịch hay nâng cấp nhà ở vẫn ở mức thấp, cho thấy niềm tin của người tiêu dùng vẫn duy trì ở mức thấp. Tăng trưởng thu nhập thực vẫn yếu ở mức 2,5% so cùng kỳ năm trước vào tháng 6/2024, tương đương với tốc độ tăng bình quân hàng năm ở mức 2,7% kể từ năm 2022 - nhưng thấp hơn xu hướng trước đại dịch (8,4%). Tương tự, việc làm trong khu vực chính thức vẫn tương đối ổn định, tăng 0,4% (so với cùng kỳ năm trước) trong tháng 4/2024.",
+   "[wb-diem-lai-2024-08__C__p23__c001] (trang 23, chuong_1_kinh_te_vi_mo)\nSản lượng công nghiệp chế biến chế tạo tăng trưởng vượt trội so với tăng việc làm, dẫn đến tăng năng suất Sản lượng công nghiệp phục hồi từ xuất phát điểm thấp, nhờ tăng trưởng sản lượng các mặt hàng điện tử, xăng dầu và khoáng sản. Các lĩnh vực chế tạo chế biến ở Việt Nam tăng trưởng mạnh trong nửa đầu năm 2024, cụ thể trong tháng 6, chỉ số sản xuất công nghiệp (IPI) lên đến 166 (+14,3% so với cùng kỳ năm trước). Chỉ số nhà quản trị mua hàng (PMI) cũng tăng mạnh, chạm mức 55, cho thấy tăng trưởng trong các lĩnh vực chế tạo chế biến5 - đạt mức cao nhất kể từ tháng 6/2022 - cao hơn nhiều so với mức bình quân của ASEAN, nhờ đơn hàng của các doanh nghiệp chế tạo chế biến tăng trưởng cao nhất so với khu vực hoặc toàn cầu. Cải thiện trong sản xuất chế tạo chế biến có được là nhờ lĩnh vực hàng điện tử (IPI tăng +39 điểm phần trăm so với cùng kỳ năm trước trong tháng 6/2024), xăng dầu (+34 điểm phần trăm) và sản phẩm kim loại (+45 điểm phần trăm).",
+   "[wb-diem-lai-2024-08__C__p23__c002] (trang 23, chuong_1_kinh_te_vi_mo)\nSản lượng giày da và dệt cũng tăng trên nền xuất phát điểm thấp (các Hình 1.10 và 1.11).\n\n5 PMI là chỉ số đơn hàng của các lĩnh vực chế tạo chế biến, dựa trên khảo sát nhà quản trị mua hàng của các doanh nghiệp chế tạo chế biên, IPI là chỉ số năng lực sản xuất chế tạo chế biến, dựa trên sản lượng công nghiệp. Nguồn: Khảo sát của InFocus Mê-kông và tính toán của cán bộ Ngân hàng Thế giới Chú thích: * biểu thị dự kiến mua sắm, các mục khác thể hiện tỷ lệ người trả lời cho biết có tăng tiêu dùng trong thực tế\n\nHình 1.9. Niềm tin của người tiêu dùng yếu làm giảm nhu cầu về hàng hóa không thiết yếu Các thay đổi ghi nhận trong tiêu dùng và các ý định mua sắm trong tháng 6/2024 Home renovations* Personal electronics Home appliances Entertainment & dining out Used car* Domestic Holiday* Motorcycle* Overseas Education* Transportation Household care Overseas Holiday* Personal care Communication Household utilities Food and beverage Healthcare Education 15% 8%",
+   "[wb-diem-lai-2024-08__C__p20__c002] (trang 20, chuong_1_kinh_te_vi_mo)\nI. Diễn biến kinh tế gần đây Nhờ nhu cầu bên ngoài phục hồi, sản xuất công nghiệp và dịch vụ liên quan tới xuất khẩu đã từng bước phục hồi Về sản xuất, các lĩnh vực chế tạo chế biến, các ngành dịch vụ liên quan đến xuất khẩu và du lịch đạt tăng trưởng cao. Sản lượng chế tạo chế biến tăng trưởng 7% so cùng kỳ năm trước trong nửa đầu năm 2024 trên nền xuất phát điểm thấp, là động lực tăng trưởng cho năm 2024, đóng góp đến một phần tư tăng trưởng GDP. Dịch vụ tiếp tục đóng góp trên một nửa cho tăng trưởng GDP, tăng đến 7,4% so cùng kỳ năm trước trong nửa đầu năm 2024 (Hình 1.2). Các dịch vụ liên quan đến xuất khẩu (vận tải và kho bãi) được hưởng lợi do xuất khẩu hàng hóa phục hồi, đồng thời lĩnh vực nhà hàng khách sạn cũng tăng trở lại, khi số",
+   "[wb-diem-lai-2024-08__C__p20__c001] (trang 20, chuong_1_kinh_te_vi_mo)\nKinh tế tăng tốc trong nửa đầu năm 2024 GDP của Việt Nam tăng trưởng 6.4% (so với cùng kỳ năm trước) trong nửa đầu năm 2024 cao hơn so với mức 5% trong năm 2023, nhờ xuất khẩu các mặt hàng chế tạo chế biến được phục hồi, cũng như mức đầu tư và tiêu dùng cao hơn. Xuất nhập khẩu hàng hóa tăng nhanh hơn hơn so với dự kiến trong nửa đầu năm 2024, nhờ sức cầu bên ngoài mạnh hơn, trong đó xuất khẩu và nhập khẩu tăng lần lượt 16,9% và 17% (so cùng kỳ năm trước). Mặc dù đóng góp ròng của xuất khẩu cho GDP vẫn ở mức khiêm tốn, nhưng tăng trưởng thương mại đã góp phần giúp cho nhu cầu trong nước từng bước phục hồi, trong đó tăng trưởng đầu tư và tiêu dùng đạt lần lượt 6,7% và 5,8% so cùng kỳ năm trước trong nửa đầu năm 2024 (Hình 1.1)."
+  ],
+  "context_chars": 5851,
+  "searches": 1,
+  "usage": {
+   "llm_calls": 2,
+   "cached_calls": 0,
+   "input_tokens": 3137,
+   "output_tokens": 142,
+   "thinking_tokens": 291
+  },
+  "latency_s": 5.583,
+  "auto_eval": {
+   "answerable": true,
+   "context_has_evidence": true
+  }
+ },
+ {
+  "query_id": "q02",
+  "split": "dev",
+  "config": "improve_multitool",
+  "provider": "gemini",
+  "model": "gemini-3.1-flash-lite",
+  "question": "Chỉ số sản xuất công nghiệp (IPI) và Chỉ số nhà quản trị mua hàng (PMI) của Việt Nam trong tháng 6/2024 đạt mức bao nhiêu?",
+  "filter": null,
+  "status": "answered",
+  "answer": "Trong tháng 6/2024, các chỉ số của Việt Nam đạt mức như sau:\n\n*   **Chỉ số sản xuất công nghiệp (IPI):** Đạt 166 (tăng 14,3% so với cùng kỳ năm trước) [wb-diem-lai-2024-08__C__p23__c001].\n*   **Chỉ số nhà quản trị mua hàng (PMI):** Đạt mức 55, đây là mức cao nhất kể từ tháng 6/2022 [wb-diem-lai-2024-08__C__p23__c001].",
+  "citations": [
+   "wb-diem-lai-2024-08__C__p23__c001"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_keyword",
+    "query": "Chỉ số sản xuất công nghiệp IPI tháng 6/2024 Việt Nam",
+    "filter": null,
+    "top_k": 5,
+    "results": [
+     {
+      "id": "wb-diem-lai-2024-08__C__p23__c001",
+      "rank": 1,
+      "score": 49.970946,
+      "page": 23,
+      "method": "bm25",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p23__c002",
+      "rank": 2,
+      "score": 28.208766,
+      "page": 23,
+      "method": "bm25",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p15__c001",
+      "rank": 3,
+      "score": 24.885416,
+      "page": 15,
+      "method": "bm25",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p25__c001",
+      "rank": 4,
+      "score": 24.158169,
+      "page": 25,
+      "method": "bm25",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p24__c004",
+      "rank": 5,
+      "score": 23.872916,
+      "page": 24,
+      "method": "bm25",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     }
+    ],
+    "added_ids": [
+     "wb-diem-lai-2024-08__C__p23__c001",
+     "wb-diem-lai-2024-08__C__p23__c002",
+     "wb-diem-lai-2024-08__C__p23__c003",
+     "wb-diem-lai-2024-08__C__p15__c001",
+     "wb-diem-lai-2024-08__C__p15__c002",
+     "wb-diem-lai-2024-08__C__p25__c001",
+     "wb-diem-lai-2024-08__C__p25__c002"
+    ],
+    "skipped_over_budget": [
+     "wb-diem-lai-2024-08__C__p24__c004",
+     "wb-diem-lai-2024-08__C__p24__c003"
+    ],
+    "context_chars": 5690
+   },
+   {
+    "event": "search",
+    "tool": "search_keyword",
+    "query": "Chỉ số nhà quản trị mua hàng PMI tháng 6/2024 Việt Nam",
+    "filter": null,
+    "top_k": 5,
+    "results": [
+     {
+      "id": "wb-diem-lai-2024-08__C__p23__c001",
+      "rank": 1,
+      "score": 52.24093,
+      "page": 23,
+      "method": "bm25",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p23__c002",
+      "rank": 2,
+      "score": 41.209156,
+      "page": 23,
+      "method": "bm25",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p14__c005",
+      "rank": 3,
+      "score": 20.576565,
+      "page": 14,
+      "method": "bm25",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p34__c003",
+      "rank": 4,
+      "score": 19.517926,
+      "page": 34,
+      "method": "bm25",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p30__c002",
+      "rank": 5,
+      "score": 19.275924,
+      "page": 30,
+      "method": "bm25",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     }
+    ],
+    "added_ids": [
+     "wb-diem-lai-2024-08__C__p14__c004"
+    ],
+    "skipped_over_budget": [
+     "wb-diem-lai-2024-08__C__p14__c005",
+     "wb-diem-lai-2024-08__C__p34__c003",
+     "wb-diem-lai-2024-08__C__p34__c002",
+     "wb-diem-lai-2024-08__C__p34__c004",
+     "wb-diem-lai-2024-08__C__p30__c002",
+     "wb-diem-lai-2024-08__C__p30__c001",
+     "wb-diem-lai-2024-08__C__p30__c003"
+    ],
+    "context_chars": 5967
+   },
+   {
+    "event": "answer",
+    "citations": [
+     "wb-diem-lai-2024-08__C__p23__c001"
+    ]
+   }
+  ],
+  "context_ids": [
+   "wb-diem-lai-2024-08__C__p23__c001",
+   "wb-diem-lai-2024-08__C__p23__c002",
+   "wb-diem-lai-2024-08__C__p23__c003",
+   "wb-diem-lai-2024-08__C__p15__c001",
+   "wb-diem-lai-2024-08__C__p15__c002",
+   "wb-diem-lai-2024-08__C__p25__c001",
+   "wb-diem-lai-2024-08__C__p25__c002",
+   "wb-diem-lai-2024-08__C__p14__c004"
+  ],
+  "context": [
+   "[wb-diem-lai-2024-08__C__p23__c001] (trang 23, chuong_1_kinh_te_vi_mo)\nSản lượng công nghiệp chế biến chế tạo tăng trưởng vượt trội so với tăng việc làm, dẫn đến tăng năng suất Sản lượng công nghiệp phục hồi từ xuất phát điểm thấp, nhờ tăng trưởng sản lượng các mặt hàng điện tử, xăng dầu và khoáng sản. Các lĩnh vực chế tạo chế biến ở Việt Nam tăng trưởng mạnh trong nửa đầu năm 2024, cụ thể trong tháng 6, chỉ số sản xuất công nghiệp (IPI) lên đến 166 (+14,3% so với cùng kỳ năm trước). Chỉ số nhà quản trị mua hàng (PMI) cũng tăng mạnh, chạm mức 55, cho thấy tăng trưởng trong các lĩnh vực chế tạo chế biến5 - đạt mức cao nhất kể từ tháng 6/2022 - cao hơn nhiều so với mức bình quân của ASEAN, nhờ đơn hàng của các doanh nghiệp chế tạo chế biến tăng trưởng cao nhất so với khu vực hoặc toàn cầu. Cải thiện trong sản xuất chế tạo chế biến có được là nhờ lĩnh vực hàng điện tử (IPI tăng +39 điểm phần trăm so với cùng kỳ năm trước trong tháng 6/2024), xăng dầu (+34 điểm phần trăm) và sản phẩm kim loại (+45 điểm phần trăm).",
+   "[wb-diem-lai-2024-08__C__p23__c002] (trang 23, chuong_1_kinh_te_vi_mo)\nSản lượng giày da và dệt cũng tăng trên nền xuất phát điểm thấp (các Hình 1.10 và 1.11).\n\n5 PMI là chỉ số đơn hàng của các lĩnh vực chế tạo chế biến, dựa trên khảo sát nhà quản trị mua hàng của các doanh nghiệp chế tạo chế biên, IPI là chỉ số năng lực sản xuất chế tạo chế biến, dựa trên sản lượng công nghiệp. Nguồn: Khảo sát của InFocus Mê-kông và tính toán của cán bộ Ngân hàng Thế giới Chú thích: * biểu thị dự kiến mua sắm, các mục khác thể hiện tỷ lệ người trả lời cho biết có tăng tiêu dùng trong thực tế\n\nHình 1.9. Niềm tin của người tiêu dùng yếu làm giảm nhu cầu về hàng hóa không thiết yếu Các thay đổi ghi nhận trong tiêu dùng và các ý định mua sắm trong tháng 6/2024 Home renovations* Personal electronics Home appliances Entertainment & dining out Used car* Domestic Holiday* Motorcycle* Overseas Education* Transportation Household care Overseas Holiday* Personal care Communication Household utilities Food and beverage Healthcare Education 15% 8%",
+   "[wb-diem-lai-2024-08__C__p23__c003] (trang 23, chuong_1_kinh_te_vi_mo)\n7.5% 7% 2% 1% 1% 0% 0% 0% -5% -5% -7% -9.2% -9.4% -9.6% -13% Giáo dục Dịch vụ chăm sóc sức khỏe Ăn uống Tiện ích gia đình Truyền thông Chăm sóc bản thân Du lịch ngoài nước Chăm sóc nhà cửa Vận tải Du học nước ngoài Xe máy Du lịch trong nước Xe đã sử dụng Giải trí và ăn uống Đồ gia dụng Đồ dùng điện tử cá nhân Sửa chữa nhà ở",
+   "[wb-diem-lai-2024-08__C__p15__c001] (trang 15, tong_quan)\nKinh tế đang phục hồi, tăng trưởng tín dụng có cải thiện, tuy nhiên chất lượng tài sản ngân hàng vẫn là quan ngại lớn Tăng trưởng tín dụng được cải thiện từ sau giai đoạn tăng rất chậm hồi đầu năm 2024. Tính đến cuối tháng 6/2024, tăng trưởng tín dụng đạt 13,5% so với cùng kỳ năm trước, chủ yếu là nhờ vào các hoạt động xuất khẩu, sản xuất công nghiệp chế tạo chế biến, bất động sản, thương mại, vận tải, và viễn thông được cải thiện. Tuy nhiên, số liệu mới nhất về cho vay tiêu dùng lại cho thấy niềm tin của người tiêu dùng vẫn yếu, khi các khoản vay mua nhà và xe hơi giảm trong Q1-2024 so với cuối năm 2023. Tổng tín dụng cho vay tiêu dùng chỉ tăng 6,8% so với cùng kỳ năm trước trong Q1-2024, so với tăng trưởng nhẹ của năm 2023 và thấp hơn so với tốc độ tăng trưởng bình quân đạt 16,1% trong 5 năm trước đây.",
+   "[wb-diem-lai-2024-08__C__p15__c002] (trang 15, tong_quan)\nChất lượng tài sản ngân hàng vẫn là một mối quan ngại kể từ năm 2023. Nợ xấu toàn hệ thống tăng mạnh, từ 1,9% năm 2022 lên 4,6% tổng dư nợ cho vay năm 2023, theo số liệu mới nhất có được, chủ yếu do ghi nhận nợ xấu của Ngân hàng Thương mại Cổ phần Sài Gòn (SCB). Mặc dù vậy, tổng nợ vay được coi là xấu có thể lên đến 7,9% nếu tính cả các khoản vay được tái cơ cấu và nợ của Công ty Quản lý Tài sản của các Tổ chức Tín dụng Việt Nam (VAMC). Số liệu mới nhất cho Q1-2024 cho thấy tỷ lệ nợ xấu của 27 ngân hàng thương mại niêm yết, chiếm 83% tổng dư nợ tín dụng trong khu vực ngân hàng, tăng từ 1,9% trong Q4- 2023 lên 2,2% trong Q1-2024, trong điều kiện nợ xấu tăng kết hợp với tăng trưởng tín dụng chững lại. Ngoài ra, các biện pháp gia hạn cơ cấu nợ nhằm ứng phó đại dịch, dự kiến sẽ chấm dứt vào tháng 12/2024, có thể khiến cho tỉ lệ nợ xấu còn cao hơn nữa.",
+   "[wb-diem-lai-2024-08__C__p25__c001] (trang 25, chuong_1_kinh_te_vi_mo)\nNguồn: TCTK và tính toán của cán bộ Ngân hàng Thế giới Nguồn: TCTK và tính toán của cán bộ Ngân hàng Thế giới Chú thích: Việc làm là số lượng lao động đang làm việc tại các doanh nghiệp công nghiệp vào ngày đầu tiên của tháng. Sản lượng là IPI Xét tổng thể, việc làm ở khu vực chính thức gần như không tăng, trong khi đó thu nhập thực chỉ tăng trưởng ở mức khiêm tốn Việc làm ở khu vực chính thức gần như không tăng, trong khi lực lượng lao động bị thu hẹp sau đại dịch. Đến tháng 4/2024, có 51,5 triệu người Việt Nam có việc làm (+0,4% so với cùng kỳ năm trước). Tỷ lệ tham gia lực lượng lao động đạt 68,6% trong tháng 6/2024 (Hình 1.14), vẫn tương đối ổn định trong hai năm qua, nhưng thấp hơn so với tỷ lệ 71,1% trong năm 2019, phần nào do cách đo lường và chuyển đổi cơ cấu, ảnh hưởng đến dân số tham gia nông nghiệp.7 Tỷ lệ việc làm thay đổi không đáng kể, với tỷ lệ thất nghiệp và thiếu việc làm ổn định lần lượt ở mức 2,3% và 2,1% so với cùng kỳ năm trước vào tháng 6/2024.",
+   "[wb-diem-lai-2024-08__C__p25__c002] (trang 25, chuong_1_kinh_te_vi_mo)\nTỷ lệ thiếu việc làm vẫn cao hơn so với trước khi diễn ra đại dịch, cho thấy nhiều người có việc làm bán thời gian và tỷ lệ tham gia khu vực phi chính thức tăng lên.\n\nTăng trưởng thu nhập thực còn khiêm tốn, gây ảnh hưởng đến tiêu dùng trong nước. Tiêu dùng trong nước đóng góp khoảng 64% cho tăng trưởng GDP năm 2024. Thu nhập bình quân hàng tháng ở mức 7,45 triệu VND (293 US$) vào tháng 6/2024 tương đương tốc độ tăng trưởng 7% (theo giá hiện hành) so với cùng kỳ năm trước, hoặc 2,5% (theo giá so sánh) so với cùng kỳ năm trước. Thu nhập thực vẫn chưa tăng mạnh kể từ năm 2022, chỉ tăng nhẹ bình quân 2,7% mỗi năm, thấp hơn xu hướng trước đại dịch (tăng trưởng bình quân hàng năm ở mức 11,9% theo giá hiện hành, và 8,4% theo giá so sánh), gây ảnh hưởng đến tiêu dùng trong nước (Hình 1.15).",
+   "[wb-diem-lai-2024-08__C__p14__c004] (trang 14, tong_quan)\nKhoản mục “Lỗi và sai sót”- bao gồm dòng vốn ra nước ngoài phi chính thức, tăng gấp bốn lần, từ 1,9% GDP trong Q4-2023 lên 7,9% trong Q1-2024, cao hơn nhiều so với mức bình quân các năm 2017-2019 (2,5%), khiến cho tổng thâm hụt cán cân thanh toán lên 1,37 tỷ US$ trong Q1-2024."
+  ],
+  "context_chars": 5967,
+  "searches": 2,
+  "usage": {
+   "llm_calls": 2,
+   "cached_calls": 0,
+   "input_tokens": 3389,
+   "output_tokens": 220,
+   "thinking_tokens": 230
+  },
+  "latency_s": 5.252,
+  "auto_eval": {
+   "answerable": true,
+   "context_has_evidence": true
+  }
+ },
+ {
+  "query_id": "q03",
+  "split": "dev",
+  "config": "improve_multitool",
+  "provider": "gemini",
+  "model": "gemini-3.1-flash-lite",
+  "question": "Vì sao lực lượng lao động trong ngành nông nghiệp Việt Nam lại sụt giảm 1,8 triệu người trong giai đoạn 2020-2021?",
+  "filter": null,
+  "status": "answered",
+  "answer": "Lực lượng lao động trong ngành nông nghiệp Việt Nam sụt giảm 1,8 triệu người trong giai đoạn 2020-2021 chủ yếu là do sự thay đổi về các tiêu chí khảo sát vào năm 2021. Theo đó, những người nông dân tự cung tự cấp không còn được phân loại là tham gia vào lực lượng lao động [wb-diem-lai-2024-08__C__p25__c003].",
+  "citations": [
+   "wb-diem-lai-2024-08__C__p25__c003"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_dense",
+    "query": "lực lượng lao động ngành nông nghiệp Việt Nam sụt giảm 1,8 triệu người 2020-2021 nguyên nhân",
+    "filter": null,
+    "top_k": 5,
+    "results": [
+     {
+      "id": "wb-diem-lai-2024-08__C__p25__c003",
+      "rank": 1,
+      "score": 0.78552,
+      "page": 25,
+      "method": "dense",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p25__c001",
+      "rank": 2,
+      "score": 0.680939,
+      "page": 25,
+      "method": "dense",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p26__c001",
+      "rank": 3,
+      "score": 0.657268,
+      "page": 26,
+      "method": "dense",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p35__c004",
+      "rank": 4,
+      "score": 0.649994,
+      "page": 35,
+      "method": "dense",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p25__c004",
+      "rank": 5,
+      "score": 0.639372,
+      "page": 25,
+      "method": "dense",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     }
+    ],
+    "added_ids": [
+     "wb-diem-lai-2024-08__C__p25__c003",
+     "wb-diem-lai-2024-08__C__p25__c002",
+     "wb-diem-lai-2024-08__C__p25__c004",
+     "wb-diem-lai-2024-08__C__p25__c001",
+     "wb-diem-lai-2024-08__C__p26__c001",
+     "wb-diem-lai-2024-08__C__p26__c002",
+     "wb-diem-lai-2024-08__C__p35__c004",
+     "wb-diem-lai-2024-08__C__p35__c003",
+     "wb-diem-lai-2024-08__C__p25__c005"
+    ],
+    "skipped_over_budget": [
+     "wb-diem-lai-2024-08__C__p35__c005"
+    ],
+    "context_chars": 5941
+   },
+   {
+    "event": "answer",
+    "citations": [
+     "wb-diem-lai-2024-08__C__p25__c003"
+    ]
+   }
+  ],
+  "context_ids": [
+   "wb-diem-lai-2024-08__C__p25__c003",
+   "wb-diem-lai-2024-08__C__p25__c002",
+   "wb-diem-lai-2024-08__C__p25__c004",
+   "wb-diem-lai-2024-08__C__p25__c001",
+   "wb-diem-lai-2024-08__C__p26__c001",
+   "wb-diem-lai-2024-08__C__p26__c002",
+   "wb-diem-lai-2024-08__C__p35__c004",
+   "wb-diem-lai-2024-08__C__p35__c003",
+   "wb-diem-lai-2024-08__C__p25__c005"
+  ],
+  "context": [
+   "[wb-diem-lai-2024-08__C__p25__c003] (trang 25, chuong_1_kinh_te_vi_mo)\n7 Thay đổi về các tiêu chí khảo sát năm 2021 đồng nghĩa với việc nông dân tự cung tự cấp không còn được phân loại là tham gia lực lượng lao động, phần nào làm cho lượng lượng lao động ngành nông nghiệp giảm 1,8 triệu người từ năm 2020-2021. Tăng trưởng lực lượng lao động cũng giảm ở tất cả các ngành so với các giai đoạn trước COVID (tham khảo chi tiết tại Báo cáo cập nhật trình trạng nghèo và công bằng của Ngân hàng Thế giới năm 2024).",
+   "[wb-diem-lai-2024-08__C__p25__c002] (trang 25, chuong_1_kinh_te_vi_mo)\nTỷ lệ thiếu việc làm vẫn cao hơn so với trước khi diễn ra đại dịch, cho thấy nhiều người có việc làm bán thời gian và tỷ lệ tham gia khu vực phi chính thức tăng lên.\n\nTăng trưởng thu nhập thực còn khiêm tốn, gây ảnh hưởng đến tiêu dùng trong nước. Tiêu dùng trong nước đóng góp khoảng 64% cho tăng trưởng GDP năm 2024. Thu nhập bình quân hàng tháng ở mức 7,45 triệu VND (293 US$) vào tháng 6/2024 tương đương tốc độ tăng trưởng 7% (theo giá hiện hành) so với cùng kỳ năm trước, hoặc 2,5% (theo giá so sánh) so với cùng kỳ năm trước. Thu nhập thực vẫn chưa tăng mạnh kể từ năm 2022, chỉ tăng nhẹ bình quân 2,7% mỗi năm, thấp hơn xu hướng trước đại dịch (tăng trưởng bình quân hàng năm ở mức 11,9% theo giá hiện hành, và 8,4% theo giá so sánh), gây ảnh hưởng đến tiêu dùng trong nước (Hình 1.15).",
+   "[wb-diem-lai-2024-08__C__p25__c004] (trang 25, chuong_1_kinh_te_vi_mo)\nHình 1.12. Tăng trưởng việc làm ngành chế tạo chế biến nhờ vào hàng điện tử và thiết bị điện (%, so với cùng kỳ năm trước) -20% -10% 0% 10% 20% 30% Jan-20 Mar-20 May-20 Jul-20 Sep-20 Nov-20 Jan-21 Mar-21 May-21 Jul-21 Sep-21 Nov-21 Jan-22 Mar-22 May-22 Jul-22 Sep-22 Nov-22 Jan-23 Mar-23 May-23 Jul-23 Sep-23 Nov-23 Jan-24 Mar-24 May-24 Computer, electronic and optical products Electrical equipment Machinery and equipment n.e.c Textiles Manufacturing T9-21 T5-20 T1-23 T5-22 T1-21 T9 -23 T1-22 T9-20 T1-20 T5 -23 T9-22 T5-21 T1 -24 T5 -24 30% 20% 10% 0% -10% -20%",
+   "[wb-diem-lai-2024-08__C__p25__c001] (trang 25, chuong_1_kinh_te_vi_mo)\nNguồn: TCTK và tính toán của cán bộ Ngân hàng Thế giới Nguồn: TCTK và tính toán của cán bộ Ngân hàng Thế giới Chú thích: Việc làm là số lượng lao động đang làm việc tại các doanh nghiệp công nghiệp vào ngày đầu tiên của tháng. Sản lượng là IPI Xét tổng thể, việc làm ở khu vực chính thức gần như không tăng, trong khi đó thu nhập thực chỉ tăng trưởng ở mức khiêm tốn Việc làm ở khu vực chính thức gần như không tăng, trong khi lực lượng lao động bị thu hẹp sau đại dịch. Đến tháng 4/2024, có 51,5 triệu người Việt Nam có việc làm (+0,4% so với cùng kỳ năm trước). Tỷ lệ tham gia lực lượng lao động đạt 68,6% trong tháng 6/2024 (Hình 1.14), vẫn tương đối ổn định trong hai năm qua, nhưng thấp hơn so với tỷ lệ 71,1% trong năm 2019, phần nào do cách đo lường và chuyển đổi cơ cấu, ảnh hưởng đến dân số tham gia nông nghiệp.7 Tỷ lệ việc làm thay đổi không đáng kể, với tỷ lệ thất nghiệp và thiếu việc làm ổn định lần lượt ở mức 2,3% và 2,1% so với cùng kỳ năm trước vào tháng 6/2024.",
+   "[wb-diem-lai-2024-08__C__p26__c001] (trang 26, chuong_1_kinh_te_vi_mo)\nHình 1.14. Việc làm vẫn duy trì (%, so với cùng kỳ năm trước) -6% -4% -2% 0% 2% 4% 6% 8% 64% 66% 68% 70% 72% Q1-19 Q3-19 Q1-20 Q3-20 Q1-21 Q3-21 Q1-22 Q3-22 Q1-23 Q3-23 Q1-24 Unemployment Underemployment LF participation (RHS) Employment change Q1-20 Q3-20 Q3-19 Q3-22 Q1-24 Q1-21 Q3-21 Q1-23 Q1-19 Q1-22 Q3-23 8% 6% 4% 2% 0% -2% -4% -6% 72% 70% 68% 66% 64% Nguồn: TCTK và tính toán của cán bộ Ngân hàng Thế giới Nguồn: tính toán của cán bộ Ngân hàng Thế giới và Haver Analytics\n\nHình 1.15. Tăng trưởng thu nhập chưa cao\n\n2.5%\n\n7.0% -2.1%",
+   "[wb-diem-lai-2024-08__C__p26__c002] (trang 26, chuong_1_kinh_te_vi_mo)\n11.9 % -30% -20% -10% 0% 10% 20% 30% Real growth y/y Nominal growth y/y Real growth q/q NSA Q3-20 Q3-23 Q3-22 Q1-21 Q1-23 Q1-22 Q1-20 Q3-21 Q1-24 30% 20% 10% 0% -10% -20% -30% 11,9% 7,0% 2,5% -2,1% Thị trường bất động sản có dấu hiệu phục hồi, nhưng chưa rõ nét Thị trường bất động sản cho thấy dấu hiệu phục hồi, nhưng các nhà đầu tư vẫn thận trọng. Nguồn cung các dự án được cấp phép và số lượng căn hộ mới vẫn gần như đi ngang trong Q1-2024, so với Q4-2023 do các vấn đề trong quy trình giải phóng mặt bằng và đền bù đất đai vẫn chưa có chuyển biến (Hình 1.17). Lãi suất vay bất động sản hấp dẫn hơn đối với những khoản vay mới khiến cho giá trị giao dịch tăng mạnh ở mức 22% trong Q1-2024 so với quý trước trên nền xuất phát điểm thấp (Hình 1.16).",
+   "[wb-diem-lai-2024-08__C__p35__c004] (trang 35, chuong_1_kinh_te_vi_mo)\n16 Việt Nam, Bộ LĐTB&XH, số liệu lao động 2023. Lạm phát theo chỉ số giá (CPI inflation) của Việt Nam năm 2024 dự kiến tiếp tục tăng, lên đến 4,5% từ mức 3,2% năm trước, do giá lương thực thực phẩm tiếp tục tăng cao. Dự báo trên phản ánh giá thực phẩm tăng vọt gần đây, đóng góp nhiều nhất cho lạm phát mới phát sinh trong nửa đầu năm 2024, và còn tăng hơn nữa khi dịch tả lợn châu Phi bùng phát trên toàn quốc cho dù đã có các biện pháp tăng cường phòng chống dịch.15 Mặc dù xung đột ở U-crai-na và Trung Đông đang tiếp diễn, lạm phát giá dầu và thương phẩm thô được dự báo tiếp tục hạ nhiệt trong năm 2024. Đợt tăng lương công chức và lương hưu vào tháng 7/2024 dự kiến chỉ gây tác động nhỏ đến lạm phát do quy mô lao động khu vực nhà nước là khá nhỏ so với với tổng việc làm (khoảng 2 triệu công chức và viên chức, bằng 3,8% tổng việc làm16). Trong trung hạn, lạm phát được dự báo sẽ quay lại mức bình quân trong lịch sử ở mức khoảng 3,5% trong năm tiếp theo.",
+   "[wb-diem-lai-2024-08__C__p35__c003] (trang 35, chuong_1_kinh_te_vi_mo)\n15 Bênh tả lợn châu Phi là bệnh vi-rút lây nhiễm mạnh, ảnh hưởng đến lợn và lợn hoang dã, có tỷ lệ tử vong lên đến 100% số ca. Đến ngày 14/07/2024, khoảng 660 ca bùng phát được phát hiện so với 208 ca cùng kỳ năm 2023, trong đó 42.400 lợn bị nhiễm phải tiêu hủy tromg năm 2024, cao gấp năm lần so với cùng kỳ 2023. Các cấp có thẩm quyền của Việt Nam đã cômg bố tăng vốn ưu tiên giảm lây lan dịch, bao gồm tiêm vác-xin cho lợn.",
+   "[wb-diem-lai-2024-08__C__p25__c005] (trang 25, chuong_1_kinh_te_vi_mo)\nHình 1.13. Tăng trưởng sản lượng cao hơn tăng trưởng việc làm trong các lĩnh vực chế tạo chế biến, dẫn đến tăng năng suất Sản lượng và việc làm trong các lĩnh vực chế tạo chế biến (%, so với cùng kỳ năm trước) -20 -10 0 10 20 30 Jun-22 Sep-22 Dec-22 Mar-23 Jun-23 Sep-23 Dec-23 Mar-24 Output Employment T12-22 T3-23 T9-22 T3-24 T6-23 T9 -23 T6-22 T12-23 30 20 10 0 -10 -20 Sản phẩm máy tính, điện tử và quang học Máy móc và thiết bị khác Thiết bị điện Chế tạo Dệt may Sản lượng Lao động"
+  ],
+  "context_chars": 5941,
+  "searches": 1,
+  "usage": {
+   "llm_calls": 2,
+   "cached_calls": 0,
+   "input_tokens": 3793,
+   "output_tokens": 151,
+   "thinking_tokens": 224
+  },
+  "latency_s": 3.383,
+  "auto_eval": {
+   "answerable": true,
+   "context_has_evidence": true
+  }
+ },
+ {
+  "query_id": "q04",
+  "split": "dev",
+  "config": "improve_multitool",
+  "provider": "gemini",
+  "model": "gemini-3.1-flash-lite",
+  "question": "Các luật sửa đổi có hiệu lực từ tháng 8/2024 đã thay đổi quy định về mức đặt cọc sớm tối đa đối với dự án nhà ở hình thành trong tương lai như thế nào và nhằm mục đích gì?",
+  "filter": null,
+  "status": "answered",
+  "answer": "Theo báo cáo \"Điểm lại tháng 8/2024\", các luật sửa đổi (Luật Kinh doanh bất động sản, Luật Nhà ở và Luật Đất đai) có hiệu lực từ tháng 8/2024 đã thay đổi quy định về mức đặt cọc sớm đối với dự án nhà ở hình thành trong tương lai như sau:\n\n*   **Thay đổi:** Giảm mức đặt cọc sớm tối đa từ 70% xuống còn 50% tổng giá trị tiền mua [wb-diem-lai-2024-08__C__p26__c004].\n*   **Mục đích:** Nhằm giảm áp lực huy động tài chính trả trước cho người mua [wb-diem-lai-2024-08__C__p26__c004].",
+  "citations": [
+   "wb-diem-lai-2024-08__C__p26__c004"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_dense",
+    "query": "quy định mức đặt cọc sớm tối đa dự án nhà ở hình thành trong tương lai tháng 8/2024",
+    "filter": null,
+    "top_k": 5,
+    "results": [
+     {
+      "id": "wb-diem-lai-2024-08__C__p26__c004",
+      "rank": 1,
+      "score": 0.73335,
+      "page": 26,
+      "method": "dense",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p27__c003",
+      "rank": 2,
+      "score": 0.676539,
+      "page": 27,
+      "method": "dense",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p32__c004",
+      "rank": 3,
+      "score": 0.660398,
+      "page": 32,
+      "method": "dense",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p26__c002",
+      "rank": 4,
+      "score": 0.66022,
+      "page": 26,
+      "method": "dense",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p26__c005",
+      "rank": 5,
+      "score": 0.63872,
+      "page": 26,
+      "method": "dense",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     }
+    ],
+    "added_ids": [
+     "wb-diem-lai-2024-08__C__p26__c004",
+     "wb-diem-lai-2024-08__C__p26__c003",
+     "wb-diem-lai-2024-08__C__p26__c005",
+     "wb-diem-lai-2024-08__C__p27__c003",
+     "wb-diem-lai-2024-08__C__p27__c002",
+     "wb-diem-lai-2024-08__C__p32__c004",
+     "wb-diem-lai-2024-08__C__p32__c003",
+     "wb-diem-lai-2024-08__C__p26__c002"
+    ],
+    "skipped_over_budget": [
+     "wb-diem-lai-2024-08__C__p26__c001"
+    ],
+    "context_chars": 5630
+   },
+   {
+    "event": "answer",
+    "citations": [
+     "wb-diem-lai-2024-08__C__p26__c004"
+    ]
+   }
+  ],
+  "context_ids": [
+   "wb-diem-lai-2024-08__C__p26__c004",
+   "wb-diem-lai-2024-08__C__p26__c003",
+   "wb-diem-lai-2024-08__C__p26__c005",
+   "wb-diem-lai-2024-08__C__p27__c003",
+   "wb-diem-lai-2024-08__C__p27__c002",
+   "wb-diem-lai-2024-08__C__p32__c004",
+   "wb-diem-lai-2024-08__C__p32__c003",
+   "wb-diem-lai-2024-08__C__p26__c002"
+  ],
+  "context": [
+   "[wb-diem-lai-2024-08__C__p26__c004] (trang 26, chuong_1_kinh_te_vi_mo)\nCác cấp có thẩm quyền của Việt Nam đang nỗ lực hỗ trợ ngành bất động sản phục hồi. Các văn bản luật sửa đổi quan trọng, bao gồm Luật kinh doanh bất động sản, Luật nhà ở và Luật đất đai, được đẩy lên có hiệu lực thi hành vào tháng 8/2024, sớm hơn so với mốc tháng 1/2025. Những sửa đổi đáng chú ý trong các văn bản pháp luật bao gồm: (i) giảm mức đặt cọc sớm tối đa cho các dự án nhà ở tương lai, từ 70% xuống còn 50% tổng tiền mua, nhằm giảm áp lực huy động tài chính trả trước cho người mua, (ii) yêu cầu công bố công khai thông tin dự án trước khi bán để nâng cao tính minh bạch của thị trường8 và (iii) tạo thuận lợi cho quy trình giải phóng mặt bằng và đền bù thông qua định giá đất hàng năm theo giá trị trường.",
+   "[wb-diem-lai-2024-08__C__p26__c003] (trang 26, chuong_1_kinh_te_vi_mo)\nMặc dù vậy, niềm tin của các nhà đầu tư vẫn ở mức thấp và ngành bất động sản này phải đối mặt với rủi ro tài chính vì nợ xấu của các doanh nghiệp bất động sản và người mua nhà tăng lên khoảng 2,73% tổng dư nợ trong năm 2023, từ mức 1,7% năm 2022, theo số liệu của NHNN. Theo số liệu của Hiệp hội Môi giới Bất động sản Việt Nam, số lượng giao dịch hiện nay mới chỉ đạt 20% bình quân giao dịch các năm trước đại dịch (2018-2019).",
+   "[wb-diem-lai-2024-08__C__p26__c005] (trang 26, chuong_1_kinh_te_vi_mo)\nNgoài ra, lãi suất vay bất động sản đã giảm đối với các khoản vay mới, sau khi NHNN cắt giảm lãi suất bốn lần trong năm 2023, qua đó phần nào hỗ trợ cầu bất động sản. 8 Trước đây, các dự án thường được phép bán mà chưa cần phê duyệt đầy đủ hoặc có đầy đủ thông tin, thường dẫn đến vi phạm và tranh chấp. Luật kinh doanh bất động sản mới năm 2023 ban hành hướng dẫn rõ ràng về công bố thông tin, chẳng hạn về quyền sử dụng đất và các mục đích của dự án, qua đó nâng cao minh bạch và bảo vệ người tiêu dùng.\n\nThất nghiệp Thiếu việc làm Tham gia LLLĐ (RHS) Thay đổi việc làm Tăng trưởng theo giá hiện hành y/y Tăng trưởng theo giá so sánh y/y Tăng trưởng theo giá so sánh q/q Tăng trưởng theo giá hiện hành y/y trung bình 2018-19",
+   "[wb-diem-lai-2024-08__C__p27__c003] (trang 27, chuong_1_kinh_te_vi_mo)\nHình 1.17. Nguồn cung căn hộ và dự án được cấp phép mới vẫn duy trì so với quý trước Dự án nhà ở mới 0 50000 100000 150000 200000 Q1-22 Q2-22 Q3-22 Q4-22 Q1-23 Q2-23 Q3-23 Q4-23 Q1-24 Housing Land Nguồn: Bộ Xây dựng\n\nHình 1.16. Lãi suất vay bất động sản hấp dẫn hơn cho các khoản vay mới, làm gia tăng số lượng giao dịch Số lượng giao dịch bất động sản\n\n200.000\n\n150.000\n\n100.000\n\n50.000 0 45 40 35 30 25 20 15 10 5 0 30 25 20 15 10 5 0 Số lượng dự án Số lượng căn hộ Nhà ở thương mại Đất nền Số lượng căn (RHS) Dự án mới",
+   "[wb-diem-lai-2024-08__C__p27__c002] (trang 27, chuong_1_kinh_te_vi_mo)\nMặc dù dòng vốn đầu tư trực tiếp nước ngoài (FDI) vẫn duy trì, nhưng thặng dư tài khoản tài chính đạt mức thấp hơn trong quý đầu năm 2024 so với Q1-2023 do dòng vốn ròng ra ngoài tăng lên (Hình 1.19). Đầu tư trực tiếp nước ngoài (FDI) tiếp tục ổn định ở mức 3,4% GDP trong Q1-2024, tương đồng với Q1-2023, do nhà đầu tư nước ngoài tiếp tục có niềm tin với triển vọng kinh tế của Việt Nam và do các chuỗi cung ứng tiếp tục dịch chuyển trên khắp khu vực. Đầu tư gián tiếp có dòng vốn ròng ra nước ngoài tăng (đến 0,5% GDP trong Q1-2024 so với dòng vốn rút ra ròng ở mức 0,3% GDP trong Q1-2023) do các nhà đầu tư nước ngoài hiện thực hóa lợi nhuận vốn đầu tư của họ.\n\n0 5 10 15 20 25 30 0 5 10 15 20 25 30 35 40 45 Q1-22 Q2-22 Q3-22 Q4-22 Q1-23 Q2-23 Q3-23 Q4-23 Q1-24 Number of thousand units Number of projects",
+   "[wb-diem-lai-2024-08__C__p32__c004] (trang 32, chuong_1_kinh_te_vi_mo)\nNgoài ra, những rào cản quy định và thủ tục phê duyệt kéo dài tiếp tục gây chậm trễ trong triển khai các dự án đầu tư công. Bội thu ngân sách lớn trong nửa đầu năm 2024 dẫn đến giảm nhu cầu huy động vay. Trong 6 tháng đầu năm 2024, tổng khối lượng phát hành trái phiếu đạt 156,5 ngàn tỷ VND (6,4 tỷ US$), tương đương 39,1% kế hoạch năm, giảm đáng kể so với mức huy động 179,9 ngàn tỷ VND, tương đương 45% kế hoạch cho nửa đầu năm 2023.\n\n13 Nghị định số 73/2024/NĐ-CP (300/06/2024) quy định về mức lương luật định và chế độ tiền thưởng cho cán bộ, công viên chức và lực lượng vũ trang. 4,93% Tỉ lệ bao phủ nợ xấu (26 NH) (RHS) Nợ xấu nội bảng toàn hệ thống (LHS) Nợ xấu gộp (LHS) Tổ chức tín dụng Chứng khoán Xây dựng Sản xuất Năng lượng Khác Bất động sản Thương mại",
+   "[wb-diem-lai-2024-08__C__p32__c003] (trang 32, chuong_1_kinh_te_vi_mo)\nĐồng thời, chi ngân sách giảm 1,6 điểm % từ mức 17% GDP trong nửa đầu năm 2023 xuống còn 1,4% trong nửa đầu năm 2024, do giải ngân đầu tư công giảm (từ 4,5% GDP nửa đầu năm 2023 xuống còn 3,7% trong nửa đầu năm 2024) đồng thời chi thường xuyên cũng giảm (50% dự toán chi thường xuyên trong nửa đầu năm 2023 xuống còn 40% trong nửa đầu năm 2024). Tiết kiệm chi thường xuyên hàng năm theo dự toán được dành riêng để đảm bảo cho chương trình cải cách lương công chức, từ ngày 01/07/2024 (lương cơ bản và lương hưu tăng lần lượt bình quân 30% và 15%). 13 Đến cuối tháng 6/2024, dự toán ngân sách đầu tư công được Quốc hội phê duyệt cho năm 2024 chỉ thực hiện được 29%, giải ngân đầu tư công giảm 6% so với cùng kỳ năm 2023. Giải ngân đầu tư công chững lại do chậm trễ trong công tác giải phóng mặt bằng và đền bù trong các dự án lớn xây đường quốc lộ, khan hiếm vật liệu san lấp (đá và cát), giá vật liệu thô biến động.",
+   "[wb-diem-lai-2024-08__C__p26__c002] (trang 26, chuong_1_kinh_te_vi_mo)\n11.9 % -30% -20% -10% 0% 10% 20% 30% Real growth y/y Nominal growth y/y Real growth q/q NSA Q3-20 Q3-23 Q3-22 Q1-21 Q1-23 Q1-22 Q1-20 Q3-21 Q1-24 30% 20% 10% 0% -10% -20% -30% 11,9% 7,0% 2,5% -2,1% Thị trường bất động sản có dấu hiệu phục hồi, nhưng chưa rõ nét Thị trường bất động sản cho thấy dấu hiệu phục hồi, nhưng các nhà đầu tư vẫn thận trọng. Nguồn cung các dự án được cấp phép và số lượng căn hộ mới vẫn gần như đi ngang trong Q1-2024, so với Q4-2023 do các vấn đề trong quy trình giải phóng mặt bằng và đền bù đất đai vẫn chưa có chuyển biến (Hình 1.17). Lãi suất vay bất động sản hấp dẫn hơn đối với những khoản vay mới khiến cho giá trị giao dịch tăng mạnh ở mức 22% trong Q1-2024 so với quý trước trên nền xuất phát điểm thấp (Hình 1.16)."
+  ],
+  "context_chars": 5630,
+  "searches": 1,
+  "usage": {
+   "llm_calls": 2,
+   "cached_calls": 0,
+   "input_tokens": 3568,
+   "output_tokens": 225,
+   "thinking_tokens": 210
+  },
+  "latency_s": 4.473,
+  "auto_eval": {
+   "answerable": true,
+   "context_has_evidence": true
+  }
+ },
+ {
+  "query_id": "q05",
+  "split": "dev",
+  "config": "improve_multitool",
+  "provider": "gemini",
+  "model": "gemini-3.1-flash-lite",
+  "question": "Mặc dù cả tài khoản vãng lai và tài khoản tài chính đều đạt thặng dư trong quý 1/2024, tại sao cán cân thanh toán quốc tế tổng thể của Việt Nam vẫn bị thâm hụt 1,37 tỷ USD?",
+  "filter": null,
+  "status": "answered",
+  "answer": "Cán cân thanh toán quốc tế tổng thể của Việt Nam bị thâm hụt 1,37 tỷ USD trong quý 1/2024, mặc dù tài khoản vãng lai và tài khoản tài chính đều đạt thặng dư, là do sự gia tăng mạnh mẽ của dòng vốn ra nước ngoài phi chính thức [wb-diem-lai-2024-08__C__p14__c004], [wb-diem-lai-2024-08__C__p28__c003].\n\nCụ thể:\n*   **Khoản mục \"Lỗi và sai sót\":** Đây là nơi phản ánh dòng vốn ra nước ngoài phi chính thức, đã tăng gấp bốn lần, từ 1,9% GDP trong quý 4/2023 lên 7,9% GDP (tương đương 8 tỷ USD) trong quý 1/2024, cao hơn nhiều so với mức bình quân 2,5% giai đoạn 2017-2019 [wb-diem-lai-2024-08__C__p14__c004], [wb-diem-lai-2024-08__C__p28__c003].\n*   **Nguyên nhân dẫn đến dòng vốn phi chính thức chảy ra:**\n    *   **Chênh lệch lãi suất:** Chênh lệch lãi suất giữa tiền đồng Việt Nam và đồng đô-la Mỹ vẫn ở mức cao, thúc đẩy dòng vốn chảy ra nước ngoài để tìm kiếm lợi suất tốt hơn [wb-diem-lai-2024-08__C__p14__c003].\n    *   **Đồng USD mạnh lên:** Việc đồng đô-la Mỹ mạnh lên trong nửa đầu năm 2024 đã gây áp lực lên tỷ giá, khiến người dân tìm kiếm các công cụ đầu tư khác [wb-diem-lai-2024-08__C__p14__c003].\n    *   **Nhu cầu vàng:** Nhu cầu mua vàng trong nước tăng vọt (+28,6% so với cùng kỳ năm trước), kết hợp với các biện pháp kiểm soát nguồn cung, đã dẫn đến tình trạng mua và nhập khẩu vàng phi chính thức [wb-diem-lai-2024-08__C__p14__c003].",
+  "citations": [
+   "wb-diem-lai-2024-08__C__p14__c004",
+   "wb-diem-lai-2024-08__C__p28__c003",
+   "wb-diem-lai-2024-08__C__p14__c003"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_dense",
+    "query": "cán cân thanh toán quốc tế Việt Nam quý 1/2024 thâm hụt 1,37 tỷ USD nguyên nhân",
+    "filter": null,
+    "top_k": 5,
+    "results": [
+     {
+      "id": "wb-diem-lai-2024-08__C__p14__c004",
+      "rank": 1,
+      "score": 0.782352,
+      "page": 14,
+      "method": "dense",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p14__c002",
+      "rank": 2,
+      "score": 0.782154,
+      "page": 14,
+      "method": "dense",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p27__c001",
+      "rank": 3,
+      "score": 0.779635,
+      "page": 27,
+      "method": "dense",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p28__c003",
+      "rank": 4,
+      "score": 0.776347,
+      "page": 28,
+      "method": "dense",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p14__c003",
+      "rank": 5,
+      "score": 0.776204,
+      "page": 14,
+      "method": "dense",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     }
+    ],
+    "added_ids": [
+     "wb-diem-lai-2024-08__C__p14__c004",
+     "wb-diem-lai-2024-08__C__p14__c003",
+     "wb-diem-lai-2024-08__C__p14__c005",
+     "wb-diem-lai-2024-08__C__p14__c002",
+     "wb-diem-lai-2024-08__C__p14__c001",
+     "wb-diem-lai-2024-08__C__p27__c001",
+     "wb-diem-lai-2024-08__C__p27__c002",
+     "wb-diem-lai-2024-08__C__p28__c003"
+    ],
+    "skipped_over_budget": [
+     "wb-diem-lai-2024-08__C__p28__c002",
+     "wb-diem-lai-2024-08__C__p28__c004"
+    ],
+    "context_chars": 5522
+   },
+   {
+    "event": "answer",
+    "citations": [
+     "wb-diem-lai-2024-08__C__p14__c004",
+     "wb-diem-lai-2024-08__C__p28__c003",
+     "wb-diem-lai-2024-08__C__p14__c003"
+    ]
+   }
+  ],
+  "context_ids": [
+   "wb-diem-lai-2024-08__C__p14__c004",
+   "wb-diem-lai-2024-08__C__p14__c003",
+   "wb-diem-lai-2024-08__C__p14__c005",
+   "wb-diem-lai-2024-08__C__p14__c002",
+   "wb-diem-lai-2024-08__C__p14__c001",
+   "wb-diem-lai-2024-08__C__p27__c001",
+   "wb-diem-lai-2024-08__C__p27__c002",
+   "wb-diem-lai-2024-08__C__p28__c003"
+  ],
+  "context": [
+   "[wb-diem-lai-2024-08__C__p14__c004] (trang 14, tong_quan)\nKhoản mục “Lỗi và sai sót”- bao gồm dòng vốn ra nước ngoài phi chính thức, tăng gấp bốn lần, từ 1,9% GDP trong Q4-2023 lên 7,9% trong Q1-2024, cao hơn nhiều so với mức bình quân các năm 2017-2019 (2,5%), khiến cho tổng thâm hụt cán cân thanh toán lên 1,37 tỷ US$ trong Q1-2024.",
+   "[wb-diem-lai-2024-08__C__p14__c003] (trang 14, tong_quan)\nMặc dù vậy, do chênh lệch lãi suất giữa trong và ngoài nước vẫn duy trì và đồng đô-la Mỹ mạnh lên trong nửa đầu năm 2024 khiến cho dòng vốn phi chính thức bị chảy ra nước ngoài mạnh hơn dẫn đến cán cân thanh toán quốc tế ghi nhận thâm hụt. Chênh lệch lãi suất qua đêm giữa tiền đồng Việt Nam và đồng đô-la Mỹ vẫn ở mức cao (166 điểm cơ bản) trong nửa đầu năm 2024, do vậy, mặc dù lãi suất qua đêm của Việt Nam gần đây đã tăng lên nhưng vẫn làm tăng dòng vốn chảy ra nước ngoài để tìm kiếm lợi suất tốt hơn. Trong khi đó, do đồng đô-la mạnh lên, tỷ giá VND/US$ tăng từ mức 24.258 VND trong tháng 12/2023 lên 25.334 VND vào cuối tháng 6/2024 trên thị trường. Do người dân tìm kiếm công cụ đầu tư khác, nhu cầu mua vàng trong nước tăng vọt (+28,6% so với cùng kỳ năm trước), kết hợp với các biện pháp kiểm soát nguồn cung, khiến cho vàng bị đội giá cao gây ra tình trạng mua và nhập khẩu vàng phi chính thức.",
+   "[wb-diem-lai-2024-08__C__p14__c005] (trang 14, tong_quan)\nNHNN thực hiện các biện pháp bao gồm can thiệp trên thị trường ngoại hối và thắt chặt thanh khoản nhằm giảm áp lực lên tỷ giá đồng Việt Nam. NHNN giảm tỷ giá trung tâm 1,2% từ tháng 1 đến tháng 6 năm 2024, cho phép tỷ giá thị trường giảm thêm 3,6% trong cùng kỳ, đồng thời áp dụng các biện pháp can thiệp ngoại hối để giảm áp lực tỷ giá đồng Việt Nam. Dự trữ ngoại hối ước tính đã giảm từ 90 tỷ US$ trong tháng 12/2023 xuống khoảng 83–84 tỷ US$ vào cuối tháng 6/2024 (tương đương 2,7 tháng trị giá nhập khẩu). Ngoài ra, NHNN bắt đầu hút thanh khoản trên thị trường liên ngân hàng vào giữa tháng 3/2024 bằng cách phát hành tín phiếu với lãi suất cao hơn (4,25%). Các biện pháp này đã đẩy lãi suất liên ngân hàng qua đêm từ mức 0,9% trong tháng 3/2024 lên 3,25% trong tháng 5/2024, trước khi hạ xuống còn 2,8% trong tháng 6/2024. Lãi suất liên ngân hàng tăng lên làm giảm áp lực cho tiền đồng Việt Nam.\n\n2 Bao gồm đầu tư của doanh nghiệp Nhà nước 3 Số liệu mới nhất có được vào thời điểm báo cáo.",
+   "[wb-diem-lai-2024-08__C__p14__c002] (trang 14, tong_quan)\nVị thế cán cân thanh toán quốc tế của Việt Nam suy giảm do dòng vốn ra nước ngoài phi chính thức tăng lên mặc dù tài khoản vãng lai và tài khoản tài chính ghi nhận thặng dư Tài khoản vãng lai đạt thặng dư đáng kể, nhờ kết quả tích cực của hoạt động ngoại thương. Thặng dư tài khoản vãng lai đạt 5,1% GDP trong Q1-20243 so với 2,1% trong Q1-2023, nhờ thặng dư thương mại lên đến 11,7% GDP trong Q1-2024, so với 8,7% trong Q1-2023, trên cơ sở xuất khẩu hàng hóa phục hồi mạnh. Nhờ dòng vốn đầu tư trực tiếp nước ngoài được duy trì (3,4% GDP trong Q1-2024), tài khoản tài chính cũng đạt thặng dư trong Q1-2024, tuy vẫn thấp hơn so với Q1-2023 do vốn đầu tư gián tiếp và đầu tư khác rút ra ngoài mạnh hơn (dòng vốn ròng rút ra là 2% GDP trong Q1-2024, so với dòng vốn ròng chảy vào là 0,1% trong Q1-2023) do các nhà đầu tư nước ngoài hiện thực hóa lợi nhuận đầu tư của họ.",
+   "[wb-diem-lai-2024-08__C__p14__c001] (trang 14, tong_quan)\ntrong nửa đầu năm 2024, thấp hơn mức bình quân hàng năm là 4,7% trong giai đoạn 2017-2019. Đầu tư nước ngoài có mức tăng trưởng mạnh nhất trong nửa đầu năm 2024, tăng 13% (so với cùng kỳ năm trước). Trong khi đó, mức tăng của đầu tư công2 chững lại còn 4% (so với cùng kỳ năm trước) trong nửa đầu năm 2024, so với mức 20,5% trong nửa đầu năm 2023, cũng là giai đoạn đẩy mạnh đầu tư công để hỗ trợ nền kinh tế năm 2023.",
+   "[wb-diem-lai-2024-08__C__p27__c001] (trang 27, chuong_1_kinh_te_vi_mo)\nQ1-22 Q1-22 Q2-22 Q2-22 Q2-23 Q2-23 Q1-24 Q1-24 Q3-22 Q3-22 Q4-22 Q4-22 Q3-23 Q3-23 Q1-23 Q1-23 Q4-23 Q4-23 Tuy tài khoản vãng lai và tài khoản tài chính đang có thặng dư, nhưng cán cân thanh toán quốc tế tổng thể lại thâm hụt do dòng vốn ra nước ngoài phi chính thức tăng lên Tài khoản vãng lai vẫn thặng dư trong Q1-2024, cao hơn so với Q1-2023 do thặng dư thương mại lớn hơn bù trừ cho thậm hụt cao về thu nhập cơ bản (Hình 1.18). Tài khoản vãng đạt thặng dư tương ứng với khoảng 5,1% GDP trong Q1-2024 so với mức 2,1% GDP trong Q1-2023. Thặng dư thương mại hàng hóa tăng từ 8,7% GDP trong Q1-2023 lên 11,7% trong Q1-2024 nhờ xuất khẩu phục hồi 17,1% so với cùng kỳ năm trước trong ba tháng đầu năm 2024, còn nhập khẩu tăng 12,9% so với cùng kỳ năm trước. Thu nhập cơ bản (primary income) thâm hụt ròng 7,5% GDP trong Q1-2024, gần tương đương so với mức 7,7% GDP trong Q1-2023.",
+   "[wb-diem-lai-2024-08__C__p27__c002] (trang 27, chuong_1_kinh_te_vi_mo)\nMặc dù dòng vốn đầu tư trực tiếp nước ngoài (FDI) vẫn duy trì, nhưng thặng dư tài khoản tài chính đạt mức thấp hơn trong quý đầu năm 2024 so với Q1-2023 do dòng vốn ròng ra ngoài tăng lên (Hình 1.19). Đầu tư trực tiếp nước ngoài (FDI) tiếp tục ổn định ở mức 3,4% GDP trong Q1-2024, tương đồng với Q1-2023, do nhà đầu tư nước ngoài tiếp tục có niềm tin với triển vọng kinh tế của Việt Nam và do các chuỗi cung ứng tiếp tục dịch chuyển trên khắp khu vực. Đầu tư gián tiếp có dòng vốn ròng ra nước ngoài tăng (đến 0,5% GDP trong Q1-2024 so với dòng vốn rút ra ròng ở mức 0,3% GDP trong Q1-2023) do các nhà đầu tư nước ngoài hiện thực hóa lợi nhuận vốn đầu tư của họ.\n\n0 5 10 15 20 25 30 0 5 10 15 20 25 30 35 40 45 Q1-22 Q2-22 Q3-22 Q4-22 Q1-23 Q2-23 Q3-23 Q4-23 Q1-24 Number of thousand units Number of projects",
+   "[wb-diem-lai-2024-08__C__p28__c003] (trang 28, chuong_1_kinh_te_vi_mo)\nKết quả là khoản mục “Lỗi và sai sót” - bao gồm dòng vốn ra nước ngoài phi chính thức, tăng gấp bốn lần, từ 1,9% GDP trong Q4-2023 lên 7,9% (8 tỷ US$) trong Q1-2024, cao hơn nhiều so với mức bình quân 2,5% trong các năm 2017-2019, dẫn tới cán cân thanh toán bị thâm hụt ở mức thấp (-1,37 tỷ US$), mặc dù tài khoản vãng lai và tài khoản tài chính đều thặng dư (Hình 1.20)."
+  ],
+  "context_chars": 5522,
+  "searches": 1,
+  "usage": {
+   "llm_calls": 2,
+   "cached_calls": 0,
+   "input_tokens": 3488,
+   "output_tokens": 577,
+   "thinking_tokens": 223
+  },
+  "latency_s": 4.931,
+  "auto_eval": {
+   "answerable": true,
+   "context_has_evidence": true
+  }
+ },
+ {
+  "query_id": "q06",
+  "split": "dev",
+  "config": "improve_multitool",
+  "provider": "gemini",
+  "model": "gemini-3.1-flash-lite",
+  "question": "Tỷ lệ nợ xấu toàn hệ thống ngân hàng năm 2023 là bao nhiêu phần trăm, và nếu tính thêm các khoản vay được tái cơ cấu cùng nợ tại VAMC thì tổng nợ xấu có thể lên tới mức nào?",
+  "filter": null,
+  "status": "answered",
+  "answer": "Tỷ lệ nợ xấu toàn hệ thống ngân hàng năm 2023 là 4,6% tổng dư nợ cho vay (tăng mạnh từ mức 1,9% năm 2022) [wb-diem-lai-2024-08__C__p31__c001], [wb-diem-lai-2024-08__C__p15__c002].\n\nNếu tính cả các khoản vay được tái cơ cấu và nợ tại Công ty Quản lý Tài sản của các Tổ chức Tín dụng Việt Nam (VAMC), tổng nợ xấu có thể lên tới mức 7,9% [wb-diem-lai-2024-08__C__p31__c001], [wb-diem-lai-2024-08__C__p15__c002].",
+  "citations": [
+   "wb-diem-lai-2024-08__C__p31__c001",
+   "wb-diem-lai-2024-08__C__p15__c002"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_keyword",
+    "query": "tỷ lệ nợ xấu toàn hệ thống ngân hàng năm 2023",
+    "filter": null,
+    "top_k": 5,
+    "results": [
+     {
+      "id": "wb-diem-lai-2024-08__C__p31__c001",
+      "rank": 1,
+      "score": 54.871913,
+      "page": 31,
+      "method": "bm25",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p15__c002",
+      "rank": 2,
+      "score": 53.211513,
+      "page": 15,
+      "method": "bm25",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p32__c004",
+      "rank": 3,
+      "score": 35.543704,
+      "page": 32,
+      "method": "bm25",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p32__c001",
+      "rank": 4,
+      "score": 26.92977,
+      "page": 32,
+      "method": "bm25",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p15__c003",
+      "rank": 5,
+      "score": 16.760381,
+      "page": 15,
+      "method": "bm25",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     }
+    ],
+    "added_ids": [
+     "wb-diem-lai-2024-08__C__p31__c001",
+     "wb-diem-lai-2024-08__C__p31__c002",
+     "wb-diem-lai-2024-08__C__p15__c002",
+     "wb-diem-lai-2024-08__C__p15__c001",
+     "wb-diem-lai-2024-08__C__p15__c003",
+     "wb-diem-lai-2024-08__C__p32__c004",
+     "wb-diem-lai-2024-08__C__p32__c001"
+    ],
+    "skipped_over_budget": [
+     "wb-diem-lai-2024-08__C__p32__c003",
+     "wb-diem-lai-2024-08__C__p32__c002",
+     "wb-diem-lai-2024-08__C__p15__c004"
+    ],
+    "context_chars": 5915
+   },
+   {
+    "event": "search",
+    "tool": "search_keyword",
+    "query": "tổng nợ xấu bao gồm nợ tái cơ cấu và VAMC 2023",
+    "filter": null,
+    "top_k": 5,
+    "results": [
+     {
+      "id": "wb-diem-lai-2024-08__C__p15__c002",
+      "rank": 1,
+      "score": 48.274715,
+      "page": 15,
+      "method": "bm25",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p31__c001",
+      "rank": 2,
+      "score": 47.245413,
+      "page": 31,
+      "method": "bm25",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p46__c005",
+      "rank": 3,
+      "score": 23.339776,
+      "page": 46,
+      "method": "bm25",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p32__c004",
+      "rank": 4,
+      "score": 19.182995,
+      "page": 32,
+      "method": "bm25",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p48__c004",
+      "rank": 5,
+      "score": 17.502087,
+      "page": 48,
+      "method": "bm25",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     }
+    ],
+    "added_ids": [],
+    "skipped_over_budget": [
+     "wb-diem-lai-2024-08__C__p46__c005",
+     "wb-diem-lai-2024-08__C__p46__c004",
+     "wb-diem-lai-2024-08__C__p32__c003",
+     "wb-diem-lai-2024-08__C__p48__c004",
+     "wb-diem-lai-2024-08__C__p48__c003",
+     "wb-diem-lai-2024-08__C__p48__c005"
+    ],
+    "context_chars": 5915
+   },
+   {
+    "event": "answer",
+    "citations": [
+     "wb-diem-lai-2024-08__C__p31__c001",
+     "wb-diem-lai-2024-08__C__p15__c002"
+    ]
+   }
+  ],
+  "context_ids": [
+   "wb-diem-lai-2024-08__C__p31__c001",
+   "wb-diem-lai-2024-08__C__p31__c002",
+   "wb-diem-lai-2024-08__C__p15__c002",
+   "wb-diem-lai-2024-08__C__p15__c001",
+   "wb-diem-lai-2024-08__C__p15__c003",
+   "wb-diem-lai-2024-08__C__p32__c004",
+   "wb-diem-lai-2024-08__C__p32__c001"
+  ],
+  "context": [
+   "[wb-diem-lai-2024-08__C__p31__c001] (trang 31, chuong_1_kinh_te_vi_mo)\nChất lượng tài sản ngân hàng vẫn là một mối quan ngại kể từ năm 2023 khi tỷ lệ nợ xấu và dự phòng tổn thất tín dụng tăng lên. Nợ xấu toàn hệ thống tăng mạnh, từ 1,9% năm 2022 lên 4,6% tổng dư nợ cho vay năm 2023 (Hình 1.27), theo số liệu mới nhất có được, chủ yếu do ghi nhận nợ xấu của Ngân hàng Thương mại Cổ phần Sài Gòn (SCB). Mặc dù vậy, tổng nợ vay được coi là xấu có thể lên đến 7,9% nếu tính cả các khoản vay được tái cơ cấu và nợ của Công ty Quản lý Tài sản của các Tổ chức Tín dụng Việt Nam (VAMC). Số liệu mới nhất cho Q1-2024 cho thấy tỷ lệ nợ xấu của 27 ngân hàng thương mại niêm yết, chiếm 83% tổng dư nợ tín dụng trong khu vực ngân hàng, tăng từ 1,9% trong Q4-2023 lên 2,2% trong Q1-2024, trong điều kiện nợ xấu tăng kết hợp với tăng trưởng tín dụng chững lại. Ngoài ra, các biện pháp gia hạn cơ cấu nợ nhằm ứng phó đại dịch, tiếp tục được gia hạn và dự kiến chấm dứt vào tháng 12/2024, có thể khiến cho tỉ lệ nợ xấu còn cao hơn nữa.",
+   "[wb-diem-lai-2024-08__C__p31__c002] (trang 31, chuong_1_kinh_te_vi_mo)\nNhu cầu dự kiến về tăng dự phòng, bổ sung dự phòng tổn thất vốn vay, đang tạo thêm áp lực cho lợi nhuận của các ngân hàng vốn đã bị co kéo do thu nhập ròng tiền lãi, phí và hoa hồng đang chững lại.\n\nKhối lượng phát hành trái phiếu doanh nghiệp đang tăng trở lại, nhưng áp lực trả nợ trái phiếu vẫn cao. Khối lượng phát hành trái phiếu tăng mạnh ở mức 2,5 lần trong nửa đầu năm 2024 so cùng kỳ năm 2023, do các ngân hàng tận dụng môi trường lãi suất thấp hơn để đảo nợ trái phiếu (Hình 1.28). Các ngành phát hành trái phiếu tích cực nhất vẫn là các ngân hàng và công ty bất động sản, chiếm lần lượt 64% và 26% tổng lượng phát hành trong nửa đầu năm 2024. Tuy nhiên, lượng trái phiếu đáo hạn trong nửa cuối năm 2024 ước lên đến 139,8 ngàn tỷ VND (5,6 tỷ US$), trong đó trái phiếu bất động sản chiếm 42%, tạo áp lực cho lĩnh vực bất động sản trong điều kiện khó khăn về dòng tiền.",
+   "[wb-diem-lai-2024-08__C__p15__c002] (trang 15, tong_quan)\nChất lượng tài sản ngân hàng vẫn là một mối quan ngại kể từ năm 2023. Nợ xấu toàn hệ thống tăng mạnh, từ 1,9% năm 2022 lên 4,6% tổng dư nợ cho vay năm 2023, theo số liệu mới nhất có được, chủ yếu do ghi nhận nợ xấu của Ngân hàng Thương mại Cổ phần Sài Gòn (SCB). Mặc dù vậy, tổng nợ vay được coi là xấu có thể lên đến 7,9% nếu tính cả các khoản vay được tái cơ cấu và nợ của Công ty Quản lý Tài sản của các Tổ chức Tín dụng Việt Nam (VAMC). Số liệu mới nhất cho Q1-2024 cho thấy tỷ lệ nợ xấu của 27 ngân hàng thương mại niêm yết, chiếm 83% tổng dư nợ tín dụng trong khu vực ngân hàng, tăng từ 1,9% trong Q4- 2023 lên 2,2% trong Q1-2024, trong điều kiện nợ xấu tăng kết hợp với tăng trưởng tín dụng chững lại. Ngoài ra, các biện pháp gia hạn cơ cấu nợ nhằm ứng phó đại dịch, dự kiến sẽ chấm dứt vào tháng 12/2024, có thể khiến cho tỉ lệ nợ xấu còn cao hơn nữa.",
+   "[wb-diem-lai-2024-08__C__p15__c001] (trang 15, tong_quan)\nKinh tế đang phục hồi, tăng trưởng tín dụng có cải thiện, tuy nhiên chất lượng tài sản ngân hàng vẫn là quan ngại lớn Tăng trưởng tín dụng được cải thiện từ sau giai đoạn tăng rất chậm hồi đầu năm 2024. Tính đến cuối tháng 6/2024, tăng trưởng tín dụng đạt 13,5% so với cùng kỳ năm trước, chủ yếu là nhờ vào các hoạt động xuất khẩu, sản xuất công nghiệp chế tạo chế biến, bất động sản, thương mại, vận tải, và viễn thông được cải thiện. Tuy nhiên, số liệu mới nhất về cho vay tiêu dùng lại cho thấy niềm tin của người tiêu dùng vẫn yếu, khi các khoản vay mua nhà và xe hơi giảm trong Q1-2024 so với cuối năm 2023. Tổng tín dụng cho vay tiêu dùng chỉ tăng 6,8% so với cùng kỳ năm trước trong Q1-2024, so với tăng trưởng nhẹ của năm 2023 và thấp hơn so với tốc độ tăng trưởng bình quân đạt 16,1% trong 5 năm trước đây.",
+   "[wb-diem-lai-2024-08__C__p15__c003] (trang 15, tong_quan)\nNhu cầu dự kiến về tăng dự phòng, bổ sung dự phòng tổn thất vốn vay, đang gây thêm áp lực cho lợi nhuận của các ngân hàng vốn đã bị co kéo do thu nhập lãi thuần, phí và hoa hồng đang chững lại.\n\nTrong khi đó, thị trường trái phiếu doanh nghiệp có dấu hiệu phục hồi. Lượng phát hành trái phiếu doanh nghiệp tăng gấp 2,5 lần trong nửa đầu năm 2024 so với cùng kỳ năm 2023, do các ngân hàng tận dụng môi trường lãi suất thấp để đảo nợ trái phiếu. Tuy nhiên, lượng trái phiếu đáo hạn trong nửa cuối năm 2024 ước lên đến 139,8 ngàn tỷ VND (5,6 tỷ US$), trong đó trái phiếu bất động sản chiếm 42%, tạo áp lực cho lĩnh vực bất động sản trong điều kiện khó khăn về dòng tiền. Ngoài những diễn biến ngắn hạn trên, việc tái cân bằng dần hệ thống tài chính của Việt Nam theo hướng nâng cao vai trò của thị trường vốn vẫn tiếp tục là một chương trình nghị sự quan trọng và sẽ được bàn thêm trong chương chuyên đề đặc biệt của báo cáo này.",
+   "[wb-diem-lai-2024-08__C__p32__c004] (trang 32, chuong_1_kinh_te_vi_mo)\nNgoài ra, những rào cản quy định và thủ tục phê duyệt kéo dài tiếp tục gây chậm trễ trong triển khai các dự án đầu tư công. Bội thu ngân sách lớn trong nửa đầu năm 2024 dẫn đến giảm nhu cầu huy động vay. Trong 6 tháng đầu năm 2024, tổng khối lượng phát hành trái phiếu đạt 156,5 ngàn tỷ VND (6,4 tỷ US$), tương đương 39,1% kế hoạch năm, giảm đáng kể so với mức huy động 179,9 ngàn tỷ VND, tương đương 45% kế hoạch cho nửa đầu năm 2023.\n\n13 Nghị định số 73/2024/NĐ-CP (300/06/2024) quy định về mức lương luật định và chế độ tiền thưởng cho cán bộ, công viên chức và lực lượng vũ trang. 4,93% Tỉ lệ bao phủ nợ xấu (26 NH) (RHS) Nợ xấu nội bảng toàn hệ thống (LHS) Nợ xấu gộp (LHS) Tổ chức tín dụng Chứng khoán Xây dựng Sản xuất Năng lượng Khác Bất động sản Thương mại",
+   "[wb-diem-lai-2024-08__C__p32__c001] (trang 32, chuong_1_kinh_te_vi_mo)\nHình 1.27. Nợ xấu và tỷ lệ dự phòng tổn thất tín dụng vẫn là quan ngại lớn Tỷ lệ % 0% 20% 40% 60% 80% 100% 120% 140% 160% 0% 1% 2% 3% 4% 5% 6% 7% 8% 9% 2019 2020 2021 2022 Q3-2023 2023 Total system's balance sheet NPL (LHS) Gross NPL (LHS) Loan-loss coverage ratio (26 banks) (RHS) 9% 8% 7% 6% 5% 4% 3% 2% 1% 0% 160% 140% 120% 100% 80% 60% 40% 20% 0% 1,63% 1,69% 1,90% 1,92% 4,55% 2019 2020 2021 2022 Q3-2023 2023 0 100 200 300 400 500 600 700 800 2019 2020 2021 2022 2023 6M-24 Trillions Credit institutions Securities Real estate Commerce Construction Production Energy Others Nguồn: Hiệp hội Trái phiếu Việt Nam và tính toán của cán bộ Ngân hàng Thế giới Nguồn: Fiingroup Research. Lưu ý nợ xấu gộp năm 2023 là số ước tính"
+  ],
+  "context_chars": 5915,
+  "searches": 2,
+  "usage": {
+   "llm_calls": 2,
+   "cached_calls": 0,
+   "input_tokens": 3618,
+   "output_tokens": 270,
+   "thinking_tokens": 221
+  },
+  "latency_s": 18.93,
+  "auto_eval": {
+   "answerable": true,
+   "context_has_evidence": true
+  }
+ },
+ {
+  "query_id": "q07",
+  "split": "dev",
+  "config": "improve_multitool",
+  "provider": "gemini",
+  "model": "gemini-3.1-flash-lite",
+  "question": "Tại sao đợt tăng lương cơ bản và lương hưu từ tháng 7/2024 được dự báo chỉ gây tác động nhỏ đến lạm phát của Việt Nam?",
+  "filter": null,
+  "status": "answered",
+  "answer": "Đợt tăng lương công chức và lương hưu vào tháng 7/2024 được dự báo chỉ gây tác động nhỏ đến lạm phát của Việt Nam vì quy mô lao động trong khu vực nhà nước khá nhỏ so với tổng việc làm (khoảng 2 triệu công chức và viên chức, tương đương 3,8% tổng việc làm) [wb-diem-lai-2024-08__C__p35__c004].",
+  "citations": [
+   "wb-diem-lai-2024-08__C__p35__c004"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_dense",
+    "query": "tác động tăng lương cơ bản lương hưu tháng 7/2024 đến lạm phát Việt Nam",
+    "filter": null,
+    "top_k": 5,
+    "results": [
+     {
+      "id": "wb-diem-lai-2024-08__C__p35__c004",
+      "rank": 1,
+      "score": 0.783401,
+      "page": 35,
+      "method": "dense",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p30__c003",
+      "rank": 2,
+      "score": 0.736999,
+      "page": 30,
+      "method": "dense",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p30__c002",
+      "rank": 3,
+      "score": 0.730737,
+      "page": 30,
+      "method": "dense",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p15__c004",
+      "rank": 4,
+      "score": 0.715958,
+      "page": 15,
+      "method": "dense",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p31__c003",
+      "rank": 5,
+      "score": 0.708679,
+      "page": 31,
+      "method": "dense",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     }
+    ],
+    "added_ids": [
+     "wb-diem-lai-2024-08__C__p35__c004",
+     "wb-diem-lai-2024-08__C__p35__c003",
+     "wb-diem-lai-2024-08__C__p35__c005",
+     "wb-diem-lai-2024-08__C__p30__c003",
+     "wb-diem-lai-2024-08__C__p30__c002",
+     "wb-diem-lai-2024-08__C__p30__c004",
+     "wb-diem-lai-2024-08__C__p30__c001",
+     "wb-diem-lai-2024-08__C__p15__c004",
+     "wb-diem-lai-2024-08__C__p31__c003"
+    ],
+    "skipped_over_budget": [
+     "wb-diem-lai-2024-08__C__p15__c003",
+     "wb-diem-lai-2024-08__C__p31__c002"
+    ],
+    "context_chars": 5856
+   },
+   {
+    "event": "answer",
+    "citations": [
+     "wb-diem-lai-2024-08__C__p35__c004"
+    ]
+   }
+  ],
+  "context_ids": [
+   "wb-diem-lai-2024-08__C__p35__c004",
+   "wb-diem-lai-2024-08__C__p35__c003",
+   "wb-diem-lai-2024-08__C__p35__c005",
+   "wb-diem-lai-2024-08__C__p30__c003",
+   "wb-diem-lai-2024-08__C__p30__c002",
+   "wb-diem-lai-2024-08__C__p30__c004",
+   "wb-diem-lai-2024-08__C__p30__c001",
+   "wb-diem-lai-2024-08__C__p15__c004",
+   "wb-diem-lai-2024-08__C__p31__c003"
+  ],
+  "context": [
+   "[wb-diem-lai-2024-08__C__p35__c004] (trang 35, chuong_1_kinh_te_vi_mo)\n16 Việt Nam, Bộ LĐTB&XH, số liệu lao động 2023. Lạm phát theo chỉ số giá (CPI inflation) của Việt Nam năm 2024 dự kiến tiếp tục tăng, lên đến 4,5% từ mức 3,2% năm trước, do giá lương thực thực phẩm tiếp tục tăng cao. Dự báo trên phản ánh giá thực phẩm tăng vọt gần đây, đóng góp nhiều nhất cho lạm phát mới phát sinh trong nửa đầu năm 2024, và còn tăng hơn nữa khi dịch tả lợn châu Phi bùng phát trên toàn quốc cho dù đã có các biện pháp tăng cường phòng chống dịch.15 Mặc dù xung đột ở U-crai-na và Trung Đông đang tiếp diễn, lạm phát giá dầu và thương phẩm thô được dự báo tiếp tục hạ nhiệt trong năm 2024. Đợt tăng lương công chức và lương hưu vào tháng 7/2024 dự kiến chỉ gây tác động nhỏ đến lạm phát do quy mô lao động khu vực nhà nước là khá nhỏ so với với tổng việc làm (khoảng 2 triệu công chức và viên chức, bằng 3,8% tổng việc làm16). Trong trung hạn, lạm phát được dự báo sẽ quay lại mức bình quân trong lịch sử ở mức khoảng 3,5% trong năm tiếp theo.",
+   "[wb-diem-lai-2024-08__C__p35__c003] (trang 35, chuong_1_kinh_te_vi_mo)\n15 Bênh tả lợn châu Phi là bệnh vi-rút lây nhiễm mạnh, ảnh hưởng đến lợn và lợn hoang dã, có tỷ lệ tử vong lên đến 100% số ca. Đến ngày 14/07/2024, khoảng 660 ca bùng phát được phát hiện so với 208 ca cùng kỳ năm 2023, trong đó 42.400 lợn bị nhiễm phải tiêu hủy tromg năm 2024, cao gấp năm lần so với cùng kỳ 2023. Các cấp có thẩm quyền của Việt Nam đã cômg bố tăng vốn ưu tiên giảm lây lan dịch, bao gồm tiêm vác-xin cho lợn.",
+   "[wb-diem-lai-2024-08__C__p35__c005] (trang 35, chuong_1_kinh_te_vi_mo)\nTài khoản vãng lai được dự báo vẫn thặng dư trong năm 2024, chủ yếu nhờ cán cân thương mại hàng hóa. Cân đối tài khoản vãng lai được dự báo đạt thặng dư nhỏ trong các năm 2025–2026, nhờ xuất khẩu hàng hóa tiếp tục tăng trưởng, cùng với đóng góp của dịch vụ vận tải và du lịch. Dòng vốn đầu tư trực tiếp nước ngoài (FDI) dự kiến vẫn ổn định trong ngắn và trung hạn, do các nhà đầu tư nước ngoài tiếp tục quan tâm đến Việt Nam.\n\nChính phủ dự kiến quay lại củng cố cân đối ngân sách khi nền kinh tế quay lại lộ trình tăng trưởng cao hơn. Bội chi ngân sách dự kiến sẽ giảm còn 0,8% GDP trong năm 2024, tiếp tục giảm còn 0,5% và 0,1% GDP lần lượt trong năm 2025 và 2026, trong quá trình quay lại củng cố cân đối ngân sách trên cả chi",
+   "[wb-diem-lai-2024-08__C__p30__c003] (trang 30, chuong_1_kinh_te_vi_mo)\n11 Giá do Nhà nước quản lý trong lĩnh vực y tế và giáo dục đóng góp 0,6 điểm phần trăm (tăng 0.2 điểm phần trăm kể từ tháng 6/2023) do áp dụng giá dịch vụ y tế mới.12 Lạm phát cơ bản (không bao gồm giá lương thực thực phẩm, xăng dầu, giá các mặt hàng do Nhà nước quản lý) tiếp tục giảm còn 2,6% (so với cùng kỳ năm trước) trong tháng 6/2024, từ mức 4,3% (so với cùng kỳ năm trước) trong tháng 6/2023 (Hình 1.26).\n\nNguồn: NHNN, Haver Analytics và tính toán của cán bộ Ngân hàng Thế giới T6-22 T12-22 T6-23 T12-23 T6-24\n\n0.0\n\n5.0\n\n10.0\n\n15.0\n\n20.0 0 2 4 6 T6-22 T12-22 T6-23 T12-23 T6-24 So v ới tháng trước So v ới cùng kỳ năm trước (LHS) 20 15 10 5 0 6 4 2 0\n\nHình 1.24. Tăng trưởng tín dụng cải thiện, nhưng vẫn thấp hơn chỉ tiêu đề ra % Mục tiêu SBV",
+   "[wb-diem-lai-2024-08__C__p30__c002] (trang 30, chuong_1_kinh_te_vi_mo)\n10 Nguồn: Fiingroup. 11 Giá lợn hơi miền nam Việt Nam lên 65.000 VND (2,6 US$) một ký, tăng 30% kể từ tháng 1/2024, còn giá gà và vịt vẫn ổn định (Nguồn: Chăn Nuôi Việt Nam). 12 Thông tư số 22/2023/TT-BYT (17/11/2023) về giá dịch vụ khám chữa bệnh được bảo hiểm y tế chi trả cho các bệnh viện trên toàn quốc. Lạm phát theo chỉ số giá (CPI inflation) trong tháng 6/2024 lên đến 4,3% (so với cùng kỳ năm trước), trong khi lạm phát cơ bản giảm còn 2,6% (so với cùng kỳ năm trước). Giá lương thực thực phẩm tăng đóng góp lớn nhất vào lạm phát CPI, đóng góp 1,5 điểm phần trăm cho lạm phát trong tháng 6 (+0,8 điểm phần trăm kể từ tháng 1) khi giá lợn hơi tăng mạnh do bệnh tả lợn châu Phi bùng phát tại một số địa phương, buộc phải tiêu hủy 42.400 lợn bị nhiễm trong năm 2025, cao gấp năm lần so với cùng kỳ năm trước.",
+   "[wb-diem-lai-2024-08__C__p30__c004] (trang 30, chuong_1_kinh_te_vi_mo)\nHình 1.25. Tâm lý người tiêu dùng vẫn yếu Vốn vay tiêu dùng, ngàn tỷ VND 0 500 1,000 1,500 2,000 2,500 3,000 2019 2020 2021 2022 2023 Q1.2024 VNDtrn Banks' outstanding CF loans YoY Growth Nguồn: Fiingroup Research 2019 2020 2021 2022 2023 Q1-2024 18,1% 11,1%\n\n1.552 1.956 2.7561.725 2.431 2.702 13,4% 24,3% 13,4% 6,8% Nghìn tỷ đồng\n\n3.000\n\n2.500\n\n2.000\n\n1.500\n\n1.000 500 0 So với tháng trước So với cùng kỳ năm trước (LHS) Tín dụng tiêu dùng Tăng trưởng y/y",
+   "[wb-diem-lai-2024-08__C__p30__c001] (trang 30, chuong_1_kinh_te_vi_mo)\nchiếm khoảng 95% tổng cho vay tiêu dùng10, cho thấy tâm lý của người tiêu dùng vẫn yếu, khi các khoản vay mua nhà và mua ô tô giảm trong Q1-2024 so với cuối năm 2023. Tổng cho vay tiêu dùng vào Q1-2024 tăng 6,8% so cùng kỳ, ngay cả khi xét đến mức tăng trưởng thấp năm 2023, thấp hơn so với tốc độ tăng trưởng so với cùng kỳ bình quân đạt 16,1% trong năm năm trước đó (Hình 1.25).",
+   "[wb-diem-lai-2024-08__C__p15__c004] (trang 15, tong_quan)\nNgân sách nhà nước thặng dư trong nửa đầu năm 2024 sau giai đoạn mở rộng tài khóa nhẹ trong năm 2023 Ngân sách nhà nước ghi nhận bội thu 4,2% GDP trong nửa đầu năm 2024, so với 1,5% trong nửa đầu năm 2023, do thu ngân sách cao hơn và chi ngân sách giảm. Thu ngân sách tăng đến 19,5% Lạm phát tăng lên 4,3% (so với cùng kỳ năm trước) vào tháng 6/2024 do giá lương thực thực phẩm bị đẩy lên. Giá lương thực thực phẩm gia tăng đóng góp lớn nhất vào lạm phát CPI (+0,8 điểm phần trăm kể từ tháng 1/2024) khi giá lợn hơi tăng mạnh do bệnh tả lợn châu Phi bùng phát. Lạm phát cơ bản (không bao gồm giá lương thực thực phẩm, xăng dầu, giá các mặt hàng do Nhà nước quản lý) tiếp tục giảm còn 2,6% (so với cùng kỳ năm trước) trong tháng 6/2024 từ mức 4,3% (so với cùng kỳ năm trước) trong tháng 6/2023.",
+   "[wb-diem-lai-2024-08__C__p31__c003] (trang 31, chuong_1_kinh_te_vi_mo)\nNguồn: TCTK, Haver Analytics, và tính toán của cán bộ Ngân hàng Thế giới Chú thích: Lương thực thực phẩm gồm ngũ cốc, thực phẩm và đồ ăn tiêu thụ ngoài nhà. Nhà ở bao gồm tiền thuê, tiện ích (điện, nước, nhiên liệu) và vật liệu xây dựng.\n\nHình 1.26. Giá thực phẩm tăng góp phần đẩy lạm phát cao hơn Điểm % (so cùng kỳ) T6-19 T6-20 T6-21 T6-22 T6-23 T6-24 -4 -2 0 2 4 6 Jun-19 Jun-20 Jun-21 Jun-22 Jun-23 Jun-24 Food Housing Transport Health & edu. Others Headline Core 6% 4% 2% 0% -2% -4% LT-TP Nhà ở Giao thông Khác Y tế, giáo dục CPI LP cơ bản"
+  ],
+  "context_chars": 5856,
+  "searches": 1,
+  "usage": {
+   "llm_calls": 2,
+   "cached_calls": 0,
+   "input_tokens": 3761,
+   "output_tokens": 141,
+   "thinking_tokens": 207
+  },
+  "latency_s": 3.968,
+  "auto_eval": {
+   "answerable": true,
+   "context_has_evidence": true
+  }
+ },
+ {
+  "query_id": "q08",
+  "split": "dev",
+  "config": "improve_multitool",
+  "provider": "gemini",
+  "model": "gemini-3.1-flash-lite",
+  "question": "Để đạt mục tiêu trở thành quốc gia thu nhập cao vào năm 2045, Việt Nam cần duy trì tốc độ tăng trưởng GDP thực tế hàng năm ở mức bao nhiêu và cần bổ sung bao nhiêu phần trăm GDP mỗi năm cho các dự án cơ sở hạ tầng?",
+  "filter": null,
+  "status": "answered",
+  "answer": "Để đạt mục tiêu trở thành quốc gia thu nhập cao vào năm 2045, Việt Nam cần thực hiện các mục tiêu sau:\n\n*   **Tăng trưởng GDP:** Cần duy trì tốc độ tăng trưởng GDP theo giá so sánh ở mức khoảng 6,5% mỗi năm trong 20 năm tới [wb-diem-lai-2024-08__C__p39__c001].\n*   **Đầu tư cơ sở hạ tầng:** Cần bổ sung nguồn lực ước tính chiếm 7% GDP mỗi năm chỉ riêng cho các dự án cơ sở hạ tầng [wb-diem-lai-2024-08__C__p39__c002].",
+  "citations": [
+   "wb-diem-lai-2024-08__C__p39__c001",
+   "wb-diem-lai-2024-08__C__p39__c002"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_dense",
+    "query": "Việt Nam mục tiêu thu nhập cao 2045 tăng trưởng GDP hàng năm bao nhiêu phần trăm",
+    "filter": null,
+    "top_k": 5,
+    "results": [
+     {
+      "id": "wb-diem-lai-2024-08__C__p39__c001",
+      "rank": 1,
+      "score": 0.816076,
+      "page": 39,
+      "method": "dense",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p39__c002",
+      "rank": 2,
+      "score": 0.735465,
+      "page": 39,
+      "method": "dense",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p39__c005",
+      "rank": 3,
+      "score": 0.72152,
+      "page": 39,
+      "method": "dense",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p16__c004",
+      "rank": 4,
+      "score": 0.706339,
+      "page": 16,
+      "method": "dense",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p36__c004",
+      "rank": 5,
+      "score": 0.705406,
+      "page": 36,
+      "method": "dense",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     }
+    ],
+    "added_ids": [
+     "wb-diem-lai-2024-08__C__p39__c001",
+     "wb-diem-lai-2024-08__C__p39__c002",
+     "wb-diem-lai-2024-08__C__p39__c003",
+     "wb-diem-lai-2024-08__C__p39__c005",
+     "wb-diem-lai-2024-08__C__p39__c004",
+     "wb-diem-lai-2024-08__C__p16__c004",
+     "wb-diem-lai-2024-08__C__p16__c003",
+     "wb-diem-lai-2024-08__C__p36__c004"
+    ],
+    "skipped_over_budget": [
+     "wb-diem-lai-2024-08__C__p36__c003"
+    ],
+    "context_chars": 5657
+   },
+   {
+    "event": "search",
+    "tool": "search_dense",
+    "query": "Việt Nam cần bổ sung bao nhiêu phần trăm GDP mỗi năm cho cơ sở hạ tầng để đạt mục tiêu 2045",
+    "filter": null,
+    "top_k": 5,
+    "results": [
+     {
+      "id": "wb-diem-lai-2024-08__C__p39__c002",
+      "rank": 1,
+      "score": 0.758439,
+      "page": 39,
+      "method": "dense",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p39__c001",
+      "rank": 2,
+      "score": 0.754892,
+      "page": 39,
+      "method": "dense",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p39__c005",
+      "rank": 3,
+      "score": 0.749512,
+      "page": 39,
+      "method": "dense",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p37__c002",
+      "rank": 4,
+      "score": 0.702715,
+      "page": 37,
+      "method": "dense",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p16__c004",
+      "rank": 5,
+      "score": 0.678855,
+      "page": 16,
+      "method": "dense",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     }
+    ],
+    "added_ids": [],
+    "skipped_over_budget": [
+     "wb-diem-lai-2024-08__C__p37__c002",
+     "wb-diem-lai-2024-08__C__p37__c001",
+     "wb-diem-lai-2024-08__C__p37__c003"
+    ],
+    "context_chars": 5657
+   },
+   {
+    "event": "answer",
+    "citations": [
+     "wb-diem-lai-2024-08__C__p39__c001",
+     "wb-diem-lai-2024-08__C__p39__c002"
+    ]
+   }
+  ],
+  "context_ids": [
+   "wb-diem-lai-2024-08__C__p39__c001",
+   "wb-diem-lai-2024-08__C__p39__c002",
+   "wb-diem-lai-2024-08__C__p39__c003",
+   "wb-diem-lai-2024-08__C__p39__c005",
+   "wb-diem-lai-2024-08__C__p39__c004",
+   "wb-diem-lai-2024-08__C__p16__c004",
+   "wb-diem-lai-2024-08__C__p16__c003",
+   "wb-diem-lai-2024-08__C__p36__c004"
+  ],
+  "context": [
+   "[wb-diem-lai-2024-08__C__p39__c001] (trang 39, chuong_2_thi_truong_von)\nViệt Nam, một trong những nền kinh tế tăng trưởng cao trên thế giới, đặt mục tiêu trở thành quốc gia thu nhập cao vào năm 2045. Để đạt được mục tiêu này, Việt Nam cần đạt tăng trưởng GDP theo giá so sánh ở mức khoảng 6,5% mỗi năm trong 20 năm tới, đồng thời phải nâng cao tổng đầu tư hiện đang ở mức 32% GDP (khoảng 131 tỷ đô la Mỹ).19 Mục tiêu phấn đấu này vẫn nằm trong khả năng vì nền kinh tế Việt Nam đã từng tăng trưởng ở mức trên 6,5% và đã phục hồi nhanh kể từ sau đại dịch COVID-19.",
+   "[wb-diem-lai-2024-08__C__p39__c002] (trang 39, chuong_2_thi_truong_von)\nĐể trở thành quốc gia thu nhập cao, Việt Nam sẽ cần tăng cường huy động tài chính cho các dự án dài hạn - đặc biệt là trong lĩnh vực cơ sở hạ tầng và chuyển đổi khí hậu—với các nguồn lực bổ sung ước tính chiếm 7% GDP chỉ riêng cho các dự án cơ sở hạ tầng.20 Xét GDP năm 2023 của Việt Nam, con số này tương đương 30 tỷ đô la Mỹ mỗi năm. Đầu tư công sẽ chỉ đáp ứng một phần của nhu cầu vốn (một phần ba cho các khoản đầu tư liên quan đến khí hậu), và phần còn lại phải do khu vực tư nhân đáp ứng. Bên cạnh cơ sở hạ tầng vật chất, nguồn tài chính dài hạn huy động thông qua thị trường vốn cũng rất cần thiết cho việc thích ứng với biến đổi khí hậu, giảm thải các-bon trong nền kinh tế, cũng như phát triển hạ tầng kỹ thuật số.",
+   "[wb-diem-lai-2024-08__C__p39__c003] (trang 39, chuong_2_thi_truong_von)\nThị trường vốn hoạt động hiệu quả có vai trò hết sức quan trọng để huy động nguồn lực, như một phần của thị trường tài chính có tính bao trùm, có khả năng chống chịu cao và hiện đại. Thị trường vốn lành mạnh là yếu tố cần thiết cho chiến lược tăng trưởng trở thành quốc gia thu nhập cao của Việt Nam. Các thị trường đó sẽ giúp huy động nguồn lực cho đầu tư dài hạn và phân bổ nguồn lực hiệu quả giữa các ngành, khu vực địa lý và thời điểm khác nhau, đồng thời giúp đa dạng hóa các nguồn tài chính và giảm tập trung rủi ro trong khu vực ngân hàng.\n\nThị trường vốn của Việt Nam đã phát triển mạnh mẽ trong thập kỷ qua, được hỗ trợ bởi các điều kiện kinh tế vĩ mô vững vàng, nhưng vẫn còn non trẻ. Tăng trưởng kinh tế lành mạnh, tỷ giá ổn định, cải thiện về củng cố cân đối tài khóa, kiểm soát lạm phát và ổn định chính trị đã đặt Việt Nam vào vị thế để thị trường vốn có thể bắt kịp các quốc gia khác khu vực xét về quy mô tương đối (Hình 2.1).",
+   "[wb-diem-lai-2024-08__C__p39__c005] (trang 39, chuong_2_thi_truong_von)\n19 Mức đầu tư hiện nay của Việt Nam (đầu tư công và tư nhân) tương đương 32% GDP, thấp hơn so với Trung Quốc và Thổ Nhĩ Kỳ, hoặc tỷ lệ đầu tư trong quá khứ của Hàn Quốc và Sing-ga-po khi họ trở thành quốc gia thu nhập cao (Báo cáo chuỗi giá trị toàn cầu của Ngân hàng Thế giới, sắp ra mắt). 20 Diop, M. 2019. “Đẩy nhanh con đường đi tới thịnh vượng của Việt Nam.” Washington, DC: Ngân hàng Thế giới. Nhu cầu tài chính bổ sung cho chuyển đổi khí hậu ước bằng 368 tỷ US$ vào năm 2040, tương đương khoảng 6,8% GDP mỗi năm (Ngân hàng Thế giới CCDR 2022).\n\nI. Giới thiệu",
+   "[wb-diem-lai-2024-08__C__p39__c004] (trang 39, chuong_2_thi_truong_von)\nMức độ hiệu quả của thị trường vốn có thể được đánh giá qua sự thành công trong việc trung gian tài chính. Trung gian tài chính đóng vai trò huy động nguồn lực bằng cách kết nối các tác nhân kinh tế có nhu cầu huy động tài chính với những tác nhân có tiết kiệm. Trung gian tài chính phát triển tốt có thể giúp tối ưu hóa về phân bổ nguồn lực kinh tế giữa các lĩnh vực, địa bàn và giai đoạn thời gian khác nhau.\n\nPhân bổ nguồn lực hiệu quả—điều quan trọng để nền kinh tế đạt tăng trưởng cao hơn với các nguồn lực khan hiếm—đòi hỏi việc định giá tài sản và đầu tư chính xác, để thị trường tài chính vận hành tốt. Chính vì vậy, 18 Chương này là phiên bản ngắn của báo cáo có tiêu đề \"Mở ra tiềm năng của thị trường vốn tại Việt Nam,\" một ấn phẩm của Ngân hàng Thế giới ra mắt vào tháng 12/2023, được cập nhật những số liệu thống kê và thông tin gần đây hơn.",
+   "[wb-diem-lai-2024-08__C__p16__c004] (trang 16, tong_quan)\nBảng 0.1. Một số chỉ số kinh tế, Việt Nam 2021–2026 6,5 5,9 5,4 7,0 7,4 7,0 4,0 1,0 -0,4 35,0 6,1 5,3 5,5 6,8 11,4 11,7 4,5 0,9 -0,8 35,7 6,5 5,9 5,4 7,2 8,0 7,7 3,5 1,0 -0,2 34,6 Chỉ số Tăng trưởng GDP (%) Tăng trưởng các yếu tố chi tiêu Tiêu dùng của tư nhân Tiêu dùng của Chính phủ Đầu tư Xuất khẩu Nhập khẩu Chỉ số giá tiêu dùng (bình quân, %) Cân đối tài khoản vãng lai (%GDP) Cân đối tài khóa (*) (%GDP) Nợ Chính phủ và được Chính phủ bảo lãnh (**) (% GDP) 2021 2,6 2,0 4,7 3,7 13,9 15,8 1,8 -2,2 -1,4 42,5 2023 5,0 3,5 4,9 4,1 -2,5 -4,3 3,3 5,8 -2,4 36,0 2022 8,0 7,8 3,6 5,8 4,9 2,2 3,1 0,3 0,7 37,1 Ước 2024 Dự báo 2025 Dự báo 2026",
+   "[wb-diem-lai-2024-08__C__p16__c003] (trang 16, tong_quan)\nTrong điều kiện xuất khẩu tiếp tục tăng trưởng và bất động sản có dấu hiệu phục hồi, nhu cầu trong nước sẽ vững lên vào nửa cuối năm 2024 khi tâm lý nhà đầu tư và người tiêu dùng được cải thiện. Cân đối tài khoản vãng lai được dự báo vẫn duy trì thặng dư nhỏ, đồng thời Chính phủ đang quay lại củng cố cân đối ngân sách, còn lạm phát dự báo sẽ giảm từ 4,5% năm 2024 xuống còn 3,5% năm 2026.\n\nNguồn: TCTK; Bộ Tài chính; NHNN; IMF; và tính toán của cán bộ Ngân hàng Thế giới Chú thích: e = ước; f = dự báo, *: không bao gồm chi tiêu chưa phân bổ và áp dụng chuẩn Thống kê Tài chính Chính phủ (GFS), **: tính toán dựa trên Quyết định số 458/QĐ-TTg (28/04/2023) về kế hoạch vay và trả nợ công năm 2023, giai đoạn 2023-2025, Nghị quyết số 105/2023/QH15 (10/11/2023) về dự toán ngân sách năm 2024 của Quốc hội",
+   "[wb-diem-lai-2024-08__C__p36__c004] (trang 36, chuong_1_kinh_te_vi_mo)\nBảng 1.1. Một số chỉ số kinh tế, Việt Nam 2021–2026 6,5 5,9 5,4 7,0 7,4 7,0 4,0 1,0 -0,4 35,0 6,1 5,3 5,5 6,8 11,4 11,7 4,5 0,9 -0,8 35,7 6,5 5,9 5,4 7,2 8,0 7,7 3,5 1,0 -0,2 34,6 Chỉ số Tăng trưởng GDP (%) Tăng trưởng các yếu tố chi tiêu Tiêu dùng của tư nhân Tiêu dùng của Chính phủ Đầu tư Xuất khẩu Nhập khẩu Chỉ số giá tiêu dùng (bình quân, %) Cân đối tài khoản vãng lai (%GDP) Cân đối tài khóa (*) (%GDP) Nợ Chính phủ và được Chính phủ bảo lãnh (**) (% GDP) 2021 2,6 2,0 4,7 3,7 13,9 15,8 1,8 -2,2 -1,4 42,5 2023 5,0 3,5 4,9 4,1 -2,5 -4,3 3,3 5,8 -2,4 36,0 2022 8,0 7,8 3,6 5,8 4,9 2,2 3,1 0,3 0,7 37,1 Ước 2024 Dự báo 2025 Dự báo 2026"
+  ],
+  "context_chars": 5657,
+  "searches": 2,
+  "usage": {
+   "llm_calls": 2,
+   "cached_calls": 0,
+   "input_tokens": 3681,
+   "output_tokens": 237,
+   "thinking_tokens": 229
+  },
+  "latency_s": 6.223,
+  "auto_eval": {
+   "answerable": true,
+   "context_has_evidence": true
+  }
+ },
+ {
+  "query_id": "q09",
+  "split": "dev",
+  "config": "improve_multitool",
+  "provider": "gemini",
+  "model": "gemini-3.1-flash-lite",
+  "question": "Sáu yếu tố nền tảng 'I' (I#1 đến I#6) cấu thành khung căn bản của thị trường vốn Việt Nam bao gồm những yếu tố nào?",
+  "filter": null,
+  "status": "answered",
+  "answer": "Sáu yếu tố nền tảng \"I\" (I#1 đến I#6) cấu thành khung căn bản của thị trường vốn Việt Nam bao gồm:\n\n*   **I#1: Công cụ (Instrument):** Các loại tài sản, kênh phát hành và sản phẩm tài chính (như giấy tờ có giá, trái phiếu, cổ phiếu, công cụ phái sinh) [wb-diem-lai-2024-08__C__p41__c002], [wb-diem-lai-2024-08__C__p42__c001].\n*   **I#2: Nhà đầu tư (Investor):** Các chủ thể đại diện cho phía cầu, cung cấp vốn cho thị trường (bao gồm nhà đầu tư khu vực công, tư nhân, trong nước hoặc quốc tế) [wb-diem-lai-2024-08__C__p42__c001].\n*   **I#3: Tổ chức phát hành (Issuer):** Các chủ thể đại diện cho phía cung, tạo lập và bán các công cụ tài chính để huy động vốn (như Chính phủ hoặc các doanh nghiệp niêm yết) [wb-diem-lai-2024-08__C__p42__c001].\n*   **I#4: Trung gian (Intermediary):** Các đơn vị quản lý sự lưu chuyển vốn từ nhà đầu tư sang tổ chức phát hành (như công ty chứng khoán hoặc ngân hàng) [wb-diem-lai-2024-08__C__p42__c001].\n*   **I#5: Hạ tầng (Infrastructure):** Hệ thống tạo điều kiện lưu chuyển vốn, bao gồm hạ tầng giao dịch, thanh toán (sàn giao dịch, ngân hàng thanh toán, bù trừ, lưu ký) và hạ tầng thông tin (tổ chức xếp hạng tín nhiệm, đơn vị cung cấp dữ liệu) [wb-diem-lai-2024-08__C__p42__c002].\n*   **I#6: Cơ quan quản lý (Institution):** Các tổ chức nhà nước thực hiện quản lý, giám sát nhằm đảm bảo thị trường hoạt động hiệu quả, bảo vệ nhà đầu tư và duy trì ổn định tài chính [wb-diem-lai-2024-08__C__p42__c002].",
+  "citations": [
+   "wb-diem-lai-2024-08__C__p41__c002",
+   "wb-diem-lai-2024-08__C__p42__c001",
+   "wb-diem-lai-2024-08__C__p42__c002"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_keyword",
+    "query": "sáu yếu tố nền tảng 'I' I#1 đến I#6 thị trường vốn Việt Nam",
+    "filter": null,
+    "top_k": 5,
+    "results": [
+     {
+      "id": "wb-diem-lai-2024-08__C__p41__c002",
+      "rank": 1,
+      "score": 58.120275,
+      "page": 41,
+      "method": "bm25",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p42__c002",
+      "rank": 2,
+      "score": 24.093863,
+      "page": 42,
+      "method": "bm25",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p17__c003",
+      "rank": 3,
+      "score": 20.754192,
+      "page": 17,
+      "method": "bm25",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p43__c001",
+      "rank": 4,
+      "score": 19.194833,
+      "page": 43,
+      "method": "bm25",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p17__c004",
+      "rank": 5,
+      "score": 18.119738,
+      "page": 17,
+      "method": "bm25",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     }
+    ],
+    "added_ids": [
+     "wb-diem-lai-2024-08__C__p41__c002",
+     "wb-diem-lai-2024-08__C__p41__c001",
+     "wb-diem-lai-2024-08__C__p41__c003",
+     "wb-diem-lai-2024-08__C__p42__c002",
+     "wb-diem-lai-2024-08__C__p42__c001",
+     "wb-diem-lai-2024-08__C__p17__c003",
+     "wb-diem-lai-2024-08__C__p17__c002",
+     "wb-diem-lai-2024-08__C__p17__c005"
+    ],
+    "skipped_over_budget": [
+     "wb-diem-lai-2024-08__C__p17__c004",
+     "wb-diem-lai-2024-08__C__p43__c001",
+     "wb-diem-lai-2024-08__C__p43__c002",
+     "wb-diem-lai-2024-08__C__p17__c004"
+    ],
+    "context_chars": 5668
+   },
+   {
+    "event": "answer",
+    "citations": [
+     "wb-diem-lai-2024-08__C__p41__c002",
+     "wb-diem-lai-2024-08__C__p42__c001",
+     "wb-diem-lai-2024-08__C__p42__c002"
+    ]
+   }
+  ],
+  "context_ids": [
+   "wb-diem-lai-2024-08__C__p41__c002",
+   "wb-diem-lai-2024-08__C__p41__c001",
+   "wb-diem-lai-2024-08__C__p41__c003",
+   "wb-diem-lai-2024-08__C__p42__c002",
+   "wb-diem-lai-2024-08__C__p42__c001",
+   "wb-diem-lai-2024-08__C__p17__c003",
+   "wb-diem-lai-2024-08__C__p17__c002",
+   "wb-diem-lai-2024-08__C__p17__c005"
+  ],
+  "context": [
+   "[wb-diem-lai-2024-08__C__p41__c002] (trang 41, chuong_2_thi_truong_von)\nĐể thị trường vốn thực hiện các chức năng trên hiệu quả, các yếu tố liên kết trên thị trường phải cùng vận hành đồng bộ. Những chính sách tác động đến đến các yếu tố thị trường trên phải được thiết kế và triển khai thận trọng để khai mở dòng vốn đầu tư to lớn và đem lại tác động, đồng thời chuyển vốn đó đến các lĩnh vực hoạt động năng suất trong nền kinh tế Việt Nam. Mục tiêu quan trọng của Chính phủ và tất cả các bên liên quan là tạo nỗ lực đồng bộ để phát triển các thị trường vốn.\n\nThị trường vốn ở Việt Nam được xây dựng trên sáu yếu tố \"I\" (I#1-I#6) như minh họa ở Hình 2.5. I#1: Công cụ (Instrument) có vai trò trung tâm ở bất kỳ thị trường vốn nào, vì công cụ tài chính II. Các yếu tố quan trọng trong thị trường vốn ở Việt Nam Indonesia Philippines Viet Nam Thailand China Malaysia Rep.of Korea Japan Singapore % of GDP Mutual funds Pension funds Insurance",
+   "[wb-diem-lai-2024-08__C__p41__c001] (trang 41, chuong_2_thi_truong_von)\n21 Đường cong lợi suất biểu diễn các mức lãi suất theo các kỳ hạn khác nhau, ghĩa là ngắn hạn, trung hạn và dài hạn. ngân hàng trung ương đồng nghĩa với việc đường cong lợi suất chưa được sát. 21 Chênh lệnh thường được thể hiện rõ trên giá trái phiếu chính phủ giữa khi đấu thầu và khi được giao dịch trên thị trường thứ cấp. Giá trái phiếu chính phủ hiếm khi được dùng làm mốc tham chiếu cho các công cụ khác, như trái phiếu doanh nghiệp. Trong thị trường cổ phiếu, khối lượng đã tăng đáng kể khi tổng giá trị giao dịch năm 2023 đạt 7.222 ngàn tỷ đồng (282 tỷ đô la Mỹ), nhưng thị trường cổ phiếu Việt Nam là thị trường biến động nhất trong khu vực (Hình 2.4).",
+   "[wb-diem-lai-2024-08__C__p41__c003] (trang 41, chuong_2_thi_truong_von)\nHình 2.3. Tỷ lệ các nhà đầu tư tổ chức so GDP (2023) Singapore Nhật Bản Hàn Quốc Malaysia Trung Quốc Thái Lan Philippines Việt Nam Indonesia 859 177 136 130 45 37 19 17 11 % of GDP -50.0% -40.0% -30.0% -20.0% -10.0%\n\n0.0%\n\n10.0%\n\n20.0%\n\n30.0%\n\n40.0%\n\n50.0% Volatility of equity markets in the region Viet Nam Indonesia Malaysia Singapore Thailand\n\nHình 2.4. Biến động ở các thị trường cổ phiếu trong khu vực 50% 40% 30% 20% 10% 0% -10% -20% -30% -40% -50% 2016 2017 2018 2019 2020 2021 2022 2023 Nguồn: Sở Giao dịch chứng khoán In-đô-nê-xia, Sở Giao dịch chứng khoán Ma-lay-xia, Chỉ số chứng khoán SET của Thái Lan, Chỉ số chứng khoán Straits Times, các chỉ số của Việt Nam, cán bộ Nhóm NHTG Nguồn: Finstat, IMF, Ngân hàng Thế giới, các cơ quan Chính phủ Quỹ tương hỗ Quỹ hưu trí Bảo hiểm Indonesia Malaysia Singapore Thái Lan Việt Nam",
+   "[wb-diem-lai-2024-08__C__p42__c002] (trang 42, chuong_2_thi_truong_von)\nI#5: Hạ tầng (Infrastructure) nghĩa là hạ tầng thị trường tạo điều kiện để thực hiện lưu chuyển vốn từ nhà đầu tư sang tổ chức phát hành. Hạ tầng không chỉ bao gồm hạ tầng giao dịch và thanh toán (các sàn giao dịch chứng khoán, ngân hàng thanh toán, tổ chức bù trừ, lưu ký), mà còn có cả hạ tầng thông tin (các tổ chức đánh giá định mức tín nhiệm, đơn vị cung cấp dữ liệu).\n\nI#6: Cơ quan quản lý (Institution) nghĩa là các tổ chức nhà nước quản lý và giám sát các thành viên thị trường với mục tiêu chính nhằm đảm bảo thị trường hoạt động hiệu quả, bảo vệ nhà đầu tư và đảm bảo ổn định chung trên thị trường tài chính.\n\nHình 2.5. Khung căn bản về thị trường vốn của Việt Nam Cơ quan quản lý (Chính sách, Giám sát và Thực thi) Hạ tầng (Sàn giao dịch chứng khoán, Bù trừ/Thanh toán, Tổ chức xếp hạng tín nhiệm) Công cụ (Các loại tài sản, Kênh phát hành, Sản phẩm) Nhà đầu tư Tổ chức phát hành Trung gian Nền tảng thị trường Nguồn: Cán bộ Ngân hàng Thế giới",
+   "[wb-diem-lai-2024-08__C__p42__c001] (trang 42, chuong_2_thi_truong_von)\nđược bán để đổi lấy tiền, bao gốm các giấy tờ có giá, trái phiếu (chính phủ và doanh nghiệp), cổ phiếu, và các công cụ phái sinh. I#2: Nhà đầu tư (Investor) cấp “máu” nuôi sống thị trường vốn vì họ có tiền để đầu tư. Họ đại diện cho phía cầu trên thị trường. Thành phần các nhà đầu tư đa dạng, gồm nhà đầu tư khu vực công, khu vực tư nhân, trong nước hoặc quốc tế.\n\nI#3: Tổ chức phát hành (Issuer) là các tổ chức tạo lập và bán các công cụ tài chính để huy động vốn từ phía nhà đầu tư. Tổ chức phát hành đại diện cho phía cung trên các thị trường vốn. Đó có thể là tổ chức phát hành của Chính phủ hoặc ngoài chính phủ (ví dụ các doanh nghiệp niêm yết). I#4: Trung gian (Intermediary) là bên quản lý sự lưu chuyển của vốn từ nhà đầu tư sang tổ chức phát hành. Họ đóng vai trò là đại lý cho tổ chức phát hành (là bên cần tiền) và nhà đầu tư (là bên có tiền). Đơn vị trung gian có thể là công ty chứng khoán hoặc ngân hàng.",
+   "[wb-diem-lai-2024-08__C__p17__c003] (trang 17, tong_quan)\nTrên cơ sở nền tảng kinh tế vĩ mô vững vàng, thị trường vốn ở Việt Nam đã và đang phát triển mạnh mẽ trong thập kỷ qua. Tăng trưởng kinh tế lành mạnh, lạm phát thấp và tỷ giá ổn định, kết hợp với ổn định chính trị khiến thị trường vốn của Việt Nam đang bắt kịp với các quốc gia so sánh trong khu vực xét về quy mô, đạt trên 90% GDP vào năm 2023, tương đương với In-đô-nê-xia. Các thị trường vốn vận hành tốt là điều kiện quan trọng để huy động nguồn lực, trong tổng thể thị trường tài chính mang tính bao trùm, có khả năng chống chịu linh hoạt và hiện đại.",
+   "[wb-diem-lai-2024-08__C__p17__c002] (trang 17, tong_quan)\nTriển vọng trên cũng có thể được hưởng lợi từ những diễn biến tích cực hơn. Tăng trưởng cao hơn dự kiến của kinh tế toàn cầu có thể thúc đẩy phục hồi bền vững cho lĩnh vực xuất khẩu của Việt Nam. Chính sách tiền tệ nới lỏng hơn tại các nền kinh tế phát triển lớn đã được bắt đầu tại Ngân hàng Trung ương Châu Âu và Ngân hàng Trung ương Anh Quốc, kết hợp với Cục Dự trữ Liên bang Hoa Kỳ đang có tín hiệu về khả năng cắt giảm lãi suất vào tháng 9, có thể tiếp tục thúc đẩy tổng cầu ở các nền kinh tế phát triển và đẩy mạnh xuất khẩu của Việt Nam. Điều này cũng có thể góp phần làm giảm chi phí huy động tài chính trên toàn cầu và thu hẹp chênh lệch lãi suất giữa VND/US$, từ đó đem lại tác động tích cực lan tỏa cho ngành ngân hàng và khu vực tài chính ở Việt Nam.",
+   "[wb-diem-lai-2024-08__C__p17__c005] (trang 17, tong_quan)\nCòn về định giá, các thị trường vốn chưa tạo ra được giá tham chiếu tốt Vươn tới tầm cao mới trên thị trường vốn"
+  ],
+  "context_chars": 5668,
+  "searches": 1,
+  "usage": {
+   "llm_calls": 2,
+   "cached_calls": 0,
+   "input_tokens": 3151,
+   "output_tokens": 573,
+   "thinking_tokens": 448
+  },
+  "latency_s": 4.342,
+  "auto_eval": {
+   "answerable": true,
+   "context_has_evidence": true
+  }
+ },
+ {
+  "query_id": "q10",
+  "split": "dev",
+  "config": "improve_multitool",
+  "provider": "gemini",
+  "model": "gemini-3.1-flash-lite",
+  "question": "Vì sao lãi suất chiết khấu và lãi suất tái cấp vốn do Ngân hàng Nhà nước công bố không thể dùng làm mốc định giá tham chiếu cho các công cụ tài chính dài hạn?",
+  "filter": null,
+  "status": "answered",
+  "answer": "Lãi suất chiết khấu và lãi suất tái cấp vốn do Ngân hàng Nhà nước Việt Nam công bố không thể dùng làm mốc định giá tham chiếu cho các công cụ tài chính dài hạn vì các mức lãi suất này chưa có mối liên kết hiệu quả với thị trường [wb-diem-lai-2024-08__C__p44__c003].",
+  "citations": [
+   "wb-diem-lai-2024-08__C__p44__c003"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_dense",
+    "query": "lãi suất chiết khấu và lãi suất tái cấp vốn Ngân hàng Nhà nước không thể dùng làm mốc định giá tham chiếu cho các công cụ tài chính dài hạn vì sao",
+    "filter": null,
+    "top_k": 5,
+    "results": [
+     {
+      "id": "wb-diem-lai-2024-08__C__p44__c003",
+      "rank": 1,
+      "score": 0.769261,
+      "page": 44,
+      "method": "dense",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p44__c005",
+      "rank": 2,
+      "score": 0.731238,
+      "page": 44,
+      "method": "dense",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p41__c001",
+      "rank": 3,
+      "score": 0.718566,
+      "page": 41,
+      "method": "dense",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p46__c002",
+      "rank": 4,
+      "score": 0.713049,
+      "page": 46,
+      "method": "dense",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p60__c002",
+      "rank": 5,
+      "score": 0.708899,
+      "page": 60,
+      "method": "dense",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     }
+    ],
+    "added_ids": [
+     "wb-diem-lai-2024-08__C__p44__c003",
+     "wb-diem-lai-2024-08__C__p44__c002",
+     "wb-diem-lai-2024-08__C__p44__c004",
+     "wb-diem-lai-2024-08__C__p44__c005",
+     "wb-diem-lai-2024-08__C__p41__c001",
+     "wb-diem-lai-2024-08__C__p41__c002",
+     "wb-diem-lai-2024-08__C__p46__c002",
+     "wb-diem-lai-2024-08__C__p46__c001"
+    ],
+    "skipped_over_budget": [
+     "wb-diem-lai-2024-08__C__p46__c003",
+     "wb-diem-lai-2024-08__C__p60__c002",
+     "wb-diem-lai-2024-08__C__p60__c001",
+     "wb-diem-lai-2024-08__C__p60__c003"
+    ],
+    "context_chars": 5554
+   },
+   {
+    "event": "answer",
+    "citations": [
+     "wb-diem-lai-2024-08__C__p44__c003"
+    ]
+   }
+  ],
+  "context_ids": [
+   "wb-diem-lai-2024-08__C__p44__c003",
+   "wb-diem-lai-2024-08__C__p44__c002",
+   "wb-diem-lai-2024-08__C__p44__c004",
+   "wb-diem-lai-2024-08__C__p44__c005",
+   "wb-diem-lai-2024-08__C__p41__c001",
+   "wb-diem-lai-2024-08__C__p41__c002",
+   "wb-diem-lai-2024-08__C__p46__c002",
+   "wb-diem-lai-2024-08__C__p46__c001"
+  ],
+  "context": [
+   "[wb-diem-lai-2024-08__C__p44__c003] (trang 44, chuong_2_thi_truong_von)\nLãi suất chuẩn từ thị trường tiền tệ sôi động sẽ hỗ trợ phát triển thị trường bằng việc giảm bất đối xứng thông tin và cải thiện xác định giá, nhưng tất cả các mức lãi suất công bố ở Việt Nam đều có những điểm yếu then chốt gây hạn chế trong việc sử dụng làm tham chiếu giá đáng tin cậy. Vì lãi suất chiết khấu và tái cấp vốn do Ngân hàng Nhà nước Việt Nam (NHNN) công bố đều chưa có mối liên kết hiệu quả với thị trường (Hình 2.7), nên chúng không thể được dùng để làm mốc định giá cho các công cụ dài hạn hơn. Lãi suất liên ngân hàng qua đêm, được NHNN tổng hợp và công bố, có thể là ứng cử viên trở thành lãi suất tham chiếu dựa trên giao dịch được sử dụng rộng rãi, nhưng cần được kiện toàn để tuân thủ với các Nguyên tắc đối với Mức chuẩn Tài chính của Tổ chức Quốc tế các Ủy ban Chứng khoán (IOSCO). Trong khi đó, lãi suất ngày ngắn hạn do Hiệp hội Thị trường Trái phiếu Việt Nam (VBMA) dựa trên các báo giá tại thị trường repo kém thanh khoản hơn, thay vì dựa trên giá giao dịch thực tế.",
+   "[wb-diem-lai-2024-08__C__p44__c002] (trang 44, chuong_2_thi_truong_von)\nThị trường repo đặc biệt quan trọng trong việc thực hiện chính sách tiền tệ và phát triển thị trường chứng khoán, do thị trường này cho phép hoạt động tiền tệ của ngân hàng trung ương thực hiện cung cấp hoặc rút thanh khoản trên thị trường liên ngân hàng qua các giao dịch có đảm bảo bằng tài sản thế chấp. Tuy nhiên, sự hấp dẫn của hợp đồng repo tại Việt Nam bị hạn chế do chưa có các thỏa thuận hợp đồng repo chuẩn được sử dụng rộng rãi.",
+   "[wb-diem-lai-2024-08__C__p44__c004] (trang 44, chuong_2_thi_truong_von)\nLãi suất cho vay liên ngân hàng của Việt Nam (VNIBOR) cũng được dựa trên giá chào dự kiến.\n\n0.00%\n\n5.00%\n\n10.00%\n\n15.00%\n\n20.00%\n\n25.00%\n\n30.00% - 500 1,000 1,500 2,000 2,500 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 VND trn Outstanding volume Outstanding/GDP (%) (rhs) Nguồn: Hiệp hội Trái phiếu Việt Nam, FiinGroup Nguồn: Hiệp hội Trái phiếu Việt Nam, Bộ Tài chính, Việt Nam",
+   "[wb-diem-lai-2024-08__C__p44__c005] (trang 44, chuong_2_thi_truong_von)\nHình 2.7. Lãi suất ngắn hạn thị trường tiền tệ so với lãi suất tái cấp vốn và lãi suất chiết khấu 0% 1% 2% 3% 4% 5% 6% 7% 8% 9% Jan-21 Feb-21 Mar-21 Apr-21 May-21 Jun-21 Jul-21 Aug-21 Sep-21 Oct-21 Nov-21 Dec-21 Jan-22 Feb-22 Mar-22 Apr-22 May-22 Jun-22 Jul-22 Aug-22 Sep-22 Oct-22 Nov-22 Dec-22 Jan-23 Feb-23 Mar-23 Apr-23 May-23 Jun-23 Jul-23 Aug-23 Sep-23 Oct-23 Nov-23 Dec-23 Overnight Interbank rate Reﬁnance rate Discount rate T11-21 T3-21 T1-23 2014 T7-23 2017 2021 T3-22 T7-21 T5-23 2016 2020 T11-23 2019 2023 T9-22 2012 T1-22 T5-21 T1-21 T3-23 2015 T9-23 2018 2022 T5-22 T11-22 2013 T9-21 T7-22 9% 8% 7% 6% 5% 4% 3% 2% 1% 0%\n\nHình 2.8. Khối lượng trái phiếu chính phủ và quy mô so GDP 30% 25% 20% 15% 10% 5% 0% Nghìn tỷ đồng\n\n2.500\n\n2.000\n\n1.500\n\n1.000 500 LS liên NH qua đêm LS tái cấp vốn LS tái chiết khấu Quy mô/GDP (%) (phải)Khối lượng trái phiếu CP",
+   "[wb-diem-lai-2024-08__C__p41__c001] (trang 41, chuong_2_thi_truong_von)\n21 Đường cong lợi suất biểu diễn các mức lãi suất theo các kỳ hạn khác nhau, ghĩa là ngắn hạn, trung hạn và dài hạn. ngân hàng trung ương đồng nghĩa với việc đường cong lợi suất chưa được sát. 21 Chênh lệnh thường được thể hiện rõ trên giá trái phiếu chính phủ giữa khi đấu thầu và khi được giao dịch trên thị trường thứ cấp. Giá trái phiếu chính phủ hiếm khi được dùng làm mốc tham chiếu cho các công cụ khác, như trái phiếu doanh nghiệp. Trong thị trường cổ phiếu, khối lượng đã tăng đáng kể khi tổng giá trị giao dịch năm 2023 đạt 7.222 ngàn tỷ đồng (282 tỷ đô la Mỹ), nhưng thị trường cổ phiếu Việt Nam là thị trường biến động nhất trong khu vực (Hình 2.4).",
+   "[wb-diem-lai-2024-08__C__p41__c002] (trang 41, chuong_2_thi_truong_von)\nĐể thị trường vốn thực hiện các chức năng trên hiệu quả, các yếu tố liên kết trên thị trường phải cùng vận hành đồng bộ. Những chính sách tác động đến đến các yếu tố thị trường trên phải được thiết kế và triển khai thận trọng để khai mở dòng vốn đầu tư to lớn và đem lại tác động, đồng thời chuyển vốn đó đến các lĩnh vực hoạt động năng suất trong nền kinh tế Việt Nam. Mục tiêu quan trọng của Chính phủ và tất cả các bên liên quan là tạo nỗ lực đồng bộ để phát triển các thị trường vốn.\n\nThị trường vốn ở Việt Nam được xây dựng trên sáu yếu tố \"I\" (I#1-I#6) như minh họa ở Hình 2.5. I#1: Công cụ (Instrument) có vai trò trung tâm ở bất kỳ thị trường vốn nào, vì công cụ tài chính II. Các yếu tố quan trọng trong thị trường vốn ở Việt Nam Indonesia Philippines Viet Nam Thailand China Malaysia Rep.of Korea Japan Singapore % of GDP Mutual funds Pension funds Insurance",
+   "[wb-diem-lai-2024-08__C__p46__c002] (trang 46, chuong_2_thi_truong_von)\nTrong nỗ lực duy trì chi phí vay nợ thấp, Bộ Tài chính đôi khi hủy bỏ phát hành nếu bên mua đưa ra mức lợi suất cao hơn mong muốn, điều này thường diễn ra khi lợi suất trên thị trường thứ cấp tăng lên. Chẳng hạn, từ tháng 1/2020 đến tháng 12/2023, Bộ Tài chính đã từ chối toàn bộ các giá thầu trong 20% đợt đấu thầu. Tất cả các vấn đề đó góp phần gây ra sự biến dạng cho chức năng định giá của thị trường trái phiếu Chính phủ.",
+   "[wb-diem-lai-2024-08__C__p46__c001] (trang 46, chuong_2_thi_truong_von)\nTuy nhiên, trọng tâm phát hành trái phiếu có kỳ hạn dài hơn cho BHXH cũng có hệ quả không mong muốn cho việc xác định giá trái phiếu, đường cong lợi suất và thanh khoản trên thị trường thứ cấp. Trước hết, vì BHXH không được phép đầu tư gì khác ngoài các công cụ nợ của Chính phủ và các ngân hàng thuộc sở hữu Nhà nước, 22 họ trở thành nhà đầu tư nội ngành về trái phiếu Chính phủ. Tình trạng này khiến họ phải mua trái phiếu chính phủ ngay cả khi lợi suất thấp, vì không có kênh nào khác để đầu tư lượng tiền dự trữ lớn (vấn đề này sẽ được thảo luận thêm ở Phần 2.1). Thứ hai, việc tập trung vào các nhà đầu tư \"mua và nắm giữ\" như BHXH có nghĩa là giao dịch trên thị trường thứ cấp sẽ kém sôi động và do đó thiếu thông tin về giá cả. Các hạn chế pháp lý hiện tại đang ngăn cản BHXH tham gia trên thị trường thứ cấp. Chính vì vậy, thị trường sơ cấp và thị trường thứ cấp thường có khác biệt về giá (Hình 2.9)."
+  ],
+  "context_chars": 5554,
+  "searches": 1,
+  "usage": {
+   "llm_calls": 2,
+   "cached_calls": 0,
+   "input_tokens": 3370,
+   "output_tokens": 135,
+   "thinking_tokens": 230
+  },
+  "latency_s": 2.644,
+  "auto_eval": {
+   "answerable": true,
+   "context_has_evidence": true
+  }
+ },
+ {
+  "query_id": "q11",
+  "split": "dev",
+  "config": "improve_multitool",
+  "provider": "gemini",
+  "model": "gemini-3.1-flash-lite",
+  "question": "Để thị trường chứng khoán Việt Nam được MSCI và FTSE Russell nâng hạng từ Thị trường Cận biên lên Thị trường Mới nổi, ba rào cản chính nào cần được giải quyết?",
+  "filter": null,
+  "status": "answered",
+  "answer": "Theo báo cáo \"Điểm lại tháng 8/2024\" của Ngân hàng Thế giới, để được MSCI và FTSE Russell nâng hạng từ Thị trường Cận biên lên Thị trường Mới nổi, Việt Nam cần giải quyết ba rào cản chính sau:\n\n1.  **Yêu cầu ký quỹ trước giao dịch:** Việc yêu cầu bên mua phải có sẵn tiền và bên bán phải nắm giữ sẵn chứng khoán trước khi giao dịch gây cản trở hiệu quả hoạt động của các nhà đầu tư tổ chức [wb-diem-lai-2024-08__C__p50__c002], [wb-diem-lai-2024-08__C__p60__c006].\n2.  **Giới hạn tỷ lệ sở hữu vốn của nhà đầu tư nước ngoài:** Các quy định về tỷ lệ cổ phiếu tối đa mà nhà đầu tư nước ngoài được phép sở hữu cần được xử lý [wb-diem-lai-2024-08__C__p60__c006].\n3.  **Công bằng trong tiếp cận thông tin:** Đảm bảo sự minh bạch và bình đẳng trong việc tiếp cận thông tin cho các nhà đầu tư [wb-diem-lai-2024-08__C__p60__c006].",
+  "citations": [
+   "wb-diem-lai-2024-08__C__p50__c002",
+   "wb-diem-lai-2024-08__C__p60__c006"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_dense",
+    "query": "ba rào cản chính nâng hạng thị trường chứng khoán Việt Nam MSCI FTSE Russell",
+    "filter": null,
+    "top_k": 5,
+    "results": [
+     {
+      "id": "wb-diem-lai-2024-08__C__p50__c001",
+      "rank": 1,
+      "score": 0.795756,
+      "page": 50,
+      "method": "dense",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p60__c006",
+      "rank": 2,
+      "score": 0.766074,
+      "page": 60,
+      "method": "dense",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p55__c002",
+      "rank": 3,
+      "score": 0.748869,
+      "page": 55,
+      "method": "dense",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p61__c001",
+      "rank": 4,
+      "score": 0.746948,
+      "page": 61,
+      "method": "dense",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p50__c003",
+      "rank": 5,
+      "score": 0.744184,
+      "page": 50,
+      "method": "dense",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     }
+    ],
+    "added_ids": [
+     "wb-diem-lai-2024-08__C__p50__c001",
+     "wb-diem-lai-2024-08__C__p50__c002",
+     "wb-diem-lai-2024-08__C__p60__c006",
+     "wb-diem-lai-2024-08__C__p60__c005",
+     "wb-diem-lai-2024-08__C__p55__c002",
+     "wb-diem-lai-2024-08__C__p55__c001",
+     "wb-diem-lai-2024-08__C__p55__c003",
+     "wb-diem-lai-2024-08__C__p61__c001"
+    ],
+    "skipped_over_budget": [
+     "wb-diem-lai-2024-08__C__p61__c002",
+     "wb-diem-lai-2024-08__C__p50__c003",
+     "wb-diem-lai-2024-08__C__p50__c004"
+    ],
+    "context_chars": 5592
+   },
+   {
+    "event": "answer",
+    "citations": [
+     "wb-diem-lai-2024-08__C__p50__c002",
+     "wb-diem-lai-2024-08__C__p60__c006"
+    ]
+   }
+  ],
+  "context_ids": [
+   "wb-diem-lai-2024-08__C__p50__c001",
+   "wb-diem-lai-2024-08__C__p50__c002",
+   "wb-diem-lai-2024-08__C__p60__c006",
+   "wb-diem-lai-2024-08__C__p60__c005",
+   "wb-diem-lai-2024-08__C__p55__c002",
+   "wb-diem-lai-2024-08__C__p55__c001",
+   "wb-diem-lai-2024-08__C__p55__c003",
+   "wb-diem-lai-2024-08__C__p61__c001"
+  ],
+  "context": [
+   "[wb-diem-lai-2024-08__C__p50__c001] (trang 50, chuong_2_thi_truong_von)\nTrong thời gian tới, với khát vọng trở thành quốc gia thu nhập cao, Việt Nam cần thu hút đầu tư quốc tế ở mức đáng kể để tạo động lực tăng trưởng trong dài hạn. Khi quy mô cơ sở các nhà đầu tư trong nước còn nhỏ (như đã thảo luận ở Phần 2), Việt Nam cần thêm sự hỗ trợ của các nhà đầu tư danh mục quốc tế. Hiện nay, Việt Nam được MSCI và FTSE Russell—hai trong số những tổ chức xếp hạng chỉ số lớn nhất thế giới dựa trên số vốn theo dõi các chỉ số của họ—xếp hạng là Thị trường Cận biên. Việc nâng hạng lên Thị trường Mới nổi sẽ là động lực quan trọng để thị trường của Việt Nam được công nhận là có khả năng đầu tư, xét đến khả năng tiếp cận của nhà đầu tư nước ngoài, cũng như lượng cổ phiếu có đủ quy mô và thanh khoản để trở nên hấp dẫn. Để đạt được nâng hạng này, sau đây là các bước cần thực hiện trong những lĩnh vực chính như sau: (i) Ký quỹ và phong tỏa chứng khoán trước giao dịch.",
+   "[wb-diem-lai-2024-08__C__p50__c002] (trang 50, chuong_2_thi_truong_von)\nTrước một giao dịch bất kỳ, bên mua phải có sẵn tiền và bên bán phải nắm giữ sẵn chứng khoán, khiến cho tiền mất khả năng lưu động và cản trở giao dịch hiệu quả của các nhà đầu tư tổ chức, do họ phải chuyển tiền đến / từ các quốc gia khác hoặc liên tục phải tái cân đối các danh mục của họ. Việc loại bỏ thông lệ ký quỹ trước giao dịch là hết sức quan trọng để thu hút các nhà đầu tư quốc tế lớn.",
+   "[wb-diem-lai-2024-08__C__p60__c006] (trang 60, chuong_2_thi_truong_von)\nCác cấp có thẩm quyền đang thực hiện những nỗ lực đáng kể để xử lý ba yếu tố hết sức quan trọng—yêu cầu ký quỹ trước giao dịch, tỷ lệ cổ phiếu tối đa được phép sở hữu do giới hạn tỷ lệ sở hữu vốn của nhà đầu tư nước ngoài, công bằng trong tiếp cận thông tin—để đáp ứng những kỳ vọng đó.Việc đối thoại liên tục với cộng đồng nhà đầu tư quốc tế rất quan trọng trong quá trình này. Nhìn vào trong nước, các cơ quan chức năng và các sở giao dịch chứng khoán cũng cần cân nhắc cách thức tạo động lực tốt hơn cho các doanh nghiệp huy động vốn trên thị trường, thay vì chỉ đơn thuần niêm yết, để các nhà đầu tư tổ chức và quốc tế bắt đầu tìm kiếm cơ hội đầu tư vào chứng khoán doanh nghiệp. Một thước đo thành công thực sự về phát triển thị trường cổ phiếu không phải là tăng giá cổ phiếu hay không, mà là số vốn khu vực doanh nghiệp có thể huy động được.",
+   "[wb-diem-lai-2024-08__C__p60__c005] (trang 60, chuong_2_thi_truong_von)\n35 Giả sử tái phân bổ một phần năm vốn đầu tư của các công ty bảo hiểm nhân thọ sang chứng khoán doanh nghiệp. 36 Giả sử lĩnh vực quỹ đầu tư đạt 6% GDP và các quỹ hưu trí tư nhân bao phủ được thêm 1% tổng số lao động. Thị trường cổ phiếu có tiềm năng lớn để phát triển thành nguồn huy động vốn quan trọng cho khu vực doanh nghiệp. Số liệu chung về mức vốn hóa thị trường tuy rất ấn tượng, nhưng khối lượng huy động được lại không đáng kể. Sự quan tâm mạnh mẽ của các nhà đầu tư quốc tế đối với thị trường cổ phiếu của Việt Nam vẫn đang bị kiềm chế, chỉ chờ những điều chỉnh thể chế được triển khai và được minh chứng.",
+   "[wb-diem-lai-2024-08__C__p55__c002] (trang 55, chuong_2_thi_truong_von)\ndù những tỷ lệ trên còn nhỏ so với các thị trường khác ở ASEAN-5 mà có thứ hạng là thị trường mới nổi hoặc cao hơn, cần lưu ý rằng Việt Nam vẫn đang là thị trường cận biên. Trên các thị trường của ASEAN-5, giá trị giao dịch của nhà đầu tư quốc tế thường chiếm 40%30 trở lên. Việt Nam cần có những cải thiện cụ thể để được nâng hạng thành Thị trường mới nổi, đồng thời phải có hạ tầng và môi trường tổng thể vững chắc. Điều đó có nghĩa là quy định phải ổn định, thực thi mạnh mẽ, hình thành giá cả tin cậy và minh bạch trong doanh nghiệp, được hỗ trợ bởi cơ sở hạ tầng thị trường hiệu quả và đáng tin cậy cho các khâu giao dịch, bù trừ và thanh toán, cũng như hạ tầng thông tin. Nhà đầu tư nước ngoài cũng chịu ảnh hưởng bởi thu tục phê duyệt hành chính của các cơ quan chứng năng, cần được tinh giản cho phù hợp.",
+   "[wb-diem-lai-2024-08__C__p55__c001] (trang 55, chuong_2_thi_truong_von)\n30 Tỷ lệ tham gia của nhà đầu tư nước ngoài trên tổng giá trị giao dịch là 45% tại Sing-ga-po, 38% tại Thái Lan và 30% tại In-đô-nê-xia. 31 Hai sàn giao dịch chứng khoán trên trực thuộc sở giao dịch chứng khoán Việt Nam. 32 Quy mô của hình tròn ở Hình 16 thể hiện mức vốn hóa thị trường cổ phiếu ở mỗi quốc gia, còn con số tương ứng với số lượng các doanh nghiệp niêm yết trên sàn. Mặc dù Việt Nam có mức vốn hóa thị trường cổ phiếu nhỏ nhất so với các quốc gia so sánh, nhưng lại có số lượng doanh nghiệp niêm yết lớn nhất. Điều đó có nghĩa là quy mô bình quân của mỗi doanh nghiệp niêm yết nhỏ hơn nhiều so với tiềm năng tăng trưởng to lớn.",
+   "[wb-diem-lai-2024-08__C__p55__c003] (trang 55, chuong_2_thi_truong_von)\n3. Tổ chức phát hành Tăng cường quản trị công bố thông tin của tổ chức phát hành để tăng cường lòng tin trên thị trường và thu hút đầu tư Là bên chủ yếu sử dụng các thị trường vốn để huy động vốn, các tổ chức phát hành nằm ở \"bên cung\" trên thị trường. Ngoài Chính phủ phát hành trái phiếu chính phủ, Việt Nam còn có nhiều tổ chức phát hành hiện tại và tiềm năng trên các phân khúc ngoài chính phủ ở thị trường vốn. Trên thị trường cổ phiếu của Việt Nam năm 2023, có 743 công ty niêm yết trên hai sàn chứng khoán, HOSE and HNX,31 cộng thêm 856 trên sàn UPCOM. Những con số như vậy là lớn so với quy mô nền kinh tế và so với các thị trường khác trong khu vực (Hình 2.16).32 Number of listed companies Size of the circle represents the country's equity market capitalization",
+   "[wb-diem-lai-2024-08__C__p61__c001] (trang 61, chuong_2_thi_truong_von)\n37 Những cải cách được tiếp tục triển khai, chẳng hạn xử lý các vấn đề về giới hạn sở hữu của nước ngoài, cổ phần hóa hoặc IPO thành công các doanh nghiệp lớn, có thể sẽ nâng trọng số của Việt Nam trong các chỉ số thị trường mới nổi, dấn đến danh mục của các nhà đầu tư toàn cầu sẽ được tái phân bổ nhiều hơn vào Việt Nam. Hơn nữa, môi trường đầu tư toàn cầu lành mạnh sẽ đảm bảo tài sản thuộc phạm vi quản lý của các nhà đầu tư đầu tư vào các thị trường mới nổi được tăng trưởng ổn định. Chẳng hạn nhóm tài sản mốc chuẩn của các chỉ số cổ phiếu MSCI dước đạt tăng trưởng trên 7% mỗi năm trong giai đoạn 2014-2021."
+  ],
+  "context_chars": 5592,
+  "searches": 1,
+  "usage": {
+   "llm_calls": 2,
+   "cached_calls": 0,
+   "input_tokens": 2993,
+   "output_tokens": 327,
+   "thinking_tokens": 264
+  },
+  "latency_s": 3.904,
+  "auto_eval": {
+   "answerable": true,
+   "context_has_evidence": true
+  }
+ },
+ {
+  "query_id": "q12",
+  "split": "dev",
+  "config": "improve_multitool",
+  "provider": "gemini",
+  "model": "gemini-3.1-flash-lite",
+  "question": "Trong phân tích chi tiết của Chương 1 về khu vực tài chính, hai ngành nào phát hành trái phiếu doanh nghiệp tích cực nhất trong nửa đầu năm 2024 và chiếm tỷ trọng bao nhiêu phần trăm tổng lượng phát hành?",
+  "filter": {
+   "section": "chuong_1_kinh_te_vi_mo"
+  },
+  "status": "answered",
+  "answer": "Trong nửa đầu năm 2024, hai ngành phát hành trái phiếu doanh nghiệp tích cực nhất là ngân hàng và bất động sản, chiếm tỷ trọng lần lượt là 64% và 26% tổng lượng phát hành [wb-diem-lai-2024-08__C__p31__c002].",
+  "citations": [
+   "wb-diem-lai-2024-08__C__p31__c002"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_dense",
+    "query": "hai ngành phát hành trái phiếu doanh nghiệp tích cực nhất nửa đầu năm 2024 tỷ trọng bao nhiêu phần trăm",
+    "filter": {
+     "section": "chuong_1_kinh_te_vi_mo"
+    },
+    "top_k": 5,
+    "results": [
+     {
+      "id": "wb-diem-lai-2024-08__C__p31__c002",
+      "rank": 1,
+      "score": 0.774194,
+      "page": 31,
+      "method": "dense",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p32__c004",
+      "rank": 2,
+      "score": 0.755551,
+      "page": 32,
+      "method": "dense",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p32__c002",
+      "rank": 3,
+      "score": 0.739744,
+      "page": 32,
+      "method": "dense",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p29__c001",
+      "rank": 4,
+      "score": 0.708687,
+      "page": 29,
+      "method": "dense",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p21__c001",
+      "rank": 5,
+      "score": 0.698236,
+      "page": 21,
+      "method": "dense",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     }
+    ],
+    "added_ids": [
+     "wb-diem-lai-2024-08__C__p31__c002",
+     "wb-diem-lai-2024-08__C__p31__c001",
+     "wb-diem-lai-2024-08__C__p31__c003",
+     "wb-diem-lai-2024-08__C__p32__c004",
+     "wb-diem-lai-2024-08__C__p32__c003",
+     "wb-diem-lai-2024-08__C__p32__c002",
+     "wb-diem-lai-2024-08__C__p32__c001",
+     "wb-diem-lai-2024-08__C__p21__c001"
+    ],
+    "skipped_over_budget": [
+     "wb-diem-lai-2024-08__C__p29__c001",
+     "wb-diem-lai-2024-08__C__p29__c002",
+     "wb-diem-lai-2024-08__C__p21__c002"
+    ],
+    "context_chars": 5817
+   },
+   {
+    "event": "answer",
+    "citations": [
+     "wb-diem-lai-2024-08__C__p31__c002"
+    ]
+   }
+  ],
+  "context_ids": [
+   "wb-diem-lai-2024-08__C__p31__c002",
+   "wb-diem-lai-2024-08__C__p31__c001",
+   "wb-diem-lai-2024-08__C__p31__c003",
+   "wb-diem-lai-2024-08__C__p32__c004",
+   "wb-diem-lai-2024-08__C__p32__c003",
+   "wb-diem-lai-2024-08__C__p32__c002",
+   "wb-diem-lai-2024-08__C__p32__c001",
+   "wb-diem-lai-2024-08__C__p21__c001"
+  ],
+  "context": [
+   "[wb-diem-lai-2024-08__C__p31__c002] (trang 31, chuong_1_kinh_te_vi_mo)\nNhu cầu dự kiến về tăng dự phòng, bổ sung dự phòng tổn thất vốn vay, đang tạo thêm áp lực cho lợi nhuận của các ngân hàng vốn đã bị co kéo do thu nhập ròng tiền lãi, phí và hoa hồng đang chững lại.\n\nKhối lượng phát hành trái phiếu doanh nghiệp đang tăng trở lại, nhưng áp lực trả nợ trái phiếu vẫn cao. Khối lượng phát hành trái phiếu tăng mạnh ở mức 2,5 lần trong nửa đầu năm 2024 so cùng kỳ năm 2023, do các ngân hàng tận dụng môi trường lãi suất thấp hơn để đảo nợ trái phiếu (Hình 1.28). Các ngành phát hành trái phiếu tích cực nhất vẫn là các ngân hàng và công ty bất động sản, chiếm lần lượt 64% và 26% tổng lượng phát hành trong nửa đầu năm 2024. Tuy nhiên, lượng trái phiếu đáo hạn trong nửa cuối năm 2024 ước lên đến 139,8 ngàn tỷ VND (5,6 tỷ US$), trong đó trái phiếu bất động sản chiếm 42%, tạo áp lực cho lĩnh vực bất động sản trong điều kiện khó khăn về dòng tiền.",
+   "[wb-diem-lai-2024-08__C__p31__c001] (trang 31, chuong_1_kinh_te_vi_mo)\nChất lượng tài sản ngân hàng vẫn là một mối quan ngại kể từ năm 2023 khi tỷ lệ nợ xấu và dự phòng tổn thất tín dụng tăng lên. Nợ xấu toàn hệ thống tăng mạnh, từ 1,9% năm 2022 lên 4,6% tổng dư nợ cho vay năm 2023 (Hình 1.27), theo số liệu mới nhất có được, chủ yếu do ghi nhận nợ xấu của Ngân hàng Thương mại Cổ phần Sài Gòn (SCB). Mặc dù vậy, tổng nợ vay được coi là xấu có thể lên đến 7,9% nếu tính cả các khoản vay được tái cơ cấu và nợ của Công ty Quản lý Tài sản của các Tổ chức Tín dụng Việt Nam (VAMC). Số liệu mới nhất cho Q1-2024 cho thấy tỷ lệ nợ xấu của 27 ngân hàng thương mại niêm yết, chiếm 83% tổng dư nợ tín dụng trong khu vực ngân hàng, tăng từ 1,9% trong Q4-2023 lên 2,2% trong Q1-2024, trong điều kiện nợ xấu tăng kết hợp với tăng trưởng tín dụng chững lại. Ngoài ra, các biện pháp gia hạn cơ cấu nợ nhằm ứng phó đại dịch, tiếp tục được gia hạn và dự kiến chấm dứt vào tháng 12/2024, có thể khiến cho tỉ lệ nợ xấu còn cao hơn nữa.",
+   "[wb-diem-lai-2024-08__C__p31__c003] (trang 31, chuong_1_kinh_te_vi_mo)\nNguồn: TCTK, Haver Analytics, và tính toán của cán bộ Ngân hàng Thế giới Chú thích: Lương thực thực phẩm gồm ngũ cốc, thực phẩm và đồ ăn tiêu thụ ngoài nhà. Nhà ở bao gồm tiền thuê, tiện ích (điện, nước, nhiên liệu) và vật liệu xây dựng.\n\nHình 1.26. Giá thực phẩm tăng góp phần đẩy lạm phát cao hơn Điểm % (so cùng kỳ) T6-19 T6-20 T6-21 T6-22 T6-23 T6-24 -4 -2 0 2 4 6 Jun-19 Jun-20 Jun-21 Jun-22 Jun-23 Jun-24 Food Housing Transport Health & edu. Others Headline Core 6% 4% 2% 0% -2% -4% LT-TP Nhà ở Giao thông Khác Y tế, giáo dục CPI LP cơ bản",
+   "[wb-diem-lai-2024-08__C__p32__c004] (trang 32, chuong_1_kinh_te_vi_mo)\nNgoài ra, những rào cản quy định và thủ tục phê duyệt kéo dài tiếp tục gây chậm trễ trong triển khai các dự án đầu tư công. Bội thu ngân sách lớn trong nửa đầu năm 2024 dẫn đến giảm nhu cầu huy động vay. Trong 6 tháng đầu năm 2024, tổng khối lượng phát hành trái phiếu đạt 156,5 ngàn tỷ VND (6,4 tỷ US$), tương đương 39,1% kế hoạch năm, giảm đáng kể so với mức huy động 179,9 ngàn tỷ VND, tương đương 45% kế hoạch cho nửa đầu năm 2023.\n\n13 Nghị định số 73/2024/NĐ-CP (300/06/2024) quy định về mức lương luật định và chế độ tiền thưởng cho cán bộ, công viên chức và lực lượng vũ trang. 4,93% Tỉ lệ bao phủ nợ xấu (26 NH) (RHS) Nợ xấu nội bảng toàn hệ thống (LHS) Nợ xấu gộp (LHS) Tổ chức tín dụng Chứng khoán Xây dựng Sản xuất Năng lượng Khác Bất động sản Thương mại",
+   "[wb-diem-lai-2024-08__C__p32__c003] (trang 32, chuong_1_kinh_te_vi_mo)\nĐồng thời, chi ngân sách giảm 1,6 điểm % từ mức 17% GDP trong nửa đầu năm 2023 xuống còn 1,4% trong nửa đầu năm 2024, do giải ngân đầu tư công giảm (từ 4,5% GDP nửa đầu năm 2023 xuống còn 3,7% trong nửa đầu năm 2024) đồng thời chi thường xuyên cũng giảm (50% dự toán chi thường xuyên trong nửa đầu năm 2023 xuống còn 40% trong nửa đầu năm 2024). Tiết kiệm chi thường xuyên hàng năm theo dự toán được dành riêng để đảm bảo cho chương trình cải cách lương công chức, từ ngày 01/07/2024 (lương cơ bản và lương hưu tăng lần lượt bình quân 30% và 15%). 13 Đến cuối tháng 6/2024, dự toán ngân sách đầu tư công được Quốc hội phê duyệt cho năm 2024 chỉ thực hiện được 29%, giải ngân đầu tư công giảm 6% so với cùng kỳ năm 2023. Giải ngân đầu tư công chững lại do chậm trễ trong công tác giải phóng mặt bằng và đền bù trong các dự án lớn xây đường quốc lộ, khan hiếm vật liệu san lấp (đá và cát), giá vật liệu thô biến động.",
+   "[wb-diem-lai-2024-08__C__p32__c002] (trang 32, chuong_1_kinh_te_vi_mo)\nHình 1.28. Khối lượng trái phiếu phát hành tăng mạnh nhờ khu vực ngân hàng Nghìn tỷ VND 2019 2020 2021 2022 2023 6M-2024 Nghìn tỷ đồng 800 700 600 500 400 300 200 100 0 Trong điều kiện nền kinh tế phục hồi, ngân sách nhà nước đạt bội thu cao trong nửa đầu năm 2024 Bội thu ngân sách đạt mức 4,2% GDP trong nửa đầu năm 2024, so với 1,5% trong nửa đầu năm 2023, do tổng thu ngân sách cao hơn và chi ngân sách thấp hơn so với cùng kỳ năm trước (Hình 1.29). Thu ngân sách lên đến 19,5% GDP trong nửa đầu năm 2024 (+1 điểm phần trăm so nửa đầu năm 2023), do tăng thu từ vốn (chủ yếu là từ chuyển nhượng quyền sử dụng đất) và các nguồn thu lớn từ thuế (thuế TNDN và thuế GTGT) (Hình 1.30).",
+   "[wb-diem-lai-2024-08__C__p32__c001] (trang 32, chuong_1_kinh_te_vi_mo)\nHình 1.27. Nợ xấu và tỷ lệ dự phòng tổn thất tín dụng vẫn là quan ngại lớn Tỷ lệ % 0% 20% 40% 60% 80% 100% 120% 140% 160% 0% 1% 2% 3% 4% 5% 6% 7% 8% 9% 2019 2020 2021 2022 Q3-2023 2023 Total system's balance sheet NPL (LHS) Gross NPL (LHS) Loan-loss coverage ratio (26 banks) (RHS) 9% 8% 7% 6% 5% 4% 3% 2% 1% 0% 160% 140% 120% 100% 80% 60% 40% 20% 0% 1,63% 1,69% 1,90% 1,92% 4,55% 2019 2020 2021 2022 Q3-2023 2023 0 100 200 300 400 500 600 700 800 2019 2020 2021 2022 2023 6M-24 Trillions Credit institutions Securities Real estate Commerce Construction Production Energy Others Nguồn: Hiệp hội Trái phiếu Việt Nam và tính toán của cán bộ Ngân hàng Thế giới Nguồn: Fiingroup Research. Lưu ý nợ xấu gộp năm 2023 là số ước tính",
+   "[wb-diem-lai-2024-08__C__p21__c001] (trang 21, chuong_1_kinh_te_vi_mo)\n4 Bao gồm đầu tư của doanh nghiệp nhà nước Nguồn: TCTK và tính toán của cán bộ Ngân hàng Thế giới. Các chấm màu biểu thị các ngành (đỏ = công nghiệp, xanh dương = dịch vụ, xanh lá cây = nông nghiệp) Nguồn: TCTK và tính toán của cán bộ Ngân hàng Thế giới lượt du khách quốc tế đạt 8,8 triệu lượt trong tháng 6/2024, cao hơn mức đỉnh của năm 2019 (các Hình 1.3-"
+  ],
+  "context_chars": 5817,
+  "searches": 1,
+  "usage": {
+   "llm_calls": 2,
+   "cached_calls": 0,
+   "input_tokens": 3823,
+   "output_tokens": 115,
+   "thinking_tokens": 230
+  },
+  "latency_s": 4.372,
+  "auto_eval": {
+   "answerable": true,
+   "context_has_evidence": true
+  }
+ },
+ {
+  "query_id": "q13",
+  "split": "dev",
+  "config": "improve_multitool",
+  "provider": "gemini",
+  "model": "gemini-3.1-flash-lite",
+  "question": "Theo nội dung Chương 1 về thu chi ngân sách nhà nước, nguồn tiết kiệm chi thường xuyên hàng năm được dành riêng cho mục tiêu cải cách tiền lương từ ngày 01/07/2024 với mức tăng lương cơ bản và lương hưu bình quân là bao nhiêu?",
+  "filter": {
+   "section": "chuong_1_kinh_te_vi_mo"
+  },
+  "status": "answered",
+  "answer": "Theo nội dung báo cáo, nguồn tiết kiệm chi thường xuyên hàng năm theo dự toán được dành riêng để đảm bảo cho chương trình cải cách tiền lương. Từ ngày 01/07/2024, mức lương cơ bản và lương hưu tăng lần lượt bình quân là 30% và 15% [wb-diem-lai-2024-08__C__p32__c003].",
+  "citations": [
+   "wb-diem-lai-2024-08__C__p32__c003"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_keyword",
+    "query": "tăng lương cơ bản lương hưu 01/07/2024 tiết kiệm chi thường xuyên",
+    "filter": {
+     "section": "chuong_1_kinh_te_vi_mo"
+    },
+    "top_k": 5,
+    "results": [
+     {
+      "id": "wb-diem-lai-2024-08__C__p32__c003",
+      "rank": 1,
+      "score": 81.066086,
+      "page": 32,
+      "method": "bm25",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p36__c003",
+      "rank": 2,
+      "score": 19.749216,
+      "page": 36,
+      "method": "bm25",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p35__c004",
+      "rank": 3,
+      "score": 17.062577,
+      "page": 35,
+      "method": "bm25",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p33__c004",
+      "rank": 4,
+      "score": 13.779214,
+      "page": 33,
+      "method": "bm25",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p35__c003",
+      "rank": 5,
+      "score": 12.661979,
+      "page": 35,
+      "method": "bm25",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     }
+    ],
+    "added_ids": [
+     "wb-diem-lai-2024-08__C__p32__c003",
+     "wb-diem-lai-2024-08__C__p32__c002",
+     "wb-diem-lai-2024-08__C__p32__c004",
+     "wb-diem-lai-2024-08__C__p36__c003",
+     "wb-diem-lai-2024-08__C__p36__c002",
+     "wb-diem-lai-2024-08__C__p36__c004",
+     "wb-diem-lai-2024-08__C__p35__c004",
+     "wb-diem-lai-2024-08__C__p35__c003"
+    ],
+    "skipped_over_budget": [
+     "wb-diem-lai-2024-08__C__p35__c005",
+     "wb-diem-lai-2024-08__C__p33__c004",
+     "wb-diem-lai-2024-08__C__p33__c003",
+     "wb-diem-lai-2024-08__C__p35__c002"
+    ],
+    "context_chars": 5945
+   },
+   {
+    "event": "answer",
+    "citations": [
+     "wb-diem-lai-2024-08__C__p32__c003"
+    ]
+   }
+  ],
+  "context_ids": [
+   "wb-diem-lai-2024-08__C__p32__c003",
+   "wb-diem-lai-2024-08__C__p32__c002",
+   "wb-diem-lai-2024-08__C__p32__c004",
+   "wb-diem-lai-2024-08__C__p36__c003",
+   "wb-diem-lai-2024-08__C__p36__c002",
+   "wb-diem-lai-2024-08__C__p36__c004",
+   "wb-diem-lai-2024-08__C__p35__c004",
+   "wb-diem-lai-2024-08__C__p35__c003"
+  ],
+  "context": [
+   "[wb-diem-lai-2024-08__C__p32__c003] (trang 32, chuong_1_kinh_te_vi_mo)\nĐồng thời, chi ngân sách giảm 1,6 điểm % từ mức 17% GDP trong nửa đầu năm 2023 xuống còn 1,4% trong nửa đầu năm 2024, do giải ngân đầu tư công giảm (từ 4,5% GDP nửa đầu năm 2023 xuống còn 3,7% trong nửa đầu năm 2024) đồng thời chi thường xuyên cũng giảm (50% dự toán chi thường xuyên trong nửa đầu năm 2023 xuống còn 40% trong nửa đầu năm 2024). Tiết kiệm chi thường xuyên hàng năm theo dự toán được dành riêng để đảm bảo cho chương trình cải cách lương công chức, từ ngày 01/07/2024 (lương cơ bản và lương hưu tăng lần lượt bình quân 30% và 15%). 13 Đến cuối tháng 6/2024, dự toán ngân sách đầu tư công được Quốc hội phê duyệt cho năm 2024 chỉ thực hiện được 29%, giải ngân đầu tư công giảm 6% so với cùng kỳ năm 2023. Giải ngân đầu tư công chững lại do chậm trễ trong công tác giải phóng mặt bằng và đền bù trong các dự án lớn xây đường quốc lộ, khan hiếm vật liệu san lấp (đá và cát), giá vật liệu thô biến động.",
+   "[wb-diem-lai-2024-08__C__p32__c002] (trang 32, chuong_1_kinh_te_vi_mo)\nHình 1.28. Khối lượng trái phiếu phát hành tăng mạnh nhờ khu vực ngân hàng Nghìn tỷ VND 2019 2020 2021 2022 2023 6M-2024 Nghìn tỷ đồng 800 700 600 500 400 300 200 100 0 Trong điều kiện nền kinh tế phục hồi, ngân sách nhà nước đạt bội thu cao trong nửa đầu năm 2024 Bội thu ngân sách đạt mức 4,2% GDP trong nửa đầu năm 2024, so với 1,5% trong nửa đầu năm 2023, do tổng thu ngân sách cao hơn và chi ngân sách thấp hơn so với cùng kỳ năm trước (Hình 1.29). Thu ngân sách lên đến 19,5% GDP trong nửa đầu năm 2024 (+1 điểm phần trăm so nửa đầu năm 2023), do tăng thu từ vốn (chủ yếu là từ chuyển nhượng quyền sử dụng đất) và các nguồn thu lớn từ thuế (thuế TNDN và thuế GTGT) (Hình 1.30).",
+   "[wb-diem-lai-2024-08__C__p32__c004] (trang 32, chuong_1_kinh_te_vi_mo)\nNgoài ra, những rào cản quy định và thủ tục phê duyệt kéo dài tiếp tục gây chậm trễ trong triển khai các dự án đầu tư công. Bội thu ngân sách lớn trong nửa đầu năm 2024 dẫn đến giảm nhu cầu huy động vay. Trong 6 tháng đầu năm 2024, tổng khối lượng phát hành trái phiếu đạt 156,5 ngàn tỷ VND (6,4 tỷ US$), tương đương 39,1% kế hoạch năm, giảm đáng kể so với mức huy động 179,9 ngàn tỷ VND, tương đương 45% kế hoạch cho nửa đầu năm 2023.\n\n13 Nghị định số 73/2024/NĐ-CP (300/06/2024) quy định về mức lương luật định và chế độ tiền thưởng cho cán bộ, công viên chức và lực lượng vũ trang. 4,93% Tỉ lệ bao phủ nợ xấu (26 NH) (RHS) Nợ xấu nội bảng toàn hệ thống (LHS) Nợ xấu gộp (LHS) Tổ chức tín dụng Chứng khoán Xây dựng Sản xuất Năng lượng Khác Bất động sản Thương mại",
+   "[wb-diem-lai-2024-08__C__p36__c003] (trang 36, chuong_1_kinh_te_vi_mo)\ntiêu và nguồn thu từ thuế trong năm 2024. Trong hai năm tới, chi thường xuyên tiếp tục được cân đối trên cơ sở kế hoạch tài chính 5 năm đang triển khai. Số thu nội địa được cải thiện cũng dự kiến sẽ hỗ trợ củng cố cân đối nhờ cơ sở tính thuế được mở rộng, đồng thời, các luật thuế lớn (thuế GTGT và TNDN) được sửa đổi cũng như cải thiện về quản lý thuế sẽ giúp tăng số thu.\n\nNguồn: TCTK; Bộ Tài chính; NHNN; IMF; và tính toán của cán bộ Ngân hàng Thế giới Chú thích: e = ước; f = dự báo, *: không bao gồm chi tiêu chưa phân bổ và áp dụng chuẩn Thống kê Tài chính Chính phủ (GFS), **: tính toán dựa trên Quyết định số 458/QĐ-TTg (28/04/2023) về kế hoạch vay và trả nợ công năm 2023, giai đoạn 2023-2025, Nghị quyết số 105/2023/QH15 (10/11/2023) về dự toán ngân sách năm 2024 của Quốc hội",
+   "[wb-diem-lai-2024-08__C__p36__c002] (trang 36, chuong_1_kinh_te_vi_mo)\nThị trường bất động sản có thể phục hồi lâu hơn dự kiến, gây ảnh hưởng bất lợi đến đầu tư của khu vực tư nhân, là yếu tố quan trọng đóng góp cho tăng trưởng kinh tế. Nếu chất lượng tài sản trong khu vực tài chính tiếp tục yếu đi, năng lực cho vay của ngân hàng có thể bị suy giảm. Là một trong những quốc gia có nguy cơ dễ tổn thương nhất với biến đổi khí hậu, thiên tai gia tăng về cường độ có thể làm tăng rủi ro gây thiệt hại cho nền kinh tế. Thiếu hụt nguồn cung năng lượng có thể làm giảm tăng trưởng xuất khẩu các mặt hàng chế tạo chế biến, do Việt Nam vẫn có nguy cơ với những đợt nắng nóng, ảnh hưởng đến các nhà máy thủy điện ở miền bắc Việt Nam, mặc dù đường dây truyền tải 500 kV dọc đất nước dự kiến hoàn thành vào cuối năm 2024 có thể làm giảm rủi ro này.",
+   "[wb-diem-lai-2024-08__C__p36__c004] (trang 36, chuong_1_kinh_te_vi_mo)\nBảng 1.1. Một số chỉ số kinh tế, Việt Nam 2021–2026 6,5 5,9 5,4 7,0 7,4 7,0 4,0 1,0 -0,4 35,0 6,1 5,3 5,5 6,8 11,4 11,7 4,5 0,9 -0,8 35,7 6,5 5,9 5,4 7,2 8,0 7,7 3,5 1,0 -0,2 34,6 Chỉ số Tăng trưởng GDP (%) Tăng trưởng các yếu tố chi tiêu Tiêu dùng của tư nhân Tiêu dùng của Chính phủ Đầu tư Xuất khẩu Nhập khẩu Chỉ số giá tiêu dùng (bình quân, %) Cân đối tài khoản vãng lai (%GDP) Cân đối tài khóa (*) (%GDP) Nợ Chính phủ và được Chính phủ bảo lãnh (**) (% GDP) 2021 2,6 2,0 4,7 3,7 13,9 15,8 1,8 -2,2 -1,4 42,5 2023 5,0 3,5 4,9 4,1 -2,5 -4,3 3,3 5,8 -2,4 36,0 2022 8,0 7,8 3,6 5,8 4,9 2,2 3,1 0,3 0,7 37,1 Ước 2024 Dự báo 2025 Dự báo 2026",
+   "[wb-diem-lai-2024-08__C__p35__c004] (trang 35, chuong_1_kinh_te_vi_mo)\n16 Việt Nam, Bộ LĐTB&XH, số liệu lao động 2023. Lạm phát theo chỉ số giá (CPI inflation) của Việt Nam năm 2024 dự kiến tiếp tục tăng, lên đến 4,5% từ mức 3,2% năm trước, do giá lương thực thực phẩm tiếp tục tăng cao. Dự báo trên phản ánh giá thực phẩm tăng vọt gần đây, đóng góp nhiều nhất cho lạm phát mới phát sinh trong nửa đầu năm 2024, và còn tăng hơn nữa khi dịch tả lợn châu Phi bùng phát trên toàn quốc cho dù đã có các biện pháp tăng cường phòng chống dịch.15 Mặc dù xung đột ở U-crai-na và Trung Đông đang tiếp diễn, lạm phát giá dầu và thương phẩm thô được dự báo tiếp tục hạ nhiệt trong năm 2024. Đợt tăng lương công chức và lương hưu vào tháng 7/2024 dự kiến chỉ gây tác động nhỏ đến lạm phát do quy mô lao động khu vực nhà nước là khá nhỏ so với với tổng việc làm (khoảng 2 triệu công chức và viên chức, bằng 3,8% tổng việc làm16). Trong trung hạn, lạm phát được dự báo sẽ quay lại mức bình quân trong lịch sử ở mức khoảng 3,5% trong năm tiếp theo.",
+   "[wb-diem-lai-2024-08__C__p35__c003] (trang 35, chuong_1_kinh_te_vi_mo)\n15 Bênh tả lợn châu Phi là bệnh vi-rút lây nhiễm mạnh, ảnh hưởng đến lợn và lợn hoang dã, có tỷ lệ tử vong lên đến 100% số ca. Đến ngày 14/07/2024, khoảng 660 ca bùng phát được phát hiện so với 208 ca cùng kỳ năm 2023, trong đó 42.400 lợn bị nhiễm phải tiêu hủy tromg năm 2024, cao gấp năm lần so với cùng kỳ 2023. Các cấp có thẩm quyền của Việt Nam đã cômg bố tăng vốn ưu tiên giảm lây lan dịch, bao gồm tiêm vác-xin cho lợn."
+  ],
+  "context_chars": 5945,
+  "searches": 1,
+  "usage": {
+   "llm_calls": 2,
+   "cached_calls": 0,
+   "input_tokens": 3853,
+   "output_tokens": 134,
+   "thinking_tokens": 247
+  },
+  "latency_s": 3.533,
+  "auto_eval": {
+   "answerable": true,
+   "context_has_evidence": true
+  }
+ },
+ {
+  "query_id": "q14",
+  "split": "dev",
+  "config": "improve_multitool",
+  "provider": "gemini",
+  "model": "gemini-3.1-flash-lite",
+  "question": "Theo phân tích chuyên sâu tại Chương 2, Quỹ Bảo hiểm Xã hội Việt Nam (BHXH) đang quản lý khối tài sản ước tính bao nhiêu ngàn tỷ đồng, bao phủ bao nhiêu phần trăm lực lượng lao động và tỷ trọng trái phiếu chính phủ chiếm bao nhiêu phần trăm tài sản của quỹ?",
+  "filter": {
+   "section": "chuong_2_thi_truong_von"
+  },
+  "status": "answered",
+  "answer": "Theo phân tích tại Chương 2 của báo cáo, Quỹ Bảo hiểm Xã hội Việt Nam (BHXH) có các thông tin cụ thể như sau:\n\n*   **Giá trị tài sản:** Các quỹ thuộc quản lý của BHXH ước tính lên đến 1.130 ngàn tỷ đồng [wb-diem-lai-2024-08__C__p51__c001].\n*   **Độ bao phủ:** BHXH hiện bao phủ 32% lực lượng lao động của Việt Nam [wb-diem-lai-2024-08__C__p51__c001].\n*   **Tỷ trọng trái phiếu chính phủ:** Trái phiếu chính phủ chiếm 86% tài sản thuộc quản lý của BHXH [wb-diem-lai-2024-08__C__p51__c002].",
+  "citations": [
+   "wb-diem-lai-2024-08__C__p51__c001",
+   "wb-diem-lai-2024-08__C__p51__c002"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_dense",
+    "query": "Quỹ Bảo hiểm Xã hội Việt Nam quản lý bao nhiêu ngàn tỷ đồng, bao phủ bao nhiêu phần trăm lực lượng lao động, tỷ trọng trái phiếu chính phủ chiếm bao nhiêu phần trăm tài sản",
+    "filter": {
+     "section": "chuong_2_thi_truong_von"
+    },
+    "top_k": 5,
+    "results": [
+     {
+      "id": "wb-diem-lai-2024-08__C__p51__c001",
+      "rank": 1,
+      "score": 0.764116,
+      "page": 51,
+      "method": "dense",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p51__c002",
+      "rank": 2,
+      "score": 0.750474,
+      "page": 51,
+      "method": "dense",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p45__c003",
+      "rank": 3,
+      "score": 0.742833,
+      "page": 45,
+      "method": "dense",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p45__c002",
+      "rank": 4,
+      "score": 0.725816,
+      "page": 45,
+      "method": "dense",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p51__c003",
+      "rank": 5,
+      "score": 0.707561,
+      "page": 51,
+      "method": "dense",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     }
+    ],
+    "added_ids": [
+     "wb-diem-lai-2024-08__C__p51__c001",
+     "wb-diem-lai-2024-08__C__p51__c002",
+     "wb-diem-lai-2024-08__C__p51__c003",
+     "wb-diem-lai-2024-08__C__p45__c003",
+     "wb-diem-lai-2024-08__C__p45__c002",
+     "wb-diem-lai-2024-08__C__p45__c001",
+     "wb-diem-lai-2024-08__C__p51__c004"
+    ],
+    "skipped_over_budget": [],
+    "context_chars": 5656
+   },
+   {
+    "event": "answer",
+    "citations": [
+     "wb-diem-lai-2024-08__C__p51__c001",
+     "wb-diem-lai-2024-08__C__p51__c002"
+    ]
+   }
+  ],
+  "context_ids": [
+   "wb-diem-lai-2024-08__C__p51__c001",
+   "wb-diem-lai-2024-08__C__p51__c002",
+   "wb-diem-lai-2024-08__C__p51__c003",
+   "wb-diem-lai-2024-08__C__p45__c003",
+   "wb-diem-lai-2024-08__C__p45__c002",
+   "wb-diem-lai-2024-08__C__p45__c001",
+   "wb-diem-lai-2024-08__C__p51__c004"
+  ],
+  "context": [
+   "[wb-diem-lai-2024-08__C__p51__c001] (trang 51, chuong_2_thi_truong_von)\n2.1. Quỹ hưu trí nhà nước: Quỹ của Bảo hiểm Xã hội Việt Nam Quỹ BHXH là nhà đầu tư tổ chức lớn nhất ở Việt Nam – hiện đang quản lý danh mục tương đương 10% GDP. Các quỹ thuộc quản lý của BHXH ước lên đến 1.130 ngàn tỷ đồng (44 tỷ đô la Mỹ) và dự kiến sẽ tăng trưởng tới 15% trong vài thập kỷ tới. BHXH hiện bao phủ 32% lực lượng lao động của Việt Nam (17,5 triệu lao động), với mục tiêu bao phủ tới 60% vào năm 2030. Vì Việt Nam là một trong những quốc gia già hóa nhanh nhất thế giới, yêu cầu đặt ra là BHXH phải duy trì năng lưc tài chính trong dài hạn để những người đóng góp hôm nay có thể tin tưởng họ sẽ nhận được các khoản lương hưu đầy đủ trong tương lai.",
+   "[wb-diem-lai-2024-08__C__p51__c002] (trang 51, chuong_2_thi_truong_von)\nHiện nay, người tham gia đang dựa vào BHXH để quản lý và tăng trưởng vốn đầu tư của họ để họ đạt có thể được độc lập về tài chính khi nghỉ hưu. Do những hạn chế pháp lý, tài sản của BHXH chủ yếu tập trung vào trái phiếu chính phủ. Điều này gây ảnh hưởng bất lợi đến lợi nhuận đầu tư, làm sai lệch lợi suất của trái phiếu chính phủ và gây hạn chế về đóng góp của BHXH cho sự phát triển chung của các thị trường tài chính. Luật bảo hiểm Xã hội cho phép BHXH chỉ được đầu tư quỹ vào trái phiếu chính phủ hoặc tiền gửi ngân hàng. Chính vì vậy, trái phiếu chính phủ chiếm đến 86% tài sản thuộc quản lý của BHXH, phần còn lại là tiền gửi ngân hàng. BHXH không có khoản đầu tư nào vào chứng khoán doanh nghiệp. Để BHXH trở nên bền vững và đảm bảo an ninh tài chính dài hạn cho người về hưu, cần phải tạo ra lợi nhuận ổn định. Luật thực chất yêu cầu họ phải tránh rủi ro thua lỗ.",
+   "[wb-diem-lai-2024-08__C__p51__c003] (trang 51, chuong_2_thi_truong_von)\nCách tiếp cận cực kỳ thận trọng như vậy ngăn cản việc tạo lợi nhuận đủ để đảm bảo bền vững trong dài hạn cũng như khả năng chi trả phúc lợi cho người tham gia. Vì đầu tư của BHXH tập trung vào trái phiếu chính phủ, một điểm đến an toàn, nên lợi nhuận đầu tư đang giảm dần do phản ánh lợi suất giảm dần của trái phiếu chính phủ trong những năm gần đây. Hiện nay, lợi suất đó còn thấp hơn mức lạm phát (Hình\n\n2.14), dẫn đến mất giá trị thực. Việc BHXH chi phối mua trái phiếu chính phủ qua các phiên đấu thầu cũng góp phần tạo sự sai lệch trên thị trường trái phiếu chính phủ (như được nêu ở Phần 1.2.). Hơn nữa, phạm vi đầu tư hẹp của BHXH đồng nghĩa với việc bỏ lỡ các cơ hội để tiếp tục phát triển các thị trường tài chính bằng cách bổ sung vốn đầu tư dài hạn hơn.",
+   "[wb-diem-lai-2024-08__C__p45__c003] (trang 45, chuong_2_thi_truong_von)\nQua đó, 95% toàn bộ khối lượng phát hành năm 2021 có kỳ hạn từ 10 năm trở lên và chỉ tiêu đó lên đến 100% trong năm 2022. Trong khi đó, BHXH quản lý một lượng vốn lớn để đảm bảo phúc lợi hưu trí cho người dân và các phúc lợi xã hội khác với dự trữ lên đến 10% GDP, có nhu cầu lớn cho các trái phiếu đó để bù trừ các nghĩa vụ dài hạn của mình. Chính vì vậy, thị phần của các tổ chức bảo hiểm, bao gồm BHXH là với chức năng an sinh xã hội, đã tăng nhanh lên 60% (Bảng 2.1) trên thị trường trái phiếu chính phủ, phần còn lại chủ yếu hầu như do các ngân hàng nắm giữ (40%).\n\nNguồn: Bộ Tài chính, Việt Nam\n\nBảng 2.1. Cơ cấu nhà đầu tư trái phiếu chính phủ (%) 2021 41,9 57,2 0,1 0,0 0,7 0,0 2020 45,2 54,1 0,0 0,0 0,6 0,1 2022 40,5 58,9 0,1 0,0 0,2 0,3 2023 39,7 59,8 0,1 0,0 0,2 0,3 Nhà đầu tư Các ngân hàng BHXH và các công ty bảo hiểm Các công ty chứng khoán Các quỹ đầu tư Nước ngoài (không thường trú) Khác 2017 52,7 45,4 0,1 0,0 1,2 0,6 2019 43,9 54,7 0,0 0,0 0,8 0,7 2018 47,8 50,8 0,0 0,0 0,6 0,8",
+   "[wb-diem-lai-2024-08__C__p45__c002] (trang 45, chuong_2_thi_truong_von)\nThị trường trái phiếu chính phủ bằng nội tệ phát triển sâu và hiệu quả cũng giúp đem lại khả năng chống chịu với các cú sốc. Thị trường trái phiếu chính phủ đã trở thành nguồn huy động vốn chính cho Chính phủ Việt Nam, khi quy mô thị trường so với GDP đang ổn định trong những năm qua và khối lượng phát hành hàng năm đạt 298 ngàn tỷ đồng trong năm 2023 (Hình 2.8).\n\nQuỹ Bảo hiểm Xã hội Việt Nam (BHXH) tham gia đầu tư đáng kể vào kênh trái phiếu chính phủ và đã tạo điều kiện để Chính phủ tập trung phát hành các công cụ có kỳ hạn dài. Những công cụ dài hạn đó chi phối lượng phát hành trái phiếu chính phủ, giúp kéo dài kỳ hạn bình quân và bảo vệ Chính phủ chống các cú sốc ngắn hạn, bao gồm thay đổi về lãi suất và tâm lý của các nhà đầu tư. Bộ Tài chính đã đặt ra mục tiêu chiến lược là từng bước nâng cao kỳ hạn bình quân trong danh mục trái phiếu chính phủ.",
+   "[wb-diem-lai-2024-08__C__p45__c001] (trang 45, chuong_2_thi_truong_von)\n1.2. Thị trường trái phiếu chính phủ Cần giải quyết những thách thức về thanh khoản và chênh lệch trong định giá Thị trường trái phiếu chính phủ thanh khoản và hiệu quả là điều thiết yếu cho quản lý tài chính của Chính phủ và là nền tảng quan trọng để phát triển thị trường vốn. Thị trường trái phiếu chính phủ lành mạnh sẽ giúp: (i) cung cấp một đường cong lợi suất ổn định và các tham chiếu về giá để định giá các công cụ tài chính và phát triển thị trường cho các sản phẩm của khu vực tư nhân như trái phiếu doanh nghiệp, (ii) thúc đẩy trung gian tài chính, tạo điều kiện để khu vực tư nhân phát hành nợ, (iii) cung cấp các công cụ rủi ro thấp để các tổ chức tài chính quản lý thanh khoản và để ngân hàng trung ương thực hiện chính sách tiền tệ, và (iv) tạo kênh đầu tư rủi ro thấp cho các nhà đầu tư. Điều này đỏi hỏi một thị trường dựa trên danh mục trái phiếu có cơ cấu tốt với đa dạng kỳ hạn sẵn có, được hỗ trợ bằng thanh khoản hợp lý trên thị trường thứ cấp.",
+   "[wb-diem-lai-2024-08__C__p51__c004] (trang 51, chuong_2_thi_truong_von)\nHình 2.14. Lợi suất trái phiếu chính phủ 10 năm và lạm phát 0 2 4 6 8 10 12 Jan-13 Jul-13 Jan-14 Jul-14 Jan-15 Jul-15 Jan-16 Jul-16 Jan-17 Jul-17 Jan-18 Jul-18 Jan-19 Jul-19 Jan-20 Jul-20 Jan-21 Jul-21 Jan-22 Jul-22 Jan-23 Jul-23 Inﬂation (%) 10y government bond yields (%) T1-17 T1-13 T1-21 T1-19 T1-15 T1 -23 T7-17 T7-13 T7 -21 T7-19 T7-15 T7 -23 T1-18 T1-14 T1 -22 T1-20 T1-16 T7-18 T7-14 T7 -22 T7-20 T7-16 12% 10% 8% 6% 4% 2% 0% Nguồn: GSO, Hiệp hội Trái phiếu Việt Nam Lạm phát (%) Lợi suất trái phiếu chính phủ 10 năm (%)"
+  ],
+  "context_chars": 5656,
+  "searches": 1,
+  "usage": {
+   "llm_calls": 2,
+   "cached_calls": 0,
+   "input_tokens": 3458,
+   "output_tokens": 257,
+   "thinking_tokens": 264
+  },
+  "latency_s": 34.126,
+  "auto_eval": {
+   "answerable": true,
+   "context_has_evidence": true
+  }
+ },
+ {
+  "query_id": "q15",
+  "split": "dev",
+  "config": "improve_multitool",
+  "provider": "gemini",
+  "model": "gemini-3.1-flash-lite",
+  "question": "Trong phần Tổng quan của báo cáo, tỷ giá VND/US$ trên thị trường đã tăng từ mức 24.258 VND vào tháng 12/2023 lên mức bao nhiêu vào cuối tháng 6/2024 và nhu cầu mua vàng trong nước tăng bao nhiêu phần trăm?",
+  "filter": {
+   "section": "tong_quan"
+  },
+  "status": "answered",
+  "answer": "Trong phần Tổng quan của báo cáo, tỷ giá VND/US$ trên thị trường đã tăng từ mức 24.258 VND vào tháng 12/2023 lên mức 25.334 VND vào cuối tháng 6/2024 [wb-diem-lai-2024-08__C__p14__c003]. Đồng thời, nhu cầu mua vàng trong nước đã tăng 28,6% so với cùng kỳ năm trước [wb-diem-lai-2024-08__C__p14__c003].",
+  "citations": [
+   "wb-diem-lai-2024-08__C__p14__c003"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_keyword",
+    "query": "tỷ giá VND/US$ tháng 6/2024 nhu cầu mua vàng trong nước tăng bao nhiêu phần trăm",
+    "filter": {
+     "section": "tong_quan"
+    },
+    "top_k": 5,
+    "results": [
+     {
+      "id": "wb-diem-lai-2024-08__C__p14__c003",
+      "rank": 1,
+      "score": 60.433296,
+      "page": 14,
+      "method": "bm25",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p14__c005",
+      "rank": 2,
+      "score": 28.791472,
+      "page": 14,
+      "method": "bm25",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p15__c004",
+      "rank": 3,
+      "score": 26.06306,
+      "page": 15,
+      "method": "bm25",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p16__c001",
+      "rank": 4,
+      "score": 23.25502,
+      "page": 16,
+      "method": "bm25",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p13__c002",
+      "rank": 5,
+      "score": 16.917505,
+      "page": 13,
+      "method": "bm25",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     }
+    ],
+    "added_ids": [
+     "wb-diem-lai-2024-08__C__p14__c003",
+     "wb-diem-lai-2024-08__C__p14__c002",
+     "wb-diem-lai-2024-08__C__p14__c004",
+     "wb-diem-lai-2024-08__C__p14__c005",
+     "wb-diem-lai-2024-08__C__p15__c004",
+     "wb-diem-lai-2024-08__C__p15__c003",
+     "wb-diem-lai-2024-08__C__p16__c001"
+    ],
+    "skipped_over_budget": [
+     "wb-diem-lai-2024-08__C__p16__c002",
+     "wb-diem-lai-2024-08__C__p13__c002",
+     "wb-diem-lai-2024-08__C__p13__c001",
+     "wb-diem-lai-2024-08__C__p13__c003"
+    ],
+    "context_chars": 5619
+   },
+   {
+    "event": "answer",
+    "citations": [
+     "wb-diem-lai-2024-08__C__p14__c003"
+    ]
+   }
+  ],
+  "context_ids": [
+   "wb-diem-lai-2024-08__C__p14__c003",
+   "wb-diem-lai-2024-08__C__p14__c002",
+   "wb-diem-lai-2024-08__C__p14__c004",
+   "wb-diem-lai-2024-08__C__p14__c005",
+   "wb-diem-lai-2024-08__C__p15__c004",
+   "wb-diem-lai-2024-08__C__p15__c003",
+   "wb-diem-lai-2024-08__C__p16__c001"
+  ],
+  "context": [
+   "[wb-diem-lai-2024-08__C__p14__c003] (trang 14, tong_quan)\nMặc dù vậy, do chênh lệch lãi suất giữa trong và ngoài nước vẫn duy trì và đồng đô-la Mỹ mạnh lên trong nửa đầu năm 2024 khiến cho dòng vốn phi chính thức bị chảy ra nước ngoài mạnh hơn dẫn đến cán cân thanh toán quốc tế ghi nhận thâm hụt. Chênh lệch lãi suất qua đêm giữa tiền đồng Việt Nam và đồng đô-la Mỹ vẫn ở mức cao (166 điểm cơ bản) trong nửa đầu năm 2024, do vậy, mặc dù lãi suất qua đêm của Việt Nam gần đây đã tăng lên nhưng vẫn làm tăng dòng vốn chảy ra nước ngoài để tìm kiếm lợi suất tốt hơn. Trong khi đó, do đồng đô-la mạnh lên, tỷ giá VND/US$ tăng từ mức 24.258 VND trong tháng 12/2023 lên 25.334 VND vào cuối tháng 6/2024 trên thị trường. Do người dân tìm kiếm công cụ đầu tư khác, nhu cầu mua vàng trong nước tăng vọt (+28,6% so với cùng kỳ năm trước), kết hợp với các biện pháp kiểm soát nguồn cung, khiến cho vàng bị đội giá cao gây ra tình trạng mua và nhập khẩu vàng phi chính thức.",
+   "[wb-diem-lai-2024-08__C__p14__c002] (trang 14, tong_quan)\nVị thế cán cân thanh toán quốc tế của Việt Nam suy giảm do dòng vốn ra nước ngoài phi chính thức tăng lên mặc dù tài khoản vãng lai và tài khoản tài chính ghi nhận thặng dư Tài khoản vãng lai đạt thặng dư đáng kể, nhờ kết quả tích cực của hoạt động ngoại thương. Thặng dư tài khoản vãng lai đạt 5,1% GDP trong Q1-20243 so với 2,1% trong Q1-2023, nhờ thặng dư thương mại lên đến 11,7% GDP trong Q1-2024, so với 8,7% trong Q1-2023, trên cơ sở xuất khẩu hàng hóa phục hồi mạnh. Nhờ dòng vốn đầu tư trực tiếp nước ngoài được duy trì (3,4% GDP trong Q1-2024), tài khoản tài chính cũng đạt thặng dư trong Q1-2024, tuy vẫn thấp hơn so với Q1-2023 do vốn đầu tư gián tiếp và đầu tư khác rút ra ngoài mạnh hơn (dòng vốn ròng rút ra là 2% GDP trong Q1-2024, so với dòng vốn ròng chảy vào là 0,1% trong Q1-2023) do các nhà đầu tư nước ngoài hiện thực hóa lợi nhuận đầu tư của họ.",
+   "[wb-diem-lai-2024-08__C__p14__c004] (trang 14, tong_quan)\nKhoản mục “Lỗi và sai sót”- bao gồm dòng vốn ra nước ngoài phi chính thức, tăng gấp bốn lần, từ 1,9% GDP trong Q4-2023 lên 7,9% trong Q1-2024, cao hơn nhiều so với mức bình quân các năm 2017-2019 (2,5%), khiến cho tổng thâm hụt cán cân thanh toán lên 1,37 tỷ US$ trong Q1-2024.",
+   "[wb-diem-lai-2024-08__C__p14__c005] (trang 14, tong_quan)\nNHNN thực hiện các biện pháp bao gồm can thiệp trên thị trường ngoại hối và thắt chặt thanh khoản nhằm giảm áp lực lên tỷ giá đồng Việt Nam. NHNN giảm tỷ giá trung tâm 1,2% từ tháng 1 đến tháng 6 năm 2024, cho phép tỷ giá thị trường giảm thêm 3,6% trong cùng kỳ, đồng thời áp dụng các biện pháp can thiệp ngoại hối để giảm áp lực tỷ giá đồng Việt Nam. Dự trữ ngoại hối ước tính đã giảm từ 90 tỷ US$ trong tháng 12/2023 xuống khoảng 83–84 tỷ US$ vào cuối tháng 6/2024 (tương đương 2,7 tháng trị giá nhập khẩu). Ngoài ra, NHNN bắt đầu hút thanh khoản trên thị trường liên ngân hàng vào giữa tháng 3/2024 bằng cách phát hành tín phiếu với lãi suất cao hơn (4,25%). Các biện pháp này đã đẩy lãi suất liên ngân hàng qua đêm từ mức 0,9% trong tháng 3/2024 lên 3,25% trong tháng 5/2024, trước khi hạ xuống còn 2,8% trong tháng 6/2024. Lãi suất liên ngân hàng tăng lên làm giảm áp lực cho tiền đồng Việt Nam.\n\n2 Bao gồm đầu tư của doanh nghiệp Nhà nước 3 Số liệu mới nhất có được vào thời điểm báo cáo.",
+   "[wb-diem-lai-2024-08__C__p15__c004] (trang 15, tong_quan)\nNgân sách nhà nước thặng dư trong nửa đầu năm 2024 sau giai đoạn mở rộng tài khóa nhẹ trong năm 2023 Ngân sách nhà nước ghi nhận bội thu 4,2% GDP trong nửa đầu năm 2024, so với 1,5% trong nửa đầu năm 2023, do thu ngân sách cao hơn và chi ngân sách giảm. Thu ngân sách tăng đến 19,5% Lạm phát tăng lên 4,3% (so với cùng kỳ năm trước) vào tháng 6/2024 do giá lương thực thực phẩm bị đẩy lên. Giá lương thực thực phẩm gia tăng đóng góp lớn nhất vào lạm phát CPI (+0,8 điểm phần trăm kể từ tháng 1/2024) khi giá lợn hơi tăng mạnh do bệnh tả lợn châu Phi bùng phát. Lạm phát cơ bản (không bao gồm giá lương thực thực phẩm, xăng dầu, giá các mặt hàng do Nhà nước quản lý) tiếp tục giảm còn 2,6% (so với cùng kỳ năm trước) trong tháng 6/2024 từ mức 4,3% (so với cùng kỳ năm trước) trong tháng 6/2023.",
+   "[wb-diem-lai-2024-08__C__p15__c003] (trang 15, tong_quan)\nNhu cầu dự kiến về tăng dự phòng, bổ sung dự phòng tổn thất vốn vay, đang gây thêm áp lực cho lợi nhuận của các ngân hàng vốn đã bị co kéo do thu nhập lãi thuần, phí và hoa hồng đang chững lại.\n\nTrong khi đó, thị trường trái phiếu doanh nghiệp có dấu hiệu phục hồi. Lượng phát hành trái phiếu doanh nghiệp tăng gấp 2,5 lần trong nửa đầu năm 2024 so với cùng kỳ năm 2023, do các ngân hàng tận dụng môi trường lãi suất thấp để đảo nợ trái phiếu. Tuy nhiên, lượng trái phiếu đáo hạn trong nửa cuối năm 2024 ước lên đến 139,8 ngàn tỷ VND (5,6 tỷ US$), trong đó trái phiếu bất động sản chiếm 42%, tạo áp lực cho lĩnh vực bất động sản trong điều kiện khó khăn về dòng tiền. Ngoài những diễn biến ngắn hạn trên, việc tái cân bằng dần hệ thống tài chính của Việt Nam theo hướng nâng cao vai trò của thị trường vốn vẫn tiếp tục là một chương trình nghị sự quan trọng và sẽ được bàn thêm trong chương chuyên đề đặc biệt của báo cáo này.",
+   "[wb-diem-lai-2024-08__C__p16__c001] (trang 16, tong_quan)\nGDP trong nửa đầu năm 2024 (+1 điểm phần trăm so với nửa đầu năm 2023), do tăng thu từ vốn qua bán đất (+0,7 điểm phần trăm), tăng thu nguồn thu từ thuế thu nhập doanh nghiệp (TNDN) và thuế giá trị gia tăng GTGT (+0,5 điểm phần trăm). Đồng thời, chi ngân sách giảm 1,6 điểm phần trăm từ mức 17% GDP trong nửa đầu 2023 xuống còn 15,4% GDP nửa đầu năm 2024, do cắt giảm chi thường xuyên đồng loạt và giải ngân vốn đầu tư công chậm hơn (từ 5,4% GDP nửa đầu năm 2023 còn 3,7% GDP nửa đầu năm 2024). Đến cuối tháng 6/2024, giải ngân đầu tư công chỉ mới thực hiện được 29% so với ngân sách được Quốc hội phê duyệt, tỉ lệ giải ngân đầu tư công giảm 6% so cùng kỳ năm 2023. Giải ngân đầu tư công chững lại là do chậm trễ trong giải phóng mặt bằng và đền bù cho các dự án lớn xây đường quốc lộ, khan hiếm vật liệu san lấp (đá và cát), giá cả vật liệu thô biến động."
+  ],
+  "context_chars": 5619,
+  "searches": 1,
+  "usage": {
+   "llm_calls": 2,
+   "cached_calls": 0,
+   "input_tokens": 3322,
+   "output_tokens": 177,
+   "thinking_tokens": 269
+  },
+  "latency_s": 3.368,
+  "auto_eval": {
+   "answerable": true,
+   "context_has_evidence": true
+  }
+ },
+ {
+  "query_id": "u01",
+  "split": "dev",
+  "config": "improve_multitool",
+  "provider": "gemini",
+  "model": "gemini-3.1-flash-lite",
+  "question": "Ngân hàng Thế giới dự báo tốc độ tăng trưởng GDP thực của Việt Nam năm 2027 là bao nhiêu phần trăm?",
+  "filter": null,
+  "status": "abstain",
+  "answer": "KHÔNG ĐỦ BẰNG CHỨNG: Báo cáo \"Điểm lại tháng 8/2024\" của Ngân hàng Thế giới chỉ đưa ra dự báo tốc độ tăng trưởng GDP thực của Việt Nam cho các năm 2024 (6,1%) và giai đoạn 2025–2026 (6,5%), không có thông tin dự báo cho năm 2027 [wb-diem-lai-2024-08__C__p16__c002], [wb-diem-lai-2024-08__C__p33__c002].",
+  "citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_keyword",
+    "query": "dự báo tăng trưởng GDP thực Việt Nam 2027",
+    "filter": null,
+    "top_k": 5,
+    "results": [
+     {
+      "id": "wb-diem-lai-2024-08__C__p33__c002",
+      "rank": 1,
+      "score": 22.054194,
+      "page": 33,
+      "method": "bm25",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p16__c002",
+      "rank": 2,
+      "score": 20.873659,
+      "page": 16,
+      "method": "bm25",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p16__c004",
+      "rank": 3,
+      "score": 18.290048,
+      "page": 16,
+      "method": "bm25",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p36__c004",
+      "rank": 4,
+      "score": 18.290048,
+      "page": 36,
+      "method": "bm25",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p35__c005",
+      "rank": 5,
+      "score": 16.92312,
+      "page": 35,
+      "method": "bm25",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     }
+    ],
+    "added_ids": [
+     "wb-diem-lai-2024-08__C__p33__c002",
+     "wb-diem-lai-2024-08__C__p33__c001",
+     "wb-diem-lai-2024-08__C__p33__c003",
+     "wb-diem-lai-2024-08__C__p16__c002",
+     "wb-diem-lai-2024-08__C__p16__c001",
+     "wb-diem-lai-2024-08__C__p16__c003",
+     "wb-diem-lai-2024-08__C__p16__c004",
+     "wb-diem-lai-2024-08__C__p36__c004"
+    ],
+    "skipped_over_budget": [
+     "wb-diem-lai-2024-08__C__p36__c003",
+     "wb-diem-lai-2024-08__C__p35__c005",
+     "wb-diem-lai-2024-08__C__p35__c004"
+    ],
+    "context_chars": 5828
+   },
+   {
+    "event": "abstain",
+    "model_text": "KHÔNG ĐỦ BẰNG CHỨNG: Báo cáo \"Điểm lại tháng 8/2024\" của Ngân hàng Thế giới chỉ đưa ra dự báo tốc độ tăng trưởng GDP thực của Việt Nam cho các năm 2024 (6,1%) và giai đoạn 2025–2026 (6,5%), không có thông tin dự báo cho năm 2027 [wb-diem-lai-2024-08__C__p16__c002], [wb-diem-lai-2024-08__C__p33__c002]."
+   }
+  ],
+  "context_ids": [
+   "wb-diem-lai-2024-08__C__p33__c002",
+   "wb-diem-lai-2024-08__C__p33__c001",
+   "wb-diem-lai-2024-08__C__p33__c003",
+   "wb-diem-lai-2024-08__C__p16__c002",
+   "wb-diem-lai-2024-08__C__p16__c001",
+   "wb-diem-lai-2024-08__C__p16__c003",
+   "wb-diem-lai-2024-08__C__p16__c004",
+   "wb-diem-lai-2024-08__C__p36__c004"
+  ],
+  "context": [
+   "[wb-diem-lai-2024-08__C__p33__c002] (trang 33, chuong_1_kinh_te_vi_mo)\nHình 1.29. Bội thu ngân sách tăng do thu ngân sách tăng và chi ngân sách giảm Tỷ lệ % GDP -30 -20 -10 0 10 20 30 2019 2020 2021 2022 2023 6M-23 6M-24 Taxes revenues Non-taxes revenues Public investment Recurrent expenditures Fiscal balance 2019 2020 2021 2022 2023 H1-23 H1-24 30 20 10 0 -10 -20 -30 Triển vọng tăng trưởng kinh tế của Việt Nam là tích cực Nền kinh tế Việt Nam được dự báo tăng trưởng 6,1% trong năm 2024, và tăng tốc lên đến 6,5% trong các năm 2025–2026 (Bảng 1.1). Dự báo trên dựa trên giả định tăng trưởng xuất khẩu các mặt hàng chế tạo chế biến chững lại trong nửa cuối năm 2024, sau khi phục hồi 16,9% (so cùng kỳ) trong nửa đầu năm 2024 và nhu cầu trên toàn cầu dự kiến chững lại năm 2024, nhất là tại Hoa Kỳ, là thị trường xuất khẩu lớn nhất của Việt Nam.",
+   "[wb-diem-lai-2024-08__C__p33__c001] (trang 33, chuong_1_kinh_te_vi_mo)\nHình 1.30. Thu ngân sách tăng chủ yếu do tăng thu từ vốn Tỷ lệ % GDP\n\n0.0\n\n5.0\n\n10.0\n\n15.0\n\n20.0 2019 2020 2021 2022 2023 6M-23 6M-24 Corporate income tax Value added tax Individual income tax Special cons. tax for domestic Trade taxes Other Fees, charges and non-tax Capital revenues 20 15 10 5 0 2019 2020 2021 2022 2023 H1-2023 H1-2024 Nguồn: Bộ Tài chính và tính toán của cán bộ Ngân hàng Thế giới Chú thích: Mẫu số là GDP năm cho 2019–2022, và GDP quý cho 6 tháng năm 2023 và 6 tháng năm 2024",
+   "[wb-diem-lai-2024-08__C__p33__c003] (trang 33, chuong_1_kinh_te_vi_mo)\nTăng trưởng xuất khẩu dự kiến sẽ tăng nhẹ trong các năm 2025-2026 khi triển vọng thương mại toàn cầu và sức cầu bên ngoài ở các đối tác thương mại lớn như Hoa Kỳ, khu vực đồng Euro và Trung Quốc cải thiện (các Hình 1.31 và 1.32, Hộp 1.1). Thị trường bất động sản cho thấy dấu hiệu phục hồi và dự báo sẽ xoay chiều vào cuối 2024 và đầu 2025 sau khi giải quyết được tình trạng đóng băng thị trường trái phiếu doanh nghiệp và Luật đất đai có hiệu lực từ tháng 8/2024. Trong điều kiện xuất khẩu tiếp tục tăng trưởng và bất động sản có dấu hiệu phục hồi, nhu cầu trong nước sẽ tăng lên vào nửa cuối năm 2024 khi tâm lý nhà đầu tư và người tiêu dùng được cải thiện, với tăng trưởng theo giá so sánh của tổng đầu tư và tổng tiêu dùng của tư nhân dự kiến đạt lần lượt 5,8% và 5,6% trong năm 2024.",
+   "[wb-diem-lai-2024-08__C__p16__c002] (trang 16, tong_quan)\nTriển vọng kinh tế của Việt Nam được nhìn nhận là tích cực, với cơ hội và rủi ro nhìn chung ở thế cân bằng Nền kinh tế Việt Nam được dự báo tăng trưởng 6,1% trong năm 2024, sau đó lên đến 6,5% trong các năm 2025–2026 (Bảng 0.1). Dự báo trên đã xét đến hiệu ứng xuất phát điểm cao hơn kể từ nửa cuối năm 2023 với giả định tăng trưởng xuất khẩu các mặt hàng chế tạo chế biến chững lại trong nửa cuối năm 2024, sau khi phục hồi 16,9% (so với cùng kỳ năm trước) trong nửa đầu năm 2024 và nhu cầu trên toàn cầu dự kiến chững lại năm 2024, nhất là tại Hoa Kỳ, là thị trường xuất khẩu lớn nhất của Việt Nam. Thị trường bất động sản cho thấy dấu hiệu phục hồi và dự báo sẽ xoay chiều vào cuối 2024 và đầu 2025 sau khi giải quyết được tình trạng đóng băng thị trường trái phiếu doanh nghiệp và Luật đất đai có hiệu lực từ tháng 8/2024.",
+   "[wb-diem-lai-2024-08__C__p16__c001] (trang 16, tong_quan)\nGDP trong nửa đầu năm 2024 (+1 điểm phần trăm so với nửa đầu năm 2023), do tăng thu từ vốn qua bán đất (+0,7 điểm phần trăm), tăng thu nguồn thu từ thuế thu nhập doanh nghiệp (TNDN) và thuế giá trị gia tăng GTGT (+0,5 điểm phần trăm). Đồng thời, chi ngân sách giảm 1,6 điểm phần trăm từ mức 17% GDP trong nửa đầu 2023 xuống còn 15,4% GDP nửa đầu năm 2024, do cắt giảm chi thường xuyên đồng loạt và giải ngân vốn đầu tư công chậm hơn (từ 5,4% GDP nửa đầu năm 2023 còn 3,7% GDP nửa đầu năm 2024). Đến cuối tháng 6/2024, giải ngân đầu tư công chỉ mới thực hiện được 29% so với ngân sách được Quốc hội phê duyệt, tỉ lệ giải ngân đầu tư công giảm 6% so cùng kỳ năm 2023. Giải ngân đầu tư công chững lại là do chậm trễ trong giải phóng mặt bằng và đền bù cho các dự án lớn xây đường quốc lộ, khan hiếm vật liệu san lấp (đá và cát), giá cả vật liệu thô biến động.",
+   "[wb-diem-lai-2024-08__C__p16__c003] (trang 16, tong_quan)\nTrong điều kiện xuất khẩu tiếp tục tăng trưởng và bất động sản có dấu hiệu phục hồi, nhu cầu trong nước sẽ vững lên vào nửa cuối năm 2024 khi tâm lý nhà đầu tư và người tiêu dùng được cải thiện. Cân đối tài khoản vãng lai được dự báo vẫn duy trì thặng dư nhỏ, đồng thời Chính phủ đang quay lại củng cố cân đối ngân sách, còn lạm phát dự báo sẽ giảm từ 4,5% năm 2024 xuống còn 3,5% năm 2026.\n\nNguồn: TCTK; Bộ Tài chính; NHNN; IMF; và tính toán của cán bộ Ngân hàng Thế giới Chú thích: e = ước; f = dự báo, *: không bao gồm chi tiêu chưa phân bổ và áp dụng chuẩn Thống kê Tài chính Chính phủ (GFS), **: tính toán dựa trên Quyết định số 458/QĐ-TTg (28/04/2023) về kế hoạch vay và trả nợ công năm 2023, giai đoạn 2023-2025, Nghị quyết số 105/2023/QH15 (10/11/2023) về dự toán ngân sách năm 2024 của Quốc hội",
+   "[wb-diem-lai-2024-08__C__p16__c004] (trang 16, tong_quan)\nBảng 0.1. Một số chỉ số kinh tế, Việt Nam 2021–2026 6,5 5,9 5,4 7,0 7,4 7,0 4,0 1,0 -0,4 35,0 6,1 5,3 5,5 6,8 11,4 11,7 4,5 0,9 -0,8 35,7 6,5 5,9 5,4 7,2 8,0 7,7 3,5 1,0 -0,2 34,6 Chỉ số Tăng trưởng GDP (%) Tăng trưởng các yếu tố chi tiêu Tiêu dùng của tư nhân Tiêu dùng của Chính phủ Đầu tư Xuất khẩu Nhập khẩu Chỉ số giá tiêu dùng (bình quân, %) Cân đối tài khoản vãng lai (%GDP) Cân đối tài khóa (*) (%GDP) Nợ Chính phủ và được Chính phủ bảo lãnh (**) (% GDP) 2021 2,6 2,0 4,7 3,7 13,9 15,8 1,8 -2,2 -1,4 42,5 2023 5,0 3,5 4,9 4,1 -2,5 -4,3 3,3 5,8 -2,4 36,0 2022 8,0 7,8 3,6 5,8 4,9 2,2 3,1 0,3 0,7 37,1 Ước 2024 Dự báo 2025 Dự báo 2026",
+   "[wb-diem-lai-2024-08__C__p36__c004] (trang 36, chuong_1_kinh_te_vi_mo)\nBảng 1.1. Một số chỉ số kinh tế, Việt Nam 2021–2026 6,5 5,9 5,4 7,0 7,4 7,0 4,0 1,0 -0,4 35,0 6,1 5,3 5,5 6,8 11,4 11,7 4,5 0,9 -0,8 35,7 6,5 5,9 5,4 7,2 8,0 7,7 3,5 1,0 -0,2 34,6 Chỉ số Tăng trưởng GDP (%) Tăng trưởng các yếu tố chi tiêu Tiêu dùng của tư nhân Tiêu dùng của Chính phủ Đầu tư Xuất khẩu Nhập khẩu Chỉ số giá tiêu dùng (bình quân, %) Cân đối tài khoản vãng lai (%GDP) Cân đối tài khóa (*) (%GDP) Nợ Chính phủ và được Chính phủ bảo lãnh (**) (% GDP) 2021 2,6 2,0 4,7 3,7 13,9 15,8 1,8 -2,2 -1,4 42,5 2023 5,0 3,5 4,9 4,1 -2,5 -4,3 3,3 5,8 -2,4 36,0 2022 8,0 7,8 3,6 5,8 4,9 2,2 3,1 0,3 0,7 37,1 Ước 2024 Dự báo 2025 Dự báo 2026"
+  ],
+  "context_chars": 5828,
+  "searches": 1,
+  "usage": {
+   "llm_calls": 2,
+   "cached_calls": 0,
+   "input_tokens": 3864,
+   "output_tokens": 174,
+   "thinking_tokens": 259
+  },
+  "latency_s": 3.605,
+  "auto_eval": {
+   "answerable": false,
+   "context_has_evidence": null
+  }
+ },
+ {
+  "query_id": "u02",
+  "split": "dev",
+  "config": "improve_multitool",
+  "provider": "gemini",
+  "model": "gemini-3.1-flash-lite",
+  "question": "Trong năm 2023, các doanh nghiệp Việt Nam đã phát hành bao nhiêu tỷ đồng trái phiếu xanh?",
+  "filter": null,
+  "status": "abstain",
+  "answer": "KHÔNG ĐỦ BẰNG CHỨNG: Báo cáo \"Điểm lại tháng 8/2024: Vươn tới tầm cao mới trên thị trường vốn\" không cung cấp thông tin cụ thể về số lượng trái phiếu xanh được các doanh nghiệp Việt Nam phát hành trong năm 2023.",
+  "citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_keyword",
+    "query": "doanh nghiệp Việt Nam phát hành trái phiếu xanh 2023 bao nhiêu tỷ đồng",
+    "filter": null,
+    "top_k": 5,
+    "results": [
+     {
+      "id": "wb-diem-lai-2024-08__C__p40__c001",
+      "rank": 1,
+      "score": 28.761183,
+      "page": 40,
+      "method": "bm25",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p40__c002",
+      "rank": 2,
+      "score": 26.924212,
+      "page": 40,
+      "method": "bm25",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p48__c002",
+      "rank": 3,
+      "score": 24.809391,
+      "page": 48,
+      "method": "bm25",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p47__c001",
+      "rank": 4,
+      "score": 24.228924,
+      "page": 47,
+      "method": "bm25",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p45__c002",
+      "rank": 5,
+      "score": 24.112846,
+      "page": 45,
+      "method": "bm25",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     }
+    ],
+    "added_ids": [
+     "wb-diem-lai-2024-08__C__p40__c001",
+     "wb-diem-lai-2024-08__C__p40__c002",
+     "wb-diem-lai-2024-08__C__p40__c003",
+     "wb-diem-lai-2024-08__C__p48__c002",
+     "wb-diem-lai-2024-08__C__p48__c001",
+     "wb-diem-lai-2024-08__C__p48__c003",
+     "wb-diem-lai-2024-08__C__p47__c001",
+     "wb-diem-lai-2024-08__C__p47__c002"
+    ],
+    "skipped_over_budget": [
+     "wb-diem-lai-2024-08__C__p45__c002",
+     "wb-diem-lai-2024-08__C__p45__c001",
+     "wb-diem-lai-2024-08__C__p45__c003"
+    ],
+    "context_chars": 5357
+   },
+   {
+    "event": "abstain",
+    "model_text": "KHÔNG ĐỦ BẰNG CHỨNG: Báo cáo \"Điểm lại tháng 8/2024: Vươn tới tầm cao mới trên thị trường vốn\" không cung cấp thông tin cụ thể về số lượng trái phiếu xanh được các doanh nghiệp Việt Nam phát hành trong năm 2023."
+   }
+  ],
+  "context_ids": [
+   "wb-diem-lai-2024-08__C__p40__c001",
+   "wb-diem-lai-2024-08__C__p40__c002",
+   "wb-diem-lai-2024-08__C__p40__c003",
+   "wb-diem-lai-2024-08__C__p48__c002",
+   "wb-diem-lai-2024-08__C__p48__c001",
+   "wb-diem-lai-2024-08__C__p48__c003",
+   "wb-diem-lai-2024-08__C__p47__c001",
+   "wb-diem-lai-2024-08__C__p47__c002"
+  ],
+  "context": [
+   "[wb-diem-lai-2024-08__C__p40__c001] (trang 40, chuong_2_thi_truong_von)\nđể đánh giá sự phát triển của thị trường tài chính ở Việt Nam cần nhìn vào ba chức năng chính: (i) huy động vốn, (ii) tiết kiệm, và (iii) định giá. Xét cả ba tiêu chí trên, thị trường vốn của Việt Nam còn nhiều dư địa để tăng trưởng. Chức năng huy động vốn: Mặc dù có quy mô vốn hóa thị trường lớn, nhưng lượng vốn huy động thông qua phát hành cổ phần trong năm năm qua lại tương đối nhỏ, bình quân chỉ đạt 37 ngàn tỷ đồng (1,5 tỷ đô la Mỹ) mỗi năm trên hai sàn giao dịch chứng khoán. Khối lượng phát hành trái phiếu lớn hơn tương đối, đạt bình quân mỗi năm 271 ngàn tỷ đồng (11 tỷ đô la Mỹ) và 403 ngàn tỷ đồng (17 tỷ đô la Mỹ) tương ứng với trái phiếu chính phủ và trái phiếu doanh nghiệp từ năm 2019 đến năm 2023 (Hình 2.2).",
+   "[wb-diem-lai-2024-08__C__p40__c002] (trang 40, chuong_2_thi_truong_von)\nTrái phiếu doanh nghiệp có triển vọng đáng khích lệ với khối lượng phát hành tăng trưởng đáng kể cho đến năm 2021, khi đạt đỉnh ở mức 637 ngàn tỷ đồng (26 tỷ đô la Mỹ). Mặc dù vậy, trái phiếu doanh nghiệp có kỳ hạn bình quân ngắn, chỉ khoảng bốn năm, chưa bằng một nửa so với mức trung bình của khu vực, phản ánh khả năng huy động dài hạn còn hạn chế. Đồng thời, những biến động gần đây trên thị trường—với khối lượng phát hành trái phiếu doanh nghiệp sụt giảm mạnh từ cuối năm 2022—đã bộc lộ những yếu kém trong nền tảng của thị trường.",
+   "[wb-diem-lai-2024-08__C__p40__c003] (trang 40, chuong_2_thi_truong_von)\nChức năng tiết kiệm: Tổng mức tiết kiệm vẫn thấp, hạn chế lượng vốn sẵn cho các khoản đầu tư dài hạn. Trong những năm gần đây, số tài khoản chứng khoán của cá nhân đã tăng lên, nhưng tổng quy mô các nhà đầu tư tổ chức của Việt Nam vẫn nhỏ hơn so với các quốc gia so sánh trong khu vực, chỉ ở mức 19% GDP (Hình 2.3). Điều đó cho thấy tiềm năng chưa được khai thác của thị trường vốn Việt Nam, gây hạn chế về nguồn cung tài chính dài hạn. Trong số các nhà đầu tư tổ chức hiện có, chỉ có một số ít đầu tư vào khu vực doanh nghiệp.",
+   "[wb-diem-lai-2024-08__C__p48__c002] (trang 48, chuong_2_thi_truong_von)\n1.014 898 461 316 145943936 3 2 2 8 13 26 23 23 29 14,9% 14,81% 11,8%12,41% 9,01% 6,29% 5,36% 3,40% 2015 2016 2017 2018 2019 2020 2021 2022 2023 2015 2016 2017 2018 2019 2020 2021 2022 2023 Nghìn tỷ đồng Nguồn: Bộ Tài chính, Hiệp hội Trái phiếu Việt Nam Nguồn: FiinGroup, Hiệp hội Trái phiếu Việt Nam Cho đến gần đây, việc tập trung vào phát hành riêng lẻ tạo rủi ro cho các nhà đầu tư thiếu kinh nghiệm. Thị trường phát hành riêng lẻ, về bản chất, hạn chế về việc công bố thông tin và bảo vệ nhà đầu tư nhỏ lẻ. Do đó, Luật chứng khoán ở Việt Nam giới hạn thị trường này cho các nhà đầu tư chuyên nghiệp. Trên các thị trường phát hành riêng lẻ phát triển tốt, các nhà đầu tư chuyên nghiệp thực thụ có năng lực phân tích, đánh giá rủi ro và định giá phù hợp cho trái phiếu. Trong khi đó, trên thị trường phát hành đại chúng, phát hành trái phiếu phải có sự phê duyệt của cơ quan quản lý nhà nước khi phát hành để đảm bảo công bố thông tin đầy đủ.",
+   "[wb-diem-lai-2024-08__C__p48__c001] (trang 48, chuong_2_thi_truong_von)\n0 500 1,000 1,500 2,000 2,500 2015 2016 2017 2018 2019 2020 2021 2022 2023 Public oﬀer Private placement\n\n0.00%\n\n2.00%\n\n4.00%\n\n6.00%\n\n8.00%\n\n10.00%\n\n12.00%\n\n14.00%\n\n16.00%\n\n18.00% - 100 200 300 400 500 600 700 2015 2016 2017 2018 2019 2020 2021 2022 2023 VND trn Total issuance Outstanding volume/GDP (%) (rhs)\n\nHình 2.10. Số đợt và quy mô phát hành trái phiếu doanh nghiệp so GDP\n\nHình 2.11. Số lượng các đợt phát hành trái phiếu doanh nghiệp 700 600 500 400 300 200 100 -\n\n2.000\n\n1.500\n\n1.000 500 0 18% 16% 14% 12% 10% 8% 6% 4% 2% 0% 17,08% 2.005",
+   "[wb-diem-lai-2024-08__C__p48__c003] (trang 48, chuong_2_thi_truong_von)\nTrong cả hai trường hợp, cơ chế đối điếu và cân đối phù hợp đều tồn tại để ngăn chặn tổ chức phát hành có dụng ý xấu huy động vốn trên thị trường, tuy nhiên, lại chưa đầy đủ cho thị trường trái phiếu doanh nghiệp tại Việt Nam. Mặc dù Luật chứng khoán đã quy định hạn chế tiếp cận trái phiếu phát hành riêng lẻ, nhưng những bất cập về định nghĩa nhà đầu tư chuyên nghiệp và cách áp dụng trong thực tế đã tạo điều kiện để một lượng lớn trái phiếu phát hành riêng lẻ được bán cho các nhà đầu tư cá nhân chưa được trang bị để hiểu về rủi ro hoặc có khả năng hấp thụ tổn thất. Kết quả là, khi các vụ việc gian lận lớn và hành vi sai trái bị phát hiện vào giữa năm 2022, nhà đầu tư mất lòng tin và thị trường giảm mạnh.",
+   "[wb-diem-lai-2024-08__C__p47__c001] (trang 47, chuong_2_thi_truong_von)\nNguồn: Bộ Tài chính Việt Nam, Hiệp hội Trái phiếu Việt Nam, tính toán của cán bộ Ngân hàng Thế giới Chú thích: Trong một thị trường hiệu quả, không nên có chênh lệch lớn giữa lợi suất trên thị trường sơ cấp và thị trường thứ cấp\n\n1.3. Trái phiếu doanh nghiệp Tăng trưởng bị cản trở do vi phạm quy định, nhấn mạnh sự cần thiết phải tăng cường tính minh bạch và tính chuyên nghiệp của thị trường Trái phiếu doanh nghiệp phát triển tương đối tích cực đến giữa năm 2022, khi biến động trên thị trường đồng thời bộc lộ ra những yếu kém cơ bản, nhưng cho thấy tiềm năng tiếp tục tăng trưởng. Khối lượng phát hành đạt đỉnh 637 ngàn tỷ đồng (28 tỷ đô la Mỹ) trong năm 2021 (Hình",
+   "[wb-diem-lai-2024-08__C__p47__c002] (trang 47, chuong_2_thi_truong_von)\n2.10), nhưng sau đó sụt mạnh do phải xử lý các hành vi gian lận trong phát hành trái phiếu của các tập đoàn bất động sản Vạn Thịnh Phát và Tân Hoàng Minh vào năm 2022.23 Trong năm 2023, thị trường dần phục hồi, đạt 12% GDP, so với mức dao động từ 27-105% của các quốc gia trong khu vực.24 Thị trường chủ yếu do các đợt phát hành riêng lẻ chi phối, với bình quân chỉ có 23 đợt phát hành đại chúng (24 ngàn tỷ đồng) so với 938 đợt phát hành riêng lẻ (383 ngàn tỷ đồng) trong năm năm qua (Hình 2.11) — mặc dù đang có sự chuyển dịch sang phát hành đại chúng nhiều hơn trong năm 2023, chiếm 11% tổng các đợt phát hành (so với 3-5% trong các năm trước đó).\n\n0\n\n0.2\n\n0.4\n\n0.6\n\n0.8 1\n\n1.2\n\n1.4\n\n1.6"
+  ],
+  "context_chars": 5357,
+  "searches": 1,
+  "usage": {
+   "llm_calls": 2,
+   "cached_calls": 0,
+   "input_tokens": 3378,
+   "output_tokens": 102,
+   "thinking_tokens": 198
+  },
+  "latency_s": 2.615,
+  "auto_eval": {
+   "answerable": false,
+   "context_has_evidence": null
+  }
+ }
+]
