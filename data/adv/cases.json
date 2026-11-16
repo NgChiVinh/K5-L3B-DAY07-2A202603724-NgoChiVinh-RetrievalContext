@@ -1,0 +1,290 @@
+[
+ {
+  "id": "d01",
+  "split": "dev",
+  "answerable": true,
+  "group": "bang"
+ },
+ {
+  "id": "d02",
+  "split": "dev",
+  "answerable": true,
+  "group": "bang"
+ },
+ {
+  "id": "d03",
+  "split": "dev",
+  "answerable": true,
+  "group": "bang"
+ },
+ {
+  "id": "d04",
+  "split": "dev",
+  "answerable": true,
+  "group": "bieu_do"
+ },
+ {
+  "id": "d05",
+  "split": "dev",
+  "answerable": true,
+  "group": "bieu_do"
+ },
+ {
+  "id": "d06",
+  "split": "dev",
+  "answerable": true,
+  "group": "bieu_do"
+ },
+ {
+  "id": "d07",
+  "split": "dev",
+  "answerable": true,
+  "group": "bieu_do"
+ },
+ {
+  "id": "d08",
+  "split": "dev",
+  "answerable": true,
+  "group": "anh_so_do"
+ },
+ {
+  "id": "d09",
+  "split": "dev",
+  "answerable": true,
+  "group": "anh_so_do"
+ },
+ {
+  "id": "d10",
+  "split": "dev",
+  "answerable": true,
+  "group": "multi_hop"
+ },
+ {
+  "id": "d11",
+  "split": "dev",
+  "answerable": true,
+  "group": "multi_hop"
+ },
+ {
+  "id": "d12",
+  "split": "dev",
+  "answerable": true,
+  "group": "multi_hop"
+ },
+ {
+  "id": "d13",
+  "split": "dev",
+  "answerable": true,
+  "group": "text"
+ },
+ {
+  "id": "d14",
+  "split": "dev",
+  "answerable": true,
+  "group": "text"
+ },
+ {
+  "id": "d15",
+  "split": "dev",
+  "answerable": true,
+  "group": "text"
+ },
+ {
+  "id": "du1",
+  "split": "dev",
+  "answerable": false,
+  "group": "thieu_bang_chung"
+ },
+ {
+  "id": "du2",
+  "split": "dev",
+  "answerable": false,
+  "group": "thieu_bang_chung"
+ },
+ {
+  "id": "du3",
+  "split": "dev",
+  "answerable": false,
+  "group": "thieu_bang_chung"
+ },
+ {
+  "id": "t01",
+  "split": "test",
+  "answerable": true,
+  "group": "bang"
+ },
+ {
+  "id": "t02",
+  "split": "test",
+  "answerable": true,
+  "group": "bang"
+ },
+ {
+  "id": "t03",
+  "split": "test",
+  "answerable": true,
+  "group": "bang"
+ },
+ {
+  "id": "t04",
+  "split": "test",
+  "answerable": true,
+  "group": "bang"
+ },
+ {
+  "id": "t05",
+  "split": "test",
+  "answerable": true,
+  "group": "bang"
+ },
+ {
+  "id": "t06",
+  "split": "test",
+  "answerable": true,
+  "group": "bang"
+ },
+ {
+  "id": "t07",
+  "split": "test",
+  "answerable": true,
+  "group": "anh_so_do"
+ },
+ {
+  "id": "t08",
+  "split": "test",
+  "answerable": true,
+  "group": "anh_so_do"
+ },
+ {
+  "id": "t09",
+  "split": "test",
+  "answerable": true,
+  "group": "anh_so_do"
+ },
+ {
+  "id": "t10",
+  "split": "test",
+  "answerable": true,
+  "group": "anh_so_do"
+ },
+ {
+  "id": "t11",
+  "split": "test",
+  "answerable": true,
+  "group": "anh_so_do"
+ },
+ {
+  "id": "t12",
+  "split": "test",
+  "answerable": true,
+  "group": "bieu_do"
+ },
+ {
+  "id": "t13",
+  "split": "test",
+  "answerable": true,
+  "group": "bieu_do"
+ },
+ {
+  "id": "t14",
+  "split": "test",
+  "answerable": true,
+  "group": "bieu_do"
+ },
+ {
+  "id": "t15",
+  "split": "test",
+  "answerable": true,
+  "group": "bieu_do"
+ },
+ {
+  "id": "t16",
+  "split": "test",
+  "answerable": true,
+  "group": "bieu_do"
+ },
+ {
+  "id": "t17",
+  "split": "test",
+  "answerable": true,
+  "group": "multi_hop"
+ },
+ {
+  "id": "t18",
+  "split": "test",
+  "answerable": true,
+  "group": "multi_hop"
+ },
+ {
+  "id": "t19",
+  "split": "test",
+  "answerable": true,
+  "group": "multi_hop"
+ },
+ {
+  "id": "t20",
+  "split": "test",
+  "answerable": true,
+  "group": "multi_hop"
+ },
+ {
+  "id": "t21",
+  "split": "test",
+  "answerable": true,
+  "group": "text"
+ },
+ {
+  "id": "t22",
+  "split": "test",
+  "answerable": true,
+  "group": "text"
+ },
+ {
+  "id": "t23",
+  "split": "test",
+  "answerable": true,
+  "group": "text"
+ },
+ {
+  "id": "t24",
+  "split": "test",
+  "answerable": true,
+  "group": "text"
+ },
+ {
+  "id": "tu1",
+  "split": "test",
+  "answerable": false,
+  "group": "thieu_bang_chung"
+ },
+ {
+  "id": "tu2",
+  "split": "test",
+  "answerable": false,
+  "group": "thieu_bang_chung"
+ },
+ {
+  "id": "tu3",
+  "split": "test",
+  "answerable": false,
+  "group": "thieu_bang_chung"
+ },
+ {
+  "id": "tu4",
+  "split": "test",
+  "answerable": false,
+  "group": "thieu_bang_chung"
+ },
+ {
+  "id": "tu5",
+  "split": "test",
+  "answerable": false,
+  "group": "thieu_bang_chung"
+ },
+ {
+  "id": "tu6",
+  "split": "test",
+  "answerable": false,
+  "group": "thieu_bang_chung"
+ }
+]

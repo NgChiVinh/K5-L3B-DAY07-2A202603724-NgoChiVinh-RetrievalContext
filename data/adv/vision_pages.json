@@ -1,0 +1,2799 @@
+{
+ "1": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1593,
+   "output_tokens": 105,
+   "thinking_tokens": 124
+  },
+  "latency_s": 4.283
+ },
+ "3": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1593,
+   "output_tokens": 5,
+   "thinking_tokens": 118
+  },
+  "latency_s": 2.531
+ },
+ "4": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1593,
+   "output_tokens": 5,
+   "thinking_tokens": 119
+  },
+  "latency_s": 2.857
+ },
+ "5": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1593,
+   "output_tokens": 5,
+   "thinking_tokens": 113
+  },
+  "latency_s": 1.796
+ },
+ "6": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1593,
+   "output_tokens": 58,
+   "thinking_tokens": 116
+  },
+  "latency_s": 2.222
+ },
+ "7": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1593,
+   "output_tokens": 80,
+   "thinking_tokens": 115
+  },
+  "latency_s": 2.448
+ },
+ "8": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1593,
+   "output_tokens": 88,
+   "thinking_tokens": 119
+  },
+  "latency_s": 2.584
+ },
+ "9": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [
+   {
+    "kind": "table",
+    "label": "",
+    "title": "TỪ VIẾT TẮT TIẾNG ANH",
+    "region": "full",
+    "content": "| Từ viết tắt | Giải nghĩa |\n| :--- | :--- |\n| ADS | Kịch bản khử thải các-bon tăng cường |\n| ASEAN | Hiệp hội các Quốc gia Đông Nam Á |\n| ASI | Tránh-Chuyển-Cải thiện |\n| BAU | Kịch bản cơ sở |\n| CBAM | Cơ chế điều chỉnh biên giới các-bon |\n| CCDR | Báo cáo quốc gia về khí hậu và phát triển |\n| CCGT | Tua-bin khí chu trình hỗn hợp |\n| CGE | Cân bằng tổng thể |\n| CMP-CB | Kịch bản chính sách giảm nhẹ - đồng lợi ích |\n| CO₂ | Các-bon đi-ô-xít |\n| COP26 | Hội nghị Liên hiệp Quốc về Biến đổi Khí hậu (2021) |\n| CPAT | Công cụ đánh giá định giá các-bon |\n| CSA | Nông nghiệp thông minh với khí hậu |\n| °C | Độ C |\n| EAP | Đông Á và Thái Bình Dương |\n| EPT | Thuế bảo vệ môi trường |\n| ESVD | Cơ sở dữ liệu định giá dịch vụ hệ sinh thái |\n| ET | Nhiệt độ hiệu dụng |\n| ETS | Hệ thống giao dịch phát thải |\n| EU | Liên minh Châu Âu |\n| EV | Xe điện |\n| EVN | Tập đoàn Điện lực Việt Nam |\n| GDP | Tổng sản phẩm quốc nội |\n| GHG | Khí thải hiệu ứng nhà kính |\n| GIC | Đường cong tác động của tăng trưởng |\n| GJ | Gi-ga Joule |\n| GVA | Giá trị gia tăng |\n| GW | Gi-ga oắt |\n| Ha | Héc-ta |\n| IEA | Cơ quan Năng lượng Quốc tế |\n| JICA | Cơ quan Hợp tác Quốc tế Nhật Bản |\n| Km² | Ki-lô-mét vuông |\n| LCOE | Chi phí điện quy dẫn |\n| LMIC | Quốc gia thu nhập trung bình thấp |\n| LNG | Khí tự nhiên hóa lỏng |\n| LULUCF | Sử dụng đất, thay đổi sử dụng đất và lâm nghiệp |"
+   }
+  ],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1593,
+   "output_tokens": 553,
+   "thinking_tokens": 129
+  },
+  "latency_s": 3.966
+ },
+ "10": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [
+   {
+    "kind": "table",
+    "label": "",
+    "title": "Danh mục các từ viết tắt",
+    "region": "full",
+    "content": "| Từ viết tắt | Giải nghĩa |\n| :--- | :--- |\n| MANAGE | Cân bằng tổng thể ứng dụng cho giảm nhẹ, thích ứng và công nghệ mới |\n| MARD | Bộ Nông nghiệp và Phát triển nông thôn |\n| MNC | Công ty đa quốc gia |\n| MOIT | Bộ Công Thương |\n| MONRE | Bộ Tài nguyên và Môi trường |\n| MPI | Bộ Kế hoạch và Đầu tư |\n| MRV | Theo dõi, Báo cáo và Xác nhận |\n| MSP | Quy hoạch không gian biển |\n| MW | Me-ga oát |\n| MWh | Me-ga oát - giờ |\n| Mt | Mét khối |\n| MtCO₂ | Tấn các-bon đi-ô-xít tương đương |\n| NAP | Kế hoạch thích ứng quốc gia |\n| NDC | Đóng góp do quốc gia tự quyết định |\n| NGO | Tổ chức phi chính phủ |\n| NSCC | Chiến lược quốc gia về biến đổi khí hậu |\n| NTMs | Các biện pháp phi thuế quan |\n| ODA | Viện trợ phát triển chính thức |\n| OECD | Tổ chức Hợp tác và Phát triển Kinh tế |\n| OWP | Điện gió ngoài khơi |\n| PDP8 | Quy hoạch phát triển điện lực lần thứ tám 2021–2030, tầm nhìn đến 2045 |\n| PPP | Ngang giá sức mua |\n| PVS | Hệ thống quang điện kết nối |\n| RCP | Lộ trình tập trung đại diện |\n| RoK | Hàn Quốc |\n| SME | Doanh nghiệp vừa và nhỏ |\n| TDR | Lợi ích ba lần của khả năng chống chịu |\n| TJ | Te-ra joule |\n| TOE | Tấn dầu tương đương |\n| 2Ws | Phương tiện hai bánh |\n| UMIC | Quốc gia thu nhập trung bình cao |\n| UNDP | Chương trình Phát triển Liên hợp quốc |\n| VASI | Cục Biển và Hải đảo Việt Nam |\n| VAT | Thuế giá trị gia tăng |\n| VHLSS | Khảo sát mức sống hộ gia đình Việt Nam |\n| VND | Đồng tiền Việt Nam |\n| VNEEP3 | Chương trình quốc gia về sử dụng năng lượng hiệu quả và tiết kiệm (lần 3) của Việt Nam |"
+   }
+  ],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1594,
+   "output_tokens": 582,
+   "thinking_tokens": 117
+  },
+  "latency_s": 6.503
+ },
+ "11": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1594,
+   "output_tokens": 5,
+   "thinking_tokens": 119
+  },
+  "latency_s": 5.636
+ },
+ "12": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1594,
+   "output_tokens": 53,
+   "thinking_tokens": 102
+  },
+  "latency_s": 4.278
+ },
+ "13": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1594,
+   "output_tokens": 53,
+   "thinking_tokens": 121
+  },
+  "latency_s": 4.587
+ },
+ "14": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1594,
+   "output_tokens": 52,
+   "thinking_tokens": 118
+  },
+  "latency_s": 7.39
+ },
+ "15": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1594,
+   "output_tokens": 68,
+   "thinking_tokens": 106
+  },
+  "latency_s": 2.09
+ },
+ "16": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [
+   {
+    "kind": "chart",
+    "label": "Hình 0.1",
+    "title": "Tác động của biến đổi khí hậu đến GDP theo giá so sánh so với kịch bản cơ sở",
+    "region": "top",
+    "content": "Biểu đồ đường (area chart) thể hiện % chênh lệch GDP so với kịch bản cơ sở từ năm 2030 đến 2050. Trục tung là % chênh lệch (-8.0% đến -16.0%), trục hoành là thời gian (2030, 2035, 2040, 2045, 2050). Chú giải gồm 3 chuỗi: Tích cực (đường màu xanh lá), Có khả năng xảy ra nhất (đường màu xanh dương), Tiêu cực (đường màu xám). Vùng giữa các đường được tô màu. Nguồn: Ước tính của cán bộ Ngân hàng Thế giới bằng mô hình MANAGE.\n\nGiá trị ước lượng:\n- Tích cực: 2030 ≈ -8,2%; 2035 ≈ -9,2%; 2040 ≈ -10,5%; 2045 ≈ -10,5%; 2050 ≈ -11,2%\n- Có khả năng xảy ra nhất: 2030 ≈ -8,2%; 2035 ≈ -9,2%; 2040 ≈ -10,8%; 2045 ≈ -11,5%; 2050 ≈ -12,5%\n- Tiêu cực: 2030 ≈ -8,5%; 2035 ≈ -9,5%; 2040 ≈ -11,5%; 2045 ≈ -13,0%; 2050 ≈ -15,5%"
+   }
+  ],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1594,
+   "output_tokens": 452,
+   "thinking_tokens": 118
+  },
+  "latency_s": 2.629
+ },
+ "17": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [
+   {
+    "kind": "chart",
+    "label": "Hình 0.2",
+    "title": "Tác động của các biện pháp thích ứng đến GDP theo giá so sánh, so với kịch bản cơ sở (có và không có thích ứng, %)",
+    "region": "top",
+    "content": "Biểu đồ đường thể hiện tác động đến GDP (%) từ năm 2030 đến 2050. Trục tung từ -15% đến -5%. Trục hoành từ 2030 đến 2050.\n\nChú giải:\n- Màu xanh lá (nét liền): Không thích ứng - Tiêu cực\n- Màu xanh lá (nét đứt): Có thích ứng - Tiêu cực\n- Màu vàng (nét liền): Không thích ứng - Có khả năng xảy ra nhất\n- Màu xanh dương (nét liền): Không thích ứng - Tích cực\n- Màu xanh dương (nét đứt): Có thích ứng - Tích cực\n- Màu vàng (nét đứt): Có thích ứng - Có khả năng xảy ra nhất\n\nCó một mũi tên màu vàng chỉ khoảng cách giữa đường 'Không thích ứng - Có khả năng xảy ra nhất' và 'Có thích ứng - Có khả năng xảy ra nhất' tại năm 2050, ghi chú: '5,8 điểm % tổn thất tránh được'.\n\nNguồn: Ước tính của cán bộ Ngân hàng Thế giới bằng mô hình MANAGE.\n\nGiá trị ước lượng (tại các mốc 2030, 2040, 2050):\n- Không thích ứng - Tiêu cực: 2030 ≈ -9%; 2040 ≈ -12%; 2050 ≈ -14,5%\n- Có thích ứng - Tiêu cực: 2030 ≈ -5,5%; 2040 ≈ -7,5%; 2050 ≈ -9%\n- Không thích ứng - Có khả năng xảy ra nhất: 2030 ≈ -9%; 2040 ≈ -10,5%; 2050 ≈ -12%\n- Không thích ứng - Tích cực: 2030 ≈ -9%; 2040 ≈ -10,5%; 2050 ≈ -11%\n- Có thích ứng - Tích cực: 2030 ≈ -5,5%; 2040 ≈ -7%; 2050 ≈ -8%\n- Có thích ứng - Có khả năng xảy ra nhất: 2030 ≈ -5,5%; 2040 ≈ -7%; 2050 ≈ -6,2%"
+   }
+  ],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1594,
+   "output_tokens": 638,
+   "thinking_tokens": 120
+  },
+  "latency_s": 3.873
+ },
+ "18": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [
+   {
+    "kind": "table",
+    "label": "",
+    "title": "Khuyến nghị cho giai đoạn 2026–30",
+    "region": "bottom",
+    "content": "| Khuyến nghị chung | | Đồng lợi ích kinh tế | Đồng lợi ích giảm nhẹ |\n| :--- | :--- | :--- | :--- |\n| **Khai thác các công cụ huy động tài chính đổi mới sáng tạo** | • Tạo ra sản phẩm tài chính kết hợp được nguồn lực của Nhà nước, tư nhân, nhà tài trợ, để đầu tư kết cấu hạ tầng chống chịu khí hậu và đầu tư thích ứng. | Trung bình | Thấp |\n| **Phát triển thị trường bảo hiểm và áp dụng các cơ chế mới về chung chịu rủi ro** | • Triển khai bảo hiểm theo tham số để khuyến khích chi trả nhanh theo các yếu tố kích hoạt (như vượt ngưỡng về mưa hoặc nhiệt độ hoặc tốc độ gió), qua đó đẩy nhanh tốc độ phục hồi.<br>• Triển khai các nguồn vay dự phòng nhanh để đảm bảo kết cấu hạ tầng trọng yếu vẫn hoạt động khi có sự cố quy mô lớn và để tạo điều kiện sửa chữa ngay khi cần.<br>• Tạo điều kiện phát triển các sản phẩm bảo hiểm tư nhân nhằm khuyến khích áp dụng các công nghệ thông minh với khí hậu và đầu tư cho các phương thức thực hành sản xuất và nhà ở đảm bảo khả năng phục hồi. | Trung bình | Thấp |"
+   }
+  ],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1594,
+   "output_tokens": 341,
+   "thinking_tokens": 120
+  },
+  "latency_s": 2.913
+ },
+ "19": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [
+   {
+    "kind": "table",
+    "label": "",
+    "title": "",
+    "region": "middle",
+    "content": "| Hành động chính | Mô tả | Đồng lợi ích kinh tế | Đồng lợi ích giảm nhẹ |\n| :--- | :--- | :--- | :--- |\n| Xây dựng một chương trình đầu tư công thích ứng với rủi ro biến đổi khí hậu | • Lồng ghép những cân nhắc về rủi ro khí hậu vào các dự án hạ tầng hiện tại và sắp tới. Xác định và ưu tiên hạ tầng có nguy cơ dễ tổn thương với các cú sốc khí hậu (như giao thông, cấp nước, đô thị, nông nghiệp).<br>• Đảm bảo phối hợp hiệu quả giữa các cấp chính quyền nhằm hài hòa kế hoạch đầu tư công giữa các bộ ngành và địa phương, đảm bảo các dự án hạ tầng, thích ứng khí hậu và phát triển kinh tế đồng bộ để tránh chồng chéo và tối đa hóa hiệu suất. | Cao | Thấp |\n| Đảm bảo quản lý rủi ro thiên tai hiệu quả | • Đảm bảo quản lý rủi ro thiên tai và kế hoạch phục hồi cũng như các hệ thống cảnh báo sớm được cập nhật định kỳ theo cách có sự tham gia ở cấp trung ương và địa phương và được đảm bảo kinh phí đầy đủ.<br>• Triển khai công cụ huy động tài chính dự phòng nhanh để hỗ trợ các doanh nghiệp và mạng lưới an sinh xã hội thích ứng để hỗ trợ các hộ gia đình trong trường hợp có thiên tai do khí hậu gây ra. | Trung bình | Thấp |\n| Cung cấp thông tin và dữ liệu để hỗ trợ các doanh nghiệp và hộ gia đình quản lý rủi ro | • Cung cấp thông tin toàn diện và chi tiết về biến đổi khí hậu và dữ liệu thời tiết để hỗ trợ các hộ gia đình và các chủ thể trong khu vực tư nhân để họ ra quyết định căn cứ vào thông tin rủi ro trong chiến lược ứng phó của họ, bao gồm cả quyết định đầu tư. | Trung bình | Thấp |\n| **Đô thị đảm bảo khả năng chống chịu** | | **Đồng lợi ích kinh tế** | **Đồng lợi ích giảm nhẹ** |\n| Điều chỉnh các ưu đãi tài khóa để tăng cường sử dụng đất và mô hình đô thị hóa | • Điều chỉnh thuế đất hoặc thuế bất động sản để ngăn ngừa định cư ở các khu đất có rủi ro cao và ưu đãi cho đầu tư để nâng cao khả năng chống chịu (chẳng hạn giảm thuế bất động sản để nâng cấp tiêu chuẩn công trình nhà).<br>• Đảm bảo điều chỉnh được thực hiện kết hợp với đảm bảo đủ nguồn lực và đào tạo để thực thi và thực hiện các quy định và sắc thuế trên. | Trung bình | Thấp |\n| Tăng cường khả năng chống chịu của các công trình tòa nhà | • Sửa đổi các tiêu chuẩn và quy chuẩn để các công trình nhà ở, thương mại và công cộng thích ứng với nhiệt độ cao hơn dự kiến và áp dụng các tiêu chí về khả năng chống bão nghiêm ngặt hơn. | Cao | Trung bình |"
+   }
+  ],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1594,
+   "output_tokens": 688,
+   "thinking_tokens": 123
+  },
+  "latency_s": 3.685
+ },
+ "20": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [
+   {
+    "kind": "table",
+    "label": "",
+    "title": "",
+    "region": "middle",
+    "content": "| Lĩnh vực / Hành động | Mô tả hành động | Đồng lợi ích kinh tế | Đồng lợi ích giảm nhẹ |\n| :--- | :--- | :--- | :--- |\n| **Xây dựng cơ sở hạ tầng đô thị thích ứng** | • Khuyến khích tư nhân đầu tư thích ứng để giảm nhiệt độ đô thị và nâng cao hiệu suất năng lượng của các công trình nhà, chẳng hạn như sử dụng mái nhà xanh.¹⁸<br>• Đầu tư hệ thống thoát nước đô thị chống lũ kết hợp giữa công trình hạ tầng xám (máy bơm, cống) với công trình hạ tầng xanh (đất ngập nước, đầm lầy sinh học) để giảm lưu lượng ngập cao điểm, kiểm soát dòng chảy nước mưa và tăng cường tái bổ sung nước ngầm.<br>• Chủ động bảo trì cơ sở hạ tầng công cộng đô thị hiện có rủi ro với các hiện tượng thời tiết cực đoan. | Trung bình | Trung bình |\n| **Giao thông đảm bảo khả năng chống chịu** | | | |\n| Thiết lập kế hoạch thích ứng mạnh mẽ | • Thiết lập cơ sở dữ liệu rủi ro thống nhất để hợp nhất dữ liệu điều kiện khí hậu, thủy văn và cơ sở hạ tầng để cho phép đánh giá tính dễ bị tổn thương và quyết định quản lý tài sản chính xác hơn. | Thấp | Thấp |\n| Xây dựng các tiêu chuẩn, thông số kỹ thuật, định mức, quy trình bảo trì cho những tài sản hiện có | • Xây dựng các tiêu chuẩn kỹ thuật tương xứng với mức độ rủi ro, các thông số và định mức kỹ thuật cho bảo trì định kỳ và khẩn cấp, bao gồm phân vùng về nguy cơ dễ bị tổn thương với khí hậu để bổ trợ cho đầu tư thích ứng có mục tiêu.<br>• Thiết lập các thủ tục rõ ràng để xác định ưu tiên bảo trì qua sử dụng dữ liệu không gian địa lý để giúp đảm bảo nguồn lực hạn chế được dành cho phân khúc trọng yếu và dễ bị tổn thương nhất. | Thấp | Thấp |\n| **Nông nghiệp đảm bảo khả năng chống chịu** | | | |\n| Đa dạng hóa cây trồng và sinh kế | • Hỗ trợ nông dân đa dạng hóa sang các loại cây trồng thích ứng với khí hậu thông qua trợ giá, hỗ trợ kỹ thuật và tiếp cận thị trường. Các sản phẩm thay thế bao gồm cây lúa chịu hạn và giảm phát thải và ngô, rau, chuối, dâu tằm chịu mặn và nuôi tôm. | Cao | Cao |\n| Giảm thiểu tác động của lượng mưa không thường xuyên và hạn hán | • Sử dụng Tưới ướt khô xen kẽ (AWD) có thể giảm sử dụng nước, đồng thời duy trì năng suất và giảm lượng khí thải mê-tan.<br>• Hệ thống tưới hiệu quả, bao gồm tưới nhỏ giọt (hoặc tưới nhỏ giọt chạy bằng năng lượng mặt trời) và thu gom nước mưa, cải thiện khả năng bảo tồn nước ở các vùng dễ bị hạn hán. | Cao | Cao |"
+   }
+  ],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1594,
+   "output_tokens": 715,
+   "thinking_tokens": 109
+  },
+  "latency_s": 3.796
+ },
+ "21": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [
+   {
+    "kind": "chart",
+    "label": "Hình 0.3",
+    "title": "Phát triển ở Việt Nam đến nay vẫn phát thải các-bon mạnh",
+    "region": "middle-left",
+    "content": "Biểu đồ phân tán (scatter plot). Trục tung: Khí thải CO2 trên đầu người (tCO2), thang đo từ 0 đến 25. Trục hoành: GDP theo đầu người ổn định theo USD quốc tế, điều chỉnh ngang giá sức mua, thang đo từ 0 đến 60.000. Chú giải các quốc gia: In-đô-nê-xia (cam), Phi-líp-pin (vàng), Trung Quốc (xanh dương đậm), Thổ Nhĩ Kỳ (xanh dương nhạt), Hoa Kỳ (xanh lá cây), Nhật Bản (xám), Đức (nâu), Việt Nam (xanh dương đậm, nét đứt). Xu hướng: Các quốc gia phát triển (như Hoa Kỳ, Đức) có xu hướng tăng GDP và giảm dần khí thải CO2 trên đầu người. Việt Nam có xu hướng tăng cả GDP và khí thải CO2 trên đầu người. Nguồn: WRI, CAIT và tính toán của cán bộ Ngân hàng Thế giới.",
+    "Giá trị ước lượng": "Việt Nam (chuỗi nét đứt): Điểm đầu ≈ 0 tCO2/GDP thấp; Điểm cuối ≈ 5,2 tCO2/GDP ≈ 10.000-12.000 USD. Hoa Kỳ (xanh lá cây): Đỉnh ≈ 22 tCO2/GDP ≈ 30.000 USD; Điểm cuối ≈ 15 tCO2/GDP ≈ 60.000 USD. Đức (nâu): Đỉnh ≈ 14 tCO2/GDP ≈ 25.000 USD; Điểm cuối ≈ 8 tCO2/GDP ≈ 45.000 USD."
+   },
+   {
+    "kind": "chart",
+    "label": "Hình 0.4",
+    "title": "Cơ cấu phát thải ở Việt Nam",
+    "region": "middle-right",
+    "content": "Biểu đồ diện tích xếp chồng (stacked area chart). Trục tung: Tỷ lệ phần trăm từ 0% đến 100%. Trục hoành: Thời gian từ năm 1970 đến 2020. Chú giải các thành phần: Nông nghiệp (xanh dương đậm), Khai thác nhiên liệu (xám), Công nghiệp điện (xanh dương nhạt), Giao thông vận tải (xanh dương trung bình), Công trình nhà (cam), Động cơ đốt trong công nghiệp (vàng), Chế biến chế tạo (xanh lá cây), Chất thải (nâu). Xu hướng: Tỷ trọng Nông nghiệp giảm dần theo thời gian. Tỷ trọng Công nghiệp điện và Giao thông vận tải có xu hướng tăng. Nguồn: WRI, CAIT và tính toán của cán bộ Ngân hàng Thế giới.",
+    "Giá trị ước lượng": "Năm 1970: Nông nghiệp chiếm tỷ trọng lớn nhất (≈ 70%). Năm 2020: Nông nghiệp giảm xuống còn khoảng 20-25%; Công nghiệp điện và Giao thông vận tải chiếm tỷ trọng lớn nhất trong tổng cơ cấu."
+   }
+  ],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1594,
+   "output_tokens": 776,
+   "thinking_tokens": 124
+  },
+  "latency_s": 4.16
+ },
+ "22": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [
+   {
+    "kind": "chart",
+    "label": "Hình 0.5",
+    "title": "Mục tiêu giảm nhẹ của Việt Nam (2030 và 2050)",
+    "region": "top",
+    "content": "Biểu đồ cột chồng thể hiện lượng phát thải (Triệu tấn CO2eq) theo các lĩnh vực: Năng lượng (cam), Nông nghiệp (xám), Chất thải (vàng), Sản xuất công nghiệp (xanh dương). Biểu đồ so sánh các kịch bản phát thải tại các mốc thời gian 2030 và 2050.\n\n- Trục tung: 0, 400, 800, 1200, 1600 (Triệu tấn CO2eq).\n- Trục hoành: Các mốc thời gian 2030 (hai cột), 2050 (một cột).\n- Chú giải: Năng lượng, Nông nghiệp, Chất thải, Sản xuất công nghiệp.\n- Các thông tin trên hình:\n  - Cột 2030 (trái): Có đường kẻ ngang đánh dấu mức phát thải, mũi tên chỉ xuống ghi \"-27%\", chú thích \"Chỉ tiêu NDC 2020\".\n  - Cột 2030 (phải): Có đường kẻ ngang đánh dấu mức phát thải, mũi tên chỉ xuống ghi \"-43.5%\", chú thích \"Chỉ tiêu NDC 2022\", nhãn \"Baseline\" phía trên.\n  - Cột 2050: Cột cao nhất, nhãn \"Kịch bản cơ sở\" phía trên, mũi tên chỉ xuống tận đáy (0) ghi \"Mục tiêu của CLQG-BĐKH - Phát thải ròng bằng không\".\n- Nguồn: Tính toán của cán bộ Ngân hàng Thế giới, dựa trên tuyên bố về NDC và trong CLQG-BĐKH.\n\nGiá trị ước lượng:\n- Cột 2030 (trái - NDC 2020): Tổng chiều cao ≈ 950 triệu tấn CO2eq.\n- Cột 2030 (phải - NDC 2022): Tổng chiều cao ≈ 950 triệu tấn CO2eq (phần giảm xuống còn ≈ 550 triệu tấn CO2eq).\n- Cột 2050 (Kịch bản cơ sở): Tổng chiều cao ≈ 1500 triệu tấn CO2eq."
+   }
+  ],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1594,
+   "output_tokens": 584,
+   "thinking_tokens": 117
+  },
+  "latency_s": 4.016
+ },
+ "23": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [
+   {
+    "kind": "chart",
+    "label": "Hình 0.6",
+    "title": "Hoàn thành phát thải ròng bằng không đòi hỏi phải giảm mạnh tỷ lệ phát thải các-bon",
+    "region": "top",
+    "content": "Biểu đồ đường thể hiện xu hướng giảm cường độ phát thải khí nhà kính (GHG per GDP, đơn vị: Kg CO2e/USD, PPP) của các quốc gia/khu vực từ năm 2020 đến 2060. Trục hoành là thời gian (năm), trục tung là cường độ phát thải. Các chuỗi dữ liệu bao gồm: EU27, Phi-líp-pin, Việt Nam, Nhật Bản, Hoa Kỳ, In-đô-nê-xia, Thổ Nhĩ Kỳ, Trung Quốc. Nguồn: Các chỉ số của Ngân hàng Thế giới. Giá trị ước lượng (tại các mốc 2020, 2040, 2060): \n- Trung Quốc: 2020 ≈ 0,55; 2040 ≈ 0,25; 2060 ≈ 0,05\n- Việt Nam: 2020 ≈ 0,42; 2040 ≈ 0,18; 2060 ≈ 0,05\n- In-đô-nê-xia: 2020 ≈ 0,32; 2040 ≈ 0,15; 2060 ≈ 0,05\n- Hoa Kỳ: 2020 ≈ 0,25; 2040 ≈ 0,12; 2060 ≈ 0,05\n- Nhật Bản: 2020 ≈ 0,23; 2040 ≈ 0,10; 2060 ≈ 0,05\n- Thổ Nhĩ Kỳ: 2020 ≈ 0,22; 2040 ≈ 0,10; 2060 ≈ 0,05\n- Phi-líp-pin: 2020 ≈ 0,21; 2040 ≈ 0,08; 2060 ≈ 0,05\n- EU27: 2020 ≈ 0,15; 2040 ≈ 0,08; 2060 ≈ 0,05"
+   }
+  ],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1594,
+   "output_tokens": 592,
+   "thinking_tokens": 119
+  },
+  "latency_s": 4.904
+ },
+ "24": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1594,
+   "output_tokens": 67,
+   "thinking_tokens": 119
+  },
+  "latency_s": 2.18
+ },
+ "25": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [
+   {
+    "kind": "chart",
+    "label": "Hình 0.7",
+    "title": "Giảm khí thải hiệu ứng nhà kính",
+    "region": "top-left",
+    "content": "Biểu đồ cột nhóm, trục tung là '% giảm khí thải so kịch bản cơ sở', trục hoành là các mốc thời gian 2030 và 2050. Chú giải gồm 3 chuỗi: 'Chính sách giảm nhẹ hiện hành' (xanh dương), 'K/b khử thải các-bon tăng tốc (ADS)' (xám), 'Chỉ tiêu NDC / CLQG-BDKH' (cam). \n\nGiá trị ước lượng:\n- Chính sách giảm nhẹ hiện hành: 2030 ≈ -38%; 2050 ≈ -55%\n- K/b khử thải các-bon tăng tốc (ADS): 2030 ≈ -44%; 2050 ≈ -74%\n- Chỉ tiêu NDC / CLQG-BDKH: 2030 ≈ -38% (trùng với cột xanh); 2050 ≈ -74% (trùng với cột xám).\nNguồn: Mô phỏng của cán bộ Ngân hàng Thế giới bằng mô hình MANAGE.",
+    "estimated_values": "Chính sách giảm nhẹ hiện hành: 2030 ≈ -38%; 2050 ≈ -55%. K/b khử thải các-bon tăng tốc (ADS): 2030 ≈ -44%; 2050 ≈ -74%. Chỉ tiêu NDC / CLQG-BDKH: 2030 ≈ -38%; 2050 ≈ -74%."
+   },
+   {
+    "kind": "chart",
+    "label": "Hình 0.8",
+    "title": "Tác động của các chính sách giảm nhẹ hiện tại và khử thải các-bon tăng tốc đối với GDP theo giá so sánh",
+    "region": "top-right",
+    "content": "Biểu đồ cột nhóm, trục tung là '% chênh lệch so kịch bản cơ sở', trục hoành là các mốc thời gian 2030, 2040, 2050. Chú giải gồm 3 chuỗi: 'Chính sách giảm nhẹ hiện hành không tính lợi ích gia tăng' (xanh dương), 'Chính sách giảm nhẹ hiện hành với lợi ích gia tăng' (xanh lá), 'Kịch bản khử thải các-bon tăng tốc (ADS)' (xám).\n\nGiá trị ước lượng:\n- Chính sách giảm nhẹ hiện hành không tính lợi ích gia tăng: 2030 ≈ -0.02%; 2040 ≈ -1.55%; 2050 ≈ -2.76%\n- Chính sách giảm nhẹ hiện hành với lợi ích gia tăng: 2030 ≈ 1.81%; 2040 ≈ 1.22%; 2050 ≈ 1.39%\n- Kịch bản khử thải các-bon tăng tốc (ADS): 2030 ≈ 2.27%; 2040 ≈ 2.82%; 2050 ≈ 4.41%\nNguồn: Mô phỏng của cán bộ Ngân hàng Thế giới bằng mô hình MANAGE.",
+    "estimated_values": "Chính sách giảm nhẹ hiện hành không tính lợi ích gia tăng: 2030 ≈ -0.02%; 2040 ≈ -1.55%; 2050 ≈ -2.76%. Chính sách giảm nhẹ hiện hành với lợi ích gia tăng: 2030 ≈ 1.81%; 2040 ≈ 1.22%; 2050 ≈ 1.39%. Kịch bản khử thải các-bon tăng tốc (ADS): 2030 ≈ 2.27%; 2040 ≈ 2.82%; 2050 ≈ 4.41%."
+   },
+   {
+    "kind": "chart",
+    "label": "Hình 0.9",
+    "title": "Tỷ lệ GDP và khí thải toàn cầu trong các cam kết phát thải ròng bằng không",
+    "region": "middle",
+    "content": "Biểu đồ kết hợp: biểu đồ cột (xanh nhạt) thể hiện 'Khí thải nhà kính của các cam kết mới' (trục tung trái, đơn vị Tỷ tấn), biểu đồ đường thể hiện 'Tỷ lệ khí thải nhà kính cộng dồn trong đó' (xanh lá) và 'Tye lệ GDP cộng dồn trong đó' (cam) (trục tung phải, đơn vị %). Trục hoành là thời gian từ 5/31/2017 đến 5/31/2021.\n\nGiá trị ước lượng:\n- Khí thải nhà kính của các cam kết mới: Các cột thấp từ 2017-2019, tăng vọt vào khoảng 2020-2021.\n- Tỷ lệ khí thải nhà kính cộng dồn trong đó: 2017 ≈ 0%; 2019 ≈ 10%; 2020 ≈ 60%; 2021 ≈ 90%.\n- Tye lệ GDP cộng dồn trong đó: 2017 ≈ 0%; 2019 ≈ 10%; 2020 ≈ 60%; 2021 ≈ 90%.\nNguồn: Net Zero Tracker (https://zerotracker.net/).",
+    "estimated_values": "Tỷ lệ khí thải nhà kính cộng dồn trong đó: 2017 ≈ 0%; 2019 ≈ 10%; 2020 ≈ 60%; 2021 ≈ 90%. Tye lệ GDP cộng dồn trong đó: 2017 ≈ 0%; 2019 ≈ 10%; 2020 ≈ 60%; 2021 ≈ 90%."
+   }
+  ],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1594,
+   "output_tokens": 1411,
+   "thinking_tokens": 114
+  },
+  "latency_s": 6.6
+ },
+ "26": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [
+   {
+    "kind": "chart",
+    "label": "Hình 0.10",
+    "title": "Mô hình tăng trưởng của Việt Nam dựa vào xuất khẩu các mặt hàng phát thải các-bon sang các quốc gia OECD",
+    "region": "middle",
+    "content": "Hình 0.10 bao gồm hai biểu đồ con:\n\na) Tỷ lệ % khí thải CO2 ròng liên quan đến xuất khẩu so tổng sản lượng: Biểu đồ đường thể hiện xu hướng từ năm 1990 đến 2020 cho các quốc gia: Trung Quốc, Hàn Quốc, Việt Nam, In-đô-nê-xia, Ma-lay-xia, Phi-líp-pin, Mê-hi-cô, Thái Lan, Thổ Nhĩ Kỳ. Đường màu đỏ (Việt Nam) có xu hướng tăng mạnh từ khoảng năm 2000 và đạt mức cao nhất (gần 40%) vào năm 2020. Các quốc gia khác dao động chủ yếu trong khoảng từ -40% đến 20%.\n\nb) Xuất khẩu sang các quốc gia OECD chính trong năm 2024: Biểu đồ cột kết hợp chấm tròn. Trục tung bên trái là 'Xuất khẩu (Tỷ US$)', trục tung bên phải là 'Tỷ lệ trên tổng xuất khẩu (%)'. Các cột thể hiện giá trị xuất khẩu sang các nước: Hoa Kỳ (cao nhất, 29.4), Hàn Quốc (6.3), Nhật Bản (6.1), Đức (3.2), Hà Lan (1.6), Ca-na-đa (1.3), Mê-hi-cô (1.9), Anh Quốc (1.6), Ốt-xtrây-lia (1.2), I-ta-lia (0.8), Pháp. Các chấm tròn nhỏ phía trên cột thể hiện tỷ lệ %.\n\nNguồn: Tính toán của cán bộ Ngân hàng Thế giới (cho biểu đồ a); OECD (cho biểu đồ b).\nGhi chú: Giá trị thương mại bằng tỷ US$ tính theo tỷ lệ trên tổng xuất khẩu của Việt Nam (cho biểu đồ b).\n\nGiá trị ước lượng (Biểu đồ a - Việt Nam): 1990 ≈ 0%; 2000 ≈ 10%; 2010 ≈ 25%; 2020 ≈ 35-38%.\nGiá trị ước lượng (Biểu đồ b - Xuất khẩu Tỷ US$): Hoa Kỳ ≈ 29.4; Hàn Quốc ≈ 6.3; Nhật Bản ≈ 6.1; Đức ≈ 3.2; Hà Lan ≈ 1.6; Ca-na-đa ≈ 1.3; Mê-hi-cô ≈ 1.9; Anh Quốc ≈ 1.6; Ốt-xtrây-lia ≈ 1.2; I-ta-lia ≈ 0.8; Pháp ≈ 0.8."
+   }
+  ],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1594,
+   "output_tokens": 685,
+   "thinking_tokens": 126
+  },
+  "latency_s": 4.589
+ },
+ "27": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1594,
+   "output_tokens": 5,
+   "thinking_tokens": 119
+  },
+  "latency_s": 3.361
+ },
+ "28": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [
+   {
+    "kind": "table",
+    "label": "",
+    "title": "Khuyến nghị cho giai đoạn 2026–30",
+    "region": "middle",
+    "content": "| Khuyến nghị chung | Đồng lợi ích kinh tế | Đồng lợi ích thích ứng |\n| :--- | :--- | :--- |\n| **Triển khai định giá các-bon:** Hệ thống giao dịch phát thải (ETS) và thuế các-bon bổ sung nhằm đẩy nhanh chuyển đổi sang các công nghệ giảm thải các-bon | • Thí điểm ETS theo kế hoạch cho ba lĩnh vực chính (điện, thép và xi-măng) theo thời hạn vào năm 2025.<br>• Ban hành thuế các-bon ở mức vừa phải (7,5-15 US$/tấn để bổ sung cho phạm vi ETS, tránh đánh thuế hai lần:<br>- Cải cách thuế TTĐB nhiên liệu, thuế BVMT để phản ánh hàm lượng các-bon, bắt đầu với than.<br>- Bổ sung bằng hệ thống giảm giá để khuyến khích áp dụng công nghệ sạch hơn trong các lĩnh vực gây ô nhiễm như điện. | Cao | Thấp |\n| **Ban hành trợ giá xanh để hỗ trợ chuyển đổi sang các công nghệ sạch hơn** | • Cho phép hoàn thuế, giảm thuế GTGT, hoặc xóa nghĩa vụ đầu tư cho các sản phẩm xanh, như máy móc tiết kiệm năng lượng, để kích cầu và đầu tư của khu vực tư nhân. | Trung bình | Thấp |\n| **Khai thác các thị trường các-bon tự nguyện để thu hút đầu tư khí hậu của khu vực tư nhân** | • Song song với phát triển hệ thống giao dịch khí thải (ETS) chính thức, hỗ trợ thực hiện hóa thị trường giao dịch các-bon tư nhân bằng cách làm rõ các tiêu chuẩn MRV, phối hợp với các thị trường các-bon toàn cầu và hợp tác với các bên liên quan trên quốc tế, bao gồm các dự án theo Điều 6, nhằm huy động vốn của khu vực tư nhân cho các dự án phát triển bền vững và năng lượng tái tạo. | Cao | Thấp |\n| **Triển khai các tiêu chuẩn tiết kiệm năng lượng và các chương trình thay đổi hành vi** | • Triển khai các quy chuẩn kỹ thuật và các sáng kiến chuyên ngành, như các chiến dịch nâng cao nhận thức người tiêu dùng, nhằm cải thiện hiệu suất năng lượng ở các lĩnh vực công nghiệp, thương mại và nhà ở.<br>• Trong các lĩnh vực công nghiệp, tăng cường các tiêu chuẩn tiết kiệm năng lượng cho phù hợp với các mốc chuẩn quốc tế. | Trung bình | Thấp |\n| **Tạo thuận lợi cho các doanh nghiệp tiếp cận nguồn tài chính xanh** | • Ban hành các hướng dẫn rõ ràng và cơ chế xác định dự án xanh (ví dụ phân loại xanh).<br>• Tăng cường năng lực kỹ thuật và hệ thống xác nhận trong các tổ chức tài chính của Việt Nam nhằm xử lý thiếu hụt kỹ năng đánh giá và quản lý các dự án trái phiếu xanh. | Trung bình | Trung bình |"
+   }
+  ],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1594,
+   "output_tokens": 687,
+   "thinking_tokens": 123
+  },
+  "latency_s": 9.409
+ },
+ "29": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [
+   {
+    "kind": "table",
+    "label": "",
+    "title": "",
+    "region": "middle",
+    "content": "| Hành động | Mô tả | Đồng lợi ích kinh tế | Đồng lợi ích thích ứng |\n| :--- | :--- | :--- | :--- |\n| Trao quyền cho khu vực tư nhân đầu tư về giảm nhẹ | • Tạo thuận lợi cho công bố thông tin về chính sách khí hậu liên quan đến các thị trường xuất khẩu chủ lực của doanh nghiệp, các yêu cầu của công ty đa quốc gia (MNC), hỗ trợ triển khai các biện pháp thích ứng và đầu tư cho công nghệ giảm nhẹ, cũng như phân tích chi phí - lợi ích cho những hoạt động đầu tư đó.<br>• Tăng cường các hệ thống tiêu chuẩn chứng nhận xanh cho các sản phẩm xuất khẩu chủ lực và giúp các doanh nghiệp có được chứng nhận quốc tế. | Trung bình | Thấp |\n| **Năng lượng bền vững** | | | |\n| Triển khai QHĐ8 sửa đổi | • Đơn giản hóa quy trình phê duyệt dự án để triển khai QHĐ8: giảm chậm trễ qua ban hành các quy trình phê duyệt có hạn mức thời gian theo quy định, các nền tảng số để theo dõi, và vai trò thể chế rõ ràng cho các dự án chuyển đổi năng lượng trong QHĐ8. | Trung bình | Thấp |\n| Áp dụng lập kế hoạch chi phí thấp nhất và làm rõ các quy định đấu thầu cho QHĐ8 | • Đảm bảo lập kế hoạch linh động theo chi phí thấp nhất để tối ưu hóa về khả năng chi trả và an ninh năng lượng. Đơn giản hóa các phương thức đấu thầu mua sắm trong các văn bản luật và thiết lập các tiêu chí rõ ràng về lựa chọn nhà đầu tư. | Thấp | Thấp |\n| Tăng cường các công ty dịch vụ năng lượng (ESCOs) để triển khai đảm bảo hiệu suất | • Nâng cao năng lực của các ESCOs qua cải thiện khả năng tiếp cận các cơ chế tài chính, đào tạo kỹ thuật và các quy định tạo thuận lợi để mở rộng quy mô các dự án tiết kiệm năng lượng. | Thấp | Thấp |\n| **Giao thông bền vững** | | | |\n| Đẩy nhanh giao thông xanh ở các đô thị | • Phát triển các tuyến mê-trô và các hệ thống xe buýt nhanh.<br>• Xúc tiến các khu vực giảm phát thải để cải thiện chất lượng không khí. | Trung bình | Thấp |\n| Hỗ trợ chuyển đổi sang sử dụng xe điện và các phương tiện phát thải thấp | • Ban hành các tiêu chuẩn kinh tế tốt hơn về nhiên liệu cho phương tiện với các phương tiện mới sử dụng động cơ đốt trong (xe hơi và xe mô-tô hai bánh).<br>• Triển khai các tiêu chuẩn và cơ chế khuyến khích xe phát thải thấp.<br>• Đầu tư các trạm sạc công cộng và thí điểm xe buýt chạy điện. | Trung bình | Thấp |"
+   }
+  ],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1594,
+   "output_tokens": 675,
+   "thinking_tokens": 110
+  },
+  "latency_s": 7.082
+ },
+ "30": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1594,
+   "output_tokens": 64,
+   "thinking_tokens": 106
+  },
+  "latency_s": 3.454
+ },
+ "31": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [
+   {
+    "kind": "chart",
+    "label": "Hình 0.11",
+    "title": "So sánh các dự báo năm 2030 với năm 2020 (tỷ lệ % GDP theo lĩnh vực)",
+    "region": "top",
+    "content": "Biểu đồ cột nhóm so sánh tỷ lệ % GVA (tương đương GDP) giữa năm 2020 (màu xanh dương) và năm 2030 (màu cam) cho các lĩnh vực kinh tế. Trục tung biểu thị tỷ lệ % từ 0.00% đến 3.50%. Các lĩnh vực trên trục hoành bao gồm: Đánh bắt và nuôi trồng thủy sản, Dầu khí, Thực phẩm (thủy sản chế biến), Than và các sản phẩm dầu mỏ tinh chế, Sản xuất thiết bị vận tải, Giao thông đường thủy, Điện gió ngoài khơi, Du lịch lữ hành. Nguồn: Tính toán của cán bộ Ngân hàng Thế giới, 2024.\n\nGiá trị ước lượng (tỷ lệ % GVA):\n- Đánh bắt và nuôi trồng thủy sản: 2020 ≈ 0.1%, 2030 ≈ 0.1%\n- Dầu khí: 2020 ≈ 0.55%, 2030 ≈ 1.1%\n- Thực phẩm (thủy sản chế biến): 2020 ≈ 0.3%, 2030 ≈ 1.8%\n- Than và các sản phẩm dầu mỏ tinh chế: 2020 ≈ 1.05%, 2030 ≈ 2.3%\n- Sản xuất thiết bị vận tải: 2020 ≈ 0.25%, 2030 ≈ 0.6%\n- Giao thông đường thủy: 2020 ≈ 0.75%, 2030 ≈ 0.8%\n- Điện gió ngoài khơi: 2020 ≈ 0.2%, 2030 ≈ 2.9%\n- Du lịch lữ hành: 2020 ≈ 0.05%, 2030 ≈ 0.05%"
+   }
+  ],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1594,
+   "output_tokens": 523,
+   "thinking_tokens": 119
+  },
+  "latency_s": 2.707
+ },
+ "32": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [
+   {
+    "kind": "table",
+    "label": "",
+    "title": "Khuyến nghị cho giai đoạn 2026–30",
+    "region": "middle",
+    "content": "| Khuyến nghị chung | Đồng lợi ích kinh tế | Đồng lợi ích giảm nhẹ | Đồng lợi ích thích ứng |\n| :--- | :--- | :--- | :--- |\n| **Xây dựng khuôn khổ hạch toán kinh tế biển** | • **Áp dụng các phương pháp chuẩn hóa:** Sử dụng các khuôn khổ như Hệ thống Kế toán Kinh tế Môi trường (SEEA), cụ thể là khuôn khổ Hạch toán Đại dương SEEA, để chuẩn hóa đo lường các hoạt động kinh tế biển.<br><br>• **Phân định các ngành/lĩnh vực kinh tế biển:** Phân định rõ các ngành/lĩnh vực như nuôi trồng thủy sản, dịch vụ hệ sinh thái, năng lượng tái tạo, vận tải biển và du lịch để đảm bảo phạm vi toàn diện.<br><br>• **Kết hợp các dịch vụ hệ sinh thái:** Định lượng giá trị của các dịch vụ hệ sinh thái (ví dụ cô lập các-bon, bảo vệ bờ biển, đa dạng sinh học) dựa vào môi trường biển để đưa vào một phần của các tài khoản vệ tinh. | Trung bình | Thấp | Thấp |\n| **Tăng cường thu thập và quản lý dữ liệu** | • **Đầu tư xây dựng hạ tầng dữ liệu biển:** Phát triển các hệ thống vững chắc để thu thập, quản lý và chia sẻ dữ liệu biển, bao gồm hình ảnh vệ tinh, dữ liệu hải dương học và thống kê thủy sản.<br><br>• **Khai thác công nghệ:** Sử dụng công nghệ viễn thám, trí tuệ nhân tạo (AI) và phân tích dữ liệu lớn để cải thiện độ chính xác và kịp thời của dữ liệu kinh tế biển.<br><br>• **Phối hợp với các bên liên quan:** Huy động sự tham gia của các ngành công nghiệp, tổ chức nghiên cứu và cộng đồng địa phương để thu thập dữ liệu về các hoạt động biển và tác động kinh tế. | Trung bình | Thấp | Thấp |"
+   }
+  ],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1594,
+   "output_tokens": 493,
+   "thinking_tokens": 104
+  },
+  "latency_s": 2.42
+ },
+ "33": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [
+   {
+    "kind": "table",
+    "label": "",
+    "title": "Khuyến nghị theo ngành/không gian",
+    "region": "full",
+    "content": "| Khuyến nghị theo ngành/không gian | Đóng lợi ích kinh tế | Đóng lợi ích giảm nhẹ | Đóng lợi ích thích ứng |\n| :--- | :--- | :--- | :--- |\n| **Xây dựng năng lực thể chế**<br>• Đào tạo chuyên gia: Đào tạo cho các chuyên gia thống kê, chuyên gia kinh tế và chuyên gia hoạch định chính sách về các phương pháp hạch toán kinh tế biển.<br>• Thành lập các đơn vị chuyên môn: Thành lập các bộ phận chuyên môn trong Tổng cục Thống kê để tập trung vào hạch toán kinh tế biển.<br>• Thúc đẩy hợp tác: Tăng cường hợp tác giữa các cơ quan chính phủ, học viện và khu vực tư nhân để chia sẻ kiến thức và nguồn lực. | Trung bình | Thấp | Thấp |\n| **Vận hành các tài khoản hạch toán kinh tế biển**<br>• Tích hợp chính sách: Sử dụng tài khoản kinh tế biển để cung cấp thông tin cho quy hoạch không gian biển, quản lý nghề cá bền vững và chiến lược kinh tế biển xanh.<br>• Khuyến khích áp dụng các thông lệ bền vững: Hình thành các cơ chế ưu đãi kinh tế (trợ giá, thuế hoặc chi trả cho các dịch vụ hệ sinh thái) để thúc đẩy sử dụng bền vững tài nguyên biển. | Trung bình | Thấp | Trung bình |\n| **Thực thi hiệu lực các quy định về quy hoạch không gian biển (MSP)**<br>• Soạn thảo và thông qua các quy định của quốc gia về quy hoạch không gian biển trong vòng 12 tháng, gắn với các chỉ số kinh tế biển.<br>• Thành lập tổ công tác quy hoạch không gian biển để giám sát quá trình thực hiện và đảm bảo phù hợp với các mục tiêu về kinh tế biển.<br>• Triển khai các dự án thí điểm ở ba khu vực ven biển có rủi ro cao để thử nghiệm và tinh chỉnh các khuôn khổ quy hoạch không gian biển. | Trung bình | Thấp | Trung bình |\n| **Đẩy nhanh các phương thức bảo vệ bờ biển dựa vào thiên nhiên**<br>• Khôi phục và mở rộng rừng ngập mặn, vùng trồng cỏ biển, với mục tiêu khôi phục 50.000 ha rừng ngập mặn vào năm 2030 được pháp luật bảo vệ.<br>• Chỉ định 30% thảm cỏ biển và rạn san hô của quốc gia làm khu bảo tồn để tăng cường đa dạng sinh học và khả năng phục hồi của hệ sinh thái.<br>• Lồng ghép các giải pháp dựa vào thiên nhiên vào tất cả các quy hoạch/kế hoạch thích ứng khí hậu và các dự án kết cấu hạ tầng theo hướng hài hòa với khuôn khổ hạch toán kinh tế biển. | Cao | Cao | Cao |\n| **Đảm bảo tăng trưởng du lịch bền vững và bao trùm**<br>• Triển khai chương trình chứng nhận bền vững trên cơ sở kiểm tra hai năm một lần nhằm đảm bảo tuân thủ các tiêu chuẩn môi trường và xã hội. | Trung bình | Trung bình | Trung bình |"
+   }
+  ],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1594,
+   "output_tokens": 739,
+   "thinking_tokens": 116
+  },
+  "latency_s": 12.06
+ },
+ "34": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1594,
+   "output_tokens": 54,
+   "thinking_tokens": 120
+  },
+  "latency_s": 2.555
+ },
+ "35": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [
+   {
+    "kind": "diagram",
+    "label": "Hộp i.1",
+    "title": "Báo cáo quốc gia về khí hậu và phát triển của Việt Nam (CCDR)",
+    "region": "bottom",
+    "content": "Nội dung trong hộp tóm tắt về Báo cáo quốc gia về khí hậu và phát triển của Việt Nam (CCDR) năm 2022. Báo cáo đánh giá mức độ rủi ro biến đổi khí hậu ảnh hưởng đến quỹ đạo tăng trưởng quốc gia, đưa ra các khuyến nghị chính sách để nâng cao khả năng chống chịu và kiểm soát phát thải khí nhà kính. Báo cáo chỉ ra rằng biến đổi khí hậu đang ảnh hưởng đến kinh tế Việt Nam, chi phí của nó bắt đầu ảnh hưởng đến tăng trưởng. Đồng thời, mô hình kinh tế, tốc độ tăng trưởng cao, đô thị hóa và công nghiệp hóa trong 30 năm qua dẫn đến phát thải khí nhà kính tăng mạnh. Mức độ sẵn sàng ứng phó rủi ro biến đổi khí hậu trong nước chưa đồng đều, dù cam kết mạnh."
+   }
+  ],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1594,
+   "output_tokens": 256,
+   "thinking_tokens": 120
+  },
+  "latency_s": 8.932
+ },
+ "36": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [
+   {
+    "kind": "table",
+    "label": "",
+    "title": "Bảng: Báo cáo CCDR khuyến nghị năm gói chính sách và tiến độ triển khai",
+    "region": "middle",
+    "content": "| Gói chính sách ưu tiên | Hành động chính sách đã được thực hiện vào 03/2025 |\n| :--- | :--- |\n| Chương trình phối hợp cho vùng đồng bằng sông Cửu Long tập trung vào chống sụt lún đất và xâm nhập mặn. | Hội đồng Điều phối Vùng Đồng bằng Sông Cửu Long đã được thành lập vào năm 2023, tổ chức họp vào năm 2024. |\n| Chương trình đầu tư chống chịu ven biển cho các trung tâm đô thị quan trọng và kết nối hạ tầng. | Quy hoạch sử dụng và khai thác bền vững nguồn lợi ven biển cho giai đoạn 2021-2030, tầm nhìn đến năm 2050, với nhiều mục tiêu lớn đã được ban hành vào tháng 12/2024 |\n| Chương trình giảm ô nhiễm không khí tại Hà Nội để đạt chỉ tiêu vào năm 2030 của Tổ chức Y tế Thế giới và nâng cao lợi ích năng suất lao động. | Luật thủ đô (2024) đã được sửa đổi và thành phố hiện có hai quy hoạch mới được phê duyệt và nghị quyết thành lập các vùng phát thải thấp theo lộ trình hai giai đoạn, và 2 hoạt động thí điểm dự kiến sẽ được triển khai trong giai đoạn 2025-2030. |\n| Đẩy nhanh chuyển đổi năng lượng sạch. | Quy hoạch phát triển điện lực quốc gia lần thứ tám (QHĐ8) giai đoạn 2021-2030 được ban hành năm 2023 và được sửa đổi với phiên bản tham vọng hơn vào tháng 04/2025. Khuôn khổ cho hệ thống giao dịch phát thải (ETS) đang được xây dựng. Thí điểm dự kiến từ năm 2025 và triển khai đầy đủ vào năm 2028. |\n| Cam kết xã hội mới về bảo vệ những đối tượng dễ tổn thương nhất. | Hệ thống bảo trợ xã hội đã có những tiến triển về số hóa trong các năm 2023–2024, bổ sung thêm một triệu người vào danh sách. Hệ thống bảo trợ xã hội thích ứng và chương trình kỹ năng toàn diện quốc gia hiện đang được hình thành. |\n\n*Nguồn: Tổng hợp của Cán bộ Ngân hàng Thế giới.*"
+   }
+  ],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1594,
+   "output_tokens": 587,
+   "thinking_tokens": 122
+  },
+  "latency_s": 3.704
+ },
+ "37": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [
+   {
+    "kind": "table",
+    "label": "",
+    "title": "Thông điệp chính",
+    "region": "middle",
+    "content": "| Câu hỏi | Trả lời |\n| :--- | :--- |\n| Thiệt hại kinh tế là bao nhiêu nếu không có hành động thích ứng với biến đổi khí hậu? | Theo kịch bản có khả năng xảy ra nhất (RCP4.5), biến đổi khí hậu có thể dẫn đến thiệt hại ở mức 9,1% GDP so với kịch bản cơ sở trong những năm 2030, tăng lên đến 12,5% vào năm 2050. Mức thiệt hại tăng cao nếu không có hành động thích ứng theo thời gian và có thể cản trở Việt Nam hoàn thành mục tiêu phát triển là trở thành nền kinh tế có thu nhập cao vào năm 2045. Đó là do tác động trực tiếp và gián tiếp của biến đổi khí hậu, dẫn đến những thiệt hại liên quan đến giảm năng suất lao động, tổn thất về cơ sở hạ tầng và tác động đến nông nghiệp. |\n| Tác động về mặt phân phối là gì theo các kịch bản biến đổi khí hậu toàn cầu khác nhau? | Theo dự báo tăng trưởng GDP trong cả ba kịch bản biến đổi khí hậu, tỷ lệ nghèo tiếp tục theo xu hướng giảm, nhưng bất bình đẳng sẽ tăng lên và các nguy cơ dễ bị tổn thương với biến đổi khí hậu có thể làm đảo ngược một số thành tựu giảm nghèo. Tỷ lệ nghèo tương đối thấp ở Việt Nam, 4,2% (theo chuẩn nghèo của quốc gia thu nhập trung bình thấp (LMIC) ở mức 3,65 US$ ngang giá sức mua) được dự báo sẽ giảm xuống dưới 1% vào năm 2050. Mặt khác, bất bình đẳng ở Việt Nam – được đo bằng chỉ số bất bình đẳng Gini – đang ở mức 36,1 vào năm 2022 và có thể trở nên xấu hơn trong bối cảnh tác động biến đổi khí hậu gia tăng. Hệ số Gini sẽ tăng thêm 5% (lên đến 37,9) vào năm 2050 nghĩa là có thêm hơn 400.000 người Việt Nam rơi xuống dưới ngưỡng nghèo. |"
+   }
+  ],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1594,
+   "output_tokens": 524,
+   "thinking_tokens": 110
+  },
+  "latency_s": 3.809
+ },
+ "38": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [
+   {
+    "kind": "diagram",
+    "label": "",
+    "title": "Câu hỏi: Đầu tư cho các biện pháp thích ứng có thể giúp gì?",
+    "region": "middle",
+    "content": "Đây là một hộp thông tin (infographic dạng văn bản) trình bày về lợi ích kinh tế của việc đầu tư thích ứng. Nội dung chính bao gồm:\n- Nhu cầu đầu tư cho thích ứng (nông nghiệp, hạ tầng, vốn nhân lực) giai đoạn 2025-2050: 233 tỷ USD (tương đương 0,75% GDP/năm).\n- Hiệu quả theo kịch bản khả năng xảy ra nhất: Giảm tổn thất GDP từ 12,5% xuống 6,7% (cải thiện 46%).\n- Lợi ích kinh tế và xã hội: Tỷ lệ lợi ích so với chi phí (BCR) cho dự án đầu tư vùng đồng bằng sông Cửu Long của Ngân hàng Thế giới tăng lên 4,7 so với tỷ lệ truyền thống 1,1."
+   }
+  ],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1594,
+   "output_tokens": 264,
+   "thinking_tokens": 100
+  },
+  "latency_s": 3.357
+ },
+ "39": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1594,
+   "output_tokens": 56,
+   "thinking_tokens": 119
+  },
+  "latency_s": 4.16
+ },
+ "40": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [
+   {
+    "kind": "chart",
+    "label": "Hình 1.1",
+    "title": "Nhiệt độ trung bình hàng năm của Việt Nam trong quá khứ và theo dự báo",
+    "region": "top-left",
+    "content": "Biểu đồ đường (vùng) thể hiện nhiệt độ trung bình hàng năm (Độ C) từ năm 1980 đến 2100. Trục hoành là thời gian (1980, 2000, 2020, 2040, 2060, 2080, 2100). Trục tung là nhiệt độ (Độ C), từ 23 đến 30. Chú giải gồm: Quá khứ (màu đen), RCP 2.6 (màu xanh dương), RCP 4.5 (màu xanh lá), RCP 6.0 (màu vàng), RCP 8.5 (màu đỏ). Xu hướng chung là nhiệt độ tăng dần theo thời gian ở tất cả các kịch bản. Nguồn: Hỗ sơ rủi ro khí hậu quốc gia https://climateknowledgeportal.worldbank.org/country-profiles. Ghi chú: RCP 4.5 là kịch bản trung bình, RCP 8.5 là kịch bản bi quan, RCP 2.6 là kịch bản lạc quan.",
+    "Giá trị ước lượng": "Quá khứ (1980-2020): 1980 ≈ 24.2°C, 2020 ≈ 25.2°C. RCP 2.6: 2020 ≈ 25.2°C, 2100 ≈ 25.5°C. RCP 4.5: 2020 ≈ 25.2°C, 2100 ≈ 26.5°C. RCP 6.0: 2020 ≈ 25.2°C, 2100 ≈ 27.2°C. RCP 8.5: 2020 ≈ 25.2°C, 2100 ≈ 28.5°C."
+   },
+   {
+    "kind": "chart",
+    "label": "Hình 1.2",
+    "title": "Lượng mưa trung bình hàng năm của Việt Nam trong quá khứ và theo dự báo",
+    "region": "top-right",
+    "content": "Biểu đồ hộp (box plot) thể hiện lượng mưa trung bình hàng năm (mm) cho các giai đoạn: Quá khứ, RCP 2.6, RCP 4.5, RCP 6.0, RCP 8.5. Trục tung là lượng mưa (mm), từ 1000 đến 2800. Mỗi hộp thể hiện phân phối dữ liệu với các râu (min/max) và đường trung vị. Xu hướng chung cho thấy lượng mưa dao động trong khoảng 1400-1800mm, với các kịch bản RCP 8.5 có biên độ dao động lớn nhất (đến gần 2600mm). Nguồn: Hỗ sơ rủi ro khí hậu quốc gia https://climateknowledgeportal.worldbank.org/country-profiles.",
+    "Giá trị ước lượng": "Quá khứ: Trung vị ≈ 1550mm, râu ≈ 1200-2100mm. RCP 2.6: Trung vị ≈ 1550mm, râu ≈ 1250-2000mm. RCP 4.5: Trung vị ≈ 1600mm, râu ≈ 1350-2300mm. RCP 6.0: Trung vị ≈ 1600mm, râu ≈ 1300-2000mm. RCP 8.5: Trung vị ≈ 1650mm, râu ≈ 1300-2500mm."
+   }
+  ],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1594,
+   "output_tokens": 926,
+   "thinking_tokens": 110
+  },
+  "latency_s": 4.316
+ },
+ "41": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1594,
+   "output_tokens": 5,
+   "thinking_tokens": 120
+  },
+  "latency_s": 2.834
+ },
+ "42": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1594,
+   "output_tokens": 5,
+   "thinking_tokens": 121
+  },
+  "latency_s": 4.291
+ },
+ "43": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [
+   {
+    "kind": "chart",
+    "label": "Hình 1.3",
+    "title": "Tình trạng đường quốc lộ ở các khu vực",
+    "region": "middle",
+    "content": "Biểu đồ thanh ngang chồng (stacked bar chart) thể hiện tình trạng đường quốc lộ theo các khu vực địa lý. Trục hoành là tỷ lệ phần trăm (0% đến 100%). Chú giải gồm 4 mức độ: Tốt (màu xanh lá), Khá (màu vàng), Xấu (màu cam nhạt), Rất xấu (màu đỏ). Nguồn: Quy hoạch ngành quốc gia Việt Nam.\n\nGiá trị ước lượng (tỷ lệ %): \n- Trung du và miền núi phía Bắc: Tốt ≈ 38%, Khá ≈ 48%, Xấu ≈ 8%, Rất xấu ≈ 6%\n- Đồng bằng sông Hồng: Tốt ≈ 47%, Khá ≈ 38%, Xấu ≈ 7%, Rất xấu ≈ 8%\n- Duyên hải miền Trung: Tốt ≈ 22%, Khá ≈ 46%, Xấu ≈ 26%, Rất xấu ≈ 6%\n- Tây Nguyên: Tốt ≈ 32%, Khá ≈ 49%, Xấu ≈ 15%, Rất xấu ≈ 4%\n- Đông Nam Bộ: Tốt ≈ 40%, Khá ≈ 57%, Xấu ≈ 2%, Rất xấu ≈ 1%\n- Đồng bằng sông Cửu Long: Tốt ≈ 16%, Khá ≈ 66%, Xấu ≈ 16%, Rất xấu ≈ 2%"
+   }
+  ],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1594,
+   "output_tokens": 394,
+   "thinking_tokens": 126
+  },
+  "latency_s": 3.2
+ },
+ "44": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [
+   {
+    "kind": "table",
+    "label": "Bảng 1.1",
+    "title": "Tốc độ tăng trưởng GDP dài hạn theo giá so sánh trong các kịch bản biến đổi khí hậu khác nhau (%)",
+    "region": "bottom",
+    "content": "| Kịch bản | 2020–30 | 2030–40 | 2040–50 |\n| :--- | :---: | :---: | :---: |\n| Kịch bản cơ sở | 5.69 | 5.13 | 4.56 |\n| Tích cực (RCP2.6) | 5.25 | 4.94 | 4.40 |\n| Có khả năng xảy ra nhất (RCP4.5) | 5.21 | 4.93 | 4.30 |\n| Tiêu cực (RCP8.5) | 5.16 | 4.71 | 4.10 |\n\n*Nguồn: Uớc tính của cán bộ Ngân hàng Thế giới.*"
+   }
+  ],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1594,
+   "output_tokens": 277,
+   "thinking_tokens": 124
+  },
+  "latency_s": 2.242
+ },
+ "45": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [
+   {
+    "kind": "chart",
+    "label": "Hình 1.4",
+    "title": "GDP theo giá so sánh trong các kịch bản biến đổi khí hậu khác nhau",
+    "region": "top-left",
+    "content": "Biểu đồ đường thể hiện GDP theo giá so sánh (Chỉ số 2018=100) từ năm 2030 đến 2050. Trục hoành là các năm (2030, 2035, 2040, 2045, 2050). Trục tung là chỉ số GDP (150, 250, 350, 450). Có 4 chuỗi dữ liệu: Kịch bản cơ sở (vàng), Tích cực (xanh lá), Có khả năng xảy ra nhất (xanh dương), Tiêu cực (xám). Xu hướng chung là tăng dần theo thời gian. Kịch bản cơ sở cao nhất, tiếp theo là Tích cực, Có khả năng xảy ra nhất, và Tiêu cực thấp nhất. Nguồn: Ước tính của cán bộ Ngân hàng Thế giới bằng mô hình MANAGE.\n\nGiá trị ước lượng (tại các mốc 2030, 2050):\n- Kịch bản cơ sở: 2030 ≈ 180; 2050 ≈ 450\n- Tích cực: 2030 ≈ 175; 2050 ≈ 420\n- Có khả năng xảy ra nhất: 2030 ≈ 170; 2050 ≈ 400\n- Tiêu cực: 2030 ≈ 165; 2050 ≈ 390"
+   },
+   {
+    "kind": "chart",
+    "label": "Hình 1.5",
+    "title": "Tác động của biến đổi khí hậu đến GDP theo giá so sánh, so với kịch bản cơ sở",
+    "region": "top-right",
+    "content": "Biểu đồ vùng (area chart) thể hiện % chênh lệch GDP so với kịch bản cơ sở từ năm 2030 đến 2050. Trục hoành là các năm (2030, 2035, 2040, 2045, 2050). Trục tung là % chênh lệch (-16.0%, -14.0%, -12.0%, -10.0%, -8.0%). Có 3 vùng dữ liệu tương ứng với 3 kịch bản: Tích cực (xanh lá), Có khả năng xảy ra nhất (xanh dương), Tiêu cực (xám). Xu hướng chung là giảm dần (càng âm sâu) theo thời gian. Nguồn: Ước tính của cán bộ Ngân hàng Thế giới bằng mô hình MANAGE.\n\nGiá trị ước lượng (tại các mốc 2030, 2050):\n- Tích cực: 2030 ≈ -8.2%; 2050 ≈ -11.5%\n- Có khả năng xảy ra nhất: 2030 ≈ -8.5%; 2050 ≈ -12.5%\n- Tiêu cực: 2030 ≈ -8.8%; 2050 ≈ -16.0%"
+   }
+  ],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1594,
+   "output_tokens": 804,
+   "thinking_tokens": 118
+  },
+  "latency_s": 5.11
+ },
+ "46": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [
+   {
+    "kind": "chart",
+    "label": "Hình 1.6",
+    "title": "Ba kênh tác động chính của biến đổi khí hậu đến GDP",
+    "region": "bottom",
+    "content": "Biểu đồ cột chồng thể hiện tỷ lệ thiệt hại trong kịch bản có khả năng xảy ra nhất - RCP4.5 so với kịch bản cơ sở (%). Trục tung từ 0.0% đến 100.0%. Trục hoành gồm các năm: 2025, 2030, 2035, 2040, 2045, 2050. Chú giải gồm 3 kênh: Căng thẳng do nhiệt cao (màu xanh đậm), Ngập lụt (màu xanh lá), Nông nghiệp (màu vàng). Các nhãn số liệu trên phần màu xanh đậm (Căng thẳng do nhiệt cao) lần lượt là: 4.0% (2025), 5.4% (2030), 6.4% (2035), 7.7% (2040), 8.7% (2045), 10.0% (2050). Nguồn: Ước tính của cán bộ Ngân hàng Thế giới bằng mô hình MANAGE. Ghi chú: Căng thẳng do nhiệt cao ảnh hưởng đến năng suất; ngập lụt ảnh hưởng đến tổn thất tài sản vốn hạ tầng.\n\nGiá trị ước lượng:\n- Căng thẳng do nhiệt cao (phần màu xanh đậm): 2025 ≈ 4.0%; 2030 ≈ 5.4%; 2035 ≈ 6.4%; 2040 ≈ 7.7%; 2045 ≈ 8.7%; 2050 ≈ 10.0%.\n- Ngập lụt (phần màu xanh lá): Chiếm khoảng 15% tổng cột tại các năm (ước tính từ hình ảnh).\n- Nông nghiệp (phần màu vàng): Chiếm khoảng 25% tổng cột tại các năm (ước tính từ hình ảnh)."
+   }
+  ],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1594,
+   "output_tokens": 504,
+   "thinking_tokens": 116
+  },
+  "latency_s": 3.401
+ },
+ "47": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [
+   {
+    "kind": "chart",
+    "label": "Hình 1.7",
+    "title": "Tác động của các hiện tượng thời tiết cực đoan đến GDP theo giá so sánh trong kịch bản RCP4.5",
+    "region": "middle",
+    "content": "Biểu đồ đường (line chart) thể hiện % chênh lệch GDP so với kịch bản cơ sở từ năm 2030 đến 2050. Trục tung là % chênh lệch (từ -3.0% đến 0.0%), trục hoành là các năm (2030, 2035, 2040, 2045, 2050). Có 3 chuỗi dữ liệu: 'Giới hạn dưới' (màu xanh lá), 'Trung bình' (màu cam), 'Giới hạn trên' (màu xanh dương). Nguồn: Ước tính của cán bộ Ngân hàng Thế giới bằng mô hình MANAGE. Ghi chú: Tác động đến GDP theo giá so sánh của một sự kiện ngẫu nhiên (mô phỏng ngẫu nhiên, 5.000 lần quan sát mỗi năm) của các hiện tượng thời tiết cực đoan. Mô phỏng ngẫu nhiên dựa trên các lần quan sát ra của phân phối thiệt hại được xác định cho kịch bản khí hậu RCP. Dải biên độ tin cậy được xác định bằng cách sử dụng bảng tải diễn lịch sử trong Báo cáo tổng hợp đánh giá rủi ro thiên tai của Ngân hàng Thế giới Việt Nam năm 2014.\n\nGiá trị ước lượng:\n- Giới hạn dưới (xanh lá): 2030 ≈ -0.1%; 2035 ≈ -0.1%; 2040 ≈ -0.1%; 2045 ≈ -0.1%; 2050 ≈ -0.1%\n- Trung bình (cam): 2030 ≈ -0.8%; 2035 ≈ -1.1%; 2040 ≈ -1.2%; 2045 ≈ -1.1%; 2050 ≈ -1.2%\n- Giới hạn trên (xanh dương): 2030 ≈ -1.8%; 2035 ≈ -1.9%; 2040 ≈ -2.3%; 2045 ≈ -1.5%; 2050 ≈ -1.9%"
+   }
+  ],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1594,
+   "output_tokens": 575,
+   "thinking_tokens": 118
+  },
+  "latency_s": 3.719
+ },
+ "48": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1594,
+   "output_tokens": 49,
+   "thinking_tokens": 107
+  },
+  "latency_s": 3.516
+ },
+ "49": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [
+   {
+    "kind": "chart",
+    "label": "Hình 1.8",
+    "title": "Thay đổi về mức lương so với kịch bản cơ sở theo lĩnh vực và kỹ năng (các kịch bản, đến năm 2050)",
+    "region": "bottom",
+    "content": "Biểu đồ cột nhóm gồm hai phần: 'Không kỹ năng' (bên trái) và 'Có kỹ năng' (bên phải). Trục tung là 'Mức lương so với lương trung bình (%)', thang đo từ -100.00 đến 150.00. Trục hoành liệt kê các lĩnh vực: Nông nghiệp, Thương mại, Xây dựng, Điện, Chế biến chế tạo, Khai khoáng, Dịch vụ, Vận tải. Chú giải gồm 4 kịch bản: Kịch bản cơ sở (xanh đậm), Có khả năng xảy ra nhất (cam), Tích cực (xanh lá), Tiêu cực (xanh dương nhạt).\n\nGiá trị ước lượng (đơn vị %):\n* Không kỹ năng:\n  - Nông nghiệp: Tất cả kịch bản ≈ -50%\n  - Thương mại: Tất cả kịch bản ≈ -60%\n  - Xây dựng: Tất cả kịch bản ≈ -60%\n  - Điện: Tất cả kịch bản ≈ 0%\n  - Chế biến chế tạo: Kịch bản cơ sở ≈ 130%, các kịch bản khác ≈ 120-140%\n  - Khai khoáng: Kịch bản cơ sở ≈ 60%, các kịch bản khác ≈ 60-70%\n  - Dịch vụ: Kịch bản cơ sở ≈ 120%, các kịch bản khác ≈ 110-130%\n  - Vận tải: Tất cả kịch bản ≈ 40-50%\n* Có kỹ năng:\n  - Nông nghiệp: Tất cả kịch bản ≈ -40%\n  - Thương mại: Tất cả kịch bản ≈ -60%\n  - Xây dựng: Tất cả kịch bản ≈ -40%\n  - Điện: Tất cả kịch bản ≈ 0%\n  - Chế biến chế tạo: Kịch bản cơ sở ≈ 70%, các kịch bản khác ≈ 60-70%\n  - Khai khoáng: Kịch bản cơ sở ≈ 60%, các kịch bản khác ≈ 50-60%\n  - Dịch vụ: Kịch bản cơ sở ≈ 50%, các kịch bản khác ≈ 40-50%\n  - Vận tải: Tất cả kịch bản ≈ -10%\n\nNguồn: Ước tính của cán bộ Ngân hàng Thế giới."
+   }
+  ],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1594,
+   "output_tokens": 649,
+   "thinking_tokens": 116
+  },
+  "latency_s": 4.758
+ },
+ "50": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [
+   {
+    "kind": "chart",
+    "label": "Hình 1.9",
+    "title": "Thay đổi về nhu cầu lao động so với kịch bản cơ sở theo lĩnh vực và kỹ năng (các kịch bản, đến năm 2050)",
+    "region": "middle",
+    "content": "Biểu đồ cột nhóm gồm hai phần: 'Không kỹ năng' (bên trái) và 'Có kỹ năng' (bên phải). Trục tung là 'Thay đổi về nhu cầu lao động từ 2022 đến 2050 (%)'. Trục hoành liệt kê các lĩnh vực: Nông nghiệp, Thương mại, Xây dựng, Điện, Chế biến chế tạo, Khai khoáng, Dịch vụ, Vận tải. Chú giải gồm 4 kịch bản: Kịch bản cơ sở (xanh đậm), Có khả năng xảy ra nhất (cam), Tích cực (xanh lá), Tiêu cực (xanh dương). \n\nGiá trị ước lượng (ước tính từ biểu đồ):\n\n*Phần Không kỹ năng:*\n- Nông nghiệp: Tất cả các kịch bản ≈ -20%.\n- Thương mại: Tất cả các kịch bản ≈ 25%.\n- Xây dựng: Tất cả các kịch bản ≈ 30%.\n- Điện: Tất cả các kịch bản ≈ 10-15%.\n- Chế biến chế tạo: Tất cả các kịch bản ≈ 40-45%.\n- Khai khoáng: Tất cả các kịch bản ≈ 30-35%.\n- Dịch vụ: Tất cả các kịch bản ≈ 25-30%.\n- Vận tải: Tất cả các kịch bản ≈ 25-30%.\n\n*Phần Có kỹ năng:*\n- Nông nghiệp: Tất cả các kịch bản ≈ -10% đến -15%.\n- Thương mại: Tất cả các kịch bản ≈ 15%.\n- Xây dựng: Tất cả các kịch bản ≈ 25%.\n- Điện: Tất cả các kịch bản ≈ 15%.\n- Chế biến chế tạo: Tất cả các kịch bản ≈ 30-35%.\n- Khai khoáng: Tất cả các kịch bản ≈ 25-30%.\n- Dịch vụ: Tất cả các kịch bản ≈ 25%.\n- Vận tải: Tất cả các kịch bản ≈ 15-20%.\n\nNguồn: Uớc tính của cán bộ Ngân hàng Thế giới."
+   }
+  ],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1594,
+   "output_tokens": 613,
+   "thinking_tokens": 114
+  },
+  "latency_s": 4.644
+ },
+ "51": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [
+   {
+    "kind": "chart",
+    "label": "Hình 1.10",
+    "title": "Tác động đến tỷ lệ nghèo khi tình trạng bất bình đẳng xấu đi được thể hiện qua hệ số Gini tăng lên",
+    "region": "top",
+    "content": "Biểu đồ đường gồm hai phần so sánh tác động của biến đổi khí hậu. Đơn vị trục tung là tỷ lệ nghèo (%), trục hoành là các năm từ 2022 đến 2050.\n\nPhần 1 (Trái): 'Giả định biến đổi khí hậu làm bất bình đẳng tăng 5% trong giai đoạn 2022–2050'.\n- Các chuỗi: Kịch bản cơ sở (xanh lá), Tích cực (xám), Có khả năng xảy ra nhất (xanh dương), Tiêu cực (vàng).\n- Xu hướng: Tất cả các đường đều giảm dần từ mức ≈20% năm 2022 xuống gần 0% năm 2050.\n\nPhần 2 (Phải): 'Giả định biến đổi khí hậu làm bất bình đẳng tăng 15% trong giai đoạn 2022–2050'.\n- Các chuỗi: Kịch bản cơ sở (xanh lá), Tích cực (xám), Có khả năng xảy ra nhất (xanh dương), Tiêu cực (vàng).\n- Xu hướng: Các đường giảm dần từ mức ≈20% năm 2022, nhưng đường Tiêu cực (vàng) và Có khả năng xảy ra nhất (xanh dương) kết thúc ở mức cao hơn so với phần bên trái (≈2-3%).\n\nNguồn: Ước tính của cán bộ Ngân hàng Thế giới.\nGhi chú: Các dự báo giả định chi tiêu bình quân đầu người theo phân phối lognormal và tỷ lệ nghèo dự kiến được tính sau khi áp tăng trưởng GDP bình quân đầu người cho chi tiêu từ năm 2022 và tăng Gini (Crow và Shimizu 1987).\n\nGiá trị ước lượng (cả hai biểu đồ):\n- Năm 2022: Tất cả các kịch bản bắt đầu tại ≈20%.\n- Năm 2050 (Biểu đồ trái - tăng 5%): Kịch bản cơ sở ≈0%; Tích cực ≈0%; Có khả năng xảy ra nhất ≈0,5%; Tiêu cực ≈1%.\n- Năm 2050 (Biểu đồ phải - tăng 15%): Kịch bản cơ sở ≈0%; Tích cực ≈0,5%; Có khả năng xảy ra nhất ≈1,5%; Tiêu cực ≈2,5%."
+   }
+  ],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1594,
+   "output_tokens": 629,
+   "thinking_tokens": 113
+  },
+  "latency_s": 6.403
+ },
+ "52": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [
+   {
+    "kind": "table",
+    "label": "Bảng B1.1",
+    "title": "Bảng B1.1 và Hình B1.1 Tỷ lệ dân số sống dưới ngưỡng nghèo (nhóm phân vị thứ 25 về thu nhập bình quân đầu người năm 2025) (%)",
+    "region": "middle",
+    "content": "| Năm | Không có cú sốc | Nguy cơ trực tiếp | Tác động trực tiếp và lân cận | Tác động theo tỷ lệ với khoảng cách |\n| :--- | :--- | :--- | :--- | :--- |\n| 2024 | 24,9 | 24,9 | 24,9 | 24,9 |\n| 2030 | 18,4 | 26,2 | 35,1 | 30,1 |\n| 2050 | 5,8 | 24,7 | 27,4 | 25,7 |\n\n*Nguồn: Ước tính của cán bộ Ngân hàng Thế giới dựa trên các mô phỏng được thực hiện qua sử dụng Khảo sát đời sống ở đồng bằng sông Cửu Long.*"
+   },
+   {
+    "kind": "chart",
+    "label": "Hình B1.1",
+    "title": "Bảng B1.1 và Hình B1.1 Tỷ lệ dân số sống dưới ngưỡng nghèo (nhóm phân vị thứ 25 về thu nhập bình quân đầu người năm 2025) (%)",
+    "region": "bottom-left",
+    "content": "Biểu đồ đường thể hiện tỷ lệ dân số sống dưới ngưỡng nghèo từ năm 2024 đến 2050 theo 4 kịch bản.\n- Trục tung: Tỷ lệ dân số dưới ngưỡng nghèo (nhóm phân vị thứ 25 năm 2024), đơn vị từ 0 đến 40.\n- Trục hoành: Năm, từ 2024 đến 2050 (bước nhảy 2 năm).\n- Chú giải:\n  - Không có cú sốc (đường liền nét màu xanh đậm): Xu hướng giảm dần đều từ 24,9% xuống còn khoảng 5,8% vào năm 2050.\n  - Nguy cơ trực tiếp (đường liền nét màu cam): Tăng từ 24,9% (2024) lên đỉnh khoảng 26,2% (2030), sau đó giảm nhẹ và đi ngang ở mức khoảng 24,7% vào năm 2050.\n  - Tác động trực tiếp và lân cận (đường đứt nét màu xanh lá): Tăng mạnh từ 24,9% (2024) lên đỉnh khoảng 35,1% (2030), sau đó giảm dần xuống khoảng 27,4% vào năm 2050.\n  - Tác động theo tỷ lệ khoảng cách (đường liền nét màu xanh dương): Tăng từ 24,9% (2024) lên đỉnh khoảng 30,1% (2030), sau đó giảm dần xuống khoảng 25,7% vào năm 2050.\n\nGiá trị ước lượng:\n- Không có cú sốc: 2024 ≈ 24,9%; 2030 ≈ 18,4%; 2050 ≈ 5,8%\n- Nguy cơ trực tiếp: 2024 ≈ 24,9%; 2030 ≈ 26,2%; 2050 ≈ 24,7%\n- Tác động trực tiếp và lân cận: 2024 ≈ 24,9%; 2030 ≈ 35,1%; 2050 ≈ 27,4%\n- Tác động theo tỷ lệ khoảng cách: 2024 ≈ 24,9%; 2030 ≈ 30,1%; 2050 ≈ 25,7%"
+   }
+  ],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1594,
+   "output_tokens": 957,
+   "thinking_tokens": 122
+  },
+  "latency_s": 4.965
+ },
+ "53": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1594,
+   "output_tokens": 72,
+   "thinking_tokens": 120
+  },
+  "latency_s": 2.751
+ },
+ "54": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [
+   {
+    "kind": "chart",
+    "label": "Hình 1.11",
+    "title": "Tác động của các biện pháp thích ứng đến GDP theo giá so sánh, so với kịch bản cơ sở",
+    "region": "middle",
+    "content": "Biểu đồ đường thể hiện tác động của các biện pháp thích ứng đến GDP (đơn vị: %) từ năm 2030 đến 2050. Trục tung biểu thị phần trăm thay đổi GDP (từ -5% đến -15%). Trục hoành biểu thị thời gian (2030, 2035, 2040, 2045, 2050).\n\nChú giải các chuỗi dữ liệu:\n- Không thích ứng - Tiêu cực (đường liền nét màu xanh lá cây)\n- Có thích ứng - Tiêu cực (đường đứt nét màu xanh lá cây)\n- Không thích ứng - Có khả năng xảy ra nhất (đường liền nét màu vàng)\n- Không thích ứng - Tích cực (đường liền nét màu xanh dương)\n- Có thích ứng - Tích cực (đường đứt nét màu xanh dương)\n- Có thích ứng - Có khả năng xảy ra nhất (đường đứt nét màu vàng)\n\nThông tin bổ sung: Có một mũi tên hai chiều tại năm 2050 chỉ khoảng cách giữa đường 'Không thích ứng - Tiêu cực' và 'Có thích ứng - Tiêu cực', ghi chú là '5,8 điểm % tổn thất tránh được'.\n\nNguồn: Ước tính của cán bộ Ngân hàng Thế giới bằng mô hình MANAGE.\n\nGiá trị ước lượng (tại năm 2030 và 2050):\n- Không thích ứng - Tiêu cực: 2030 ≈ -7,5%; 2050 ≈ -14,5%\n- Có thích ứng - Tiêu cực: 2030 ≈ -6%; 2050 ≈ -8,7%\n- Không thích ứng - Có khả năng xảy ra nhất: 2030 ≈ -7,5%; 2050 ≈ -13,5%\n- Không thích ứng - Tích cực: 2030 ≈ -7,5%; 2050 ≈ -12%\n- Có thích ứng - Tích cực: 2030 ≈ -6%; 2050 ≈ -11,5%\n- Có thích ứng - Có khả năng xảy ra nhất: 2030 ≈ -6%; 2050 ≈ -7,7%"
+   }
+  ],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1594,
+   "output_tokens": 612,
+   "thinking_tokens": 129
+  },
+  "latency_s": 3.197
+ },
+ "55": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [
+   {
+    "kind": "diagram",
+    "label": "Hộp 1.2",
+    "title": "Thành phố Thủ Đức – đảm bảo khả năng chống chịu của đô thị để tăng trưởng trong tương lai",
+    "region": "middle",
+    "content": "Nội dung văn bản trong hộp trình bày về tiềm năng và thách thức của thành phố Thủ Đức:\n- Bối cảnh: Thành lập năm 2000 (sáp nhập quận 2, 9 và Thủ Đức), diện tích 21.000 ha, dân số khoảng 1 triệu người.\n- Tầm nhìn: Trở thành động lực đổi mới sáng tạo, thu hút lao động kỹ năng cao, dân số dự kiến 2,2 triệu người vào năm 2040.\n- Thách thức: Rủi ro lũ lụt làm đình trệ việc làm, vận chuyển hàng hóa và dịch vụ đô thị.\n- Giải pháp: Tiếp cận phối hợp đầu tư vào chống ngập, hạ tầng giao thông, công viên và dịch vụ doanh nghiệp.\n- Lợi ích: Nếu đầu tư đúng cách, sản lượng tăng thêm có thể đạt 35 tỷ USD mỗi năm vào năm 2040. Riêng đầu tư chống ngập có thể bảo vệ khu vực tây bắc Thủ Đức, nâng sản lượng thêm 10 tỷ USD vào năm 2040."
+   }
+  ],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1594,
+   "output_tokens": 323,
+   "thinking_tokens": 120
+  },
+  "latency_s": 3.714
+ },
+ "56": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1594,
+   "output_tokens": 71,
+   "thinking_tokens": 119
+  },
+  "latency_s": 4.265
+ },
+ "57": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1594,
+   "output_tokens": 49,
+   "thinking_tokens": 120
+  },
+  "latency_s": 2.473
+ },
+ "58": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [
+   {
+    "kind": "chart",
+    "label": "Hình 1.12",
+    "title": "Phương pháp luận lợi ích gấp ba nhờ khả năng chống chịu (%)",
+    "region": "top",
+    "content": "Biểu đồ cột chồng thể hiện lợi ích gấp ba (lợi ích thứ nhất, thứ hai, thứ ba) tại các địa điểm Ba Tri (Bến Tre), An Minh, An Biên (Kiên Giang), An Phú (An Giang) và Tổng cộng. Trục tung là đơn vị phần trăm (%), từ 0 đến 30. \n\nChú giải:\n- Lợi ích thứ nhất (màu xanh dương đậm)\n- Lợi ích thứ hai (màu xanh lá cây)\n- Lợi ích thứ ba (màu vàng)\n\nGiá trị ước lượng (đọc từ biểu đồ):\n- Ba Tri (Bến Tre): Lợi ích thứ nhất ≈ 0,5%; Lợi ích thứ hai ≈ 6%; Lợi ích thứ ba ≈ 0,5%. Tổng ≈ 7%.\n- An Minh, An Biên (Kiên Giang): Lợi ích thứ nhất ≈ 0,5%; Lợi ích thứ hai ≈ 25,5%; Lợi ích thứ ba ≈ 0,5%. Tổng ≈ 26,5%.\n- An Phú (An Giang): Lợi ích thứ nhất ≈ 0,5%; Lợi ích thứ hai ≈ 2%; Lợi ích thứ ba ≈ 2,5%. Tổng ≈ 5%.\n- Tổng: Lợi ích thứ nhất ≈ 0,5%; Lợi ích thứ hai ≈ 12,5%; Lợi ích thứ ba ≈ 1,5%. Tổng ≈ 14,5%.\n\nThông tin bổ sung bên phải biểu đồ:\n- Lợi ích thứ nhất (tổng): Tránh được thiệt hại do các sự kiện liên quan đến khí hậu gây ra. Lợi ích tỷ lệ lợi ích / chi phí = 1,27\n- Lợi ích thứ hai (tổng): Chẳng hạn tăng thu nhập, cải thiện sinh kế hoặc cơ hội việc làm. Lợi ích tỷ lệ lợi ích / chi phí = 12,02\n- Lợi ích thứ ba (tổng): Giảm khí thải hiệu ứng nhà kính, dịch vụ hệ sinh thái, quản lý nước. Lợi ích tỷ lệ lợi ích / chi phí = 1,38\n- Tổng lợi ích: Lợi ích tỷ lệ lợi ích / chi phí = 14,67\n\nNguồn: Uớc tính của Ngân hàng Thế giới, 2024. Dự án Sinh kế Bền vững và Chống chịu Khí hậu Tổng hợp (ICRSL) của Ngân hàng Thế giới."
+   }
+  ],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1594,
+   "output_tokens": 630,
+   "thinking_tokens": 119
+  },
+  "latency_s": 3.938
+ },
+ "59": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1594,
+   "output_tokens": 5,
+   "thinking_tokens": 119
+  },
+  "latency_s": 2.782
+ },
+ "60": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [
+   {
+    "kind": "table",
+    "label": "Bảng 1.2",
+    "title": "Khuyến nghị cho giai đoạn 2026–30",
+    "region": "full",
+    "content": "| Khuyến nghị chung | Đồng lợi ích kinh tế | Đồng lợi ích giảm nhẹ |\n| :--- | :--- | :--- |\n| **Khai thác các công cụ tài chính sáng tạo** | Tạo ra sản phẩm tài chính kết hợp được nguồn lực của nhà nước, tư nhân, nhà tài trợ, để đầu tư kết cấu hạ tầng chống khí hậu và đầu tư thích ứng. | Trung bình | Thấp |\n| **Phát triển thị trường bảo hiểm và áp dụng cơ chế chia sẻ rủi ro mới** | - Triển khai bảo hiểm theo tham số để khuyến khích chi trả nhanh theo các yếu tố kích hoạt (như vượt ngưỡng về mưa hoặc nhiệt độ hoặc tốc độ gió), qua đó đẩy nhanh tốc độ phục hồi.<br>- Triển khai các nguồn vay dự phòng nhanh để đảm bảo kết cấu hạ tầng vẫn hoạt động khi có sự cố quy mô lớn và để tạo điều kiện sửa chữa ngay khi cần.<br>- Tạo điều kiện phát triển các sản phẩm bảo hiểm tư nhân nhằm khuyến khích áp dụng các công nghệ thông minh với khí hậu và đầu tư cho các phương thức thực hành sản xuất và nhà ở đảm bảo khả năng phục. | Trung bình | Thấp |\n| **Xây dựng một chương trình đầu tư công thích ứng với rủi ro biến đổi khí hậu** | - Lồng ghép những cân nhắc về rủi ro khí hậu vào các dự án hạ tầng hiện tại và sắp tới. Xác định và ưu tiên hạ tầng có nguy cơ dễ tổn thương với các cú sốc khí hậu (như giao thông, cấp nước, đô thị, nông nghiệp).<br>- Đảm bảo phối hợp hiệu quả giữa các cấp chính quyền nhằm hài hòa kế hoạch đầu tư công giữa các bộ ngành và địa phương, đảm bảo các dự án hạ tầng, thích ứng khí hậu và phát triển kinh tế đồng bộ để tránh chồng chéo và tối đa hóa hiệu suất. | Cao | Thấp |\n| **Đảm bảo quản lý rủi ro thiên tai hiệu quả** | - Đảm bảo quản lý rủi ro thiên tai và kế hoạch phục hồi cũng như các hệ thống cảnh báo sớm được cập nhật định kỳ theo cách có sự tham gia ở cấp trung ương và địa phương và được đảm bảo kinh phí đầy đủ.<br>- Triển khai công cụ huy động tài chính dự phòng nhanh để hỗ trợ các doanh nghiệp và mạng lưới an sinh xã hội thích ứng để hỗ trợ các hộ gia đình trong trường hợp có thiên tai do khí hậu gây ra. | Trung bình | Thấp |\n| **Cung cấp thông tin và dữ liệu để hỗ trợ các doanh nghiệp và hộ gia đình quản lý rủi ro** | Cung cấp thông tin toàn diện và chi tiết về biến đổi khí hậu và dữ liệu thời tiết để hỗ trợ các hộ gia đình và các chủ thể trong khu vực tư nhân để họ ra quyết định căn cứ vào thông tin rủi ro trong chiến lược ứng phó của họ, bao gồm cả quyết định đầu tư. | Trung bình | Thấp |"
+   }
+  ],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1594,
+   "output_tokens": 707,
+   "thinking_tokens": 104
+  },
+  "latency_s": 10.718
+ },
+ "61": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [
+   {
+    "kind": "table",
+    "label": "",
+    "title": "Đô thị đảm bảo khả năng chống chịu và Giao thông đảm bảo khả năng chống chịu",
+    "region": "full",
+    "content": "| Nhóm giải pháp | Nội dung chi tiết | Đồng lợi ích kinh tế | Đồng lợi ích giảm nhẹ |\n| :--- | :--- | :--- | :--- |\n| **Đô thị đảm bảo khả năng chống chịu** | | | |\n| Điều chỉnh các ưu đãi tài khóa để tăng cường sử dụng đất và mô hình đô thị hóa | • Điều chỉnh thuế đất hoặc thuế bất động sản để ngăn ngừa định cư ở các khu đất có rủi ro cao và ưu đãi cho đầu tư để nâng cao khả năng chống chịu (chẳng hạn giảm thuế bất động sản để nâng cấp tiêu chuẩn công trình nhà).<br>• Đảm bảo điều chỉnh được thực hiện kết hợp với đảm bảo đủ nguồn lực và đào tạo để thực thi và thực hiện các quy định và sắc thuế trên. | Trung bình | Thấp |\n| Tăng cường khả năng chống chịu của các công trình tòa nhà | • Sửa đổi các tiêu chuẩn và quy chuẩn để các công trình nhà ở, thương mại và công cộng thích ứng với nhiệt độ cao hơn dự kiến và áp dụng các tiêu chí về khả năng chống bão nghiêm ngặt hơn. | Cao | Trung bình |\n| Xây dựng cơ sở hạ tầng đô thị thích ứng | • Khuyến khích tư nhân đầu tư thích ứng để giảm nhiệt đô thị và nâng cao hiệu suất năng lượng của các công trình nhà, chẳng hạn như sử dụng mái nhà xanh.<sup>79</sup><br>• Đầu tư hệ thống thoát nước đô thị chống lũ kết hợp giữa công trình hạ tầng xám (máy bơm, cống) với công trình hạ tầng xanh (đất ngập nước, đầm lầy sinh học) để giảm lưu lượng ngập cao điểm, kiểm soát dòng chảy nước mưa và tăng cường tái bổ sung nước ngầm.<br>• Chủ động bảo trì cơ sở hạ tầng công cộng đô thị hiện có rủi ro với các hiện tượng thời tiết cực đoan. | Trung bình | Trung bình |\n| **Giao thông đảm bảo khả năng chống chịu** | | | |\n| Thiết lập kế hoạch thích ứng mạnh mẽ | • Thiết lập cơ sở dữ liệu rủi ro thống nhất để hợp nhất dữ liệu điều kiện khí hậu, thủy văn và cơ sở hạ tầng để cho phép đánh giá tính dễ bị tổn thương và quyết định quản lý tài sản chính xác hơn. | Thấp | Thấp |\n| Xây dựng các tiêu chuẩn, thông số kỹ thuật, định mức, quy trình bảo trì cho những tài sản hiện có | • Xây dựng các tiêu chuẩn kỹ thuật tương xứng với mức độ rủi ro, các thông số và định mức kỹ thuật cho bảo trì định kỳ và khẩn cấp, bao gồm phân vùng về nguy cơ dễ bị tổn thương với khí hậu để bổ trợ cho đầu tư thích ứng có mục tiêu.<br>• Thiết lập các thủ tục rõ ràng để xác định ưu tiên bảo trì qua sử dụng dữ liệu không gian địa lý để giúp đảm bảo nguồn lực hạn chế được dành cho phân khúc trọng yếu và dễ bị tổn thương nhất. | Thấp | Thấp |"
+   }
+  ],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1594,
+   "output_tokens": 721,
+   "thinking_tokens": 112
+  },
+  "latency_s": 3.685
+ },
+ "62": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [
+   {
+    "kind": "table",
+    "label": "",
+    "title": "",
+    "region": "middle",
+    "content": "| Nông nghiệp đảm bảo khả năng chống chịu | Đồng lợi ích kinh tế | Đồng lợi ích giảm nhẹ |\n| :--- | :--- | :--- |\n| **Đa dạng hóa cây trồng và sinh kế** | • Hỗ trợ nông dân đa dạng hóa các loại cây trồng thích ứng với khí hậu thông qua trợ giá, hỗ trợ kỹ thuật và tiếp cận thị trường. Các sản phẩm thay thế gồm cây lúa chịu hạn và giảm phát thải và ngô, rau, chuối, dâu tằm chịu mặn và nuôi tôm. | Cao | Cao |\n| **Giảm thiểu tác động của lượng mưa không thường xuyên và hạn hán** | • Sử dụng Tưới ướt khô xen kẽ (AWD) có thể giảm sử dụng nước, đồng thời duy trì năng suất và giảm lượng khí thải mê-tan.<br>• Hệ thống tưới hiệu quả, bao gồm tưới nhỏ giọt (hoặc tưới nhỏ giọt chạy bằng năng lượng mặt trời) và thu gom nước mưa, cải thiện khả năng bảo tồn nước ở các vùng dễ bị hạn hán. | Cao | Cao |"
+   }
+  ],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1594,
+   "output_tokens": 296,
+   "thinking_tokens": 109
+  },
+  "latency_s": 8.317
+ },
+ "63": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1594,
+   "output_tokens": 57,
+   "thinking_tokens": 113
+  },
+  "latency_s": 2.256
+ },
+ "64": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1594,
+   "output_tokens": 57,
+   "thinking_tokens": 118
+  },
+  "latency_s": 2.715
+ },
+ "65": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1594,
+   "output_tokens": 75,
+   "thinking_tokens": 119
+  },
+  "latency_s": 3.096
+ },
+ "66": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [
+   {
+    "kind": "chart",
+    "label": "Hình 2.1",
+    "title": "Quá trình phát triển của Việt Nam và phát thải các-bon",
+    "region": "top-left",
+    "content": "Biểu đồ phân tán (scatter plot) thể hiện mối quan hệ giữa GDP theo đầu người (trục hoành, đơn vị: USD quốc tế, điều chỉnh ngang giá sức mua) và Phát thải CO2 trên đầu người (trục tung). Các chuỗi dữ liệu bao gồm: In-đô-nê-xi-a (cam), Phi-líp-pin (vàng), Trung Quốc (xanh dương đậm), Thổ Nhĩ Kỳ (xanh dương nhạt), Hoa Kỳ (xanh lá cây), Nhật Bản (xám), Đức (nâu), Việt Nam (xanh lá cây nhạt). Nguồn: WRI, CAIT và tính toán của cán bộ Ngân hàng Thế giới. Giá trị ước lượng: Trục hoành từ 0 đến 60.000. Trục tung từ 0 đến 25. Các chuỗi dữ liệu có xu hướng tăng dần theo GDP, trong đó Hoa Kỳ (xanh lá cây) đạt đỉnh cao nhất ≈ 20-22 đơn vị phát thải tại mức GDP ≈ 30.000-40.000, sau đó giảm nhẹ. Việt Nam (xanh lá cây nhạt) có xu hướng tăng dần từ 0 đến mức ≈ 3-4 đơn vị phát thải tại GDP ≈ 10.000-15.000.",
+    "estimated_values": "Hoa Kỳ: GDP ≈ 30.000-40.000, Phát thải ≈ 20-22; Việt Nam: GDP ≈ 10.000-15.000, Phát thải ≈ 3-4."
+   },
+   {
+    "kind": "chart",
+    "label": "Hình 2.2",
+    "title": "Cơ cấu phát thải theo ngành của Việt Nam",
+    "region": "top-right",
+    "content": "Biểu đồ diện tích (area chart) thể hiện cơ cấu phát thải theo ngành từ năm 1970 đến 2020. Trục tung là tỷ lệ phần trăm (0% đến 100%). Các ngành bao gồm: Nông nghiệp (xanh dương đậm), Khai thác nhiên liệu (xám nhạt), Công nghiệp điện (xanh dương nhạt), Giao thông vận tải (xanh dương trung bình), Công trình nhà (cam), Động cơ đốt trong công nghiệp (vàng), Chế biến chế tạo (xanh lá cây), Chất thải (nâu). Nguồn: WRI, CAIT và tính toán của cán bộ Ngân hàng Thế giới. Giá trị ước lượng: Nông nghiệp (xanh dương đậm) chiếm tỷ trọng lớn nhất, giảm dần từ ≈ 70% năm 1970 xuống ≈ 20% năm 2020. Công trình nhà (cam) tăng dần từ ≈ 5% năm 1970 lên ≈ 20% năm 2020. Động cơ đốt trong công nghiệp (vàng) tăng từ ≈ 5% lên ≈ 15%.",
+    "estimated_values": "Nông nghiệp: 1970 ≈ 70%, 2020 ≈ 20%; Công trình nhà: 1970 ≈ 5%, 2020 ≈ 20%; Động cơ đốt trong công nghiệp: 1970 ≈ 5%, 2020 ≈ 15%."
+   },
+   {
+    "kind": "chart",
+    "label": "Hình 2.3",
+    "title": "Các mục tiêu giảm phát thải của Việt Nam (2030 và 2050)",
+    "region": "bottom",
+    "content": "Biểu đồ cột chồng thể hiện các mục tiêu giảm phát thải. Trục tung là Triệu tấn CO2 tương đương (0 đến 1600). Các nhóm ngành: Năng lượng (cam), Nông nghiệp (xám), Chất thải (vàng), Sản xuất công nghiệp (xanh dương). Có 3 cột chính: Cột 1 (2030 - Chỉ tiêu NDC 2020), Cột 2 (2030 - Chỉ tiêu NDC 2022), Cột 3 (2050 - Kịch bản cơ sở). Chú thích: Mũi tên giảm -27% cho NDC 2020, -43.5% cho NDC 2022. Mũi tên dài từ đỉnh cột 2050 xuống 0 ghi 'Mục tiêu của CLQG-BĐKH - Phát thải ròng bằng không'. Nguồn: Tính toán của cán bộ Ngân hàng Thế giới, dựa trên tuyên bố về NDC và trong CLQG-BĐKH. Giá trị ước lượng: Cột 2030 (NDC 2020) tổng ≈ 800; Cột 2030 (NDC 2022) tổng ≈ 950; Cột 2050 (Kịch bản cơ sở) tổng ≈ 1550.",
+    "estimated_values": "Cột 2030 (NDC 2020): ≈ 800; Cột 2030 (NDC 2022): ≈ 950; Cột 2050 (Kịch bản cơ sở): ≈ 1550."
+   }
+  ],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1594,
+   "output_tokens": 1271,
+   "thinking_tokens": 128
+  },
+  "latency_s": 5.408
+ },
+ "67": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [
+   {
+    "kind": "table",
+    "label": "Bảng 2.1",
+    "title": "Chi tiết các mục tiêu giảm phát thải theo lĩnh vực trong CLQG-BĐKH (2030 và 2050)",
+    "region": "top",
+    "content": "| Lĩnh vực | 2030 (% thay đổi) | 2030 (Không > triệu tấn CO2 tương đương) | 2050 (% thay đổi) | 2050 (Không > triệu tấn CO2 tương đương) |\n| :--- | :---: | :---: | :---: | :---: |\n| Lĩnh vực năng lượng | 32,6 | 457 | 91,6 | 101 |\n| Nông nghiệp | 43,0 | 64 | 63,1 | 56 |\n| Giảm qua sử dụng đất, thay đổi mục đích sử dụng đất, lâm nghiệp (LULUCF) | 70 | -95 (Tổng) | 90 | -185 (Tổng) |\n| Hấp thụ qua sử dụng đất, thay đổi mục đích sử dụng đất, lâm nghiệp (LULUCF) | 20 | | 30 | |\n| Chất thải | 60,7 | 18 | 90,7 | 8 |\n| Các quy trình công nghiệp | 38,3 | 86 | 84,8 | 20 |\n\n*Nguồn: CLQG-BĐKH 2022.*"
+   }
+  ],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1594,
+   "output_tokens": 387,
+   "thinking_tokens": 103
+  },
+  "latency_s": 3.632
+ },
+ "68": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [
+   {
+    "kind": "chart",
+    "label": "Hình 2.4",
+    "title": "Tổng cung năng lượng theo nguồn (TJ)",
+    "region": "top",
+    "content": "Biểu đồ diện tích (area chart) thể hiện tổng cung năng lượng theo nguồn từ năm 2000 đến 2020. Trục tung là đơn vị TJ (từ 0 đến 4.500.000). Trục hoành là các năm (2000, 2005, 2010, 2015, 2020). Các nguồn năng lượng bao gồm: Than (màu xanh đậm nhất, chiếm tỷ trọng lớn nhất và tăng mạnh), Khí tự nhiên (màu cam), Dầu (màu xám), Thủy điện (màu xanh dương nhạt), Nhiên liệu sinh học & chất thải (màu xanh lá cây). Nguồn: IEA. Ghi chú: TJ là te-ra joule, hoặc ngàn tỷ joule, là đơn vị đo lường năng lượng. 1 TJ = 0,278 GWh.\n\nGiá trị ước lượng (tổng cộng tại các mốc năm):\n- Năm 2000: ≈ 1.200.000 TJ\n- Năm 2005: ≈ 1.600.000 TJ\n- Năm 2010: ≈ 2.400.000 TJ\n- Năm 2015: ≈ 2.800.000 TJ\n- Năm 2020: ≈ 4.000.000 TJ"
+   },
+   {
+    "kind": "diagram",
+    "label": "Hình 2.5",
+    "title": "QHĐ8 dự kiến mở rộng quy mô năng lượng tái tạo về sau đến năm 2050",
+    "region": "middle",
+    "content": "Sơ đồ so sánh cơ cấu điện năm 2022 và dự kiến năm 2050 theo QHĐ8. Sơ đồ dạng khối (treemap/mosaic plot) thể hiện tỷ trọng các nguồn điện.\n\nNăm 2022:\n- Điện than: 32% (xám)\n- Thủy điện: 28% (vàng)\n- Điện mặt trời: 21% (xanh lá)\n- Năng lượng khí đốt: 9% (cam)\n- Điện gió: 6% (xanh dương)\n- Điện khác: (xanh dương nhạt, nhãn bị cắt)\n\nNăm 2050:\n- Điện mặt trời: 34% (xanh lá)\n- Điện gió: 27% (xám)\n- Điện khác: 19% (xanh dương)\n- Năng lượng khí đốt: 13% (cam)\n- Thủy điện: 7% (vàng)\n\nNguồn: QHĐ8 (2023)."
+   }
+  ],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1594,
+   "output_tokens": 715,
+   "thinking_tokens": 125
+  },
+  "latency_s": 3.676
+ },
+ "69": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1594,
+   "output_tokens": 68,
+   "thinking_tokens": 121
+  },
+  "latency_s": 4.378
+ },
+ "70": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1594,
+   "output_tokens": 73,
+   "thinking_tokens": 119
+  },
+  "latency_s": 3.78
+ },
+ "71": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [
+   {
+    "kind": "chart",
+    "label": "Hình 2.6",
+    "title": "Các chính sách giảm nhẹ hiện nay so với các chỉ tiêu NDC/CLQG-BĐKH",
+    "region": "top-left",
+    "content": "Biểu đồ cột nhóm so sánh % giảm khí thải so với kịch bản cơ sở tại các năm 2030 và 2050. Trục tung là % giảm khí thải. Chú giải gồm: Chính sách giảm nhẹ hiện hành (màu xanh dương), K/b khử thải các-bon tăng tốc (ADS) (màu xám), Chỉ tiêu NDC / CLQG-BĐKH (đường cam ngang). \n\nGiá trị ước lượng:\n- Chính sách giảm nhẹ hiện hành: 2030 ≈ -38%; 2050 ≈ -55%\n- K/b khử thải các-bon tăng tốc (ADS): 2030 ≈ -44%; 2050 ≈ -74%\n- Chỉ tiêu NDC / CLQG-BĐKH: 2030 ≈ -40% (đường cam); 2050 ≈ -80% (đường cam)\nNguồn: Mô phỏng của cán bộ Ngân hàng Thế giới bằng mô hình MANAGE.",
+    "Giá trị ước lượng": "Chính sách giảm nhẹ hiện hành: 2030 ≈ -38%; 2050 ≈ -55%. K/b khử thải các-bon tăng tốc (ADS): 2030 ≈ -44%; 2050 ≈ -74%. Chỉ tiêu NDC / CLQG-BĐKH: 2030 ≈ -40%; 2050 ≈ -80%."
+   },
+   {
+    "kind": "chart",
+    "label": "Hình 2.7",
+    "title": "Tác động đến GDP theo giá so sánh, so với kịch bản cơ sở",
+    "region": "top-right",
+    "content": "Biểu đồ cột nhóm thể hiện tác động đến GDP (%) tại các năm 2030, 2040, 2050. Trục tung là %. Chú giải: Chính sách giảm nhẹ hiện hành không tính lợi ích gia tăng (xanh dương), Chính sách giảm nhẹ hiện hành với lợi ích gia tăng (xanh lá), Kịch bản khử thải các-bon tăng tốc (ADS) (xám). \n\nGiá trị ước lượng:\n- Chính sách giảm nhẹ hiện hành không tính lợi ích gia tăng: 2030 ≈ -0.02%; 2040 ≈ -1.55%; 2050 ≈ -2.76%\n- Chính sách giảm nhẹ hiện hành với lợi ích gia tăng: 2030 ≈ 1.81%; 2040 ≈ 1.22%; 2050 ≈ 1.39%\n- Kịch bản khử thải các-bon tăng tốc (ADS): 2030 ≈ 2.27%; 2040 ≈ 2.82%; 2050 ≈ 4.41%\nNguồn: Mô phỏng của cán bộ Ngân hàng Thế giới bằng mô hình MANAGE.",
+    "Giá trị ước lượng": "Chính sách giảm nhẹ hiện hành không tính lợi ích gia tăng: 2030 ≈ -0.02%; 2040 ≈ -1.55%; 2050 ≈ -2.76%. Chính sách giảm nhẹ hiện hành với lợi ích gia tăng: 2030 ≈ 1.81%; 2040 ≈ 1.22%; 2050 ≈ 1.39%. Kịch bản khử thải các-bon tăng tốc (ADS): 2030 ≈ 2.27%; 2040 ≈ 2.82%; 2050 ≈ 4.41%."
+   },
+   {
+    "kind": "chart",
+    "label": "Hình 2.8",
+    "title": "Giảm tỷ lệ phát thải các-bon để đạt phát thải ròng bằng không",
+    "region": "middle",
+    "content": "Biểu đồ đường thể hiện xu hướng giảm tỷ lệ phát thải (GHG trên GDP, Kg CO2e/USD) từ năm 2020 đến 2060 cho các quốc gia/khu vực. Trục tung là GHG trên GDP (Kg CO2e/USD, ngang giá sức mua). Trục hoành là thời gian từ 2020 đến 2060. Các chuỗi dữ liệu gồm: Trung Quốc, In-đô-nê-xi-a, Nhật Bản, Phi-líp-pin, Thổ Nhĩ Kỳ, Hoa Kỳ, Việt Nam, EU27. Tất cả các đường đều có xu hướng giảm dần về 0 tại năm 2060.\n\nGiá trị ước lượng (điểm đầu 2020 - điểm cuối 2060):\n- Trung Quốc: 2020 ≈ 0.55; 2060 = 0\n- In-đô-nê-xi-a: 2020 ≈ 0.31; 2060 = 0\n- Nhật Bản: 2020 ≈ 0.20; 2060 = 0\n- Phi-líp-pin: 2020 ≈ 0.25; 2060 = 0\n- Thổ Nhĩ Kỳ: 2020 ≈ 0.26; 2060 = 0\n- Hoa Kỳ: 2020 ≈ 0.25; 2060 = 0\n- Việt Nam: 2020 ≈ 0.43; 2060 = 0\n- EU27: 2020 ≈ 0.15; 2060 = 0\nNguồn: Các chỉ số của Ngân hàng Thế giới.",
+    "Giá trị ước lượng": "Trung Quốc: 2020 ≈ 0.55; 2060 = 0. In-đô-nê-xi-a: 2020 ≈ 0.31; 2060 = 0. Nhật Bản: 2020 ≈ 0.20; 2060 = 0. Phi-líp-pin: 2020 ≈ 0.25; 2060 = 0. Thổ Nhĩ Kỳ: 2020 ≈ 0.26; 2060 = 0. Hoa Kỳ: 2020 ≈ 0.25; 2060 = 0. Việt Nam: 2020 ≈ 0.43; 2060 = 0. EU27: 2020 ≈ 0.15; 2060 = 0."
+   }
+  ],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1594,
+   "output_tokens": 1623,
+   "thinking_tokens": 107
+  },
+  "latency_s": 6.521
+ },
+ "72": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1594,
+   "output_tokens": 47,
+   "thinking_tokens": 119
+  },
+  "latency_s": 12.093
+ },
+ "73": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1594,
+   "output_tokens": 58,
+   "thinking_tokens": 121
+  },
+  "latency_s": 2.57
+ },
+ "74": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1594,
+   "output_tokens": 69,
+   "thinking_tokens": 119
+  },
+  "latency_s": 2.103
+ },
+ "75": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1594,
+   "output_tokens": 43,
+   "thinking_tokens": 119
+  },
+  "latency_s": 1.788
+ },
+ "76": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [
+   {
+    "kind": "chart",
+    "label": "Hình 2.9",
+    "title": "Mức giảm phát thải khí nhà kính",
+    "region": "top-left",
+    "content": "Biểu đồ cột nhóm thể hiện mức giảm phát thải khí nhà kính (% chênh lệch so kịch bản cơ sở) tại các năm 2030 và 2050. Trục tung là % giảm phát thải (từ -100% đến 0%). Các chuỗi dữ liệu bao gồm: 'Chính sách giảm nhẹ hiện hành' (màu xanh dương), 'K/b khử thải các-bon tăng tốc (ADS)' (màu xám), và 'Chỉ tiêu NDC / CLQG-BĐKH' (đường kẻ ngang màu cam). \n\nGiá trị ước lượng:\n- Chính sách giảm nhẹ hiện hành: 2030 ≈ -38%; 2050 ≈ -55%\n- K/b khử thải các-bon tăng tốc (ADS): 2030 ≈ -44%; 2050 ≈ -74%\n- Chỉ tiêu NDC / CLQG-BĐKH: 2030 ≈ -38%; 2050 ≈ -74% (đường kẻ ngang nằm ở mức này)\nNguồn: Mô phỏng của cán bộ Ngân hàng Thế giới bằng mô hình MANAGE."
+   },
+   {
+    "kind": "chart",
+    "label": "Hình 2.10",
+    "title": "Tác động của các chính sách giảm nhẹ hiện tại và khử thải các-bon tăng tốc đối với GDP theo giá so sánh",
+    "region": "top-right",
+    "content": "Biểu đồ cột nhóm thể hiện tác động đối với GDP (% chênh lệch so kịch bản cơ sở) tại các năm 2030, 2040, 2050. Trục tung là % thay đổi GDP (từ -4% đến 4%). Các chuỗi dữ liệu: 'Chính sách giảm nhẹ hiện hành không tính lợi ích gia tăng' (xanh dương), 'Chính sách giảm nhẹ hiện hành với lợi ích gia tăng' (xanh lá), 'Kịch bản khử thải các-bon tăng tốc (ADS)' (xám).\n\nGiá trị ước lượng:\n- Chính sách giảm nhẹ hiện hành không tính lợi ích gia tăng: 2030 ≈ -0,02%; 2040 ≈ -1,55%; 2050 ≈ -2,76%\n- Chính sách giảm nhẹ hiện hành với lợi ích gia tăng: 2030 ≈ 1,81%; 2040 ≈ 1,22%; 2050 ≈ 1,39%\n- Kịch bản khử thải các-bon tăng tốc (ADS): 2030 ≈ 2,27%; 2040 ≈ 2,82%; 2050 ≈ 4,41%\nNguồn: Mô phỏng của cán bộ Ngân hàng Thế giới bằng mô hình MANAGE."
+   },
+   {
+    "kind": "chart",
+    "label": "Hình 2.11",
+    "title": "Phát thải khí nhà kính theo lĩnh vực trong các kịch bản cơ sở và kịch bản khử thải các-bon tăng tốc (ADS) (triệu tấn CO2 tương đương)",
+    "region": "bottom",
+    "content": "Biểu đồ cột chồng thể hiện phát thải khí nhà kính theo lĩnh vực từ 2030 đến 2050, chia làm hai phần: A. Kịch bản cơ sở và B. Kịch bản khử thải các-bon tăng tốc (ADS). Trục tung là triệu tấn CO2 tương đương (từ -200 đến 1400). Trục hoành là các năm từ 2030 đến 2050. Các lĩnh vực bao gồm: Giao thông vận tải, Nông nghiệp, LUCF, Rác thải, Điện, Chế tạo máy, Các quy trình công nghiệp, Khí thải rò rỉ. \n\nMô tả xu hướng:\n- A. Kịch bản cơ sở: Tổng lượng phát thải có xu hướng tăng dần qua các năm, đạt đỉnh vào năm 2050.\n- B. Kịch bản khử thải các-bon tăng tốc (ADS): Tổng lượng phát thải có xu hướng giảm dần qua các năm.\nNguồn: Mô phỏng của cán bộ Ngân hàng Thế giới bằng mô hình MANAGE. Ghi chú: Giá trị khí thải các-bon năm 2030 khác nhau theo hai kịch bản vì mô phỏng bằng mô hình bắt đầu vào 2019 còn các chính sách ADS có tác động đến khí thải vào năm 2030."
+   }
+  ],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1594,
+   "output_tokens": 1102,
+   "thinking_tokens": 104
+  },
+  "latency_s": 4.781
+ },
+ "77": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1594,
+   "output_tokens": 54,
+   "thinking_tokens": 119
+  },
+  "latency_s": 3.169
+ },
+ "78": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [
+   {
+    "kind": "table",
+    "label": "Bảng 2.2",
+    "title": "Thuế bảo vệ môi trường hiện nay (Thuế BVMT & thuế BVMT+) và tương đương qua định giá các-bon",
+    "region": "top",
+    "content": "| Năng lượng nhiên liệu hóa thạch | Đơn vị | Tỷ lệ tiêu dùng cuối (%) | Thuế suất thuế BVMT hiện nay, VND | Thuế suất thuế BVMT tối đa (EPT+), VND | Thuế BVMT được cải biên thành thuế các-bon 7,5 US$/tấn, VND |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n| Than | tấn | 51 | 15.000–30.000 | 30.000–50.000 | 500.000 |\n| Dầu diesel | lít | 11 | 1.000 | 2.000 | 1.000 |\n| Khí tự nhiên | lít | 9 | Không chịu thuế | Không chịu thuế | 10.000 |\n| Xăng | lít | 8 | 2.000 | 4.000 | 2.000 |\n| LPG | GJ | 2 | Không chịu thuế | Không chịu thuế | 500 |\n| Dầu hỏa | lít | 1 | 1.000 | 3.000 | 1.000 |\n| Các sản phẩm dầu khác | lít | 1 | 600 | 2.000 | 600 |\n\n*Nguồn: Tính toán của cán bộ Ngân hàng Thế giới.*\n*Ghi chú: EPT+ tương ứng các mức thuế suất tối đa cho phép qua Luật thuế BVMT năm 2010. Nguồn: Quốc hội.*"
+   },
+   {
+    "kind": "diagram",
+    "label": "Hộp 2.1",
+    "title": "Các công cụ tài khóa hỗ trợ cho nỗ lực giảm nhẹ",
+    "region": "bottom",
+    "content": "Nội dung văn bản trong hộp: CPAT là mô hình cân bằng một phần được thiết kế để đánh giá tác động khí hậu - vĩ mô cấp độ thứ nhất của các cách thuế khí hậu đối với giảm nhẹ, ô nhiễm không khí, giao thông và tác động phân phối. CPAT có thể được dùng để đánh giá phân tích cấp độ thứ nhất về lợi ích tiềm năng của cải cách giá các-bon trên nhiều khía cạnh quan trọng, bao gồm không chỉ tiềm năng giảm phát thải và các tổng mức kinh tế vĩ mô, mà cả ô nhiễm không khí, thương vong và ùn tắc giao thông đường bộ, và tác động phân phối. Mô hình cho phép lượng hóa nhanh tác động của các chính sách giảm nhẹ khí hậu, bao gồm đối với nhu cầu năng lượng, giá cả, lượng khí thải, số thu, phúc lợi, và GDP cùng các chỉ tiêu khác.\n\nMức khí thải theo kịch bản cơ sở được xác định qua cân nhắc quỹ đạo khí thải trước đây, hệ thống thuế hiện nay (bao gồm thuế BVMT và trợ giá nhiên liệu hóa thạch), và diễn biến phát thải khí nhà kính khi quốc gia phát triển lên. Kịch bản cơ sở theo mô hình tuân thủ tính toán kịch bản cơ sở có thể so sánh sử dụng cho mọi quốc gia trong CPAT nhưng khác với kịch bản cơ sở được Chính phủ Việt Nam xác định năm 2020, trong đó dự báo lượng khí thải lớn hơn đáng kể ở mức 928 triệu tấn CO2 vào năm 2030 (Việt Nam CCDR, 2022)."
+   }
+  ],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1594,
+   "output_tokens": 863,
+   "thinking_tokens": 122
+  },
+  "latency_s": 4.017
+ },
+ "79": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [
+   {
+    "kind": "table",
+    "label": "Bảng 2.1.1",
+    "title": "Năm kịch bản cụ thể cho Việt Nam trong phân tích CPAT",
+    "region": "middle",
+    "content": "| Kịch bản | Mô tả |\n| :--- | :--- |\n| Chính sách thông thường (kịch bản cơ sở thuế BVMT) | Hệ thống hỗ trợ và thuế hiện tại, bao gồm thuế BTMT, không có thuế các-bon, và lượng khí thải đi theo quỹ đạo trước đó. |\n| Phương án 1 (Cải cách thuế BVMT ‘thuế BVMT+’) | Tăng thuế suất thuế BVMT lên mức tối thiểu cho phép theo Luật thuế BVMT năm 2010 cho mọi nhiên liệu hóa thạch liên quan (thuế các-bon hiệu dụng mình quân bằng 7,5 US$/tấn CO2 tương đương). <br><br> Kịch bản này nhằm tìm hiểu có thể đạt được đến đâu trong phạm vi hệ thống tài khóa hiện tại. |\n| Phương án 2 (thuế các-bon) | Kịch bản chính sách cơ sở + thuế các-bon cùng thuế suất ban đầu như Phương án 1 (7,5 US$/tấn CO2 tương đương năm 2024) và tăng dần lên 15 US$/tấn CO2 tương đương vào năm 2030. <br><br> Kịch bản này nhằm tìm hiểu mức độ thuế các-bon hợp lý có thể đạt được đến đâu về giảm phát thải khí nhà kính. |\n| Phương án 3 (giảm giá điện) | Kịch bản chính sách cơ sở + ban hành thuế các-bon tập trung vào ngành điện, với cùng các mức thuế suất và mức tăng dần như Phương án 2. Ngoài ra, phương án này còn quy định về giảm giá điện khi sử dụng năng lượng tái tạo sản xuất điện. <br><br> Kịch bản này nhằm tìm hiểu mức giảm phát thải khí nhà kính và chuyển đổi năng lượng có thể đạt đến đâu trong ngành điện bằng cách sử dụng cách tiếp cận giảm giá điện thay cho thuế các-bon. |\n| Phương án 4 (kịch bản kết hợp) | Kết hợp Kịch bản chính sách cơ sở + thuế các-bon và giảm giá điện (các Phương án 2 và 3) tương ứng với thuế các-bon hiệu dụng bắt đầu ở mức 15 US$/tấn CO2 tương đương vào năm 2024 và tăng dần lên đến 30 US$/tấn CO2 tương đương vào năm 2030. <br><br> Kịch bản này nhằm tìm hiểu mức giảm phát thải khí nhà kính có thể đạt đến đâu qua cách tiếp cận kết hợp. |\n| Option 5 (kịch bản tham vọng) | Kịch bản chính sách cơ sở + ban hành thuế các-bon và giảm giá điện ở mức giá các-bon cao hơn (50 US$/tấn CO2 tương đương năm 2024 tăng lên đến 90 US$/tấn CO2 tương đương vào năm 2030) phù hợp với các khuyến nghị quốc tế về mức giá các-bon (Stiglitz và đồng sự 2017, báo cáo CCDR cho Việt Nam). <br><br> Kịch bản này nhằm tìm hiểu mức giảm phát thải khí nhà kính có thể đạt đến đâu qua đề xuất tham vọng về thuế các-bon. |"
+   }
+  ],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1594,
+   "output_tokens": 770,
+   "thinking_tokens": 104
+  },
+  "latency_s": 3.987
+ },
+ "80": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1594,
+   "output_tokens": 64,
+   "thinking_tokens": 120
+  },
+  "latency_s": 2.207
+ },
+ "81": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [
+   {
+    "kind": "chart",
+    "label": "Hình 2.12a",
+    "title": "Giá các-bon (US$/tấn CO2 tương đương) theo kịch bản chính sách",
+    "region": "top-left",
+    "content": "Biểu đồ đường. Trục tung: Triệu tấn CO2 tương đương (thang đo từ 300 đến 700). Trục hoành: Năm từ 2019 đến 2030. Chú giải: Kịch bản cơ sở (đen), Thuế BVMT+ (đỏ), Giảm giá điện (xanh dương), Chiến lược quốc gia về biến đổi khí hậu (2030) (xanh lá đứt nét), Lộ trình phát thải ròng bằng không minh họa (2050) (xanh dương đứt nét), Thuế các-bon (xanh lá), Kết hợp (tím), Tham vọng (cam). Nguồn: Mô phỏng của cán bộ Ngân hàng Thế giới bằng CPAT.\n\nGiá trị ước lượng:\n- Kịch bản cơ sở: 2019 ≈ 500; 2030 ≈ 640\n- Thuế BVMT+: 2019 ≈ 500; 2030 ≈ 630\n- Giảm giá điện: 2019 ≈ 500; 2024 ≈ 520; 2030 ≈ 620\n- Chiến lược quốc gia (2030): 2019-2030 ≈ 630 (đường ngang)\n- Lộ trình phát thải ròng bằng không (2050): 2019 ≈ 500; 2024 ≈ 480; 2030 ≈ 380\n- Thuế các-bon: 2019 ≈ 500; 2030 ≈ 630\n- Kết hợp: 2019 ≈ 500; 2030 ≈ 550\n- Tham vọng: 2019 ≈ 500; 2024 ≈ 480; 2030 ≈ 480 (đường ngang từ 2024)"
+   },
+   {
+    "kind": "chart",
+    "label": "Hình 2.12b",
+    "title": "Thu ngân sách tăng thêm (% GDP)",
+    "region": "top-right",
+    "content": "Biểu đồ đường. Trục tung: % GDP (thang đo từ 0 đến 3.5). Trục hoành: Năm từ 2023 đến 2030. Chú giải: Thuế BVMT+ (đỏ), Kết hợp (tím), Thuế các-bon (xanh lá), Tham vọng (cam), Giảm giá điện (xanh dương). Nguồn: Mô phỏng của cán bộ Ngân hàng Thế giới bằng CPAT.\n\nGiá trị ước lượng:\n- Thuế BVMT+: 2023 = 0; 2024 ≈ 0.3; 2030 ≈ 0.3\n- Kết hợp: 2023 = 0; 2024 ≈ 0.5; 2030 ≈ 1.2\n- Thuế các-bon: 2023 = 0; 2024 ≈ 0.4; 2030 ≈ 1.1\n- Tham vọng: 2023 = 0; 2024 ≈ 2.2; 2030 ≈ 2.8\n- Giảm giá điện: 2023 = 0; 2030 ≈ 0"
+   },
+   {
+    "kind": "chart",
+    "label": "Hình 2.13",
+    "title": "Tỷ trọng của tiền điện trong ngân sách chi tiêu theo nhóm hộ gia đình",
+    "region": "bottom",
+    "content": "Biểu đồ cột chồng. Trục tung: % (thang đo từ 0 đến 15). Trục hoành: Nhóm hộ gia đình từ Nghèo nhất đến Giàu nhất (1-10). Chú giải: Củi gỗ, Than củi, Nhiên liệu sinh khối, LPG, Dầu hỏa, Dải diesel, Xăng, Dầu, Điện. Nguồn: Mô phỏng của cán bộ Ngân hàng Thế giới dựa trên khảo sát mức sống hộ gia đình (VHLSS) 2018.\n\nGiá trị ước lượng (tổng chiều cao cột):\n- Nghèo nhất: ≈ 11.5\n- Nhóm 2: ≈ 12\n- Nhóm 3: ≈ 11\n- Nhóm 4: ≈ 10.5\n- Nhóm 5: ≈ 10.5\n- Nhóm 6: ≈ 10\n- Nhóm 7: ≈ 9.5\n- Nhóm 8: ≈ 8.5\n- Nhóm 9: ≈ 9\n- Giàu nhất: ≈ 8"
+   }
+  ],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1594,
+   "output_tokens": 1213,
+   "thinking_tokens": 113
+  },
+  "latency_s": 4.217
+ },
+ "82": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [
+   {
+    "kind": "table",
+    "label": "Bảng 2.3",
+    "title": "Tác động của các chính sách thuế các-bon đến tình trạng nghèo và bất bình đẳng",
+    "region": "middle",
+    "content": "| | Tác động đến tình trạng bất bình đẳng (mức đóng góp biên) | Tác động đến tình trạng nghèo (mức đóng góp biên) Điểm %, trừ khi có ghi chú khác |\n| :--- | :---: | :---: | :---: | :---: | :---: |\n| | Gini | 3,65 US$ | Khoảng cách đến 3,65 US$ | 6,85 US$ | Khoảng cách đến 6,85 US$ |\n| Ở mức thu nhập khả dụng | 35,7 | 5.3 | 1.4 | 22.2 | 6.9 |\n| Thuế BVMT + | -0,03 | -0.1 | 0.0 | -0.3 | -0.1 |\n| Thuế các-bon | -0,03 | -0.1 | 0.0 | -0.5 | -0.2 |\n| Giảm giá điện | 0,00 | 0.0 | 0.0 | -0.1 | 0.0 |\n| Kết hợp | -0,03 | -0.1 | -0.1 | -0.6 | -0.2 |\n| Tham vọng | -0,09 | -0.5 | -0.2 | -1.7 | -0.6 |\n\nNguồn: Mô phỏng của cán bộ Ngân hàng Thế giới trên CPAT và dựa vào VHLSS 2018.\nGhi chú: Dấu âm nghĩa là tăng tỷ lệ nghèo."
+   }
+  ],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1594,
+   "output_tokens": 445,
+   "thinking_tokens": 119
+  },
+  "latency_s": 3.407
+ },
+ "83": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [
+   {
+    "kind": "chart",
+    "label": "Hình 2.14",
+    "title": "Việt Nam là quốc gia duy nhất ở ĐÁ-TBD tăng tỷ lệ phát thải các-bon trong cơ cấu năng lượng và tăng tỷ lệ thâm dụng năng lượng so GDP trong thập kỷ qua",
+    "region": "bottom",
+    "content": "Biểu đồ kết hợp cột và đường thể hiện sự thay đổi về tỷ lệ thâm dụng năng lượng và tỷ lệ thâm thải so GDP qua các giai đoạn 1990-2000, 2000-2010, 2010-2020 cho các quốc gia: Trung Quốc, In-đô-nê-xi-a, Ma-lay-xia, Phi-lip-pin, Thái Lan, Việt Nam, Hoa Kỳ.\n\nChú giải:\n- Cột màu xanh dương: Log thay đổi về tỷ lệ thâm dụng năng lượng của GDP (A)\n- Cột màu vàng cam: Log thay đổi về hệ số phát thải của năng lượng (B)\n- Đường nét đứt màu xanh lá: Log thay đổi về tỷ lệ thâm thải của GDP (=A + B)\n\nTrục tung: Giá trị từ -0.600 đến 0.600.\n\nGiá trị ước lượng (đường nét đứt xanh lá - tỷ lệ thâm thải của GDP):\n- Trung Quốc: 1990-2000 ≈ -0.1; 2000-2010 ≈ 0.2; 2010-2020 ≈ -0.4\n- In-đô-nê-xi-a: 1990-2000 ≈ 0.1; 2000-2010 ≈ -0.1; 2010-2020 ≈ -0.1\n- Ma-lay-xia: 1990-2000 ≈ 0.1; 2000-2010 ≈ 0.0; 2010-2020 ≈ 0.0\n- Phi-lip-pin: 1990-2000 ≈ 0.2; 2000-2010 ≈ -0.4; 2010-2020 ≈ 0.0\n- Thái Lan: 1990-2000 ≈ 0.3; 2000-2010 ≈ -0.1; 2010-2020 ≈ -0.1\n- Việt Nam: 1990-2000 ≈ 0.2; 2000-2010 ≈ 0.3; 2010-2020 ≈ 0.4\n- Hoa Kỳ: 1990-2000 ≈ -0.2; 2000-2010 ≈ -0.3; 2010-2020 ≈ -0.4\n\nNguồn: Tính toán của cán bộ Ngân hàng Thế giới."
+   }
+  ],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1594,
+   "output_tokens": 742,
+   "thinking_tokens": 107
+  },
+  "latency_s": 3.91
+ },
+ "84": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1594,
+   "output_tokens": 5,
+   "thinking_tokens": 119
+  },
+  "latency_s": 2.968
+ },
+ "85": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [
+   {
+    "kind": "chart",
+    "label": "Hình 2.15",
+    "title": "Mô hình tăng trưởng của Việt Nam phụ thuộc vào xuất khẩu có cường độ các-bon cao sang các nước OECD",
+    "region": "middle",
+    "content": "Hình 2.15 bao gồm hai biểu đồ con:\n\na) Lượng khí thải CO2 liên quan đến xuất khẩu ròng, tính theo % sản lượng:\n- Loại: Biểu đồ đường (line chart).\n- Trục tung: % (từ -60% đến 40%).\n- Trục hoành: Năm (1990 đến 2020).\n- Các chuỗi dữ liệu: Trung Quốc, Hàn Quốc, Việt Nam (đường đỏ đậm, nổi bật nhất), In-đô-nê-xia, Ma-lay-xia, Phi-líp-pin, Mê-hi-cô, Thái Lan, Thổ Nhĩ Kỳ.\n- Xu hướng: Việt Nam có xu hướng tăng dần từ mức âm những năm 1990 lên mức dương và duy trì ở mức cao (khoảng 20%) từ sau năm 2000 đến 2020.\n- Nguồn: Tính toán của cán bộ Ngân hàng Thế giới.\n\nGiá trị ước lượng (Hình 2.15a - Việt Nam): 1990 ≈ -10%; 2000 ≈ 15%; 2010 ≈ 15%; 2020 ≈ 25%.\n\nb) Xuất khẩu sang các nước OECD năm 2024:\n- Loại: Biểu đồ cột (bar chart).\n- Trục tung trái: Xuất khẩu (Tỷ USD) (0 đến 140).\n- Trục tung phải: Tỷ lệ trên tổng xuất khẩu (%) (0 đến 35).\n- Trục hoành: Các quốc gia (Hoa Kỳ, Hàn Quốc, Nhật Bản, Đức, Hà Lan, Ca-na-đa, Mê-hi-cô, Anh Quốc, Ớt-trây-lia, I-ta-lia, Pháp).\n- Nhãn số liệu trên cột: Hoa Kỳ (29.4), Hàn Quốc (6.3), Nhật Bản (6.1), Đức (2.0), Hà Lan (3.2), Ca-na-đa (1.6), Mê-hi-cô (1.3), Anh Quốc (1.9), Ớt-trây-lia (1.6), I-ta-lia (1.2), Pháp (0.8).\n- Nguồn: OECD. Ghi chú: Giá trị thương mại bằng tỷ US$, biểu thị bằng tỷ lệ so tổng xuất khẩu của Việt Nam.\n\nGiá trị ước lượng (Hình 2.15b - Cột): Hoa Kỳ ≈ 120 tỷ USD; Hàn Quốc ≈ 25 tỷ USD; Nhật Bản ≈ 25 tỷ USD; các nước còn lại thấp hơn 15 tỷ USD."
+   },
+   {
+    "kind": "chart",
+    "label": "Hình 2.16",
+    "title": "Tỷ lệ GDP toàn cầu và khí thải nằm trong các cam kết phát thải ròng bằng không",
+    "region": "bottom",
+    "content": "Loại: Biểu đồ kết hợp (cột và đường).\n- Trục tung trái: Tỷ tấn (0 đến 15).\n- Trục tung phải: % (0 đến 100).\n- Trục hoành: Thời gian (5/31/2017 đến 5/31/2021).\n- Các chuỗi dữ liệu:\n  + Khí thải nhà kính của các cam kết mới (cột màu xanh dương): Thấp từ 2017-2020, tăng vọt vào giữa 2020.\n  + Tỷ lệ khí thải nhà kính cộng dồn trong đó (đường màu xanh lá): Tăng dần, đạt khoảng 80% vào 2021.\n  + Tỷ lệ GDP cộng dồn trong đó (đường màu cam): Tăng dần, đạt khoảng 80% vào 2021.\n- Nguồn: Net Zero Tracker (https://zerotracker.net/).\n\nGiá trị ước lượng:\n- Tỷ lệ khí thải nhà kính cộng dồn: 2017 ≈ 0%; 2019 ≈ 10%; 2020 ≈ 40%; 2021 ≈ 80%.\n- Tỷ lệ GDP cộng dồn: 2017 ≈ 0%; 2019 ≈ 10%; 2020 ≈ 40%; 2021 ≈ 80%."
+   }
+  ],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1594,
+   "output_tokens": 1102,
+   "thinking_tokens": 125
+  },
+  "latency_s": 4.332
+ },
+ "86": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [
+   {
+    "kind": "chart",
+    "label": "Hình 2.17",
+    "title": "Suy giảm nhu cầu của các quốc gia OECD đối với hàng xuất khẩu của Việt Nam tác động đến các liên kết chuỗi",
+    "region": "top",
+    "content": "Biểu đồ cột nhóm (clustered bar chart) thể hiện các lĩnh vực có tổn thất GDP lớn nhất theo kịch bản tổn thất 30% xuất khẩu sang các quốc gia OECD (đơn vị: % tổng GDP và % GDP ngành). Trục hoành liệt kê các lĩnh vực: Chế biến chế tạo, Nông lâm ngư nghiệp, Buôn bán và bán lẻ, Điện và khí, Hành nghề kỹ thuật, chuyên môn và khoa học, Hoạt động tài chính và bảo hiểm, Khai khoáng mỏ và lộ thiên, Hoạt động bất động sản, Xây dựng, Vận tải và kho bãi, Dịch vụ lưu trú và ăn uống. Chú giải: Màu xanh dương nhạt là 'Thay đổi GDP (% tổng GDP)', màu xanh lá cây là 'Thay đổi GDP (% GDP ngành)'. Nguồn: Mô phỏng của cán bộ Ngân hàng Thế giới dựa trên mô hình MINDSET. Ghi chú: Kịch bản là giảm 30% xuất khẩu sang OECD.\n\nGiá trị ước lượng:\n- Chế biến chế tạo: Thay đổi GDP (% tổng GDP) ≈ -3.0; Thay đổi GDP (% GDP ngành) ≈ -11.0\n- Nông lâm ngư nghiệp: Thay đổi GDP (% tổng GDP) ≈ -0.8; Thay đổi GDP (% GDP ngành) ≈ -6.6\n- Buôn bán và bán lẻ: Thay đổi GDP (% tổng GDP) ≈ -0.7; Thay đổi GDP (% GDP ngành) ≈ -7.3\n- Điện và khí: Thay đổi GDP (% tổng GDP) ≈ -0.2; Thay đổi GDP (% GDP ngành) ≈ -6.0\n- Hành nghề kỹ thuật, chuyên môn và khoa học: Thay đổi GDP (% tổng GDP) ≈ -0.2; Thay đổi GDP (% GDP ngành) ≈ -8.3\n- Hoạt động tài chính và bảo hiểm: Thay đổi GDP (% tổng GDP) ≈ -0.2; Thay đổi GDP (% GDP ngành) ≈ -5.9\n- Khai khoáng mỏ và lộ thiên: Thay đổi GDP (% tổng GDP) ≈ -0.2; Thay đổi GDP (% GDP ngành) ≈ -3.2\n- Hoạt động bất động sản: Thay đổi GDP (% tổng GDP) ≈ -0.2; Thay đổi GDP (% GDP ngành) ≈ -4.7\n- Xây dựng: Thay đổi GDP (% tổng GDP) ≈ -0.2; Thay đổi GDP (% GDP ngành) ≈ -3.0\n- Vận tải và kho bãi: Thay đổi GDP (% tổng GDP) ≈ -0.2; Thay đổi GDP (% GDP ngành) ≈ -6.7\n- Dịch vụ lưu trú và ăn uống: Thay đổi GDP (% tổng GDP) ≈ -0.1; Thay đổi GDP (% GDP ngành) ≈ -3.7"
+   }
+  ],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1594,
+   "output_tokens": 702,
+   "thinking_tokens": 113
+  },
+  "latency_s": 3.793
+ },
+ "87": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [
+   {
+    "kind": "chart",
+    "label": "Hình 2.18a",
+    "title": "Đầu tư qua biên giới về năng lượng tái tạo giai đoạn 2016–20 theo tỷ lệ % GDP (10=đầu tư cao nhất trên toàn cầu)",
+    "region": "middle-left",
+    "content": "Biểu đồ thanh ngang so sánh tỷ lệ đầu tư năng lượng tái tạo theo GDP của các quốc gia. Trục hoành từ 0 đến 10. Các quốc gia xếp hạng từ trên xuống dưới: Việt Nam (cao nhất, ≈ 8.5), Sin-ga-po (≈ 8), In-đô-nê-xia (≈ 7.5), Trung Quốc (≈ 7.5), Thái Lan (≈ 6.5), Phi-líp-pin (≈ 5), Ma-lay-xia (≈ 1). Nguồn: IRENA, MTI Technology Review. Trình bày tổng đầu tư công cho năng lượng tái tạo tiếp nhận và cung cấp giai đoạn 2016–20 theo tỷ lệ % GDP.",
+    "Giá trị ước lượng": "Việt Nam ≈ 8.5; Sin-ga-po ≈ 8; In-đô-nê-xia ≈ 7.5; Trung Quốc ≈ 7.5; Thái Lan ≈ 6.5; Phi-líp-pin ≈ 5; Ma-lay-xia ≈ 1"
+   },
+   {
+    "kind": "chart",
+    "label": "Hình 2.18b",
+    "title": "Xuất khẩu theo chuỗi giá trị (triệu US$)",
+    "region": "middle-right",
+    "content": "Biểu đồ đường thể hiện giá trị xuất khẩu (triệu US$) từ năm 2010 đến 2022 cho 3 nhóm: Xe điện (màu xanh đậm), Mặt trời (màu vàng), Gió (màu xanh nhạt). Trục tung từ 0 đến 20000. Xu hướng: Nhóm Mặt trời tăng trưởng mạnh nhất, đặc biệt từ 2016 đến 2022. Nhóm Gió tăng trưởng ổn định. Nhóm Xe điện đi ngang. Nguồn: UNCOMTRADE, phân tích của Ngân hàng Thế giới. Các chuỗi giá trị được xác định qua Rosenow và Mealy (2024).",
+    "Giá trị ước lượng": "Xe điện: 2010 ≈ 1000; 2022 ≈ 6000. Mặt trời: 2010 ≈ 1000; 2016 ≈ 4000; 2022 ≈ 17000. Gió: 2010 ≈ 1000; 2016 ≈ 3000; 2021 ≈ 10000; 2022 ≈ 7000"
+   }
+  ],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1594,
+   "output_tokens": 691,
+   "thinking_tokens": 125
+  },
+  "latency_s": 5.092
+ },
+ "88": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [
+   {
+    "kind": "chart",
+    "label": "Hình 2.19",
+    "title": "Tốc độ tăng trưởng nhanh của công suất điện gió và mặt trời (Hình a) của Việt Nam phản ánh chi phí giảm xuống (Hình b)",
+    "region": "middle",
+    "content": "Hình 2.19 bao gồm hai biểu đồ con:\n\na) Tỷ lệ công suất sản xuất điện gió và mặt trời (%):\n- Loại: Biểu đồ đường.\n- Trục tung: 0.0% đến 12.0%.\n- Trục hoành: 2010 đến 2022.\n- Chú giải: Đường màu vàng là 'Tỷ lệ điện mặt trời', đường màu xanh dương là 'Tỷ lệ điện gió'.\n- Xu hướng: Cả hai đường đều đi ngang gần mức 0% từ 2010 đến 2017. Từ 2018, tỷ lệ điện mặt trời tăng vọt, đạt đỉnh khoảng 2021 rồi giảm nhẹ vào 2022. Tỷ lệ điện gió bắt đầu tăng từ 2020 và tăng mạnh vào 2022.\n- Giá trị ước lượng:\n  + Tỷ lệ điện mặt trời: 2010-2017 ≈ 0%; 2018 ≈ 1%; 2019 ≈ 3%; 2020 ≈ 6%; 2021 ≈ 11,5%; 2022 ≈ 10,5%.\n  + Tỷ lệ điện gió: 2010-2019 ≈ 0%; 2020 ≈ 0,5%; 2021 ≈ 1%; 2022 ≈ 3,5%.\n\nb) Chi phí điện quy dẫn (LCOE) của dự án điện mặt trời - cộng - pin so với nhà máy điện than và khí mới ở Việt Nam ($/MWh, 2022 giá so sánh):\n- Loại: Biểu đồ đường kết hợp vùng (area chart).\n- Trục tung: 0 đến 250 ($/MWh).\n- Trục hoành: 2023 đến 2050.\n- Chú giải: Các đường nét đứt biểu thị các mức công suất (100%, 50%, 25%). Vùng màu xám đậm là 'Than', vùng màu xám nhạt là 'CCGT'. Các đường màu vàng/hồng/tím biểu thị các kịch bản chi phí điện mặt trời + pin.\n- Xu hướng: Chi phí điện mặt trời + pin giảm dần theo thời gian từ 2023 đến 2050. Các đường chi phí này cắt qua các mức chi phí của Than và CCGT.\n- Giá trị ước lượng:\n  + Chi phí điện mặt trời + pin (các đường màu): 2023 bắt đầu từ khoảng 100-230 $/MWh; 2050 giảm xuống khoảng 30-60 $/MWh.\n  + Than: Nằm ổn định ở mức khoảng 60-80 $/MWh.\n  + CCGT: Nằm ổn định ở mức khoảng 80-100 $/MWh.\n\nNguồn: Hình a) IRENA. Hình b) Bloomberg NEF 2024.\nGhi chú: Chi phí điện quy dẫn có phạm vi cho lưu trữ pin và mặt trời quy mô từ 25% đến 100% công suất mặt trời. Không tính chi phí tăng thêm có thể phát sinh do dự phòng chi phí thiết bị địa phương. CCGT là tua-bin khí chu kỳ kết hợp."
+   }
+  ],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1594,
+   "output_tokens": 854,
+   "thinking_tokens": 119
+  },
+  "latency_s": 7.077
+ },
+ "89": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1594,
+   "output_tokens": 47,
+   "thinking_tokens": 119
+  },
+  "latency_s": 3.113
+ },
+ "90": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [
+   {
+    "kind": "table",
+    "label": "Bảng 2.4",
+    "title": "Khuyến nghị cho giai đoạn 2026–2030",
+    "region": "middle",
+    "content": "| Khuyến nghị chung | Đồng lợi ích kinh tế | Đồng lợi ích thích ứng |\n| :--- | :--- | :--- |\n| **Triển khai định giá các-bon:** Hệ thống giao dịch phát thải (ETS) và thuế các-bon bổ sung nhằm đẩy nhanh chuyển đổi sang các công nghệ giảm thải các-bon | • Thí điểm ETS theo kế hoạch cho ba lĩnh vực chính (điện, thép và xi-măng) theo thời hạn vào năm 2025.<br>• Ban hành thuế các-bon ở mức vừa phải (7,5-15 US$/tấn để bổ sung cho phạm vi ETS, tránh đánh thuế hai lần:<br>- Cải cách thuế TTĐB nhiên liệu, thuế BVMT để phản ánh hàm lượng các-bon, bắt đầu với than.<br>- Bổ sung bằng hệ thống giảm giá để khuyến khích áp dụng công nghệ sạch hơn trong các lĩnh vực gây ô nhiễm như điện. | Cao | Thấp |\n| **Ban hành trợ giá xanh để hỗ trợ chuyển đổi sang các công nghệ sạch hơn** | • Cho phép hoàn thuế, giảm thuế GTGT, hoặc xóa nghĩa vụ đầu tư cho các sản phẩm xanh, như máy móc tiết kiệm năng lượng, để kích cầu và đầu tư của khu vực tư nhân. | Trung bình | Thấp |\n| **Khai thác các thị trường các-bon tự nguyện để thu hút đầu tư khi hậu của khu vực tư nhân** | • Song song với phát triển hệ thống giao dịch khí thải (ETS) chính thức, hỗ trợ hiện thực hóa thị trường giao dịch các-bon tư nhân bằng cách làm rõ các tiêu chuẩn MRV, phối hợp với các thị trường các-bon toàn cầu và hợp tác với các bên liên quan trên quốc tế, bao gồm các dự án theo Điều 6, nhằm huy động vốn của khu vực tư nhân cho các dự án phát triển bền vững và năng lượng tái tạo. | Cao | Thấp |"
+   }
+  ],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1594,
+   "output_tokens": 494,
+   "thinking_tokens": 119
+  },
+  "latency_s": 2.989
+ },
+ "91": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [
+   {
+    "kind": "table",
+    "label": "",
+    "title": "",
+    "region": "full",
+    "content": "| Hành động chính | Mô tả chi tiết | Đồng lợi ích kinh tế | Đồng lợi ích thích ứng |\n| :--- | :--- | :--- | :--- |\n| Triển khai các tiêu chuẩn tiết kiệm năng lượng và các chương trình thay đổi hành vi | • Triển khai các quy chuẩn kỹ thuật và các sáng kiến chuyên ngành, như các chiến dịch nâng cao nhận thức người tiêu dùng, nhằm cải thiện hiệu suất năng lượng ở các lĩnh vực công nghiệp, thương mại và nhà ở.<br>• Trong các lĩnh vực công nghiệp, tăng cường các tiêu chuẩn tiết kiệm năng lượng cho phù hợp với các mốc chuẩn quốc tế. | Trung bình | Thấp |\n| Tạo thuận lợi cho các doanh nghiệp tiếp cận nguồn tài chính xanh | • Ban hành các hướng dẫn rõ ràng và cơ chế xác định dự án xanh (ví dụ phân loại xanh).<br>• Tăng cường năng lực kỹ thuật và hệ thống xác nhận trong các tổ chức tài chính của Việt Nam nhằm xử lý thiếu hụt kỹ năng đánh giá và quản lý các dự án trái phiếu xanh. | Trung bình | Trung bình |\n| Trao quyền cho khu vực tư nhân đầu tư về giảm nhẹ | • Tạo thuận lợi cho công bố thông tin về chính sách khí hậu liên quan đến các thị trường xuất khẩu chủ lực của doanh nghiệp, các yêu cầu của công ty đa quốc gia (MNC), hỗ trợ triển khai các biện pháp thích ứng và đầu tư cho công nghệ giảm nhẹ, cũng như phân tích chi phí - lợi ích cho những hoạt động đầu tư đó.<br>• Tăng cường các hệ thống tiêu chuẩn chứng nhận xanh cho các sản phẩm xuất khẩu chủ lực và giúp các doanh nghiệp có được chứng nhận quốc tế. | Trung bình | Thấp |\n| **Năng lượng bền vững** | | **Đồng lợi ích kinh tế** | **Đồng lợi ích thích ứng** |\n| Triển khai QHĐ8 sửa đổi | • Đơn giản hóa quy trình phê duyệt dự án để triển khai QHĐ8: giảm chậm trễ qua ban hành các quy trình phê duyệt có hạn mức thời gian theo quy định, các nền tảng số để theo dõi, và vai trò thể chế rõ ràng cho các dự án chuyển đổi năng lượng trong QHĐ8. | Trung bình | Thấp |\n| Áp dụng lập kế hoạch chi phí thấp nhất và làm rõ các quy định đấu thầu cho QHĐ8 | • Đảm bảo lập kế hoạch linh động theo chi phí thấp nhất để tối ưu hóa về khả năng chi trả và an ninh năng lượng. Đơn giản hóa các phương thức đấu thầu mua sắm trong các văn bản luật và thiết lập các tiêu chí rõ ràng về lựa chọn nhà đầu tư. | Thấp | Thấp |\n| Tăng cường các công ty dịch vụ năng lượng (ESCOs) để triển khai đảm bảo hiệu suất | • Nâng cao năng lực của các ESCOs qua cải thiện khả năng tiếp cận các cơ chế tài chính, đào tạo kỹ thuật và các quy định tạo thuận lợi để mở rộng quy mô các dự án tiết kiệm năng lượng. | Thấp | Thấp |"
+   }
+  ],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1594,
+   "output_tokens": 712,
+   "thinking_tokens": 122
+  },
+  "latency_s": 7.078
+ },
+ "92": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [
+   {
+    "kind": "table",
+    "label": "",
+    "title": "",
+    "region": "top",
+    "content": "| Giao thông bền vững | Đồng lợi ích kinh tế | Đồng lợi ích thích ứng |\n| :--- | :--- | :--- |\n| **Đẩy nhanh giao thông xanh ở các đô thị** | • Phát triển các tuyến mê-trô và các hệ thống xe buýt nhanh.<br>• Xúc tiến các khu vực giảm phát thải để cải thiện chất lượng không khí. | Trung bình | Thấp |\n| **Hỗ trợ chuyển đổi sang sử dụng xe điện và các phương tiện phát thải thấp** | • Ban hành các tiêu chuẩn kinh tế tốt hơn về nhiên liệu cho phương tiện với các phương tiện mới sử dụng động cơ đốt trong (xe hơi và xe mô-tô hai bánh).<br>• Triển khai các tiêu chuẩn và cơ chế khuyến khích xe phát thải thấp.<br>• Đầu tư các trạm sạc công cộng và thí điểm xe buýt chạy điện. | Trung bình | Thấp |"
+   },
+   {
+    "kind": "table",
+    "label": "Bảng 2.5",
+    "title": "Can thiệp ngoài chính sách tài khóa ở các quốc gia khác",
+    "region": "middle",
+    "content": "| Tiêu đề | Nội dung |\n| :--- | :--- |\n| **Tiêu chuẩn và nhãn thiết bị gia dụng – Thái Lan** | Nhãn năng lượng Thái Lan: Bộ Năng lượng Thái Lan ban hành nhãn để thúc đẩy tiết kiệm năng lượng. Nhãn này được áp dụng cho tủ lạnh, máy điều hòa không khí, máy giặt, thiết bị chiếu sáng, và các sản phẩm khác. Nhãn cung cấp thông tin cho người tiêu dùng về mức độ tiêu thụ năng lượng và tiết kiệm để khuyến khích lựa chọn các thiết bị gia dụng tiết kiệm năng lượng. Thái Lan cũng đặt ra chỉ tiêu về năng lượng tối thiểu. |\n| **Chương trình thay đổi hành vi – Nhật Bản** | Chiến dịch Cool Biz - Nhật Bản: Bộ Môi trường triển khai sáng kiến hàng năm này để khuyến khích các hành động tiết kiệm năng lượng trong các tháng hè. Chiến dịch này khuyến khích doanh nghiệp và cá nhân ăn mặc thoải mái và đặt nhiệt độ điều hòa không khí ở mức 28 độ C (82,4 độ Fahrenheit) để giảm tiêu thụ năng lượng. Bằng cách thay đổi chuẩn mực xã hội và khuyến khích hành vi có ý thức về năng lượng, Chiến dịch Cool Biz góp phần tiết kiệm năng lượng đáng kể và giảm phát thải khí nhà kính tại Nhật Bản. |\n| **Ưu đãi tài chính dựa trên kết quả tiết kiệm năng lượng – Sing-ga-po** | Chương trình Tài chính cho Tiết kiệm Năng lượng qua Chỉnh trang Công trình Nhà (BREEF): Chương trình có ưu đãi tài chính và hỗ trợ cho các chủ công trình nhà thực hiện các dự án chỉnh trang tiết kiệm năng lượng. Chương trình cung cấp các phương án huy động tài chính, hỗ trợ kỹ thuật, và ưu đãi, chẳng hạn hỗ trợ hoặc hoàn tiền, để khuyến khích triển khai các biện pháp tiết kiệm năng lượng ở các công trình nhà hiện hành. Sáng kiến này nhằm tăng cường hiệu quả năng lượng công trình nhà, giảm phát thải các-bon ở Sing-ga-po. |"
+   }
+  ],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1594,
+   "output_tokens": 753,
+   "thinking_tokens": 109
+  },
+  "latency_s": 3.745
+ },
+ "93": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [
+   {
+    "kind": "table",
+    "label": "",
+    "title": "Thông điệp chính",
+    "region": "middle",
+    "content": "| Câu hỏi | Trả lời |\n| :--- | :--- |\n| Kinh tế biển là gì và tại sao lại quan trọng? | Kinh tế biển, còn gọi là ‘kinh tế biển xanh’, bao hàm các ngành và lĩnh vực kinh tế liên quan trực tiếp hoặc gián tiếp đến đại dương và các vùng ven biển, như thủy hải sản, vận tải biển, du lịch và năng lượng ngoài khơi. Mặc dù kinh tế biển về bản chất có nguy cơ dễ tổn thương với tác động của biến đổi khí hậu, nhưng cũng đem lại cơ hội đáng kể góp phần giảm nhẹ biến đổi khí hậu. Đây là khu vực có thể đem lại tăng trưởng vững chắc cho Việt Nam, nhờ vào nguồn tài nguyên thiên nhiên thiết yếu đóng vai trò quan trọng cho các ngành kinh tế chủ chốt, như điện gió ngoài khơi và du lịch. Trong điều kiện biến đổi khí hậu ngày càng gia tăng, điều quan trọng là phải bảo vệ và bảo tồn các tài nguyên biển để đảm bảo duy trì sự phát triển bền vững, nâng cao giá trị kinh tế của những tài nguyên này, đồng thời góp phần gìn giữ hành tinh này trở thành một nơi đáng sống cho con người. |\n| Kinh tế biển hiện nay đóng góp gì cho nền kinh tế và triển vọng tăng trưởng dự kiến của nó đến đâu? | Đóng góp của kinh tế biển cho nền kinh tế tổng thể của Việt Nam theo ước tính mới đến nay rơi vào khoảng từ 5,04% đến 5,83%, ngoại trừ năm 2020 giảm còn 3,18% do suy giảm về du lịch và lữ hành trong năm đó, đây là dấu mốc đầu tiên về số liệu định giá kinh tế toàn diện. Dự báo đến năm 2030 cho thấy giá trị kinh tế biển của Việt Nam sẽ tăng gấp 3 lần so với năm 2020, theo giá so sánh. |\n| Hiện có những thách thức chính gì gây cản trở nền kinh tế biển Việt Nam tăng trưởng bền vững? | Nền kinh tế biển đang phải đối mặt với những thách thức lớn do khai thác thủy hải sản quá mức như đại dương bị ô nhiễm và a-xít hóa do khí hậu gây ra, và những nguy cơ khác. Việt Nam là một trong năm quốc gia gây ô nhiễm đại dương hàng đầu thế giới, đóng góp 0,28-0,73% triệu khối rác thải nhựa vào đại dương hàng năm (Ngân hàng Thế giới, 2022). |"
+   }
+  ],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1594,
+   "output_tokens": 591,
+   "thinking_tokens": 120
+  },
+  "latency_s": 5.036
+ },
+ "94": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1594,
+   "output_tokens": 67,
+   "thinking_tokens": 119
+  },
+  "latency_s": 3.479
+ },
+ "95": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [
+   {
+    "kind": "table",
+    "label": "Bảng 3.1",
+    "title": "Dữ liệu sẵn có về các ngành/lĩnh vực kinh tế biển và dịch vụ hệ sinh thái biển của Việt Nam",
+    "region": "middle",
+    "content": "| Các ngành/lĩnh vực kinh tế biển cốt lõi của Việt Nam theo Nghị quyết 36 | Các danh mục ngành/lĩnh vực kinh tế biển cốt lõi (dựa trên Tài khoản Loại 1 của Hoa Kỳ, được gọi là Giám sát Đại dương Quốc gia Kinh tế (ENOW)) | Hệ thống mã ngành/lĩnh vực kinh tế Việt Nam (VSIC 2018) - 2 con số |\n| :--- | :--- | :--- |\n| Khai thác và nuôi trồng thủy sản | Tài nguyên có sự sống | Khai thác và nuôi trồng thủy sản - 03 |\n| Thăm dò dầu khí và các tài nguyên khoáng sản biển khác | Khoáng sản | Khai thác dầu thô và khí thiên nhiên - 06 |\n| Năng lượng tái tạo và các lĩnh vực kinh tế biển mới khác | Năng lượng | Điện gió ngoài khơi - chưa có mã |\n| Công nghiệp ven biển | Vận tải và thương mại | Vận tải đường bộ và vận tải đường sắt và đường ống - 49 (vận tải nội địa)<br>Vận tải đường thủy - 50<br>Hoạt động kho bãi và hỗ trợ vận tải - 52 |\n| Du lịch và dịch vụ biển | Du lịch và giải trí | Vận tải hành khách: Vận tải đường bộ, vận tải qua đường sắt, qua đường ống; Vận tải đường thủy; Vận tải hàng không; Hoạt động kho bãi và hỗ trợ vận tải; Hoạt động bưu chính và chuyển phát nhanh - 49, 50, 51, 52 |"
+   }
+  ],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1594,
+   "output_tokens": 448,
+   "thinking_tokens": 119
+  },
+  "latency_s": 4.99
+ },
+ "96": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [
+   {
+    "kind": "table",
+    "label": "",
+    "title": "",
+    "region": "middle",
+    "content": "| | | |\n| :--- | :--- | :--- |\n| | | Hoạt động dịch vụ lưu trú; ăn uống - 55, 56 <br><br> Hoạt động hành chính và hỗ trợ: Đại lý du lịch, công ty lữ hành và các hoạt động liên quan - 79 <br><br> Hoạt động nghệ thuật, vui chơi giải trí: Hoạt động sáng tạo, nghệ thuật và giải trí; Thư viện, lưu trữ, bảo tàng và các hoạt động văn hóa khác; Hoạt động xổ số, cờ bạc, cá cược; Hoạt động thể thao và các hoạt động vui chơi và giải trí - 90-93 |\n| Kinh tế hàng hải | Đóng tàu & thuyền | Sản xuất thiết bị vận chuyển khác - 30 <br><br> Sửa chữa, bảo dưỡng và lắp đặt máy móc thiết bị - 33 |\n| | Các ngành công nghiệp phụ trợ liên quan (Sản phẩm chế biến thủy hải sản; chế biến chế tạo dầu và khí) | Chế biến chế tạo than cốc và các sản phẩm dầu mỏ tinh chế - 19 <br><br> Chế biến chế tạo các sản phẩm thực phẩm - 10 |\n| Các dịch vụ hệ sinh thái | Các hệ sinh thái ven biển (trừ rừng ngập mặn); rừng ngập mặn, rạn san hô, hệ sinh thái đại dương biển khơi. | |"
+   }
+  ],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1594,
+   "output_tokens": 373,
+   "thinking_tokens": 114
+  },
+  "latency_s": 3.923
+ },
+ "97": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1594,
+   "output_tokens": 5,
+   "thinking_tokens": 120
+  },
+  "latency_s": 1.872
+ },
+ "98": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1594,
+   "output_tokens": 116,
+   "thinking_tokens": 119
+  },
+  "latency_s": 2.032
+ },
+ "99": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [
+   {
+    "kind": "chart",
+    "label": "Hình 3.1",
+    "title": "Xu hướng về Tổng giá trị gia tăng (VA) trên tất cả các ngành KTB được chọn (%)",
+    "region": "top-left",
+    "content": "Biểu đồ đường thể hiện xu hướng phần trăm (%) từ năm 2010 đến 2020. Trục tung là tỷ lệ %, trục hoành là các năm. Nguồn: Tính toán của cán bộ Ngân hàng Thế giới.\n\nGiá trị ước lượng:\n- 2010 ≈ 5%\n- 2011 ≈ 4,5%\n- 2012 ≈ 4,8%\n- 2013 ≈ 7,1%\n- 2014 ≈ 5,5%\n- 2015 ≈ 5%\n- 2016 ≈ 6,5%\n- 2017 ≈ 7,1%\n- 2018 ≈ 5,5%\n- 2019 ≈ 5,8%\n- 2020 ≈ 3,2%"
+   },
+   {
+    "kind": "chart",
+    "label": "Hình 3.2",
+    "title": "Tỉ trọng đóng góp của các ngành KTB cho tổng giá trị gia tăng (GVA) năm 2019",
+    "region": "top-right",
+    "content": "Biểu đồ hình tròn (pie chart) thể hiện tỉ trọng đóng góp của các ngành năm 2019. Nguồn: Tính toán của cán bộ Ngân hàng Thế giới.\n\nChú giải và giá trị:\n- Đánh bắt và nuôi trồng thủy sản: 1%\n- Dầu thô và khí tự nhiên: 11%\n- Chế biến và bảo quản thủy sản: 7%\n- Chế biến than cốc và các sản phẩm dầu mỏ tinh chế: 18%\n- Đóng tàu và thuyền: 3%\n- Vận tải biển: 12%\n- Điện gió ngoài khơi: 3%\n- Du lịch biển: 45%"
+   },
+   {
+    "kind": "table",
+    "label": "Bảng 3.2",
+    "title": "Tổng giá trị gia tăng (GVA) trong các ngành/lĩnh vực liên quan đến biển tại Việt Nam (tỷ VND, theo giá năm 2010)",
+    "region": "bottom",
+    "content": "| STT | Ngành/Lĩnh vực | 2010 | 2011 | 2012 | 2013 | 2014 | 2015 | 2016 | 2017 | 2018 | 2019 | 2020 | 2030 (dự báo) |\n|---|---|---|---|---|---|---|---|---|---|---|---|---|---|\n| 1 | Đánh bắt và nuôi trồng thủy sản | 1.041 | 1.315 | 1.448 | 1.711 | 1.941 | 2.386 | 2.323 | 2.577 | 1.944 | 1.724 | 1.658 | 1.880 |\n| 2 | Dầu khí | 23.500 | 12.102 | 20.409 | 48.829 | 12.309 | 33.016 | 20.477 | 24.808 | 26.845 | 28.837 | 24.070 | 69.024 |\n| 3 | Sản xuất chế biến thực phẩm (chế biến và bảo quản thủy hải sản) | 9.354 | 9.928 | 10.466 | 11.292 | 12.189 | 14.602 | 16.263 | 18.428 | 18.393 | 18.497 | 18.539 | 111.231 |\n| 4 | Sản xuất than cốc và các sản phẩm dầu mỏ tinh chế | 15.988 | 17.676 | 18.893 | 19.848 | 21.724 | 23.234 | 25.145 | 28.285 | 32.923 | 46.224 | 47.885 | 140.470 |\n| 5 | Sản xuất chế tạo thiết bị vận tải khác (có tỷ trọng trong lĩnh vực vận tải biển) - Đóng tàu, thuyền | 4.573 | 4.714 | 6.241 | 5.883 | 6.118 | 7.310 | 8.736 | 9.012 | 9.119 | 9.280 | 9.114 | 35.634 |\n| 6 | Vận tải đường thủy | 17.362 | 20.397 | 17.124 | 20.572 | 23.566 | 26.103 | 27.744 | 29.281 | 29.759 | 31.080 | 31.829 | 46.376 |\n| 7 | Điện gió ngoài khơi | 0 | 0 | 0 | 0 | 17 | 76 | 101 | 165 | 1.699 | 7.166 | 10.054 | 178.800 |\n| 8 | Du lịch và lữ hành | 23.253 | 25.882 | 29.795 | 51.811 | 53.648 | 60.321 | 70.591 | 89.241 | 105.263 | 116.475 | 1.071 | 3.180 |\n| | Giá trị gia tăng (VA) | 95.071 | 92.015 | 104.376 | 159.946 | 131.512 | 167.047 | 171.381 | 201.798 | 225.945 | 259.283 | 144.218 | 586.596 |\n| | Tỷ lệ % các ngành/lĩnh vực biển trong GVA | 5,04% | 4,56% | 4,88% | 7,10% | 5,52% | 4,96% | 6,34% | 6,98% | 5,46% | 5,833% | 3,179% | 9,650% |\n\nNguồn: Các nguồn dữ liệu của Chính phủ Việt Nam, 2024, 2024. Tính toán của cán bộ Ngân hàng Thế giới."
+   }
+  ],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1594,
+   "output_tokens": 1807,
+   "thinking_tokens": 126
+  },
+  "latency_s": 5.822
+ },
+ "100": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [
+   {
+    "kind": "table",
+    "label": "Bảng 3.3",
+    "title": "Việc làm trong các ngành/lĩnh vực liên quan đến biển tại Việt Nam giai đoạn 2010–2020 (lao động/chỗ làm chính thức trong các doanh nghiệp đã đăng ký)",
+    "region": "top",
+    "content": "| STT | Ngành/lĩnh vực | 2010 | 2011 | 2012 | 2013 | 2014 | 2015 | 2016 | 2017 | 2018 | 2019 | 2020 |\n|---|---|---|---|---|---|---|---|---|---|---|---|---|\n| 1 | Đánh bắt và nuôi trồng thủy sản | 36.473 | 38.544 | 40.482 | 40.770 | 44.970 | 48.691 | 47.006 | 53.207 | 42.201 | 39.884 | 32.461 |\n| 2 | Dầu khí | 7.643 | 8.200 | 9.770 | 10.779 | 10.857 | 9.048 | 8.645 | 7.786 | 8.253 | 8.790 | 9.075 |\n| 3 | Điện gió ngoài khơi | - | - | - | - | - | - | - | - | - | - | - |\n| 4 | Vận tải đường thủy | 36.473 | 46.163 | 46.070 | 42.954 | 43.748 | 46.855 | 47.627 | 44.696 | 43.440 | 43.406 | 41.394 |\n| 5 | Du lịch và lữ hành | - | 4.018.900 | 4.120.300 | 4.098.900 | 3.966.100 | 3.778.400 | 4.002.800 | 4.060.900 | 4.116.800 | - | - |\n| 6 | Sản xuất chế biến thực phẩm (chế biến và bảo quản thủy hải sản) | 496.446 | 524.945 | 509.103 | 518.520 | 527.593 | 542.339 | 553.879 | 547.335 | 539.867 | 538.557 | 536.390 |\n| 7 | Sản xuất than cốc và các sản phẩm dầu mỏ tinh chế | 5.410 | 4.838 | 5.054 | 5.136 | 5.704 | 5.996 | 5.590 | 7.016 | 7.036 | 6.685 | 7.609 |\n| 8 | Sản xuất chế tạo thiết bị vận tải khác (chiếm tỷ trọng trong ngành vận tải biển). Đóng tàu, thuyền | 93.768 | 98.669 | 97.199 | 96.445 | 98.677 | 105.153 | 124.178 | 121.784 | 125.647 | 127.073 | 110.837 |\n| | Tổng | 676.213 | 4.740.259 | 4.827.978 | 4.813.504 | 4.697.649 | 4.536.482 | 4.789.725 | 4.842.724 | 4.883.244 | 764.395 | 902.691 |\n| | Tổng số việc làm | 50.392.900 | 51.398.400 | 52.348.000 | 53.245.600 | 53.748.000 | 53.984.200 | 54.445.300 | 54.819.600 | 55.388.000 | 55.767.400 | 54.842.900 |\n| | Tỷ lệ % các ngành/lĩnh vực biển trên tổng | - | 9,2% | 9,2% | 9,0% | 8,7% | 8,4% | 8,8% | 8,8% | 8,8% | - | - |\n\n*Nguồn: Các nguồn dữ liệu của Chính phủ Việt Nam, 2024, 2024. Tính toán của cán bộ Ngân hàng Thế giới.*"
+   }
+  ],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1595,
+   "output_tokens": 1346,
+   "thinking_tokens": 114
+  },
+  "latency_s": 5.2
+ },
+ "101": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [
+   {
+    "kind": "table",
+    "label": "Bảng 3.4",
+    "title": "Một số số liệu ước tính cho các ngành/lĩnh vực dựa vào đại dương",
+    "region": "top",
+    "content": "| Quốc gia | % GDP hoặc GVA | Việc làm (số lượng) | Tỷ lệ % trên tổng việc làm |\n| :--- | :---: | :---: | :---: |\n| Ốt-xtrây-lia | 3,6 | 253.130 | 1,7 |\n| Bỉ | 10 | | |\n| Ca-na-đa | 1,2 | 171.365 | 0,8 |\n| Trung Quốc | 9,8 | 340.240.000 | 40,2 |\n| Đu-bai (Các Tiểu vương quốc Ả-rập Thống nhất) | 4,6 | | |\n| Pháp | 2,7 | 460.396 | 1,4 |\n| Hồng Kông (Trung Quốc) | 25 | | |\n| Ai-xơ-len | 26 | 30.000 | 11,8 |\n| Ai-len | 0,7 | 17.425 | 0,6 |\n| Nhật Bản | 1,6 | 98.124 | 0,1 |\n| Hàn Quốc | 4,9 | 919.314 | 2,9 |\n| Hà Lan | 2,9 | 21.000 | 0,2 |\n| Bồ Đào Nha | 2,5 | | |\n| Sing-ga-po | 7,0 | | |\n| Vương quốc Anh | 4,2 | 890.416 | 2,3 |\n| Hoa Kỳ | 4,4 | 28.000.000 | 14,7 |\n| Thế giới | 3,2 | | |\n\n*Nguồn: OECD (2016) – các khoảng dữ liệu từ thập kỷ 2000 đến thập kỷ 2010.*"
+   },
+   {
+    "kind": "chart",
+    "label": "Hình 3.3",
+    "title": "Việc làm kinh tế biển của Việt Nam vượt trội so với các quốc gia so sánh",
+    "region": "bottom",
+    "content": "Biểu đồ cột nhóm (clustered bar chart). Trục tung biểu thị giá trị từ 0 đến 45 (đơn vị không ghi rõ, nhưng dựa trên bảng 3.4 thì cột xanh đậm là % GDP/GVA, cột xanh nhạt là % việc làm). Trục hoành liệt kê các quốc gia: Ốt-xtrây-lia, Bỉ, Ca-na-đa, Trung Quốc, Đu-bai (UAE), Pháp, Hồng Kông (Trung Quốc), Ai-xơ-len, Ai-len, Nhật Bản, Hàn Quốc, Hà Lan, Sing-ga-po, Anh Quốc, Hoa Kỳ, Việt Nam.\n\nChú giải:\n- Cột xanh đậm: % of GDP hoặc GVA\n- Cột xanh nhạt: Tỷ lệ % việc làm trên tổng\n\nGiá trị ước lượng (dựa trên biểu đồ):\n- Ốt-xtrây-lia: GDP ≈ 3,6; Việc làm ≈ 1,7\n- Bỉ: GDP ≈ 10; Việc làm ≈ 0\n- Ca-na-đa: GDP ≈ 1,2; Việc làm ≈ 0,8\n- Trung Quốc: GDP ≈ 9,8; Việc làm ≈ 40,2\n- Đu-bai (UAE): GDP ≈ 4,6; Việc làm ≈ 0\n- Pháp: GDP ≈ 2,7; Việc làm ≈ 1,4\n- Hồng Kông (Trung Quốc): GDP ≈ 25; Việc làm ≈ 0\n- Ai-xơ-len: GDP ≈ 26; Việc làm ≈ 11,8\n- Ai-len: GDP ≈ 0,7; Việc làm ≈ 0,6\n- Nhật Bản: GDP ≈ 1,6; Việc làm ≈ 0,1\n- Hàn Quốc: GDP ≈ 4,9; Việc làm ≈ 2,9\n- Hà Lan: GDP ≈ 2,9; Việc làm ≈ 0,2\n- Sing-ga-po: GDP ≈ 7,0; Việc làm ≈ 0\n- Anh Quốc: GDP ≈ 4,2; Việc làm ≈ 2,3\n- Hoa Kỳ: GDP ≈ 4,4; Việc làm ≈ 14,7\n- Việt Nam: GDP ≈ 4,5; Việc làm ≈ 9\n\n*Nguồn: Lập theo Bảng 3.4. Dữ liệu từ thập kỷ 2000 đến thập kỷ 2010.*"
+   }
+  ],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1595,
+   "output_tokens": 1176,
+   "thinking_tokens": 119
+  },
+  "latency_s": 4.635
+ },
+ "102": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1595,
+   "output_tokens": 71,
+   "thinking_tokens": 122
+  },
+  "latency_s": 4.896
+ },
+ "103": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [
+   {
+    "kind": "chart",
+    "label": "Hình 3.4",
+    "title": "So sánh dự báo vào năm 2030 với năm (tỷ lệ % GVA theo ngành/lĩnh vực)",
+    "region": "top",
+    "content": "Biểu đồ cột nhóm so sánh tỷ lệ % GVA giữa năm 2020 (màu xanh đậm) và dự báo năm 2030 (màu xanh lá) cho 8 ngành/lĩnh vực kinh tế biển. Trục tung biểu thị tỷ lệ % GVA từ 0.00% đến 3.50%. Các ngành bao gồm: Đánh bắt và nuôi trồng thủy sản, Dầu khí, Chế biến thực phẩm (chế biến và bảo quản thủy sản), Sản xuất than cốc và các sản phẩm dầu mỏ tinh luyện, Sản xuất các thiết bị vận tải khác (tỷ lệ vận tải biển) - đóng tàu và thuyền, Vận tải thủy, Điện gió ngoài khơi, Du lịch và lữ hành. Nguồn: Tính toán của cán bộ Ngân hàng Thế giới.\n\nGiá trị ước lượng:\n- Đánh bắt và nuôi trồng thủy sản: 2020 ≈ 0.05%; 2030 ≈ 0.05%\n- Dầu khí: 2020 ≈ 0.55%; 2030 ≈ 1.15%\n- Chế biến thực phẩm: 2020 ≈ 0.45%; 2030 ≈ 1.70%\n- Sản xuất than cốc và các sản phẩm dầu mỏ tinh luyện: 2020 ≈ 1.05%; 2030 ≈ 2.30%\n- Sản xuất các thiết bị vận tải khác: 2020 ≈ 0.20%; 2030 ≈ 0.55%\n- Vận tải thủy: 2020 ≈ 0.75%; 2030 ≈ 0.80%\n- Điện gió ngoài khơi: 2020 ≈ 0.20%; 2030 ≈ 2.90%\n- Du lịch và lữ hành: 2020 ≈ 0.05%; 2030 ≈ 0.05%"
+   }
+  ],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1595,
+   "output_tokens": 543,
+   "thinking_tokens": 110
+  },
+  "latency_s": 33.976
+ },
+ "104": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1595,
+   "output_tokens": 5,
+   "thinking_tokens": 120
+  },
+  "latency_s": 1.992
+ },
+ "105": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [
+   {
+    "kind": "chart",
+    "label": "Hình 3.5",
+    "title": "Phân bổ nhà máy xử lý nước thải tập trung ở các khu công nghiệp và khu chế xuất",
+    "region": "middle",
+    "content": "Biểu đồ cột nhóm so sánh số lượng khu công nghiệp và khu chế xuất đang hoạt động (màu xanh đậm) với số lượng khu có nhà máy xử lý nước thải tập trung đáp ứng các tiêu chuẩn về môi trường (màu xanh lá) tại 7 tỉnh/thành phố. Trục tung biểu thị số lượng (từ 0 đến 7). Trục hoành liệt kê các tỉnh: Hưng Yên, Thái Bình, Ninh Bình, Thanh Hoá, Quảng Bình, Thừa Thiên Huế, Lâm Đồng. Nguồn: Tổng cục Thống kê, 2025.\n\nGiá trị ước lượng:\n- Hưng Yên: Đang hoạt động ≈ 5; Có xử lý nước thải ≈ 4\n- Thái Bình: Đang hoạt động ≈ 6; Có xử lý nước thải ≈ 4\n- Ninh Bình: Đang hoạt động ≈ 5; Có xử lý nước thải ≈ 4\n- Thanh Hoá: Đang hoạt động ≈ 5; Có xử lý nước thải ≈ 2\n- Quảng Bình: Đang hoạt động ≈ 3; Có xử lý nước thải ≈ 1\n- Thừa Thiên Huế: Đang hoạt động ≈ 4; Có xử lý nước thải ≈ 2\n- Lâm Đồng: Đang hoạt động ≈ 2; Có xử lý nước thải ≈ 1"
+   }
+  ],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1595,
+   "output_tokens": 376,
+   "thinking_tokens": 119
+  },
+  "latency_s": 16.04
+ },
+ "106": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1595,
+   "output_tokens": 5,
+   "thinking_tokens": 119
+  },
+  "latency_s": 2.398
+ },
+ "107": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1595,
+   "output_tokens": 56,
+   "thinking_tokens": 121
+  },
+  "latency_s": 2.751
+ },
+ "108": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [
+   {
+    "kind": "table",
+    "label": "Bảng 3.5",
+    "title": "Giá trị của quần xã sinh vật, hệ sinh thái rừng ngập mặn và san hô",
+    "region": "bottom",
+    "content": "| Hệ sinh thái/quần xã sinh vật | Diện tích (ha) | Giá trị bình quân bằng USD/Ha/năm | Giá trị bình quân nghìn VND, giá năm 2010 | Tổng giá trị bằng tỷ VND, giá năm 2010 | Tỷ lệ % trên tổng giá trị gia tăng (GVA) |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n| Các hệ sinh thái ven biển, trừ rừng ngập mặn | 471.122 | 21,5 | 399,5 | 188,2 | 0,01% |\n| Rừng ngập mặn | 302.359 | 2.432,2 | 45.270,8 | 13.688,0 | 0,56% |\n| Rạn san hô | 11.475 | 1.322,5 | 24.615,8 | 282,5 | 01,1% |\n| Hệ sinh thái đại dương biển khơi | 169.617 | 1.950,3 | 36.300,0 | 415,5 | 0,02% |\n| Tổng | 784.956 | | | 14.575,2 | 0,60% |\n\n*Nguồn: Ước tính của Ngân hàng Thế giới.*"
+   }
+  ],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1595,
+   "output_tokens": 436,
+   "thinking_tokens": 109
+  },
+  "latency_s": 2.782
+ },
+ "109": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [
+   {
+    "kind": "table",
+    "label": "Hình 3.6",
+    "title": "Tầm quan trọng của các hệ sinh thái biển và các thành phần trong đó",
+    "region": "top",
+    "content": "| Hệ sinh thái/quần xã sinh học | Giá trị bình quân bằng đồng USD quốc tế/ha/năm |\n| :--- | :--- |\n| Các hệ sinh thái ven biển, trừ rừng ngập mặn | 400 |\n| Rừng ngập mặn | 45.271 |\n| Rặng san hô | 24.616 |\n| Hệ sinh thái đại dương biển khơi | 36.300 |\n\n*Nguồn: Tính toán của cán bộ Ngân hàng Thế giới dựa trên dữ liệu thu thập tại ESVD.*"
+   },
+   {
+    "kind": "chart",
+    "label": "Hình 3.6",
+    "title": "Tầm quan trọng của các hệ sinh thái biển và các thành phần trong đó",
+    "region": "top",
+    "content": "Biểu đồ hình tròn (pie chart) thể hiện tỷ trọng giá trị của các hệ sinh thái biển. Các thành phần bao gồm: Rừng ngập mặn (màu cam), Rặng san hô (màu xanh lá), Hệ sinh thái đại dương biển khơi (màu vàng), Các hệ sinh thái ven biển, trừ rừng ngập mặn (màu xanh dương nhạt). Nguồn: Tính toán của cán bộ Ngân hàng Thế giới dựa trên dữ liệu thu thập tại ESVD.\n\nGiá trị ước lượng (dựa trên bảng dữ liệu đi kèm): \n- Rừng ngập mặn: 45.271 USD/ha/năm\n- Hệ sinh thái đại dương biển khơi: 36.300 USD/ha/năm\n- Rặng san hô: 24.616 USD/ha/năm\n- Các hệ sinh thái ven biển, trừ rừng ngập mặn: 400 USD/ha/năm"
+   }
+  ],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1595,
+   "output_tokens": 496,
+   "thinking_tokens": 109
+  },
+  "latency_s": 3.552
+ },
+ "110": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1595,
+   "output_tokens": 60,
+   "thinking_tokens": 120
+  },
+  "latency_s": 2.819
+ },
+ "111": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1595,
+   "output_tokens": 72,
+   "thinking_tokens": 120
+  },
+  "latency_s": 2.455
+ },
+ "112": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1595,
+   "output_tokens": 5,
+   "thinking_tokens": 120
+  },
+  "latency_s": 1.924
+ },
+ "113": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1595,
+   "output_tokens": 49,
+   "thinking_tokens": 122
+  },
+  "latency_s": 1.995
+ },
+ "114": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [
+   {
+    "kind": "table",
+    "label": "Bảng 3.6",
+    "title": "Tương tác giữa các ngành/lĩnh vực biển",
+    "region": "middle",
+    "content": "| | Năng lượng tái tạo | Dầu khí | Nghề cá | Du lịch biển | Vận tải biển | Môi trường và đa dạng sinh học |\n| :--- | :---: | :---: | :---: | :---: | :---: | :---: |\n| Năng lượng tái tạo | NA | +2 | 0 | +1 | +1 | +2 |\n| Dầu khí | +1 | NA | 0 | 0 | +1 | +2 |\n| Nghề cá | +1 | -1 | NA | -1 | -1 | +3 |\n| Du lịch biển | +1 | +1 | +2 | NA | -1 | +3 |\n| Vận tải biển | +2 | +1 | +1 | +1 | NA | +2 |\n| Môi trường và đa dạng sinh học | +1 | -2 | -1 | -1 | -2 | NA |\n\n*Nguồn: UNDP (2022).*\n*Ghi chú: Điểm trong mỗi ô được hiểu là tác động của ngành trong cột dọc đối với ngành trong hàng ngang và là điểm tổng hợp tính toán cả tác động tích cực và tiêu cực (+3 tích cực, 0 trung tính, -3 tiêu cực). Định hướng và giá trị của các tương tác được xác định dựa trên sự đồng thuận của các chuyên gia trong ngành. RE Energy là viết tắt của năng lượng tái tạo.*"
+   }
+  ],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1595,
+   "output_tokens": 392,
+   "thinking_tokens": 123
+  },
+  "latency_s": 4.321
+ },
+ "115": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1595,
+   "output_tokens": 59,
+   "thinking_tokens": 120
+  },
+  "latency_s": 1.845
+ },
+ "116": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1595,
+   "output_tokens": 64,
+   "thinking_tokens": 119
+  },
+  "latency_s": 4.307
+ },
+ "117": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1595,
+   "output_tokens": 5,
+   "thinking_tokens": 114
+  },
+  "latency_s": 5.456
+ },
+ "118": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [
+   {
+    "kind": "table",
+    "label": "Bảng 3.7",
+    "title": "Khuyến nghị cho giai đoạn 2026–2030",
+    "region": "middle",
+    "content": "| Khuyến nghị chung | Đồng lợi ích kinh tế | Đồng lợi ích giảm nhẹ | Đồng lợi ích thích ứng |\n| :--- | :--- | :--- | :--- |\n| **Xây dựng khuôn khổ hạch toán kinh tế biển** | • **Áp dụng các phương pháp chuẩn hóa:** Sử dụng các khuôn khổ như Hệ thống Kế toán Kinh tế Môi trường (SEEA), cụ thể là khuôn khổ Hạch toán Đại dương SEEA, để chuẩn hóa đo lường các hoạt động kinh tế biển.<br><br>• **Phân định các ngành/lĩnh vực kinh tế biển:** Phân định rõ các ngành/lĩnh vực như nuôi trồng thủy sản, dịch vụ hệ sinh thái, thủy sản, năng lượng tái tạo, vận tải biển và du lịch để đảm bảo phạm vi toàn diện.<br><br>• **Kết hợp các dịch vụ hệ sinh thái:** Định lượng giá trị của các dịch vụ hệ sinh thái (ví dụ cô lập các-bon, bảo vệ bờ biển, đa dạng sinh học) dựa vào môi trường biển để đưa vào một phần của các tài khoản vệ tinh. | Trung bình | Thấp | Thấp |\n| **Tăng cường thu thập và quản lý dữ liệu** | • **Đầu tư xây dựng hạ tầng dữ liệu biển:** Phát triển các hệ thống vững chắc để thu thập, quản lý và chia sẻ dữ liệu biển, bao gồm hình ảnh vệ tinh, dữ liệu hải dương học và thống kê thủy sản.<br><br>• **Khai thác công nghệ:** Sử dụng công nghệ viễn thám, trí tuệ nhân tạo (AI) và phân tích dữ liệu lớn để cải thiện độ chính xác và kịp thời của dữ liệu kinh tế biển.<br><br>• **Phối hợp với các bên liên quan:** Huy động sự tham gia của các ngành công nghiệp, tổ chức nghiên cứu và cộng đồng địa phương để thu thập dữ liệu về các hoạt động biển và tác động kinh tế. | Trung bình | Thấp | Thấp |\n| **Xây dựng năng lực thể chế** | • **Đào tạo chuyên gia:** Đào tạo cho các chuyên gia thống kê, chuyên gia kinh tế và chuyên gia hoạch định chính sách về các phương pháp hạch toán kinh tế biển.<br><br>• **Thành lập các đơn vị chuyên môn:** Thành lập các bộ phận chuyên môn trong Tổng cục Thống kê để tập trung vào hạch toán kinh tế biển.<br><br>• **Thúc đẩy hợp tác:** Tăng cường hợp tác giữa các cơ quan chính phủ, học viện và khu vực tư nhân để chia sẻ kiến thức và nguồn lực. | Trung bình | Thấp | Thấp |"
+   }
+  ],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1595,
+   "output_tokens": 646,
+   "thinking_tokens": 114
+  },
+  "latency_s": 4.069
+ },
+ "119": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [
+   {
+    "kind": "table",
+    "label": "",
+    "title": "",
+    "region": "full",
+    "content": "| Khuyến nghị theo ngành/không gian | Đồng lợi ích kinh tế | Đồng lợi ích giảm nhẹ | Đồng lợi ích thích ứng |\n| :--- | :--- | :--- | :--- |\n| **Vận hành các tài khoản hạch toán kinh tế biển** | • **Tích hợp chính sách:** Sử dụng tài khoản kinh tế biển để cung cấp thông tin cho quy hoạch không gian biển, quản lý nghề cá bền vững và chiến lược kinh tế biển xanh.<br>• **Khuyến khích áp dụng các thông lệ bền vững:** Hình thành các cơ chế ưu đãi kinh tế (trợ giá, thuế hoặc chi trả cho các dịch vụ hệ sinh thái) để thúc đẩy sử dụng bền vững tài nguyên biển. | Trung bình | Thấp | Trung bình |\n| **Thực thi hiệu lực các quy định về quy hoạch không gian biển (MSP)** | • **Soạn thảo và thông qua các quy định của quốc gia về quy hoạch không gian biển trong vòng 12 tháng**, gắn với các chỉ số kinh tế biển.<br>• **Thành lập tổ công tác quy hoạch không gian biển** để giám sát quá trình thực hiện và đảm bảo phù hợp với các mục tiêu về kinh tế biển.<br>• **Triển khai các dự án thí điểm ở ba khu vực ven biển có rủi ro cao** để thử nghiệm và tinh chỉnh các khuôn khổ quy hoạch không gian biển. | Trung bình | Thấp | Trung bình |\n| **Đẩy nhanh các phương thức bảo vệ bờ biển dựa vào thiên nhiên** | • **Khôi phục và mở rộng rừng ngập mặn, vùng trồng cỏ biển**, với mục tiêu khôi phục 50.000 ha rừng ngập mặn vào năm 2030 được pháp luật bảo vệ.<br>• **Chỉ định 30% thảm cỏ biển và rạn san hô của quốc gia làm khu bảo tồn** để tăng cường đa dạng sinh học và khả năng phục hồi của hệ sinh thái.<br>• **Lồng ghép các giải pháp dựa vào thiên nhiên** vào tất cả các quy hoạch/kế hoạch thích ứng khí hậu và các dự án kết cấu hạ tầng theo hướng hài hòa với khuôn khổ hạch toán kinh tế biển. | Cao | Cao | Cao |\n| **Đảm bảo tăng trưởng du lịch bền vững và bao trùm** | • **Yêu cầu các dự án du lịch mới ở các tỉnh ven biển vào năm 2030 phải sử dụng 50% lao động địa phương** và tiến hành đánh giá môi trường bắt buộc cho phù hợp với mục tiêu hạch toán kinh tế biển.<br>• **Triển khai chương trình chứng nhận bền vững** trên cơ sở kiểm tra hai năm một lần nhằm đảm bảo tuân thủ các tiêu chuẩn môi trường và xã hội.<br>• **Phân bổ 10% doanh thu du lịch cho các quỹ cộng đồng**, nhằm hỗ trợ phát triển địa phương và liên kết lợi ích kinh tế với sức khỏe của hệ sinh thái biển. | Trung bình | Trung bình | Trung bình |"
+   }
+  ],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1595,
+   "output_tokens": 703,
+   "thinking_tokens": 105
+  },
+  "latency_s": 6.221
+ },
+ "120": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [
+   {
+    "kind": "table",
+    "label": "Phụ lục 1.0",
+    "title": "Cập nhật tiến độ năm gói chính sách ưu tiên trong Báo cáo CCDR 2022",
+    "region": "middle",
+    "content": "| Gói chính sách CCDR | Cập nhật tiến độ – Tháng 4/2025 |\n| :--- | :--- |\n| **Gói chính sách ưu tiên #1: Một chương trình cấp vùng có điều phối cho khu vực Đồng bằng sông Cửu Long.**<br>Chương trình này cần tập trung ngăn chặn sụt lún và xâm nhập mặn thêm bằng cách hạn chế khai thác cát và nước ngầm, thay đổi phương thức canh tác để thích ứng, tăng dòng chảy và bổ cấp tầng chứa nước ngọt, và phục hồi rừng ngập mặn. Tài sản vật chất hiện có cần được trang bị thêm để trở nên ít tổn thương hơn khi xảy ra ngập lụt, trong khi Luật đất đai, bao gồm cả quy định quy hoạch sử dụng đất, cần được sửa đổi để ngăn chặn tình trạng xâm lấn thêm các thảm thực vật tự nhiên. Bên cạnh đó, các dự án xây dựng mới cần tính đến rủi ro khí hậu thông qua các đánh giá môi trường có hệ thống. Tất cả các biện pháp này đòi hỏi phải củng cố Hội đồng Điều phối vùng, khắc phục tình trạng thiếu hụt đầu tư công trong thời gian gần đây. Các biện pháp này cũng sẽ liên quan đến việc sửa đổi cơ chế, nguyên tắc hỗ trợ từ ngân sách trung ương cho ngân sách địa phương, đồng thời khuyến khích sử dụng các công cụ cụ thể như trái phiếu xanh để huy động vốn cho các dự án mới. | Quy hoạch vùng đồng bằng sông Cửu Long thời kỳ 2021-2030, tầm nhìn đến năm 2050 đã được thông qua vào tháng 2/2022.<br><br>Trong tháng 7 và tháng 8/2023, Thủ tướng Phạm Minh Chính đã ký các quyết định thành lập Hội đồng điều phối vùng cho 6 vùng trên cả nước: Đồng bằng sông Hồng, Bắc Trung Bộ và Duyên hải miền Trung, Đông Nam Bộ, Tây Nguyên, Đồng bằng sông Cửu Long và Trung du và miền núi phía Bắc, chịu trách nhiệm điều phối các hoạt động liên kết để phát triển hạ tầng và kinh tế-xã hội của khu vực, ưu tiên cho kết cấu hạ tầng giao thông. Các Hội đồng điều phối vùng sẽ nghiên cứu và đề xuất thành lập quỹ phát triển hạ tầng khu vực.<br><br>Hội nghị lần thứ nhất Hội đồng Điều phối Vùng Đồng bằng sông Cửu Long đã diễn ra vào tháng 9/2023 với sự tham gia của lãnh đạo Chính phủ, bộ, cơ quan Trung ương cũng như 13 tỉnh, thành vùng Đồng bằng sông Cửu Long, tìm hiểu cơ chế, chính sách phát triển vùng, cũng như sự kết nối, phối hợp giữa các dự án thúc đẩy liên kết nội vùng và liên vùng.<br><br>https://vietnamlawmagazine.vn/coordinating-council-for-mekong-delta-region-opens-first-meeting-70552.html |\n| **Gói chính sách ưu tiên #2: Một chương trình đầu tư tăng khả năng chống chịu ven biển tích hợp cho các trung tâm đô thị chính và cơ sở hạ tầng kết nối.**<br>Các khu vực ven biển miền Trung thường xuyên | Ngày 15/12/2024, Bộ Tài nguyên và Môi trường đã công bố Quy hoạch tổng thể khai thác, sử dụng bền vững tài nguyên vùng bờ thời kỳ 2021 - 2030, tầm nhìn đến 2050 được Thủ tướng Chính phủ phê duyệt theo Quyết định 1117, với tầm nhìn biến các |"
+   }
+  ],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1595,
+   "output_tokens": 863,
+   "thinking_tokens": 121
+  },
+  "latency_s": 4.593
+ },
+ "121": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1595,
+   "output_tokens": 49,
+   "thinking_tokens": 121
+  },
+  "latency_s": 2.11
+ },
+ "122": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1595,
+   "output_tokens": 5,
+   "thinking_tokens": 122
+  },
+  "latency_s": 2.275
+ },
+ "123": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1595,
+   "output_tokens": 57,
+   "thinking_tokens": 120
+  },
+  "latency_s": 2.166
+ },
+ "124": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1595,
+   "output_tokens": 76,
+   "thinking_tokens": 120
+  },
+  "latency_s": 2.276
+ },
+ "125": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1595,
+   "output_tokens": 14,
+   "thinking_tokens": 113
+  },
+  "latency_s": 3.746
+ },
+ "126": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [
+   {
+    "kind": "table",
+    "label": "Bảng A1.4.1",
+    "title": "Nhu cầu tưới tiêu chưa được đáp ứng",
+    "region": "middle",
+    "content": "| Thập kỷ | Nhu cầu (nghìn GWh) | | | Chênh lệch so với kịch bản tham chiếu | |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n| | Kịch bản tham chiếu không có biến đổi khí hậu | Trung bình cộng của kịch bản dồi dào nguồn nước | Trung bình cộng của kịch bản khan hiếm nguồn nước | Trung bình cộng của kịch bản dồi dào nguồn nước | Trung bình cộng của kịch bản khan hiếm nguồn nước |\n| 2030 | 1,70% | 2,10% | 2,60% | 0,4% | 0,8% |\n| 2040 | 1,80% | 2,90% | 3,70% | 1,1% | 1,9% |"
+   }
+  ],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1595,
+   "output_tokens": 278,
+   "thinking_tokens": 103
+  },
+  "latency_s": 2.851
+ },
+ "127": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [
+   {
+    "kind": "table",
+    "label": "Bảng A1.4.2",
+    "title": "Thay đổi trong sản xuất cây trồng, lưu vực ngoài sông Mê Công",
+    "region": "top",
+    "content": "| Nhóm | Thập kỷ | Trung bình cộng của kịch bản dồi dào nguồn nước | Trung bình cộng của kịch bản khan hiếm nguồn nước |\n| :--- | :--- | :--- | :--- |\n| Toàn bộ sản xuất cây trồng | 2031-40 | -3,1% | -2,2% |\n| | 2041-50 | -5,4% | -4,3% |\n| Cây trồng được tưới tiêu | 2031-40 | -2,8% | -1,9% |\n| | 2041-50 | -4,8% | -3,7% |\n| Cây trồng canh tác khô | 2031-40 | -5,4% | -4,1% |\n| | 2041-50 | -9,2% | -9,2% |\n\n*Nguồn: Ngân hàng Thế giới và Industrial Economics, Inc.*"
+   },
+   {
+    "kind": "table",
+    "label": "Bảng A.1.5.1",
+    "title": "Các loại thiệt hại liên quan đến khí hậu",
+    "region": "bottom",
+    "content": "| Kênh tác động | Loại thiệt hại |\n| :--- | :--- |\n| Năng suất lao động | Sốc nhiệt |\n| Tổng vốn | Lũ sông |\n| | Bão |\n| | Mực nước biển dâng |\n| Nông nghiệp và các ngành khác | Nông nghiệp: Lúa và các loại cây trồng khác |\n| | Thủy hải sản |\n| | Lâm nghiệp |\n| | Thủy điện |"
+   }
+  ],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1595,
+   "output_tokens": 472,
+   "thinking_tokens": 109
+  },
+  "latency_s": 2.967
+ },
+ "128": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [
+   {
+    "kind": "table",
+    "label": "Phụ lục 1.6",
+    "title": "Chính sách tài khóa và hành động thúc đẩy tăng trưởng xanh",
+    "region": "middle",
+    "content": "| Lĩnh vực can thiệp | Hành động và mục tiêu |\n| :--- | :--- |\n| **Chiến lược tài chính của Chính phủ** | Việc tăng cường các chiến lược tài chính để giải quyết vấn đề biến đổi khí hậu đòi hỏi phải lồng ghép yếu tố nhạy cảm về khí hậu vào quản lý tài chính công, cụ thể là ước tính và gắn thẻ các tác động tích cực, tiêu cực và trung lập về khí hậu của các chính sách chi tiêu công, đầu tư và thuế, tập trung vào cả nỗ lực thích ứng và giảm thiểu. Việc thiết lập một hệ thống giám sát và báo cáo hiệu quả sẽ nâng cao khả năng theo dõi và phân tích các khoản chi liên quan đến khí hậu, cung cấp thông tin đầu vào cho quá trình hoạch định chính sách và lập kế hoạch về biến đổi khí hậu dựa trên bằng chứng, đồng thời truyền đạt hiệu quả các nỗ lực tài chính khí hậu tới cộng đồng quốc tế. |\n| **Hỗ trợ ngân sách cho chính quyền địa phương** | Từng bước lồng ghép nhu cầu tài chính vào hệ thống hỗ trợ ngân sách vô điều kiện cho chính quyền địa phương, điều chỉnh việc phân bổ theo mức độ dễ bị tổn thương và rủi ro về khí hậu tương ứng. Bên cạnh đó, cần khuyến khích các hành động chuyển đổi xanh và ứng phó với biến đổi khí hậu thông qua các khoản hỗ trợ ngân sách có điều kiện, chẳng hạn như chuyển ngân sách sinh thái và chi trả cho các dịch vụ sinh thái, để thúc đẩy phát triển bền vững và khả năng thích ứng ở cấp địa phương. |"
+   }
+  ],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1595,
+   "output_tokens": 414,
+   "thinking_tokens": 120
+  },
+  "latency_s": 2.575
+ },
+ "129": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [
+   {
+    "kind": "table",
+    "label": "",
+    "title": "",
+    "region": "top",
+    "content": "| Lĩnh vực | Nội dung |\n| :--- | :--- |\n| **Chi tiêu và đầu tư** | Cung cấp các cơ chế tài chính và ưu đãi thúc đẩy liên kết đầu tư giữa các cấp chính quyền nhằm thúc đẩy hành động thích ứng với biến đổi khí hậu và giảm nhẹ, đồng thời giải quyết những bất cập về quy định trong Luật Ngân sách Nhà nước đối với đầu tư công liên kết giữa các cấp chính quyền. Phân loại và gắn thẻ chi tiêu cho biến đổi khí hậu vào cả chi đầu tư và chi thường xuyên cho biến đổi khí hậu cũng như áp dụng mã nhiệm vụ cụ thể đối với chi tiêu cho biến đổi khí hậu trong Hệ thống thông tin quản lý ngân sách và kho bạc (TABMIS). |\n| **Đầu tư công** | Tham chiếu trực tiếp đến tác động và yêu cầu giảm thiểu biến đổi khí hậu khi phân loại đầu tư công trong luật về biến đổi khí hậu, bảo vệ môi trường và xây dựng. Lồng ghép các cân nhắc về rủi ro khí hậu vào đầu tư công bằng cách trước hết lập bản đồ rủi ro khí hậu cho các mạng lưới hạ tầng quan trọng, chẳng hạn như hệ thống giao thông và cấp thoát nước. Yêu cầu sàng lọc biến đổi khí hậu và đánh giá các biện pháp thích ứng trong giai đoạn đầu của quá trình lập kế hoạch đầu tư, bao gồm các nghiên cứu tiền khả thi và khả thi, đặc biệt đối với các dự án có nguy cơ rủi ro khí hậu cao. Yêu cầu báo cáo nhằm cung cấp thông tin về tính phù hợp với bối cảnh biến đổi khí hậu trong các báo cáo chính sách đầu tư và nghiên cứu khả thi của dự án, tích hợp vào các văn bản pháp lý (ví dụ: về ODA và đầu tư). |\n| **Quản lý tài sản** | Tối ưu hóa danh mục tài sản hạ tầng bằng cách điều chỉnh theo mức độ dễ bị tổn thương và rủi ro về khí hậu. Tích hợp một cách có hệ thống các tiêu chí và biện pháp cải tiến để giảm thiểu rủi ro tài sản mắc kẹt và tăng cường khả năng thích ứng cũng như tính bền vững lâu dài. |"
+   },
+   {
+    "kind": "table",
+    "label": "Phụ lục 1.7",
+    "title": "Các lựa chọn chính sách được lập bản đồ theo Kế hoạch thích ứng quốc gia (NAP) kèm theo một số ví dụ",
+    "region": "bottom",
+    "content": "| Các lĩnh vực can thiệp được xác định trong NAP | Hành động và mục tiêu | Ví dụ |\n| :--- | :--- | :--- |\n| **Giảm thiểu rủi ro thiên tai NAP: (2) Ứng phó với thiên tai, phòng chống ngập lụt ở các thành phố lớn, củng cố hệ thống đê sông, đê biển và hồ chứa nước an toàn.** | Đầu tư hạ tầng thích ứng với biến đổi khí hậu | Các dự án quản lý lũ lụt của Thái Lan: xây dựng các rào chắn lũ, hồ chứa và hệ thống thoát nước để giảm thiểu tác động của lượng mưa lớn và ngăn ngừa lũ lụt ở các khu vực đô thị như Bangkok. |\n| | Thực hiện các chính sách, chiến lược và hành động để giảm thiểu tình trạng dễ bị tổn thương của cộng đồng và xã hội trước những thảm họa do biến đổi khí hậu gây ra. | Giảm thiểu rủi ro thiên tai dựa vào cộng đồng tại Philippines: nâng cao năng lực cho cộng đồng địa phương để xác định rủi ro, xây dựng kế hoạch dự phòng và thực hiện các biện pháp giảm thiểu.<br><br>Kiểm soát và quản lý lũ lụt của Trung Quốc: chính phủ đã đầu tư mạnh vào hạ tầng kiểm soát lũ lụt – như đập, hồ chứa và đê – để giảm thiểu rủi ro lũ lụt và bảo vệ các khu vực dễ bị tổn thương. |"
+   }
+  ],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1595,
+   "output_tokens": 890,
+   "thinking_tokens": 112
+  },
+  "latency_s": 4.197
+ },
+ "130": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [
+   {
+    "kind": "table",
+    "label": "",
+    "title": "",
+    "region": "full",
+    "content": "| Các lĩnh vực can thiệp được xác định trong NAP | Hành động và mục tiêu | Ví dụ |\n| :--- | :--- | :--- |\n| Nông nghiệp thông minh thích ứng với khí hậu trong NAP: (3) Đảm bảo an ninh lương thực | Thúc đẩy nông nghiệp chính xác: sử dụng công nghệ tiên tiến, phân tích dữ liệu và các phương pháp canh tác sáng tạo để tối ưu hóa sản xuất nông nghiệp đồng thời giảm thiểu tác động đến môi trường và tối đa hóa hiệu quả sử dụng tài nguyên. | Hệ thống tưới chính xác của Israel: các kỹ thuật như tưới nhỏ giọt và cảm biến độ ẩm đất giúp sử dụng nước hiệu quả, đồng thời giảm nguy cơ mất mùa do thiếu nước. |\n| | Thúc đẩy đa dạng hóa cây trồng: giúp tăng cường khả năng phục hồi khí hậu thông qua giảm thiểu rủi ro, nâng cao sức khỏe đất, cải thiện quản lý nước, kiểm soát sâu bệnh và bảo tồn đa dạng sinh học. Bên cạnh đó, ổn định kinh tế cũng được thúc đẩy thông qua việc giảm thiểu rủi ro. | Cà phê trồng dưới bóng râm ở Costa Rica và Hệ thống nông lâm kết hợp Taungya của Nigeria: tích hợp cây ăn quả, cây lấy gỗ hoặc các cây trồng lâu năm khác vào sản xuất nông nghiệp có thể đa dạng hóa nguồn thu nhập, cải thiện sức khỏe đất và cung cấp các dịch vụ hệ sinh thái như cô lập các-bon và bảo tồn đa dạng sinh học. Các biện pháp nông lâm kết hợp đặc biệt phù hợp với các vùng đồi núi và cao nguyên ở Đông Á. |\n| | Cải thiện các biện pháp quản lý chăn nuôi giúp giảm thiểu tác động của biến đổi khí hậu đối với vật nuôi và hệ thống chăn nuôi. | Hệ thống chăn nuôi kết hợp lâm sinh của Colombia: các khu vực rộng lớn của hệ thống chăn nuôi kết hợp lâm sinh, nơi cây xanh được trồng xen kẽ với đồng cỏ chăn thả gia súc. Các loại cây như cây họ đậu được trồng trên đồng cỏ để cung cấp bóng râm, thức ăn chăn nuôi và gỗ, đồng thời cải thiện độ phì nhiêu của đất. Hệ thống này cũng giúp tăng năng suất và tính bền vững của sản xuất chăn nuôi. |\n| Quản lý nguồn nước NAP: (4) Đảm bảo an ninh nguồn nước | Áp dụng phương pháp tiếp cận toàn diện đối với quản lý tài nguyên nước tổng hợp: quản lý tài nguyên nước trên cơ sở xem xét mối liên hệ giữa nước mặt, nước ngầm và các yếu tố khác của chu trình thủy văn. | Quản lý lưu vực sông tổng hợp của Nhật Bản: Lưu vực sông Yasugawa ở tỉnh Shiga áp dụng chiến lược toàn diện có sự tham gia của các bên liên quan từ nhiều lĩnh vực khác nhau trong quá trình ra quyết định, bao gồm kiểm soát lũ lụt, cấp nước, sản xuất nông nghiệp và bảo tồn.<br><br>Thu gom nước mưa ở Singapore: hệ thống thu gom trên mái nhà và bể chứa ngầm để dự trữ nước mưa để sử dụng dần, giảm sự phụ thuộc vào nguồn nước nhập khẩu và tăng khả năng thích ứng với hạn hán. |"
+   }
+  ],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1595,
+   "output_tokens": 730,
+   "thinking_tokens": 105
+  },
+  "latency_s": 3.411
+ },
+ "131": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [
+   {
+    "kind": "table",
+    "label": "",
+    "title": "Nâng cao năng lực thích ứng của cộng đồng địa phương NAP (5): Cộng đồng thích ứng hiệu quả với biến đổi khí hậu",
+    "region": "full",
+    "content": "| Nhóm giải pháp | Nội dung chi tiết |\n| :--- | :--- |\n| **Thúc đẩy bảo tồn tài nguyên nước** | - **Sáng kiến Thành phố bọt biển của Trung Quốc:** thúc đẩy việc triển khai hạ tầng xanh như vỉa hè thấm nước, mái nhà xanh và vườn mưa để hấp thụ và lưu giữ nước mưa, giảm nước mưa chảy tràn cũng như giảm thiểu rủi ro úng ngập, đồng thời bổ sung trữ lượng nước ngầm.<br>- **Các dự án phát triển lưu vực sông của Ấn Độ:** xây dựng các công trình bảo tồn đất và nước như đập chống lũ, rãnh đông mức và bể thẩm thấu để thu gom nước mưa và bổ sung nước ngầm. Các ủy ban lưu vực sông bao gồm đại diện nông dân địa phương được thành lập để lập kế hoạch, thực hiện và quản lý các hoạt động lưu vực sông. Phương pháp tiếp cận có sự tham gia và huy động cộng đồng là yếu tố chủ chốt của các dự án này. |\n| **Bảo vệ và phục hồi các hệ sinh thái tự nhiên** | - **Mái nhà và tường xanh tại Nhật Bản:** ở các khu vực đô thị, mái nhà và tường xanh ngày càng được sử dụng nhiều để hấp thụ nước mưa, giảm nước mưa chảy tràn và giảm nhiệt độ đô thị. |\n| **Nâng cao năng lực thích ứng của cộng đồng địa phương NAP (5): Cộng đồng thích ứng hiệu quả với biến đổi khí hậu** | - **Philippines:** được thực hiện bởi các tổ chức phi chính phủ và chính quyền địa phương, các hoạt động bao gồm thiết lập hệ thống cảnh báo sớm dựa vào cộng đồng về bão và mực nước biển dâng, khôi phục rừng ngập mặn, quản lý đánh bắt bền vững và nâng cao năng lực để chuẩn bị và ứng phó với thảm họa.<br>- **Bangladesh:** Trung tâm Quốc tế về Biến đổi Khí hậu và Phát triển chủ trì các hoạt động bao gồm xây dựng nơi tránh trú bão và nền cao cho gia súc trong thời gian lũ lụt, thúc đẩy các hoạt động nông nghiệp thích ứng với biến đổi khí hậu, đào tạo về phòng ngừa thảm họa và quy trình sơ tán, đồng thời đa dạng hóa sinh kế thông qua các hoạt động tạo thu nhập thay thế. |\n| **Thúc đẩy chia sẻ kiến thức và nâng cao năng lực trong cộng đồng** | - **Đào tạo thích ứng dựa vào cộng đồng của Bangladesh:** các tổ chức như Trung tâm quốc tế về biến đổi khí hậu và phát triển và Trung tâm nghiên cứu nâng cao Bangladesh cung cấp đào tạo và nâng cao năng lực bao gồm nhiều khía cạnh khác nhau của việc thích ứng với biến đổi khí hậu như phòng ngừa thiên tai, đa dạng hóa sinh kế, các phương pháp tiếp cận dựa vào hệ sinh thái và hệ thống cảnh báo sớm dựa vào cộng đồng. |"
+   }
+  ],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1595,
+   "output_tokens": 691,
+   "thinking_tokens": 107
+  },
+  "latency_s": 3.817
+ },
+ "132": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [
+   {
+    "kind": "table",
+    "label": "",
+    "title": "",
+    "region": "middle",
+    "content": "| Các lĩnh vực can thiệp được xác định trong NAP | Hành động và mục tiêu | Ví dụ |\n| :--- | :--- | :--- |\n| NAP (6): Huy động tài chính cho thích ứng với biến đổi khí hậu | Giải quyết các nghĩa vụ nợ tiềm ẩn do biến đổi khí hậu gây ra cho Chính phủ, doanh nghiệp hay hộ gia đình. | Quỹ thích ứng với biến đổi khí hậu của Indonesia: cung cấp hỗ trợ tài chính cho các dự án và sáng kiến thích ứng. Quỹ hỗ trợ các nỗ lực thích ứng dựa vào cộng đồng, các dự án phục hồi hệ sinh thái và nâng cấp hạ tầng nhằm tăng cường khả năng phục hồi trước tác động của biến đổi khí hậu, qua đó giảm thiểu các nghĩa vụ phát sinh do thảm họa và thiệt hại liên quan đến khí hậu.<br><br>Chính sách bảo hiểm nông nghiệp của Trung Quốc: giúp nông dân ứng phó với các rủi ro liên quan đến khí hậu như hạn hán, lũ lụt và nhiệt độ khắc nghiệt. Các chính sách này cung cấp các khoản bồi thường tài chính cho nông dân trong trường hợp mất mùa do điều kiện thời tiết bất lợi, từ đó giảm các khoản nợ phát sinh liên quan đến sản xuất nông nghiệp. |\n| | Tạo dư địa tài chính khóa cho đầu tư vào khả năng phục hồi khí hậu. | Thuế/Phí các-bon: Colombia, Indonesia, Nam Phi. |\n| | Tận dụng tài chính xanh để huy động đầu tư tư nhân vào nâng cao khả năng thích ứng với biến đổi khí hậu (hạ tầng thích ứng).<br>1. Trái phiếu xanh<br>2. Tín chỉ xanh | Trái phiếu xanh đầu tiên của ngân hàng BDO Philippines (150 triệu USD), Trái phiếu xanh của BIDV Việt Nam (100 triệu USD).<br><br>Chương trình tín chỉ xanh có thể chuyển nhượng của Ấn Độ. |"
+   }
+  ],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1595,
+   "output_tokens": 471,
+   "thinking_tokens": 113
+  },
+  "latency_s": 7.52
+ },
+ "133": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1595,
+   "output_tokens": 94,
+   "thinking_tokens": 120
+  },
+  "latency_s": 4.591
+ },
+ "134": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1595,
+   "output_tokens": 5,
+   "thinking_tokens": 120
+  },
+  "latency_s": 2.656
+ },
+ "135": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1595,
+   "output_tokens": 74,
+   "thinking_tokens": 119
+  },
+  "latency_s": 2.732
+ },
+ "136": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [
+   {
+    "kind": "chart",
+    "label": "Hình A2.2.1",
+    "title": "Phát thải trong nông nghiệp, 2021",
+    "region": "top-left",
+    "content": "Biểu đồ hình tròn (donut chart) thể hiện tỷ trọng các nguồn phát thải trong nông nghiệp năm 2021. Biểu đồ chia thành hai nhóm lớn: Chăn nuôi (34%) và Trồng trọt (66%). Các thành phần chi tiết bao gồm: Trồng lúa (49.2%), Phân bón tổng hợp (11.9%), Tàn dư cây trồng (3.6%), Đốt tàn dư cây trồng (0.6%), Trồng đất hữu cơ (0.2%), Đốt rừng (0.2%), Lên men đường ruột (17.8%), Quản lý phân chuồng (9.3%), Phân để lại trên đồng cỏ (4.5%), Phân bón cho đất (2.7%). Nguồn: Climate Watch.",
+    "Giá trị ước lượng": "Trồng lúa: 49.2%; Phân bón tổng hợp: 11.9%; Tàn dư cây trồng: 3.6%; Đốt tàn dư cây trồng: 0.6%; Trồng đất hữu cơ: 0.2%; Đốt rừng: 0.2%; Lên men đường ruột: 17.8%; Quản lý phân chuồng: 9.3%; Phân để lại trên đồng cỏ: 4.5%; Phân bón cho đất: 2.7%; Nhóm Chăn nuôi: 34%; Nhóm Trồng trọt: 66%"
+   },
+   {
+    "kind": "chart",
+    "label": "Hình A2.2.2",
+    "title": "Lượng phát thải theo phân ngành nông nghiệp, 2021",
+    "region": "top-right",
+    "content": "Biểu đồ hình tròn (donut chart) thể hiện tỷ trọng các loại khí phát thải trong nông nghiệp năm 2021. Biểu đồ bao gồm hai thành phần chính: Metan (69%) và Nito Ôxit (31%). Tâm biểu đồ ghi năm 2021. Nguồn: Climate Watch.",
+    "Giá trị ước lượng": "Metan: 69%; Nito Ôxit: 31%"
+   }
+  ],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1595,
+   "output_tokens": 563,
+   "thinking_tokens": 109
+  },
+  "latency_s": 4.66
+ },
+ "137": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [
+   {
+    "kind": "chart",
+    "label": "Hình A2.3.1",
+    "title": "Tiêu thụ năng lượng sơ cấp theo % GDP (kWh/$)",
+    "region": "bottom-left",
+    "content": "Biểu đồ cột so sánh tiêu thụ năng lượng sơ cấp theo % GDP (kWh/$) giữa các quốc gia và thế giới. Trục tung là giá trị từ 0 đến 1.8. Trục hoành gồm các quốc gia: Trung Quốc, In-đô-nê-xi-a, Hàn Quốc, Thái Lan, Việt Nam (cột màu đỏ), Thế giới. Nguồn: Cơ quan Năng lượng Quốc tế (IEA).",
+    "Giá trị ước lượng": "Trung Quốc ≈ 1.65; In-đô-nê-xi-a ≈ 0.8; Hàn Quốc ≈ 1.65; Thái Lan ≈ 1.25; Việt Nam ≈ 1.5; Thế giới ≈ 1.3"
+   },
+   {
+    "kind": "chart",
+    "label": "Hình A2.3.2",
+    "title": "Tiêu thụ năng lượng cuối cùng (TJ)",
+    "region": "bottom-right",
+    "content": "Biểu đồ cột chồng thể hiện tiêu thụ năng lượng cuối cùng (TJ) từ năm 2010 đến 2021, phân loại theo các ngành. Chú giải gồm: Tiêu dùng không sử dụng năng lượng (màu xanh lá nhạt), Nông nghiệp/lâm nghiệp (màu xanh dương nhạt), Dịch vụ thương mại và công cộng (màu vàng), Khu dân cư (màu xám), Giao thông (màu cam), Công nghiệp (màu xanh dương đậm). Trục tung từ 0 đến 3.000.000. Nguồn: Cơ quan Năng lượng Quốc tế (IEA).",
+    "Giá trị ước lượng": "Xu hướng chung: Tổng tiêu thụ năng lượng tăng dần từ khoảng 2.000.000 TJ năm 2010 lên gần 2.800.000 TJ năm 2021. Ngành Công nghiệp (màu xanh dương đậm) chiếm tỷ trọng lớn nhất và có xu hướng tăng rõ rệt qua các năm."
+   }
+  ],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1595,
+   "output_tokens": 539,
+   "thinking_tokens": 125
+  },
+  "latency_s": 4.928
+ },
+ "138": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [
+   {
+    "kind": "table",
+    "label": "Bảng A2.3.1",
+    "title": "Các mục tiêu chính của Chương trình quốc gia về sử dụng năng lượng tiết kiệm, hiệu quả",
+    "region": "top",
+    "content": "| Mục tiêu chính | 2025 (%) | 2030 (%) |\n| :--- | :--- | :--- |\n| Tiết kiệm năng lượng trong tổng mức tiêu thụ năng lượng | 5-7 | 8-10 |\n| Thất thoát năng lượng | Giảm dưới 6,5 | Giảm dưới 6 |\n| Tiêu thụ năng lượng trong công nghiệp | | |\n| (i) Công nghiệp thép | 3.-10 | 5,00-16,5 |\n| (ii) Công nghiệp hóa chất | ít nhất 7 | ít nhất 10 |\n| (iii) Công nghiệp sản xuất nhựa | 18-22,5 | 21,5-24,8 |\n| (iv) Công nghiệp xi măng | ít nhất 7,5 | ít nhất 10,9 |\n| (v) Công nghiệp dệt may | ít nhất 5. | ít nhất 6,8 |\n| (vi) Công nghiệp rượu, bia và nước giải khát | 3.-6,9 | 4,6-8,4 |\n| (vii) Công nghiệp giấy | 8.-15,8 | 9,9-18,5 |\n\n*Nguồn: Quyết định 280/QĐ-TTg (tháng 3/2019).*"
+   }
+  ],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1595,
+   "output_tokens": 395,
+   "thinking_tokens": 103
+  },
+  "latency_s": 4.404
+ },
+ "139": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [
+   {
+    "kind": "diagram",
+    "label": "Hình A2.4.1",
+    "title": "Kế hoạch phát triển thị trường các-bon",
+    "region": "top",
+    "content": "Sơ đồ dòng thời gian (timeline) thể hiện lộ trình phát triển thị trường các-bon từ năm 2023 đến 2028:\n- Giai đoạn 2023-2024: Xây dựng hệ thống quy định về quản lý tín chỉ các-bon, trao đổi hạn ngạch và hoạt động của nền tảng giao dịch tín chỉ các-bon.\n- Giai đoạn 2025-2027: Thí điểm trao đổi tín chỉ các-bon.\n- Năm 2028: Chính thức ra mắt sàn giao dịch tín chỉ các-bon và hội nhập thị trường trong nước với thị trường khu vực và quốc tế.\nNguồn: Minh họa của tác giả về Nghị định số 06/2022/NĐ-CP."
+   }
+  ],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1595,
+   "output_tokens": 253,
+   "thinking_tokens": 119
+  },
+  "latency_s": 3.035
+ },
+ "140": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1595,
+   "output_tokens": 47,
+   "thinking_tokens": 121
+  },
+  "latency_s": 2.912
+ },
+ "141": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [
+   {
+    "kind": "table",
+    "label": "Hình A2.6.1",
+    "title": "Giảm phát thải theo QHĐ8",
+    "region": "top",
+    "content": "Tiêu đề: Giảm phát thải theo QHĐ8 (% thay đổi so với chỉ số cơ sở)\n\n| Giảm phát thải | 2030 | 2040 | 2050 |\n| :--- | :--- | :--- | :--- |\n| QHĐ8 | -4,68% | -10,81% | -15,34% |\n\nNguồn: Mô phỏng của cán bộ Ngân hàng Thế giới sử dụng mô hình MANAGE."
+   },
+   {
+    "kind": "table",
+    "label": "Bảng A2.6.2a",
+    "title": "Nhu cầu đầu tư của QHĐ8",
+    "region": "middle-left",
+    "content": "| Đầu tư (tỷ USD) | 2021-30 | 2031-50 |\n| :--- | :--- | :--- |\n| Nguồn điện | 119,8 | 484,4 |\n| Truyền tải | 15 | 38,6 |\n| Tổng | 134,7 | 523,1 |\n\nNguồn: QHĐ8 (2023)."
+   },
+   {
+    "kind": "table",
+    "label": "Bảng A2.6.2b",
+    "title": "Đầu tư theo ngành 2021–2030",
+    "region": "middle-right",
+    "content": "| Đầu tư (tỷ USD) | Đầu tư công | Đầu tư tư nhân | Tổng |\n| :--- | :--- | :--- | :--- |\n| Nguồn điện | 24,0 | 95,8 | 119,8 |\n| | 20% | 80% | 89% |\n| Truyền tải | 12,0 | 3,0 | 15,0 |\n| | 80% | 20% | 11% |\n| Toàn hệ thống | 36,0 | 98,8 | 134,8 |\n| | 27% | 73% | |"
+   }
+  ],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1595,
+   "output_tokens": 584,
+   "thinking_tokens": 117
+  },
+  "latency_s": 2.875
+ },
+ "142": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [
+   {
+    "kind": "chart",
+    "label": "Phụ lục 2.7",
+    "title": "Thay đổi các yếu tố thành phần trong cơ cấu phát thải khí nhà kính của Việt Nam (không bao gồm LUCF)",
+    "region": "top",
+    "content": "Biểu đồ cột chồng (stacked bar chart) thể hiện cơ cấu phát thải khí nhà kính theo các ngành qua các năm 2001, 2011, 2021. Trục tung là tỷ lệ phần trăm (0% - 100%).\n\nChú giải các thành phần (từ dưới lên trên trong cột):\n- Điện/Nhiệt (màu xanh dương sáng)\n- Sán xuất công nghiệp (màu xanh lá cây)\n- Giao thông vận tải (màu nâu)\n- Phát thải rò rỉ (màu xanh dương đậm)\n- Chế biến chế tạo/xây dựng (màu tím)\n- Nông nghiệp (màu xanh đen)\n- Chất thải (màu xanh lá cây đậm)\n- Tòa nhà (màu tím đậm)\n\nNguồn: Cơ quan Năng lượng Quốc tế (IEA).\n\nGiá trị ước lượng (đọc từ biểu đồ):\n- Năm 2001: Điện/Nhiệt ≈ 9%; Sán xuất công nghiệp ≈ 11%; Giao thông vận tải ≈ 10%; Phát thải rò rỉ ≈ 40%; Chế biến chế tạo/xây dựng ≈ 6%; Nông nghiệp ≈ 9%; Chất thải ≈ 7%; Tòa nhà ≈ 8%.\n- Năm 2011: Điện/Nhiệt ≈ 15%; Sán xuất công nghiệp ≈ 8%; Giao thông vận tải ≈ 9%; Phát thải rò rỉ ≈ 37%; Chế biến chế tạo/xây dựng ≈ 11%; Nông nghiệp ≈ 6%; Chất thải ≈ 7%; Tòa nhà ≈ 7%.\n- Năm 2021: Điện/Nhiệt ≈ 32%; Sán xuất công nghiệp ≈ 18%; Giao thông vận tải ≈ 8%; Phát thải rò rỉ ≈ 15%; Chế biến chế tạo/xây dựng ≈ 10%; Nông nghiệp ≈ 6%; Chất thải ≈ 4%; Tòa nhà ≈ 7%."
+   },
+   {
+    "kind": "table",
+    "label": "Phụ lục 3.1",
+    "title": "Dữ liệu về các phân loại và tính toán đóng góp ngành kinh tế biển",
+    "region": "bottom",
+    "content": "| TT | Các ngành KTB | Mã ngành VSIC 2018 | Cách tiếp cận cho tính toán giá trị gia tăng | Chi tiết |\n|---|---|---|---|---|\n| 1 | Nuôi trồng và khai thác thủy sản biển | Khai thác và NTTS - 03 | Tổng tiền lương của người lao động trong các doanh nghiệp đang hoạt động theo loại hình hoạt động kinh tế | 1. Nguồn dữ liệu: Tổng tiền lương của người lao động trong các doanh nghiệp đang hoạt động theo loại hình hoạt động kinh tế: Đánh bắt và nuôi trồng thủy sản.<br>2. Đo lường: Giá trị gia tăng của Đánh bắt và nuôi trồng thủy sản đối với nền kinh tế đại dương.<br>3. Hạn chế: Cách tiếp cận có thể không tính đến tỷ trọng liên quan đến đại dương trong ngành. Kết quả có thể là ước tính thấp. |"
+   }
+  ],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1595,
+   "output_tokens": 811,
+   "thinking_tokens": 119
+  },
+  "latency_s": 3.499
+ },
+ "143": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [
+   {
+    "kind": "table",
+    "label": "",
+    "title": "",
+    "region": "middle",
+    "content": "| TT | Các ngành KTB | Mã ngành VSIC 2018 | Cách tiếp cận cho tính toán giá trị gia tăng | Chi tiết |\n|---|---|---|---|---|\n| 2 | Khai thác dầu thô, khí tự nhiên dạng khí hoặc hóa lỏng | Khai thác dầu thô và khí thiên nhiên - 06 | Giá trị gia tăng | **1. Nguồn dữ liệu:** Giá trị gia tăng của ngành khai khoáng và khai thác đá từ bảng IO của ADB. Tổng thu nhập của người lao động trong các doanh nghiệp đang hoạt động theo loại hình hoạt động kinh tế: Khai thác dầu thô và khí đốt tự nhiên; Khai khoáng và khai thác đá.<br>Tổng thu nhập của người lao động trong ngành khai khoáng và khai thác đá từ số liệu thống kê chính thức.<br>**2. Đo lường:** Giá trị gia tăng của hoạt động khai thác dầu thô và dầu mỏ.<br>**3. Hạn chế:** Cách tiếp cận này có thể không tính đến sự khác biệt về cường độ vốn hoặc biên lợi nhuận giữa các hoạt động. Giả định chính là tiền lương của người lao động được sử dụng làm đại diện cho tỷ lệ giá trị gia tăng, giả định rằng sự phân phối tiền lương phản ánh sự đóng góp kinh tế của hoạt động khai thác dầu thô và dầu mỏ. |\n| 3 | Thủy sản và các sản phẩm từ thủy sản chế biến, bảo quản | Sản xuất thực phẩm - 10 | Tổng tiền lương của người lao động trong các doanh nghiệp đang hoạt động theo loại hình hoạt động kinh tế | **1. Nguồn dữ liệu**<br>Tổng thu nhập của nhân viên trong các doanh nghiệp đang hoạt động theo loại hình hoạt động kinh tế: Sản xuất sản phẩm thực phẩm<br>Dữ liệu doanh thu: Doanh thu ròng của ngành chế biến thực phẩm (VIRAC, 2023).<br>**2. Đo lường:** Giá trị gia tăng của sản phẩm và chế biến hải sản<br>> Chúng tôi xác định tỷ trọng liên quan đến hải sản bằng cách áp dụng phương pháp đại diện dựa trên doanh thu. Cụ thể, theo Nghiên cứu của VIRAC, 2023, chế biến và bảo quản hải sản chiếm hơn 50% tổng doanh thu ròng của ngành chế biến thực phẩm<br>> Nhân tổng thu nhập của nhân viên trong ngành Sản xuất sản phẩm thực phẩm với 50% tỷ trọng chế biến hải sản để ước tính đóng góp kinh tế của chế biến hải sản.<br>**3. Hạn chế:**<br>Giả định chính: Tỷ trọng doanh thu là phương pháp đại diện hợp lệ cho phân phối thu nhập của nhân viên trong ngành chế biến thực phẩm.<br>Hạn chế: Cách tiếp cận này có thể không tính đến đầy đủ các biến động về biên lợi nhuận, cường độ lao động hoặc sử dụng vốn giữa ngành chế biến hải sản và các ngành chế biến thực phẩm khác. |"
+   }
+  ],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1595,
+   "output_tokens": 693,
+   "thinking_tokens": 123
+  },
+  "latency_s": 13.543
+ },
+ "144": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [
+   {
+    "kind": "table",
+    "label": "",
+    "title": "",
+    "region": "middle",
+    "content": "| TT | Các ngành KTB | Mã ngành VSIC 2018 | Cách tiếp cận cho tính toán giá trị gia tăng | Chi tiết |\n|---|---|---|---|---|\n| 4 | Nhiên liệu dầu và xăng, sản phẩm chế biến dầu mỏ các loại | Sản xuất than cốc và sản phẩm dầu mỏ tinh chế - 19 | Giá trị gia tăng | 1. Nguồn dữ liệu: Giá trị gia tăng theo giá cơ bản của than cốc, dầu mỏ tinh chế và nhiên liệu hạt nhân trong Bảng IO của ADB cho Việt Nam.<br>2. Đo lường: Giá trị gia tăng của Sản xuất khoáng sản và sản phẩm liên quan đến biển.<br>3. Hạn chế: Phương pháp tiếp cận có thể không tính đến tỷ trọng liên quan đến đại dương trong ngành. |\n| 5 | Đóng tàu, thuyền biển | Sản xuất thiết bị vận tải khác - 30<br>Sửa chữa, bảo dưỡng, lắp đặt máy móc, thiết bị - 33 | Tổng tiền lương của người lao động trong các doanh nghiệp đang hoạt động theo loại hình hoạt động kinh tế | 1. Nguồn dữ liệu: Tổng tiền lương của người lao động trong các doanh nghiệp đang hoạt động theo loại hình hoạt động kinh tế: Sản xuất thiết bị vận tải khác và Sửa chữa, lắp đặt máy móc và thiết bị.<br>2. Đo lường: Giá trị gia tăng của Sản xuất tàu thuyền > Tính toán tỷ trọng sản xuất tàu thuyền trong ngành Sản xuất thiết bị vận tải khác dựa trên tỷ lệ lao động trong các doanh nghiệp tàu thuyền so với lao động trong ngành sản xuất thiết bị vận tải khác (kết quả tỷ lệ trung bình từ năm 2010 đến năm 2013 vì không có dữ liệu từ năm 2014 đến năm 2020) làm đại diện.<br>> Bao gồm Sửa chữa, lắp đặt máy móc và thiết bị.<br>3. Hạn chế: Tỷ trọng sản xuất tàu thuyền liên quan đến hàng hải không rõ ràng. |\n| 6 | Vận tải đường biển và vận tải hàng hải | Vận tải đường thủy - 50<br>Kho bãi và các hoạt động hỗ trợ vận tải - 52 | Giá trị gia tăng + Tổng tiền lương của người lao động trong các doanh nghiệp đang hoạt động theo loại hình hoạt động kinh tế | 1. Nguồn dữ liệu: Hoạt động kho bãi và hỗ trợ vận tải; Giá trị gia tăng của vận tải đường thủy từ bảng Input-Output của ADB.<br>2. Đo lường: Giá trị gia tăng của vận tải biển.<br>3. Giả định: vận tải biển chiếm 53,4% tổng khối lượng hàng hóa luân chuyển năm 2022 (Tổng cục Thống kê - GSO).<br>4. Hạn chế: Phương pháp luận thiếu chi tiết; Sử dụng 53,4% làm đại diện cho thị phần vận tải biển có thể không chính xác cao do thiếu khả năng so sánh các số liệu giữa các nguồn hoặc thời kỳ khác nhau có thể ảnh hưởng đến kết quả đóng góp kinh tế. |"
+   }
+  ],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1595,
+   "output_tokens": 735,
+   "thinking_tokens": 114
+  },
+  "latency_s": 7.637
+ },
+ "145": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [
+   {
+    "kind": "table",
+    "label": "",
+    "title": "",
+    "region": "middle",
+    "content": "| STT | Ngành | Mã | Value Added | Nguồn dữ liệu & Phương pháp |\n| :--- | :--- | :--- | :--- | :--- |\n| 7 | Năng lượng gió ngoài khơi | Không có mã | Value Added | 1. Nguồn dữ liệu: Giá trị gia tăng theo giá cơ bản của điện gió ngoài khơi lấy từ báo cáo Lộ trình điện gió ngoài khơi của Ngân hàng Thế giới.<br>2. Đo lường: Giá trị gia tăng của điện gió ngoài khơi.<br>3. Hạn chế: Phương pháp tiếp cận này có thể không tính đến tỷ trọng liên quan đến đại dương trong ngành; chỉ phản ánh một phần đóng góp của ngành năng lượng tái tạo vào GDP. |\n| 8 | Du lịch lữ hành (thuần biển) | Vận tải hành khách: Vận tải đường bộ, vận tải đường sắt, đường ống; Vận tải đường thủy, Vận tải hàng không; Kho bãi và hoạt động hỗ trợ vận tải; Hoạt động bưu chính, chuyển phát nhanh - 49, 50, 51, 52<br><br>Lưu trú; Hoạt động dịch vụ ăn uống - 55, 56<br><br>Hoạt động hành chính, hỗ trợ: Đại lý lữ hành, kinh doanh tour du lịch và các hoạt động liên quan - 79<br><br>Hoạt động nghệ thuật, vui chơi giải trí: Hoạt động sáng tạo, nghệ thuật, giải trí; Thư viện, lưu trữ, bảo tàng và các hoạt động văn hóa khác; Hoạt động xổ số, cờ bạc, cá cược; Hoạt động thể thao và vui chơi giải trí - 90-93 | Giá trị gia tăng + Tổng tiền lương của người lao động trong các doanh nghiệp đang hoạt động theo loại hình hoạt động kinh tế | 1. Nguồn dữ liệu: Tỷ trọng du lịch biển thuần túy trong tổng GDP từ UNDP và báo cáo VASI (2022) về các kịch bản kinh tế xanh cho Việt Nam. Dữ liệu trong báo cáo này được thu thập từ các tỉnh ven biển, tính toán do nhóm UNDP thực hiện - WB không đảm bảo kết quả thu được từ báo cáo này.<br>2. Measurement: Giá trị gia tăng của du lịch biển<br>> Sử dụng kết quả Tỷ trọng du lịch biển thuần túy trong tổng GDP du lịch làm ước tính giá trị gia tăng của du lịch biển.<br>> Áp dụng thống nhất trong tất cả các năm trừ năm 2020.<br>Đối với năm 2020, sử dụng doanh thu của thị trường lữ hành & du lịch tại Việt Nam năm 2020 (Doanh thu của thị trường lữ hành & du lịch Việt Nam từ Statista) nhân với % GDP của phần du lịch biển thuần túy trong GDP du lịch năm 2019 cũng được tính toán trong báo cáo của UNDP.<sup>164</sup><br>3. Giả định & Hạn chế:<br>Tỷ trọng du lịch biển được cho là ổn định theo thời gian.<br>Việc loại trừ năm 2020 giải thích cho những bất thường trong doanh thu du lịch. |"
+   }
+  ],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1595,
+   "output_tokens": 761,
+   "thinking_tokens": 123
+  },
+  "latency_s": 4.204
+ },
+ "146": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1595,
+   "output_tokens": 5,
+   "thinking_tokens": 121
+  },
+  "latency_s": 2.785
+ },
+ "147": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1595,
+   "output_tokens": 5,
+   "thinking_tokens": 121
+  },
+  "latency_s": 2.063
+ },
+ "148": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1595,
+   "output_tokens": 5,
+   "thinking_tokens": 120
+  },
+  "latency_s": 3.091
+ },
+ "149": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1595,
+   "output_tokens": 5,
+   "thinking_tokens": 120
+  },
+  "latency_s": 2.697
+ },
+ "150": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1595,
+   "output_tokens": 14,
+   "thinking_tokens": 119
+  },
+  "latency_s": 2.787
+ },
+ "151": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1595,
+   "output_tokens": 5,
+   "thinking_tokens": 116
+  },
+  "latency_s": 2.092
+ },
+ "152": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1595,
+   "output_tokens": 5,
+   "thinking_tokens": 118
+  },
+  "latency_s": 3.78
+ },
+ "153": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1595,
+   "output_tokens": 56,
+   "thinking_tokens": 116
+  },
+  "latency_s": 2.443
+ },
+ "154": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1595,
+   "output_tokens": 80,
+   "thinking_tokens": 114
+  },
+  "latency_s": 3.144
+ },
+ "155": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1595,
+   "output_tokens": 5,
+   "thinking_tokens": 106
+  },
+  "latency_s": 2.227
+ },
+ "156": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1595,
+   "output_tokens": 79,
+   "thinking_tokens": 110
+  },
+  "latency_s": 2.125
+ },
+ "157": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1595,
+   "output_tokens": 5,
+   "thinking_tokens": 121
+  },
+  "latency_s": 2.578
+ },
+ "158": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1595,
+   "output_tokens": 5,
+   "thinking_tokens": 121
+  },
+  "latency_s": 3.071
+ },
+ "160": {
+  "status": "ok",
+  "model": "gemini-3.1-flash-lite",
+  "elements": [],
+  "raw_ok": true,
+  "usage": {
+   "input_tokens": 1595,
+   "output_tokens": 5,
+   "thinking_tokens": 118
+  },
+  "latency_s": 3.436
+ }
+}
