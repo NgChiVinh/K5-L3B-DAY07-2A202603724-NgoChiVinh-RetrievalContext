@@ -1,0 +1,1015 @@
+{
+ "summary": {
+  "hit_at_1": {
+   "n": 3,
+   "N": 5,
+   "rate": 0.6
+  },
+  "evidence_hit_at_3": {
+   "n": 4,
+   "N": 5,
+   "rate": 0.8
+  },
+  "mrr": 0.7066666666666668,
+  "per_question": {
+   "q16": {
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "first_full_rank": 1
+   },
+   "q17": {
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "first_full_rank": 1
+   },
+   "q18": {
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "first_full_rank": 1
+   },
+   "q19": {
+    "hit_at_1": false,
+    "evidence_hit_at_3": true,
+    "first_full_rank": 3
+   },
+   "q20": {
+    "hit_at_1": false,
+    "evidence_hit_at_3": false,
+    "first_full_rank": 5
+   }
+  },
+  "method": "hybrid",
+  "split": "test",
+  "errors": [],
+  "rerank_errors": 0,
+  "llm_model": null,
+  "latency_s_mean": 0.007,
+  "llm_calls": 0,
+  "llm_input_tokens": 0,
+  "llm_output_tokens": 0
+ },
+ "traces": [
+  {
+   "query_id": "q16",
+   "query": "Theo ước tính của cán bộ Ngân hàng Thế giới, khi giải ngân đầu tư công tăng thêm 1 điểm phần trăm so với GDP thì GDP của Việt Nam có thể tăng thêm bao nhiêu phần trăm?",
+   "filter": null,
+   "results": [
+    {
+     "rank": 1,
+     "id": "wb-diem-lai-2024-08__C__p37__c002",
+     "page": 37,
+     "score": 0.032522,
+     "method": "hybrid",
+     "base_rank": null,
+     "component_ranks": {
+      "dense": 1,
+      "bm25": 2
+     },
+     "rerank_error": null
+    },
+    {
+     "rank": 2,
+     "id": "wb-diem-lai-2024-08__C__p16__c001",
+     "page": 16,
+     "score": 0.032266,
+     "method": "hybrid",
+     "base_rank": null,
+     "component_ranks": {
+      "dense": 3,
+      "bm25": 1
+     },
+     "rerank_error": null
+    },
+    {
+     "rank": 3,
+     "id": "wb-diem-lai-2024-08__C__p39__c005",
+     "page": 39,
+     "score": 0.030835,
+     "method": "hybrid",
+     "base_rank": null,
+     "component_ranks": {
+      "dense": 2,
+      "bm25": 8
+     },
+     "rerank_error": null
+    },
+    {
+     "rank": 4,
+     "id": "wb-diem-lai-2024-08__C__p20__c003",
+     "page": 20,
+     "score": 0.03031,
+     "method": "hybrid",
+     "base_rank": null,
+     "component_ranks": {
+      "dense": 5,
+      "bm25": 7
+     },
+     "rerank_error": null
+    },
+    {
+     "rank": 5,
+     "id": "wb-diem-lai-2024-08__C__p32__c003",
+     "page": 32,
+     "score": 0.029911,
+     "method": "hybrid",
+     "base_rank": null,
+     "component_ranks": {
+      "dense": 4,
+      "bm25": 10
+     },
+     "rerank_error": null
+    },
+    {
+     "rank": 6,
+     "id": "wb-diem-lai-2024-08__C__p21__c001",
+     "page": 21,
+     "score": 0.029083,
+     "method": "hybrid",
+     "base_rank": null,
+     "component_ranks": {
+      "dense": 13,
+      "bm25": 5
+     },
+     "rerank_error": null
+    },
+    {
+     "rank": 7,
+     "id": "wb-diem-lai-2024-08__C__p22__c002",
+     "page": 22,
+     "score": 0.028694,
+     "method": "hybrid",
+     "base_rank": null,
+     "component_ranks": {
+      "dense": 18,
+      "bm25": 3
+     },
+     "rerank_error": null
+    },
+    {
+     "rank": 8,
+     "id": "wb-diem-lai-2024-08__C__p37__c006",
+     "page": 37,
+     "score": 0.026357,
+     "method": "hybrid",
+     "base_rank": null,
+     "component_ranks": {
+      "dense": 19,
+      "bm25": 13
+     },
+     "rerank_error": null
+    },
+    {
+     "rank": 9,
+     "id": "wb-diem-lai-2024-08__C__p32__c002",
+     "page": 32,
+     "score": 0.025658,
+     "method": "hybrid",
+     "base_rank": null,
+     "component_ranks": {
+      "dense": 20,
+      "bm25": 16
+     },
+     "rerank_error": null
+    },
+    {
+     "rank": 10,
+     "id": "wb-diem-lai-2024-08__C__p25__c001",
+     "page": 25,
+     "score": 0.015625,
+     "method": "hybrid",
+     "base_rank": null,
+     "component_ranks": {
+      "bm25": 4
+     },
+     "rerank_error": null
+    }
+   ]
+  },
+  {
+   "query_id": "q17",
+   "query": "Vì sao thị trường trái phiếu chính phủ Việt Nam lại có sự chênh lệch giá giữa thị trường sơ cấp và thứ cấp, và từ tháng 1/2020 đến tháng 12/2023 Bộ Tài chính đã từ chối toàn bộ giá thầu trong bao nhiêu phần trăm số đợt đấu thầu?",
+   "filter": null,
+   "results": [
+    {
+     "rank": 1,
+     "id": "wb-diem-lai-2024-08__C__p46__c002",
+     "page": 46,
+     "score": 0.032787,
+     "method": "hybrid",
+     "base_rank": null,
+     "component_ranks": {
+      "dense": 1,
+      "bm25": 1
+     },
+     "rerank_error": null
+    },
+    {
+     "rank": 2,
+     "id": "wb-diem-lai-2024-08__C__p47__c003",
+     "page": 47,
+     "score": 0.032002,
+     "method": "hybrid",
+     "base_rank": null,
+     "component_ranks": {
+      "dense": 2,
+      "bm25": 3
+     },
+     "rerank_error": null
+    },
+    {
+     "rank": 3,
+     "id": "wb-diem-lai-2024-08__C__p47__c001",
+     "page": 47,
+     "score": 0.031514,
+     "method": "hybrid",
+     "base_rank": null,
+     "component_ranks": {
+      "dense": 5,
+      "bm25": 2
+     },
+     "rerank_error": null
+    },
+    {
+     "rank": 4,
+     "id": "wb-diem-lai-2024-08__C__p46__c001",
+     "page": 46,
+     "score": 0.031498,
+     "method": "hybrid",
+     "base_rank": null,
+     "component_ranks": {
+      "dense": 3,
+      "bm25": 4
+     },
+     "rerank_error": null
+    },
+    {
+     "rank": 5,
+     "id": "wb-diem-lai-2024-08__C__p41__c001",
+     "page": 41,
+     "score": 0.03031,
+     "method": "hybrid",
+     "base_rank": null,
+     "component_ranks": {
+      "dense": 7,
+      "bm25": 5
+     },
+     "rerank_error": null
+    },
+    {
+     "rank": 6,
+     "id": "wb-diem-lai-2024-08__C__p45__c001",
+     "page": 45,
+     "score": 0.029199,
+     "method": "hybrid",
+     "base_rank": null,
+     "component_ranks": {
+      "dense": 8,
+      "bm25": 9
+     },
+     "rerank_error": null
+    },
+    {
+     "rank": 7,
+     "id": "wb-diem-lai-2024-08__C__p45__c002",
+     "page": 45,
+     "score": 0.028439,
+     "method": "hybrid",
+     "base_rank": null,
+     "component_ranks": {
+      "dense": 14,
+      "bm25": 7
+     },
+     "rerank_error": null
+    },
+    {
+     "rank": 8,
+     "id": "wb-diem-lai-2024-08__C__p40__c004",
+     "page": 40,
+     "score": 0.027984,
+     "method": "hybrid",
+     "base_rank": null,
+     "component_ranks": {
+      "dense": 13,
+      "bm25": 10
+     },
+     "rerank_error": null
+    },
+    {
+     "rank": 9,
+     "id": "wb-diem-lai-2024-08__C__p45__c003",
+     "page": 45,
+     "score": 0.026686,
+     "method": "hybrid",
+     "base_rank": null,
+     "component_ranks": {
+      "dense": 17,
+      "bm25": 13
+     },
+     "rerank_error": null
+    },
+    {
+     "rank": 10,
+     "id": "wb-diem-lai-2024-08__C__p46__c004",
+     "page": 46,
+     "score": 0.02632,
+     "method": "hybrid",
+     "base_rank": null,
+     "component_ranks": {
+      "dense": 15,
+      "bm25": 17
+     },
+     "rerank_error": null
+    }
+   ]
+  },
+  {
+   "query_id": "q18",
+   "query": "Các tổ chức nào đảm nhiệm vai trò lưu ký, bù trừ và ngân hàng thanh toán cho các giao dịch trái phiếu chính phủ và chứng khoán doanh nghiệp tại Việt Nam?",
+   "filter": null,
+   "results": [
+    {
+     "rank": 1,
+     "id": "wb-diem-lai-2024-08__C__p57__c001",
+     "page": 57,
+     "score": 0.032787,
+     "method": "hybrid",
+     "base_rank": null,
+     "component_ranks": {
+      "dense": 1,
+      "bm25": 1
+     },
+     "rerank_error": null
+    },
+    {
+     "rank": 2,
+     "id": "wb-diem-lai-2024-08__C__p42__c002",
+     "page": 42,
+     "score": 0.032002,
+     "method": "hybrid",
+     "base_rank": null,
+     "component_ranks": {
+      "dense": 3,
+      "bm25": 2
+     },
+     "rerank_error": null
+    },
+    {
+     "rank": 3,
+     "id": "wb-diem-lai-2024-08__C__p57__c002",
+     "page": 57,
+     "score": 0.030835,
+     "method": "hybrid",
+     "base_rank": null,
+     "component_ranks": {
+      "dense": 2,
+      "bm25": 8
+     },
+     "rerank_error": null
+    },
+    {
+     "rank": 4,
+     "id": "wb-diem-lai-2024-08__C__p58__c003",
+     "page": 58,
+     "score": 0.030769,
+     "method": "hybrid",
+     "base_rank": null,
+     "component_ranks": {
+      "dense": 5,
+      "bm25": 5
+     },
+     "rerank_error": null
+    },
+    {
+     "rank": 5,
+     "id": "wb-diem-lai-2024-08__C__p45__c003",
+     "page": 45,
+     "score": 0.02971,
+     "method": "hybrid",
+     "base_rank": null,
+     "component_ranks": {
+      "dense": 4,
+      "bm25": 11
+     },
+     "rerank_error": null
+    },
+    {
+     "rank": 6,
+     "id": "wb-diem-lai-2024-08__C__p56__c004",
+     "page": 56,
+     "score": 0.029418,
+     "method": "hybrid",
+     "base_rank": null,
+     "component_ranks": {
+      "dense": 9,
+      "bm25": 7
+     },
+     "rerank_error": null
+    },
+    {
+     "rank": 7,
+     "id": "wb-diem-lai-2024-08__C__p42__c001",
+     "page": 42,
+     "score": 0.029031,
+     "method": "hybrid",
+     "base_rank": null,
+     "component_ranks": {
+      "dense": 16,
+      "bm25": 3
+     },
+     "rerank_error": null
+    },
+    {
+     "rank": 8,
+     "id": "wb-diem-lai-2024-08__C__p48__c003",
+     "page": 48,
+     "score": 0.027912,
+     "method": "hybrid",
+     "base_rank": null,
+     "component_ranks": {
+      "dense": 7,
+      "bm25": 17
+     },
+     "rerank_error": null
+    },
+    {
+     "rank": 9,
+     "id": "wb-diem-lai-2024-08__C__p44__c002",
+     "page": 44,
+     "score": 0.027826,
+     "method": "hybrid",
+     "base_rank": null,
+     "component_ranks": {
+      "dense": 15,
+      "bm25": 9
+     },
+     "rerank_error": null
+    },
+    {
+     "rank": 10,
+     "id": "wb-diem-lai-2024-08__C__p18__c004",
+     "page": 18,
+     "score": 0.027106,
+     "method": "hybrid",
+     "base_rank": null,
+     "component_ranks": {
+      "dense": 18,
+      "bm25": 10
+     },
+     "rerank_error": null
+    }
+   ]
+  },
+  {
+   "query_id": "q19",
+   "query": "Theo phân tích tại Chương 2 về chức năng huy động vốn, khối lượng phát hành cổ phần bình quân mỗi năm trên hai sàn giao dịch chứng khoán (HOSE và HNX) trong 5 năm qua đạt bao nhiêu ngàn tỷ đồng và năm 2023 có bao nhiêu đợt IPO được thực hiện?",
+   "filter": {
+    "section": "chuong_2_thi_truong_von"
+   },
+   "results": [
+    {
+     "rank": 1,
+     "id": "wb-diem-lai-2024-08__C__p49__c001",
+     "page": 49,
+     "score": 0.032522,
+     "method": "hybrid",
+     "base_rank": null,
+     "component_ranks": {
+      "dense": 1,
+      "bm25": 2
+     },
+     "rerank_error": null
+    },
+    {
+     "rank": 2,
+     "id": "wb-diem-lai-2024-08__C__p40__c001",
+     "page": 40,
+     "score": 0.031778,
+     "method": "hybrid",
+     "base_rank": null,
+     "component_ranks": {
+      "dense": 5,
+      "bm25": 1
+     },
+     "rerank_error": null
+    },
+    {
+     "rank": 3,
+     "id": "wb-diem-lai-2024-08__C__p49__c002",
+     "page": 49,
+     "score": 0.031514,
+     "method": "hybrid",
+     "base_rank": null,
+     "component_ranks": {
+      "dense": 2,
+      "bm25": 5
+     },
+     "rerank_error": null
+    },
+    {
+     "rank": 4,
+     "id": "wb-diem-lai-2024-08__C__p55__c003",
+     "page": 55,
+     "score": 0.031498,
+     "method": "hybrid",
+     "base_rank": null,
+     "component_ranks": {
+      "dense": 4,
+      "bm25": 3
+     },
+     "rerank_error": null
+    },
+    {
+     "rank": 5,
+     "id": "wb-diem-lai-2024-08__C__p49__c004",
+     "page": 49,
+     "score": 0.030777,
+     "method": "hybrid",
+     "base_rank": null,
+     "component_ranks": {
+      "dense": 6,
+      "bm25": 4
+     },
+     "rerank_error": null
+    },
+    {
+     "rank": 6,
+     "id": "wb-diem-lai-2024-08__C__p55__c001",
+     "page": 55,
+     "score": 0.02885,
+     "method": "hybrid",
+     "base_rank": null,
+     "component_ranks": {
+      "dense": 13,
+      "bm25": 6
+     },
+     "rerank_error": null
+    },
+    {
+     "rank": 7,
+     "id": "wb-diem-lai-2024-08__C__p47__c002",
+     "page": 47,
+     "score": 0.02837,
+     "method": "hybrid",
+     "base_rank": null,
+     "component_ranks": {
+      "dense": 11,
+      "bm25": 10
+     },
+     "rerank_error": null
+    },
+    {
+     "rank": 8,
+     "id": "wb-diem-lai-2024-08__C__p41__c001",
+     "page": 41,
+     "score": 0.027588,
+     "method": "hybrid",
+     "base_rank": null,
+     "component_ranks": {
+      "dense": 12,
+      "bm25": 13
+     },
+     "rerank_error": null
+    },
+    {
+     "rank": 9,
+     "id": "wb-diem-lai-2024-08__C__p40__c004",
+     "page": 40,
+     "score": 0.026786,
+     "method": "hybrid",
+     "base_rank": null,
+     "component_ranks": {
+      "dense": 10,
+      "bm25": 20
+     },
+     "rerank_error": null
+    },
+    {
+     "rank": 10,
+     "id": "wb-diem-lai-2024-08__C__p53__c001",
+     "page": 53,
+     "score": 0.026154,
+     "method": "hybrid",
+     "base_rank": null,
+     "component_ranks": {
+      "dense": 15,
+      "bm25": 18
+     },
+     "rerank_error": null
+    }
+   ]
+  },
+  {
+   "query_id": "q20",
+   "query": "Theo kịch bản cải cách thị trường vốn đến năm 2030 ở cuối Chương 2, nếu BHXH, các công ty bảo hiểm nhân thọ, các quỹ đầu tư/hưu trí tư nhân đa dạng hóa đầu tư và thị trường chứng khoán được nâng hạng lên Thị trường mới nổi thì tổng nguồn vốn huy động cho khu vực doanh nghiệp có thể đạt khoảng bao nhiêu tỷ đô la Mỹ?",
+   "filter": {
+    "section": "chuong_2_thi_truong_von"
+   },
+   "results": [
+    {
+     "rank": 1,
+     "id": "wb-diem-lai-2024-08__C__p60__c003",
+     "page": 60,
+     "score": 0.032787,
+     "method": "hybrid",
+     "base_rank": null,
+     "component_ranks": {
+      "dense": 1,
+      "bm25": 1
+     },
+     "rerank_error": null
+    },
+    {
+     "rank": 2,
+     "id": "wb-diem-lai-2024-08__C__p60__c005",
+     "page": 60,
+     "score": 0.032002,
+     "method": "hybrid",
+     "base_rank": null,
+     "component_ranks": {
+      "dense": 2,
+      "bm25": 3
+     },
+     "rerank_error": null
+    },
+    {
+     "rank": 3,
+     "id": "wb-diem-lai-2024-08__C__p60__c004",
+     "page": 60,
+     "score": 0.031258,
+     "method": "hybrid",
+     "base_rank": null,
+     "component_ranks": {
+      "dense": 3,
+      "bm25": 5
+     },
+     "rerank_error": null
+    },
+    {
+     "rank": 4,
+     "id": "wb-diem-lai-2024-08__C__p59__c003",
+     "page": 59,
+     "score": 0.030835,
+     "method": "hybrid",
+     "base_rank": null,
+     "component_ranks": {
+      "dense": 8,
+      "bm25": 2
+     },
+     "rerank_error": null
+    },
+    {
+     "rank": 5,
+     "id": "wb-diem-lai-2024-08__C__p61__c002",
+     "page": 61,
+     "score": 0.028958,
+     "method": "hybrid",
+     "base_rank": null,
+     "component_ranks": {
+      "dense": 4,
+      "bm25": 15
+     },
+     "rerank_error": null
+    },
+    {
+     "rank": 6,
+     "id": "wb-diem-lai-2024-08__C__p49__c004",
+     "page": 49,
+     "score": 0.02885,
+     "method": "hybrid",
+     "base_rank": null,
+     "component_ranks": {
+      "dense": 6,
+      "bm25": 13
+     },
+     "rerank_error": null
+    },
+    {
+     "rank": 7,
+     "id": "wb-diem-lai-2024-08__C__p52__c002",
+     "page": 52,
+     "score": 0.028814,
+     "method": "hybrid",
+     "base_rank": null,
+     "component_ranks": {
+      "dense": 12,
+      "bm25": 7
+     },
+     "rerank_error": null
+    },
+    {
+     "rank": 8,
+     "id": "wb-diem-lai-2024-08__C__p49__c001",
+     "page": 49,
+     "score": 0.02879,
+     "method": "hybrid",
+     "base_rank": null,
+     "component_ranks": {
+      "dense": 11,
+      "bm25": 8
+     },
+     "rerank_error": null
+    },
+    {
+     "rank": 9,
+     "id": "wb-diem-lai-2024-08__C__p48__c005",
+     "page": 48,
+     "score": 0.028006,
+     "method": "hybrid",
+     "base_rank": null,
+     "component_ranks": {
+      "dense": 14,
+      "bm25": 9
+     },
+     "rerank_error": null
+    },
+    {
+     "rank": 10,
+     "id": "wb-diem-lai-2024-08__C__p50__c001",
+     "page": 50,
+     "score": 0.028006,
+     "method": "hybrid",
+     "base_rank": null,
+     "component_ranks": {
+      "dense": 9,
+      "bm25": 14
+     },
+     "rerank_error": null
+    }
+   ]
+  },
+  {
+   "query_id": "u03",
+   "query": "Giá vàng miếng trong nước đã tăng bao nhiêu phần trăm trong nửa đầu năm 2024?",
+   "filter": null,
+   "results": [
+    {
+     "rank": 1,
+     "id": "wb-diem-lai-2024-08__C__p14__c003",
+     "page": 14,
+     "score": 0.032266,
+     "method": "hybrid",
+     "base_rank": null,
+     "component_ranks": {
+      "dense": 1,
+      "bm25": 3
+     },
+     "rerank_error": null
+    },
+    {
+     "rank": 2,
+     "id": "wb-diem-lai-2024-08__C__p21__c002",
+     "page": 21,
+     "score": 0.031545,
+     "method": "hybrid",
+     "base_rank": null,
+     "component_ranks": {
+      "dense": 6,
+      "bm25": 1
+     },
+     "rerank_error": null
+    },
+    {
+     "rank": 3,
+     "id": "wb-diem-lai-2024-08__C__p28__c002",
+     "page": 28,
+     "score": 0.031281,
+     "method": "hybrid",
+     "base_rank": null,
+     "component_ranks": {
+      "dense": 2,
+      "bm25": 6
+     },
+     "rerank_error": null
+    },
+    {
+     "rank": 4,
+     "id": "wb-diem-lai-2024-08__C__p16__c001",
+     "page": 16,
+     "score": 0.031054,
+     "method": "hybrid",
+     "base_rank": null,
+     "component_ranks": {
+      "dense": 7,
+      "bm25": 2
+     },
+     "rerank_error": null
+    },
+    {
+     "rank": 5,
+     "id": "wb-diem-lai-2024-08__C__p15__c004",
+     "page": 15,
+     "score": 0.03101,
+     "method": "hybrid",
+     "base_rank": null,
+     "component_ranks": {
+      "dense": 5,
+      "bm25": 4
+     },
+     "rerank_error": null
+    },
+    {
+     "rank": 6,
+     "id": "wb-diem-lai-2024-08__C__p14__c001",
+     "page": 14,
+     "score": 0.029958,
+     "method": "hybrid",
+     "base_rank": null,
+     "component_ranks": {
+      "dense": 3,
+      "bm25": 11
+     },
+     "rerank_error": null
+    },
+    {
+     "rank": 7,
+     "id": "wb-diem-lai-2024-08__C__p20__c001",
+     "page": 20,
+     "score": 0.028992,
+     "method": "hybrid",
+     "base_rank": null,
+     "component_ranks": {
+      "dense": 10,
+      "bm25": 8
+     },
+     "rerank_error": null
+    },
+    {
+     "rank": 8,
+     "id": "wb-diem-lai-2024-08__C__p13__c001",
+     "page": 13,
+     "score": 0.028814,
+     "method": "hybrid",
+     "base_rank": null,
+     "component_ranks": {
+      "dense": 12,
+      "bm25": 7
+     },
+     "rerank_error": null
+    },
+    {
+     "rank": 9,
+     "id": "wb-diem-lai-2024-08__C__p32__c002",
+     "page": 32,
+     "score": 0.028372,
+     "method": "hybrid",
+     "base_rank": null,
+     "component_ranks": {
+      "dense": 17,
+      "bm25": 5
+     },
+     "rerank_error": null
+    },
+    {
+     "rank": 10,
+     "id": "wb-diem-lai-2024-08__C__p13__c004",
+     "page": 13,
+     "score": 0.028191,
+     "method": "hybrid",
+     "base_rank": null,
+     "component_ranks": {
+      "dense": 13,
+      "bm25": 9
+     },
+     "rerank_error": null
+    }
+   ]
+  },
+  {
+   "query_id": "u04",
+   "query": "Khối lượng giao dịch bình quân mỗi phiên của hợp đồng tương lai chỉ số VN30 năm 2023 là bao nhiêu hợp đồng?",
+   "filter": null,
+   "results": [
+    {
+     "rank": 1,
+     "id": "wb-diem-lai-2024-08__C__p55__c001",
+     "page": 55,
+     "score": 0.031498,
+     "method": "hybrid",
+     "base_rank": null,
+     "component_ranks": {
+      "dense": 4,
+      "bm25": 3
+     },
+     "rerank_error": null
+    },
+    {
+     "rank": 2,
+     "id": "wb-diem-lai-2024-08__C__p40__c001",
+     "page": 40,
+     "score": 0.031319,
+     "method": "hybrid",
+     "base_rank": null,
+     "component_ranks": {
+      "dense": 7,
+      "bm25": 1
+     },
+     "rerank_error": null
+    },
+    {
+     "rank": 3,
+     "id": "wb-diem-lai-2024-08__C__p41__c001",
+     "page": 41,
+     "score": 0.030886,
+     "method": "hybrid",
+     "base_rank": null,
+     "component_ranks": {
+      "dense": 1,
+      "bm25": 9
+     },
+     "rerank_error": null
+    },
+    {
+     "rank": 4,
+     "id": "wb-diem-lai-2024-08__C__p40__c004",
+     "page": 40,
+     "score": 0.030159,
+     "method": "hybrid",
+     "base_rank": null,
+     "component_ranks": {
+      "dense": 3,
+      "bm25": 10
+     },
+     "rerank_error": null
+    },
+    {
+     "rank": 5,
+     "id": "wb-diem-lai-2024-08__C__p49__c004",
+     "page": 49,
+     "score": 0.029274,
+     "method": "hybrid",
+     "base_rank": null,
+     "component_ranks": {
+      "dense": 5,
+      "bm25": 12
+     },
+     "rerank_error": null
+    },
+    {
+     "rank": 6,
+     "id": "wb-diem-lai-2024-08__C__p46__c003",
+     "page": 46,
+     "score": 0.02901,
+     "method": "hybrid",
+     "base_rank": null,
+     "component_ranks": {
+      "dense": 11,
+      "bm25": 7
+     },
+     "rerank_error": null
+    },
+    {
+     "rank": 7,
+     "id": "wb-diem-lai-2024-08__C__p26__c003",
+     "page": 26,
+     "score": 0.028629,
+     "method": "hybrid",
+     "base_rank": null,
+     "component_ranks": {
+      "dense": 20,
+      "bm25": 2
+     },
+     "rerank_error": null
+    },
+    {
+     "rank": 8,
+     "id": "wb-diem-lai-2024-08__C__p45__c002",
+     "page": 45,
+     "score": 0.028219,
+     "method": "hybrid",
+     "base_rank": null,
+     "component_ranks": {
+      "dense": 14,
+      "bm25": 8
+     },
+     "rerank_error": null
+    },
+    {
+     "rank": 9,
+     "id": "wb-diem-lai-2024-08__C__p53__c001",
+     "page": 53,
+     "score": 0.028039,
+     "method": "hybrid",
+     "base_rank": null,
+     "component_ranks": {
+      "dense": 8,
+      "bm25": 15
+     },
+     "rerank_error": null
+    },
+    {
+     "rank": 10,
+     "id": "wb-diem-lai-2024-08__C__p41__c003",
+     "page": 41,
+     "score": 0.026501,
+     "method": "hybrid",
+     "base_rank": null,
+     "component_ranks": {
+      "dense": 17,
+      "bm25": 14
+     },
+     "rerank_error": null
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,57 @@
+[
+ {
+  "query_id": "q16",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "0,1 điểm % GDP đúng; p37__c002 chứa nguyên văn câu ước tính."
+ },
+ {
+  "query_id": "q17",
+  "answer_grade": 2,
+  "citation_support": [
+   true,
+   true
+  ],
+  "reason": "Nêu đủ hai nguyên nhân (nhà đầu tư mua-và-nắm-giữ/BHXH bị hạn chế pháp lý: p46__c001; Bộ Tài chính hủy phát hành: p46__c002) và 20% (p46__c002)."
+ },
+ {
+  "query_id": "q18",
+  "answer_grade": 2,
+  "citation_support": [
+   true
+  ],
+  "reason": "VSDC, NHNN, NHTM nhà nước — đúng và đủ, đều có trong p57__c001."
+ },
+ {
+  "query_id": "q19",
+  "answer_grade": 2,
+  "citation_support": [
+   true,
+   true
+  ],
+  "reason": "37 ngàn tỷ (p49__c001) và 3 đợt IPO (p49__c002) đúng; thiếu chi tiết 173 tỷ đồng không được hỏi."
+ },
+ {
+  "query_id": "q20",
+  "answer_grade": 2,
+  "citation_support": [
+   true,
+   true
+  ],
+  "reason": "Tổng 87 tỷ USD (p61__c002); 20/15/14/5 tỷ USD đều có trong p60__c003. Không nêu mức 25 tỷ (p60__c004) nhưng câu hỏi hỏi tổng."
+ },
+ {
+  "query_id": "u03",
+  "citation_support": [],
+  "abstention_correct": true,
+  "reason": "Từ chối; chỉ nhắc nhu cầu mua vàng +28,6% (đúng tài liệu), không bịa % tăng giá."
+ },
+ {
+  "query_id": "u04",
+  "citation_support": [],
+  "abstention_correct": true,
+  "reason": "Từ chối, không thêm khẳng định."
+ }
+]

@@ -1,0 +1,63 @@
+{
+ "config_name": "improve_multitool",
+ "config": {
+  "tools": [
+   "search_dense",
+   "search_keyword"
+  ],
+  "top_k": 5,
+  "budget_chars": 6000,
+  "max_searches": 4,
+  "neighbors": true
+ },
+ "split": "test",
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "errors": 0,
+ "tool_use": {
+  "n": 7,
+  "N": 7,
+  "rate": 1.0
+ },
+ "searches_distribution": {
+  "1": 5,
+  "2": 2
+ },
+ "tool_calls_by_tool": {
+  "search_dense": 3,
+  "search_keyword": 6
+ },
+ "context_evidence_rate": {
+  "n": 4,
+  "N": 5,
+  "rate": 0.8
+ },
+ "status_answerable": {
+  "answered": 5
+ },
+ "status_unanswerable": {
+  "abstain": 2
+ },
+ "abstained_unanswerable": {
+  "n": 2,
+  "N": 2,
+  "rate": 1.0
+ },
+ "refused_answerable": {
+  "n": 0,
+  "N": 5,
+  "rate": 0.0
+ },
+ "mean_context_chars": 5810,
+ "latency_s_mean": 6.46,
+ "latency_s_total": 45.2,
+ "usage_total": {
+  "llm_calls": 14,
+  "cached_calls": 0,
+  "input_tokens": 23645,
+  "output_tokens": 1668,
+  "thinking_tokens": 2655
+ },
+ "cost_usd": 0.0,
+ "cost_note": "Gemini API free tier (không trả phí); token ghi ở usage_total"
+}

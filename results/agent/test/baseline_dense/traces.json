@@ -1,0 +1,751 @@
+[
+ {
+  "query_id": "q16",
+  "split": "test",
+  "config": "baseline_dense",
+  "provider": "gemini",
+  "model": "gemini-3.1-flash-lite",
+  "question": "Theo ước tính của cán bộ Ngân hàng Thế giới, khi giải ngân đầu tư công tăng thêm 1 điểm phần trăm so với GDP thì GDP của Việt Nam có thể tăng thêm bao nhiêu phần trăm?",
+  "filter": null,
+  "status": "answered",
+  "answer": "Theo ước tính của cán bộ Ngân hàng Thế giới, khi giải ngân đầu tư công tăng thêm 1 điểm phần trăm so với GDP, GDP của Việt Nam có thể tăng thêm 0,1 phần trăm [wb-diem-lai-2024-08__C__p37__c002].",
+  "citations": [
+   "wb-diem-lai-2024-08__C__p37__c002"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_dense",
+    "query": "giải ngân đầu tư công tăng thêm 1 điểm phần trăm GDP thì GDP Việt Nam tăng bao nhiêu phần trăm Ngân hàng Thế giới",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "wb-diem-lai-2024-08__C__p37__c002",
+      "rank": 1,
+      "score": 0.745263,
+      "page": 37,
+      "method": "dense",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p39__c005",
+      "rank": 2,
+      "score": 0.73468,
+      "page": 39,
+      "method": "dense",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p16__c001",
+      "rank": 3,
+      "score": 0.733259,
+      "page": 16,
+      "method": "dense",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     }
+    ],
+    "added_ids": [
+     "wb-diem-lai-2024-08__C__p37__c002",
+     "wb-diem-lai-2024-08__C__p39__c005",
+     "wb-diem-lai-2024-08__C__p16__c001"
+    ],
+    "skipped_over_budget": [],
+    "context_chars": 2004
+   },
+   {
+    "event": "answer",
+    "citations": [
+     "wb-diem-lai-2024-08__C__p37__c002"
+    ]
+   }
+  ],
+  "context_ids": [
+   "wb-diem-lai-2024-08__C__p37__c002",
+   "wb-diem-lai-2024-08__C__p39__c005",
+   "wb-diem-lai-2024-08__C__p16__c001"
+  ],
+  "context": [
+   "[wb-diem-lai-2024-08__C__p37__c002] (trang 37, chuong_1_kinh_te_vi_mo)\nCác chính sách hỗ trợ cho đà tăng trưởng Trong điều kiện nền kinh tế chưa quay lại lộ trình tăng trưởng trước đại dịch, giải ngân đầu tư công nếu được đẩy nhanh có thể hỗ trợ tổng cầu trong ngắn hạn, đồng thời giúp thu hẹp những thiếu hụt hạ tầng đang phát sinh. Chỉ cần tăng đầu tư công thêm một điểm phần trăm so GDP có thể khiến cho GDP tăng thêm 0,1 phần trăm.17 Mặt khác, Việt Nam tiếp tục phải đối mặt với giới hạn về khả năng tiếp tục cắt giảm lãi suất do đã tồn tại chênh lệch lãi suất lớn giữa thị trường trong nước và thị trường quốc tế bên cạnh áp lực phải chịu về tỷ giá.",
+   "[wb-diem-lai-2024-08__C__p39__c005] (trang 39, chuong_2_thi_truong_von)\n19 Mức đầu tư hiện nay của Việt Nam (đầu tư công và tư nhân) tương đương 32% GDP, thấp hơn so với Trung Quốc và Thổ Nhĩ Kỳ, hoặc tỷ lệ đầu tư trong quá khứ của Hàn Quốc và Sing-ga-po khi họ trở thành quốc gia thu nhập cao (Báo cáo chuỗi giá trị toàn cầu của Ngân hàng Thế giới, sắp ra mắt). 20 Diop, M. 2019. “Đẩy nhanh con đường đi tới thịnh vượng của Việt Nam.” Washington, DC: Ngân hàng Thế giới. Nhu cầu tài chính bổ sung cho chuyển đổi khí hậu ước bằng 368 tỷ US$ vào năm 2040, tương đương khoảng 6,8% GDP mỗi năm (Ngân hàng Thế giới CCDR 2022).\n\nI. Giới thiệu",
+   "[wb-diem-lai-2024-08__C__p16__c001] (trang 16, tong_quan)\nGDP trong nửa đầu năm 2024 (+1 điểm phần trăm so với nửa đầu năm 2023), do tăng thu từ vốn qua bán đất (+0,7 điểm phần trăm), tăng thu nguồn thu từ thuế thu nhập doanh nghiệp (TNDN) và thuế giá trị gia tăng GTGT (+0,5 điểm phần trăm). Đồng thời, chi ngân sách giảm 1,6 điểm phần trăm từ mức 17% GDP trong nửa đầu 2023 xuống còn 15,4% GDP nửa đầu năm 2024, do cắt giảm chi thường xuyên đồng loạt và giải ngân vốn đầu tư công chậm hơn (từ 5,4% GDP nửa đầu năm 2023 còn 3,7% GDP nửa đầu năm 2024). Đến cuối tháng 6/2024, giải ngân đầu tư công chỉ mới thực hiện được 29% so với ngân sách được Quốc hội phê duyệt, tỉ lệ giải ngân đầu tư công giảm 6% so cùng kỳ năm 2023. Giải ngân đầu tư công chững lại là do chậm trễ trong giải phóng mặt bằng và đền bù cho các dự án lớn xây đường quốc lộ, khan hiếm vật liệu san lấp (đá và cát), giá cả vật liệu thô biến động."
+  ],
+  "context_chars": 2004,
+  "searches": 1,
+  "usage": {
+   "llm_calls": 2,
+   "cached_calls": 0,
+   "input_tokens": 1751,
+   "output_tokens": 113,
+   "thinking_tokens": 185
+  },
+  "latency_s": 12.014,
+  "auto_eval": {
+   "answerable": true,
+   "context_has_evidence": true
+  }
+ },
+ {
+  "query_id": "q17",
+  "split": "test",
+  "config": "baseline_dense",
+  "provider": "gemini",
+  "model": "gemini-3.1-flash-lite",
+  "question": "Vì sao thị trường trái phiếu chính phủ Việt Nam lại có sự chênh lệch giá giữa thị trường sơ cấp và thứ cấp, và từ tháng 1/2020 đến tháng 12/2023 Bộ Tài chính đã từ chối toàn bộ giá thầu trong bao nhiêu phần trăm số đợt đấu thầu?",
+  "filter": null,
+  "status": "answered",
+  "answer": "Sự chênh lệch giá giữa thị trường sơ cấp và thứ cấp trái phiếu chính phủ Việt Nam xuất phát từ các nguyên nhân sau:\n\n*   **Thiếu thông tin về giá:** Việc tập trung vào các nhà đầu tư \"mua và nắm giữ\" (như Bảo hiểm Xã hội - BHXH) khiến giao dịch trên thị trường thứ cấp kém sôi động, dẫn đến thiếu thông tin về giá cả [wb-diem-lai-2024-08__C__p46__c001].\n*   **Hạn chế pháp lý:** Các quy định hiện hành ngăn cản BHXH tham gia giao dịch trên thị trường thứ cấp [wb-diem-lai-2024-08__C__p46__c001].\n*   **Đặc thù nhà đầu tư:** BHXH là nhà đầu tư nội ngành, buộc phải mua trái phiếu chính phủ ngay cả khi lợi suất thấp do không có kênh đầu tư nào khác cho lượng tiền dự trữ lớn, trong khi Bộ Tài chính đôi khi hủy bỏ phát hành nếu bên mua đưa ra mức lợi suất cao hơn mong muốn (thường xảy ra khi lợi suất thị trường thứ cấp tăng) để duy trì chi phí vay nợ thấp [wb-diem-lai-2024-08__C__p46__c001], [wb-diem-lai-2024-08__C__p46__c002].\n\nVề tỷ lệ từ chối giá thầu: Từ tháng 1/2020 đến tháng 12/2023, Bộ Tài chính đã từ chối toàn bộ các giá thầu trong **20%** số đợt đấu thầu [wb-diem-lai-2024-08__C__p46__c002].",
+  "citations": [
+   "wb-diem-lai-2024-08__C__p46__c001",
+   "wb-diem-lai-2024-08__C__p46__c002"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_dense",
+    "query": "chênh lệch giá thị trường sơ cấp và thứ cấp trái phiếu chính phủ Việt Nam nguyên nhân",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "wb-diem-lai-2024-08__C__p46__c001",
+      "rank": 1,
+      "score": 0.780432,
+      "page": 46,
+      "method": "dense",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p47__c001",
+      "rank": 2,
+      "score": 0.762917,
+      "page": 47,
+      "method": "dense",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p47__c003",
+      "rank": 3,
+      "score": 0.755717,
+      "page": 47,
+      "method": "dense",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     }
+    ],
+    "added_ids": [
+     "wb-diem-lai-2024-08__C__p46__c001",
+     "wb-diem-lai-2024-08__C__p47__c001",
+     "wb-diem-lai-2024-08__C__p47__c003"
+    ],
+    "skipped_over_budget": [],
+    "context_chars": 2570
+   },
+   {
+    "event": "search",
+    "tool": "search_dense",
+    "query": "tỷ lệ Bộ Tài chính từ chối toàn bộ giá thầu trái phiếu chính phủ tháng 1/2020 đến tháng 12/2023",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "wb-diem-lai-2024-08__C__p46__c002",
+      "rank": 1,
+      "score": 0.839238,
+      "page": 46,
+      "method": "dense",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p32__c004",
+      "rank": 2,
+      "score": 0.721641,
+      "page": 32,
+      "method": "dense",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p48__c002",
+      "rank": 3,
+      "score": 0.712257,
+      "page": 48,
+      "method": "dense",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     }
+    ],
+    "added_ids": [
+     "wb-diem-lai-2024-08__C__p46__c002"
+    ],
+    "skipped_over_budget": [
+     "wb-diem-lai-2024-08__C__p32__c004",
+     "wb-diem-lai-2024-08__C__p48__c002"
+    ],
+    "context_chars": 2996
+   },
+   {
+    "event": "answer",
+    "citations": [
+     "wb-diem-lai-2024-08__C__p46__c001",
+     "wb-diem-lai-2024-08__C__p46__c002"
+    ]
+   }
+  ],
+  "context_ids": [
+   "wb-diem-lai-2024-08__C__p46__c001",
+   "wb-diem-lai-2024-08__C__p47__c001",
+   "wb-diem-lai-2024-08__C__p47__c003",
+   "wb-diem-lai-2024-08__C__p46__c002"
+  ],
+  "context": [
+   "[wb-diem-lai-2024-08__C__p46__c001] (trang 46, chuong_2_thi_truong_von)\nTuy nhiên, trọng tâm phát hành trái phiếu có kỳ hạn dài hơn cho BHXH cũng có hệ quả không mong muốn cho việc xác định giá trái phiếu, đường cong lợi suất và thanh khoản trên thị trường thứ cấp. Trước hết, vì BHXH không được phép đầu tư gì khác ngoài các công cụ nợ của Chính phủ và các ngân hàng thuộc sở hữu Nhà nước, 22 họ trở thành nhà đầu tư nội ngành về trái phiếu Chính phủ. Tình trạng này khiến họ phải mua trái phiếu chính phủ ngay cả khi lợi suất thấp, vì không có kênh nào khác để đầu tư lượng tiền dự trữ lớn (vấn đề này sẽ được thảo luận thêm ở Phần 2.1). Thứ hai, việc tập trung vào các nhà đầu tư \"mua và nắm giữ\" như BHXH có nghĩa là giao dịch trên thị trường thứ cấp sẽ kém sôi động và do đó thiếu thông tin về giá cả. Các hạn chế pháp lý hiện tại đang ngăn cản BHXH tham gia trên thị trường thứ cấp. Chính vì vậy, thị trường sơ cấp và thị trường thứ cấp thường có khác biệt về giá (Hình 2.9).",
+   "[wb-diem-lai-2024-08__C__p47__c001] (trang 47, chuong_2_thi_truong_von)\nNguồn: Bộ Tài chính Việt Nam, Hiệp hội Trái phiếu Việt Nam, tính toán của cán bộ Ngân hàng Thế giới Chú thích: Trong một thị trường hiệu quả, không nên có chênh lệch lớn giữa lợi suất trên thị trường sơ cấp và thị trường thứ cấp\n\n1.3. Trái phiếu doanh nghiệp Tăng trưởng bị cản trở do vi phạm quy định, nhấn mạnh sự cần thiết phải tăng cường tính minh bạch và tính chuyên nghiệp của thị trường Trái phiếu doanh nghiệp phát triển tương đối tích cực đến giữa năm 2022, khi biến động trên thị trường đồng thời bộc lộ ra những yếu kém cơ bản, nhưng cho thấy tiềm năng tiếp tục tăng trưởng. Khối lượng phát hành đạt đỉnh 637 ngàn tỷ đồng (28 tỷ đô la Mỹ) trong năm 2021 (Hình",
+   "[wb-diem-lai-2024-08__C__p47__c003] (trang 47, chuong_2_thi_truong_von)\n1.8 0 1 2 3 4 5 6 % % 10-year Vietnamese government bond yields Discrepancy between secondary and primary yields (RHS) Auction yield (primary market) (LHS) 5-T1 5-T1 5-T2 5-T2 5-T3 5-T3 5-T4 5-T4 5-T5 5-T5 5-T6 5-T6 5-T7 5-T8 5-T9 5-T10 5-T11 5-T12 1,8% 1,6% 1,4% 1,2% 1% 0,8% 0,6% 0,4% 0,2% 0% 6% 5% 4% 3% 2% 1% 0% 23 Quản lý cấp cao và các bên liên quan của tập đoàn Vạn Thịnh Phát, một trong những tập đoàn bất động sản lớn nhất Việt Nam, bị phát hiện phạm tội biển thủ giấy phép bất động sản và phát hành trái phiếu gian lận. Tương tự, lãnh đạo tập đoàn Tân Hoàng Minh biển thủ trên 8,6 ngàn tỷ VND (348 triệu US$) bằng cách huy động vốn trái phép thông qua các công ty bình phong.\n\n24 Bao gồm Úc, Malaysia, Hàn Quốc, Singapore và Thái Lan (Nguồn: Asian Bonds Online).\n\nHình 2.9. Lợi suất cho cùng kỳ hạn trên thị trường sơ cấp và thứ cấp Trái phiếu chính phủ Việt Nam 10 năm Khoảng cách giữa lợi suất sơ cấp và thứ cấp (RHS) Lợi suất ngưỡng đấu giá (sơ cấp) (LHS) Lợi suất thứ cấp (LHS)",
+   "[wb-diem-lai-2024-08__C__p46__c002] (trang 46, chuong_2_thi_truong_von)\nTrong nỗ lực duy trì chi phí vay nợ thấp, Bộ Tài chính đôi khi hủy bỏ phát hành nếu bên mua đưa ra mức lợi suất cao hơn mong muốn, điều này thường diễn ra khi lợi suất trên thị trường thứ cấp tăng lên. Chẳng hạn, từ tháng 1/2020 đến tháng 12/2023, Bộ Tài chính đã từ chối toàn bộ các giá thầu trong 20% đợt đấu thầu. Tất cả các vấn đề đó góp phần gây ra sự biến dạng cho chức năng định giá của thị trường trái phiếu Chính phủ."
+  ],
+  "context_chars": 2996,
+  "searches": 2,
+  "usage": {
+   "llm_calls": 2,
+   "cached_calls": 0,
+   "input_tokens": 2260,
+   "output_tokens": 488,
+   "thinking_tokens": 297
+  },
+  "latency_s": 8.22,
+  "auto_eval": {
+   "answerable": true,
+   "context_has_evidence": true
+  }
+ },
+ {
+  "query_id": "q18",
+  "split": "test",
+  "config": "baseline_dense",
+  "provider": "gemini",
+  "model": "gemini-3.1-flash-lite",
+  "question": "Các tổ chức nào đảm nhiệm vai trò lưu ký, bù trừ và ngân hàng thanh toán cho các giao dịch trái phiếu chính phủ và chứng khoán doanh nghiệp tại Việt Nam?",
+  "filter": null,
+  "status": "answered",
+  "answer": "Theo báo cáo, các tổ chức đảm nhiệm vai trò hạ tầng cho giao dịch trái phiếu chính phủ và chứng khoán doanh nghiệp tại Việt Nam như sau:\n\n*   **Lưu ký, bù trừ và thanh toán:** Tổng Công ty Lưu ký và Bù trừ Chứng khoán Việt Nam (VSDC) là tổ chức duy nhất cung cấp dịch vụ lưu ký cho trái phiếu chính phủ, cổ phiếu và trái phiếu doanh nghiệp, đồng thời đảm nhiệm vai trò bù trừ và thanh toán cho các giao dịch này [wb-diem-lai-2024-08__C__p57__c001].\n*   **Ngân hàng thanh toán:**\n    *   Đối với **trái phiếu chính phủ**: Ngân hàng Nhà nước (NHNN) vận hành hệ thống thanh toán và đóng vai trò là ngân hàng thanh toán [wb-diem-lai-2024-08__C__p57__c001].\n    *   Đối với **chứng khoán doanh nghiệp**: Việc thanh toán được thực hiện qua một ngân hàng thương mại thuộc sở hữu của Nhà nước [wb-diem-lai-2024-08__C__p57__c001].",
+  "citations": [
+   "wb-diem-lai-2024-08__C__p57__c001"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_dense",
+    "query": "tổ chức lưu ký bù trừ ngân hàng thanh toán trái phiếu chính phủ chứng khoán doanh nghiệp Việt Nam tháng 8/2024",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "wb-diem-lai-2024-08__C__p57__c001",
+      "rank": 1,
+      "score": 0.752113,
+      "page": 57,
+      "method": "dense",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p57__c002",
+      "rank": 2,
+      "score": 0.735201,
+      "page": 57,
+      "method": "dense",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p15__c003",
+      "rank": 3,
+      "score": 0.733502,
+      "page": 15,
+      "method": "dense",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     }
+    ],
+    "added_ids": [
+     "wb-diem-lai-2024-08__C__p57__c001",
+     "wb-diem-lai-2024-08__C__p57__c002",
+     "wb-diem-lai-2024-08__C__p15__c003"
+    ],
+    "skipped_over_budget": [],
+    "context_chars": 2431
+   },
+   {
+    "event": "answer",
+    "citations": [
+     "wb-diem-lai-2024-08__C__p57__c001"
+    ]
+   }
+  ],
+  "context_ids": [
+   "wb-diem-lai-2024-08__C__p57__c001",
+   "wb-diem-lai-2024-08__C__p57__c002",
+   "wb-diem-lai-2024-08__C__p15__c003"
+  ],
+  "context": [
+   "[wb-diem-lai-2024-08__C__p57__c001] (trang 57, chuong_2_thi_truong_von)\n5. Hạ tầng thị trường Hạ tầng thị trường cần được nâng cấp, với vai trò lớn hơn của hệ thống xếp hạng tín nhiệm Nhiều cơ quan ở Việt Nam hỗ trợ về hạ tầng để thực hiện, bù trừ, thanh toán và ghi chép giao dịch—tất cả đều thuộc phạm vi giám sát của UBCKNN. Giao dịch được thực hiện tại các sàn HNX và HOSE, hiện đã được đưa vào cơ cấu chung của Sở Giao dịch Chứng khoán Việt Nam (VNX). Tổ chức lưu ký chứng khoán tập trung duy nhất, Tông Công ty Lưu ký và Bù trừ Chứng khoán Việt Nam (VSDC), cung cấp dịch vụ cho trái phiếu chính phủ, cổ phiếu và trái phiếu doanh nghiệp, đảm nhiệm bù trừ và thanh toán cho các giao dịch. NHNN vận hành hệ thống thanh toán và đóng vai trò ngân hàng thanh toán cho các giao dịch trái phiếu chính phủ, còn giao dịch về chứng khoán doanh nghiệp được thanh toán qua một ngân hàng thương mại thuộc sở hữu của Nhà nước.",
+   "[wb-diem-lai-2024-08__C__p57__c002] (trang 57, chuong_2_thi_truong_von)\nĐiều quan trọng là hạ tầng thị trường phải theo kịp sự phát triển của thị trường. Đến nay, sự kết hợp giữa xử lý thủ công và điện tử trong quy trình thanh toán trên thị trường trái phiếu chính phủ đang gây hạn chế hiệu quả. Hơn nữa, điều này ngăn cản việc thanh toán trái phiếu chính phủ trong ngày, gây hạn chế cho nghiệp vụ quản lý thanh khoản. Trên thị trường cổ phiếu, cơ chế đối tác bù trừ trung tâm đang được phát triển để giảm thiểu rủi ro trong thanh toán. Khi thị trường được nâng hạng thành Thị trường mới nổi trong tương lai, nhiều nhà đầu tư quốc tế sẽ đến với Việt Nam, quy trình ra vào thị trường cần được thực hiện một cách hiệu quả nhất có thể.",
+   "[wb-diem-lai-2024-08__C__p15__c003] (trang 15, tong_quan)\nNhu cầu dự kiến về tăng dự phòng, bổ sung dự phòng tổn thất vốn vay, đang gây thêm áp lực cho lợi nhuận của các ngân hàng vốn đã bị co kéo do thu nhập lãi thuần, phí và hoa hồng đang chững lại.\n\nTrong khi đó, thị trường trái phiếu doanh nghiệp có dấu hiệu phục hồi. Lượng phát hành trái phiếu doanh nghiệp tăng gấp 2,5 lần trong nửa đầu năm 2024 so với cùng kỳ năm 2023, do các ngân hàng tận dụng môi trường lãi suất thấp để đảo nợ trái phiếu. Tuy nhiên, lượng trái phiếu đáo hạn trong nửa cuối năm 2024 ước lên đến 139,8 ngàn tỷ VND (5,6 tỷ US$), trong đó trái phiếu bất động sản chiếm 42%, tạo áp lực cho lĩnh vực bất động sản trong điều kiện khó khăn về dòng tiền. Ngoài những diễn biến ngắn hạn trên, việc tái cân bằng dần hệ thống tài chính của Việt Nam theo hướng nâng cao vai trò của thị trường vốn vẫn tiếp tục là một chương trình nghị sự quan trọng và sẽ được bàn thêm trong chương chuyên đề đặc biệt của báo cáo này."
+  ],
+  "context_chars": 2431,
+  "searches": 1,
+  "usage": {
+   "llm_calls": 2,
+   "cached_calls": 0,
+   "input_tokens": 1738,
+   "output_tokens": 311,
+   "thinking_tokens": 196
+  },
+  "latency_s": 4.86,
+  "auto_eval": {
+   "answerable": true,
+   "context_has_evidence": true
+  }
+ },
+ {
+  "query_id": "q19",
+  "split": "test",
+  "config": "baseline_dense",
+  "provider": "gemini",
+  "model": "gemini-3.1-flash-lite",
+  "question": "Theo phân tích tại Chương 2 về chức năng huy động vốn, khối lượng phát hành cổ phần bình quân mỗi năm trên hai sàn giao dịch chứng khoán (HOSE và HNX) trong 5 năm qua đạt bao nhiêu ngàn tỷ đồng và năm 2023 có bao nhiêu đợt IPO được thực hiện?",
+  "filter": {
+   "section": "chuong_2_thi_truong_von"
+  },
+  "status": "answered",
+  "answer": "Theo phân tích tại Chương 2 của báo cáo:\n\n*   Khối lượng phát hành cổ phần bình quân mỗi năm trên hai sàn giao dịch chứng khoán (HOSE và HNX) trong 5 năm qua đạt **37 ngàn tỷ đồng** [wb-diem-lai-2024-08__C__p49__c001].\n*   Trong năm 2023, có **3 đợt IPO** được thực hiện [wb-diem-lai-2024-08__C__p49__c002].",
+  "citations": [
+   "wb-diem-lai-2024-08__C__p49__c001",
+   "wb-diem-lai-2024-08__C__p49__c002"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_dense",
+    "query": "khối lượng phát hành cổ phần bình quân mỗi năm trên HOSE và HNX 5 năm qua chương 2",
+    "filter": {
+     "section": "chuong_2_thi_truong_von"
+    },
+    "top_k": 3,
+    "results": [
+     {
+      "id": "wb-diem-lai-2024-08__C__p49__c001",
+      "rank": 1,
+      "score": 0.767617,
+      "page": 49,
+      "method": "dense",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p49__c004",
+      "rank": 2,
+      "score": 0.752069,
+      "page": 49,
+      "method": "dense",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p49__c005",
+      "rank": 3,
+      "score": 0.745701,
+      "page": 49,
+      "method": "dense",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     }
+    ],
+    "added_ids": [
+     "wb-diem-lai-2024-08__C__p49__c001",
+     "wb-diem-lai-2024-08__C__p49__c004",
+     "wb-diem-lai-2024-08__C__p49__c005"
+    ],
+    "skipped_over_budget": [],
+    "context_chars": 2386
+   },
+   {
+    "event": "search",
+    "tool": "search_dense",
+    "query": "số đợt IPO năm 2023 chương 2 thị trường vốn",
+    "filter": {
+     "section": "chuong_2_thi_truong_von"
+    },
+    "top_k": 3,
+    "results": [
+     {
+      "id": "wb-diem-lai-2024-08__C__p49__c002",
+      "rank": 1,
+      "score": 0.806088,
+      "page": 49,
+      "method": "dense",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p49__c005",
+      "rank": 2,
+      "score": 0.758975,
+      "page": 49,
+      "method": "dense",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p55__c003",
+      "rank": 3,
+      "score": 0.728088,
+      "page": 55,
+      "method": "dense",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     }
+    ],
+    "added_ids": [
+     "wb-diem-lai-2024-08__C__p49__c002"
+    ],
+    "skipped_over_budget": [
+     "wb-diem-lai-2024-08__C__p55__c003"
+    ],
+    "context_chars": 2481
+   },
+   {
+    "event": "answer",
+    "citations": [
+     "wb-diem-lai-2024-08__C__p49__c001",
+     "wb-diem-lai-2024-08__C__p49__c002"
+    ]
+   }
+  ],
+  "context_ids": [
+   "wb-diem-lai-2024-08__C__p49__c001",
+   "wb-diem-lai-2024-08__C__p49__c004",
+   "wb-diem-lai-2024-08__C__p49__c005",
+   "wb-diem-lai-2024-08__C__p49__c002"
+  ],
+  "context": [
+   "[wb-diem-lai-2024-08__C__p49__c001] (trang 49, chuong_2_thi_truong_von)\nThị trường cổ phiếu của Việt Nam có tiềm năng to lớn để trở thành nguồn huy động tài chính quan trọng cho khu vực tư nhân. Nói về tiềm năng của thị trường, mức vốn hóa thị trường đã tăng từ 38% lên 58% trong thập kỷ qua, thậm chí còn đạt đỉnh lên đến 93% vào năm 2021 (Hình 2.12). Thị trường gồm hai sàn giao dịch trong phạm vi quản lý nhà nước - Sở Giao dịch Chứng khoán thành phố Hồ Chí Minh (HOSE) và Sở Giao dịch Chứng khoán Hà Nội (HNX) - tới tổng mức vốn hóa lên đến 4.740 ngàn tỷ đồng (198 tỷ đô la Mỹ), song song với một thị trường nữa dành cho các công ty đại chúng chưa niêm yết (UPCOM) khoảng 1.036 ngàn tỷ VND (43 tỷ đô la Mỹ). Tuy nhiên, mặc dù vốn hóa thị trường ở mức lớn, nhưng huy động vốn trên hai sàn giao dịch trên chưa đáng kể, bình quân đạt 37 ngàn tỷ đồng (1,5 tỷ đô la Mỹ) mỗi năm trong năm năm qua, chủ yếu qua chào bán thứ cấp, vượt trội chào bán đại chúng lần đầu (IPO) (Hình 2.12).25 Các hoạt động IPO diễn ra sôi động nhất trong các năm 2017-2018 nhưng sau đó giảm mạnh.",
+   "[wb-diem-lai-2024-08__C__p49__c004] (trang 49, chuong_2_thi_truong_von)\nKhi tất cả các quỹ hưu trí, các công ty bảo hiểm và quỹ đầu tư đại chúng đều có những cân nhắc khác nhau khi tham gia hay rời khỏi thị trường, quyết định mua hay bán của một loại hình nhà đầu tư sẽ ảnh hưởng ít hơn đến giá thị trường. Vì sức khỏe của thị trường cổ phiếu thường được coi là thước đo cho nền kinh tế thị trường của một quốc gia, điều hết sức quan trọng là cần duy trì quỹ đạo tăng trưởng dài hạn với ít biến động hơn.\n\nHình 2.12. Mức vốn hóa thị trường cổ phiếu ở Việt Nam\n\nHình 2.13. Huy động vốn trên các sàn giao dịch cổ phiếu (HOSE & HNX) Nguồn: HNX, HOSE Nguồn: FiinGroup, UBCKNN 25 Huy động vốn trên thị trường UPCOM ước đạt 32 ngàn tỷ đồng (1,3 tỷ đô la Mỹ) bình quân mỗi năm trong năm năm qua.\n\n0.0%\n\n10.0%\n\n20.0%\n\n30.0%\n\n40.0%\n\n50.0%\n\n60.0%\n\n70.0%\n\n80.0%\n\n90.0%\n\n100.0% - 1,000 2,000 3,000 4,000 5,000 6,000 7,000 8,000 9,000 2019 2020 2021 2022 2023 VND trn HOSE HNX UPCOM % of GDP % of GDPHOSE HNX UPCOM\n\n9.000\n\n8.000\n\n7.000\n\n6.000\n\n5.000\n\n4.000\n\n3.000\n\n2.000",
+   "[wb-diem-lai-2024-08__C__p49__c005] (trang 49, chuong_2_thi_truong_von)\n1.000 - 100% 90% 80% 70% 60% 50% 40% 30% 20% 10% 0% 92,5% 55,3% 84,1% 72,6% 58,1% 2019 2020 2021 2022 2023 Nghìn tỷ đồng\n\n0.0\n\n20.0\n\n40.0\n\n60.0\n\n80.0\n\n100.0\n\n120.0 2017 2018 2019 2020 2021 2022 2023 VND trn IPO Public secondary oﬀering IPO Chào bán thứ cấp ra công chúng 120 100 80 60 40 20 0 19,2 14,3 71,4 32,3 73,3 31,8 32,4 52,6 16,5 0,21,63,00,20,7 2017 2018 2019 2020 2021 2022 2023 Nghìn tỷ đồng",
+   "[wb-diem-lai-2024-08__C__p49__c002] (trang 49, chuong_2_thi_truong_von)\nTrong năm 2023, chỉ có ba đợt IPO được thực hiện, huy động được 173 tỷ đồng (7 triệu đô la Mỹ)."
+  ],
+  "context_chars": 2481,
+  "searches": 2,
+  "usage": {
+   "llm_calls": 2,
+   "cached_calls": 0,
+   "input_tokens": 2451,
+   "output_tokens": 201,
+   "thinking_tokens": 315
+  },
+  "latency_s": 24.322,
+  "auto_eval": {
+   "answerable": true,
+   "context_has_evidence": true
+  }
+ },
+ {
+  "query_id": "q20",
+  "split": "test",
+  "config": "baseline_dense",
+  "provider": "gemini",
+  "model": "gemini-3.1-flash-lite",
+  "question": "Theo kịch bản cải cách thị trường vốn đến năm 2030 ở cuối Chương 2, nếu BHXH, các công ty bảo hiểm nhân thọ, các quỹ đầu tư/hưu trí tư nhân đa dạng hóa đầu tư và thị trường chứng khoán được nâng hạng lên Thị trường mới nổi thì tổng nguồn vốn huy động cho khu vực doanh nghiệp có thể đạt khoảng bao nhiêu tỷ đô la Mỹ?",
+  "filter": {
+   "section": "chuong_2_thi_truong_von"
+  },
+  "status": "answered",
+  "answer": "Theo kịch bản cải cách thị trường vốn đến năm 2030, nếu BHXH, các công ty bảo hiểm nhân thọ, các quỹ đầu tư/hưu trí tư nhân đa dạng hóa đầu tư và thị trường chứng khoán được nâng hạng lên Thị trường mới nổi, tổng nguồn vốn huy động cho khu vực doanh nghiệp có thể đạt khoảng **87 tỷ đô la Mỹ** vào cuối thập kỷ [wb-diem-lai-2024-08__C__p61__c002].\n\nCụ thể, các nguồn đóng góp bao gồm:\n*   BHXH: 20 tỷ đô la Mỹ [wb-diem-lai-2024-08__C__p60__c003].\n*   Các công ty bảo hiểm nhân thọ: 15 tỷ đô la Mỹ [wb-diem-lai-2024-08__C__p60__c003].\n*   Các quỹ đầu tư và quỹ hưu trí tư nhân: 14 tỷ đô la Mỹ [wb-diem-lai-2024-08__C__p60__c003].\n*   Dòng vốn ròng từ việc nâng hạng thị trường (MSCI và FTSE Russell): 5 tỷ đô la Mỹ [wb-diem-lai-2024-08__C__p60__c003].",
+  "citations": [
+   "wb-diem-lai-2024-08__C__p61__c002",
+   "wb-diem-lai-2024-08__C__p60__c003"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_dense",
+    "query": "kịch bản cải cách thị trường vốn đến năm 2030 tổng nguồn vốn huy động cho khu vực doanh nghiệp tỷ đô la Mỹ",
+    "filter": {
+     "section": "chuong_2_thi_truong_von"
+    },
+    "top_k": 3,
+    "results": [
+     {
+      "id": "wb-diem-lai-2024-08__C__p60__c003",
+      "rank": 1,
+      "score": 0.780836,
+      "page": 60,
+      "method": "dense",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p60__c004",
+      "rank": 2,
+      "score": 0.752159,
+      "page": 60,
+      "method": "dense",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p61__c002",
+      "rank": 3,
+      "score": 0.746277,
+      "page": 61,
+      "method": "dense",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     }
+    ],
+    "added_ids": [
+     "wb-diem-lai-2024-08__C__p60__c003",
+     "wb-diem-lai-2024-08__C__p60__c004",
+     "wb-diem-lai-2024-08__C__p61__c002"
+    ],
+    "skipped_over_budget": [],
+    "context_chars": 2003
+   },
+   {
+    "event": "answer",
+    "citations": [
+     "wb-diem-lai-2024-08__C__p61__c002",
+     "wb-diem-lai-2024-08__C__p60__c003"
+    ]
+   }
+  ],
+  "context_ids": [
+   "wb-diem-lai-2024-08__C__p60__c003",
+   "wb-diem-lai-2024-08__C__p60__c004",
+   "wb-diem-lai-2024-08__C__p61__c002"
+  ],
+  "context": [
+   "[wb-diem-lai-2024-08__C__p60__c003] (trang 60, chuong_2_thi_truong_von)\nNhững cải cách hợp lý, nếu được triển khai thận trọng, sẽ giúp mở ra kênh huy động vốn dài hạn bổ sung to lớn cho khu vực doanh nghiệp ở Việt Nam. Chỉ cần BHXH phân bổ đầu tư ở mức khiêm tốn vào chứng khoán doanh nghiệp, điều đó đồng nghĩa với việc bổ sung thêm 20 tỷ đô la Mỹ dành cho khu vực doanh nghiệp vào năm 2030. 34 Lợi nhuận tăng thêm cộng dồn có thể lên đến 4 tỷ đô la Mỹ vào năm 2030. Tương tự, chỉ cần tái phân bổ một phần khiêm tốn vốn đầu tư của các công ty bảo hiểm nhân thọ sang chứng khoán doanh nghiệp, là có thể huy động được thêm 15 tỷ đô la Mỹ trong cùng thời gian đó.35 Các quỹ đầu tư và quỹ hưu trí tư nhân tăng trưởng lành mạnh có thể đem lại khoảng 14 tỷ đô la Mỹ.36 Đồng thời, nếu được MSCI và FTSE Russell nâng cấp thành thị trường mới nổi, nghĩa là dòng vốn ròng 5 tỷ đô la Mỹ sẽ đổ vào thị trường cổ phiếu Việt Nam, do danh mục của thị trường mới nổi toàn cầu được tái phân bổ sang Việt Nam sau khi được nâng cấp.",
+   "[wb-diem-lai-2024-08__C__p60__c004] (trang 60, chuong_2_thi_truong_von)\nDòng tiền đổ vào có thể lên đến 25 tỷ đô la Mỹ vào năm 2030 nếu những cải cách mạnh mẽ tiếp tục diễn ra và và môi trường đầu tư toàn cầu vẫn lành 34 Giả sử đa dạng hóa dần sang chứng khoán doanh nghiệp ở mức tới 25%, trong đó tài sản có thể đầu tư của BHXH sẽ tăng ổn định theo các xu hướng tăng trưởng trước đó, nâng tài sản thuộc phạm vi quản lý lên mức 80 tỷ đô la Mỹ vào năm 2030.",
+   "[wb-diem-lai-2024-08__C__p61__c002] (trang 61, chuong_2_thi_truong_von)\nmạnh.37 Về tổng thể, điều đó có nghĩa là riêng các thị trường vốn sẽ dành được khoảng 87 tỷ đô la Mỹ cho khu vực doanh nghiệp vào cuối thập kỷ. Các thị trường vốn phát triển lành mạnh cũng đem lại những tác động ngoại ứng tích cực cho cả nền kinh tế, thông qua phân bổ vốn hiệu quả. Việt Nam sẽ có khả năng đạt tăng trưởng kinh tế cao hơn, không chỉ vì nguồn lực trong nước được sử dụng đảm bảo năng suất cao hơn, mà còn vì quốc gia có thể dùng đòn bẩy bằng nguồn vốn rất cần trên thị trường quốc tế để hoàn thành mục tiêu phấn đấu trở thành quốc gia thu nhập cao. Chính vì vậy, mục tiêu chính của Chính phủ và tất cả các bên là tạo nỗ lực đồng bộ để phát triển thị trường vốn."
+  ],
+  "context_chars": 2003,
+  "searches": 1,
+  "usage": {
+   "llm_calls": 2,
+   "cached_calls": 0,
+   "input_tokens": 1872,
+   "output_tokens": 358,
+   "thinking_tokens": 385
+  },
+  "latency_s": 4.965,
+  "auto_eval": {
+   "answerable": true,
+   "context_has_evidence": true
+  }
+ },
+ {
+  "query_id": "u03",
+  "split": "test",
+  "config": "baseline_dense",
+  "provider": "gemini",
+  "model": "gemini-3.1-flash-lite",
+  "question": "Giá vàng miếng trong nước đã tăng bao nhiêu phần trăm trong nửa đầu năm 2024?",
+  "filter": null,
+  "status": "abstain",
+  "answer": "KHÔNG ĐỦ BẰNG CHỨNG: Báo cáo \"Điểm lại tháng 8/2024\" có đề cập đến việc nhu cầu mua vàng trong nước tăng 28,6% so với cùng kỳ năm trước và các biện pháp kiểm soát nguồn cung đã khiến giá vàng bị đội lên cao, nhưng không cung cấp số liệu cụ thể về tỷ lệ phần trăm tăng giá của vàng miếng trong nửa đầu năm 2024 [wb-diem-lai-2024-08__C__p14__c003], [wb-diem-lai-2024-08__C__p28__c002].",
+  "citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_dense",
+    "query": "giá vàng miếng trong nước tăng bao nhiêu phần trăm nửa đầu năm 2024",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "wb-diem-lai-2024-08__C__p14__c003",
+      "rank": 1,
+      "score": 0.74659,
+      "page": 14,
+      "method": "dense",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p28__c002",
+      "rank": 2,
+      "score": 0.731164,
+      "page": 28,
+      "method": "dense",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p14__c001",
+      "rank": 3,
+      "score": 0.726716,
+      "page": 14,
+      "method": "dense",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     }
+    ],
+    "added_ids": [
+     "wb-diem-lai-2024-08__C__p14__c003",
+     "wb-diem-lai-2024-08__C__p28__c002",
+     "wb-diem-lai-2024-08__C__p14__c001"
+    ],
+    "skipped_over_budget": [],
+    "context_chars": 2048
+   },
+   {
+    "event": "abstain",
+    "model_text": "KHÔNG ĐỦ BẰNG CHỨNG: Báo cáo \"Điểm lại tháng 8/2024\" có đề cập đến việc nhu cầu mua vàng trong nước tăng 28,6% so với cùng kỳ năm trước và các biện pháp kiểm soát nguồn cung đã khiến giá vàng bị đội lên cao, nhưng không cung cấp số liệu cụ thể về tỷ lệ phần trăm tăng giá của vàng miếng trong nửa đầu năm 2024 [wb-diem-lai-2024-08__C__p14__c003], [wb-diem-lai-2024-08__C__p28__c002]."
+   }
+  ],
+  "context_ids": [
+   "wb-diem-lai-2024-08__C__p14__c003",
+   "wb-diem-lai-2024-08__C__p28__c002",
+   "wb-diem-lai-2024-08__C__p14__c001"
+  ],
+  "context": [
+   "[wb-diem-lai-2024-08__C__p14__c003] (trang 14, tong_quan)\nMặc dù vậy, do chênh lệch lãi suất giữa trong và ngoài nước vẫn duy trì và đồng đô-la Mỹ mạnh lên trong nửa đầu năm 2024 khiến cho dòng vốn phi chính thức bị chảy ra nước ngoài mạnh hơn dẫn đến cán cân thanh toán quốc tế ghi nhận thâm hụt. Chênh lệch lãi suất qua đêm giữa tiền đồng Việt Nam và đồng đô-la Mỹ vẫn ở mức cao (166 điểm cơ bản) trong nửa đầu năm 2024, do vậy, mặc dù lãi suất qua đêm của Việt Nam gần đây đã tăng lên nhưng vẫn làm tăng dòng vốn chảy ra nước ngoài để tìm kiếm lợi suất tốt hơn. Trong khi đó, do đồng đô-la mạnh lên, tỷ giá VND/US$ tăng từ mức 24.258 VND trong tháng 12/2023 lên 25.334 VND vào cuối tháng 6/2024 trên thị trường. Do người dân tìm kiếm công cụ đầu tư khác, nhu cầu mua vàng trong nước tăng vọt (+28,6% so với cùng kỳ năm trước), kết hợp với các biện pháp kiểm soát nguồn cung, khiến cho vàng bị đội giá cao gây ra tình trạng mua và nhập khẩu vàng phi chính thức.",
+   "[wb-diem-lai-2024-08__C__p28__c002] (trang 28, chuong_1_kinh_te_vi_mo)\nMặc dù lãi suất qua đêm của Việt Nam gần đây đã tăng, nhưng chênh lệch lãi suất qua đêm giữa hai đồng tiền vẫn ở mức đáng kể (166 điểm cơ bản) trong nửa đầu năm 2024, do đó vẫn khiến dòng vốn chảy ra nước ngoài do các nhà đầu tư tìm kiếm lợi suất tốt hơn. Hơn nữa, do đồng đô-la mạnh lên, tỷ giá tăng từ 24.258 VND trong tháng 12/2023 lên 24.760 VND vào cuối tháng 3/2024, tạo áp lực cho đồng nội tệ và làm dấy lên quan ngại về khả năng đồng tiền tiếp tục bị mất giá. Do người dân tìm kiếm công cụ đầu tư khác, nhu cầu mua vàng trong nước tăng vọt (+28,6% so với cùng kỳ năm trước), kết hợp với các biện pháp kiểm soát nguồn cung, khiến cho vàng bị đội giá cao gây ra tình trạng mua và nhập khẩu vàng phi chính thức tăng lên.",
+   "[wb-diem-lai-2024-08__C__p14__c001] (trang 14, tong_quan)\ntrong nửa đầu năm 2024, thấp hơn mức bình quân hàng năm là 4,7% trong giai đoạn 2017-2019. Đầu tư nước ngoài có mức tăng trưởng mạnh nhất trong nửa đầu năm 2024, tăng 13% (so với cùng kỳ năm trước). Trong khi đó, mức tăng của đầu tư công2 chững lại còn 4% (so với cùng kỳ năm trước) trong nửa đầu năm 2024, so với mức 20,5% trong nửa đầu năm 2023, cũng là giai đoạn đẩy mạnh đầu tư công để hỗ trợ nền kinh tế năm 2023."
+  ],
+  "context_chars": 2048,
+  "searches": 1,
+  "usage": {
+   "llm_calls": 2,
+   "cached_calls": 0,
+   "input_tokens": 1707,
+   "output_tokens": 183,
+   "thinking_tokens": 203
+  },
+  "latency_s": 3.684,
+  "auto_eval": {
+   "answerable": false,
+   "context_has_evidence": null
+  }
+ },
+ {
+  "query_id": "u04",
+  "split": "test",
+  "config": "baseline_dense",
+  "provider": "gemini",
+  "model": "gemini-3.1-flash-lite",
+  "question": "Khối lượng giao dịch bình quân mỗi phiên của hợp đồng tương lai chỉ số VN30 năm 2023 là bao nhiêu hợp đồng?",
+  "filter": null,
+  "status": "abstain",
+  "answer": "KHÔNG ĐỦ BẰNG CHỨNG: Báo cáo \"Điểm lại tháng 8/2024\" không cung cấp thông tin về khối lượng giao dịch bình quân mỗi phiên của hợp đồng tương lai chỉ số VN30 trong năm 2023.",
+  "citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_dense",
+    "query": "khối lượng giao dịch bình quân mỗi phiên hợp đồng tương lai chỉ số VN30 năm 2023",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "id": "wb-diem-lai-2024-08__C__p41__c001",
+      "rank": 1,
+      "score": 0.675432,
+      "page": 41,
+      "method": "dense",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p49__c005",
+      "rank": 2,
+      "score": 0.672014,
+      "page": 49,
+      "method": "dense",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     },
+     {
+      "id": "wb-diem-lai-2024-08__C__p49__c004",
+      "rank": 3,
+      "score": 0.661033,
+      "page": 49,
+      "method": "dense",
+      "base_rank": null,
+      "component_ranks": null,
+      "rerank_error": null
+     }
+    ],
+    "added_ids": [
+     "wb-diem-lai-2024-08__C__p41__c001",
+     "wb-diem-lai-2024-08__C__p49__c005",
+     "wb-diem-lai-2024-08__C__p49__c004"
+    ],
+    "skipped_over_budget": [],
+    "context_chars": 2048
+   },
+   {
+    "event": "abstain",
+    "model_text": "KHÔNG ĐỦ BẰNG CHỨNG: Báo cáo \"Điểm lại tháng 8/2024\" không cung cấp thông tin về khối lượng giao dịch bình quân mỗi phiên của hợp đồng tương lai chỉ số VN30 trong năm 2023."
+   }
+  ],
+  "context_ids": [
+   "wb-diem-lai-2024-08__C__p41__c001",
+   "wb-diem-lai-2024-08__C__p49__c005",
+   "wb-diem-lai-2024-08__C__p49__c004"
+  ],
+  "context": [
+   "[wb-diem-lai-2024-08__C__p41__c001] (trang 41, chuong_2_thi_truong_von)\n21 Đường cong lợi suất biểu diễn các mức lãi suất theo các kỳ hạn khác nhau, ghĩa là ngắn hạn, trung hạn và dài hạn. ngân hàng trung ương đồng nghĩa với việc đường cong lợi suất chưa được sát. 21 Chênh lệnh thường được thể hiện rõ trên giá trái phiếu chính phủ giữa khi đấu thầu và khi được giao dịch trên thị trường thứ cấp. Giá trái phiếu chính phủ hiếm khi được dùng làm mốc tham chiếu cho các công cụ khác, như trái phiếu doanh nghiệp. Trong thị trường cổ phiếu, khối lượng đã tăng đáng kể khi tổng giá trị giao dịch năm 2023 đạt 7.222 ngàn tỷ đồng (282 tỷ đô la Mỹ), nhưng thị trường cổ phiếu Việt Nam là thị trường biến động nhất trong khu vực (Hình 2.4).",
+   "[wb-diem-lai-2024-08__C__p49__c005] (trang 49, chuong_2_thi_truong_von)\n1.000 - 100% 90% 80% 70% 60% 50% 40% 30% 20% 10% 0% 92,5% 55,3% 84,1% 72,6% 58,1% 2019 2020 2021 2022 2023 Nghìn tỷ đồng\n\n0.0\n\n20.0\n\n40.0\n\n60.0\n\n80.0\n\n100.0\n\n120.0 2017 2018 2019 2020 2021 2022 2023 VND trn IPO Public secondary oﬀering IPO Chào bán thứ cấp ra công chúng 120 100 80 60 40 20 0 19,2 14,3 71,4 32,3 73,3 31,8 32,4 52,6 16,5 0,21,63,00,20,7 2017 2018 2019 2020 2021 2022 2023 Nghìn tỷ đồng",
+   "[wb-diem-lai-2024-08__C__p49__c004] (trang 49, chuong_2_thi_truong_von)\nKhi tất cả các quỹ hưu trí, các công ty bảo hiểm và quỹ đầu tư đại chúng đều có những cân nhắc khác nhau khi tham gia hay rời khỏi thị trường, quyết định mua hay bán của một loại hình nhà đầu tư sẽ ảnh hưởng ít hơn đến giá thị trường. Vì sức khỏe của thị trường cổ phiếu thường được coi là thước đo cho nền kinh tế thị trường của một quốc gia, điều hết sức quan trọng là cần duy trì quỹ đạo tăng trưởng dài hạn với ít biến động hơn.\n\nHình 2.12. Mức vốn hóa thị trường cổ phiếu ở Việt Nam\n\nHình 2.13. Huy động vốn trên các sàn giao dịch cổ phiếu (HOSE & HNX) Nguồn: HNX, HOSE Nguồn: FiinGroup, UBCKNN 25 Huy động vốn trên thị trường UPCOM ước đạt 32 ngàn tỷ đồng (1,3 tỷ đô la Mỹ) bình quân mỗi năm trong năm năm qua.\n\n0.0%\n\n10.0%\n\n20.0%\n\n30.0%\n\n40.0%\n\n50.0%\n\n60.0%\n\n70.0%\n\n80.0%\n\n90.0%\n\n100.0% - 1,000 2,000 3,000 4,000 5,000 6,000 7,000 8,000 9,000 2019 2020 2021 2022 2023 VND trn HOSE HNX UPCOM % of GDP % of GDPHOSE HNX UPCOM\n\n9.000\n\n8.000\n\n7.000\n\n6.000\n\n5.000\n\n4.000\n\n3.000\n\n2.000"
+  ],
+  "context_chars": 2048,
+  "searches": 1,
+  "usage": {
+   "llm_calls": 2,
+   "cached_calls": 0,
+   "input_tokens": 2030,
+   "output_tokens": 98,
+   "thinking_tokens": 177
+  },
+  "latency_s": 3.38,
+  "auto_eval": {
+   "answerable": false,
+   "context_has_evidence": null
+  }
+ }
+]
