@@ -2,6 +2,54 @@
 
 **Bài cá nhân · Python 3.11+ · tiếp nối Day 6**
 
+## Bài làm Day 7
+
+**Học viên:** Ngô Chí Vĩnh (`2A202603724`), lớp L3B · **Báo cáo:** [report/individual/2A202603724_NgoChiVinh.md](report/individual/2A202603724_NgoChiVinh.md)
+
+| Thành phần | Giá trị |
+|---|---|
+| Corpus | World Bank *Điểm lại 8/2024* (CC BY 3.0 IGO), 47 trang nội dung, 195 chunk Day 6 chiến lược C |
+| Embedding / vector store | `gemini-embedding-001` 3072 chiều · Qdrant local `day6_strategy_C` (cosine) |
+| Agent LLM | `gemini-3.1-flash-lite` (Gemini free tier), function calling gốc; đổi sang OpenAI bằng `LLM_PROVIDER=openai` |
+| Retrieval | dense (Qdrant), BM25 (âm tiết + bigram), hybrid RRF, LLM rerank |
+| Benchmark | 24 câu: dev 15 có đáp án + 2 thiếu bằng chứng, test 5 + 2 ([data/day7/questions.json](data/day7/questions.json)) |
+| Cấu hình đã chọn | `improve_multitool` (chốt trên dev: [results/selected_config.json](results/selected_config.json)) |
+
+### Cài đặt
+
+```powershell
+python -m venv .venv
+.venv\Scripts\python -m pip install -r requirements.txt
+copy .env.example .env        # điền GEMINI_API_KEY; không commit .env
+```
+
+Store Qdrant và cache embedding của Day 6 không được commit. Copy từ repo Day 6 sau khi đã chạy `python -m src.run` ở `starter/`:
+
+```powershell
+xcopy /E /I <DAY6>\starter\qdrant_storage day6_store\qdrant_storage
+copy <DAY6>\results\embedding_cache.json results\
+```
+
+### Chạy
+
+```powershell
+$env:PYTHONUTF8=1
+.venv\Scripts\python -m unittest discover -s tests -v                 # test offline (mock), 45 test
+.venv\Scripts\python -m src.day7.export_day6                          # Qdrant -> data/day7/chunks.json
+.venv\Scripts\python -m src.day7.build_benchmark                      # -> data/day7/questions.json, cases.json
+.venv\Scripts\python -m src.day7.eval_retrieval --split dev           # Hit@1, EH@3, MRR của 5 phương pháp
+.venv\Scripts\python -m src.day7.run_benchmark --config improve_multitool --split dev
+.venv\Scripts\python -m src.day7.run_benchmark --config improve_multitool --split test   # cần selected_config.json
+.venv\Scripts\python starter\agent_metrics.py --cases data\day7\cases.json --traces results\agent\test\improve_multitool\traces.json --reviews results\agent\test\improve_multitool\reviews.json --split test --output results\agent\test\improve_multitool\agent_metrics.json
+.venv\Scripts\python -m src.day7.report_tables --split dev
+```
+
+Cấu hình agent: `baseline_dense`, `agent_bm25`, `agent_hybrid`, `improve_rerank`, `improve_multitool` ([src/day7/configs.py](src/day7/configs.py)). `PYTHONUTF8=1` cần trên Windows: test có sẵn của starter đọc JSON không chỉ định encoding.
+
+Code: [src/day7/](src/day7/) (agent, retrievers, llm, benchmark, các script chạy) · [src/day6/](src/day6/) (embedder và store copy nguyên từ Day 6) · kết quả và trace: [results/](results/).
+
+---
+
 Dùng embedding và vector store từ Day 6 để xây một agent biết tìm bằng chứng, trả lời có nguồn và nhận biết khi không đủ thông tin. Bạn tự chọn kiến trúc, số tool và cách tổ chức retrieval.
 
 > **Tùy chọn:** [Gợi ý dùng AI để lập trình](AGENT_SETUP.md) giúp bạn làm lab; phần này không bắt buộc và không tính điểm.
