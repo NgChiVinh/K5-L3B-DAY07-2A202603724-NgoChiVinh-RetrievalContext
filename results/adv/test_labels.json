@@ -1,0 +1,385 @@
+{
+ "summary": {
+  "config": "improve_label_strict_41_budget",
+  "pass": 30,
+  "total": 30,
+  "by_group": {
+   "bang": "6/6",
+   "anh_so_do": "5/5",
+   "bieu_do": "5/5",
+   "multi_hop": "4/4",
+   "text": "4/4",
+   "thieu_bang_chung": "6/6"
+  },
+  "system_errors": 0,
+  "labeled_by": "AI assistant (Claude) đọc đối chiếu; học viên cần kiểm lại"
+ },
+ "labels": [
+  {
+   "query_id": "t01",
+   "group": "bang",
+   "status": "answered",
+   "pass": true,
+   "citations": [
+    "wb-vn2045-greener-vi__p044__c101"
+   ],
+   "citations_all_support": true,
+   "reason": "Đúng 4,10% và 0,46 điểm (4,56−4,10); cite Bảng 1.1 tr.44 (vùng giữa-dưới) — đối chiếu ảnh trang gốc.",
+   "checked_against": "ảnh trang gốc adv_store/pages/pNNN.png + nội dung chunk được cite"
+  },
+  {
+   "query_id": "t02",
+   "group": "bang",
+   "status": "answered",
+   "pass": true,
+   "citations": [
+    "wb-vn2045-greener-vi__p078__c101"
+   ],
+   "citations_all_support": true,
+   "reason": "Đúng 8%, 4.000 VND/lít, gấp 2 lần; cite Bảng 2.2 tr.78 hàng Xăng.",
+   "checked_against": "ảnh trang gốc adv_store/pages/pNNN.png + nội dung chunk được cite"
+  },
+  {
+   "query_id": "t03",
+   "group": "bang",
+   "status": "answered",
+   "pass": true,
+   "citations": [
+    "wb-vn2045-greener-vi__p082__c101",
+    "wb-vn2045-greener-vi__p082__c003"
+   ],
+   "citations_all_support": true,
+   "reason": "Đúng kịch bản Tham vọng, tăng 1,7 điểm; cite Bảng 2.3 tr.82 + đoạn văn tr.82 nêu 1,7 điểm.",
+   "checked_against": "ảnh trang gốc adv_store/pages/pNNN.png + nội dung chunk được cite"
+  },
+  {
+   "query_id": "t04",
+   "group": "bang",
+   "status": "answered",
+   "pass": true,
+   "citations": [
+    "wb-vn2045-greener-vi__p114__c101",
+    "wb-vn2045-greener-vi__p114__c003"
+   ],
+   "citations_all_support": true,
+   "reason": "Đúng −2 và đúng chiều tác động Dầu khí → Môi trường & ĐDSH; cite Bảng 3.6 + ghi chú tr.114.",
+   "checked_against": "ảnh trang gốc adv_store/pages/pNNN.png + nội dung chunk được cite"
+  },
+  {
+   "query_id": "t05",
+   "group": "bang",
+   "status": "answered",
+   "pass": true,
+   "citations": [
+    "wb-vn2045-greener-vi__p099__c103"
+   ],
+   "citations_all_support": true,
+   "reason": "Đúng 10.054 và 178.800 tỷ VND; cite Bảng 3.2 tr.99 (chunk c103).",
+   "checked_against": "ảnh trang gốc adv_store/pages/pNNN.png + nội dung chunk được cite"
+  },
+  {
+   "query_id": "t06",
+   "group": "bang",
+   "status": "answered",
+   "pass": true,
+   "citations": [
+    "wb-vn2045-greener-vi__p101__c101"
+   ],
+   "citations_all_support": true,
+   "reason": "Đúng Ai-xơ-len 26%, Trung Quốc 40,2%; cite Bảng 3.4 tr.101.",
+   "checked_against": "ảnh trang gốc adv_store/pages/pNNN.png + nội dung chunk được cite"
+  },
+  {
+   "query_id": "t07",
+   "group": "anh_so_do",
+   "status": "answered",
+   "pass": true,
+   "citations": [
+    "wb-vn2045-greener-vi__p139__c101",
+    "wb-vn2045-greener-vi__p139__c001"
+   ],
+   "citations_all_support": true,
+   "reason": "Đúng \"Thí điểm trao đổi tín chỉ các-bon\"; cite sơ đồ Hình A2.4.1 tr.139.",
+   "checked_against": "ảnh trang gốc adv_store/pages/pNNN.png + nội dung chunk được cite"
+  },
+  {
+   "query_id": "t08",
+   "group": "anh_so_do",
+   "status": "answered",
+   "pass": true,
+   "citations": [
+    "wb-vn2045-greener-vi__p109__c101",
+    "wb-vn2045-greener-vi__p109__c102"
+   ],
+   "citations_all_support": true,
+   "reason": "Đúng thành phần lát mỏng (ven biển trừ RNM) = 400 USD/ha/năm; cite Hình 3.6 tr.109 (bảng + biểu đồ tròn).",
+   "checked_against": "ảnh trang gốc adv_store/pages/pNNN.png + nội dung chunk được cite"
+  },
+  {
+   "query_id": "t09",
+   "group": "anh_so_do",
+   "status": "answered",
+   "pass": true,
+   "citations": [
+    "wb-vn2045-greener-vi__p058__c101",
+    "wb-vn2045-greener-vi__p058__c001"
+   ],
+   "citations_all_support": true,
+   "reason": "Đúng 3 thành phần và tỷ lệ 1,38; cite khung chú giải Hình 1.12 tr.58.",
+   "checked_against": "ảnh trang gốc adv_store/pages/pNNN.png + nội dung chunk được cite"
+  },
+  {
+   "query_id": "t10",
+   "group": "anh_so_do",
+   "status": "answered",
+   "pass": true,
+   "citations": [
+    "wb-vn2045-greener-vi__p066__c103"
+   ],
+   "citations_all_support": true,
+   "reason": "Đúng: kịch bản cơ sở ≈1.550 (trong khoảng chấp nhận 1.500–1.550) xuống mục tiêu CLQG-BĐKH phát thải ròng bằng không; cite Hình 2.3 tr.66.",
+   "checked_against": "ảnh trang gốc adv_store/pages/pNNN.png + nội dung chunk được cite"
+  },
+  {
+   "query_id": "t11",
+   "group": "anh_so_do",
+   "status": "answered",
+   "pass": true,
+   "citations": [
+    "wb-vn2045-greener-vi__p088__c101"
+   ],
+   "citations_all_support": true,
+   "reason": "Đúng 25/50/100% công suất, so với than và CCGT; cite Hình 2.19 tr.88.",
+   "checked_against": "ảnh trang gốc adv_store/pages/pNNN.png + nội dung chunk được cite"
+  },
+  {
+   "query_id": "t12",
+   "group": "bieu_do",
+   "status": "answered",
+   "pass": true,
+   "citations": [
+    "wb-vn2045-greener-vi__p046__c101"
+   ],
+   "citations_all_support": true,
+   "reason": "Đúng 4,0% (2025) và 6,4% (2035) — nhãn số trên cột; cite Hình 1.6 tr.46.",
+   "checked_against": "ảnh trang gốc adv_store/pages/pNNN.png + nội dung chunk được cite"
+  },
+  {
+   "query_id": "t13",
+   "group": "bieu_do",
+   "status": "answered",
+   "pass": true,
+   "citations": [
+    "wb-vn2045-greener-vi__p105__c101"
+   ],
+   "citations_all_support": true,
+   "reason": "Đúng Thái Bình 6 khu, 4 khu đạt chuẩn; cite Hình 3.5 tr.105.",
+   "checked_against": "ảnh trang gốc adv_store/pages/pNNN.png + nội dung chunk được cite"
+  },
+  {
+   "query_id": "t14",
+   "group": "bieu_do",
+   "status": "answered",
+   "pass": true,
+   "citations": [
+    "wb-vn2045-greener-vi__p086__c101"
+   ],
+   "citations_all_support": true,
+   "reason": "Đúng Chế biến chế tạo −3,0% / −11,0%; cite Hình 2.17 tr.86.",
+   "checked_against": "ảnh trang gốc adv_store/pages/pNNN.png + nội dung chunk được cite"
+  },
+  {
+   "query_id": "t15",
+   "group": "bieu_do",
+   "status": "answered",
+   "pass": true,
+   "citations": [
+    "wb-vn2045-greener-vi__p085__c101"
+   ],
+   "citations_all_support": true,
+   "reason": "Đúng Hoa Kỳ 29,4%, Hàn Quốc 6,3%, Nhật Bản 6,1%; cite Hình 2.15 tr.85.",
+   "checked_against": "ảnh trang gốc adv_store/pages/pNNN.png + nội dung chunk được cite"
+  },
+  {
+   "query_id": "t16",
+   "group": "bieu_do",
+   "status": "answered",
+   "pass": true,
+   "citations": [
+    "wb-vn2045-greener-vi__p099__c102"
+   ],
+   "citations_all_support": true,
+   "reason": "Đúng Du lịch biển 45%, than cốc & dầu tinh chế 18%; cite Hình 3.2 tr.99.",
+   "checked_against": "ảnh trang gốc adv_store/pages/pNNN.png + nội dung chunk được cite"
+  },
+  {
+   "query_id": "t17",
+   "group": "multi_hop",
+   "status": "answered",
+   "pass": true,
+   "citations": [
+    "wb-vn2045-greener-vi__p036__c101",
+    "wb-vn2045-greener-vi__p034__c004",
+    "wb-vn2045-greener-vi__p027__c005",
+    "wb-vn2045-greener-vi__p077__c003",
+    "wb-vn2045-greener-vi__p090__c001",
+    "wb-vn2045-greener-vi__p139__c101",
+    "wb-vn2045-greener-vi__p139__c001"
+   ],
+   "citations_all_support": true,
+   "reason": "Đúng ETS thí điểm 2025, đầy đủ 2028; sàn chính thức 2028; cite bảng tr.36 + sơ đồ tr.139 (citation phụ tr.27/34/77/90 đều nêu cùng mốc — đã đọc).",
+   "checked_against": "ảnh trang gốc adv_store/pages/pNNN.png + nội dung chunk được cite"
+  },
+  {
+   "query_id": "t18",
+   "group": "multi_hop",
+   "status": "answered",
+   "pass": true,
+   "citations": [
+    "wb-vn2045-greener-vi__p037__c101",
+    "wb-vn2045-greener-vi__p044__c002",
+    "wb-vn2045-greener-vi__p044__c101",
+    "wb-vn2045-greener-vi__p044__c005"
+   ],
+   "citations_all_support": true,
+   "reason": "Đúng 12,5% và 0,26 điểm (4,56−4,30); cite tr.37, tr.44 văn bản + Bảng 1.1.",
+   "checked_against": "ảnh trang gốc adv_store/pages/pNNN.png + nội dung chunk được cite"
+  },
+  {
+   "query_id": "t19",
+   "group": "multi_hop",
+   "status": "answered",
+   "pass": true,
+   "citations": [
+    "wb-vn2045-greener-vi__p099__c103",
+    "wb-vn2045-greener-vi__p100__c101"
+   ],
+   "citations_all_support": true,
+   "reason": "Đúng 9,65% (2030 dự báo) và 8,8% (2018); cite Bảng 3.2 tr.99 + Bảng 3.3 tr.100.",
+   "checked_against": "ảnh trang gốc adv_store/pages/pNNN.png + nội dung chunk được cite"
+  },
+  {
+   "query_id": "t20",
+   "group": "multi_hop",
+   "status": "answered",
+   "pass": true,
+   "citations": [
+    "wb-vn2045-greener-vi__p046__c101",
+    "wb-vn2045-greener-vi__p047__c002",
+    "wb-vn2045-greener-vi__p015__c005"
+   ],
+   "citations_all_support": true,
+   "reason": "Đúng 10,0% (2050), bình quân 1%/năm, tối đa 2,5%; cite Hình 1.6 tr.46 + văn bản tr.47 (và tr.15 Tổng quan cùng số liệu).",
+   "checked_against": "ảnh trang gốc adv_store/pages/pNNN.png + nội dung chunk được cite"
+  },
+  {
+   "query_id": "t21",
+   "group": "text",
+   "status": "answered",
+   "pass": true,
+   "citations": [
+    "wb-vn2045-greener-vi__p046__c001"
+   ],
+   "citations_all_support": true,
+   "reason": "Đúng 26/13/46; cite tr.46 đoạn đầu.",
+   "checked_against": "ảnh trang gốc adv_store/pages/pNNN.png + nội dung chunk được cite"
+  },
+  {
+   "query_id": "t22",
+   "group": "text",
+   "status": "answered",
+   "pass": true,
+   "citations": [
+    "wb-vn2045-greener-vi__p055__c004",
+    "wb-vn2045-greener-vi__p055__c005"
+   ],
+   "citations_all_support": true,
+   "reason": "Đúng 35 tỷ US$/năm 2040 và +10 tỷ US$ chống ngập; cite Hộp 1.2 tr.55.",
+   "checked_against": "ảnh trang gốc adv_store/pages/pNNN.png + nội dung chunk được cite"
+  },
+  {
+   "query_id": "t23",
+   "group": "text",
+   "status": "answered",
+   "pass": true,
+   "citations": [
+    "wb-vn2045-greener-vi__p122__c004"
+   ],
+   "citations_all_support": true,
+   "reason": "Đúng 10.500–14.000 MW, 1,4–1,7%; cite tr.122.",
+   "checked_against": "ảnh trang gốc adv_store/pages/pNNN.png + nội dung chunk được cite"
+  },
+  {
+   "query_id": "t24",
+   "group": "text",
+   "status": "answered",
+   "pass": true,
+   "citations": [
+    "wb-vn2045-greener-vi__p041__c002"
+   ],
+   "citations_all_support": true,
+   "reason": "Đúng 262.000 ha và 2,44 tỷ US$; cite tr.41.",
+   "checked_against": "ảnh trang gốc adv_store/pages/pNNN.png + nội dung chunk được cite"
+  },
+  {
+   "query_id": "tu1",
+   "group": "thieu_bang_chung",
+   "status": "abstain",
+   "pass": true,
+   "citations": [],
+   "citations_all_support": true,
+   "reason": "Từ chối đúng; chỉ nêu thuế BVMT với nhiên liệu hóa thạch, không bịa số.",
+   "checked_against": "ảnh trang gốc adv_store/pages/pNNN.png + nội dung chunk được cite"
+  },
+  {
+   "query_id": "tu2",
+   "group": "thieu_bang_chung",
+   "status": "abstain",
+   "pass": true,
+   "citations": [],
+   "citations_all_support": true,
+   "reason": "Từ chối đúng; nêu thêm số 2020/2030 có thật trong Bảng 3.2, không suy diễn 2025.",
+   "checked_against": "ảnh trang gốc adv_store/pages/pNNN.png + nội dung chunk được cite"
+  },
+  {
+   "query_id": "tu3",
+   "group": "thieu_bang_chung",
+   "status": "abstain",
+   "pass": true,
+   "citations": [],
+   "citations_all_support": true,
+   "reason": "Từ chối đúng; liệt kê đúng 7 tỉnh trên Hình 3.5.",
+   "checked_against": "ảnh trang gốc adv_store/pages/pNNN.png + nội dung chunk được cite"
+  },
+  {
+   "query_id": "tu4",
+   "group": "thieu_bang_chung",
+   "status": "abstain",
+   "pass": true,
+   "citations": [],
+   "citations_all_support": true,
+   "reason": "Từ chối đúng; phân biệt che phủ rừng ngập mặn với che phủ rừng toàn quốc.",
+   "checked_against": "ảnh trang gốc adv_store/pages/pNNN.png + nội dung chunk được cite"
+  },
+  {
+   "query_id": "tu5",
+   "group": "thieu_bang_chung",
+   "status": "abstain",
+   "pass": true,
+   "citations": [],
+   "citations_all_support": true,
+   "reason": "Từ chối đúng; nhận ra ô việc làm của Sing-ga-po để trống.",
+   "checked_against": "ảnh trang gốc adv_store/pages/pNNN.png + nội dung chunk được cite"
+  },
+  {
+   "query_id": "tu6",
+   "group": "thieu_bang_chung",
+   "status": "abstain",
+   "pass": true,
+   "citations": [],
+   "citations_all_support": true,
+   "reason": "Từ chối đúng; không suy từ LCOE.",
+   "checked_against": "ảnh trang gốc adv_store/pages/pNNN.png + nội dung chunk được cite"
+  }
+ ]
+}

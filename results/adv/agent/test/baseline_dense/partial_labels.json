@@ -1,0 +1,107 @@
+{
+ "config": "baseline_dense (gpt-4.1-mini, dense top-k 3, budget 3000)",
+ "run": "20/30 câu; 10 câu còn lại (t21–t24, tu1–tu6) không chạy được do hết quota embedding Gemini free tier, quá trình bị dừng thủ công",
+ "pass_on_run": "16/20",
+ "labels": [
+  {
+   "query_id": "t01",
+   "pass": true,
+   "reason": "Đúng, citation đúng trang/hình."
+  },
+  {
+   "query_id": "t02",
+   "pass": true,
+   "reason": "Đúng, citation đúng trang/hình."
+  },
+  {
+   "query_id": "t03",
+   "pass": false,
+   "reason": "Chọn \"Thuế các-bon\" 0,2 điểm (sai hàng và cột); đúng là \"Tham vọng\" 1,7 điểm."
+  },
+  {
+   "query_id": "t04",
+   "pass": true,
+   "reason": "Đúng, citation đúng trang/hình."
+  },
+  {
+   "query_id": "t05",
+   "pass": true,
+   "reason": "Đúng, citation đúng trang/hình."
+  },
+  {
+   "query_id": "t06",
+   "pass": true,
+   "reason": "Đúng, citation đúng trang/hình."
+  },
+  {
+   "query_id": "t07",
+   "pass": true,
+   "reason": "Đúng, citation đúng trang/hình."
+  },
+  {
+   "query_id": "t08",
+   "pass": true,
+   "reason": "Đúng, citation đúng trang/hình."
+  },
+  {
+   "query_id": "t09",
+   "pass": true,
+   "reason": "Đúng, citation đúng trang/hình."
+  },
+  {
+   "query_id": "t10",
+   "pass": true,
+   "reason": "Đúng, citation đúng trang/hình."
+  },
+  {
+   "query_id": "t11",
+   "pass": true,
+   "reason": "Đúng, citation đúng trang/hình."
+  },
+  {
+   "query_id": "t12",
+   "pass": true,
+   "reason": "Đúng, citation đúng trang/hình."
+  },
+  {
+   "query_id": "t13",
+   "pass": true,
+   "reason": "Đúng, citation đúng trang/hình."
+  },
+  {
+   "query_id": "t14",
+   "pass": true,
+   "reason": "Đúng, citation đúng trang/hình."
+  },
+  {
+   "query_id": "t15",
+   "pass": true,
+   "reason": "Đúng, citation đúng trang/hình."
+  },
+  {
+   "query_id": "t16",
+   "pass": true,
+   "reason": "Đúng, citation đúng trang/hình."
+  },
+  {
+   "query_id": "t17",
+   "pass": false,
+   "reason": "Thiếu ý năm sàn giao dịch chính thức (2028); tự báo không tìm thấy Hình A2.4.1."
+  },
+  {
+   "query_id": "t18",
+   "pass": true,
+   "reason": "Đúng, citation đúng trang/hình."
+  },
+  {
+   "query_id": "t19",
+   "pass": false,
+   "reason": "Thiếu ý tỷ lệ việc làm 8,8% (Bảng 3.3 không vào context)."
+  },
+  {
+   "query_id": "t20",
+   "pass": false,
+   "reason": "Ghi giảm GDP bình quân 1,2%/năm (ước lượng từ biểu đồ) thay vì 1% theo văn bản."
+  }
+ ]
+}

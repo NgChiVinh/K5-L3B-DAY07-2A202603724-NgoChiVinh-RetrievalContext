@@ -1,0 +1,90 @@
+##### t01 [bang] answered ev=True cites=['p044_c101']
+  GOLD: 4,10%; thấp hơn kịch bản cơ sở (4,56%) 0,46 điểm phần trăm.
+  ANS : Tốc độ tăng trưởng GDP dài hạn theo giá so sánh giai đoạn 2040–50 trong kịch bản tiêu cực (RCP8.5) là 4,10%. Mức này thấp hơn kịch bản cơ sở (4,56%) là 0,46 điểm phần trăm [wb-vn2045-greener-vi__p044__c101].
+##### t02 [bang] answered ev=True cites=['p078_c101']
+  GOLD: Tỷ lệ tiêu dùng cuối 8%; thuế suất tối đa (EPT+) 4.000 VND/lít, gấp 2 lần thuế suất hiện nay (2.000 VND/lít).
+  ANS : Theo Bảng 2.2: - Tỷ lệ tiêu dùng cuối của xăng là 8%, - Thuế suất thuế BVMT tối đa (EPT+) là 4.000 VND/lít, - Mức này gấp 2 lần thuế suất hiện nay (2.000 VND/lít) [wb-vn2045-greener-vi__p078__c101].
+##### t03 [bang] answered ev=True cites=['p082_c101', 'p082_c003']
+  GOLD: Kịch bản "Tham vọng": tăng 1,7 điểm phần trăm (giá trị −1,7).
+  ANS : Kịch bản chính sách làm tăng tỷ lệ nghèo theo chuẩn 6,85 US$ nhiều nhất là kịch bản "Tham vọng", với mức tăng 1,7 điểm phần trăm [wb-vn2045-greener-vi__p082__c101][wb-vn2045-greener-vi__p082__c003].
+##### t04 [bang] answered ev=True cites=['p114_c101', 'p114_c003']
+  GOLD: Điểm −2: tác động (tiêu cực) của ngành Dầu khí (cột) đối với Môi trường và đa dạng sinh học (hàng).
+  ANS : Ô ở hàng "Môi trường và đa dạng sinh học" và cột "Dầu khí" trong Bảng 3.6 có điểm -2. Theo ghi chú, điểm này thể hiện tác động của ngành "Dầu khí" lên ngành "Môi trường và đa dạng sinh học" [wb-vn2045-greener-vi__p114__c101][wb-vn2045-greener-vi__p114__c003].
+##### t05 [bang] answered ev=True cites=['p099_c103']
+  GOLD: 10.054 tỷ VND năm 2020; dự báo 178.800 tỷ VND năm 2030.
+  ANS : Theo Bảng 3.2, tổng giá trị gia tăng của điện gió ngoài khơi năm 2020 là 10.054 tỷ VND và dự báo năm 2030 là 178.800 tỷ VND (giá năm 2010) [wb-vn2045-greener-vi__p099__c103].
+##### t06 [bang] answered ev=True cites=['p101_c101']
+  GOLD: Ai-xơ-len cao nhất với 26%; Trung Quốc có tỷ lệ việc làm 40,2%.
+  ANS : Quốc gia có tỷ lệ % GDP hoặc GVA từ các ngành dựa vào đại dương cao nhất là Ai-xơ-len với 26%[wb-vn2045-greener-vi__p101__c101].  Trung Quốc có tỷ lệ việc làm trên tổng việc làm là 40,2%[wb-vn2045-greener-vi__p101__c101].
+##### t07 [anh_so_do] answered ev=True cites=['p139_c101', 'p139_c001']
+  GOLD: Thí điểm trao đổi tín chỉ các-bon.
+  ANS : Giai đoạn 2025–2027 trong Hình A2.4.1 là "Thí điểm trao đổi tín chỉ các-bon" [wb-vn2045-greener-vi__p139__c101][wb-vn2045-greener-vi__p139__c001].
+##### t08 [anh_so_do] answered ev=True cites=['p109_c101', 'p109_c102']
+  GOLD: Các hệ sinh thái ven biển, trừ rừng ngập mặn: 400 USD quốc tế/ha/năm.
+  ANS : Trong biểu đồ tròn của Hình 3.6, phần gần như không nhìn thấy (lát rất mỏng) là "Các hệ sinh thái ven biển, trừ rừng ngập mặn" với giá trị bình quân tương ứng là 400 USD quốc tế/ha/năm [wb-vn2045-greener-vi__p109__c101][wb-vn2045-greener-vi__p109__c102].
+##### t09 [anh_so_do] answered ev=True cites=['p058_c101', 'p058_c001']
+  GOLD: Giảm khí thải hiệu ứng nhà kính, dịch vụ hệ sinh thái, quản lý nước; tỷ lệ lợi ích/chi phí = 1,38.
+  ANS : "Lợi ích thứ ba" theo khung chú giải của Hình 1.12 bao gồm: giảm khí thải hiệu ứng nhà kính, dịch vụ hệ sinh thái, quản lý nước. Tỷ lệ lợi ích/chi phí của lợi ích thứ ba là 1,38 [wb-vn2045-greener-vi__p058__c101][wb-vn2045-greener-vi__p058__c001].
+##### t10 [anh_so_do] answered ev=True cites=['p066_c103']
+  GOLD: Từ kịch bản cơ sở (khoảng 1.500 triệu tấn CO2 tương đương) xuống mục tiêu của CLQG-BĐKH – phát thải ròng bằng không.
+  ANS : Trong Hình 2.3, mũi tên ở cột năm 2050 đi từ mức "Kịch bản cơ sở" (tổng phát thải khoảng 1.550 triệu tấn CO2 tương đương) xuống mục tiêu "Phát thải ròng bằng không" (0 triệu tấn CO2 tương đương), với chú thích "Mục tiêu của CLQG-BĐKH - Phát thải ròng bằng không" [wb-vn2045-greener-vi__p066__c103].
+##### t11 [anh_so_do] answered ev=True cites=['p088_c101']
+  GOLD: Theo các mức 25%, 50% và 100% công suất; so sánh với nhà máy điện than và CCGT (tua-bin khí chu trình kết hợp).
+  ANS : Trong Hình 2.19b, chi phí điện quy dẫn (LCOE) của điện mặt trời cộng pin được thể hiện theo các mức công suất lưu trữ là 25%, 50% và 100% công suất mặt trời. Các mức này được so sánh với chi phí của các nhà máy điện mới là nhà máy điện than và nhà máy tua-bin khí chu kỳ kết hợp (CCGT) [wb-vn2045-greener-vi__p088__c101].
+##### t12 [bieu_do] answered ev=True cites=['p046_c101']
+  GOLD: 4,0% năm 2025 và 6,4% năm 2035.
+  ANS : Theo Hình 1.6, tỷ lệ thiệt hại do căng thẳng nhiệt độ cao (RCP4.5 so với kịch bản cơ sở) là: - Năm 2025: khoảng 4.0% - Năm 2035: khoảng 6.4% [wb-vn2045-greener-vi__p046__c101]
+##### t13 [bieu_do] answered ev=True cites=['p105_c101']
+  GOLD: Thái Bình: 6 khu đang hoạt động, trong đó 4 khu có nhà máy xử lý nước thải tập trung đạt chuẩn.
+  ANS : Tỉnh có nhiều khu công nghiệp và khu chế xuất đang hoạt động nhất trong Hình 3.5 là Thái Bình với khoảng 6 khu. Trong đó, khoảng 4 khu có nhà máy xử lý nước thải tập trung đạt chuẩn [wb-vn2045-greener-vi__p105__c101].
+##### t14 [bieu_do] answered ev=True cites=['p086_c101']
+  GOLD: Chế biến chế tạo: −3,0% tổng GDP và −11,0% GDP ngành.
+  ANS : Lĩnh vực chịu tổn thất GDP lớn nhất theo Hình 2.17 (kịch bản giảm 30% xuất khẩu sang OECD) là Chế biến chế tạo, với mức thay đổi khoảng -3,0% tổng GDP và -11,0% GDP ngành [wb-vn2045-greener-vi__p086__c101].
+##### t15 [bieu_do] answered ev=True cites=['p085_c101']
+  GOLD: Hoa Kỳ 29,4%; tiếp theo là Hàn Quốc 6,3% và Nhật Bản 6,1%.
+  ANS : Theo Hình 2.15b, năm 2024 Hoa Kỳ chiếm 29,4% tổng xuất khẩu của Việt Nam. Hai thị trường OECD tiếp theo là Hàn Quốc (6,3%) và Nhật Bản (6,1%) [wb-vn2045-greener-vi__p085__c101].
+##### t16 [bieu_do] answered ev=True cites=['p099_c102']
+  GOLD: Du lịch biển lớn nhất với 45%; chế biến than cốc và các sản phẩm dầu mỏ tinh chế chiếm 18%.
+  ANS : Năm 2019, ngành kinh tế biển đóng góp tỷ trọng lớn nhất vào tổng giá trị gia tăng là ngành du lịch biển với 45%. Ngành chế biến than cốc và các sản phẩm dầu mỏ tinh chế chiếm 18% tổng giá trị gia tăng của các ngành kinh tế biển năm 2019 [wb-vn2045-greener-vi__p099__c102].
+##### t17 [multi_hop] answered ev=True cites=['p036_c101', 'p034_c004', 'p027_c005', 'p077_c003', 'p090_c001', 'p139_c101', 'p139_c001']
+  GOLD: ETS thí điểm từ năm 2025 và triển khai đầy đủ vào năm 2028; theo Hình A2.4.1, sàn giao dịch tín chỉ các-bon chính thức ra mắt năm 2028.
+  ANS : Hệ thống giao dịch phát thải (ETS) dự kiến thí điểm từ năm 2025 và triển khai đầy đủ vào năm 2028 [wb-vn2045-greener-vi__p036__c101][wb-vn2045-greener-vi__p034__c004][wb-vn2045-greener-vi__p027__c005][wb-vn2045-greener-vi__p077__c003][wb-vn2045-greener-vi__p090__c001].  Theo Hình A2.4.1, sàn giao dịch tín chỉ các-bon chính thức ra mắt vào năm 2028 [wb-vn2045-greener-vi__p139__c101][wb-vn2045-greener-vi__p139__c001].
+##### t18 [multi_hop] answered ev=True cites=['p037_c101', 'p044_c002', 'p044_c101', 'p044_c005']
+  GOLD: Thiệt hại 12,5% GDP vào năm 2050; tăng trưởng 2040–50 là 4,30% so với 4,56% → thấp hơn 0,26 điểm phần trăm.
+  ANS : Theo kịch bản có khả năng xảy ra nhất (RCP4.5), thiệt hại GDP do biến đổi khí hậu vào năm 2050 là 12,5% so với kịch bản cơ sở [wb-vn2045-greener-vi__p037__c101][wb-vn2045-greener-vi__p044__c002].  Tốc độ tăng trưởng GDP giai đoạn 2040–50 của kịch bản này thấp hơn kịch bản cơ sở 0,26 điểm phần trăm (4,56% - 4,30%) [wb-vn2045-greener-vi__p044__c101][wb-vn2045-greener-vi__p044__c005].
+##### t19 [multi_hop] answered ev=True cites=['p099_c103', 'p100_c101']
+  GOLD: 9,650% GVA năm 2030 (dự báo); 8,8% tổng việc làm năm 2018.
+  ANS : Theo Bảng 3.2, tỷ lệ các ngành/lĩnh vực biển trong tổng GVA dự báo năm 2030 là 9,65% [wb-vn2045-greener-vi__p099__c103].  Theo Bảng 3.3, tỷ lệ việc làm của các ngành/lĩnh vực biển trên tổng việc làm năm 2018 là 8,8% [wb-vn2045-greener-vi__p100__c101].
+##### t20 [multi_hop] answered ev=True cites=['p046_c101', 'p047_c002', 'p015_c005']
+  GOLD: Căng thẳng nhiệt: 10,0% năm 2050; thời tiết cực đoan làm giảm GDP bình quân 1% mỗi năm, có thể lên đến 2,5%.
+  ANS : - Theo RCP4.5, tỷ lệ thiệt hại do căng thẳng nhiệt độ cao vào năm 2050 là 10,0% so với kịch bản cơ sở (Hình 1.6) [wb-vn2045-greener-vi__p046__c101]. - Các hiện tượng thời tiết cực đoan làm giảm GDP bình quân 1% mỗi năm và có thể lên đến 2,5% GDP nếu các sự kiện này xảy ra thường xuyên hơn hoặc mạnh hơn (phân tích Hình 1.7) [wb-vn2045-greener-vi__p047__c002][wb-vn2045-greener-vi__p015__c005].
+##### t21 [text] answered ev=True cites=['p046_c001']
+  GOLD: 26 cơn bão, 13 áp thấp nhiệt đới và 46 trận lụt.
+  ANS : Trong giai đoạn từ năm 1998 đến năm 2015, thành phố Đà Nẵng đã trải qua 26 cơn bão, 13 áp thấp nhiệt đới và 46 trận lụt [wb-vn2045-greener-vi__p046__c001].
+##### t22 [text] answered ev=True cites=['p055_c004', 'p055_c005']
+  GOLD: Tới 35 tỷ US$ mỗi năm vào năm 2040 (so với kịch bản cơ sở); riêng chống ngập (bảo vệ khu tây bắc Thủ Đức) nâng sản lượng thêm 10 tỷ US$ vào năm 2040.
+  ANS : Theo Hộp 1.2, cách tiếp cận đầu tư phối hợp vào Thủ Đức có thể đóng góp 35 tỷ USD mỗi năm cho sản lượng TP. Hồ Chí Minh vào năm 2040. Riêng đầu tư chống ngập có thể nâng sản lượng thêm 10 tỷ USD vào năm 2040 [wb-vn2045-greener-vi__p055__c004][wb-vn2045-greener-vi__p055__c005].
+##### t23 [text] answered ev=True cites=['p122_c004']
+  GOLD: 10.500–14.000 MW, chiếm 1,4–1,7% toàn hệ thống.
+  ANS : Theo QHĐ8 điều chỉnh, năng lượng hạt nhân dự kiến sẽ cung cấp phụ tải nền ổn định ở mức 10.500 – 14.000 MW, chiếm 1,4 – 1,7% toàn hệ thống [wb-vn2045-greener-vi__p122__c004].
+##### t24 [text] answered ev=True cites=['p041_c002']
+  GOLD: Khoảng 262.000 ha; tổn thất ước tính 2,44 tỷ US$ riêng trong ngành nông nghiệp.
+  ANS : Siêu bão Yagi vào tháng 9/2024 đã làm hư hại hoặc phá hủy khoảng 262.000 ha lúa, rau màu và cây ăn quả, với tổn thất ước tính riêng trong ngành nông nghiệp là 2,44 tỷ US$ [wb-vn2045-greener-vi__p041__c002].
+##### tu1 [thieu_bang_chung] abstain ev=None cites=[]
+  GOLD: ABSTAIN — Bảng 2.2 (tr.78) chỉ liệt kê thuế BVMT với nhiên liệu hóa thạch.
+  ANS : KHÔNG ĐỦ BẰNG CHỨNG: Các bảng và đoạn trích trong báo cáo không nêu mức thuế bảo vệ môi trường hiện hành đối với túi ni-lông tính theo VND/kg. Các thông tin chỉ đề cập đến thuế bảo vệ môi trường đối với nhiên liệu hóa thạch và các loại phí môi trường khác, không có số liệu cụ thể cho túi ni-lông [wb-vn2045-greener-vi__p078__c101][wb-vn2045-greener-vi__p139__c003][wb-vn2045-greener-vi__p140__c003][wb-vn2045-greener-vi__p069__c006].
+##### tu2 [thieu_bang_chung] abstain ev=None cites=[]
+  GOLD: ABSTAIN — Bảng 3.2 (tr.99) chỉ có các năm 2010–2020 và dự báo 2030, không có 2025.
+  ANS : KHÔNG ĐỦ BẰNG CHỨNG: Bảng 3.2 không có số liệu tổng giá trị gia tăng của ngành đánh bắt và nuôi trồng thủy sản cho năm 2025; bảng chỉ cung cấp số liệu đến năm 2020 và dự báo cho năm 2030. Giá trị năm 2020 là 1.658 tỷ VND, dự báo năm 2030 là 1.880 tỷ VND (theo giá năm 2010) [wb-vn2045-greener-vi__p099__c103].
+##### tu3 [thieu_bang_chung] abstain ev=None cites=[]
+  GOLD: ABSTAIN — Hình 3.5 (tr.105) chỉ gồm 7 tỉnh: Hưng Yên, Thái Bình, Ninh Bình, Thanh Hoá, Quảng Bình, Thừa Thiên Huế, Lâm Đồng; Đà Nẵ
+  ANS : KHÔNG ĐỦ BẰNG CHỨNG: Hình 3.5 không liệt kê thành phố Đà Nẵng trong danh sách các tỉnh/thành phố có số liệu về số khu công nghiệp có nhà máy xử lý nước thải tập trung đạt chuẩn. Các địa phương được nêu gồm: Hưng Yên, Thái Bình, Ninh Bình, Thanh Hoá, Quảng Bình, Thừa Thiên Huế, Lâm Đồng [wb-vn2045-greener-vi__p105__c101].
+##### tu4 [thieu_bang_chung] abstain ev=None cites=[]
+  GOLD: ABSTAIN — Báo cáo chỉ nêu diện tích rừng ngập mặn (150.000 ha năm 2020, tr.31), không có tỷ lệ che phủ rừng toàn quốc.
+  ANS : KHÔNG ĐỦ BẰNG CHỨNG: Các đoạn trích chỉ cung cấp số liệu về tỷ lệ che phủ rừng ngập mặn và diện tích rừng ngập mặn đến năm 2020, không có số liệu về tỷ lệ che phủ rừng (tính theo % diện tích đất) của Việt Nam năm 2023.
+##### tu5 [thieu_bang_chung] abstain ev=None cites=[]
+  GOLD: ABSTAIN — Bảng 3.4 (tr.101) chỉ có % GDP của Sing-ga-po (7,0); ô việc làm để trống.
+  ANS : KHÔNG ĐỦ BẰNG CHỨNG: Bảng 3.4 không ghi số lượng việc làm trong các ngành dựa vào đại dương của Sing-ga-po; cột "Việc làm (số lượng)" để trống cho Sing-ga-po [wb-vn2045-greener-vi__p101__c101].
+##### tu6 [thieu_bang_chung] abstain ev=None cites=[]
+  GOLD: ABSTAIN — Báo cáo không có giá điện bán lẻ (chỉ có LCOE theo $/MWh ở Hình 2.19b và kịch bản giảm giá điện).
+  ANS : KHÔNG ĐỦ BẰNG CHỨNG: Không có thông tin về giá điện bán lẻ bình quân của Việt Nam năm 2024 trong các đoạn trích.

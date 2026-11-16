@@ -152,4 +152,67 @@ Baseline trả lời đúng q19 với citation `p49__c001` và `p49__c002`.
 
 ## Thử thách nâng cao (nếu thực hiện)
 
-Chưa thực hiện. Tài liệu Day 6 chỉ có 64 trang (cần từ 100 trang); kế hoạch là dùng lại agent và các retriever này với một tài liệu mới.
+**Kết quả: cấu hình đã chốt đạt 30/30 câu test (100%), ngưỡng yêu cầu là 27/30.** Nhãn từng câu ở [results/adv/test_labels.json](../../results/adv/test_labels.json).
+
+- **Tài liệu, nguồn, quyền sử dụng, số trang và phiên bản:**
+  - Ngân hàng Thế giới (2025), *Việt Nam 2045 – Tăng trưởng Xanh hơn: Con đường hướng tới tương lai bền vững*, bản tiếng Việt phát hành 09/06/2025.
+  - **160 trang**, giấy phép **CC BY-NC 3.0 IGO**. Nguồn tải từ World Bank Open Knowledge Repository; SHA-256 của PDF ghi trong [data/adv/README.md](../../data/adv/README.md).
+  - Repo không chứa PDF và ảnh trang; chỉ chứa nội dung trích xuất kèm ghi nguồn. Tài liệu có khoảng 50 hình (biểu đồ đường, cột, tròn, phân tán, hộp, sơ đồ dòng thời gian, infographic) và khoảng 15 bảng chính cùng nhiều bảng phụ lục.
+- **Cách xử lý text, bảng, ảnh, biểu đồ; phạm vi index và phần chưa xử lý** (code ở [src/adv/ingest.py](../../src/adv/ingest.py)):
+  1. *Text:* PyMuPDF đọc theo block, bỏ header chạy, gộp thành chunk ≤ 1000 ký tự. Được **587 chunk**.
+  2. *Bảng, biểu đồ, sơ đồ:* chuyển mỗi trang thành ảnh 100 dpi, rồi Gemini vision (`gemini-3.1-flash-lite`) liệt kê mọi phần tử trực quan dưới dạng JSON (loại, số hiệu, tiêu đề, vùng trên trang, nội dung). Bảng được chép lại dạng markdown; biểu đồ được mô tả trục, đơn vị, chú giải, nhãn số liệu, kèm dòng "Giá trị ước lượng (≈)". Được **114 chunk hình/bảng**. Mỗi chunk lưu số trang, số hiệu, vùng trên trang và đường dẫn ảnh trang gốc để kiểm chứng.
+  3. *Lượt đọc giá trị (cải thiện D):* 11/55 biểu đồ thiếu dòng giá trị, như Hình 1.1 và A2.3.1. Lượt bổ sung đọc ảnh 200 dpi bằng `gpt-5.5`. Bản thử với `gpt-4.1` đọc **sai** (ví dụ Hình A2.3.1 ghi Hàn Quốc thấp nhất, trong khi gốc là In-đô-nê-xi-a ≈0,8), nên mình đã hoàn tác và không dùng.
+  4. *Index:* `gemini-embedding-001` 3072 chiều, Qdrant local tại `adv_store/qdrant` (701 point), cùng BM25 trên 701 chunk.
+  5. *Phạm vi:* index 158/160 trang; bỏ trang 2 (chỉ có số trang) và trang 159 (trắng). Ảnh bìa mang tính trang trí nên không đặt câu hỏi.
+  6. *Đối chiếu với bản gốc:* các số liệu then chốt của 17 hình/bảng dùng trong test đều được kiểm tra trong chunk so với ảnh trang gốc, ví dụ Bảng 3.6 đúng hàng/cột và ghi chú, Hình 1.1 RCP 8.5 năm 2100 ≈28,3°C. Giá trị "≈" của biểu đồ không ghi nhãn có sai số đọc bằng mắt khoảng ±0,5 đơn vị trục.
+  7. *Giới hạn:* tài liệu hầu như không có ảnh chụp. Nhóm "ảnh, sơ đồ" dùng sơ đồ dòng thời gian (Hình A2.4.1), infographic (Hình 3.6), hình phương pháp luận có khung chú giải (Hình 1.12), sơ đồ mục tiêu có mũi tên chú thích (Hình 0.5/2.3) và sơ đồ dải chi phí có nhãn (Hình 2.19b).
+- **Cách chia benchmark, schema evidence, model và cấu hình đã chốt trên dev:**
+  - *Benchmark* ([data/adv/questions.json](../../data/adv/questions.json)) được chia trước khi thử nghiệm:
+    - dev 18 câu: 15 có đáp án (bảng 3, biểu đồ 4, ảnh/sơ đồ 2, multi-hop 3, text 3) và 3 thiếu bằng chứng;
+    - test 30 câu: 24 có đáp án (bảng 6, ảnh/sơ đồ 5, biểu đồ 5, multi-hop 4, text 4) và 6 thiếu bằng chứng.
+  - *Cách soạn câu hỏi:* câu hỏi và đáp án được viết bằng cách đọc ảnh trang gốc, không dựa vào output của model.
+  - *Schema evidence:* mỗi câu có `group`, `evidence_note` (trang, bảng/hình, hàng/cột/ô hoặc vùng, phép tính), `reason` và `gold_groups`. Mỗi nhóm gold cho phép `{page, label}` (chunk của hình/bảng đó) hoặc `{page, evidence}` (chuỗi con trong text). Câu thiếu bằng chứng có `absence_reason` và `absence_check`.
+  - *Thí nghiệm trên dev:* xem bảng dưới. Model agent là `gpt-4.1-mini` cho các cấu hình đầu và `gpt-4.1` cho C/E (OpenAI, `temperature=0`). Quota free tier Gemini (`generate_content`) đã hết trong ngày, nên phần nâng cao chuyển sang OpenAI; phần cơ bản vẫn giữ Gemini.
+
+| Cấu hình (dev, 18 câu) | Thay đổi / giả thuyết | Context Evidence | Từ chối đúng | Đạt (chấm tay) |
+|---|---|---|---|---|
+| `baseline_dense` (4.1-mini) | dense, top-k 3, budget 3000 | 13/15 | 2/3 | 14/18 (trước cải thiện D) |
+| `agent_hybrid` (4.1-mini) | RRF dense+BM25 | 13/15 | 2/3 | – |
+| `improve_rerank` (4.1-mini) | hybrid + rerank LLM | 13/15 | 1/3 (du1 bịa giá tín chỉ từ mức thuế đề xuất) | – |
+| `improve_multitool` (4.1-mini) | dense+BM25, neighbours | 11/15 (model chỉ chọn BM25) | 2/3 | – |
+| A `improve_label` | Câu hỏi ghi "Bảng/Hình X.Y" thì chunk đó lên đầu; Hit@1 retrieval 10→12/15, MRR 0,776→0,865 | 13/15 | 2/3 | – |
+| A+B `improve_label_strict` | + quy tắc prompt: marker từ chối, không thay chỉ tiêu gần giống | 13/15 | 2/3 (mini bỏ qua quy tắc) | – |
+| A+B+C `improve_label_strict_41` | + model `gpt-4.1` | 14/15 | 3/3 | 15/18 (d04, d06 do thiếu giá trị biểu đồ; d10 do budget) |
+| **A+B+C+D+E `improve_label_strict_41_budget`** | + lượt đọc giá trị biểu đồ (D) + budget 10.000 và tối đa 4.000 ký tự mỗi lượt tìm (E) | **15/15** | **3/3** | **18/18** |
+
+Các lỗi trên dev dẫn tới từng cải thiện:
+- d10: Bảng 2.3 được xếp hạng 1 ở lượt tìm thứ hai nhưng bị loại vì lượt đầu đã dùng 5160/6000 ký tự. Đây cũng là lỗi đã gặp ở test phần cơ bản, và dẫn tới cải thiện E.
+- d06 và d04: biểu đồ không có dòng giá trị, dẫn tới cải thiện D.
+- du1/du2: bịa số hoặc thiếu marker từ chối, dẫn tới cải thiện B và C.
+
+Cấu hình và tiêu chí được khóa trong [results/adv/selected_config.json](../../results/adv/selected_config.json) (commit `76855ef`) trước khi chạy test.
+
+| Nhóm test | Đạt / tổng | Tỷ lệ | Lỗi / nhận xét |
+|---|---|---|---|
+| Bảng | 6/6 | 100% | Tra đúng hàng/cột; t01, t02 có phép tính (0,46 điểm; gấp 2 lần); t04 đúng chiều tác động theo ghi chú |
+| Ảnh, sơ đồ | 5/5 | 100% | t10 trả lời ≈1.550 triệu tấn, nằm trong khoảng chấp nhận 1.500–1.550 |
+| Biểu đồ | 5/5 | 100% | Đều dựa trên nhãn số in trên hình (4,0/6,4; −3,0/−11,0; 29,4; 45%/18%) |
+| Multi-hop | 4/4 | 100% | t17: bảng trang 36 + sơ đồ trang 139; t18: văn bản + Bảng 1.1, phép tính 0,26 điểm |
+| Text | 4/4 | 100% | – |
+| Thiếu bằng chứng | 6/6 | 100% | Nhận ra ô trống (Sing-ga-po), năm không có (2025), tỉnh không có trên hình (Đà Nẵng) |
+| **Toàn bộ** | **30/30** | **100%** | 0 lỗi hệ thống, 0 timeout |
+
+- **Trace, nhãn và evidence từng câu; thời gian, chi phí, lỗi hệ thống:**
+  - Trace test: `results/adv/agent/test/improve_label_strict_41_budget/traces.json`, ghi tool call, query, kết quả kèm rank/score/method (`label`/`hybrid`), `added_ids`, `skipped_over_budget`, context, câu trả lời, citation và token.
+  - Nhãn test: [results/adv/test_labels.json](../../results/adv/test_labels.json), có lý do và cách đối chiếu cho từng câu. Mọi citation, kể cả citation phụ (ví dụ t17 cite thêm trang 27/34/77/90), đều đã được đọc và đều hỗ trợ câu trả lời.
+  - Retrieval trên test (câu hỏi gốc): dense Hit@1 19/24, EH@3 22/24; hybrid_label Hit@1 19/24, EH@3 23/24, MRR 0,880.
+  - So sánh với baseline (`baseline_dense`, `gpt-4.1-mini`) trên test: chỉ chạy được 20/30 câu (t01–t20) trước khi hết quota embedding Gemini; 10 câu còn lại không có kết quả và không được tính. Trên 20 câu đó baseline đạt **16/20**. Bốn câu không đạt là t03 (đọc sai hàng/cột Bảng 2.3), t17 và t19 (thiếu một ý của câu multi-hop) và t20 (1,2% thay vì 1%). Cấu hình đã chọn đạt 20/20 trên cùng 20 câu. Nhãn ở `results/adv/agent/test/baseline_dense/partial_labels.json`.
+  - Thời gian: agent trên test trung bình 4,8 s/câu (61 lượt gọi `gpt-4.1`, 89.546 token vào / 4.376 token ra). Vision Gemini: 158 trang, trung bình 4,3 s/trang, 251.904/59.432 token (free tier, 0 USD). Lượt đọc giá trị `gpt-5.5`: 11 lượt gọi, 51.171/15.167 token.
+  - Chi phí OpenAI (dev + test): theo số token ghi trong các `summary.json`; số tiền thực tế cần xem trên trang billing của OpenAI.
+  - Lỗi hệ thống trên test của cấu hình đã chọn: 0. Hết quota Gemini free tier trước đó được ghi là `status: error` trong các lần chạy dev bị thay thế, không thay bằng kết quả giả.
+- **Giới hạn, cách tái lập và đường dẫn benchmark:**
+  - Câu hỏi và nhãn do AI hỗ trợ soạn và chấm, có đối chiếu ảnh trang gốc; **học viên cần kiểm tra lại**.
+  - Test 30 câu là mẫu nhỏ; kết quả 100% không bảo đảm cho câu hỏi ngoài bộ này, nhất là với biểu đồ không có nhãn số liệu.
+  - Retriever theo số hiệu chỉ hiệu quả khi người hỏi nêu số hình/bảng (24/30 câu test có nêu, kể cả câu thiếu bằng chứng). Benchmark vì vậy thiên về câu hỏi có số hiệu, và kết quả với câu hỏi tự nhiên không nêu số hình có thể thấp hơn.
+  - Phần nâng cao dùng model khác phần cơ bản (OpenAI thay Gemini) do quota; agent và retriever dùng chung code.
+  - Tái lập: xem [data/adv/README.md](../../data/adv/README.md) và README (lệnh `--corpus adv`).

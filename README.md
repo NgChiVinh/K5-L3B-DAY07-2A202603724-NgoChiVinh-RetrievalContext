@@ -34,7 +34,7 @@ copy <DAY6>\results\embedding_cache.json results\
 
 ```powershell
 $env:PYTHONUTF8=1
-.venv\Scripts\python -m unittest discover -s tests -v                 # test offline (mock), 46 test
+.venv\Scripts\python -m unittest discover -s tests -v                 # test offline (mock), 57 test
 .venv\Scripts\python -m src.day7.export_day6                          # Qdrant -> data/day7/chunks.json
 .venv\Scripts\python -m src.day7.build_benchmark                      # -> data/day7/questions.json, cases.json
 .venv\Scripts\python -m src.day7.eval_retrieval --split dev           # Hit@1, EH@3, MRR của 5 phương pháp
@@ -44,9 +44,28 @@ $env:PYTHONUTF8=1
 .venv\Scripts\python -m src.day7.report_tables --split dev
 ```
 
-Cấu hình agent: `baseline_dense`, `agent_bm25`, `agent_hybrid`, `improve_rerank`, `improve_multitool` ([src/day7/configs.py](src/day7/configs.py)). `PYTHONUTF8=1` cần trên Windows: test có sẵn của starter đọc JSON không chỉ định encoding.
+Cấu hình agent: `baseline_dense`, `agent_bm25`, `agent_hybrid`, `improve_rerank`, `improve_multitool` (phần cơ bản); `improve_label*` (phần nâng cao) ([src/day7/configs.py](src/day7/configs.py)). `PYTHONUTF8=1` cần trên Windows: test có sẵn của starter đọc JSON không chỉ định encoding.
 
 Code: [src/day7/](src/day7/) (agent, retrievers, llm, benchmark, các script chạy) · [src/day6/](src/day6/) (embedder và store copy nguyên từ Day 6) · kết quả và trace: [results/](results/).
+
+
+### Thử thách nâng cao (+15): **30/30 test đạt (100%)**
+
+Tài liệu: *Việt Nam 2045 – Tăng trưởng Xanh hơn* (World Bank 2025, 160 trang, CC BY-NC 3.0 IGO). Nguồn, thống kê index và phạm vi xử lý ở [data/adv/README.md](data/adv/README.md); phân tích ở mục "Thử thách nâng cao" của báo cáo.
+
+```powershell
+# tải PDF theo data/adv/README.md vào adv_store/greener_vi.pdf, rồi:
+.venv\Scripts\python -m src.adv.ingest --step render
+.venv\Scripts\python -m src.adv.ingest --step vision                         # Gemini vision từng trang
+.venv\Scripts\python -m src.adv.ingest --step chart-values --model gpt-5.5   # đọc giá trị biểu đồ thiếu số liệu (200 dpi)
+.venv\Scripts\python -m src.adv.ingest --step chunks
+.venv\Scripts\python -m src.adv.ingest --step index
+.venv\Scripts\python -m src.adv.build_benchmark
+.venv\Scripts\python -m src.day7.eval_retrieval --corpus adv --split dev
+.venv\Scripts\python -m src.day7.run_benchmark --corpus adv --config improve_label_strict_41_budget --split test
+```
+
+Agent của phần nâng cao dùng `ADV_LLM_PROVIDER=openai` và `ADV_LLM_MODEL=gpt-4.1-mini` (cấu hình đã chọn đổi sang `gpt-4.1`), cần `OPENAI_API_KEY` trong `.env`. Kết quả: `results/adv/` (`selected_config.json`, `test_labels.json`, trace từng cấu hình).
 
 ---
 
